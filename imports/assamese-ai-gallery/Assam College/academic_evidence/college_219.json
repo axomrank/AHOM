@@ -1,0 +1,41 @@
+{
+  "id": "219",
+  "college": "R.G. Baruah College (Radha Govinda Baruah College)",
+  "pages": [
+    {
+      "url": "https://rgbaruahcollege.ac.in/",
+      "status": "ok",
+      "cache": "9b146f784584959cd37b.json"
+    },
+    {
+      "url": "https://www.rgbaruahcollege.ac.in/departments.php",
+      "status": "ok",
+      "cache": "24498529eb04fa884b2b.json"
+    },
+    {
+      "url": "https://rgbaruahcollege.ac.in/academiccalendar.php",
+      "status": "ok",
+      "cache": "e7840a627c1634f42b85.json"
+    },
+    {
+      "url": "https://rgbaruahcollege.ac.in/departments.php",
+      "status": "ok",
+      "cache": "ca3cc810cc2682cdf21b.json"
+    },
+    {
+      "url": "https://rgbaruahcollege.ac.in/authrad_dpt_login/",
+      "status": "ok",
+      "cache": "c38b2e8bab185b9cfb49.json"
+    },
+    {
+      "url": "https://www.rgbaruahcollege.ac.in/academiccalendar.php",
+      "status": "ok",
+      "cache": "08640d7fd842caea53d0.json"
+    },
+    {
+      "url": "https://www.rgbaruahcollege.ac.in/authrad_dpt_login/",
+      "status": "ok",
+      "cache": "f0520b84ac70d792b891.json"
+    }
+  ]
+}

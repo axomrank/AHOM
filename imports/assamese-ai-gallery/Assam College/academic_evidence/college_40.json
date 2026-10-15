@@ -1,0 +1,16 @@
+{
+  "id": "40",
+  "college": "Tamulpur Degree College",
+  "pages": [
+    {
+      "url": "https://www.tamulpurcollege.edu.in/",
+      "status": "error",
+      "cache": "d2256bc918421201ef04.json"
+    },
+    {
+      "url": "https://www.tamulpurcollege.edu.in/department/",
+      "status": "error",
+      "cache": "db9a5b74cc96c582bedd.json"
+    }
+  ]
+}

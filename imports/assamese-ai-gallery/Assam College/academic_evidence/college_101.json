@@ -1,0 +1,41 @@
+{
+  "id": "101",
+  "college": "Dhemaji College",
+  "pages": [
+    {
+      "url": "https://dhemajicollege.in/",
+      "status": "ok",
+      "cache": "bf802464285917721798.json"
+    },
+    {
+      "url": "https://dhemajicollege.in/department.php",
+      "status": "ok",
+      "cache": "ae594d101c5ee276ee6d.json"
+    },
+    {
+      "url": "https://dhemajicollege.in/courseoffer.php",
+      "status": "ok",
+      "cache": "720e20703ce606a2b3bb.json"
+    },
+    {
+      "url": "https://dhemajicollege.in/pos.php",
+      "status": "ok",
+      "cache": "0d02b1581349dc8c6833.json"
+    },
+    {
+      "url": "https://dhemajicollege.in/academic.php",
+      "status": "ok",
+      "cache": "8137c231fcf91b13eea2.json"
+    },
+    {
+      "url": "https://dhemajicollege.in/acd.php",
+      "status": "ok",
+      "cache": "e77288176dde46280649.json"
+    },
+    {
+      "url": "https://dhemajicollege.in/department.php#carousel-example",
+      "status": "ok",
+      "cache": "3042f7b38a8cf9247254.json"
+    }
+  ]
+}

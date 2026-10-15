@@ -1,0 +1,41 @@
+{
+  "id": "293",
+  "college": "Jagiroad College",
+  "pages": [
+    {
+      "url": "https://jagiroadcollegelive.co.in/",
+      "status": "ok",
+      "cache": "281a7ca3adab171645c2.json"
+    },
+    {
+      "url": "https://jagiroadcollegelive.co.in/upload/assests/prospectus.pdf",
+      "status": "ok",
+      "cache": "2c7da01bcbf8326fd373.json"
+    },
+    {
+      "url": "https://jagiroadcollegelive.co.in/upload/notice/1642008642GU-Academic Calaendar-Revised-1.jpeg",
+      "status": "ok",
+      "cache": "f7f47a57be3d871e1bfc.json"
+    },
+    {
+      "url": "https://jagiroadcollegelive.co.in/upload/notice/1640711382academic calendar_Dec28_2021.pdf",
+      "status": "ok",
+      "cache": "6aec6ad270ece49ca98e.json"
+    },
+    {
+      "url": "https://jagiroadcollegelive.co.in/upload/notice/1611977494NOTICE-PG-Sem-I Class holding-30-01-2021.pdf",
+      "status": "ok",
+      "cache": "c742bd11620a14e7ccc3.json"
+    },
+    {
+      "url": "https://jagiroadcollegelive.co.in/upload/notice/1602434627GU-4854_academic_calendar_oct7-2020-21-2021-22.pdf",
+      "status": "ok",
+      "cache": "2074f7cd0cd0574b52ec.json"
+    },
+    {
+      "url": "https://jagiroadcollegelive.co.in/upload/notice/1596792279GU-PG-even sem form fillup-Notice-2020.pdf",
+      "status": "ok",
+      "cache": "59a15817fa6875e34b60.json"
+    }
+  ]
+}

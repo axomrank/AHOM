@@ -1,0 +1,46 @@
+{
+  "id": "15",
+  "college": "Pandit Deendayal Upadhyaya Adarsha Mahavidyalaya (PDUAM), Amjonga",
+  "pages": [
+    {
+      "url": "https://pduamamjonga.ac.in/",
+      "status": "ok",
+      "cache": "d95d22588ff4cb390f6b.json"
+    },
+    {
+      "url": "https://pduamamjonga.ac.in/departments/1",
+      "status": "ok",
+      "cache": "0ae2efc05a2a9c5244b2.json"
+    },
+    {
+      "url": "https://pduamamjonga.ac.in/prospectus",
+      "status": "ok",
+      "cache": "ba974ed1a0a5f6c54ca5.json"
+    },
+    {
+      "url": "https://pduamamjonga.ac.in/academic-calendar",
+      "status": "ok",
+      "cache": "31da5a4b4f9c61543ccb.json"
+    },
+    {
+      "url": "https://pduamamjonga.ac.in/student-academic-calendar",
+      "status": "ok",
+      "cache": "9d334f05d735222c9cd5.json"
+    },
+    {
+      "url": "https://pduamamjonga.ac.in/courses",
+      "status": "ok",
+      "cache": "25014ab7575d296e0f37.json"
+    },
+    {
+      "url": "https://pduamamjonga.ac.in/department-details/80",
+      "status": "ok",
+      "cache": "8bc85d4fe43d201f4d22.json"
+    },
+    {
+      "url": "https://pduamamjonga.ac.in/department-details/81",
+      "status": "ok",
+      "cache": "0ae0708d98c450fdf98e.json"
+    }
+  ]
+}

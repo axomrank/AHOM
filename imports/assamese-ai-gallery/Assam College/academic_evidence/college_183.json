@@ -1,0 +1,46 @@
+{
+  "id": "183",
+  "college": "Lanka College",
+  "pages": [
+    {
+      "url": "https://lankamahavidyalaya.in/",
+      "status": "ok",
+      "cache": "c5abed55f20e7c60595d.json"
+    },
+    {
+      "url": "https://lankamahavidyalaya.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "ed4c45135f8c6d28f6cd.json"
+    },
+    {
+      "url": "https://lankamahavidyalaya.in/Prospectus-2026-27.pdf",
+      "status": "error",
+      "cache": "2da8a9026407474353db.json"
+    },
+    {
+      "url": "https://lankamahavidyalaya.in/online/upload/assests/prospectus.pdf",
+      "status": "ok",
+      "cache": "f86890545f866c3f4e2a.json"
+    },
+    {
+      "url": "https://lankamahavidyalaya.in/ac_co.php",
+      "status": "ok",
+      "cache": "49bd50dd4c79723ea59a.json"
+    },
+    {
+      "url": "https://lankamahavidyalaya.in/academiccalender.php",
+      "status": "ok",
+      "cache": "0bf1286cd340cde69d00.json"
+    },
+    {
+      "url": "https://lankamahavidyalaya.in/commerce_department.php",
+      "status": "ok",
+      "cache": "61cb1b847d8ed672d431.json"
+    },
+    {
+      "url": "https://lankamahavidyalaya.in/Academic-Teachers-Details.php?encRequest=6cc35481e8b339155bd4281f01cc5ffab9cadd4fe632ac08a411f60034a1d4e3feb15021b022c43d056ad47f36455491fa3bc5d7f1acc5364e74bfc821b2f42336ec579198fb33555dff32cd5317d437",
+      "status": "ok",
+      "cache": "a437e9e2b824735e1f10.json"
+    }
+  ]
+}

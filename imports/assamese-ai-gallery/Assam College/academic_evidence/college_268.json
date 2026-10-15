@@ -1,0 +1,46 @@
+{
+  "id": "268",
+  "college": "Dhakuakhana College",
+  "pages": [
+    {
+      "url": "https://dhakuakhanacollege.ac.in/",
+      "status": "ok",
+      "cache": "b35c1417f37e02ba6094.json"
+    },
+    {
+      "url": "https://dhakuakhanacollege.ac.in/arts.php",
+      "status": "ok",
+      "cache": "96a4fc54f60103e6cc3b.json"
+    },
+    {
+      "url": "https://dhakuakhanacollege.ac.in/science.php",
+      "status": "ok",
+      "cache": "d3f3e0405184cecd08f7.json"
+    },
+    {
+      "url": "https://dhakuakhanacollege.ac.in/new1111/programmes.php",
+      "status": "ok",
+      "cache": "e6146f3aae4c86b66820.json"
+    },
+    {
+      "url": "https://dhakuakhanacollege.ac.in/programme_ch.php",
+      "status": "ok",
+      "cache": "17a5a910617b3e73378d.json"
+    },
+    {
+      "url": "https://dhakuakhanacollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "c471396d9dadb30e830e.json"
+    },
+    {
+      "url": "https://dhakuakhanacollege.ac.in/new1111/prospectus.php",
+      "status": "ok",
+      "cache": "4a002e3b5562f7f16c01.json"
+    },
+    {
+      "url": "https://dhakuakhanacollege.ac.in/hod.php",
+      "status": "ok",
+      "cache": "d514772eac39b14ea937.json"
+    }
+  ]
+}

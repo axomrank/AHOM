@@ -1,0 +1,46 @@
+{
+  "id": "150",
+  "college": "Bikali College",
+  "pages": [
+    {
+      "url": "https://bikalicollege.org/",
+      "status": "ok",
+      "cache": "a70dd9cd3c9215e77b6a.json"
+    },
+    {
+      "url": "https://bikalicollege.org/departments/science/",
+      "status": "ok",
+      "cache": "7d14d79585047f79200b.json"
+    },
+    {
+      "url": "https://bikalicollege.org/departments/arts/",
+      "status": "ok",
+      "cache": "ae68b67fb0eeca7fafba.json"
+    },
+    {
+      "url": "https://bikalicollege.org/wp-content/uploads/2025/05/Prospectus-Year-2025-26.pdf",
+      "status": "ok",
+      "cache": "10b000ab12ac5f758b2d.json"
+    },
+    {
+      "url": "https://bikalicollege.org/wp-content/uploads/2025/07/revised_academic_regulations_div_II_Final1.pdf",
+      "status": "ok",
+      "cache": "4f3fd3dbde59c563832b.json"
+    },
+    {
+      "url": "https://bikalicollege.org/pg-admission-notice-assamese-geography-2026-27/",
+      "status": "ok",
+      "cache": "0000c2cad38c3b387e5a.json"
+    },
+    {
+      "url": "https://bikalicollege.org/academics/postgraduate-courses/",
+      "status": "ok",
+      "cache": "7dd4b191c35fec7aab51.json"
+    },
+    {
+      "url": "https://bikalicollege.org/academics/postgraduate-courses/syllabus-pg-courses/",
+      "status": "ok",
+      "cache": "340782ee1870378112ab.json"
+    }
+  ]
+}

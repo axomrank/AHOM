@@ -1,0 +1,31 @@
+{
+  "id": "65",
+  "college": "Birjhora Kanya Mahavidyalaya",
+  "pages": [
+    {
+      "url": "https://bkmac.in/",
+      "status": "ok",
+      "cache": "3a8264e74e0edfdda9c0.json"
+    },
+    {
+      "url": "https://bkmac.in/category/departments/",
+      "status": "ok",
+      "cache": "6fcac5e18858d6bc80d3.json"
+    },
+    {
+      "url": "http://bkmac.in/college-prospectus/",
+      "status": "ok",
+      "cache": "a912058f699cfdf55cba.json"
+    },
+    {
+      "url": "http://bkmac.in/academic-calendar/",
+      "status": "ok",
+      "cache": "bdb15a8bde9cfa66cb83.json"
+    },
+    {
+      "url": "https://bkmac.in/category/departments/#content",
+      "status": "ok",
+      "cache": "a51f58a69dd790ac33e8.json"
+    }
+  ]
+}

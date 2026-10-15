@@ -1,0 +1,36 @@
+{
+  "id": "152",
+  "college": "Dudhnoi College",
+  "pages": [
+    {
+      "url": "https://dudhnoicollege.ac.in/",
+      "status": "ok",
+      "cache": "67570244eb26e2120a78.json"
+    },
+    {
+      "url": "https://dudhnoicollege.ac.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "090016095b94753a5e7c.json"
+    },
+    {
+      "url": "https://dudhnoicollege.ac.in/upload/admission/1784375341.pdf",
+      "status": "ok",
+      "cache": "da83860bb33ac5fc65e5.json"
+    },
+    {
+      "url": "https://dudhnoicollege.ac.in/upload/DC Prospectus-2024.pdf",
+      "status": "ok",
+      "cache": "85b68e9de8f33cc582c3.json"
+    },
+    {
+      "url": "https://dudhnoicollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "baebc928e18699567bce.json"
+    },
+    {
+      "url": "https://dudhnoicollege.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "6bd4966eac3ea453327c.json"
+    }
+  ]
+}

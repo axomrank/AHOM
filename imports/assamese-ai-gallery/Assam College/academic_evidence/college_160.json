@@ -1,0 +1,21 @@
+{
+  "id": "160",
+  "college": "Debraj Roy College (D.R. College)",
+  "pages": [
+    {
+      "url": "https://drcollege.ac.in/",
+      "status": "ok",
+      "cache": "40534a58f2f3bfd99e79.json"
+    },
+    {
+      "url": "https://drcollege.ac.in/index_page_details.php?page=0025&title=Post-Graduate-Programme",
+      "status": "ok",
+      "cache": "877fd6be6519ac1d2b45.json"
+    },
+    {
+      "url": "https://drcollege.ac.in/index_page_details.php?page=339&title=academic-calendar",
+      "status": "ok",
+      "cache": "c78f4f3fdbdfe0f3734f.json"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "334",
+  "college": "Dikhowmukh College",
+  "pages": [
+    {
+      "url": "https://www.dikhowmukhcollege.in/",
+      "status": "ok",
+      "cache": "7e0bb0997a45c9cbed22.json"
+    },
+    {
+      "url": "https://www.dikhowmukhcollege.in/departments.php",
+      "status": "ok",
+      "cache": "ed14a122f81c3dee083d.json"
+    },
+    {
+      "url": "https://www.dikhowmukhcollege.in/prospectus.php",
+      "status": "ok",
+      "cache": "c32a03993fe3f6b61ee5.json"
+    },
+    {
+      "url": "https://www.dikhowmukhcollege.in/acalender.php",
+      "status": "ok",
+      "cache": "2b3c6c20470e4d3da228.json"
+    }
+  ]
+}

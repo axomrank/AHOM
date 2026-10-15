@@ -1,0 +1,31 @@
+{
+  "id": "216",
+  "college": "Pandu College",
+  "pages": [
+    {
+      "url": "https://panducollege.ac.in/",
+      "status": "ok",
+      "cache": "1db99e17f4fc1bcb589d.json"
+    },
+    {
+      "url": "https://panducollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "f8fa9ddd7fa7eab7b721.json"
+    },
+    {
+      "url": "https://panducollege.ac.in/upload/notice/1786731914.pdf",
+      "status": "ok",
+      "cache": "7eb7794f5d926657fc87.json"
+    },
+    {
+      "url": "https://panducollege.ac.in/academic_cal.php",
+      "status": "ok",
+      "cache": "c58f6da54b418b8fb9ee.json"
+    },
+    {
+      "url": "https://panducollege.ac.in/upload/notice/1789785413.pdf",
+      "status": "ok",
+      "cache": "c114656ab3ee4456ea7f.json"
+    }
+  ]
+}

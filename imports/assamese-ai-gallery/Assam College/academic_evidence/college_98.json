@@ -1,0 +1,46 @@
+{
+  "id": "98",
+  "college": "Mangaldai College",
+  "pages": [
+    {
+      "url": "https://mangaldaicollege.org/",
+      "status": "ok",
+      "cache": "9181f1e22081f96a9385.json"
+    },
+    {
+      "url": "https://www.mangaldaicollege.org/upload/FINAL_IDP_MC-22-31.pdf",
+      "status": "ok",
+      "cache": "0aca03e760d142fa5c75.json"
+    },
+    {
+      "url": "http://mangaldaicollege.org/pdf/PG-Admission26.pdf",
+      "status": "ok",
+      "cache": "346de1406ccbc3075d51.json"
+    },
+    {
+      "url": "http://mangaldaicollege.org/pdf/Mangaldai College (Autonomous) Prospectus 2026-2027_May19_2026_Final.pdf",
+      "status": "ok",
+      "cache": "176043a886455584f688.json"
+    },
+    {
+      "url": "http://mangaldaicollege.org/pdf/PROPECTUS.pdf",
+      "status": "ok",
+      "cache": "f2503e7ab86f875f58c9.json"
+    },
+    {
+      "url": "https://mangaldaicollege.org/pdf/PG Result 2nd Sem 2026.pdf",
+      "status": "ok",
+      "cache": "184564425863eb467155.json"
+    },
+    {
+      "url": "http://mangaldaicollege.org/pdf/PG Result 2nd Sem 2026.pdf",
+      "status": "ok",
+      "cache": "856a3ca6d4d851474e07.json"
+    },
+    {
+      "url": "http://mangaldaicollege.org/pdf/PG-Class-26.pdf",
+      "status": "ok",
+      "cache": "baa4dbab3ae7d885ca3e.json"
+    }
+  ]
+}

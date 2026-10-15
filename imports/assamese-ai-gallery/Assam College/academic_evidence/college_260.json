@@ -1,0 +1,46 @@
+{
+  "id": "260",
+  "college": "Girls' College Kokrajhar",
+  "pages": [
+    {
+      "url": "https://gckokrajhar.ac.in/",
+      "status": "ok",
+      "cache": "19b5d416906658bac954.json"
+    },
+    {
+      "url": "https://gckokrajhar.ac.in/department/",
+      "status": "ok",
+      "cache": "eb20436ce55e5694ee2a.json"
+    },
+    {
+      "url": "https://gckokrajhar.ac.in/c/prospectus/",
+      "status": "ok",
+      "cache": "6cbde61a0cb53a423cc8.json"
+    },
+    {
+      "url": "https://gckokrajhar.ac.in/c/uncategorized/",
+      "status": "ok",
+      "cache": "a64b41c67baf77fafe05.json"
+    },
+    {
+      "url": "https://gckokrajhar.ac.in/c/academic-calendar/",
+      "status": "ok",
+      "cache": "a6568d5f5fe285e80391.json"
+    },
+    {
+      "url": "https://gckokrajhar.ac.in/academic-calendar-2/academic-calander-2022-23-2/",
+      "status": "ok",
+      "cache": "c88be7f9a63c18222878.json"
+    },
+    {
+      "url": "https://gckokrajhar.ac.in/academic-calendar-2/academic-calendar-2021-22/",
+      "status": "ok",
+      "cache": "a0879d7e8a5abfab1d07.json"
+    },
+    {
+      "url": "https://gckokrajhar.ac.in/academic-calendar-2/academic-calendar-2020-21/",
+      "status": "ok",
+      "cache": "0c9cc49ece5512eb0318.json"
+    }
+  ]
+}

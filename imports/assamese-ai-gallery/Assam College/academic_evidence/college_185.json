@@ -1,0 +1,46 @@
+{
+  "id": "185",
+  "college": "Bahona College",
+  "pages": [
+    {
+      "url": "https://www.bahonacollege.edu.in/",
+      "status": "ok",
+      "cache": "d7325e511e9c1d4edf59.json"
+    },
+    {
+      "url": "https://www.bahonacollege.edu.in/department.php",
+      "status": "ok",
+      "cache": "bd0599ecac79dece1bb8.json"
+    },
+    {
+      "url": "https://www.bahonacollege.edu.in/Bahona College B.Ed Prospectus 2026-27 (2).pdf",
+      "status": "ok",
+      "cache": "192f1e13d7d512c83504.json"
+    },
+    {
+      "url": "https://www.bahonacollege.edu.in/upload/academicnotice/1786183554.pdf",
+      "status": "ok",
+      "cache": "4b178ee64dd419c9bab0.json"
+    },
+    {
+      "url": "https://www.bahonacollege.edu.in/upload/academicnotice/1784710903.pdf",
+      "status": "ok",
+      "cache": "fd24bb50dc00d7e6ea86.json"
+    },
+    {
+      "url": "https://www.bahonacollege.edu.in/upload/academicnotice/1783738583.pdf",
+      "status": "ok",
+      "cache": "6b644e4f1c9ff8beddea.json"
+    },
+    {
+      "url": "https://www.bahonacollege.edu.in/prospectus.php",
+      "status": "ok",
+      "cache": "fcc7ef62c31bcc70f190.json"
+    },
+    {
+      "url": "https://www.bahonacollege.edu.in/upload/prospectus/1777533093.pdf",
+      "status": "ok",
+      "cache": "9eb6729c6097e6aaad29.json"
+    }
+  ]
+}

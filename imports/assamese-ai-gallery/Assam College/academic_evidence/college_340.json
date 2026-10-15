@@ -1,0 +1,16 @@
+{
+  "id": "340",
+  "college": "Sibsagar Commerce College",
+  "pages": [
+    {
+      "url": "https://sibsagarcommercecollege.org.in/",
+      "status": "error",
+      "cache": "8b19d60be5eba7e4a86e.json"
+    },
+    {
+      "url": "https://sibsagarcommercecollege.org.in/dev/",
+      "status": "error",
+      "cache": "7f13f1f4faeb4f991a4b.json"
+    }
+  ]
+}

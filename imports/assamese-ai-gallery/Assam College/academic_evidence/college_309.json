@@ -1,0 +1,26 @@
+{
+  "id": "309",
+  "college": "Khagarijan College",
+  "pages": [
+    {
+      "url": "https://www.khagarijancollege.ac.in/",
+      "status": "ok",
+      "cache": "507f5ad816a30a63e67b.json"
+    },
+    {
+      "url": "https://www.khagarijancollege.ac.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "3a0094ed6fb18c5d09b4.json"
+    },
+    {
+      "url": "https://www.khagarijancollege.ac.in/Khagarijan College Prospectus, 2026-2027.pdf",
+      "status": "ok",
+      "cache": "5e4324890fa6cf16e6c3.json"
+    },
+    {
+      "url": "https://www.khagarijancollege.ac.in/academiccalendar.php",
+      "status": "ok",
+      "cache": "3416dd07a74906cd4d12.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "122",
+  "college": "Dharmasala College",
+  "pages": [
+    {
+      "url": "https://www.dharmasalacollege.com/",
+      "status": "ok",
+      "cache": "fa8e6966a164d28e9ba7.json"
+    },
+    {
+      "url": "https://www.dharmasalacollege.com/department.php?d_id=7",
+      "status": "ok",
+      "cache": "43cae5daf0962643445c.json"
+    },
+    {
+      "url": "https://www.dharmasalacollege.com/department.php?d_id=3",
+      "status": "ok",
+      "cache": "635700a71f664d2aaddf.json"
+    },
+    {
+      "url": "https://www.dharmasalacollege.com/department.php?d_id=5",
+      "status": "ok",
+      "cache": "77e41cfb268466f99069.json"
+    },
+    {
+      "url": "https://www.dharmasalacollege.com/department.php?d_id=10",
+      "status": "ok",
+      "cache": "9938cd947fa8e670bca7.json"
+    },
+    {
+      "url": "https://www.dharmasalacollege.com/department.php?d_id=1",
+      "status": "ok",
+      "cache": "ad466b48ac0770bfba3b.json"
+    },
+    {
+      "url": "https://www.dharmasalacollege.com/department.php?d_id=9",
+      "status": "ok",
+      "cache": "bd1ea5124031a119f920.json"
+    },
+    {
+      "url": "https://www.dharmasalacollege.com/department.php?d_id=6",
+      "status": "ok",
+      "cache": "b44231c21de2cf50fe46.json"
+    }
+  ]
+}

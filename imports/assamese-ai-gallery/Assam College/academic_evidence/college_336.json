@@ -1,0 +1,46 @@
+{
+  "id": "336",
+  "college": "Hem Chandra Dev Goswami College",
+  "pages": [
+    {
+      "url": "https://www.hcdgcollege.org/",
+      "status": "ok",
+      "cache": "15748c4e688d2bbefad2.json"
+    },
+    {
+      "url": "https://www.hcdgcollege.org/wp-content/uploads/2023/05/HCDG-College-Prospectus-2020-2021-1.pdf",
+      "status": "ok",
+      "cache": "9e3ade1739c990263f0b.json"
+    },
+    {
+      "url": "https://www.hcdgcollege.org/prize-awarding-ceremony-in-freshers-social-department-of-education-2026/",
+      "status": "ok",
+      "cache": "03acb1c8105815b7b490.json"
+    },
+    {
+      "url": "https://www.hcdgcollege.org/political-science-department-activities-2025/",
+      "status": "ok",
+      "cache": "5588430625e0b3d612bd.json"
+    },
+    {
+      "url": "https://www.hcdgcollege.org/prospectus-2/",
+      "status": "ok",
+      "cache": "d951fd60a51b8438fb97.json"
+    },
+    {
+      "url": "https://www.hcdgcollege.org/department-of-assamese/",
+      "status": "ok",
+      "cache": "352d6293360d88f63cf8.json"
+    },
+    {
+      "url": "https://www.hcdgcollege.org/department-of-economics/",
+      "status": "ok",
+      "cache": "1746eaa9ba789d1faabf.json"
+    },
+    {
+      "url": "https://www.hcdgcollege.org/department-of-education/",
+      "status": "ok",
+      "cache": "0f48b6e61d408990c56e.json"
+    }
+  ]
+}

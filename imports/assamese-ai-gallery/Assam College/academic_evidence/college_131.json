@@ -1,0 +1,21 @@
+{
+  "id": "131",
+  "college": "D.D.R. College",
+  "pages": [
+    {
+      "url": "https://ddrcollege.in/article/rti/page/qchk.html",
+      "status": "ok",
+      "cache": "d94a46ab0b92b0e14a20.json"
+    },
+    {
+      "url": "https://ddrcollege.in/article/edrf/departments/qasj.html",
+      "status": "ok",
+      "cache": "a3f6ce59b7b6b4e7ba74.json"
+    },
+    {
+      "url": "https://ddrcollege.in/article/acale/page/erft.html",
+      "status": "ok",
+      "cache": "79d25133e9d0919c5ac9.json"
+    }
+  ]
+}

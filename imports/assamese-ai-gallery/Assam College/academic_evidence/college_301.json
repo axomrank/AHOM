@@ -1,0 +1,46 @@
+{
+  "id": "301",
+  "college": "Dhing College",
+  "pages": [
+    {
+      "url": "https://dhingcollege.edu.in/",
+      "status": "ok",
+      "cache": "a1cca2a64b675b2e4fbc.json"
+    },
+    {
+      "url": "https://dhingcollege.edu.in/department.php",
+      "status": "ok",
+      "cache": "b7e6bb75fd034440a230.json"
+    },
+    {
+      "url": "https://dhingcollege.edu.in/department/index.php",
+      "status": "ok",
+      "cache": "4c52c1d287c106b7b4eb.json"
+    },
+    {
+      "url": "https://dhingcollege.edu.in/student/index.php",
+      "status": "ok",
+      "cache": "4ffcd397bffbecda0e7e.json"
+    },
+    {
+      "url": "https://dhingcollege.edu.in/department_details.php?id=22",
+      "status": "ok",
+      "cache": "c010631eab00c0b08be0.json"
+    },
+    {
+      "url": "https://dhingcollege.edu.in/department_details.php?id=24",
+      "status": "ok",
+      "cache": "1398b548e4adcc2a9e6a.json"
+    },
+    {
+      "url": "https://dhingcollege.edu.in/department_details.php?id=32",
+      "status": "ok",
+      "cache": "6b896b4401ee87458dcb.json"
+    },
+    {
+      "url": "https://dhingcollege.edu.in/department_details.php?id=31",
+      "status": "ok",
+      "cache": "89ba15064534813f9261.json"
+    }
+  ]
+}

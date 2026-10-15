@@ -1,0 +1,46 @@
+{
+  "id": "9",
+  "college": "Pandit Deendayal Upadhyaya Adarsha Mahavidyalaya (PDUAM), Dalgaon",
+  "pages": [
+    {
+      "url": "https://pdduamdalgaon.in/",
+      "status": "ok",
+      "cache": "7601f82a5cd9ba2724e9.json"
+    },
+    {
+      "url": "https://pdduamdalgaon.in/wp-content/uploads/2026/05/Prospectus2026-27_compressed.pdf",
+      "status": "ok",
+      "cache": "619edda173456801b20b.json"
+    },
+    {
+      "url": "https://pdduamdalgaon.in/wp-content/uploads/2025/05/prospectus2025.pdf",
+      "status": "ok",
+      "cache": "297f8c153aba88329bf1.json"
+    },
+    {
+      "url": "https://pdduamdalgaon.in/2026/04/23/academic-administrative-audit-2024-25/",
+      "status": "ok",
+      "cache": "9880420b709d6aa68508.json"
+    },
+    {
+      "url": "https://pdduamdalgaon.in/2024/05/11/prospectus-2024-25/",
+      "status": "ok",
+      "cache": "3d3cc983bb0ec61cb21e.json"
+    },
+    {
+      "url": "https://pdduamdalgaon.in/2023/06/14/prospectus-2023-24/",
+      "status": "ok",
+      "cache": "f02fcba070f437910935.json"
+    },
+    {
+      "url": "https://pdduamdalgaon.in/academic-calender/",
+      "status": "ok",
+      "cache": "3322eb3625de0c73e21d.json"
+    },
+    {
+      "url": "https://pdduamdalgaon.in/academic-and-administrative-audit/",
+      "status": "ok",
+      "cache": "b83613554b8d1dd9b8aa.json"
+    }
+  ]
+}

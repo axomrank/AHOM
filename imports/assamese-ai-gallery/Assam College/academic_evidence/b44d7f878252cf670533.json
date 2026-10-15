@@ -1,0 +1,1 @@
+{"url": "https://www.borobazarcollege.ac.in/departments/", "retrieved": "2026-10-02", "status": "error", "error": "ConnectTimeout: HTTPSConnectionPool(host='www.borobazarcollege.ac.in', port=443): Max retries exceeded with url: /departments/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.borobazarcollege.ac.in', port=4"}

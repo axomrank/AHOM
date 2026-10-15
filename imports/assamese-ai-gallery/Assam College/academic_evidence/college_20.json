@@ -1,0 +1,26 @@
+{
+  "id": "20",
+  "college": "Diphu Government College",
+  "pages": [
+    {
+      "url": "https://diphugovernmentcollege.com/",
+      "status": "ok",
+      "cache": "acc29c980a08e4e43186.json"
+    },
+    {
+      "url": "https://diphugovernmentcollege.com/department.php",
+      "status": "ok",
+      "cache": "5dee62deaad58f01d72c.json"
+    },
+    {
+      "url": "https://diphugovernmentcollege.com/prospectus.php",
+      "status": "ok",
+      "cache": "1595fe27836fb76890ab.json"
+    },
+    {
+      "url": "https://diphugovernmentcollege.com/academic_cal.php",
+      "status": "ok",
+      "cache": "bc1598fa01ffc9a12df1.json"
+    }
+  ]
+}

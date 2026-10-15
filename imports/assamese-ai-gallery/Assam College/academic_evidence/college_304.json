@@ -1,0 +1,26 @@
+{
+  "id": "304",
+  "college": "Jamunamukh College",
+  "pages": [
+    {
+      "url": "https://www.jamunamukhcollege.co.in/",
+      "status": "ok",
+      "cache": "e55e5493772abaa025f9.json"
+    },
+    {
+      "url": "https://www.jamunamukhcollege.co.in/department.php",
+      "status": "ok",
+      "cache": "eb15b7c0163faf9da628.json"
+    },
+    {
+      "url": "https://www.jamunamukhcollege.co.in/prospectus.php",
+      "status": "ok",
+      "cache": "d1e3d764ff28085448a5.json"
+    },
+    {
+      "url": "https://www.jamunamukhcollege.co.in/academic_cal.php",
+      "status": "ok",
+      "cache": "48372fb1ececd800856e.json"
+    }
+  ]
+}

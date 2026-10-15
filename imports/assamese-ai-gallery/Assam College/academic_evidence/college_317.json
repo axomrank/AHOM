@@ -1,0 +1,31 @@
+{
+  "id": "317",
+  "college": "Samaguri College",
+  "pages": [
+    {
+      "url": "https://samaguricollege.co.in/",
+      "status": "ok",
+      "cache": "1a206e875afa2fbeb900.json"
+    },
+    {
+      "url": "https://samaguricollege.co.in/department.php",
+      "status": "ok",
+      "cache": "2d939071b2844efe12a2.json"
+    },
+    {
+      "url": "https://samaguricollege.co.in/course_offered.php",
+      "status": "ok",
+      "cache": "1f25ea0865af43a47b31.json"
+    },
+    {
+      "url": "https://samaguricollege.co.in/prospectus.php",
+      "status": "ok",
+      "cache": "815edc9e80f6d3793312.json"
+    },
+    {
+      "url": "https://samaguricollege.co.in/academiccalender.php",
+      "status": "ok",
+      "cache": "e0749891b6b5c8666f79.json"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "330",
+  "college": "Amguri College",
+  "pages": [
+    {
+      "url": "https://www.amguricollege.com/firstpage.php",
+      "status": "error",
+      "cache": "ac1ce01bc8b0e063dcbf.json"
+    }
+  ]
+}

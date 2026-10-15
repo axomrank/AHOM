@@ -1,0 +1,36 @@
+{
+  "id": "239",
+  "college": "Puthimari College",
+  "pages": [
+    {
+      "url": "https://puthimaricollege.ac.in/",
+      "status": "ok",
+      "cache": "78ca9e6ca61999e5ed44.json"
+    },
+    {
+      "url": "https://puthimaricollege.ac.in/dept.php",
+      "status": "ok",
+      "cache": "7484af89b2a7076e1b43.json"
+    },
+    {
+      "url": "https://puthimaricollege.ac.in/index.php",
+      "status": "ok",
+      "cache": "2b57928700e3547b8461.json"
+    },
+    {
+      "url": "https://puthimaricollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "1d734434012f054180a3.json"
+    },
+    {
+      "url": "https://puthimaricollege.ac.in/physicalacademic.php",
+      "status": "ok",
+      "cache": "9bac38fcc5c58f9c33b0.json"
+    },
+    {
+      "url": "https://puthimaricollege.ac.in/academiccalendar.php",
+      "status": "ok",
+      "cache": "700e4c91a53c1c99af06.json"
+    }
+  ]
+}

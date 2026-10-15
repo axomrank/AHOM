@@ -1,0 +1,16 @@
+{
+  "id": "355",
+  "college": "Ledo College",
+  "pages": [
+    {
+      "url": "https://ledocollege.in/",
+      "status": "error",
+      "cache": "fc004f738dfcc03a0b81.json"
+    },
+    {
+      "url": "https://oldweb.dibru.ac.in/wp-content/uploads/2022/09/Final-Electoral-Roll-2022-Website.pdf",
+      "status": "ok",
+      "cache": "2e67770c97e4ef4486b7.json"
+    }
+  ]
+}

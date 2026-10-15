@@ -1,0 +1,16 @@
+{
+  "id": "305",
+  "college": "Juria College",
+  "pages": [
+    {
+      "url": "https://juriacollege.edu.in/",
+      "status": "ok",
+      "cache": "fab9e8f51751a93530fe.json"
+    },
+    {
+      "url": "https://juriacollege.edu.in/courses-programmes/",
+      "status": "error",
+      "cache": "8314503368f6496e37e7.json"
+    }
+  ]
+}

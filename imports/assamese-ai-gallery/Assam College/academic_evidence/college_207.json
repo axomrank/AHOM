@@ -1,0 +1,46 @@
+{
+  "id": "207",
+  "college": "Guwahati College",
+  "pages": [
+    {
+      "url": "https://guwahaticollege.org.in/",
+      "status": "ok",
+      "cache": "2b4d8efe12333f274ee4.json"
+    },
+    {
+      "url": "https://guwahaticollege.org.in/pdf/iqac/GC prospectus 2026-27.pdf",
+      "status": "ok",
+      "cache": "0ed3e1178d96969a01bd.json"
+    },
+    {
+      "url": "https://guwahaticollege.org.in/images/photos_gallery/poster_presentation.jpeg",
+      "status": "ok",
+      "cache": "b76db3ba355dbee3876e.json"
+    },
+    {
+      "url": "https://guwahaticollege.org.in/pdf/iqac/Guwahati-College-Prospectus%202022-23.pdf",
+      "status": "ok",
+      "cache": "23bbae6a5642e6fc5682.json"
+    },
+    {
+      "url": "https://guwahaticollege.org.in/pdf/iqac/GUWAHATI_COLLEGE_PROSPECTUS(2023-24).pdf",
+      "status": "ok",
+      "cache": "95aa2737497e834c7a61.json"
+    },
+    {
+      "url": "https://guwahaticollege.org.in/pdf/iqac/bulletin_1746530243_pdf.pdf",
+      "status": "ok",
+      "cache": "22e9311546d942a06dad.json"
+    },
+    {
+      "url": "https://guwahaticollege.org.in/department.php",
+      "status": "ok",
+      "cache": "718dd3be689f7394c85c.json"
+    },
+    {
+      "url": "https://guwahaticollege.org.in/dept-commerce.php",
+      "status": "ok",
+      "cache": "2471047c13257e032ce7.json"
+    }
+  ]
+}

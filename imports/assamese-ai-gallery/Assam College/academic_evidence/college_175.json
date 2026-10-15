@@ -1,0 +1,46 @@
+{
+  "id": "175",
+  "college": "Lala Rural College",
+  "pages": [
+    {
+      "url": "https://lrcollege.ac.in/",
+      "status": "ok",
+      "cache": "b182b6ebb21bf2632d99.json"
+    },
+    {
+      "url": "https://lrcollege.ac.in/departments/",
+      "status": "ok",
+      "cache": "a236d00757c313e2cf98.json"
+    },
+    {
+      "url": "http://lrcollege.ac.in/wp-content/uploads/2026/05/LRC_PROSPECTUS-2026-2027_compressed.pdf",
+      "status": "ok",
+      "cache": "b79955f4ead0d4e9d601.json"
+    },
+    {
+      "url": "https://lrcollege.ac.in/wp-content/uploads/2026/05/LRC_PROSPECTUS-2026-2027_compressed.pdf",
+      "status": "ok",
+      "cache": "f7fc56ff5db4cbcaf35f.json"
+    },
+    {
+      "url": "https://lrcollege.ac.in/prospectus/",
+      "status": "ok",
+      "cache": "5b445b68e4d730530ea8.json"
+    },
+    {
+      "url": "https://lrcollege.ac.in/academics-2/",
+      "status": "ok",
+      "cache": "9b851ba59a7167f4058b.json"
+    },
+    {
+      "url": "https://lrcollege.ac.in/details-of-academic-programs/",
+      "status": "ok",
+      "cache": "39a7fc6cc7213bfc5536.json"
+    },
+    {
+      "url": "http://lrcollege.ac.in/wp-content/uploads/2023/12/Manipuri_Department.pdf",
+      "status": "ok",
+      "cache": "35aba41e8e71b227cabd.json"
+    }
+  ]
+}

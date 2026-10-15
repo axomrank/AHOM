@@ -1,0 +1,31 @@
+{
+  "id": "344",
+  "college": "L.G.B. Girls College",
+  "pages": [
+    {
+      "url": "https://lgbgirlscollege.ac.in/",
+      "status": "ok",
+      "cache": "5885b9e931f9d4f31a71.json"
+    },
+    {
+      "url": "https://lgbgirlscollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "c96757b14b4202af4c5a.json"
+    },
+    {
+      "url": "https://lgbgirlscollege.ac.in/index.php",
+      "status": "ok",
+      "cache": "24c23ac32ae5c4525f73.json"
+    },
+    {
+      "url": "https://lgbgirlscollege.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "39257d0686d649e3edb0.json"
+    },
+    {
+      "url": "https://lgbgirlscollege.ac.in/dpt_login/",
+      "status": "error",
+      "cache": "81b689e15694745e14e6.json"
+    }
+  ]
+}

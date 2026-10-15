@@ -1,0 +1,41 @@
+{
+  "id": "63",
+  "college": "Kalabari College",
+  "pages": [
+    {
+      "url": "https://kalabaricollege.org.in/",
+      "status": "ok",
+      "cache": "23edd7259e07ff2fe57d.json"
+    },
+    {
+      "url": "https://kalabaricollege.org.in/teaching-staff/",
+      "status": "ok",
+      "cache": "061fc9371759cff238d7.json"
+    },
+    {
+      "url": "https://kalabaricollege.org.in/wp-content/uploads/2026/05/Prospectus-2026-27-Kalabari-College.pdf",
+      "status": "ok",
+      "cache": "7d65ef2c9474b2dbfe01.json"
+    },
+    {
+      "url": "https://kalabaricollege.org.in/wp-content/uploads/2025/05/Prospectus-2025-26.pdf",
+      "status": "ok",
+      "cache": "011b1343d49838bfdbf1.json"
+    },
+    {
+      "url": "https://kalabaricollege.org.in/academic-administrative-audit/",
+      "status": "ok",
+      "cache": "8851d09624c1862fad52.json"
+    },
+    {
+      "url": "https://kalabaricollege.org.in/academic-committee/",
+      "status": "ok",
+      "cache": "da368fc69bcbeaf875ba.json"
+    },
+    {
+      "url": "https://kalabaricollege.org.in/academic-calendar-2022-23-2/",
+      "status": "ok",
+      "cache": "078925253146a1c0196b.json"
+    }
+  ]
+}

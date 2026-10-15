@@ -1,0 +1,46 @@
+{
+  "id": "356",
+  "college": "Margherita College",
+  "pages": [
+    {
+      "url": "https://www.margheritacollege.in/",
+      "status": "ok",
+      "cache": "f7b4826b0575c7ecaeb9.json"
+    },
+    {
+      "url": "https://www.margheritacollege.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "665a0c39ebc91a357d18.json"
+    },
+    {
+      "url": "https://www.margheritacollege.in/Academic-Teachers-Details.php?encRequest=6010d23a65fb6e73362c2ac1e7e31177e846b68fdabe60355372a33caad3eb61959c706833a9564272026d8ba8ff7c8d8406b4747b6aef4f68de13c361dce74f1be4cdd2be0d2ceefdb5cf4167e3d4f4",
+      "status": "ok",
+      "cache": "2f1fc68a2160a1fe9032.json"
+    },
+    {
+      "url": "https://www.margheritacollege.in/prospectus.php",
+      "status": "ok",
+      "cache": "12659fee79493464ac5d.json"
+    },
+    {
+      "url": "https://www.margheritacollege.in/department.php",
+      "status": "ok",
+      "cache": "2b046d9744c49d04c59e.json"
+    },
+    {
+      "url": "https://www.margheritacollege.in/academic_regulations.php",
+      "status": "ok",
+      "cache": "07eff2a9a6b39b573b11.json"
+    },
+    {
+      "url": "https://www.margheritacollege.in/upload/notice/1789562985.pdf",
+      "status": "ok",
+      "cache": "15ccc8a84b7363abff46.json"
+    },
+    {
+      "url": "https://www.margheritacollege.in/upload/notice/1789562873.pdf",
+      "status": "ok",
+      "cache": "1278c6ced96726b6b903.json"
+    }
+  ]
+}

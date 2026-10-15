@@ -1,0 +1,41 @@
+{
+  "id": "284",
+  "college": "Jengraimukh College",
+  "pages": [
+    {
+      "url": "https://jengraimukhcollege.org/",
+      "status": "ok",
+      "cache": "7cdba7e40c23fa22d9a2.json"
+    },
+    {
+      "url": "https://jengraimukhcollege.org/departments/",
+      "status": "ok",
+      "cache": "ec9ee72b830281c84616.json"
+    },
+    {
+      "url": "https://jengraimukhcollege.org/holiday-list/",
+      "status": "ok",
+      "cache": "f7d31ef161240111ce63.json"
+    },
+    {
+      "url": "https://jengraimukhcollege.org/academic-calendar/",
+      "status": "ok",
+      "cache": "1a52c7d9f32c2e669d00.json"
+    },
+    {
+      "url": "https://jengraimukhcollege.org/academic-institution/",
+      "status": "ok",
+      "cache": "4e4763c1840da716a8be.json"
+    },
+    {
+      "url": "https://jengraimukhcollege.org/academic/",
+      "status": "ok",
+      "cache": "2c27cdf62ea470759ffc.json"
+    },
+    {
+      "url": "https://jengraimukhcollege.org/departments/#content",
+      "status": "ok",
+      "cache": "c47be69b9d9b40ed2e5b.json"
+    }
+  ]
+}

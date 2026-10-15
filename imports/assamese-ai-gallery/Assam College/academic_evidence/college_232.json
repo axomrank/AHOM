@@ -1,0 +1,41 @@
+{
+  "id": "232",
+  "college": "FA Ahmed College",
+  "pages": [
+    {
+      "url": "https://www.faacollege.org/",
+      "status": "ok",
+      "cache": "b9a2e41ebdcaee67d194.json"
+    },
+    {
+      "url": "https://www.faacollege.org/faac_docs/Prospectus_24-25.pdf",
+      "status": "ok",
+      "cache": "bc5a13c96a9161b173d6.json"
+    },
+    {
+      "url": "https://www.faacollege.org/faac_docs/Prospectus_26-27.pdf",
+      "status": "ok",
+      "cache": "16108635433e9dddeed0.json"
+    },
+    {
+      "url": "https://www.faacollege.org/college_prospectus.php",
+      "status": "ok",
+      "cache": "38c733c7a4a5fb0ae1b5.json"
+    },
+    {
+      "url": "https://www.faacollege.org/iqac_academic_plan.php",
+      "status": "ok",
+      "cache": "06eb38cb1e9d801af587.json"
+    },
+    {
+      "url": "https://www.faacollege.org/iqac_audit_aaa.php",
+      "status": "ok",
+      "cache": "fe8b53cff5b5f39e6f3e.json"
+    },
+    {
+      "url": "https://www.faacollege.org/academic_calendar.php",
+      "status": "ok",
+      "cache": "817407887c236d8c0001.json"
+    }
+  ]
+}

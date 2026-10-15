@@ -1,0 +1,46 @@
+{
+  "id": "134",
+  "college": "Dibru College",
+  "pages": [
+    {
+      "url": "https://dibrucollege.edu.in/",
+      "status": "ok",
+      "cache": "532a0117322b5757fa57.json"
+    },
+    {
+      "url": "https://dibrucollege.edu.in/sanctioned-equipment-under-the-project-titled-dbt-ner-institutional-level-biotech-hub-focusing-on-strengthening-of-research-and-academic-atmosphere-of-dibru-college-by-establishing-biotech-h/",
+      "status": "ok",
+      "cache": "91fdad624f6844321a6e.json"
+    },
+    {
+      "url": "https://dibrucollege.edu.in/pg-assamese-admission-notice/",
+      "status": "ok",
+      "cache": "0f275e6660b25051fc0b.json"
+    },
+    {
+      "url": "https://dibrucollege.edu.in/academic-calendar/",
+      "status": "ok",
+      "cache": "d93d3a1bc06e745bf351.json"
+    },
+    {
+      "url": "https://dibrucollege.edu.in/department-of-english/",
+      "status": "ok",
+      "cache": "0b6ce45e1fbd6a8669a7.json"
+    },
+    {
+      "url": "https://dibrucollege.edu.in/department-of-education/",
+      "status": "ok",
+      "cache": "36be147ad2a78290c8fe.json"
+    },
+    {
+      "url": "https://dibrucollege.edu.in/department-of-economics/",
+      "status": "ok",
+      "cache": "a22ec0d47cf28955c94c.json"
+    },
+    {
+      "url": "https://dibrucollege.edu.in/department-of-sociology/",
+      "status": "ok",
+      "cache": "2fca22137cc96785cfd0.json"
+    }
+  ]
+}

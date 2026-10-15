@@ -1,0 +1,46 @@
+{
+  "id": "190",
+  "college": "Devicharan Barua Girls' College (D.C.B. Girls' College)",
+  "pages": [
+    {
+      "url": "https://www.dcbgirlscollegejorhat.org/",
+      "status": "ok",
+      "cache": "fd2a50ce31a493bcf5b9.json"
+    },
+    {
+      "url": "https://oldweb.dibru.ac.in/wp-content/uploads/2022/09/Final-Electoral-Roll-2022-Website.pdf",
+      "status": "ok",
+      "cache": "2e67770c97e4ef4486b7.json"
+    },
+    {
+      "url": "https://www.dcbgirlscollegejorhat.org/prospectus.php",
+      "status": "ok",
+      "cache": "50836a494d2e1ef5c895.json"
+    },
+    {
+      "url": "https://www.dcbgirlscollegejorhat.org/calendar.php",
+      "status": "ok",
+      "cache": "1776943c8476585e5421.json"
+    },
+    {
+      "url": "https://www.dcbgirlscollegejorhat.org/PDFs/Revised%20Academic%20Calendar.pdf",
+      "status": "ok",
+      "cache": "fe849b290a88c9873337.json"
+    },
+    {
+      "url": "https://www.dcbgirlscollegejorhat.org/assamese.php",
+      "status": "ok",
+      "cache": "a57c040b865618ad3721.json"
+    },
+    {
+      "url": "https://www.dcbgirlscollegejorhat.org/bengali.php",
+      "status": "ok",
+      "cache": "8e6c6ab9aef719bad713.json"
+    },
+    {
+      "url": "https://www.dcbgirlscollegejorhat.org/economics.php",
+      "status": "ok",
+      "cache": "d2d260b18c2639cd1a10.json"
+    }
+  ]
+}

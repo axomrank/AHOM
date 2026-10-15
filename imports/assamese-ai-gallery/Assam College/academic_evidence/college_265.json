@@ -1,0 +1,46 @@
+{
+  "id": "265",
+  "college": "U.N. Brahma College",
+  "pages": [
+    {
+      "url": "https://bodofaunbc.ac.in/",
+      "status": "ok",
+      "cache": "e398eb36d858ba16467f.json"
+    },
+    {
+      "url": "https://bodofaunbc.ac.in/department.php",
+      "status": "ok",
+      "cache": "0957c83b897f0813a2bc.json"
+    },
+    {
+      "url": "https://bodofaunbc.ac.in/upload/headnotice/1778322285.pdf",
+      "status": "ok",
+      "cache": "99bcba032e58b6d40765.json"
+    },
+    {
+      "url": "https://bodofaunbc.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "bbdca5931ff235b4c14b.json"
+    },
+    {
+      "url": "https://bodofaunbc.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "346a9e9e534b19aa5e93.json"
+    },
+    {
+      "url": "https://bodofaunbc.ac.in/Academic-Departments.php?a=dd954f3b82e572728c64e9f804456f21b1933b6c65efa964d5c94c18d40f8fdbe7229d10759bb18737635c7aeeaf31cf7c4e1f624f36a5a8ade1e4f348fb95b3",
+      "status": "ok",
+      "cache": "2d9ec1c406ac751c6f75.json"
+    },
+    {
+      "url": "https://bodofaunbc.ac.in/Academic-Departments.php?a=47bf7e7447b85d9798993989dfec450df4b1f8bc158b866d1ba7222e1406840a95a392799dc25700d5b7def44c654803",
+      "status": "ok",
+      "cache": "2284500cc1283bda4941.json"
+    },
+    {
+      "url": "https://bodofaunbc.ac.in/Academic-Departments.php?a=c11669f1f34bb71930ed9aaccf3527dd557dfb03c1c8c3cc69b0f7118ec635078ffe4b1376e9a51d5f149c6f0444e241ecb16d824fc66cb90e05cf3d918b8a78",
+      "status": "ok",
+      "cache": "d85e67033fd989cacb16.json"
+    }
+  ]
+}

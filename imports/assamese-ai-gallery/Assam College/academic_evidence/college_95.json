@@ -1,0 +1,26 @@
+{
+  "id": "95",
+  "college": "Janata College, Chirang",
+  "pages": [
+    {
+      "url": "https://www.janatacollege.co.in/",
+      "status": "ok",
+      "cache": "2e98517ed859f66d29f3.json"
+    },
+    {
+      "url": "https://www.janatacollege.co.in/department.php",
+      "status": "ok",
+      "cache": "1a8c4cb4320070f78699.json"
+    },
+    {
+      "url": "https://www.janatacollege.co.in/academiccal.php",
+      "status": "ok",
+      "cache": "aacf869ced6cc306fd83.json"
+    },
+    {
+      "url": "https://www.janatacollege.co.in/dpt_login_qw12/",
+      "status": "ok",
+      "cache": "cce2db21263c89417646.json"
+    }
+  ]
+}

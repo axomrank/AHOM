@@ -1,0 +1,46 @@
+{
+  "id": "47",
+  "college": "Bhawanipur Anchalik College",
+  "pages": [
+    {
+      "url": "https://bacollege.ac.in/",
+      "status": "ok",
+      "cache": "27501d5080bdaf15968f.json"
+    },
+    {
+      "url": "https://bacollege.ac.in/index_pages.php?page=8d55d03cdc78b1a5f45a5a1ad",
+      "status": "ok",
+      "cache": "c531ca24878d806f3b9b.json"
+    },
+    {
+      "url": "https://bacollege.ac.in/page-details.php?name=Academic-Monitoring-Committee&pgurl=dc9e97d2728f2cb684918f600",
+      "status": "ok",
+      "cache": "c392e4f33b123e38eecd.json"
+    },
+    {
+      "url": "https://bacollege.ac.in/page-details.php?name=Academic-Calendar&pgurl=d1c7b5c51879b71fbbdd448a1",
+      "status": "ok",
+      "cache": "0431d904624dd53a3b14.json"
+    },
+    {
+      "url": "https://bacollege.ac.in/departments_home.php?departments=Arabic&url=db27eb8977baa852b2154e002998d52c89eb5414&slno=9",
+      "status": "ok",
+      "cache": "9b4d5c6e5b75ce11885e.json"
+    },
+    {
+      "url": "https://bacollege.ac.in/departments_home.php?departments=Assamese&url=05523be52aae72cbe3ae92fe557156b9ea40c63f&slno=8",
+      "status": "ok",
+      "cache": "82c089919bbec48461b8.json"
+    },
+    {
+      "url": "https://bacollege.ac.in/departments_home.php?departments=Economics&url=fd478ea2fffc486befb7cf5c5d1ca209ca437176&slno=10",
+      "status": "ok",
+      "cache": "29c19243e7579a49ad41.json"
+    },
+    {
+      "url": "https://bacollege.ac.in/departments_home.php?departments=Education&url=bcd2e4adfd722678d944142974c87d56463cd5ba&slno=7",
+      "status": "ok",
+      "cache": "cb381ff2c8e3026031af.json"
+    }
+  ]
+}

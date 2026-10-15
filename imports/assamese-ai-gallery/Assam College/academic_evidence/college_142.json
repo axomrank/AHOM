@@ -1,0 +1,46 @@
+{
+  "id": "142",
+  "college": "Namrup College",
+  "pages": [
+    {
+      "url": "https://namrupcollege.edu.in/",
+      "status": "ok",
+      "cache": "570e76a44f52ee6d0c4c.json"
+    },
+    {
+      "url": "https://namrupcollege.edu.in/uploads/Prospectus_NC_2026.pdf",
+      "status": "ok",
+      "cache": "2ebdb9d37eb04b94aa7d.json"
+    },
+    {
+      "url": "https://namrupcollege.edu.in/data/page/courses-offered/",
+      "status": "ok",
+      "cache": "7999f3c599e6ec60591b.json"
+    },
+    {
+      "url": "https://namrupcollege.edu.in/data/page/academic-in-charge/",
+      "status": "ok",
+      "cache": "d9bb17143fb038b72ee2.json"
+    },
+    {
+      "url": "https://namrupcollege.edu.in/data/page/academic-calender/",
+      "status": "ok",
+      "cache": "3d85c4002bd65cc40f71.json"
+    },
+    {
+      "url": "https://namrupcollege.edu.in/data/department/assamese/",
+      "status": "ok",
+      "cache": "d0fe85f033e7d1280486.json"
+    },
+    {
+      "url": "https://namrupcollege.edu.in/data/department/botany/",
+      "status": "ok",
+      "cache": "32b0495c18f10282d8ae.json"
+    },
+    {
+      "url": "https://namrupcollege.edu.in/data/department/chemistry/",
+      "status": "ok",
+      "cache": "4c1c37f4c45e339b687d.json"
+    }
+  ]
+}

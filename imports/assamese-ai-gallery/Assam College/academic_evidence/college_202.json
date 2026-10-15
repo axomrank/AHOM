@@ -1,0 +1,46 @@
+{
+  "id": "202",
+  "college": "B. Borooah College",
+  "pages": [
+    {
+      "url": "https://www.bborooahcollege.ac.in/",
+      "status": "ok",
+      "cache": "0e05070b6701fb65041f.json"
+    },
+    {
+      "url": "https://www.bborooahcollege.ac.in/arts.php",
+      "status": "ok",
+      "cache": "8356e52a7a190faac0db.json"
+    },
+    {
+      "url": "https://www.bborooahcollege.ac.in/science.php",
+      "status": "error",
+      "cache": "20ee9cba7908e51cd987.json"
+    },
+    {
+      "url": "https://www.bborooahcollege.ac.in/upload/notice/1747377791.pdf",
+      "status": "ok",
+      "cache": "7bbdf7671d96f20ec0bd.json"
+    },
+    {
+      "url": "https://www.bborooahcollege.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "22f3f08f9246d189d9e9.json"
+    },
+    {
+      "url": "https://www.bborooahcollege.ac.in/academic.php",
+      "status": "ok",
+      "cache": "03979671ece65b045a1d.json"
+    },
+    {
+      "url": "https://www.bborooahcollege.ac.in/dpt_login_bb/",
+      "status": "ok",
+      "cache": "1a32e71be67a183f33d2.json"
+    },
+    {
+      "url": "https://www.bborooahcollege.ac.in/Academic-Departments.php?encRequest=1df3902fb0519e88e2397f978e1621cc64620bbfd160af113d3769857e1f31d5ddb5d8494c9b23323475dc2a5924ffaed1f0bab293c81aff5ebb4c9116bb5fbe",
+      "status": "ok",
+      "cache": "6dc01f5197404caeb044.json"
+    }
+  ]
+}

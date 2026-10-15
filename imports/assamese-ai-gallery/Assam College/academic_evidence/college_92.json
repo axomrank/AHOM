@@ -1,0 +1,16 @@
+{
+  "id": "92",
+  "college": "Bengtol College",
+  "pages": [
+    {
+      "url": "https://www.bengtolcollege.ac.in/",
+      "status": "error",
+      "cache": "22363385519a8318ad2b.json"
+    },
+    {
+      "url": "https://www.bengtolcollege.ac.in/department/",
+      "status": "error",
+      "cache": "40a1bd9f479370cb4ee6.json"
+    }
+  ]
+}

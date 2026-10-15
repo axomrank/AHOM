@@ -1,0 +1,46 @@
+{
+  "id": "167",
+  "college": "Joya Gogoi College",
+  "pages": [
+    {
+      "url": "https://jgcollege.ac.in/",
+      "status": "ok",
+      "cache": "6311d971909c7223dc07.json"
+    },
+    {
+      "url": "https://jgcollege.org/wp-content/uploads/2024/04/JGC-INFORMATION-BROCHURE-2024-25-1.pdf",
+      "status": "ok",
+      "cache": "f4f9b1c9c4d5ebdf4731.json"
+    },
+    {
+      "url": "https://jgcollege.ac.in/college-prospectus/",
+      "status": "ok",
+      "cache": "39d4480a5445d755564f.json"
+    },
+    {
+      "url": "https://jgcollege.ac.in/academic-calendar/",
+      "status": "ok",
+      "cache": "df464cb4325fc5b3275e.json"
+    },
+    {
+      "url": "https://jgcollege.ac.in/department-of-assamese/",
+      "status": "ok",
+      "cache": "85ef057cca43cb5c5f6e.json"
+    },
+    {
+      "url": "https://jgcollege.ac.in/department-of-english/",
+      "status": "ok",
+      "cache": "b10e86542cb4d9cf4265.json"
+    },
+    {
+      "url": "https://jgcollege.ac.in/department-of-history/",
+      "status": "ok",
+      "cache": "dab42fa597f474c82d44.json"
+    },
+    {
+      "url": "https://jgcollege.ac.in/department-of-education/",
+      "status": "ok",
+      "cache": "b706ba79008a68764b4f.json"
+    }
+  ]
+}

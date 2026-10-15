@@ -1,0 +1,46 @@
+{
+  "id": "359",
+  "college": "Tinsukia College",
+  "pages": [
+    {
+      "url": "https://tinsukiacollege.in/",
+      "status": "ok",
+      "cache": "2230769571b760dd71c5.json"
+    },
+    {
+      "url": "https://tinsukiacollege.in/data/department/",
+      "status": "ok",
+      "cache": "4bc675a1b9788d459cde.json"
+    },
+    {
+      "url": "https://tinsukiacollege.in/uploads/Propectus_2026-27.pdf",
+      "status": "ok",
+      "cache": "cf4d0eb6ae343e3eea09.json"
+    },
+    {
+      "url": "https://tinsukiacollege.in/data/page/prospectus/",
+      "status": "ok",
+      "cache": "0e7867905ec9dfb6df6c.json"
+    },
+    {
+      "url": "https://tinsukiacollege.in/data/page/academic-calender/",
+      "status": "ok",
+      "cache": "01e729e9526ec2dc3eee.json"
+    },
+    {
+      "url": "https://tinsukiacollege.in/data/page/aaa-report-2019-20/",
+      "status": "ok",
+      "cache": "da77289052e0af97f392.json"
+    },
+    {
+      "url": "https://tinsukiacollege.in/data/department/assamese/",
+      "status": "ok",
+      "cache": "7bf5338600a07c383967.json"
+    },
+    {
+      "url": "https://tinsukiacollege.in/data/department/bengali/",
+      "status": "ok",
+      "cache": "5c1ae8386c700308a8fe.json"
+    }
+  ]
+}

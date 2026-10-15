@@ -1,0 +1,41 @@
+{
+  "id": "43",
+  "college": "Bapujee College",
+  "pages": [
+    {
+      "url": "https://bapujeecollege.ac.in/",
+      "status": "ok",
+      "cache": "14b7943cb6466b8de860.json"
+    },
+    {
+      "url": "https://bapujeecollege.ac.in/departments.php",
+      "status": "ok",
+      "cache": "a6374050adc8160c594d.json"
+    },
+    {
+      "url": "https://bapujeecollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "59d576517faa2d4f9887.json"
+    },
+    {
+      "url": "https://bapujeecollege.ac.in/academic_council.php",
+      "status": "ok",
+      "cache": "07889d7a56c327ed6065.json"
+    },
+    {
+      "url": "https://bapujeecollege.ac.in/courses.php",
+      "status": "ok",
+      "cache": "23166152658756943b1d.json"
+    },
+    {
+      "url": "https://bapujeecollege.ac.in/acalender.php",
+      "status": "ok",
+      "cache": "fa6b56d71c0b12afb72a.json"
+    },
+    {
+      "url": "https://bapujeecollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "597dda58d4c6fb096631.json"
+    }
+  ]
+}

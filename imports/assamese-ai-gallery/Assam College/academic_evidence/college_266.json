@@ -1,0 +1,46 @@
+{
+  "id": "266",
+  "college": "Bihpuria College",
+  "pages": [
+    {
+      "url": "https://bihpuriacollege.edu.in/",
+      "status": "ok",
+      "cache": "f282592592aad5407b82.json"
+    },
+    {
+      "url": "https://bihpuriacollege.edu.in/teaching-staff/",
+      "status": "ok",
+      "cache": "17ff4a1f4a3026c1e028.json"
+    },
+    {
+      "url": "https://bihpuriacollege.edu.in/wp-content/uploads/2026/08/Induction-Programme-of-FYUGP-1st-Semester-of-the-Department-of-Commerce.pdf\"",
+      "status": "ok",
+      "cache": "c14d0ad6a7161cd4cb01.json"
+    },
+    {
+      "url": "https://bihpuriacollege.edu.in/course-offered/",
+      "status": "ok",
+      "cache": "25e326053d45f8484cb5.json"
+    },
+    {
+      "url": "https://bihpuriacollege.edu.in/prospectus/",
+      "status": "ok",
+      "cache": "505c8c3abf7cd1324f3a.json"
+    },
+    {
+      "url": "https://bihpuriacollege.edu.in/academic-coordinators-message/",
+      "status": "ok",
+      "cache": "2a044115a4dbeef52027.json"
+    },
+    {
+      "url": "https://bihpuriacollege.edu.in/department",
+      "status": "ok",
+      "cache": "ce951c793d95f5e38f49.json"
+    },
+    {
+      "url": "https://bihpuriacollege.edu.in/academic-calendar/",
+      "status": "ok",
+      "cache": "d475912bddc5b4005c2b.json"
+    }
+  ]
+}

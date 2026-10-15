@@ -1,0 +1,31 @@
+{
+  "id": "319",
+  "college": "Barbhag College",
+  "pages": [
+    {
+      "url": "https://barbhagcollege.ac.in/",
+      "status": "ok",
+      "cache": "efc40583d730f7e247b5.json"
+    },
+    {
+      "url": "https://barbhagcollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "4453db60b0a73fc9df96.json"
+    },
+    {
+      "url": "https://barbhagcollege.ac.in/academiccalndar.php",
+      "status": "ok",
+      "cache": "4f28725fc52864ca9af1.json"
+    },
+    {
+      "url": "https://barbhagcollege.ac.in/courses.php",
+      "status": "ok",
+      "cache": "c9431a5a11643902a4b3.json"
+    },
+    {
+      "url": "https://barbhagcollege.ac.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "f1f1eac2250c2ef4f3a1.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "21",
+  "college": "Government Model College, Deithor",
+  "pages": [
+    {
+      "url": "https://gmcdeithor.ac.in/",
+      "status": "ok",
+      "cache": "bea15c4d309fa2b19662.json"
+    },
+    {
+      "url": "https://gmcdeithor.ac.in/academics/1/departments",
+      "status": "ok",
+      "cache": "9025e888ae9d699df719.json"
+    },
+    {
+      "url": "https://gmcdeithor.ac.in/academics",
+      "status": "ok",
+      "cache": "f44eb50d1ef942a28e23.json"
+    },
+    {
+      "url": "https://gmcdeithor.ac.in/department/assamese",
+      "status": "ok",
+      "cache": "d1fb3404597729e56a0e.json"
+    },
+    {
+      "url": "https://gmcdeithor.ac.in/department/economics",
+      "status": "ok",
+      "cache": "95837d4d15edbad0f298.json"
+    },
+    {
+      "url": "https://gmcdeithor.ac.in/department/education",
+      "status": "ok",
+      "cache": "f4dbfa54f7652b695bb8.json"
+    },
+    {
+      "url": "https://gmcdeithor.ac.in/department/english",
+      "status": "ok",
+      "cache": "60d7eabe5f7886012265.json"
+    },
+    {
+      "url": "https://gmcdeithor.ac.in/department/political-science",
+      "status": "ok",
+      "cache": "3cf5fe37129dac2673be.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "213",
+  "college": "Lalit Chandra Bharali College (LCB College)",
+  "pages": [
+    {
+      "url": "https://www.lcbcollege.co.in/",
+      "status": "ok",
+      "cache": "19d4d94489ee3164e88e.json"
+    },
+    {
+      "url": "https://www.lcbcollege.co.in/departments.php",
+      "status": "ok",
+      "cache": "150c62b1c0f82e8ec438.json"
+    },
+    {
+      "url": "https://www.lcbcollege.co.in/Final Pros 26-27 LCBC.pdf",
+      "status": "ok",
+      "cache": "5a6f71ad27d101ff609d.json"
+    },
+    {
+      "url": "https://www.lcbcollege.co.in/dpt_login_lcbghy/",
+      "status": "ok",
+      "cache": "d8e9b62e842be982d92a.json"
+    },
+    {
+      "url": "https://www.lcbcollege.co.in/Academic-Departments.php?department=ASSAMESE",
+      "status": "ok",
+      "cache": "134d6e129eb31e37b403.json"
+    },
+    {
+      "url": "https://www.lcbcollege.co.in/Academic-Departments.php?department=BENGALI",
+      "status": "ok",
+      "cache": "2c9b9bdf136a8268d60a.json"
+    },
+    {
+      "url": "https://www.lcbcollege.co.in/Academic-Departments.php?department=COMPUTER SCIENCE",
+      "status": "ok",
+      "cache": "afb864a5485501627b8f.json"
+    },
+    {
+      "url": "https://www.lcbcollege.co.in/Academic-Departments.php?department=ECONOMICS",
+      "status": "ok",
+      "cache": "0c024d06d8d5b88c166e.json"
+    }
+  ]
+}

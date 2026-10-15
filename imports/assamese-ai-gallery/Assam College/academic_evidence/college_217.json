@@ -1,0 +1,31 @@
+{
+  "id": "217",
+  "college": "Paschim Guwahati Mahavidyalaya",
+  "pages": [
+    {
+      "url": "https://pgmdharapur.ac.in/",
+      "status": "ok",
+      "cache": "1fefc9a22c59e41439f4.json"
+    },
+    {
+      "url": "https://pgmdharapur.ac.in/departments.php",
+      "status": "ok",
+      "cache": "e7a0c04e7b8c313b92be.json"
+    },
+    {
+      "url": "https://pgmdharapur.ac.in/upload/headnotice/1754406646.pdf",
+      "status": "ok",
+      "cache": "c786697d6c80f3e9a121.json"
+    },
+    {
+      "url": "https://pgmdharapur.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "6fa025d5e09cfefcc741.json"
+    },
+    {
+      "url": "https://pgmdharapur.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "794e85d3f59dc4c27bdc.json"
+    }
+  ]
+}

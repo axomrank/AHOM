@@ -1,0 +1,21 @@
+{
+  "id": "18",
+  "college": "Pandit Deendayal Upadhyaya Government Model College, Katlicherra",
+  "pages": [
+    {
+      "url": "https://pdugmck.ac.in/",
+      "status": "ok",
+      "cache": "3f76fc9ea53c39a17e2c.json"
+    },
+    {
+      "url": "https://pdugmck.ac.in/wp-content/uploads/2024/05/main_11-05-24-PROSPECTUS-2024-25.pdf",
+      "status": "ok",
+      "cache": "10549f207726e2b81b3b.json"
+    },
+    {
+      "url": "https://pdugmck.ac.in/index.php/academic-cell/",
+      "status": "ok",
+      "cache": "071818292b3eb9aa56ba.json"
+    }
+  ]
+}

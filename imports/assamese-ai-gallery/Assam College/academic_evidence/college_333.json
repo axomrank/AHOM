@@ -1,0 +1,46 @@
+{
+  "id": "333",
+  "college": "Demow College",
+  "pages": [
+    {
+      "url": "https://demowcollege.com/",
+      "status": "ok",
+      "cache": "404654071615a26ddbe1.json"
+    },
+    {
+      "url": "https://demowcollege.com/departmental-ppt-presentation-economics/",
+      "status": "ok",
+      "cache": "cfca743fabd2e766ec4b.json"
+    },
+    {
+      "url": "https://demowcollege.com/departmental-wall-magazine-2025-26/",
+      "status": "ok",
+      "cache": "ba7534e59355d0840bd1.json"
+    },
+    {
+      "url": "https://demowcollege.com/prospectus/",
+      "status": "ok",
+      "cache": "734af332e301d002e790.json"
+    },
+    {
+      "url": "https://demowcollege.com/academic-and-administrative-audit/",
+      "status": "ok",
+      "cache": "1b0fb2a86c3720bbc701.json"
+    },
+    {
+      "url": "https://demowcollege.com/academic-calender/",
+      "status": "ok",
+      "cache": "ba2c43b0a7f3c676a878.json"
+    },
+    {
+      "url": "https://demowcollege.com/category/departmental-extension-programme/",
+      "status": "ok",
+      "cache": "51ed15070da10a4065bd.json"
+    },
+    {
+      "url": "https://demowcollege.com/international-mother-language-day-organized-by-department-of-assamese/",
+      "status": "ok",
+      "cache": "acfe410fd7d7b5e9fc53.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "297",
+  "college": "Morigaon College",
+  "pages": [
+    {
+      "url": "https://morigaoncollege.ac.in/",
+      "status": "ok",
+      "cache": "1194b651f35bc189adbf.json"
+    },
+    {
+      "url": "https://morigaoncollege.ac.in/departments/",
+      "status": "ok",
+      "cache": "25623d617cdc11e0ff42.json"
+    },
+    {
+      "url": "https://morigaoncollege.ac.in/prospectus-2025-26/",
+      "status": "ok",
+      "cache": "50d16e82e1ccdcb12495.json"
+    },
+    {
+      "url": "https://morigaoncollege.ac.in/wp-content/uploads/2026/05/MCA_Prospectus_2026-27.pdf",
+      "status": "ok",
+      "cache": "9cc29bcf862a29906e3a.json"
+    },
+    {
+      "url": "https://morigaoncollege.ac.in/wp-content/uploads/2026/07/PG-Admission-Timeline-Notice-2026.pdf",
+      "status": "ok",
+      "cache": "ae6df002221a1703c674.json"
+    },
+    {
+      "url": "https://morigaoncollege.ac.in/prospectus/",
+      "status": "ok",
+      "cache": "e4fd793aac8a494c06dd.json"
+    },
+    {
+      "url": "https://morigaoncollege.ac.in/programme-offered/",
+      "status": "ok",
+      "cache": "8dbd0bd57ea89c560076.json"
+    },
+    {
+      "url": "https://morigaoncollege.ac.in/members-academic-council/",
+      "status": "ok",
+      "cache": "d218224d48fdbeab4ade.json"
+    }
+  ]
+}

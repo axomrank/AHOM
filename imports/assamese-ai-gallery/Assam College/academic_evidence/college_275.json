@@ -1,0 +1,46 @@
+{
+  "id": "275",
+  "college": "Laluk College",
+  "pages": [
+    {
+      "url": "https://lalukcollege.in/",
+      "status": "ok",
+      "cache": "b29202a6a5f7ab623ef6.json"
+    },
+    {
+      "url": "https://lalukcollege.in/courses-and-subjects/",
+      "status": "ok",
+      "cache": "2a4aea2d4a6b50d282b3.json"
+    },
+    {
+      "url": "https://lalukcollege.in/wp-content/uploads/2025/05/Prospectus-2025-2026.pdf",
+      "status": "ok",
+      "cache": "8459a9f5b5935ee11984.json"
+    },
+    {
+      "url": "https://lalukcollege.in/wp-content/uploads/2024/05/Prospectus_-LC2024-2025.pdf",
+      "status": "ok",
+      "cache": "f7edbd29a3ef4a30da1f.json"
+    },
+    {
+      "url": "https://lalukcollege.in/academic-and-research-activities/",
+      "status": "ok",
+      "cache": "95452e7b9a73353fa6c7.json"
+    },
+    {
+      "url": "https://lalukcollege.in/gallery/green-audit-academic/",
+      "status": "ok",
+      "cache": "ddf5c46ed26aafe86329.json"
+    },
+    {
+      "url": "https://lalukcollege.in/wp-content/uploads/2019/09/ACADEMIC-AND-ADMINISTTRATIVE-AUDIT.pdf",
+      "status": "ok",
+      "cache": "94556e35faa78ddee52d.json"
+    },
+    {
+      "url": "https://lalukcollege.in/wp-content/uploads/2019/08/Academic_Calendar_for_Collegesrev.pdf",
+      "status": "ok",
+      "cache": "647dc8dd0b150e4a6f3c.json"
+    }
+  ]
+}

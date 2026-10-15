@@ -1,0 +1,16 @@
+{
+  "id": "155",
+  "college": "Jaleswar College",
+  "pages": [
+    {
+      "url": "https://jaleswarcollege.ac.in/",
+      "status": "ok",
+      "cache": "e52554aca92f7d10cfae.json"
+    },
+    {
+      "url": "https://jaleswarcollege.ac.in/wp-content/uploads/2025/05/Prospectus-2025-26-2.pdf",
+      "status": "ok",
+      "cache": "8b819a7173a8236ca076.json"
+    }
+  ]
+}

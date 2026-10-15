@@ -1,0 +1,16 @@
+{
+  "id": "210",
+  "college": "K.R.B. Girls' College",
+  "pages": [
+    {
+      "url": "https://krbgirlscollege.ac.in/",
+      "status": "error",
+      "cache": "a23f1cfd75b8b7c2f055.json"
+    },
+    {
+      "url": "https://krbgirlscollege.ac.in/PDFs/KRB%20Giirls%20College%20Prospectus%202025-26.pdf",
+      "status": "error",
+      "cache": "52cfdebe79c7f7545fc1.json"
+    }
+  ]
+}

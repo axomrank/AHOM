@@ -1,0 +1,46 @@
+{
+  "id": "181",
+  "college": "Haji Anfar Ali College",
+  "pages": [
+    {
+      "url": "https://haac.ac.in/",
+      "status": "ok",
+      "cache": "363314532d46251d24ac.json"
+    },
+    {
+      "url": "https://haac.ac.in/Academic-All-Departments.php",
+      "status": "ok",
+      "cache": "4317cafe2666de10a785.json"
+    },
+    {
+      "url": "https://haac.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "680536921d2c0285f012.json"
+    },
+    {
+      "url": "https://haac.ac.in/upload/library/Academic Calander 2023-24.pdf",
+      "status": "ok",
+      "cache": "63876b4721edddac6dd3.json"
+    },
+    {
+      "url": "https://haac.ac.in/upload/library/Academic Calander 2022-23.pdf",
+      "status": "ok",
+      "cache": "8a1285ce377abff29ba1.json"
+    },
+    {
+      "url": "https://haac.ac.in/upload/library/Academic Calendar 2021-22-II.pdf",
+      "status": "ok",
+      "cache": "de4f86b1570f42c77ce1.json"
+    },
+    {
+      "url": "https://haac.ac.in/upload/library/College Academic Calender.pdf",
+      "status": "ok",
+      "cache": "47e5092eab37d8a0a159.json"
+    },
+    {
+      "url": "https://haac.ac.in/upload/library/Academic Calendar 2021-22.pdf",
+      "status": "ok",
+      "cache": "7e2f314e14e2f6188c76.json"
+    }
+  ]
+}

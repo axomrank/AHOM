@@ -1,0 +1,46 @@
+{
+  "id": "59",
+  "college": "Behali Degree College",
+  "pages": [
+    {
+      "url": "https://www.behalidegreecollege.in/",
+      "status": "ok",
+      "cache": "e58c00fd1e2603f09f57.json"
+    },
+    {
+      "url": "https://www.behalidegreecollege.in/department.php",
+      "status": "ok",
+      "cache": "fb0e480198b006c718b0.json"
+    },
+    {
+      "url": "https://www.behalidegreecollege.in/Prospectus 2026-27 (1).pdf",
+      "status": "ok",
+      "cache": "d9f52b3faf016c3673b8.json"
+    },
+    {
+      "url": "https://www.behalidegreecollege.in/prospectus.php",
+      "status": "ok",
+      "cache": "02bc42f1b0b768aa9d7c.json"
+    },
+    {
+      "url": "https://www.behalidegreecollege.in/academicactivities.php",
+      "status": "ok",
+      "cache": "87062caa2580fcf1c097.json"
+    },
+    {
+      "url": "https://www.behalidegreecollege.in/acal.php",
+      "status": "ok",
+      "cache": "a4db770e9848dba93f34.json"
+    },
+    {
+      "url": "https://www.behalidegreecollege.in/#!",
+      "status": "ok",
+      "cache": "4283a3da8c7d1c1a1997.json"
+    },
+    {
+      "url": "https://www.behalidegreecollege.in/department.php#!",
+      "status": "ok",
+      "cache": "6fb3efa4b65e7150d57d.json"
+    }
+  ]
+}

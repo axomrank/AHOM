@@ -1,0 +1,46 @@
+{
+  "id": "89",
+  "college": "Sonari College",
+  "pages": [
+    {
+      "url": "https://sonaricollege.in/",
+      "status": "ok",
+      "cache": "859b811a3138f6f59162.json"
+    },
+    {
+      "url": "https://sonaricollege.in/index.php/component/content/?view=article&id=242&Itemid=650",
+      "status": "ok",
+      "cache": "af1cbb86e2680a68152d.json"
+    },
+    {
+      "url": "https://sonaricollege.in/index.php/about/facilities/academic-infrastructure",
+      "status": "ok",
+      "cache": "ad8b6bc61858ebd5eca9.json"
+    },
+    {
+      "url": "https://sonaricollege.in/index.php/administration/head-of-departments",
+      "status": "ok",
+      "cache": "3fc4a6357c004a4ab500.json"
+    },
+    {
+      "url": "https://sonaricollege.in/index.php/academics/courses/regular-mode",
+      "status": "ok",
+      "cache": "69883cd394e1ae88adc2.json"
+    },
+    {
+      "url": "https://sonaricollege.in/index.php/academics/courses/distance-mode",
+      "status": "ok",
+      "cache": "cea6765bad4f23d4068f.json"
+    },
+    {
+      "url": "https://sonaricollege.in/index.php/academics/courses/add-on-certificate-course",
+      "status": "ok",
+      "cache": "9f03c9358e0b8a48ef35.json"
+    },
+    {
+      "url": "https://sonaricollege.in/index.php/academics/syllabus",
+      "status": "ok",
+      "cache": "9799c146d2ab7f4f5430.json"
+    }
+  ]
+}

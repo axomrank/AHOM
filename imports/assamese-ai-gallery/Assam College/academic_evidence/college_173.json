@@ -1,0 +1,46 @@
+{
+  "id": "173",
+  "college": "Sarupathar College",
+  "pages": [
+    {
+      "url": "https://sarupatharcollege.ac.in/",
+      "status": "ok",
+      "cache": "67d3fa4db7233621683b.json"
+    },
+    {
+      "url": "https://sarupatharcollege.ac.in/static/upload/prospectus-2024-25.pdf",
+      "status": "ok",
+      "cache": "5f02c5c7d3918288cdfa.json"
+    },
+    {
+      "url": "https://sarupatharcollege.ac.in/academic/departments/post-graduate-diploma-in-computer-educationpgdca",
+      "status": "ok",
+      "cache": "1ea15c9c31184ed878ce.json"
+    },
+    {
+      "url": "https://sarupatharcollege.ac.in/academic/courses/bachelor-of-arts",
+      "status": "ok",
+      "cache": "e98ad78ccf512ec5ca8d.json"
+    },
+    {
+      "url": "https://sarupatharcollege.ac.in/academic/courses/bachelor-of-commerce",
+      "status": "ok",
+      "cache": "12dbd48864796dd06930.json"
+    },
+    {
+      "url": "https://sarupatharcollege.ac.in/academic/courses/hs-programme",
+      "status": "ok",
+      "cache": "9f5fd6bdf0490f3b4e9f.json"
+    },
+    {
+      "url": "https://sarupatharcollege.ac.in/academic/departments/assamese",
+      "status": "ok",
+      "cache": "abd525b0328b2282ed65.json"
+    },
+    {
+      "url": "https://sarupatharcollege.ac.in/academic/departments/commerce",
+      "status": "ok",
+      "cache": "99e8b456afb070360a66.json"
+    }
+  ]
+}

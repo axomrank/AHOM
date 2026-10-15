@@ -1,0 +1,16 @@
+{
+  "id": "124",
+  "college": "Halakura College",
+  "pages": [
+    {
+      "url": "https://halakuracollege.ac.in/",
+      "status": "ok",
+      "cache": "6de2a946a6bb311f25d3.json"
+    },
+    {
+      "url": "https://halakuracollege.ac.in/wp-content/uploads/2024/03/COURSE-OUTCOME-OF-ALL-DEPARTMENT.pdf",
+      "status": "ok",
+      "cache": "752bba9d7d288ac90e23.json"
+    }
+  ]
+}

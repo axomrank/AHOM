@@ -1,0 +1,1 @@
+{"url": "https://sibsagarcommercecollege.org.in/", "retrieved": "2026-10-02", "status": "error", "error": "ConnectTimeout: HTTPSConnectionPool(host='sibsagarcommercecollege.org.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='sibsagarcommercecollege.org.in', port=443) "}

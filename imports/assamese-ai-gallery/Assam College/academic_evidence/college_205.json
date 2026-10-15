@@ -1,0 +1,16 @@
+{
+  "id": "205",
+  "college": "Dispur College",
+  "pages": [
+    {
+      "url": "https://dispurcollege.ac.in/",
+      "status": "ok",
+      "cache": "456b77fcc4250e381072.json"
+    },
+    {
+      "url": "https://webbackend.dispurcollege.ac.in/src/uploads/COLLEGE_DOWNLOADS/Prospectus%202025-26%20%281%29_compressed_3l0J9Q5HbB.pdf",
+      "status": "ok",
+      "cache": "3fd0194b5c5652f77924.json"
+    }
+  ]
+}

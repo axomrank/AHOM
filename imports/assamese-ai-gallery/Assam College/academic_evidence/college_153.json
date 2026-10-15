@@ -1,0 +1,46 @@
+{
+  "id": "153",
+  "college": "Goalpara College",
+  "pages": [
+    {
+      "url": "https://goalparacollege.ac.in/",
+      "status": "ok",
+      "cache": "3ba69b67857aaf9f2e5d.json"
+    },
+    {
+      "url": "https://goalparacollege.ac.in/departments.php",
+      "status": "ok",
+      "cache": "a0b5b68bb67ace27ec7a.json"
+    },
+    {
+      "url": "https://goalparacollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "42c2a9ceb729962d6912.json"
+    },
+    {
+      "url": "https://goalparacollege.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "69374a191373dfe5aeff.json"
+    },
+    {
+      "url": "https://goalparacollege.ac.in/Academic-Departments.php?id=6cc35481e8b339155bd4281f01cc5ffadd3cfbb3b57f0f53b18044600f07bb17305a200fbae956ec79e3a800b128fa4d63955db96aea4ef369426fd1472cf276",
+      "status": "ok",
+      "cache": "f8541ed5ea06c7bfefc4.json"
+    },
+    {
+      "url": "https://goalparacollege.ac.in/Academic-Departments.php?id=f72ca5278453ae108d3374d14a7e4252ad7db00373f29e302b690e8e9aacd7658df02a3524b02859fe9a3661330bf1bea72bcb704a32d9755bd95690d3ff91d1",
+      "status": "ok",
+      "cache": "e6c94598264a2d689d12.json"
+    },
+    {
+      "url": "https://goalparacollege.ac.in/Academic-Departments.php?id=f3c2f79f4b28bd467a3254b6ef1e478c454bc02c08f3e3f3812f3bcd39fa4c4ea243585419a1eb087ed45482986a3272b12405c1189568795a203c26b903a369",
+      "status": "ok",
+      "cache": "34fe24eb88bba4386b27.json"
+    },
+    {
+      "url": "https://goalparacollege.ac.in/Academic-Departments.php?id=e5bcac3a240aa9e58d6bcd72b6099a6e06fc7b7dda672ef8b55026fbb86927b76e39e62cc77ae384c652bb95173062802c94d13cd25681bfb425d07a1d8be843",
+      "status": "ok",
+      "cache": "9996bfe3dc9c807a255a.json"
+    }
+  ]
+}

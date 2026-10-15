@@ -1,0 +1,46 @@
+{
+  "id": "272",
+  "college": "Lakhimpur Commerce College",
+  "pages": [
+    {
+      "url": "https://lcc.ac.in/",
+      "status": "ok",
+      "cache": "06bb89598d097d8c6b71.json"
+    },
+    {
+      "url": "https://cdn.lccollege.edu.in/prospectus/1776953651605_Final_Prospectus-_2026.pdf",
+      "status": "ok",
+      "cache": "68d5df982810b03de571.json"
+    },
+    {
+      "url": "https://lcc.ac.in/genrate.aspx?id=9",
+      "status": "ok",
+      "cache": "add11f700502b6008b53.json"
+    },
+    {
+      "url": "https://lcc.ac.in/genrate.aspx?id=315",
+      "status": "ok",
+      "cache": "0afe468572fece47e259.json"
+    },
+    {
+      "url": "https://lcc.ac.in/genrate.aspx?id=210",
+      "status": "ok",
+      "cache": "664cb21b84273a31ebb6.json"
+    },
+    {
+      "url": "https://lcc.ac.in/genrate.aspx?id=211",
+      "status": "ok",
+      "cache": "e2d300175e4c61cfd4bd.json"
+    },
+    {
+      "url": "https://lcc.ac.in/genrate.aspx?id=212",
+      "status": "ok",
+      "cache": "5c906bcbbb30fa6c9ba8.json"
+    },
+    {
+      "url": "https://lcc.ac.in/genrate.aspx?id=213",
+      "status": "ok",
+      "cache": "bc87907a0bb297362621.json"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "212",
+  "college": "Karmashree Hiteswar Saikia College",
+  "pages": [
+    {
+      "url": "http://www.khscollege.com/",
+      "status": "ok",
+      "cache": "9481d544a1539d80bfae.json"
+    },
+    {
+      "url": "https://www.khscollege.com/faculty.htm",
+      "status": "error",
+      "cache": "8a53f19a343a7a617e5f.json"
+    },
+    {
+      "url": "http://www.khscollege.com/pdf/Prospectus_2026_27.pdf",
+      "status": "ok",
+      "cache": "c9a9f4235e0425172924.json"
+    },
+    {
+      "url": "http://www.khscollege.com/pdf/AcdemicCalender.pdf",
+      "status": "ok",
+      "cache": "d4802298fdd4293e3b52.json"
+    }
+  ]
+}

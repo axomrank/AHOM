@@ -1,0 +1,456 @@
+--- xl/worksheets/sheet1.xml ---
+AXOMRANK Instagram Carousel Calendar |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+9 October - 30 December 2026. Three carousels each week: Monday, Wednesday, Friday. |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+Post ID | Publish date | Day | Month | Pillar | Series | Cover hook | Goal | Final CTA | Destination to link | Caption | Hashtags | Assets to prepare | Editorial check | Status
+AR01 | 2026-10-09T00:00:00.000Z | Friday | October | Practice | Wrong Answer Clinic | 20% up. 20% down. Back to zero? | Answers and topic practice | Save this percentage trap. | Percentage practice | An equal rise and fall can still leave you with less. Try the 10% example, then practise more percentage questions on AxomRank. | #AxomRank #ADRE #ADREPreparation #PracticeQuestions | Clean 100 > 120 > 96 sequence. Use text arrows as layout cues, not decorative graphics. | Original practice examples. Independently checked arithmetic. | Draft
+AR02 | 2026-10-12T00:00:00.000Z | Monday | October | Guidance & tools | Study Planner | Only one hour to study today? | Saves and tool visits | Save your one-hour study plan. | Study planner | A busy day can still include useful practice. Try this one-hour routine and adjust the blocks to your schedule. | #AxomRank #ADRE #StudyPlan #AssamExams | Four simple time blocks. Notebook and clock line icons. | Time allocation is a suggested routine, not a guaranteed outcome. | Draft
+AR03 | 2026-10-14T00:00:00.000Z | Wednesday | October | Assam GK | Assam GK Notes | Can you tell the three Bihus apart? | Saves and Assam GK practice | Save the comparison. Try more Assam GK. | Assam culture practice | Three Bihus, three different contexts. Keep this comparison for revision and attempt the practice question before checking the answer. | #AxomRank #ADRE #AssamGK #AssamHistory | Three restrained panels: spring, lamp, and meji. Avoid a crowded festival collage. | Use mid-month timing, not an unverified exact 2026 festival date. Label question as practice. | Draft
+AR04 | 2026-10-16T00:00:00.000Z | Friday | October | Practice | AXOMRANK Quick 3 | Three maths questions. How many can you solve? | Answers and topic practice | Comment your score out of 3. | Maths practice | Attempt all three before opening the answer card. These are original practice questions. Tell us which topic you want to practise next. | #AxomRank #ADRE #ADREPreparation #PracticeQuestions | One question per card. Large options with consistent spacing. | Original practice questions, not PYQs. Answers checked. | Draft
+AR05 | 2026-10-19T00:00:00.000Z | Monday | October | Practice | Wrong Answer Clinic | Everyone HAVE a plan. What is wrong? | Answers and topic practice | Save this subject-verb reminder. | English grammar practice | A familiar word can hide a grammar mistake. Correct the sentence first, then try the short practice question. | #AxomRank #ADRE #ADREPreparation #PracticeQuestions | Before/after sentence cards. Underline everyone and each. | Keep example within standard formal English. Original practice item. | Draft
+AR06 | 2026-10-21T00:00:00.000Z | Wednesday | October | Guidance & tools | Exam Guide | Before you apply, check these five things. | Saves and tool visits | Save this application checklist. | Eligibility checker | Keep your qualification, age details, and certificates beside you before reviewing a notification. Visit AxomRank for preparation tools and use the official notice for the final rules. | #AxomRank #ADRE #StudyPlan #AssamExams | Checklist plus a real eligibility-tool screenshot, captured from the live site. | Do not publish specific ages, qualifications, fees, or dates without the current official notice. Verify tool availability. | Draft
+AR07 | 2026-10-23T00:00:00.000Z | Friday | October | Community & progress | 30-Day Mission | Before you study harder, record your starting point. | Participation and repeat practice | Take your baseline test this weekend. | Mock tests | Your first score gives you a place to begin. Save the result and tell us the one topic you will work on this week. | #AxomRank #ADRE #StudyTogether #MockTest | Blank personal baseline worksheet. No invented topper score or testimonial. | Use real student data only with permission. No guaranteed rank or score improvement. | Draft
+AR08 | 2026-10-26T00:00:00.000Z | Monday | October | Practice | AXOMRANK Quick 3 | Three reasoning questions. Try them in order. | Answers and topic practice | Comment your score out of 3. | Reasoning practice | Read the exact wording before choosing an option. These original practice questions cover a series, shapes, and an analogy. | #AxomRank #ADRE #ADREPreparation #PracticeQuestions | Simple number tiles and shape outlines. No visual clue that reveals answers early. | Original practice questions. Check that shapes match their labels. | Draft
+AR09 | 2026-10-28T00:00:00.000Z | Wednesday | October | Offers | Inside AxomRank | What should you do first on AxomRank? | Product visits and enquiries | Open AxomRank and choose your first test. | Mock tests | Here is a simple way to begin: attempt, review, practise a weak topic, and return. Visit the link in our bio to see the available tests and tools. | #AxomRank #ADRE #ExamPreparation #ADREPreparation | Real mobile screenshots showing test selection, an answer explanation, and a topic page. | Capture the current interface. Confirm access conditions. Avoid invented analytics or auto-recommendation features. | Draft
+AR10 | 2026-10-30T00:00:00.000Z | Friday | October | Assam GK | Assam GK Notes | You see Rang Ghar in our logo. Know its story? | Saves and Assam GK practice | Save this landmark. Practise Assam history. | Assam history practice | Our mark draws on Rang Ghar. Learn its location, royal association, and purpose, then test yourself with the practice question. | #AxomRank #ADRE #AssamGK #AssamHistory | Use the supplied Rang Ghar artwork. Pair it with large fact labels. | Avoid conflicting construction-year claims and unqualified oldest-in-Asia claims. Practice question, not PYQ. | Draft
+AR11 | 2026-11-02T00:00:00.000Z | Monday | November | Practice | Wrong Answer Clinic | Adding one number can change the whole average. | Answers and topic practice | Save the total-first method. | Average practice | Turn the average into a total before adding or removing a value. Try the second example without looking at the answer. | #AxomRank #ADRE #ADREPreparation #PracticeQuestions | Show total and count on separate lines. Highlight the changing denominator. | Original worked examples. Arithmetic independently checked. | Draft
+AR12 | 2026-11-04T00:00:00.000Z | Wednesday | November | Guidance & tools | Mistake Notebook | Your wrong answers need a place to go. | Saves and tool visits | Make one mistake-note entry today. | Topic practice | You do not need to copy the whole textbook. Start with one missed question, one reason, and one correction you can use later. | #AxomRank #ADRE #StudyPlan #AssamExams | Four-field notebook template. One neutral example, no fake student claim. | Suggested study routine. Avoid promising a fixed improvement percentage. | Draft
+AR13 | 2026-11-06T00:00:00.000Z | Friday | November | Practice | Wrong Answer Clinic | A ratio tells you shares, not the final amounts. | Answers and topic practice | Save this ratio method. | Ratio practice | Find the value of one part before finding either share. Check both the total and the ratio when you finish. | #AxomRank #ADRE #ADREPreparation #PracticeQuestions | Five-part bar split into two maroon and three ivory sections. | Original example. Keep amounts consistent across text and bar. | Draft
+AR14 | 2026-11-09T00:00:00.000Z | Monday | November | Community & progress | Study Together | Make your study buddy useful this week. | Participation and repeat practice | Send this to your study partner. | Short topic quiz | A study session works better when both people attempt and explain. Share this plan and choose your first topic together. | #AxomRank #ADRE #StudyTogether #MockTest | Two notebooks and a shared quiz card. If using a photo, show realistic adult aspirants. | No fabricated conversations, testimonials, or student results. | Draft
+AR15 | 2026-11-11T00:00:00.000Z | Wednesday | November | Practice | AXOMRANK Quick 3 | Three science basics. Can you get 3/3? | Answers and topic practice | Comment your score. Save the answer card. | General science practice | Three original practice questions from biology and physics. Try them first, then use the answer card to check the concepts. | #AxomRank #ADRE #ADREPreparation #PracticeQuestions | Leaf, cell, and force line icons. Do not confuse a ribosome icon with a nucleus. | Original practice questions. Most genetic material qualifier accounts for mitochondrial DNA. | Draft
+AR16 | 2026-11-13T00:00:00.000Z | Friday | November | Assam GK | Assam GK Notes | Which community celebrates which festival? | Saves and Assam GK practice | Save these festival-community pairs. | Assam culture practice | Names are easier to remember with their context. Revise the two pairs and attempt more Assam culture questions on AxomRank. | #AxomRank #ADRE #AssamGK #AssamHistory | Typography-led pairing cards. Avoid generic community costumes or mixed motifs. | Respect community spellings. Use source descriptions. Original practice question. | Draft
+AR17 | 2026-11-16T00:00:00.000Z | Monday | November | Offers | Choose Your Practice Plan | Before buying a study plan, check these things. | Product visits and enquiries | Check the current AxomRank plans. | Current plan / subscription page | A useful practice plan should fit your exam, schedule, and budget. Visit AxomRank to review the current options and any available sample. | #AxomRank #ADRE #ExamPreparation #ADREPreparation | Use a live plan-page screenshot only after price and features are confirmed. | Verify that paid plans are live. If unavailable, use the free practice destination. No invented discount or deadline. | Draft
+AR18 | 2026-11-18T00:00:00.000Z | Wednesday | November | Guidance & tools | Exam Guide | One difficult question can use up your whole test. | Saves and tool visits | Test this approach in your next mock. | Timed mock | Try a two-pass approach when the test interface allows it. Review how you used your time after finishing. | #AxomRank #ADRE #StudyPlan #AssamExams | Clock and two-pass checklist. A real mock screen if navigation allows review. | Do not assume a specific ADRE marking scheme or navigation rule. Verify current test instructions. | Draft
+AR19 | 2026-11-20T00:00:00.000Z | Friday | November | Practice | AXOMRANK Quick 3 | Three computer basics you should know. | Answers and topic practice | Comment your score out of 3. | Computer awareness practice | Attempt these original computer-awareness questions before reading the answers. Which topic should we cover next: devices, files, or spreadsheets? | #AxomRank #ADRE #ADREPreparation #PracticeQuestions | Simple device icons. Keep CPU options on separate lines. | Original practice questions, not official PYQs. | Draft
+AR20 | 2026-11-23T00:00:00.000Z | Monday | November | Assam GK | Assam GK Notes | Lachit. Saraighat. 1671. Can you connect them? | Saves and Assam GK practice | Save this three-part history link. | Assam history practice | Revise the commander, battle, and year together. Answer the practice question before checking the final line. | #AxomRank #ADRE #AssamGK #AssamHistory | Minimal Brahmaputra river line and large 1671. No fabricated portrait presented as historical. | Source-based history. Do not present the post date as Lachit Divas. Original practice question. | Draft
+AR21 | 2026-11-25T00:00:00.000Z | Wednesday | November | Practice | Wrong Answer Clinic | Walk north, then east. How far from the start? | Answers and topic practice | Save the distance-vs-route distinction. | Direction reasoning practice | A direction question may ask for the route length or the shortest distance. Circle what it asks before calculating. | #AxomRank #ADRE #ADREPreparation #PracticeQuestions | Accurate north/up and east/right diagram. Label route 3 and 4, diagonal 5. | Use a diagram drawn to the stated directions. Arithmetic checked. | Draft
+AR22 | 2026-11-27T00:00:00.000Z | Friday | November | Community & progress | Sunday Mock | Your mock is finished. The review starts now. | Participation and repeat practice | Save this for your Sunday mock review. | Mock tests | Finishing a mock gives you material for the next session. Use this checklist and share the topic you will revise first. | #AxomRank #ADRE #StudyTogether #MockTest | Blank mock-review template with four labelled blocks. | No fabricated average scores or leaderboard. Use actual data only when available. | Draft
+AR23 | 2026-11-30T00:00:00.000Z | Monday | November | Practice | Wrong Answer Clinic | Rs 500 cost. Rs 600 sale. Is profit 20% or 16.7%? | Answers and topic practice | Save this profit-percentage reminder. | Profit and loss practice | The same profit gives different percentages when the denominator changes. In the standard aptitude formula, use cost price. | #AxomRank #ADRE #ADREPreparation #PracticeQuestions | Cost, sale, and profit cards. Highlight cost price as the denominator. | Original worked examples. Round sales-based fraction to one decimal. | Draft
+AR24 | 2026-12-02T00:00:00.000Z | Wednesday | December | Assam GK | Assam GK Notes | 1228 and 1253. Two dates, two different events. | Saves and Assam GK practice | Save the timeline. Practise Ahom history. | Assam history practice | Two dates can belong to one ruler and still describe different events. Learn the event with its year, then try the question. | #AxomRank #ADRE #AssamGK #AssamHistory | Two-date timeline with Charaideo location label. | Aligns with 2 December content without inventing a 2026 event. Original practice question. | Draft
+AR25 | 2026-12-04T00:00:00.000Z | Friday | December | Guidance & tools | PYQ Guide | A PYQ is useful after you check the answer too. | Saves and tool visits | Open the PYQ bank and attempt one set. | PYQ bank | Use past questions to practise concepts and understand question styles. Keep genuine PYQs separate from newly written practice questions. | #AxomRank #ADRE #StudyPlan #AssamExams | Actual PYQ screenshot with visible year and paper reference. | Verify the year, paper, original wording, and answer key before displaying a PYQ. No prediction claims. | Draft
+AR26 | 2026-12-07T00:00:00.000Z | Monday | December | Practice | AXOMRANK Quick 3 | Three number patterns. Find the next term. | Answers and topic practice | Comment your score out of 3. | Number series practice | Look for a simple consistent rule across every step. These original practice questions each state the intended pattern type. | #AxomRank #ADRE #ADREPreparation #PracticeQuestions | Large evenly spaced number tiles. Hide final terms until the answer card. | Original practice questions. Pattern type supplied to avoid ambiguous rules. | Draft
+AR27 | 2026-12-09T00:00:00.000Z | Wednesday | December | Offers | Document Vault | Can you find your certificate when you need it? | Product visits and enquiries | Check the Document Vault details. | Document Vault information | A clear document system can reduce last-minute searching. Visit AxomRank to review the Document Vault before uploading personal files. | #AxomRank #ADRE #ExamPreparation #ADREPreparation | Redacted demo documents and a real service-page screenshot. | Strategy lists Rs 99, but verify current price before adding it to artwork. Do not promise encryption, privacy, or backup features without evidence. | Draft
+AR28 | 2026-12-11T00:00:00.000Z | Friday | December | Practice | Wrong Answer Clinic | Fewer questions or less questions? | Answers and topic practice | Save this countable-vs-uncountable rule. | English grammar practice | Questions, mistakes, and books can be counted. Use the examples to choose between fewer and less in standard formal English. | #AxomRank #ADRE #ADREPreparation #PracticeQuestions | Two-column countable/uncountable cards. Underline noun and matching word. | Standard formal-English examples. Do not claim the rule has no contextual exceptions. | Draft
+AR29 | 2026-12-14T00:00:00.000Z | Monday | December | Community & progress | Rank Lab | Has your practice actually changed? | Participation and repeat practice | Review your last two comparable mocks. | Mock results / personal review | Use your own results to decide what to practise next. Tell us the topic that improved and the topic you still find difficult. | #AxomRank #ADRE #StudyTogether #MockTest | Real anonymised results, or a blank comparison template if no real data is available. | Never invent improvement figures. Obtain permission for identifiable student results. | Draft
+AR30 | 2026-12-16T00:00:00.000Z | Wednesday | December | Assam GK | Assam GK Notes | Kaziranga: remember more than the rhino. | Saves and Assam GK practice | Save these three Kaziranga facts. | Assam geography practice | Revise the animal, landscape, and World Heritage year together. Attempt more Assam geography and biodiversity questions on AxomRank. | #AxomRank #ADRE #AssamGK #AssamHistory | Correct one-horned rhino silhouette, wetland sketch, and prominent 1985. | Use UNESCO facts. Avoid unverified current animal counts or park-area figures. Original practice question. | Draft
+AR31 | 2026-12-18T00:00:00.000Z | Friday | December | Practice | AXOMRANK Quick 3 | Revision check: three topics from this series. | Answers and topic practice | Comment your score. Revisit the topic you missed. | Mixed topic practice | This quick check returns to percentage change, averages, and subject-verb agreement. Try recalling the methods before opening earlier posts. | #AxomRank #ADRE #ADREPreparation #PracticeQuestions | Three subject labels and a final answer card. Match the earlier series templates. | Original revision questions, not PYQs. Answers independently checked. | Draft
+AR32 | 2026-12-21T00:00:00.000Z | Monday | December | Guidance & tools | Study Planner | Make next week easier before Monday arrives. | Saves and tool visits | Save this weekly planning checklist. | Study planner | Build your week around the topics you need most. A realistic plan includes practice, review, and room for unfinished work. | #AxomRank #ADRE #StudyPlan #AssamExams | Weekly grid with three topics, one test, one review slot, and one buffer. | Suggested plan. Do not label a calendar as an official exam timetable. | Draft
+AR33 | 2026-12-23T00:00:00.000Z | Wednesday | December | Offers | Inside AxomRank | You saved the post. Now try the question. | Product visits and enquiries | Turn one saved post into a practice session. | Topic practice | Choose one topic from your saved posts and practise it today. Use the AxomRank link in our bio to find the relevant questions. | #AxomRank #ADRE #ExamPreparation #ADREPreparation | Real phone screenshot next to one saved carousel cover. | Use current screenshots and functioning destinations. Do not imply Instagram saves sync automatically to AxomRank. | Draft
+AR34 | 2026-12-25T00:00:00.000Z | Friday | December | Practice | Wrong Answer Clinic | Which is larger: 3/4 or 5/8? | Answers and topic practice | Save this fraction-comparison method. | Fraction practice | Match the denominators before comparing the numerators. Try the second pair using the same method. | #AxomRank #ADRE #ADREPreparation #PracticeQuestions | Accurate equal-length fraction bars: 6/8 vs 5/8, and 10/15 vs 9/15. | Original examples. Draw proportional bars correctly. | Draft
+AR35 | 2026-12-28T00:00:00.000Z | Monday | December | Guidance & tools | Exam Guide | An exam update arrived. What should you check? | Saves and tool visits | Save this exam-update checklist. | Official notice / preparation hub | A forwarded image may leave out the detail that matters to you. Find the official notice and read the part that applies to your exam stage. | #AxomRank #ADRE #StudyPlan #AssamExams | Document-checklist illustration. Insert a real official notice only if a current update exists. | Evergreen guidance. Do not invent an announcement, deadline, vacancy, or exam date. | Draft
+AR36 | 2026-12-30T00:00:00.000Z | Wednesday | December | Community & progress | 30-Day Mission | Choose one topic to carry into January. | Participation and repeat practice | Comment your January starting topic. | Topic practice / study planner | Choose one unfinished topic and a concrete first session. We will keep bringing practice, explanations, and Assam GK into the new year. | #AxomRank #ADRE #StudyTogether #MockTest | Notebook card with blank topic, session, and practice fields. | Community invitation, not an official January challenge launch or guaranteed outcome. | Draft
+--- xl/worksheets/sheet2.xml ---
+AXOMRANK Carousel Slide Copy |  |  |  |  | 
+Six slides per carousel. Match Post ID to the calendar. English master copy; localise into proofread Assamese when needed. |  |  |  |  | 
+Post ID | Slide | Role | Headline | Body copy | Visual direction
+AR01 | 1 | Cover | 20% up. 20% down. Back to zero? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR01 | 2 | Explanation | Start at 100 | A price rises by 20%.
+100 becomes 120. | Clean 100 > 120 > 96 sequence. Use text arrows as layout cues, not decorative graphics.
+AR01 | 3 | Explanation | Now reduce the NEW value | 20% of 120 is 24.
+120 - 24 = 96. | Clean 100 > 120 > 96 sequence. Use text arrows as layout cues, not decorative graphics.
+AR01 | 4 | Explanation | The answer: a 4% decrease | The second percentage uses a different base.
+Equal percentage changes do not cancel. | Clean 100 > 120 > 96 sequence. Use text arrows as layout cues, not decorative graphics.
+AR01 | 5 | Recap / answer | Try this before swiping away | A value rises by 10%, then falls by 10%.
+100 becomes 110, then 99.
+Net change: 1% decrease. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR01 | 6 | CTA | Save this percentage trap. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR02 | 1 | Cover | Only one hour to study today? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR02 | 2 | Explanation | 10 minutes: recall | Close your notes. Write what you remember from yesterday. Circle the gaps. | Four simple time blocks. Notebook and clock line icons.
+AR02 | 3 | Explanation | 20 minutes: one weak topic | Choose one concept you missed in a recent test. Read its explanation and work through an example. | Four simple time blocks. Notebook and clock line icons.
+AR02 | 4 | Explanation | 20 minutes: practise | Solve a small set of questions on that topic. Check the answer explanations after attempting. | Four simple time blocks. Notebook and clock line icons.
+AR02 | 5 | Recap / answer | 10 minutes: review | Write one mistake and one correction. Decide tomorrow's first topic before closing your notebook. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR02 | 6 | CTA | Save your one-hour study plan. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR03 | 1 | Cover | Can you tell the three Bihus apart? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR03 | 2 | Explanation | Bohag / Rongali Bihu | Celebrated around mid-April. It marks the Assamese New Year and the spring season. | Three restrained panels: spring, lamp, and meji. Avoid a crowded festival collage.
+AR03 | 3 | Explanation | Kati / Kongali Bihu | Observed around mid-October. Lamps and prayers for crops are central to its quieter character. | Three restrained panels: spring, lamp, and meji. Avoid a crowded festival collage.
+AR03 | 4 | Explanation | Magh / Bhogali Bihu | Celebrated around mid-January. It is associated with harvest, community feasts, and meji fires. | Three restrained panels: spring, lamp, and meji. Avoid a crowded festival collage.
+AR03 | 5 | Recap / answer | Practice question | Which Bihu is associated with the Assamese New Year?
+A. Magh  B. Kati  C. Bohag  D. None
+Answer: C. Bohag. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR03 | 6 | CTA | Save the comparison. Try more Assam GK. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR04 | 1 | Cover | Three maths questions. How many can you solve? | Original practice questions.
+Attempt first. Answers on slide 5. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR04 | 2 | Question | Q1. Percentage | 15% of 200 = ?
+A. 15  B. 20  C. 30  D. 40 | One question per card. Keep every option visible. No answer highlight.
+AR04 | 3 | Question | Q2. Ratio | Divide 50 in the ratio 2:3. What is the smaller share?
+A. 10  B. 20  C. 25  D. 30 | One question per card. Keep every option visible. No answer highlight.
+AR04 | 4 | Question | Q3. Average | The average of 6, 8, and 10 is:
+A. 6  B. 7  C. 8  D. 9 | One question per card. Keep every option visible. No answer highlight.
+AR04 | 5 | Recap / answer | Answers and reasons | 1: C. 200 x 15/100 = 30.
+2: B. 50 x 2/5 = 20.
+3: C. 24/3 = 8. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR04 | 6 | CTA | Comment your score out of 3. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR05 | 1 | Cover | Everyone HAVE a plan. What is wrong? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR05 | 2 | Explanation | Find the subject | In this sentence, the subject is everyone. It takes a singular verb in standard English. | Before/after sentence cards. Underline everyone and each.
+AR05 | 3 | Explanation | Choose the verb | Everyone HAS a plan.
+The verb agrees with everyone, not with an imagined group of people. | Before/after sentence cards. Underline everyone and each.
+AR05 | 4 | Explanation | Watch these words too | Each, either, and neither commonly take singular verbs when used as singular subjects. | Before/after sentence cards. Underline everyone and each.
+AR05 | 5 | Recap / answer | Quick practice | Each of the students ___ ready.
+A. is  B. are
+Answer: A. is. The subject is each. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR05 | 6 | CTA | Save this subject-verb reminder. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR06 | 1 | Cover | Before you apply, check these five things. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR06 | 2 | Explanation | Qualification and post | Match your qualification to the exact post and paper in the official notification. | Checklist plus a real eligibility-tool screenshot, captured from the live site.
+AR06 | 3 | Explanation | Age and category | Check the age calculation date and any category-specific relaxation. Do not rely on a forwarded screenshot. | Checklist plus a real eligibility-tool screenshot, captured from the live site.
+AR06 | 4 | Explanation | Documents and deadline | List required certificates, document formats, and application dates. Save the official notice. | Checklist plus a real eligibility-tool screenshot, captured from the live site.
+AR06 | 5 | Recap / answer | Use a checker as a first pass | A tool can help you organise the checks. Confirm your final eligibility against the latest official notification. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR06 | 6 | CTA | Save this application checklist. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR07 | 1 | Cover | Before you study harder, record your starting point. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR07 | 2 | Explanation | Take a baseline test | Choose a practice test you can complete in one sitting. Record the date and topic mix. | Blank personal baseline worksheet. No invented topper score or testimonial.
+AR07 | 3 | Explanation | Record more than the score | Note attempted questions, correct answers, time used, and topics you skipped. | Blank personal baseline worksheet. No invented topper score or testimonial.
+AR07 | 4 | Explanation | Pick one priority | Choose a weak topic that appeared in the test. Make it your first practice target. | Blank personal baseline worksheet. No invented topper score or testimonial.
+AR07 | 5 | Recap / answer | Compare fairly later | Use a test with a similar length and difficulty. Look at accuracy and time alongside the score. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR07 | 6 | CTA | Take your baseline test this weekend. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR08 | 1 | Cover | Three reasoning questions. Try them in order. | Original practice questions.
+Attempt first. Answers on slide 5. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR08 | 2 | Question | Q1. Number series | 2, 4, 8, 16, ?
+A. 20  B. 24  C. 30  D. 32 | One question per card. Keep every option visible. No answer highlight.
+AR08 | 3 | Question | Q2. Odd one out | Square, triangle, circle, cube
+Which is the three-dimensional shape? | One question per card. Keep every option visible. No answer highlight.
+AR08 | 4 | Question | Q3. Analogy | Hand : glove :: foot : ?
+A. Hat  B. Sock  C. Belt  D. Shirt | One question per card. Keep every option visible. No answer highlight.
+AR08 | 5 | Recap / answer | Answers and reasons | 1: D. Multiply by 2 each time.
+2: Cube. It is three-dimensional.
+3: B. A sock is worn on a foot. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR08 | 6 | CTA | Comment your score out of 3. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR09 | 1 | Cover | What should you do first on AxomRank? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR09 | 2 | Explanation | Start with one practice test | Choose a mock that matches the level you are preparing for. Attempt it before checking answers. | Real mobile screenshots showing test selection, an answer explanation, and a topic page.
+AR09 | 3 | Explanation | Review the questions you missed | Write down the topics behind your mistakes. Use them to choose your next practice session. | Real mobile screenshots showing test selection, an answer explanation, and a topic page.
+AR09 | 4 | Explanation | Open the relevant practice page | Work on one topic at a time. Keep the question, answer, and explanation together. | Real mobile screenshots showing test selection, an answer explanation, and a topic page.
+AR09 | 5 | Recap / answer | Repeat the useful part | Return for another session. A short routine is easier to continue when you know your next step. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR09 | 6 | CTA | Open AxomRank and choose your first test. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR10 | 1 | Cover | You see Rang Ghar in our logo. Know its story? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR10 | 2 | Explanation | Where is it? | Rang Ghar is in Sivasagar, Assam. It is associated with the architecture of the Ahom period. | Use the supplied Rang Ghar artwork. Pair it with large fact labels.
+AR10 | 3 | Explanation | Who built the present structure? | The brick pavilion is associated with Ahom king Pramatta Singha. | Use the supplied Rang Ghar artwork. Pair it with large fact labels.
+AR10 | 4 | Explanation | What was it used for? | The royal pavilion overlooked sporting and recreational events. Its form includes two storeys and a distinctive curved roof. | Use the supplied Rang Ghar artwork. Pair it with large fact labels.
+AR10 | 5 | Recap / answer | Practice question | Rang Ghar is located in:
+A. Tezpur  B. Sivasagar  C. Silchar  D. Dhubri
+Answer: B. Sivasagar. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR10 | 6 | CTA | Save this landmark. Practise Assam history. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR11 | 1 | Cover | Adding one number can change the whole average. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR11 | 2 | Explanation | Start with what you know | Four numbers have an average of 10.
+Their total is 4 x 10 = 40. | Show total and count on separate lines. Highlight the changing denominator.
+AR11 | 3 | Explanation | Add a fifth number: 20 | New total = 40 + 20 = 60.
+New count = 5. | Show total and count on separate lines. Highlight the changing denominator.
+AR11 | 4 | Explanation | Divide by the NEW count | New average = 60/5 = 12.
+Dividing by 4 would give the wrong answer. | Show total and count on separate lines. Highlight the changing denominator.
+AR11 | 5 | Recap / answer | Your turn | Five numbers average 8. Add the number 20.
+New average = (5 x 8 + 20)/6 = 10. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR11 | 6 | CTA | Save the total-first method. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR12 | 1 | Cover | Your wrong answers need a place to go. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR12 | 2 | Explanation | Write the question type | Use a short label: percentages, subject-verb agreement, direction, or Assam history. | Four-field notebook template. One neutral example, no fake student claim.
+AR12 | 3 | Explanation | Write why you missed it | Was it a concept gap, a reading mistake, a calculation slip, or time pressure? | Four-field notebook template. One neutral example, no fake student claim.
+AR12 | 4 | Explanation | Write the correction | Add one sentence that would help you solve a similar question next time. | Four-field notebook template. One neutral example, no fake student claim.
+AR12 | 5 | Recap / answer | Return to it | Retry the question later without reading your correction first. Mark whether you can now explain the answer. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR12 | 6 | CTA | Make one mistake-note entry today. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR13 | 1 | Cover | A ratio tells you shares, not the final amounts. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR13 | 2 | Explanation | The problem | Divide Rs 600 in the ratio 2:3. How much does the larger share receive? | Five-part bar split into two maroon and three ivory sections.
+AR13 | 3 | Explanation | Add the ratio parts | 2 + 3 = 5 parts.
+One part = Rs 600/5 = Rs 120. | Five-part bar split into two maroon and three ivory sections.
+AR13 | 4 | Explanation | Build the shares | Smaller share = 2 x 120 = Rs 240.
+Larger share = 3 x 120 = Rs 360. | Five-part bar split into two maroon and three ivory sections.
+AR13 | 5 | Recap / answer | Check your answer | Rs 240 + Rs 360 = Rs 600.
+240:360 simplifies to 2:3. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR13 | 6 | CTA | Save this ratio method. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR14 | 1 | Cover | Make your study buddy useful this week. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR14 | 2 | Explanation | Choose one shared topic | Pick a topic you both need to revise. Keep the session small enough to finish. | Two notebooks and a shared quiz card. If using a photo, show realistic adult aspirants.
+AR14 | 3 | Explanation | Attempt separately | Solve the same short set without discussing the options first. Record your own answers. | Two notebooks and a shared quiz card. If using a photo, show realistic adult aspirants.
+AR14 | 4 | Explanation | Explain one mistake each | Take turns explaining why an answer is correct and why a tempting option is wrong. | Two notebooks and a shared quiz card. If using a photo, show realistic adult aspirants.
+AR14 | 5 | Recap / answer | Set the next session | Agree on the next topic and time. Bring one question you could not explain. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR14 | 6 | CTA | Send this to your study partner. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR15 | 1 | Cover | Three science basics. Can you get 3/3? | Original practice questions.
+Attempt first. Answers on slide 5. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR15 | 2 | Question | Q1. Photosynthesis | Which gas is released during photosynthesis?
+A. Oxygen  B. Nitrogen  C. Helium  D. Methane | One question per card. Keep every option visible. No answer highlight.
+AR15 | 3 | Question | Q2. Cell structure | Which structure contains most of the genetic material in a typical human cell?
+A. Ribosome  B. Nucleus  C. Golgi apparatus  D. Lysosome | One question per card. Keep every option visible. No answer highlight.
+AR15 | 4 | Question | Q3. SI units | The SI unit of force is:
+A. Joule  B. Watt  C. Newton  D. Pascal | One question per card. Keep every option visible. No answer highlight.
+AR15 | 5 | Recap / answer | Answers and reasons | 1: A. Oxygen is released in photosynthesis.
+2: B. Most DNA is in the nucleus.
+3: C. Force is measured in newtons. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR15 | 6 | CTA | Comment your score. Save the answer card. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR16 | 1 | Cover | Which community celebrates which festival? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR16 | 2 | Explanation | Ali-Aye-Ligang | Associated with the Mising / Mishing community. It is a spring festival linked to sowing and agriculture. | Typography-led pairing cards. Avoid generic community costumes or mixed motifs.
+AR16 | 3 | Explanation | Me-Dam-Me-Phi | Associated with the Tai Ahom community. It centres on honouring ancestors. | Typography-led pairing cards. Avoid generic community costumes or mixed motifs.
+AR16 | 4 | Explanation | Keep the pairs together | Mising / Mishing: Ali-Aye-Ligang.
+Tai Ahom: Me-Dam-Me-Phi.
+Learn the context alongside the name. | Typography-led pairing cards. Avoid generic community costumes or mixed motifs.
+AR16 | 5 | Recap / answer | Practice question | Ali-Aye-Ligang is associated with which community?
+A. Mising  B. Tai Ahom  C. Khasi  D. Garo
+Answer: A. Mising. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR16 | 6 | CTA | Save these festival-community pairs. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR17 | 1 | Cover | Before buying a study plan, check these things. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR17 | 2 | Explanation | Does it match your exam? | Look at the subjects, question level, and papers covered. Match them to your preparation needs. | Use a live plan-page screenshot only after price and features are confirmed.
+AR17 | 3 | Explanation | Can you see the product? | Look for a sample test or a clear demonstration of how practice and explanations work. | Use a live plan-page screenshot only after price and features are confirmed.
+AR17 | 4 | Explanation | What access do you receive? | Read the current price, access period, included features, and support details before paying. | Use a live plan-page screenshot only after price and features are confirmed.
+AR17 | 5 | Recap / answer | Start from your weak topic | Choose a plan because it helps your next study step. Keep your study time and budget in view. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR17 | 6 | CTA | Check the current AxomRank plans. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR18 | 1 | Cover | One difficult question can use up your whole test. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR18 | 2 | Explanation | Read the test instructions | Check duration, question count, navigation, and scoring rules before starting. | Clock and two-pass checklist. A real mock screen if navigation allows review.
+AR18 | 3 | Explanation | Attempt the questions you can solve | Use your first pass to collect answers you can work through confidently. | Clock and two-pass checklist. A real mock screen if navigation allows review.
+AR18 | 4 | Explanation | Return to difficult questions | If the interface allows it, mark uncertain items and return with the time you have left. | Clock and two-pass checklist. A real mock screen if navigation allows review.
+AR18 | 5 | Recap / answer | Review your timing afterwards | Compare time spent with what you got right. Practise the question types that repeatedly slow you down. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR18 | 6 | CTA | Test this approach in your next mock. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR19 | 1 | Cover | Three computer basics you should know. | Original practice questions.
+Attempt first. Answers on slide 5. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR19 | 2 | Question | Q1. CPU | CPU stands for:
+A. Central Processing Unit
+B. Computer Printing Unit
+C. Central Program Utility
+D. Control Processing User | One question per card. Keep every option visible. No answer highlight.
+AR19 | 3 | Question | Q2. Input device | Which is an input device?
+A. Monitor  B. Speaker  C. Keyboard  D. Printer | One question per card. Keep every option visible. No answer highlight.
+AR19 | 4 | Question | Q3. Spreadsheet | A spreadsheet is primarily organised into:
+A. Slides  B. Rows and columns
+C. Audio tracks  D. Video frames | One question per card. Keep every option visible. No answer highlight.
+AR19 | 5 | Recap / answer | Answers and reasons | 1: A. Central Processing Unit.
+2: C. A keyboard sends input to a computer.
+3: B. Rows and columns form the cell grid. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR19 | 6 | CTA | Comment your score out of 3. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR20 | 1 | Cover | Lachit. Saraighat. 1671. Can you connect them? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR20 | 2 | Explanation | Who was Lachit Borphukan? | Lachit Borphukan was an Ahom military commander remembered for leadership against the Mughal forces. | Minimal Brahmaputra river line and large 1671. No fabricated portrait presented as historical.
+AR20 | 3 | Explanation | The battle to remember | The Battle of Saraighat took place in 1671. The Ahom forces defeated the Mughal forces. | Minimal Brahmaputra river line and large 1671. No fabricated portrait presented as historical.
+AR20 | 4 | Explanation | Build one memory link | Lachit Borphukan: Ahom commander.
+Saraighat: battle.
+1671: year. | Minimal Brahmaputra river line and large 1671. No fabricated portrait presented as historical.
+AR20 | 5 | Recap / answer | Practice question | The Battle of Saraighat was fought in:
+A. 1228  B. 1671  C. 1826  D. 1947
+Answer: B. 1671. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR20 | 6 | CTA | Save this three-part history link. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR21 | 1 | Cover | Walk north, then east. How far from the start? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR21 | 2 | Explanation | The route | Walk 3 km north, then 4 km east.
+How far are you from your starting point? | Accurate north/up and east/right diagram. Label route 3 and 4, diagonal 5.
+AR21 | 3 | Explanation | Distance travelled | You walked 3 + 4 = 7 km.
+That is the length of the route. | Accurate north/up and east/right diagram. Label route 3 and 4, diagonal 5.
+AR21 | 4 | Explanation | Shortest distance from the start | The two legs form a right angle.
+Shortest distance = square root of (3² + 4²) = 5 km. | Accurate north/up and east/right diagram. Label route 3 and 4, diagonal 5.
+AR21 | 5 | Recap / answer | Read the question carefully | Distance travelled: 7 km.
+Shortest distance: 5 km.
+Direction from the start: north-east. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR21 | 6 | CTA | Save the distance-vs-route distinction. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR22 | 1 | Cover | Your mock is finished. The review starts now. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR22 | 2 | Explanation | Record the result | Write attempted, correct, incorrect, and unattempted questions. Keep the test date. | Blank mock-review template with four labelled blocks.
+AR22 | 3 | Explanation | Sort the mistakes | Separate concept gaps, reading errors, calculation slips, and time-pressure mistakes. | Blank mock-review template with four labelled blocks.
+AR22 | 4 | Explanation | Choose three corrections | Write the rule, method, or fact behind three missed questions. Retry them without the answer key. | Blank mock-review template with four labelled blocks.
+AR22 | 5 | Recap / answer | Plan the next session | Pick one weak topic and a small practice set. Make the review lead to tomorrow's work. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR22 | 6 | CTA | Save this for your Sunday mock review. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR23 | 1 | Cover | Rs 500 cost. Rs 600 sale. Is profit 20% or 16.7%? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR23 | 2 | Explanation | Calculate the profit | Profit = selling price - cost price.
+Rs 600 - Rs 500 = Rs 100. | Cost, sale, and profit cards. Highlight cost price as the denominator.
+AR23 | 3 | Explanation | Use the correct base | Profit percentage is calculated on cost price.
+100/500 x 100 = 20%. | Cost, sale, and profit cards. Highlight cost price as the denominator.
+AR23 | 4 | Explanation | Why 16.7% appears | 100/600 x 100 is about 16.7%.
+That is profit as a share of sales, not the standard profit percentage on cost. | Cost, sale, and profit cards. Highlight cost price as the denominator.
+AR23 | 5 | Recap / answer | Quick practice | Cost = Rs 800. Sale = Rs 1,000.
+Profit = Rs 200.
+Profit percentage = 200/800 x 100 = 25%. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR23 | 6 | CTA | Save this profit-percentage reminder. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR24 | 1 | Cover | 1228 and 1253. Two dates, two different events. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR24 | 2 | Explanation | 1228: Sukapha enters Assam | Chaolung Sukapha is remembered as the founder of the Ahom kingdom. His arrival in Assam is associated with 1228. | Two-date timeline with Charaideo location label.
+AR24 | 3 | Explanation | 1253: Charaideo becomes the capital | Sukapha established the capital at Charaideo in 1253. Keep this separate from the arrival date. | Two-date timeline with Charaideo location label.
+AR24 | 4 | Explanation | Use a two-point timeline | 1228: arrival in Assam.
+1253: capital at Charaideo. | Two-date timeline with Charaideo location label.
+AR24 | 5 | Recap / answer | Practice question | Sukapha's arrival in Assam is associated with:
+A. 1228  B. 1253  C. 1671  D. 1826
+Answer: A. 1228. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR24 | 6 | CTA | Save the timeline. Practise Ahom history. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR25 | 1 | Cover | A PYQ is useful after you check the answer too. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR25 | 2 | Explanation | Attempt it first | Solve the question before reading the explanation. Record the option you chose. | Actual PYQ screenshot with visible year and paper reference.
+AR25 | 3 | Explanation | Record its source | Keep the exam year, paper, and question reference with the question. | Actual PYQ screenshot with visible year and paper reference.
+AR25 | 4 | Explanation | Explain the tempting option | Ask what made your wrong option look correct. Write the rule that separates the options. | Actual PYQ screenshot with visible year and paper reference.
+AR25 | 5 | Recap / answer | Practise the underlying topic | Solve another question testing the same concept. Repeated topics can guide revision, but cannot guarantee future questions. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR25 | 6 | CTA | Open the PYQ bank and attempt one set. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR26 | 1 | Cover | Three number patterns. Find the next term. | Original practice questions.
+Attempt first. Answers on slide 5. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR26 | 2 | Question | Q1. Add a constant | 5, 9, 13, 17, ?
+A. 19  B. 20  C. 21  D. 22 | One question per card. Keep every option visible. No answer highlight.
+AR26 | 3 | Question | Q2. Multiply | 3, 6, 12, 24, ?
+A. 30  B. 36  C. 42  D. 48 | One question per card. Keep every option visible. No answer highlight.
+AR26 | 4 | Question | Q3. Perfect squares | 1, 4, 9, 16, ?
+A. 20  B. 24  C. 25  D. 36 | One question per card. Keep every option visible. No answer highlight.
+AR26 | 5 | Recap / answer | Answers and patterns | 1: C. Add 4.
+2: D. Multiply by 2.
+3: C. 1², 2², 3², 4², 5². | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR26 | 6 | CTA | Comment your score out of 3. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR27 | 1 | Cover | Can you find your certificate when you need it? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR27 | 2 | Explanation | Start with a document list | List the certificates and identity documents you regularly need for applications. | Redacted demo documents and a real service-page screenshot.
+AR27 | 3 | Explanation | Use clear filenames | Include the document type and useful date or year. Keep different versions distinguishable. | Redacted demo documents and a real service-page screenshot.
+AR27 | 4 | Explanation | Check the file itself | Open each scan. Make sure the text is readable and the file is complete before organising it. | Redacted demo documents and a real service-page screenshot.
+AR27 | 5 | Recap / answer | Explore the AxomRank Document Vault | See how the service works and review its current price, access, and handling of personal documents. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR27 | 6 | CTA | Check the Document Vault details. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR28 | 1 | Cover | Fewer questions or less questions? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR28 | 2 | Explanation | Countable nouns: fewer | You can count questions individually.
+Use: fewer questions. | Two-column countable/uncountable cards. Underline noun and matching word.
+AR28 | 3 | Explanation | Uncountable nouns: less | Time is normally treated as uncountable in this context.
+Use: less time. | Two-column countable/uncountable cards. Underline noun and matching word.
+AR28 | 4 | Explanation | Put both in one sentence | I solved fewer questions because I had less time. | Two-column countable/uncountable cards. Underline noun and matching word.
+AR28 | 5 | Recap / answer | Quick practice | There are ___ mistakes in this answer.
+A. fewer  B. less
+Answer: A. fewer, because mistakes are countable. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR28 | 6 | CTA | Save this countable-vs-uncountable rule. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR29 | 1 | Cover | Has your practice actually changed? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR29 | 2 | Explanation | Choose comparable tests | Use results from tests with a similar length, topic mix, and difficulty. Keep the dates. | Real anonymised results, or a blank comparison template if no real data is available.
+AR29 | 3 | Explanation | Compare accuracy | Look at correct answers divided by attempted questions. A higher score alone may not explain what changed. | Real anonymised results, or a blank comparison template if no real data is available.
+AR29 | 4 | Explanation | Compare time and completion | Record time used and questions left unanswered. Check whether you solved more without rushing. | Real anonymised results, or a blank comparison template if no real data is available.
+AR29 | 5 | Recap / answer | Choose the next target | Identify one topic or mistake type that still needs work. Carry it into the next week. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR29 | 6 | CTA | Review your last two comparable mocks. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR30 | 1 | Cover | Kaziranga: remember more than the rhino. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR30 | 2 | Explanation | Its best-known animal | Kaziranga is a major stronghold of the greater one-horned rhinoceros. | Correct one-horned rhino silhouette, wetland sketch, and prominent 1985.
+AR30 | 3 | Explanation | Its landscape | The park lies in Assam's Brahmaputra floodplain. Grasslands, wetlands, and woodlands form its habitat mosaic. | Correct one-horned rhino silhouette, wetland sketch, and prominent 1985.
+AR30 | 4 | Explanation | Its World Heritage year | UNESCO inscribed Kaziranga National Park on the World Heritage List in 1985. | Correct one-horned rhino silhouette, wetland sketch, and prominent 1985.
+AR30 | 5 | Recap / answer | Practice question | Kaziranga became a UNESCO World Heritage Site in:
+A. 1975  B. 1985  C. 1995  D. 2005
+Answer: B. 1985. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR30 | 6 | CTA | Save these three Kaziranga facts. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR31 | 1 | Cover | Revision check: three topics from this series. | Original practice questions.
+Attempt first. Answers on slide 5. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR31 | 2 | Question | Q1. Percentage change | 100 rises by 10%, then falls by 10%. Final value?
+A. 90  B. 99  C. 100  D. 110 | One question per card. Keep every option visible. No answer highlight.
+AR31 | 3 | Question | Q2. Average | The average of 4, 8, and 12 is:
+A. 6  B. 7  C. 8  D. 9 | One question per card. Keep every option visible. No answer highlight.
+AR31 | 4 | Question | Q3. Grammar | Everyone ___ ready.
+A. is  B. are  C. were  D. have | One question per card. Keep every option visible. No answer highlight.
+AR31 | 5 | Recap / answer | Answers and reasons | 1: B. 110 x 0.90 = 99.
+2: C. 24/3 = 8.
+3: A. Everyone takes a singular verb. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR31 | 6 | CTA | Comment your score. Revisit the topic you missed. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR32 | 1 | Cover | Make next week easier before Monday arrives. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR32 | 2 | Explanation | List three weak topics | Use recent wrong answers to choose them. Keep the list specific. | Weekly grid with three topics, one test, one review slot, and one buffer.
+AR32 | 3 | Explanation | Give each topic a session | Put one topic into each available study slot. Match the workload to the time you actually have. | Weekly grid with three topics, one test, one review slot, and one buffer.
+AR32 | 4 | Explanation | Add one mixed test | Use a practice test to check recall across topics. Reserve time to review it afterwards. | Weekly grid with three topics, one test, one review slot, and one buffer.
+AR32 | 5 | Recap / answer | Leave a buffer | Keep one slot for unfinished work or a topic that takes longer than expected. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR32 | 6 | CTA | Save this weekly planning checklist. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR33 | 1 | Cover | You saved the post. Now try the question. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR33 | 2 | Explanation | Choose a saved topic | Open one post you saved but have not practised yet. Pick the concept it explains. | Real phone screenshot next to one saved carousel cover.
+AR33 | 3 | Explanation | Attempt a short set | Visit the relevant AxomRank practice page and solve a small set before reading answers. | Real phone screenshot next to one saved carousel cover.
+AR33 | 4 | Explanation | Review one wrong answer | Write the reason for the error and the correction you need to remember. | Real phone screenshot next to one saved carousel cover.
+AR33 | 5 | Recap / answer | Choose your next session | Keep the next topic ready. Return when you have another study slot. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR33 | 6 | CTA | Turn one saved post into a practice session. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR34 | 1 | Cover | Which is larger: 3/4 or 5/8? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR34 | 2 | Explanation | Use a common denominator | 3/4 = 6/8.
+Now compare 6/8 with 5/8. | Accurate equal-length fraction bars: 6/8 vs 5/8, and 10/15 vs 9/15.
+AR34 | 3 | Explanation | Compare the numerators | With equal positive denominators, the larger numerator gives the larger fraction.
+6/8 > 5/8. | Accurate equal-length fraction bars: 6/8 vs 5/8, and 10/15 vs 9/15.
+AR34 | 4 | Explanation | So 3/4 is larger | You can also check decimals:
+3/4 = 0.75.
+5/8 = 0.625. | Accurate equal-length fraction bars: 6/8 vs 5/8, and 10/15 vs 9/15.
+AR34 | 5 | Recap / answer | Quick practice | Which is larger: 2/3 or 3/5?
+2/3 = 10/15. 3/5 = 9/15.
+Answer: 2/3. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR34 | 6 | CTA | Save this fraction-comparison method. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR35 | 1 | Cover | An exam update arrived. What should you check? | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR35 | 2 | Explanation | Find the original notice | Use the recruiting body's official website. Confirm the notice number and publication date. | Document-checklist illustration. Insert a real official notice only if a current update exists.
+AR35 | 3 | Explanation | Read who it applies to | Check the post, paper, candidate group, and exam stage mentioned in the notice. | Document-checklist illustration. Insert a real official notice only if a current update exists.
+AR35 | 4 | Explanation | Look for changes | Compare the date, venue instructions, documents, or other updated details with the earlier notice. | Document-checklist illustration. Insert a real official notice only if a current update exists.
+AR35 | 5 | Recap / answer | Save the latest version | Keep the original PDF and official link. Use the complete notice when informing a study partner. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR35 | 6 | CTA | Save this exam-update checklist. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+AR36 | 1 | Cover | Choose one topic to carry into January. | Swipe to learn, then practise. | Large hook on ivory. Small Rang Ghar mark. One restrained topic illustration.
+AR36 | 2 | Explanation | Look back at your practice | Review your mistake notes and recent mock results. Find the topic you repeatedly postponed. | Notebook card with blank topic, session, and practice fields.
+AR36 | 3 | Explanation | Choose a clear starting task | Make the task specific: one concept explanation and one short practice set. | Notebook card with blank topic, session, and practice fields.
+AR36 | 4 | Explanation | Choose a realistic session | Write the day and time you can actually study. Keep the first session small enough to start. | Notebook card with blank topic, session, and practice fields.
+AR36 | 5 | Recap / answer | Invite a friend to join | Share the topic, not just a vague promise. Compare answers after attempting separately. | Clear answer / recap block. Use muted green only to indicate correct answers.
+AR36 | 6 | CTA | Comment your January starting topic. | Practise on AxomRank.
+Link in bio. | Maroon CTA card. White headline. Small AxomRank mark and clear link-in-bio instruction.
+--- xl/worksheets/sheet3.xml ---
+AXOMRANK Brand and Production Notes | 
+Brand rules, publication checks, and content sources. | 
+Item | Details
+Planning period | 9 October - 30 December 2026. 36 posts over three calendar months. Mondays, Wednesdays and Fridays. Dates are editable.
+Publication time | No time is assumed. Choose a time from account insights and keep timezone Asia/Kolkata in the scheduling tool.
+Posting workflow | Use Post ID to match Calendar and Slide Copy. Prepare assets, complete the editorial check, then update Status. This file does not schedule posts.
+Brand colours | Deep maroon #80151A, charcoal #292929, warm ivory #F7F2EC. Muted green only for correct answers. Keep gradients and decorative colours minimal.
+Artwork | Use the supplied Rang Ghar illustration consistently. Keep it small enough that the question or headline remains the focus.
+Carousel canvas | Recommended design canvas: 1080 x 1350 px, 4:5 portrait. Six slides. Keep essential text comfortably inside the edges.
+Typography | Use one clean sans-serif family. Aim for a large readable headline and short body copy. Proofread on a phone before publishing.
+Assamese localisation | English master copy is supplied. Assamese versions should preserve meaning, question options, numbers, and answers. Use an Assamese-capable font and proofread spellings.
+Content progression | October establishes the habit. November explains mistakes and builds trust. December revisits concepts and encourages continued practice.
+Content mix | 14 practice, 7 guidance/tools, 6 Assam GK, 5 community/progress, 4 offers. Close to the strategy's 40/20/15/15/10 split.
+Practice labels | All supplied questions are original practice questions. Put Practice question on designed question slides. Never label them as PYQs.
+Product links | Use axomrank.org as the public brand home. Replace the Calendar destination descriptions with tested links to the relevant live tool. No unverified deep links are supplied.
+Product screenshots | Capture the live interface. Verify included features, access, and prices before publishing. Use a redacted demo for personal documents.
+Student proof | Community copy works with blank templates. Use genuine results and permission when featuring an identifiable student. No invented topper or improvement claim.
+Subscription offer | AR17 uses a plan-selection checklist. Verify live paid plans. If paid plans are unavailable, redirect the CTA to existing free practice.
+Document Vault price | The September strategy lists Rs 99. AR27 omits a price from public copy until the current service price is confirmed.
+Exam rules | No future dates, vacancies, cutoffs, or marking rules are asserted. Insert cycle-specific claims only from the latest official notice.
+Source freshness | Government and UNESCO GK pages checked 9 October 2026. Brand features are based on the supplied September 2026 strategy and need a live check for product posts.
+Assamese series labels | Optional labels: Today's question = আজিৰ প্ৰশ্ন. Assam general knowledge = অসমৰ সাধাৰণ জ্ঞান. Verify final typesetting with an Assamese reader.
+Source S1 | AxomRank_Social_Media_Strategy-1.pdf, September 2026. Sections 1, 3-5, 8-11. Supplied brand strategy.
+Source S2 | Assam Tourism: Bihu Festival. https://assamtourism.gov.in/bihu-festival.php
+Source S3 | Majuli District: Festival Celebrations. https://majuli.assam.gov.in/tourist-place-detail/276
+Source S4 | Sivasagar District: Rang Ghar. https://sivasagar.assam.gov.in/index.php/tourist-place-detail/276
+Source S5 | Assam Department of Tourism: Historical Monuments. https://tourism.assam.gov.in/portlet-sub-innerpage/historical-monuments
+Source S6 | Assam Department of Cultural Affairs: Festivals of Assam. https://culturalaffairs.assam.gov.in/frontimpotentdata/festivals-of-assam
+Source S7 | Jorhat District: Swargadeo Chaolung Siu-Ka-Pha Samanway Kshetra. https://jorhat.assam.gov.in/tourist-place-detail/315
+Source S8 | UNESCO World Heritage Centre: Kaziranga National Park. https://whc.unesco.org/en/list/337/
+Logo source | logo-2.jpg, supplied Rang Ghar artwork.
+AR01 content basis | Original mathematics examples
+AR02 content basis | Original editorial content
+AR03 content basis | S2; S3
+AR04 content basis | Original mathematics questions
+AR05 content basis | Original grammar examples
+AR06 content basis | S1; official notice required for any cycle-specific rule
+AR07 content basis | Original editorial content
+AR08 content basis | Original reasoning questions
+AR09 content basis | S1
+AR10 content basis | S4; S5
+AR11 content basis | Original mathematics examples
+AR12 content basis | Original editorial content
+AR13 content basis | Original mathematics example
+AR14 content basis | Original editorial content
+AR15 content basis | Standard school-level science; original questions
+AR16 content basis | S3; S6
+AR17 content basis | S1; current product details required
+AR18 content basis | Original editorial content
+AR19 content basis | Standard computer-awareness concepts; original questions
+AR20 content basis | S5
+AR21 content basis | Original reasoning example
+AR22 content basis | Original editorial content
+AR23 content basis | Original mathematics examples
+AR24 content basis | S7
+AR25 content basis | S1
+AR26 content basis | Original reasoning questions
+AR27 content basis | S1
+AR28 content basis | Original grammar examples
+AR29 content basis | Original editorial content
+AR30 content basis | S8
+AR31 content basis | Original mixed practice questions
+AR32 content basis | Original editorial content
+AR33 content basis | S1
+AR34 content basis | Original mathematics examples
+AR35 content basis | Original editorial content
+AR36 content basis | Original editorial content

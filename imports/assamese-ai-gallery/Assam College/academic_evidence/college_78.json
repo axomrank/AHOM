@@ -1,0 +1,46 @@
+{
+  "id": "78",
+  "college": "Nehru College, Pailapool",
+  "pages": [
+    {
+      "url": "https://nehrucollege.org.in/welcome",
+      "status": "ok",
+      "cache": "2a899cc99c88e11e547b.json"
+    },
+    {
+      "url": "https://nehrucollege.org.in/uploaded-files/3dbe8e73df1f5251041ca4d7295d3f9b.pdf",
+      "status": "ok",
+      "cache": "97b43c7f2b17926a0163.json"
+    },
+    {
+      "url": "https://nehrucollege.org.in/uploaded-files/8dbf4fe0a56647be4a160f2e168ee6aa.pdf",
+      "status": "ok",
+      "cache": "dec0a71bcf12d42b1899.json"
+    },
+    {
+      "url": "https://nehrucollege.org.in/uploaded-files/0a98149ccb7c460881e0e6cc141a1c2a.pdf",
+      "status": "ok",
+      "cache": "31871dbc870afd54f6dc.json"
+    },
+    {
+      "url": "https://nehrucollege.org.in/uploaded-files/b6367dd772d8be7ee4cae075195aab26.pdf",
+      "status": "ok",
+      "cache": "b5eb571957cb80643ffb.json"
+    },
+    {
+      "url": "https://nehrucollege.org.in/uploaded-files/aa8a96eb40c08b554b6c9760600afc53.pdf",
+      "status": "ok",
+      "cache": "c98bf115acdfd1bcf959.json"
+    },
+    {
+      "url": "https://nehrucollege.org.in/uploaded-files/a9b32158d756d39e476a0530307e7d5d.pdf",
+      "status": "ok",
+      "cache": "318c4fc1719c13527b25.json"
+    },
+    {
+      "url": "https://nehrucollege.org.in/uploaded-files/91019484d1c18c58e9065544b0d20b69.pdf",
+      "status": "ok",
+      "cache": "9ab0d9be8cf4600e5609.json"
+    }
+  ]
+}

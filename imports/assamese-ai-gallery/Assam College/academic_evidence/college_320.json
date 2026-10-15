@@ -1,0 +1,41 @@
+{
+  "id": "320",
+  "college": "Barkhetri College",
+  "pages": [
+    {
+      "url": "https://barkhetricollege.ac.in/",
+      "status": "ok",
+      "cache": "4eda4093b27489dd4062.json"
+    },
+    {
+      "url": "https://barkhetricollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "5c1784d8a187d0454226.json"
+    },
+    {
+      "url": "https://barkhetricollege.ac.in/upload/prospectus/",
+      "status": "error",
+      "cache": "b287f384598a9c5ef75b.json"
+    },
+    {
+      "url": "https://barkhetricollege.ac.in/academic-calendar.php",
+      "status": "ok",
+      "cache": "ce648485534ac1042a4f.json"
+    },
+    {
+      "url": "https://barkhetricollege.ac.in/academicaudit.php",
+      "status": "ok",
+      "cache": "7be0ee4941162dff31ae.json"
+    },
+    {
+      "url": "https://barkhetricollege.ac.in/academic_cal.php",
+      "status": "error",
+      "cache": "0726d54aa5d2a358233c.json"
+    },
+    {
+      "url": "https://barkhetricollege.ac.in/academic-audit.php",
+      "status": "error",
+      "cache": "add9bff98a0fbbe49212.json"
+    }
+  ]
+}

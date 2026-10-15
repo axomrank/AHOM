@@ -1,0 +1,46 @@
+{
+  "id": "353",
+  "college": "Digboi Mahila Mahavidyalaya",
+  "pages": [
+    {
+      "url": "https://dmm.org.in/",
+      "status": "ok",
+      "cache": "4914692c9d77a36b37c6.json"
+    },
+    {
+      "url": "https://dmm.org.in/departments.php",
+      "status": "ok",
+      "cache": "cb1c1d95d1be05ffd88d.json"
+    },
+    {
+      "url": "https://dmm.org.in/event_view.php?eid=19",
+      "status": "ok",
+      "cache": "7043d4b6407ca42e7096.json"
+    },
+    {
+      "url": "https://dmm.org.in/event_view.php?eid=18",
+      "status": "ok",
+      "cache": "37a8c7649e14dd0b0227.json"
+    },
+    {
+      "url": "https://dmm.org.in/courses.php",
+      "status": "ok",
+      "cache": "033126dd9277b97ae200.json"
+    },
+    {
+      "url": "https://dmm.org.in/department_view.php?dept=assamese",
+      "status": "error",
+      "cache": "c150cbd53d75fc118d7b.json"
+    },
+    {
+      "url": "https://dmm.org.in/department_view.php?dept=bengali",
+      "status": "error",
+      "cache": "a0b1ef1812a44a8d9eb8.json"
+    },
+    {
+      "url": "https://dmm.org.in/department_view.php?dept=english",
+      "status": "error",
+      "cache": "53083c2326b352a00baf.json"
+    }
+  ]
+}

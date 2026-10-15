@@ -1,0 +1,46 @@
+{
+  "id": "164",
+  "college": "Golaghat Purbanchalik College",
+  "pages": [
+    {
+      "url": "https://purbanchalikcollege.edu.in/",
+      "status": "ok",
+      "cache": "796acd0a2b2314217621.json"
+    },
+    {
+      "url": "https://purbanchalikcollege.edu.in/wp-content/uploads/2025/05/PROSPECTUS-2025-2026.pdf",
+      "status": "ok",
+      "cache": "a1cdbf5d0b8f0416ff94.json"
+    },
+    {
+      "url": "https://purbanchalikcollege.edu.in/academic-committee-2026-2027/",
+      "status": "ok",
+      "cache": "1753b6e7d107c5ea19d5.json"
+    },
+    {
+      "url": "https://purbanchalikcollege.edu.in/prospectus/",
+      "status": "ok",
+      "cache": "5bfe950b53e6a626d5f7.json"
+    },
+    {
+      "url": "https://purbanchalikcollege.edu.in/the-academic-leadership/",
+      "status": "ok",
+      "cache": "e710ca4a2b1483d6d9e7.json"
+    },
+    {
+      "url": "https://purbanchalikcollege.edu.in/academic-programmes/",
+      "status": "ok",
+      "cache": "493b8f5ac8ea4e1a6cae.json"
+    },
+    {
+      "url": "https://purbanchalikcollege.edu.in/academic-calendar/",
+      "status": "ok",
+      "cache": "ca625f1afb91bd791be1.json"
+    },
+    {
+      "url": "https://purbanchalikcollege.edu.in/academic-collaborations/",
+      "status": "ok",
+      "cache": "60ad8a8fa59b418b644c.json"
+    }
+  ]
+}

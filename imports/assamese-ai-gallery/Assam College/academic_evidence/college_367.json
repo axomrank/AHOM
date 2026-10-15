@@ -1,0 +1,26 @@
+{
+  "id": "367",
+  "college": "Udalguri College",
+  "pages": [
+    {
+      "url": "https://udalguricollegeedu.in/",
+      "status": "ok",
+      "cache": "38b4e96b9129147dc873.json"
+    },
+    {
+      "url": "https://udalguricollegeedu.in/academics/",
+      "status": "ok",
+      "cache": "250464ee15eae59550cd.json"
+    },
+    {
+      "url": "https://udalguricollegeedu.in/academic-calendar/",
+      "status": "ok",
+      "cache": "56adfa2dca27dbead784.json"
+    },
+    {
+      "url": "https://udalguricollegeedu.in/academic-calendar",
+      "status": "ok",
+      "cache": "3ba0cb2fda2d9758cf7a.json"
+    }
+  ]
+}

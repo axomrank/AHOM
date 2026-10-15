@@ -1,0 +1,16 @@
+{
+  "id": "206",
+  "college": "Gauhati Commerce College",
+  "pages": [
+    {
+      "url": "https://gauhaticommercecollege.in/",
+      "status": "ok",
+      "cache": "db43d0f07a72e1eb1781.json"
+    },
+    {
+      "url": "https://gcc.ac.in/index_academics_all.php?page=ekJQQUl6N1Z5S1VPQy83NHcrbHUxZz09&name=Departments",
+      "status": "error",
+      "cache": "b84cb4f3f2e517bbe421.json"
+    }
+  ]
+}

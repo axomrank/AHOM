@@ -1,0 +1,46 @@
+{
+  "id": "56",
+  "college": "Nabajyoti College",
+  "pages": [
+    {
+      "url": "https://www.nabajyoticollege.ac.in/",
+      "status": "ok",
+      "cache": "1975a508e784935e524f.json"
+    },
+    {
+      "url": "https://www.nabajyoticollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "e4c0a10cdc35c8e6e515.json"
+    },
+    {
+      "url": "https://www.nabajyoticollege.ac.in/upload/notice/1787662419.pdf",
+      "status": "ok",
+      "cache": "eba4c28e73b222b28baa.json"
+    },
+    {
+      "url": "https://www.nabajyoticollege.ac.in/courses.php",
+      "status": "ok",
+      "cache": "90e5563c6dc2967f928c.json"
+    },
+    {
+      "url": "https://www.nabajyoticollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "ddd8829a8c1678ca0d74.json"
+    },
+    {
+      "url": "https://www.nabajyoticollege.ac.in/acalender.php",
+      "status": "ok",
+      "cache": "59c0e8b2f686deee759f.json"
+    },
+    {
+      "url": "https://www.nabajyoticollege.ac.in/departmental_magazine.php",
+      "status": "ok",
+      "cache": "7aeb5cb2dd821e86cf4c.json"
+    },
+    {
+      "url": "https://www.nabajyoticollege.ac.in/Academic-Departments.php?a=c5d7d236a0e925336d31f14e4eb00c62072310871ac24838d9c16870536147d7ac0332bc296e33efe6e53a8101e4edee53feab74c32c5d21d2326b2722e36b4e",
+      "status": "ok",
+      "cache": "9fe8fbf5330be53435ca.json"
+    }
+  ]
+}

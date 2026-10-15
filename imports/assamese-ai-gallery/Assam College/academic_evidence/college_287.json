@@ -1,0 +1,46 @@
+{
+  "id": "287",
+  "college": "Pub Majuli College",
+  "pages": [
+    {
+      "url": "https://pubmajulicollege.org/index.php/academics/courses",
+      "status": "ok",
+      "cache": "a60523ce817f25fc3ae3.json"
+    },
+    {
+      "url": "https://pubmajulicollege.org/index.php/academics/prospectus",
+      "status": "ok",
+      "cache": "89ee55a88fe0d3976511.json"
+    },
+    {
+      "url": "https://pubmajulicollege.org/",
+      "status": "ok",
+      "cache": "34fa72e95e17161e87ea.json"
+    },
+    {
+      "url": "https://pubmajulicollege.org/index.php/academics/publications",
+      "status": "ok",
+      "cache": "e7e813c45c0b21cb04b5.json"
+    },
+    {
+      "url": "https://pubmajulicollege.org/index.php/academics/events",
+      "status": "ok",
+      "cache": "7856e7bd7a615fd83b10.json"
+    },
+    {
+      "url": "https://pubmajulicollege.org/index.php/academics/time-table",
+      "status": "ok",
+      "cache": "ec9209fac7681d7e4402.json"
+    },
+    {
+      "url": "https://pubmajulicollege.org/index.php/academics/result",
+      "status": "ok",
+      "cache": "81a182b5babb50902b5c.json"
+    },
+    {
+      "url": "https://pubmajulicollege.org/index.php/academics/academic-calender",
+      "status": "ok",
+      "cache": "5ff243de9228038f4a93.json"
+    }
+  ]
+}

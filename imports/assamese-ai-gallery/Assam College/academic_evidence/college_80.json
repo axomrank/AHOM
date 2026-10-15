@@ -1,0 +1,16 @@
+{
+  "id": "80",
+  "college": "S.R.COLLEGE",
+  "pages": [
+    {
+      "url": "https://srcollege.ac.in/",
+      "status": "ok",
+      "cache": "c0e91d4f8b7ca46b27c9.json"
+    },
+    {
+      "url": "https://srcollege.ac.in/upload/SSR_S.R%20COLLEGE.pdf",
+      "status": "ok",
+      "cache": "0d996dd0b88de9493e2c.json"
+    }
+  ]
+}

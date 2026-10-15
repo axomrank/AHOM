@@ -1,0 +1,31 @@
+{
+  "id": "182",
+  "college": "Hojai Girls' College",
+  "pages": [
+    {
+      "url": "https://hojaigirlscollege.edu.in/",
+      "status": "ok",
+      "cache": "21eb7c0f6d13ee212726.json"
+    },
+    {
+      "url": "https://hojaigirlscollege.edu.in/programmesoffered.php",
+      "status": "ok",
+      "cache": "80d13e0e1841f02dd0be.json"
+    },
+    {
+      "url": "https://hojaigirlscollege.edu.in/upload/headnotice/1778130938.pdf",
+      "status": "ok",
+      "cache": "4a85f833809e5098b216.json"
+    },
+    {
+      "url": "https://hojaigirlscollege.edu.in/Hojai Girls College Prospectus 2024-25.pdf",
+      "status": "ok",
+      "cache": "d67e2cc95b6367a25b4a.json"
+    },
+    {
+      "url": "https://hojaigirlscollege.edu.in/department.php",
+      "status": "ok",
+      "cache": "8b95a479540d1e740853.json"
+    }
+  ]
+}

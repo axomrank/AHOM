@@ -1,0 +1,26 @@
+{
+  "id": "103",
+  "college": "Dhemaji Girls' College",
+  "pages": [
+    {
+      "url": "https://dhemajicitycollege.in/",
+      "status": "ok",
+      "cache": "693267234817c970dc91.json"
+    },
+    {
+      "url": "https://dhemajicitycollege.in/tstaff",
+      "status": "ok",
+      "cache": "d1cfb11e361963df60f1.json"
+    },
+    {
+      "url": "https://dhemajicitycollege.in/prospectus.php",
+      "status": "ok",
+      "cache": "3ffb8ee70c4b5922a779.json"
+    },
+    {
+      "url": "https://dhemajicitycollege.in/Academic_Calendar",
+      "status": "ok",
+      "cache": "cfb4ced57d5d397a9491.json"
+    }
+  ]
+}

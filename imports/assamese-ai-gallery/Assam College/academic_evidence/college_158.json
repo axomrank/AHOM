@@ -1,0 +1,16 @@
+{
+  "id": "158",
+  "college": "Barpathar College",
+  "pages": [
+    {
+      "url": "https://barpatharcollege.edu.in/",
+      "status": "ok",
+      "cache": "639d5a5935bfacc7e314.json"
+    },
+    {
+      "url": "https://barpatharcollege.edu.in/academics/",
+      "status": "ok",
+      "cache": "58ae4198f421b904213d.json"
+    }
+  ]
+}

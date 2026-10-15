@@ -1,0 +1,46 @@
+{
+  "id": "170",
+  "college": "Kamargaon College",
+  "pages": [
+    {
+      "url": "https://kamargaoncollege.com/",
+      "status": "ok",
+      "cache": "390ea4a0f5e8bf7b24a0.json"
+    },
+    {
+      "url": "https://kamargaoncollege.com/departments-2/",
+      "status": "ok",
+      "cache": "505fc878f02b6da40c7b.json"
+    },
+    {
+      "url": "https://kamargaoncollege.com/wp-content/uploads/2026/04/Prospac-26-27-final.pdf",
+      "status": "ok",
+      "cache": "1c2549314a6b7f598bbe.json"
+    },
+    {
+      "url": "https://kamargaoncollege.com/ba-admission-2026-merit-list-all-departments/",
+      "status": "ok",
+      "cache": "e1f719d668597aef94d6.json"
+    },
+    {
+      "url": "https://kamargaoncollege.com/prospectus/",
+      "status": "ok",
+      "cache": "150c6bdcf6609ed6eb7d.json"
+    },
+    {
+      "url": "https://kamargaoncollege.com/student-code-of-conduct/",
+      "status": "ok",
+      "cache": "2ca796672a38a2362954.json"
+    },
+    {
+      "url": "https://kamargaoncollege.com/academic-calendar/",
+      "status": "ok",
+      "cache": "744695c4f5d311727de6.json"
+    },
+    {
+      "url": "https://kamargaoncollege.com/departments-2/#content",
+      "status": "ok",
+      "cache": "a69b9b815b47beed9027.json"
+    }
+  ]
+}

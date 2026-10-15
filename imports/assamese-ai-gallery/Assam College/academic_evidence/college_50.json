@@ -1,0 +1,31 @@
+{
+  "id": "50",
+  "college": "Harendra Chitra College",
+  "pages": [
+    {
+      "url": "https://hccollege.ac.in/",
+      "status": "ok",
+      "cache": "ebba147acc6d7e85c3be.json"
+    },
+    {
+      "url": "https://hccollege.ac.in/wp-content/uploads/2024/04/Prospectus-1.pdf",
+      "status": "ok",
+      "cache": "60242a236fbf8ac7cd8d.json"
+    },
+    {
+      "url": "https://hccollege.ac.in/academic-calendar/",
+      "status": "ok",
+      "cache": "bd6a52cdf6a006d357b8.json"
+    },
+    {
+      "url": "https://hccollege.ac.in/academic-calendar-2023/",
+      "status": "ok",
+      "cache": "17d5563155520545dedf.json"
+    },
+    {
+      "url": "https://hccollege.ac.in/academic-calendar-2023-24/",
+      "status": "ok",
+      "cache": "2fce0af294a096f29db9.json"
+    }
+  ]
+}

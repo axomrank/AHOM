@@ -1,0 +1,46 @@
+{
+  "id": "14",
+  "college": "Haflong Government College",
+  "pages": [
+    {
+      "url": "https://www.haflonggovtcollege.ac.in/",
+      "status": "ok",
+      "cache": "ccc31328852653d861a6.json"
+    },
+    {
+      "url": "https://haflonggovtcollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "6d952236b1ddb81140ab.json"
+    },
+    {
+      "url": "https://www.haflonggovtcollege.ac.in/upload/prospectus/1735534917.pdf",
+      "status": "ok",
+      "cache": "bdb132c5852d9b9f9629.json"
+    },
+    {
+      "url": "https://www.haflonggovtcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "779ba93dd8487109c1c7.json"
+    },
+    {
+      "url": "https://haflonggovtcollege.ac.in/upload/prospectus/1735534917.pdf",
+      "status": "ok",
+      "cache": "fd91468b6cffa6eca8e9.json"
+    },
+    {
+      "url": "https://haflonggovtcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "7fa4f5939d6e16551b50.json"
+    },
+    {
+      "url": "https://www.haflonggovtcollege.ac.in/academic_cal.php",
+      "status": "ok",
+      "cache": "d245909027c651782f1b.json"
+    },
+    {
+      "url": "https://www.haflonggovtcollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "78df8bfbaa041ff9142e.json"
+    }
+  ]
+}

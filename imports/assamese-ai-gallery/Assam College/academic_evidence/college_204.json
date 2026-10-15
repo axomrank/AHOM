@@ -1,0 +1,46 @@
+{
+  "id": "204",
+  "college": "Dimoria College",
+  "pages": [
+    {
+      "url": "http://dimoriacollege.ac.in/",
+      "status": "ok",
+      "cache": "873ebe6880ed373dfb41.json"
+    },
+    {
+      "url": "https://dimoriacollege.ac.in/Academic-All-Departments.php",
+      "status": "error",
+      "cache": "4fdef54fce25f915d980.json"
+    },
+    {
+      "url": "http://dimoriacollege.ac.in/upload/impdoc/1754043817.pdf",
+      "status": "ok",
+      "cache": "3c828fb30c7094bd6aa0.json"
+    },
+    {
+      "url": "http://dimoriacollege.ac.in/Feedback from Students of Dimoria College (Autonomous)_ Academic Session 2025-26-pages.pdf",
+      "status": "ok",
+      "cache": "cb76eab4ddb61a029ddd.json"
+    },
+    {
+      "url": "http://dimoriacollege.ac.in/upload/impdoc/1785126688.pdf",
+      "status": "ok",
+      "cache": "7356be9dadd22a7aeb4c.json"
+    },
+    {
+      "url": "http://dimoriacollege.ac.in/upload/impdoc/1771064130.pdf",
+      "status": "ok",
+      "cache": "858d5b3a91010d06ef60.json"
+    },
+    {
+      "url": "http://dimoriacollege.ac.in/upload/impdoc/1754922270.pdf",
+      "status": "ok",
+      "cache": "be4360f56efbe69c4b88.json"
+    },
+    {
+      "url": "http://dimoriacollege.ac.in/post_graduate.php",
+      "status": "ok",
+      "cache": "a2bfb301713e2b75fd1d.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "263",
+  "college": "Science College, Kokrajhar",
+  "pages": [
+    {
+      "url": "http://sciencecollege.ac.in/",
+      "status": "ok",
+      "cache": "b68f1da392051bc92a86.json"
+    },
+    {
+      "url": "https://sciencecollege.ac.in/UG_Courses.php",
+      "status": "error",
+      "cache": "40df524613ce9ddfd29d.json"
+    },
+    {
+      "url": "http://sciencecollege.ac.in/Prospectus/sck/Prospectus/Prospectus_2026_2027_Final_Version.pdf",
+      "status": "ok",
+      "cache": "23fff5ac8140f6a56f6d.json"
+    },
+    {
+      "url": "http://sciencecollege.ac.in/pdf/2026/PG Admission notice SCK.pdf",
+      "status": "ok",
+      "cache": "9596df734885776fe166.json"
+    },
+    {
+      "url": "http://sciencecollege.ac.in/Department/home.php#nonteach",
+      "status": "ok",
+      "cache": "335c1250fa472c41a5cf.json"
+    },
+    {
+      "url": "http://sciencecollege.ac.in/council.php",
+      "status": "ok",
+      "cache": "8c794a250be10512d982.json"
+    },
+    {
+      "url": "http://sciencecollege.ac.in/calendar.php",
+      "status": "ok",
+      "cache": "d78d69e01e3cff60fc58.json"
+    },
+    {
+      "url": "http://sciencecollege.ac.in/Department/physics.php",
+      "status": "ok",
+      "cache": "45a70582a229fc0803d4.json"
+    }
+  ]
+}

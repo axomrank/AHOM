@@ -1,0 +1,46 @@
+{
+  "id": "220",
+  "college": "S.B. Deorah College",
+  "pages": [
+    {
+      "url": "https://sbdeorahcollege.org.in/",
+      "status": "ok",
+      "cache": "4192825d9ccf719db223.json"
+    },
+    {
+      "url": "https://sbdeorahcollege.org.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "5f5bcc3f4d7ea64daa6f.json"
+    },
+    {
+      "url": "https://sbdeorahcollege.org.in/prospectus.php",
+      "status": "ok",
+      "cache": "7c8b22ccc40d3f644ecf.json"
+    },
+    {
+      "url": "https://sbdeorahcollege.org.in/academiccal.php",
+      "status": "ok",
+      "cache": "59346b28069fd00f0d68.json"
+    },
+    {
+      "url": "https://sbdeorahcollege.org.in/Academic-Departmentsnew.php?encRequest=df15da2e2e50da0625ef5e0d7362cd3181eb495a4c0b5e0dd3ba969ee728f336270eafc9e6df6ab02525fd6ea51e32094a11cc05e72629ed5fcee9184a199cc5",
+      "status": "ok",
+      "cache": "e344e78bc2919793c927.json"
+    },
+    {
+      "url": "https://sbdeorahcollege.org.in/Academic-Departmentsnew.php?encRequest=185dcfb9de37884ed9b26e85aea2b7a787b7b18fa121a852bcf7b12670a0d666656718ff474625b466e36a6e88c35f5b245756d3f44f72a0f6d7af9bbfca8982",
+      "status": "ok",
+      "cache": "1a213ccdb3758c900d5f.json"
+    },
+    {
+      "url": "https://sbdeorahcollege.org.in/Academic-Departmentsnew.php?encRequest=6477bc6d20a40947bad2537436e184bef73a450c431a62c0a584b469c0f41adba0c6c4fe5c9520429d0df6eff518dd101144e329089f9774ca6cdb07f99f9dbd",
+      "status": "ok",
+      "cache": "7df13b775ed76032a02f.json"
+    },
+    {
+      "url": "https://sbdeorahcollege.org.in/Academic-Departmentsnew.php?encRequest=c5d7d236a0e925336d31f14e4eb00c62f347ab412782b0ccfc38356ec03cc03f67aef2fceb20d473b9ddb1bbb4106a1e5c9209114a5d9e2feb14120b8d7ac13b",
+      "status": "ok",
+      "cache": "4ee314b76bcd930e1a37.json"
+    }
+  ]
+}

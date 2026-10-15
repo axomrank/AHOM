@@ -1,0 +1,46 @@
+{
+  "id": "259",
+  "college": "Fakiragram College",
+  "pages": [
+    {
+      "url": "https://fakiragramcollege.ac.in/",
+      "status": "ok",
+      "cache": "8d65735998a3949ef55f.json"
+    },
+    {
+      "url": "https://fakiragramcollege.ac.in/category/department/",
+      "status": "error",
+      "cache": "72268a02d2d40df85c16.json"
+    },
+    {
+      "url": "https://www.fakiragramcollege.ac.in/Academics/CourseOutcomes/OutCome",
+      "status": "error",
+      "cache": "9269b66bcfd97a92ab2d.json"
+    },
+    {
+      "url": "https://fakiragramcollege.ac.in/Admission/CoursesOffered",
+      "status": "ok",
+      "cache": "da12b1b85a15e6f3e432.json"
+    },
+    {
+      "url": "https://fakiragramcollege.ac.in/Admission/DisplayProspectus",
+      "status": "ok",
+      "cache": "d6598b1eee9f7acc9dd2.json"
+    },
+    {
+      "url": "https://fakiragramcollege.ac.in/Academics/Calendar",
+      "status": "ok",
+      "cache": "9afe180dd98f531bca7f.json"
+    },
+    {
+      "url": "https://fakiragramcollege.ac.in/Academics/Faculties",
+      "status": "ok",
+      "cache": "809f092b8dec0a87382f.json"
+    },
+    {
+      "url": "https://fakiragramcollege.ac.in/Academics/CourseOutcomes/OutCome",
+      "status": "ok",
+      "cache": "c6522eba4c1d39caa5fb.json"
+    }
+  ]
+}

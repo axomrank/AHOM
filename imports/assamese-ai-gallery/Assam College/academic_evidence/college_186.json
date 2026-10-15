@@ -1,0 +1,46 @@
+{
+  "id": "186",
+  "college": "Borholla College",
+  "pages": [
+    {
+      "url": "https://borhollacollege.edu.in/",
+      "status": "ok",
+      "cache": "a7760524f8effd75ac3c.json"
+    },
+    {
+      "url": "https://borhollacollege.edu.in/prospectus/",
+      "status": "ok",
+      "cache": "127599a2726e54242c46.json"
+    },
+    {
+      "url": "https://borhollacollege.edu.in/academy/",
+      "status": "ok",
+      "cache": "589296a3eb7c13ce553c.json"
+    },
+    {
+      "url": "https://borhollacollege.edu.in/pg-diploma/",
+      "status": "ok",
+      "cache": "c67b7bce23acea70d541.json"
+    },
+    {
+      "url": "https://borhollacollege.edu.in/academic-calender/",
+      "status": "ok",
+      "cache": "7fa7bd8886d773c8617a.json"
+    },
+    {
+      "url": "https://borhollacollege.edu.in/eforms/student-feedback-form-for-the-academic-year-2022-2023/13/",
+      "status": "ok",
+      "cache": "22e2dd74f31204ca50e0.json"
+    },
+    {
+      "url": "https://borhollacollege.edu.in/eforms/student-feedback-form-for-the-academic-year-2021-2022/6/",
+      "status": "ok",
+      "cache": "938d5bb55e69eab579dc.json"
+    },
+    {
+      "url": "https://borhollacollege.edu.in/eforms/alumni-feedbaack-form/8/",
+      "status": "ok",
+      "cache": "af7ed2cf5019f4048e7d.json"
+    }
+  ]
+}

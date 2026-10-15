@@ -1,0 +1,36 @@
+{
+  "id": "307",
+  "college": "Kampur College",
+  "pages": [
+    {
+      "url": "https://www.kampurcollege.ac.in/",
+      "status": "ok",
+      "cache": "953d25f9edb30751c3f7.json"
+    },
+    {
+      "url": "https://www.kampurcollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "eb43f6361600dfd5f006.json"
+    },
+    {
+      "url": "https://www.kampurcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "905bb968b196d7716f27.json"
+    },
+    {
+      "url": "https://www.kampurcollege.ac.in/academic.php",
+      "status": "ok",
+      "cache": "50c46e3eef584485e4af.json"
+    },
+    {
+      "url": "https://www.kampurcollege.ac.in/courseofstudy.php",
+      "status": "ok",
+      "cache": "42f412c457ae89bfe24c.json"
+    },
+    {
+      "url": "https://www.kampurcollege.ac.in/acalender.php",
+      "status": "ok",
+      "cache": "829b69827e73451090a8.json"
+    }
+  ]
+}

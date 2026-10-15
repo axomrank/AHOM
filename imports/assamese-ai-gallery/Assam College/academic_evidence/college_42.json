@@ -1,0 +1,46 @@
+{
+  "id": "42",
+  "college": "Baosi Banikanta Kakoti College, Nagaon",
+  "pages": [
+    {
+      "url": "https://bbkcollege.co.in/",
+      "status": "ok",
+      "cache": "159fd690bb44f387a61a.json"
+    },
+    {
+      "url": "https://bbkcollege.co.in/alldepartments.php",
+      "status": "ok",
+      "cache": "b3400f34a1166a6205e7.json"
+    },
+    {
+      "url": "https://bbkcollege.co.in/upload/prospectus/Prospectus%202025-26.pdf",
+      "status": "ok",
+      "cache": "96ae67eac060d1a0caf1.json"
+    },
+    {
+      "url": "https://bbkcollege.co.in/prospectus.php",
+      "status": "ok",
+      "cache": "797ec3bae5903899dd70.json"
+    },
+    {
+      "url": "https://bbkcollege.co.in/academic_calender.php",
+      "status": "ok",
+      "cache": "7212499ea118fc253e2e.json"
+    },
+    {
+      "url": "https://bbkcollege.co.in/academic_enrollment.php",
+      "status": "ok",
+      "cache": "581d0d138517b6caae6e.json"
+    },
+    {
+      "url": "https://bbkcollege.co.in/dpt_login_bbl_clg/",
+      "status": "ok",
+      "cache": "7b5e091be836b93e8175.json"
+    },
+    {
+      "url": "https://bbkcollege.co.in/Academic-Departments.php?department=f6b865dc5af025362c6a2452166c56683ebab58566b93473f431c455ffd96a08cefe05555302fd6d044e40b9bbd0568adb3b6a8654a747d59cab8019b20709a0",
+      "status": "ok",
+      "cache": "5188966345f838198952.json"
+    }
+  ]
+}

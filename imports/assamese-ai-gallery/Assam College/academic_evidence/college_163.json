@@ -1,0 +1,46 @@
+{
+  "id": "163",
+  "college": "Golaghat Commerce College",
+  "pages": [
+    {
+      "url": "https://golaghatcommercecollege.org/",
+      "status": "ok",
+      "cache": "806624ba2fa9311e8227.json"
+    },
+    {
+      "url": "https://golaghatcommercecollege.org/post-graduate/",
+      "status": "ok",
+      "cache": "53fbf839fb156f28f616.json"
+    },
+    {
+      "url": "https://golaghatcommercecollege.org/prospectus/",
+      "status": "ok",
+      "cache": "ced11f30d57ae749ad60.json"
+    },
+    {
+      "url": "https://golaghatcommercecollege.org/prospectus-2/",
+      "status": "ok",
+      "cache": "1ca3a9459c1597f31444.json"
+    },
+    {
+      "url": "https://golaghatcommercecollege.org/department-of-accountancy/",
+      "status": "ok",
+      "cache": "09284848fd0c10d0600c.json"
+    },
+    {
+      "url": "https://golaghatcommercecollege.org/department-of-assamese/",
+      "status": "ok",
+      "cache": "27fa2eb4eb131ce8f45a.json"
+    },
+    {
+      "url": "https://golaghatcommercecollege.org/department-of-banking-and-insurance/",
+      "status": "ok",
+      "cache": "0da25df14aefa6dbce9b.json"
+    },
+    {
+      "url": "https://golaghatcommercecollege.org/department-of-business-management/",
+      "status": "ok",
+      "cache": "8d227cd086d64c71bf9c.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "252",
+  "college": "Nilambazar College",
+  "pages": [
+    {
+      "url": "https://nilambazarcollege.ac.in/",
+      "status": "ok",
+      "cache": "339607f293ce0ca54ab9.json"
+    },
+    {
+      "url": "https://nilambazarcollege.ac.in/Energy%20Audit%20Report_merged.pdf",
+      "status": "ok",
+      "cache": "ecfaa6f944f92feea5eb.json"
+    }
+  ]
+}

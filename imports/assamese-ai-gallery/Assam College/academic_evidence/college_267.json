@@ -1,0 +1,46 @@
+{
+  "id": "267",
+  "college": "Brahmaputra Degree College",
+  "pages": [
+    {
+      "url": "https://www.brahmaputradegreecollege.edu.in/",
+      "status": "ok",
+      "cache": "d3d47ff414c34128b18e.json"
+    },
+    {
+      "url": "https://www.brahmaputradegreecollege.edu.in/department.php",
+      "status": "ok",
+      "cache": "ab971f4ca5e9cee04ab8.json"
+    },
+    {
+      "url": "https://www.brahmaputradegreecollege.edu.in/prospectus.php",
+      "status": "ok",
+      "cache": "a4b7d174b09822abf330.json"
+    },
+    {
+      "url": "https://www.brahmaputradegreecollege.edu.in/academiccalender.php",
+      "status": "ok",
+      "cache": "67ec76794d04644888d1.json"
+    },
+    {
+      "url": "https://www.brahmaputradegreecollege.edu.in/dpt_login/",
+      "status": "ok",
+      "cache": "766b2ab9bf333d972963.json"
+    },
+    {
+      "url": "https://www.brahmaputradegreecollege.edu.in/Academic-Departments.php?department=3ff3a86f76d6916885f28ce2661af90c98d4414456e4238b0c07ff9c48f919fcedf5b6904182fa1c2bf5f53ccf8073b9505812226b1c1989586141ae73174bc5",
+      "status": "ok",
+      "cache": "44dd91d6dbc12f1842c2.json"
+    },
+    {
+      "url": "https://www.brahmaputradegreecollege.edu.in/Academic-Departments.php?department=e415e92a073be369302e2a8c232f3c01b4ca13cbf91d212137c3580d7d17a74c1182a58bc436f5344965740f010999ef626387909b0e8eefdbe0ac59800dbbc7",
+      "status": "ok",
+      "cache": "ffda0e2b71d70b96699b.json"
+    },
+    {
+      "url": "https://www.brahmaputradegreecollege.edu.in/Academic-Departments.php?department=16de008a5c6b54bdff1e235c32d53663aac7f1ec240344d527fba29c7b405aa532e5fe4f9e158f3f39920e0301fbaae61c087fc0d676be90fcbe631c7c56c166",
+      "status": "ok",
+      "cache": "0ee58dfd4a2bc1d32737.json"
+    }
+  ]
+}

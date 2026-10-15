@@ -1,0 +1,16 @@
+{
+  "id": "82",
+  "college": "Silchar College",
+  "pages": [
+    {
+      "url": "https://www.silcharcollege.ac.in/",
+      "status": "ok",
+      "cache": "839b0c66e0287ac6fb2f.json"
+    },
+    {
+      "url": "https://www.silcharcollege.ac.in/upload/SILCHAR_COLLEGE_iiqa.pdf",
+      "status": "ok",
+      "cache": "4f7fe41691a09113c382.json"
+    }
+  ]
+}

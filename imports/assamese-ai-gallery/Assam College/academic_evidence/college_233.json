@@ -1,0 +1,26 @@
+{
+  "id": "233",
+  "college": "Madhya Kampeeth College",
+  "pages": [
+    {
+      "url": "https://madhyakampeethcollege.co.in/",
+      "status": "ok",
+      "cache": "75aa99add11ade46ca63.json"
+    },
+    {
+      "url": "https://madhyakampeethcollege.co.in/index.php",
+      "status": "ok",
+      "cache": "1c7fd3e596e7fecf887f.json"
+    },
+    {
+      "url": "https://madhyakampeethcollege.co.in/prospectus.php",
+      "status": "ok",
+      "cache": "66717ac26f3cf3ff5f93.json"
+    },
+    {
+      "url": "https://madhyakampeethcollege.co.in/arts.php",
+      "status": "ok",
+      "cache": "96d92b3faa7ba3d52ac7.json"
+    }
+  ]
+}

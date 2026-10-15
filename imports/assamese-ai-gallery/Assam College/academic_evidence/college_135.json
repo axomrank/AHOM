@@ -1,0 +1,46 @@
+{
+  "id": "135",
+  "college": "Duliajan College",
+  "pages": [
+    {
+      "url": "https://www.duliajancollege.in/",
+      "status": "ok",
+      "cache": "2e23e09a764b4718bdee.json"
+    },
+    {
+      "url": "https://www.duliajancollege.in/department.php",
+      "status": "ok",
+      "cache": "cbaf405e8a0ae7976ba5.json"
+    },
+    {
+      "url": "https://www.duliajancollege.in/upload/prospectus/Prospectus 2025-26.pdf",
+      "status": "ok",
+      "cache": "6cc1ce01fbd716a232a7.json"
+    },
+    {
+      "url": "https://www.duliajancollege.in/upload/headnotice/1786531542.pdf",
+      "status": "ok",
+      "cache": "d6d36b66da614bbd6dee.json"
+    },
+    {
+      "url": "https://www.duliajancollege.in/upload/headnotice/1749554888.pdf",
+      "status": "ok",
+      "cache": "be91eb24aef7cd29fece.json"
+    },
+    {
+      "url": "https://www.duliajancollege.in/prospectus.php",
+      "status": "ok",
+      "cache": "75eada3b7480d78afb9c.json"
+    },
+    {
+      "url": "https://www.duliajancollege.in/coursesoffered.php",
+      "status": "ok",
+      "cache": "226a3d50030ac7e48eca.json"
+    },
+    {
+      "url": "https://www.duliajancollege.in/acalender.php",
+      "status": "ok",
+      "cache": "0a7c1f9312b067ebd1d1.json"
+    }
+  ]
+}

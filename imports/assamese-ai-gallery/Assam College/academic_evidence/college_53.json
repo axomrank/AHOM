@@ -1,0 +1,46 @@
+{
+  "id": "53",
+  "college": "Madhob Choudhury College (M.C. College)",
+  "pages": [
+    {
+      "url": "https://mccollege.edu.in/",
+      "status": "ok",
+      "cache": "71f9e4773b01288efd0e.json"
+    },
+    {
+      "url": "https://mccollege.edu.in/departments.php",
+      "status": "ok",
+      "cache": "15c5c0b6d46bcc786733.json"
+    },
+    {
+      "url": "https://mccollege.edu.in/upload/notice/1787672178.pdf",
+      "status": "ok",
+      "cache": "1dba42cce94fe6fb199a.json"
+    },
+    {
+      "url": "https://mccollege.edu.in/upload/notice/1787546006.pdf",
+      "status": "ok",
+      "cache": "1736a5b9ae8d18f542ad.json"
+    },
+    {
+      "url": "https://mccollege.edu.in/upload/notice/1784560718.pdf",
+      "status": "ok",
+      "cache": "f443d4ea7806f63fb23a.json"
+    },
+    {
+      "url": "https://mccollege.edu.in/prospectus.php",
+      "status": "ok",
+      "cache": "7f7b76eb1c9fdc051f60.json"
+    },
+    {
+      "url": "https://mccollege.edu.in/dpt_login_authmcc4",
+      "status": "ok",
+      "cache": "d31476602a560a787da1.json"
+    },
+    {
+      "url": "https://mccollege.edu.in/academiccouncil.php",
+      "status": "ok",
+      "cache": "52c570e26d1947feb084.json"
+    }
+  ]
+}

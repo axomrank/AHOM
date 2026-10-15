@@ -1,0 +1,36 @@
+{
+  "id": "327",
+  "college": "SS Mahavidyalaya",
+  "pages": [
+    {
+      "url": "https://www.ssm.ac.in/",
+      "status": "ok",
+      "cache": "c2ba05d0875fddc25b8b.json"
+    },
+    {
+      "url": "https://www.ssm.ac.in/upload/notices/1750342745.pdf",
+      "status": "ok",
+      "cache": "ff4524ba817a869420a1.json"
+    },
+    {
+      "url": "https://www.ssm.ac.in/1 copy.pdf",
+      "status": "ok",
+      "cache": "e388d88422eabdb9e7f5.json"
+    },
+    {
+      "url": "https://www.ssm.ac.in/courseo.pdf",
+      "status": "error",
+      "cache": "f0edb07f4c5739d1ebc7.json"
+    },
+    {
+      "url": "https://www.ssm.ac.in/acalender.php",
+      "status": "ok",
+      "cache": "acf053e85c74ff026377.json"
+    },
+    {
+      "url": "https://www.ssm.ac.in/department.php",
+      "status": "ok",
+      "cache": "eb8e7272f761b0a36e05.json"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "310",
+  "college": "Murazar College",
+  "pages": [
+    {
+      "url": "https://murazarcollege.org/",
+      "status": "ok",
+      "cache": "1a749a301dbbbaa04570.json"
+    },
+    {
+      "url": "https://murazarcollege.org/department.php",
+      "status": "ok",
+      "cache": "81a50d0b10022d3789fa.json"
+    },
+    {
+      "url": "https://murazarcollege.org/online/upload/assests/Prospectus MC.pdf",
+      "status": "ok",
+      "cache": "ae127df1d4100300df4d.json"
+    },
+    {
+      "url": "https://murazarcollege.org/academiccalender.php",
+      "status": "ok",
+      "cache": "d3314a08cf8477a6f937.json"
+    }
+  ]
+}

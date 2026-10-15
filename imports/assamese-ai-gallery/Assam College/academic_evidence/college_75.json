@@ -1,0 +1,46 @@
+{
+  "id": "75",
+  "college": "Janata College, Kabuganj",
+  "pages": [
+    {
+      "url": "https://janatacollege.in/",
+      "status": "ok",
+      "cache": "68c41a02450d3dbc2dd4.json"
+    },
+    {
+      "url": "https://janatacollege.in/departments/",
+      "status": "ok",
+      "cache": "2d2ee8fd6a739e863c82.json"
+    },
+    {
+      "url": "https://janatacollege.in/wp-content/uploads/2026/05/Admission-form-and-prospectus-2026.pdf",
+      "status": "ok",
+      "cache": "5d5161a1855c2bb67527.json"
+    },
+    {
+      "url": "https://janatacollege.in/wp-content/uploads/2026/05/Prospectus-Final-2026-27-Hard-Copy.pdf",
+      "status": "ok",
+      "cache": "a4c03b085b55af789638.json"
+    },
+    {
+      "url": "https://janatacollege.in/#####",
+      "status": "ok",
+      "cache": "72cc401a2392421bd423.json"
+    },
+    {
+      "url": "https://janatacollege.in/academics/#1686387507764-106d1868-474f",
+      "status": "ok",
+      "cache": "a549de73a5009c0a254a.json"
+    },
+    {
+      "url": "https://janatacollege.in/academics/#1686981462970-0dcabdda-7d1f",
+      "status": "ok",
+      "cache": "992e099bc77a269f3024.json"
+    },
+    {
+      "url": "https://janatacollege.in/academics/#1495649347033-8e2900eb-abec",
+      "status": "ok",
+      "cache": "534ce561f12e8f0affba.json"
+    }
+  ]
+}

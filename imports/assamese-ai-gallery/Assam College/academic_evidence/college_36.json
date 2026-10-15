@@ -1,0 +1,36 @@
+{
+  "id": "36",
+  "college": "Goreswar College",
+  "pages": [
+    {
+      "url": "https://goreswarcollege.ac.in/",
+      "status": "ok",
+      "cache": "aeaf7d63606885ec0d1b.json"
+    },
+    {
+      "url": "https://goreswarcollege.ac.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "9b725a35afe524a3dca5.json"
+    },
+    {
+      "url": "https://goreswarcollege.ac.in/courseoffered.php",
+      "status": "ok",
+      "cache": "51ee4e60b93592941fdf.json"
+    },
+    {
+      "url": "https://goreswarcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "a65fe2e08f675248c9fa.json"
+    },
+    {
+      "url": "https://goreswarcollege.ac.in/academic_incharge.php",
+      "status": "ok",
+      "cache": "84815f938f5d43acc5f1.json"
+    },
+    {
+      "url": "https://goreswarcollege.ac.in/a_calendar.php",
+      "status": "ok",
+      "cache": "e443614aacff8eccf974.json"
+    }
+  ]
+}

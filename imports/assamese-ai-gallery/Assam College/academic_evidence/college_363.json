@@ -1,0 +1,46 @@
+{
+  "id": "363",
+  "college": "Kalaguru Bishnu Rabha Degree College",
+  "pages": [
+    {
+      "url": "https://www.kbrdcollege.ac.in/",
+      "status": "ok",
+      "cache": "74925df2c7705c0b9c3b.json"
+    },
+    {
+      "url": "https://www.kbrdcollege.ac.in/departments.php",
+      "status": "ok",
+      "cache": "fc7390aba85e999f7f3b.json"
+    },
+    {
+      "url": "https://www.kbrdcollege.ac.in/upload/academicnotice/1781342992.pdf",
+      "status": "ok",
+      "cache": "e576d881a74745b97df0.json"
+    },
+    {
+      "url": "https://www.kbrdcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "5e2ef6f7491583388a91.json"
+    },
+    {
+      "url": "https://www.kbrdcollege.ac.in/programmes.php",
+      "status": "error",
+      "cache": "e69d61a58f2d9089379d.json"
+    },
+    {
+      "url": "https://www.kbrdcollege.ac.in/academic_cal.php",
+      "status": "ok",
+      "cache": "3e5aa2efca2688be8738.json"
+    },
+    {
+      "url": "https://www.kbrdcollege.ac.in/notifications/academic/",
+      "status": "ok",
+      "cache": "ef902df066dc59a8e768.json"
+    },
+    {
+      "url": "https://www.kbrdcollege.ac.in/upload/academicnotice/1781006467.pdf",
+      "status": "ok",
+      "cache": "a4196a44b87abc501d92.json"
+    }
+  ]
+}

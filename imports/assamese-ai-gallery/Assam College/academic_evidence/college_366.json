@@ -1,0 +1,26 @@
+{
+  "id": "366",
+  "college": "Tangla College",
+  "pages": [
+    {
+      "url": "https://tanglacollege.ac.in/",
+      "status": "error",
+      "cache": "b00e0a15096d91c8652c.json"
+    },
+    {
+      "url": "https://www.tanglacollege.ac.in/arts-stream/",
+      "status": "error",
+      "cache": "1ddd1dca7be6f0103f12.json"
+    },
+    {
+      "url": "https://www.tanglacollege.ac.in/science-stream/",
+      "status": "error",
+      "cache": "30a6e47f1a9dd3dbde38.json"
+    },
+    {
+      "url": "https://www.tanglacollege.ac.in/commerce-stream/",
+      "status": "error",
+      "cache": "6ae6c935db626b8d0d69.json"
+    }
+  ]
+}

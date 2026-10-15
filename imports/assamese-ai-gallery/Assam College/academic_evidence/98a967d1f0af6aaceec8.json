@@ -1,0 +1,1 @@
+{"url": "https://mkcollege.ac.in/", "retrieved": "2026-10-02", "status": "error", "error": "ConnectTimeout: HTTPSConnectionPool(host='mkcollege.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='mkcollege.ac.in', port=443) at 0x739196de8f50>, 'Connectio"}

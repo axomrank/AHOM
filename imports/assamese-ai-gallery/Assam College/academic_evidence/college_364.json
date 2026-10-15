@@ -1,0 +1,16 @@
+{
+  "id": "364",
+  "college": "Khoirabari College",
+  "pages": [
+    {
+      "url": "https://khoirabaricollege.in/",
+      "status": "error",
+      "cache": "c9be6435eda4cc37efcb.json"
+    },
+    {
+      "url": "https://khoirabaricollege.in/department/",
+      "status": "error",
+      "cache": "7ec635beedeb2c9e6eaf.json"
+    }
+  ]
+}

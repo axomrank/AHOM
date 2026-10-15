@@ -1,0 +1,41 @@
+{
+  "id": "282",
+  "college": "Subansiri College",
+  "pages": [
+    {
+      "url": "https://www.subansiricollege.org/",
+      "status": "ok",
+      "cache": "1b6619f51a2bf43fa1f6.json"
+    },
+    {
+      "url": "https://www.subansiricollege.org/teachingstaff.php",
+      "status": "ok",
+      "cache": "2350bebab7af3ef52838.json"
+    },
+    {
+      "url": "https://www.subansiricollege.org/upload/prospectus/1747374656.pdf",
+      "status": "ok",
+      "cache": "ffc78a0146a9ea7a3612.json"
+    },
+    {
+      "url": "https://www.subansiricollege.org/prospectus.php",
+      "status": "ok",
+      "cache": "208fbc8f311701a59fe1.json"
+    },
+    {
+      "url": "https://www.subansiricollege.org/academicprogrammes.php",
+      "status": "ok",
+      "cache": "8fce27201142315b2e9e.json"
+    },
+    {
+      "url": "https://www.subansiricollege.org/academiccalendar.php",
+      "status": "ok",
+      "cache": "ea7ddd30a5ca3e60c114.json"
+    },
+    {
+      "url": "https://www.subansiricollege.org/academiccalender.php",
+      "status": "error",
+      "cache": "37d37af3305ee94674a3.json"
+    }
+  ]
+}

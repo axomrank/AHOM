@@ -1,0 +1,36 @@
+{
+  "id": "257",
+  "college": "Bodofa U.N. Brahma College",
+  "pages": [
+    {
+      "url": "https://www.bodofaunbc.ac.in/",
+      "status": "ok",
+      "cache": "78231b19165a1cb69d45.json"
+    },
+    {
+      "url": "https://www.bodofaunbc.ac.in/assets/Prospectus2025-26.pdf",
+      "status": "error",
+      "cache": "dde37cc813f5625e2c2d.json"
+    },
+    {
+      "url": "https://www.bodofaunbc.ac.in/upload/headnotice/1778322285.pdf",
+      "status": "ok",
+      "cache": "f4f4f0fbaa00fd980deb.json"
+    },
+    {
+      "url": "https://www.bodofaunbc.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "bc4a921f5d47b50a7d7d.json"
+    },
+    {
+      "url": "https://www.bodofaunbc.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "123c44102bbc0cf6b197.json"
+    },
+    {
+      "url": "https://www.bodofaunbc.ac.in/department.php",
+      "status": "ok",
+      "cache": "7361a3846a86d26d9103.json"
+    }
+  ]
+}

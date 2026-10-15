@@ -1,0 +1,41 @@
+{
+  "id": "104",
+  "college": "Gogamukh College",
+  "pages": [
+    {
+      "url": "https://gogamukhcollege.net/",
+      "status": "ok",
+      "cache": "da5d6fb1754b07bd14e9.json"
+    },
+    {
+      "url": "https://gogamukhcollege.net/departments.php",
+      "status": "ok",
+      "cache": "b168a6f7123f56a5e0c0.json"
+    },
+    {
+      "url": "https://gogamukhcollege.net/upload/prospectus/1714115933.pdf",
+      "status": "ok",
+      "cache": "37553d0fb5a03c02cedf.json"
+    },
+    {
+      "url": "https://gogamukhcollege.net/prospectus.php",
+      "status": "ok",
+      "cache": "c3ef848544f42bb25577.json"
+    },
+    {
+      "url": "https://gogamukhcollege.net/pgcourse.php",
+      "status": "ok",
+      "cache": "b8c17b8f1797b0ef97a2.json"
+    },
+    {
+      "url": "https://gogamukhcollege.net/academiccalendar.php",
+      "status": "ok",
+      "cache": "72e15483fcbef2822496.json"
+    },
+    {
+      "url": "https://gogamukhcollege.net/academiccalender.php",
+      "status": "error",
+      "cache": "b490bfb231c0c6dfb716.json"
+    }
+  ]
+}

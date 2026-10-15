@@ -1,0 +1,26 @@
+{
+  "id": "296",
+  "college": "Moirabari College",
+  "pages": [
+    {
+      "url": "https://moirabaricollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "8439458e839579e770f1.json"
+    },
+    {
+      "url": "https://moirabaricollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "2f968a54c7b2052a6e24.json"
+    },
+    {
+      "url": "https://moirabaricollege.ac.in/academic.php",
+      "status": "ok",
+      "cache": "4a3c4bd5c44e61dc7dfb.json"
+    },
+    {
+      "url": "https://moirabaricollege.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "ba5bc5fc6c2d042e82af.json"
+    }
+  ]
+}

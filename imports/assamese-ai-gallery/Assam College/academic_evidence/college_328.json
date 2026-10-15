@@ -1,0 +1,46 @@
+{
+  "id": "328",
+  "college": "Tihu College",
+  "pages": [
+    {
+      "url": "https://tihucollege.ac.in/",
+      "status": "ok",
+      "cache": "b7f51e716a91130113ba.json"
+    },
+    {
+      "url": "https://tihucollege.ac.in/departments.php",
+      "status": "ok",
+      "cache": "b6f2faa75e56abaaca70.json"
+    },
+    {
+      "url": "https://tihucollege.ac.in/upload/notice/1786095445.pdf",
+      "status": "ok",
+      "cache": "e0c36c61d1b012c4cbe0.json"
+    },
+    {
+      "url": "https://tihucollege.ac.in/upload/notice/1785312042.pdf",
+      "status": "ok",
+      "cache": "d05a7fe672789e9380c8.json"
+    },
+    {
+      "url": "https://tihucollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "daf3b3cf143c3a785505.json"
+    },
+    {
+      "url": "https://tihucollege.ac.in/upload/notice/1653549261.docx",
+      "status": "error",
+      "cache": "505281518fb8209e4733.json"
+    },
+    {
+      "url": "https://tihucollege.ac.in/departments.php#contact",
+      "status": "ok",
+      "cache": "776cafe9df530e109a7f.json"
+    },
+    {
+      "url": "https://tihucollege.ac.in/departments.php#facilities",
+      "status": "ok",
+      "cache": "211f61d4f0627bbb57d9.json"
+    }
+  ]
+}

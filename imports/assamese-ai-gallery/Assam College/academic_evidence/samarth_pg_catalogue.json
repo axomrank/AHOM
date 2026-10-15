@@ -1,0 +1,6 @@
+{
+  "name": "Internal Server Error",
+  "message": "An internal server error occurred.",
+  "code": 0,
+  "status": 500
+}

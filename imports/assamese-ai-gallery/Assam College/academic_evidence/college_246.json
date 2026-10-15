@@ -1,0 +1,41 @@
+{
+  "id": "246",
+  "college": "Vidya Bharati College",
+  "pages": [
+    {
+      "url": "https://www.vidyabharaticollege.org.in/",
+      "status": "ok",
+      "cache": "ea8825354c239059219f.json"
+    },
+    {
+      "url": "https://www.vidyabharaticollege.org.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "b87662574efabdb555a3.json"
+    },
+    {
+      "url": "https://www.vidyabharaticollege.org.in/prospectus.php",
+      "status": "ok",
+      "cache": "816faecfbd03dec2b4b6.json"
+    },
+    {
+      "url": "https://www.vidyabharaticollege.org.in/academic_council.php",
+      "status": "ok",
+      "cache": "3636f3763638283663dc.json"
+    },
+    {
+      "url": "https://www.vidyabharaticollege.org.in/departments.php",
+      "status": "ok",
+      "cache": "d2f80b666595e5c85c58.json"
+    },
+    {
+      "url": "https://www.vidyabharaticollege.org.in/acalender.php",
+      "status": "ok",
+      "cache": "a2b41b2185a077ef7b36.json"
+    },
+    {
+      "url": "https://www.vidyabharaticollege.org.in/upload/headnotice/",
+      "status": "error",
+      "cache": "3f1bcdf09c7c0330f8fc.json"
+    }
+  ]
+}

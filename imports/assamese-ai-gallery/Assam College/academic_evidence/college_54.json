@@ -1,0 +1,16 @@
+{
+  "id": "54",
+  "college": "Madhya Kamrup College",
+  "pages": [
+    {
+      "url": "https://mkcollege.ac.in/",
+      "status": "error",
+      "cache": "98a967d1f0af6aaceec8.json"
+    },
+    {
+      "url": "https://www.mkcollege.ac.in/clgdepartments.php",
+      "status": "error",
+      "cache": "bda10981f185aae684d4.json"
+    }
+  ]
+}

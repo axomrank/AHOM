@@ -1,0 +1,46 @@
+{
+  "id": "180",
+  "college": "Srikishan Sarda College (S.S. College)",
+  "pages": [
+    {
+      "url": "https://sscollegehkd.ac.in/",
+      "status": "ok",
+      "cache": "31760a7da296644d8fe2.json"
+    },
+    {
+      "url": "https://sscollegehkd.ac.in/terms.php",
+      "status": "ok",
+      "cache": "68d62d2bed15412845d8.json"
+    },
+    {
+      "url": "https://sscollegehkd.ac.in/Department/english.php",
+      "status": "ok",
+      "cache": "755ec00437d25305147f.json"
+    },
+    {
+      "url": "https://sscollegehkd.ac.in/Department/bengali.php",
+      "status": "ok",
+      "cache": "a920592dde941517bb28.json"
+    },
+    {
+      "url": "https://sscollegehkd.ac.in/Department/economics.php",
+      "status": "ok",
+      "cache": "6aaa8c82e612ec8698b9.json"
+    },
+    {
+      "url": "https://sscollegehkd.ac.in/Department/political_science.php",
+      "status": "ok",
+      "cache": "6d6912e3cf59098d01e5.json"
+    },
+    {
+      "url": "https://sscollegehkd.ac.in/Department/philosophy.php",
+      "status": "ok",
+      "cache": "df3e52b7dbe2b02a7e1e.json"
+    },
+    {
+      "url": "https://sscollegehkd.ac.in/Department/history.php",
+      "status": "ok",
+      "cache": "f5c81496147454f92f82.json"
+    }
+  ]
+}

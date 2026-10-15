@@ -1,0 +1,31 @@
+{
+  "id": "198",
+  "college": "Na-kachari College",
+  "pages": [
+    {
+      "url": "https://nakacharicollege.in/",
+      "status": "ok",
+      "cache": "cc1689a9e47c94ca7ec6.json"
+    },
+    {
+      "url": "https://nakacharicollege.in/download/30-04-20251745992544PROSPECTUS.pdf",
+      "status": "ok",
+      "cache": "824643f2b444d061a517.json"
+    },
+    {
+      "url": "https://nakacharicollege.in/news/10-06-20261781068358PROSPECTUS20262027.pdf",
+      "status": "ok",
+      "cache": "52baa66b4bb4186ae771.json"
+    },
+    {
+      "url": "https://nakacharicollege.in/pros.php",
+      "status": "error",
+      "cache": "343397cbfdc9ae3a661b.json"
+    },
+    {
+      "url": "https://nakacharicollege.in/aca.php",
+      "status": "ok",
+      "cache": "4d3c5b150fa16db4d046.json"
+    }
+  ]
+}

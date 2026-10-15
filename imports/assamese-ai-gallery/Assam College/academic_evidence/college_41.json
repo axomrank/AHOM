@@ -1,0 +1,31 @@
+{
+  "id": "41",
+  "college": "B.H. College, Howly",
+  "pages": [
+    {
+      "url": "https://bhcollege.ac.in/",
+      "status": "ok",
+      "cache": "6c2eaf63290785235750.json"
+    },
+    {
+      "url": "https://bhcollege.ac.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "93487cff1fe6573586e4.json"
+    },
+    {
+      "url": "https://bhcollege.ac.in/upload/prospectus/1715577158.pdf",
+      "status": "ok",
+      "cache": "4b855f204d1076d95fa0.json"
+    },
+    {
+      "url": "https://bhcollege.ac.in/courses.php",
+      "status": "ok",
+      "cache": "cb91ef37ccd3acea0c10.json"
+    },
+    {
+      "url": "https://bhcollege.ac.in/acalender.php",
+      "status": "ok",
+      "cache": "22e0e3a445f1a8a92f86.json"
+    }
+  ]
+}

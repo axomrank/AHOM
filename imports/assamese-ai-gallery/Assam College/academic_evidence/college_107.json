@@ -1,0 +1,46 @@
+{
+  "id": "107",
+  "college": "Jonai Science College",
+  "pages": [
+    {
+      "url": "http://www.jonaisciencecollege.edu.in/",
+      "status": "ok",
+      "cache": "7bca32b28dc3c4da1780.json"
+    },
+    {
+      "url": "http://www.jonaisciencecollege.edu.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "6e4049641861e69f5237.json"
+    },
+    {
+      "url": "http://www.jonaisciencecollege.edu.in/upload/headnotice/1781247553.pdf",
+      "status": "ok",
+      "cache": "428be4b55aa376f453e0.json"
+    },
+    {
+      "url": "http://www.jonaisciencecollege.edu.in/upload/notice/1786010157.pdf",
+      "status": "ok",
+      "cache": "eb10c150cf3ecd529b3a.json"
+    },
+    {
+      "url": "http://www.jonaisciencecollege.edu.in/upload/notice/1782880125.pdf",
+      "status": "ok",
+      "cache": "3222aae04e3c6c2b17b7.json"
+    },
+    {
+      "url": "http://www.jonaisciencecollege.edu.in/academiccalenderview.php",
+      "status": "ok",
+      "cache": "a9f1ca38f5080e45a4c3.json"
+    },
+    {
+      "url": "http://www.jonaisciencecollege.edu.in/#!",
+      "status": "ok",
+      "cache": "a414e5b546f5b540ab15.json"
+    },
+    {
+      "url": "http://www.jonaisciencecollege.edu.in/teachingstaff.php#!",
+      "status": "ok",
+      "cache": "6a94add964483f2ab45c.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "203",
+  "college": "Beltola College",
+  "pages": [
+    {
+      "url": "https://beltolacollege.ac.in/",
+      "status": "ok",
+      "cache": "5e361455de5a7e668522.json"
+    },
+    {
+      "url": "https://beltolacollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "ca124ec4c9803226aa1a.json"
+    },
+    {
+      "url": "https://beltolacollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "090b8e63e20e52c5bdbb.json"
+    },
+    {
+      "url": "https://beltolacollege.ac.in/auth_dpt_login/",
+      "status": "ok",
+      "cache": "fff5f62972b865930b8c.json"
+    },
+    {
+      "url": "https://beltolacollege.ac.in/academic_calendar.php",
+      "status": "ok",
+      "cache": "e1bfeb694f71c06c0769.json"
+    },
+    {
+      "url": "https://beltolacollege.ac.in/upload/tender/1774941229.pdf",
+      "status": "ok",
+      "cache": "ba96e5bbf6f59f5a4adf.json"
+    },
+    {
+      "url": "https://beltolacollege.ac.in/Academic-Departments.php?a=b2c65c3c44a3a9850258228c3d1679cf3dfd152cf65f19d60f972fadac4156414a269900049132a3bfdb23f5fab6acf1a373cd633d80fb65d0d5ef48dc64c780",
+      "status": "ok",
+      "cache": "c456b3509daec0efc5c6.json"
+    },
+    {
+      "url": "https://beltolacollege.ac.in/Academic-Departments.php?a=6cc35481e8b339155bd4281f01cc5ffa0e5fc30639d3344298d09171f69bf8a5affa4531432aa1eadf31f61552fbda5aa0cef34adcc08b35e964b8c6789ec926",
+      "status": "ok",
+      "cache": "91c90925cd5d21db339f.json"
+    }
+  ]
+}

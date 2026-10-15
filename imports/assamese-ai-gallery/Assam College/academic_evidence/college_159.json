@@ -1,0 +1,46 @@
+{
+  "id": "159",
+  "college": "CNB College",
+  "pages": [
+    {
+      "url": "https://cnbcollege.edu.in/",
+      "status": "ok",
+      "cache": "795f16a58f8132cabcf8.json"
+    },
+    {
+      "url": "https://cnbcollege.edu.in/notices/notification-and-revised-academic-calendar-2026",
+      "status": "ok",
+      "cache": "91f55bd7861d7ffaf8f4.json"
+    },
+    {
+      "url": "https://cnbcollege.edu.in/notices/revised-admission-timeline-academic-year-2026-27",
+      "status": "ok",
+      "cache": "52be614fdf1a504d1b58.json"
+    },
+    {
+      "url": "https://cnbcollege.edu.in/prospectus",
+      "status": "ok",
+      "cache": "736ba528b7e94aa90604.json"
+    },
+    {
+      "url": "https://cnbcollege.edu.in/departments/department-of-chemistry",
+      "status": "ok",
+      "cache": "06c007c0e237b18308b3.json"
+    },
+    {
+      "url": "https://cnbcollege.edu.in/departments/department-of-botany",
+      "status": "ok",
+      "cache": "94890ad84bc3346ab2f2.json"
+    },
+    {
+      "url": "https://cnbcollege.edu.in/departments/department-of-mathematics",
+      "status": "ok",
+      "cache": "c826546da2684af1e5d7.json"
+    },
+    {
+      "url": "https://cnbcollege.edu.in/departments/english",
+      "status": "ok",
+      "cache": "fa5962ffe05fbec1a061.json"
+    }
+  ]
+}

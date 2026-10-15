@@ -1,0 +1,16 @@
+{
+  "id": "81",
+  "college": "Satindra Mohan Dev College",
+  "pages": [
+    {
+      "url": "https://smdcollege.in/",
+      "status": "error",
+      "cache": "bc574ed39d4a8eb662ce.json"
+    },
+    {
+      "url": "https://www.smdevcollege.ac.in/portal/webadmin/secured/upload/notice/Prospectus-2025-26.pdf",
+      "status": "error",
+      "cache": "e74164db2ab148014123.json"
+    }
+  ]
+}

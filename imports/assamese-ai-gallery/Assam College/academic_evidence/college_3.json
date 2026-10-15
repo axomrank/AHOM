@@ -1,0 +1,26 @@
+{
+  "id": "3",
+  "college": "Government Model Women’s College, Chenga",
+  "pages": [
+    {
+      "url": "https://gmwcchenga.co.in/",
+      "status": "ok",
+      "cache": "cbe09978e278b0eb18bd.json"
+    },
+    {
+      "url": "https://gmwcchenga.co.in/department.php",
+      "status": "ok",
+      "cache": "dd27bca88ffc589bb7c2.json"
+    },
+    {
+      "url": "https://gmwcchenga.co.in/prospectus.php",
+      "status": "ok",
+      "cache": "cd3035737a7ea3499cf4.json"
+    },
+    {
+      "url": "https://gmwcchenga.co.in/acalendar.php",
+      "status": "ok",
+      "cache": "6353af93eaba1844c67f.json"
+    }
+  ]
+}

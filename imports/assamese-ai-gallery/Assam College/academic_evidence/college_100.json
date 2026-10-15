@@ -1,0 +1,41 @@
+{
+  "id": "100",
+  "college": "Sipajhar College",
+  "pages": [
+    {
+      "url": "https://sipajharcollege.ac.in/",
+      "status": "ok",
+      "cache": "9595f929ee2a5d0e2d58.json"
+    },
+    {
+      "url": "https://sipajharcollege.ac.in/departments.php",
+      "status": "ok",
+      "cache": "2f073b83fcc634441d17.json"
+    },
+    {
+      "url": "https://sipajharcollege.ac.in/upload/prospectus/PROSPECTUS%202026-27.pdf",
+      "status": "ok",
+      "cache": "d9583d7101aa9fafc551.json"
+    },
+    {
+      "url": "https://sipajharcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "af4b037d8d7362c1c1a8.json"
+    },
+    {
+      "url": "https://sipajharcollege.ac.in/upload/notice/1781858878.pdf",
+      "status": "ok",
+      "cache": "1db567c27f86b17220ba.json"
+    },
+    {
+      "url": "https://sipajharcollege.ac.in/authsip_dpt_login/",
+      "status": "ok",
+      "cache": "1f72f9e3c1c3ff5ad0b3.json"
+    },
+    {
+      "url": "https://sipajharcollege.ac.in/upload/notice/1785051414.pdf",
+      "status": "ok",
+      "cache": "3f30d83aa0b9772b4a98.json"
+    }
+  ]
+}

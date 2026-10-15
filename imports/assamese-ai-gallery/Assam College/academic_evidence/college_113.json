@@ -1,0 +1,46 @@
+{
+  "id": "113",
+  "college": "Silapathar College",
+  "pages": [
+    {
+      "url": "https://www.silapatharcollege.edu.in/",
+      "status": "ok",
+      "cache": "f4bfa97cf441d0f40470.json"
+    },
+    {
+      "url": "https://silapatharcollege.edu.in/arts.php",
+      "status": "ok",
+      "cache": "14553f99931834fe3e61.json"
+    },
+    {
+      "url": "https://silapatharcollege.edu.in/science.php",
+      "status": "ok",
+      "cache": "05a116027cfb5c447221.json"
+    },
+    {
+      "url": "https://www.silapatharcollege.edu.in/prospectus.php",
+      "status": "ok",
+      "cache": "3a61228b23ad27710564.json"
+    },
+    {
+      "url": "https://silapatharcollege.edu.in/prospectus.php",
+      "status": "ok",
+      "cache": "d054959365069a29d754.json"
+    },
+    {
+      "url": "https://www.silapatharcollege.edu.in/accalender.php",
+      "status": "ok",
+      "cache": "f046cbb7eaf6fa884cf6.json"
+    },
+    {
+      "url": "https://www.silapatharcollege.edu.in/Academic-Teachers.php",
+      "status": "ok",
+      "cache": "751a4cbe6092af758062.json"
+    },
+    {
+      "url": "https://www.silapatharcollege.edu.in/section.php",
+      "status": "ok",
+      "cache": "538151fdc08deaa6e0f6.json"
+    }
+  ]
+}

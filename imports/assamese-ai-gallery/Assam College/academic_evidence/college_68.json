@@ -1,0 +1,46 @@
+{
+  "id": "68",
+  "college": "Indira Gandhi College",
+  "pages": [
+    {
+      "url": "https://igcollegeboitamari.ac.in/",
+      "status": "ok",
+      "cache": "1594192379c7b1b06676.json"
+    },
+    {
+      "url": "https://igcollegeboitamari.ac.in/wp-content/uploads/2025/05/Prospectus2025.pdf",
+      "status": "ok",
+      "cache": "b2f8ba586423b81a5fcf.json"
+    },
+    {
+      "url": "https://igcollegeboitamari.ac.in/prospectus/",
+      "status": "ok",
+      "cache": "47c9e0e708d6b965ce5c.json"
+    },
+    {
+      "url": "https://igcollegeboitamari.ac.in/academic-program/",
+      "status": "ok",
+      "cache": "5a64a31ffc925a401055.json"
+    },
+    {
+      "url": "https://igcollegeboitamari.ac.in/department-of-assamese/",
+      "status": "ok",
+      "cache": "ef6032be012659128e4b.json"
+    },
+    {
+      "url": "https://igcollegeboitamari.ac.in/department-of-arabic/",
+      "status": "ok",
+      "cache": "a6263f6d943b5485a493.json"
+    },
+    {
+      "url": "https://igcollegeboitamari.ac.in/department-of-english/",
+      "status": "ok",
+      "cache": "a07973e8c2bc6853338a.json"
+    },
+    {
+      "url": "https://igcollegeboitamari.ac.in/department-of-economics/",
+      "status": "ok",
+      "cache": "4c818c22f476d023813f.json"
+    }
+  ]
+}

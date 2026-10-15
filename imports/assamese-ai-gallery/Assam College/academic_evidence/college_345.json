@@ -1,0 +1,46 @@
+{
+  "id": "345",
+  "college": "Lokanayak Omeo Kumar Das College (L.O.K.D. College)",
+  "pages": [
+    {
+      "url": "https://lokdcollege.ac.in/",
+      "status": "ok",
+      "cache": "0d80f73e83b6f97d132a.json"
+    },
+    {
+      "url": "https://lokdcollege.ac.in/arts-stream/",
+      "status": "ok",
+      "cache": "a033dea118bddf66db31.json"
+    },
+    {
+      "url": "https://lokdcollege.ac.in/prospectus-2022-23/",
+      "status": "ok",
+      "cache": "52ef71373ea4706dfc2b.json"
+    },
+    {
+      "url": "https://lokdcollege.ac.in/academic-calendar/",
+      "status": "ok",
+      "cache": "ae295bf8d0ee91695d8b.json"
+    },
+    {
+      "url": "https://lokdcollege.ac.in/assamese-department/",
+      "status": "ok",
+      "cache": "ffccc2c18d3b614f3b0a.json"
+    },
+    {
+      "url": "https://lokdcollege.ac.in/bengali-department/",
+      "status": "ok",
+      "cache": "ee38df7f5bcbefaa6ec6.json"
+    },
+    {
+      "url": "https://lokdcollege.ac.in/bodo-department/",
+      "status": "ok",
+      "cache": "a23ff67f10acb7d558b0.json"
+    },
+    {
+      "url": "https://lokdcollege.ac.in/nepali-department/",
+      "status": "ok",
+      "cache": "2bd197d6c07d82c125ba.json"
+    }
+  ]
+}

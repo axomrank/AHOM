@@ -1,0 +1,31 @@
+{
+  "id": "358",
+  "college": "Sadiya College",
+  "pages": [
+    {
+      "url": "https://sadiyacollege.ac.in/",
+      "status": "ok",
+      "cache": "7bb41362abe23b7d9c4d.json"
+    },
+    {
+      "url": "https://sadiyacollege.ac.in/departments.php",
+      "status": "ok",
+      "cache": "ae81c74b002ec26d3d44.json"
+    },
+    {
+      "url": "https://sadiyacollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "bc24be9271a5547ef63b.json"
+    },
+    {
+      "url": "https://sadiyacollege.ac.in/a_calendar.php",
+      "status": "ok",
+      "cache": "37b71748bcbe02b98e33.json"
+    },
+    {
+      "url": "https://sadiyacollege.ac.in/library_staff.php",
+      "status": "ok",
+      "cache": "9b1d9f2b5800435fdd06.json"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "141",
+  "college": "Naharkatiya College",
+  "pages": [
+    {
+      "url": "https://naharkatiyacollege.com/",
+      "status": "ok",
+      "cache": "bdb899eb8b92fbe56f11.json"
+    },
+    {
+      "url": "https://naharkatiyacollege.com/departments.php",
+      "status": "ok",
+      "cache": "f1d8d553c2caed206763.json"
+    },
+    {
+      "url": "https://naharkatiyacollege.com/prospectus.php",
+      "status": "ok",
+      "cache": "f6a44bdbbb0c02726057.json"
+    },
+    {
+      "url": "https://naharkatiyacollege.com/academic-calendar",
+      "status": "ok",
+      "cache": "980cd5e4a998897d862e.json"
+    },
+    {
+      "url": "https://naharkatiyacollege.com/physical-academic-support-facilities",
+      "status": "ok",
+      "cache": "c60a2b56e18ca6cb9f66.json"
+    }
+  ]
+}

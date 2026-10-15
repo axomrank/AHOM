@@ -1,0 +1,46 @@
+{
+  "id": "146",
+  "college": "Tingkhong College",
+  "pages": [
+    {
+      "url": "https://tingkhongcollege.edu.in/",
+      "status": "ok",
+      "cache": "e26dfa1cde87876d817e.json"
+    },
+    {
+      "url": "https://tingkhongcollege.edu.in/departments/",
+      "status": "ok",
+      "cache": "5a538365814728286384.json"
+    },
+    {
+      "url": "https://tingkhongcollege.edu.in/wp-content/uploads/2026/04/PROSPECTUS-2026-27.pdf",
+      "status": "ok",
+      "cache": "966dc5d333fde99a9f7e.json"
+    },
+    {
+      "url": "https://tingkhongcollege.edu.in/prospectus-2025-26/",
+      "status": "ok",
+      "cache": "e37d5f98969f32d88953.json"
+    },
+    {
+      "url": "https://tingkhongcollege.edu.in/courses-offered/",
+      "status": "ok",
+      "cache": "c21b4910ebb3e56abd22.json"
+    },
+    {
+      "url": "https://tingkhongcollege.edu.in/academic-calendar/",
+      "status": "ok",
+      "cache": "7bcf7a27c30789f64487.json"
+    },
+    {
+      "url": "https://tingkhongcollege.edu.in/departments",
+      "status": "ok",
+      "cache": "3aa0dcbcbef1bccd39dc.json"
+    },
+    {
+      "url": "https://tingkhongcollege.edu.in/departments/#content",
+      "status": "ok",
+      "cache": "e575f52353237e4bca1a.json"
+    }
+  ]
+}

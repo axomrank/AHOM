@@ -1,0 +1,46 @@
+{
+  "id": "29",
+  "college": "Bir Raghab Moran Government Model College, Doomdooma",
+  "pages": [
+    {
+      "url": "http://brmgmc.ac.in/",
+      "status": "ok",
+      "cache": "b66bdb1c44b06040da4e.json"
+    },
+    {
+      "url": "https://brmgmc.ac.in/",
+      "status": "ok",
+      "cache": "aa8962b92cba066222df.json"
+    },
+    {
+      "url": "http://brmgmc.ac.in/uploads/files/notice_6a1edfde13c6a2.70098459.pdf",
+      "status": "ok",
+      "cache": "5bc75ba8450a28c7df89.json"
+    },
+    {
+      "url": "https://brmgmc.ac.in/uploads/files/notice_6a1edfde13c6a2.70098459.pdf",
+      "status": "ok",
+      "cache": "773577a845e04b8cf944.json"
+    },
+    {
+      "url": "http://brmgmc.ac.in/uploads/files/Prospectus-1.pdf",
+      "status": "ok",
+      "cache": "263c458ef9c3e2e3f47a.json"
+    },
+    {
+      "url": "https://brmgmc.ac.in/uploads/files/Prospectus-1.pdf",
+      "status": "ok",
+      "cache": "5b57d11120d364ba96ea.json"
+    },
+    {
+      "url": "http://brmgmc.ac.in/#departments",
+      "status": "ok",
+      "cache": "82607240e42a956e596c.json"
+    },
+    {
+      "url": "https://brmgmc.ac.in/#departments",
+      "status": "ok",
+      "cache": "9ffafd5357237508c3ad.json"
+    }
+  ]
+}

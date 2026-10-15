@@ -1,0 +1,16 @@
+{
+  "id": "325",
+  "college": "Nalbari Commerce College",
+  "pages": [
+    {
+      "url": "http://www.nccnalbari.in/",
+      "status": "ok",
+      "cache": "8da24c687bc6aafe7a70.json"
+    },
+    {
+      "url": "https://www.nccnalbari.in/pdf/2024/DCF_II_2022-2023.pdf",
+      "status": "error",
+      "cache": "6166802799bc98e5f502.json"
+    }
+  ]
+}

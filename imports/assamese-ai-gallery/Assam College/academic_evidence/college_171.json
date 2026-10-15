@@ -1,0 +1,46 @@
+{
+  "id": "171",
+  "college": "Marangi Mahavidyalaya",
+  "pages": [
+    {
+      "url": "https://marangimahavidyalaya.edu.in/",
+      "status": "ok",
+      "cache": "6cb812ec77ea9d6f945b.json"
+    },
+    {
+      "url": "https://marangimahavidyalaya.edu.in/wp-content/uploads/2024/11/SSR-MM.pdf",
+      "status": "ok",
+      "cache": "cd6871cd1adc6dbeddb4.json"
+    },
+    {
+      "url": "https://marangimahavidyalaya.edu.in/prospectus/",
+      "status": "ok",
+      "cache": "2cd1296c1d63cc921b32.json"
+    },
+    {
+      "url": "https://marangimahavidyalaya.edu.in/programme-offered/",
+      "status": "ok",
+      "cache": "185b47eea0303e400f87.json"
+    },
+    {
+      "url": "https://marangimahavidyalaya.edu.in/academic-calendar/",
+      "status": "ok",
+      "cache": "fe01ebc615a506320d07.json"
+    },
+    {
+      "url": "https://marangimahavidyalaya.edu.in/department-of-assamese/",
+      "status": "ok",
+      "cache": "0fcfd9a49959a2ff2361.json"
+    },
+    {
+      "url": "https://marangimahavidyalaya.edu.in/department-of-economics/",
+      "status": "ok",
+      "cache": "821fc60bccd26709458f.json"
+    },
+    {
+      "url": "https://marangimahavidyalaya.edu.in/department-of-education-2/",
+      "status": "ok",
+      "cache": "42fa7abc70774f3f2c32.json"
+    }
+  ]
+}

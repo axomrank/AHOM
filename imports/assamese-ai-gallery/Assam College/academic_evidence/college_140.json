@@ -1,0 +1,46 @@
+{
+  "id": "140",
+  "college": "Moran Commerce College",
+  "pages": [
+    {
+      "url": "https://morancommercecollege.in/",
+      "status": "ok",
+      "cache": "ced3c92993a12aaaab8e.json"
+    },
+    {
+      "url": "http://morancommercecollege.in/wp-content/uploads/2026/04/Prospectus-2026.pdf",
+      "status": "ok",
+      "cache": "d5c0412e64ec833a9673.json"
+    },
+    {
+      "url": "http://morancommercecollege.in/wp-content/uploads/2026/03/Academic-Calendar-2026.pdf",
+      "status": "ok",
+      "cache": "891a4055ed6e6e631ebd.json"
+    },
+    {
+      "url": "https://morancommercecollege.in/?page_id=2459",
+      "status": "ok",
+      "cache": "2cdd3429f400b17ac964.json"
+    },
+    {
+      "url": "https://morancommercecollege.in/?page_id=2463",
+      "status": "ok",
+      "cache": "bc93126bdd17fe58cdd5.json"
+    },
+    {
+      "url": "https://morancommercecollege.in/?page_id=2457",
+      "status": "ok",
+      "cache": "878a74f2ea21d9dadbad.json"
+    },
+    {
+      "url": "https://morancommercecollege.in/?page_id=935",
+      "status": "ok",
+      "cache": "4f5744b853c9adeee994.json"
+    },
+    {
+      "url": "https://morancommercecollege.in/?page_id=290",
+      "status": "ok",
+      "cache": "108d670767ba1327f08f.json"
+    }
+  ]
+}

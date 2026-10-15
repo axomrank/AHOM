@@ -1,0 +1,46 @@
+{
+  "id": "201",
+  "college": "Arya Vidyapeeth College",
+  "pages": [
+    {
+      "url": "https://www.avcollege.ac.in/",
+      "status": "ok",
+      "cache": "5e0561264e5642c378e4.json"
+    },
+    {
+      "url": "https://www.avcollege.ac.in/departments/arts/",
+      "status": "ok",
+      "cache": "b187886c2501149a7bd5.json"
+    },
+    {
+      "url": "https://www.avcollege.ac.in/departments/science/",
+      "status": "ok",
+      "cache": "64c5ca90ee5b547037fb.json"
+    },
+    {
+      "url": "https://www.avcollege.ac.in/college-prospectus/",
+      "status": "ok",
+      "cache": "3718ad40314641093736.json"
+    },
+    {
+      "url": "https://www.avcollege.ac.in/2026/08/re-evaluation-of-pg-2nd-and-4th-semester-2026/",
+      "status": "ok",
+      "cache": "48fee6774e53930206a3.json"
+    },
+    {
+      "url": "https://www.avcollege.ac.in/2026/08/pg-result-notice-2026/",
+      "status": "ok",
+      "cache": "775f4837ac12ce3d26d5.json"
+    },
+    {
+      "url": "https://www.avcollege.ac.in/2026/06/academic-council-of-arya-vidyapeeth-college-autonomous-2026-2029/",
+      "status": "ok",
+      "cache": "9a1ead33444abc936c06.json"
+    },
+    {
+      "url": "https://www.avcollege.ac.in/2026/05/international-seminar-on-science-technology-innovation-iii-organized-by-department-of-chemistry/",
+      "status": "ok",
+      "cache": "efd14e5e29ea1cb7ca70.json"
+    }
+  ]
+}

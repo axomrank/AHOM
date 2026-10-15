@@ -1,0 +1,26 @@
+{
+  "id": "250",
+  "college": "Karimganj College",
+  "pages": [
+    {
+      "url": "http://iqac.karimganjcollege.ac.in/",
+      "status": "ok",
+      "cache": "335329a85cf839c7027e.json"
+    },
+    {
+      "url": "https://iqac.karimganjcollege.ac.in/prospectus/Prospectus_2024-25.pdf",
+      "status": "error",
+      "cache": "d5316135c1d3dc41f3e6.json"
+    },
+    {
+      "url": "http://iqac.karimganjcollege.ac.in/Prospectus.aspx",
+      "status": "ok",
+      "cache": "839a732188dd1b87ca47.json"
+    },
+    {
+      "url": "http://iqac.karimganjcollege.ac.in/Academic_Calender.aspx",
+      "status": "ok",
+      "cache": "7b2d3e2d72fa50e05acb.json"
+    }
+  ]
+}

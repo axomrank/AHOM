@@ -1,0 +1,46 @@
+{
+  "id": "139",
+  "college": "Moran College",
+  "pages": [
+    {
+      "url": "https://morancollege.ac.in/",
+      "status": "ok",
+      "cache": "db3553c8fd22e83e17d8.json"
+    },
+    {
+      "url": "https://morancollege.ac.in/departmentdetails",
+      "status": "ok",
+      "cache": "03bc34cab105abaa287b.json"
+    },
+    {
+      "url": "https://morancollege.ac.in/storage/prospectus/1779825943_College Prospectus 2026-2027 Final.pdf",
+      "status": "ok",
+      "cache": "c284ec26402cd1a41ac2.json"
+    },
+    {
+      "url": "https://morancollege.ac.in/departmentslogin",
+      "status": "ok",
+      "cache": "352df5457110663515a2.json"
+    },
+    {
+      "url": "https://morancollege.ac.in/viewdepartmentdetails/4",
+      "status": "ok",
+      "cache": "7986da5e18c9ae879399.json"
+    },
+    {
+      "url": "https://morancollege.ac.in/viewdepartmentdetails/6",
+      "status": "ok",
+      "cache": "19df1b4b66f9bf41ca39.json"
+    },
+    {
+      "url": "https://morancollege.ac.in/viewdepartmentdetails/7",
+      "status": "ok",
+      "cache": "6aade7311de1c67b9385.json"
+    },
+    {
+      "url": "https://morancollege.ac.in/viewdepartmentdetails/9",
+      "status": "ok",
+      "cache": "46110875692c593d59ed.json"
+    }
+  ]
+}

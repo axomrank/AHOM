@@ -1,0 +1,46 @@
+{
+  "id": "32",
+  "college": "Nirmal Haloi College",
+  "pages": [
+    {
+      "url": "https://nhcollege.ac.in/",
+      "status": "ok",
+      "cache": "509611094fcd968d796e.json"
+    },
+    {
+      "url": "https://nhcollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "b46161a1b12ebed7ca77.json"
+    },
+    {
+      "url": "https://nhcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "6b5f71bf62fb9ebebcb1.json"
+    },
+    {
+      "url": "https://nhcollege.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "09a1597acba795a57bd6.json"
+    },
+    {
+      "url": "https://nhcollege.ac.in/Academic-Departments.php?department=46de63c1c2f60e47b16f99a4ed334e14c752213f8d03a6c74947e415ae39696b7a96cdef3b2786fbc002a834289eee442e8453523bffd4244731d31cabf5b10c",
+      "status": "ok",
+      "cache": "9c9c982bbecbbde522dd.json"
+    },
+    {
+      "url": "https://nhcollege.ac.in/Academic-Departments.php?department=c11669f1f34bb71930ed9aaccf3527dd32a3f79593765078bc35205d8eb2cf46c9d660e5f6ff0eab0946858cc4785290487659060053edb16896babe041ce75d",
+      "status": "ok",
+      "cache": "108d7839581429f3c96e.json"
+    },
+    {
+      "url": "https://nhcollege.ac.in/Academic-Departments.php?department=6cc35481e8b339155bd4281f01cc5ffa794a742aa3475fc00ee28f62d7a2cccb3f23349036d5dfcac9655456adda279c110f3e7ca666dc3134ec0fab23c6101f",
+      "status": "ok",
+      "cache": "13a8f268b33ce65b1704.json"
+    },
+    {
+      "url": "https://nhcollege.ac.in/Academic-Departments.php?department=3ff3a86f76d6916885f28ce2661af90cd8b744f73fa4e43b2d744030854b99bde292ca6f2d216248df1fb96aca543be4b281ffeb04790a05c2891acedd37dcd2",
+      "status": "ok",
+      "cache": "8baa0cd6269d08f08aa6.json"
+    }
+  ]
+}

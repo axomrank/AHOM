@@ -1,0 +1,41 @@
+{
+  "id": "27",
+  "college": "Government Model College, Balipara",
+  "pages": [
+    {
+      "url": "https://gmcbalipara.ac.in/",
+      "status": "ok",
+      "cache": "bbb7d71d1f6a716a59d6.json"
+    },
+    {
+      "url": "https://gmcbalipara.ac.in/home/department/assamese",
+      "status": "ok",
+      "cache": "7e0d825e5ae05793e449.json"
+    },
+    {
+      "url": "https://gmcbalipara.ac.in/home/department/english",
+      "status": "ok",
+      "cache": "6e073e3879922665962e.json"
+    },
+    {
+      "url": "https://gmcbalipara.ac.in/home/department/economics",
+      "status": "ok",
+      "cache": "adb7a8952ea646e4d508.json"
+    },
+    {
+      "url": "https://gmcbalipara.ac.in/home/department/education",
+      "status": "ok",
+      "cache": "c9b42f32fd2f369a1a44.json"
+    },
+    {
+      "url": "https://gmcbalipara.ac.in/home/department/history",
+      "status": "ok",
+      "cache": "cd0ffb4f574a214e1a1f.json"
+    },
+    {
+      "url": "https://gmcbalipara.ac.in/home/department/political_science",
+      "status": "ok",
+      "cache": "16a28dd2e205ccf0d079.json"
+    }
+  ]
+}

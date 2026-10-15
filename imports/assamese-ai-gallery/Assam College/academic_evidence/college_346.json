@@ -1,0 +1,46 @@
+{
+  "id": "346",
+  "college": "Rangapara College",
+  "pages": [
+    {
+      "url": "https://rcr.ac.in/",
+      "status": "ok",
+      "cache": "d9fd29f3d731d78d2c36.json"
+    },
+    {
+      "url": "https://rcr.ac.in/assets/frontend/moving_text/Moving_5.pdf",
+      "status": "ok",
+      "cache": "2e119139132e0d0fe6ed.json"
+    },
+    {
+      "url": "https://rcr.ac.in/assets/frontend/moving_text/Moving_49.pdf",
+      "status": "ok",
+      "cache": "4843978c480644ccae97.json"
+    },
+    {
+      "url": "https://rcr.ac.in/assets/frontend/moving_text/Moving_47.pdf",
+      "status": "ok",
+      "cache": "2fe7c33aa777303f8a46.json"
+    },
+    {
+      "url": "https://rcr.ac.in/assets/frontend/notices/Notice_521.pdf ",
+      "status": "error",
+      "cache": "7282d3a2184f232469f5.json"
+    },
+    {
+      "url": "https://rcr.ac.in/assets/frontend/notices/Notice_512.pdf ",
+      "status": "error",
+      "cache": "49e2510f418b15e6e4b1.json"
+    },
+    {
+      "url": "https://rcr.ac.in/assets/frontend/notices/Notice_495.pdf ",
+      "status": "error",
+      "cache": "48a964c53ff98b8f0e7f.json"
+    },
+    {
+      "url": "https://rcr.ac.in/home/course_offered",
+      "status": "ok",
+      "cache": "6d24c3bd079abf55686e.json"
+    }
+  ]
+}

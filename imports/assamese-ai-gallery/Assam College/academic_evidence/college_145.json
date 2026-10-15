@@ -1,0 +1,26 @@
+{
+  "id": "145",
+  "college": "Tengakhat College",
+  "pages": [
+    {
+      "url": "https://www.tengakhatcollege.edu.in/",
+      "status": "ok",
+      "cache": "4ef56d5ea31062d80038.json"
+    },
+    {
+      "url": "https://www.tengakhatcollege.edu.in/department.php",
+      "status": "ok",
+      "cache": "472bf234e9e2a6838c27.json"
+    },
+    {
+      "url": "https://www.tengakhatcollege.edu.in/Tengakhat_College_Prospectus_2023-2024.pdf",
+      "status": "ok",
+      "cache": "c0421eb7790ed9353f8a.json"
+    },
+    {
+      "url": "https://www.tengakhatcollege.edu.in/academic_calender.php",
+      "status": "ok",
+      "cache": "fea923c70c0f88100a1a.json"
+    }
+  ]
+}

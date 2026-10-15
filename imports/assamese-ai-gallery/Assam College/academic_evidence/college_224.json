@@ -1,0 +1,46 @@
+{
+  "id": "224",
+  "college": "Bamundi Mahavidyalaya",
+  "pages": [
+    {
+      "url": "https://bamundimahavidyalaya.ac.in/",
+      "status": "ok",
+      "cache": "891bd4d777ec4a9584aa.json"
+    },
+    {
+      "url": "https://bamundimahavidyalaya.ac.in/docs/prospectus 26-27.pdf",
+      "status": "ok",
+      "cache": "d1256e48521fc4d2b52c.json"
+    },
+    {
+      "url": "https://bamundimahavidyalaya.ac.in/Academics/coursesoffered",
+      "status": "ok",
+      "cache": "e98ad8adeee9e4fdacfa.json"
+    },
+    {
+      "url": "https://bamundimahavidyalaya.ac.in/Departments/Assamese",
+      "status": "ok",
+      "cache": "17acbe32a5dfd6d779e0.json"
+    },
+    {
+      "url": "https://bamundimahavidyalaya.ac.in/Departments/Economics",
+      "status": "ok",
+      "cache": "46e4c586ad73c29576a3.json"
+    },
+    {
+      "url": "https://bamundimahavidyalaya.ac.in/Departments/Education",
+      "status": "ok",
+      "cache": "e4f916120e7bbc07b3d7.json"
+    },
+    {
+      "url": "https://bamundimahavidyalaya.ac.in/Departments/English",
+      "status": "ok",
+      "cache": "e28d275ebd2a82010460.json"
+    },
+    {
+      "url": "https://bamundimahavidyalaya.ac.in/Departments/PoliticalScience",
+      "status": "ok",
+      "cache": "9b830055cebcbce86e49.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "256",
+  "college": "Swami Vivekananda College",
+  "pages": [
+    {
+      "url": "https://www.svcollege.ac.in/",
+      "status": "ok",
+      "cache": "445fee46cc30bcd4c26c.json"
+    },
+    {
+      "url": "https://www.svcollege.ac.in/departments",
+      "status": "ok",
+      "cache": "9ed3f1863332edb6e505.json"
+    },
+    {
+      "url": "https://www.svcollege.ac.in/post/industrial-visit-2026-pg-department-of-commerce",
+      "status": "ok",
+      "cache": "b25086ba54b83fd34d9f.json"
+    },
+    {
+      "url": "https://www.svcollege.ac.in/pg-programmes",
+      "status": "ok",
+      "cache": "6e690248fb9af949160c.json"
+    },
+    {
+      "url": "https://www.svcollege.ac.in/post/orientation-programme-department-of-human-resource-management",
+      "status": "ok",
+      "cache": "083adb25c7474f9a92fe.json"
+    },
+    {
+      "url": "https://www.svcollege.ac.in/departments-1/commerce",
+      "status": "ok",
+      "cache": "b37f19ef5b2462fb57fe.json"
+    },
+    {
+      "url": "https://www.svcollege.ac.in/departments-1/department-of-human-resource-management",
+      "status": "ok",
+      "cache": "96bfbf5600436f772479.json"
+    },
+    {
+      "url": "https://www.svcollege.ac.in/departments-1/hindi",
+      "status": "ok",
+      "cache": "0f1b9d857decf5a9edec.json"
+    }
+  ]
+}

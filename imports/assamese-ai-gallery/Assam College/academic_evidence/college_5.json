@@ -1,0 +1,46 @@
+{
+  "id": "5",
+  "college": "Pandit Deendayal Upadhyaya Adarsha Mahavidyalaya (PDUAM), Tulungia",
+  "pages": [
+    {
+      "url": "https://www.pduamtulungia.co.in/",
+      "status": "ok",
+      "cache": "aae1e07177d8d208f0ad.json"
+    },
+    {
+      "url": "https://www.pduamtulungia.co.in/upload/headnotice/1778675312.pdf",
+      "status": "ok",
+      "cache": "b36921fb95b7d5663474.json"
+    },
+    {
+      "url": "https://www.pduamtulungia.co.in/iqac_academiccal.php",
+      "status": "ok",
+      "cache": "dbad8aa247aab4b342a6.json"
+    },
+    {
+      "url": "https://www.pduamtulungia.co.in/Academic-Departmentsnew.php?department=f72ca5278453ae108d3374d14a7e4252088e4e3b95a1d68c520b959773784a67777664ce128682941fc7ed2361f8d32ea6278c901bce79fe2cde62c5c8a875c0",
+      "status": "ok",
+      "cache": "a0772790f151808aa7b0.json"
+    },
+    {
+      "url": "https://www.pduamtulungia.co.in/Academic-Departmentsnew.php?department=8c1c152ea846d11ca5bf45c8102609499a91d26a23b7fbf46e5226db98f117524d82b0c9f6afef50ec41c75178cf6eeffc8950e66b00d6242262aac5f292ff00",
+      "status": "ok",
+      "cache": "38fdce7aebf1ad94cc8e.json"
+    },
+    {
+      "url": "https://www.pduamtulungia.co.in/Academic-Departmentsnew.php?department=c11669f1f34bb71930ed9aaccf3527dd0421eb3d3a70359138866d2e1298484101d78823e499e550db5c2b36b449d1f7ca3dc23ecb4b9308fdf6bdb85f8d9992",
+      "status": "ok",
+      "cache": "94a93b0521e22dba2d06.json"
+    },
+    {
+      "url": "https://www.pduamtulungia.co.in/Academic-Departmentsnew.php?department=b00dac5eb604fc70c477f5a6604b4da2208491a0aa854934c9933f9897dc395858361b21747576d3188a0fb6a2e3e73b694ece0a8ed1c5aa738ae1d77253d431",
+      "status": "ok",
+      "cache": "20465d37b93b9688832c.json"
+    },
+    {
+      "url": "https://www.pduamtulungia.co.in/Academic-Departmentsnew.php?department=2b0b1309c1fc5297765eed5bd46fed0a8e9236d47049e89cf51c649989b938473a3cbe4d169e9356de369661b34dc02c42335a5c702c2c88cdb8977cab45635b",
+      "status": "ok",
+      "cache": "666ad32cd15669d466ef.json"
+    }
+  ]
+}

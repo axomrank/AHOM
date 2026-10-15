@@ -1,0 +1,46 @@
+{
+  "id": "285",
+  "college": "Majuli College",
+  "pages": [
+    {
+      "url": "https://majulicollege.in/",
+      "status": "ok",
+      "cache": "6b3b42ef284d9d7201a6.json"
+    },
+    {
+      "url": "https://majulicollege.in/wp-content/uploads/2025/02/Academic-Calender_-2024.pdf",
+      "status": "ok",
+      "cache": "d7524dc2f74f309afd1a.json"
+    },
+    {
+      "url": "https://majulicollege.in/wp-content/uploads/2023/06/MAJULI-COLLEGE-PROSPECTUS-2023-24.pdf",
+      "status": "ok",
+      "cache": "7a1f73bdc31235cdd06a.json"
+    },
+    {
+      "url": "https://majulicollege.in/academic-coordinator/",
+      "status": "ok",
+      "cache": "9351453a8d5d00e41643.json"
+    },
+    {
+      "url": "https://majulicollege.in/department-of-arts/",
+      "status": "ok",
+      "cache": "8032dd77bd47c452117d.json"
+    },
+    {
+      "url": "https://majulicollege.in/department-of-science/",
+      "status": "ok",
+      "cache": "b5675ba05961d20572b9.json"
+    },
+    {
+      "url": "https://majulicollege.in/department/b-voc-it/",
+      "status": "ok",
+      "cache": "afa5b726d090c2a19055.json"
+    },
+    {
+      "url": "https://majulicollege.in/wp-content/uploads/2023/06/Academic-Calender-2020-2021.-1.pdf",
+      "status": "ok",
+      "cache": "f14f6018725c7b2ba0c2.json"
+    }
+  ]
+}

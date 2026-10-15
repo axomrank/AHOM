@@ -1,0 +1,1016 @@
+{
+  "title": "Assamese Heritage & Legends — AI Art Gallery",
+  "subtitle": "A curated collection of AI-generated artworks celebrating the royalty, luminaries, folklore, sacred shrines, and timeless architecture of Assam.",
+  "categories": {
+    "history-and-royalty": {
+      "name": "History & Royalty",
+      "icon": "👑",
+      "description": "Ahom Dynasty rulers, kings, noble ministers, and legendary queens of Assam."
+    },
+    "folklore-and-legends": {
+      "name": "Folklore & Legends",
+      "icon": "👻",
+      "description": "Spectral beings, mythical creatures, and rural folktale depictions of Assam."
+    },
+    "sacred-and-culture": {
+      "name": "Sacred & Culture",
+      "icon": "🪔",
+      "description": "Namghar sanctums, Guru Asana (Singhasan), and spiritual cultural heritage."
+    },
+    "traditional-architecture": {
+      "name": "Traditional Architecture",
+      "icon": "🏡",
+      "description": "Classic Assam-type houses, bamboo-wood homesteads, and rural verandahs."
+    },
+    "notable-figures": {
+      "name": "Notable Figures",
+      "icon": "📜",
+      "description": "Luminaries, poets, freedom fighters, linguists, and cultural icons."
+    }
+  },
+  "totalImages": 58,
+  "items": [
+    {
+      "id": "sukapha-portrait",
+      "title": "Chaolung Sukapha — Close-up Portrait",
+      "category": "history-and-royalty",
+      "categoryName": "History & Royalty",
+      "categoryIcon": "👑",
+      "description": "Artistic portrait of Chaolung Sukapha, the visionary 13th-century Tai prince who crossed the Patkai mountains to establish the 600-year-long Ahom Kingdom in the Brahmaputra Valley.",
+      "tags": [
+        "Ahom",
+        "Sukapha",
+        "King",
+        "Portrait",
+        "History",
+        "Founder"
+      ],
+      "imagePath": "images/history-and-royalty/sukapha-face-closeup.png",
+      "fileSize": 2325045
+    },
+    {
+      "id": "sukapha-throne-side",
+      "title": "Chaolung Sukapha on Royal Throne (Profile)",
+      "category": "history-and-royalty",
+      "categoryName": "History & Royalty",
+      "categoryIcon": "👑",
+      "description": "Profile view of Chaolung Sukapha seated on the intricately carved Ahom royal throne, adorned in royal regalia.",
+      "tags": [
+        "Ahom",
+        "Sukapha",
+        "Throne",
+        "Royalty",
+        "Profile"
+      ],
+      "imagePath": "images/history-and-royalty/sukapha-on-throne-side.png",
+      "fileSize": 2024755
+    },
+    {
+      "id": "sukapha-throne-standing",
+      "title": "Chaolung Sukapha with Royal Throne",
+      "category": "history-and-royalty",
+      "categoryName": "History & Royalty",
+      "categoryIcon": "👑",
+      "description": "Chaolung Sukapha standing with majesty beside the grand carved wooden throne of the Ahom court.",
+      "tags": [
+        "Ahom",
+        "Sukapha",
+        "Throne",
+        "Regal",
+        "Court"
+      ],
+      "imagePath": "images/history-and-royalty/sukapha-royal-throne-standing.png",
+      "fileSize": 2276694
+    },
+    {
+      "id": "sukapha-patkai-jungle",
+      "title": "Chaolung Sukapha Patkai Expedition",
+      "category": "history-and-royalty",
+      "categoryName": "History & Royalty",
+      "categoryIcon": "👑",
+      "description": "Sukapha leading his soldiers and followers through the dense rainforests of the Patkai mountain pass into Assam (1228 CE).",
+      "tags": [
+        "Sukapha",
+        "Patkai",
+        "Migration",
+        "Expedition",
+        "Rainforest"
+      ],
+      "imagePath": "images/history-and-royalty/sukapha-jungle-expedition.png",
+      "fileSize": 2812310
+    },
+    {
+      "id": "sukapha-brahmaputra-river",
+      "title": "Chaolung Sukapha by the Brahmaputra",
+      "category": "history-and-royalty",
+      "categoryName": "History & Royalty",
+      "categoryIcon": "👑",
+      "description": "Chaolung Sukapha surveying the majestic expanses and fertile banks of the Luit / Brahmaputra river.",
+      "tags": [
+        "Sukapha",
+        "Brahmaputra",
+        "River",
+        "Expedition",
+        "Borders"
+      ],
+      "imagePath": "images/history-and-royalty/sukapha-brahmaputra-riverbank.png",
+      "fileSize": 3022281
+    },
+    {
+      "id": "ahom-noble-warrior",
+      "title": "Ahom Warrior & Noble Dignitary",
+      "category": "history-and-royalty",
+      "categoryName": "History & Royalty",
+      "categoryIcon": "👑",
+      "description": "Artistic visualization of an Ahom military commander and nobleman in ceremonial headdress and traditional attire.",
+      "tags": [
+        "Ahom",
+        "Warrior",
+        "Noble",
+        "Attire",
+        "Armor"
+      ],
+      "imagePath": "images/history-and-royalty/ahom-noble-warrior.png",
+      "fileSize": 3268873
+    },
+    {
+      "id": "patra-mantri-council",
+      "title": "The Patra Mantris (Borgohain & Burhagohain)",
+      "category": "history-and-royalty",
+      "categoryName": "History & Royalty",
+      "categoryIcon": "👑",
+      "description": "Illustration representing the legendary dual executive councils and grand ministers who governed alongside the Ahom Swargadeos.",
+      "tags": [
+        "Ahom",
+        "Ministers",
+        "Borgohain",
+        "Burhagohain",
+        "Administration",
+        "Patra Mantri"
+      ],
+      "imagePath": "images/history-and-royalty/borgohain-burhagohain-patra-mantri.png",
+      "fileSize": 1734481
+    },
+    {
+      "id": "parbatia-gohain-1",
+      "title": "Parbatia Gohain (Ahom Noble)",
+      "category": "history-and-royalty",
+      "categoryName": "History & Royalty",
+      "categoryIcon": "👑",
+      "description": "Artistic depiction of Parbatia Gohain, prominent Ahom noble commander from the mountain frontier administration.",
+      "tags": [
+        "Ahom",
+        "Gohain",
+        "Noble",
+        "History",
+        "Frontier"
+      ],
+      "imagePath": "images/history-and-royalty/parbatia-gohain-1.png",
+      "fileSize": 1903122
+    },
+    {
+      "id": "parbatia-gohain-2",
+      "title": "Parbatia Gohain (Alternative Study)",
+      "category": "history-and-royalty",
+      "categoryName": "History & Royalty",
+      "categoryIcon": "👑",
+      "description": "Alternative artistic visualization of Parbatia Gohain in classical Ahom aristocratic attire.",
+      "tags": [
+        "Ahom",
+        "Gohain",
+        "Noble",
+        "Aristocracy"
+      ],
+      "imagePath": "images/history-and-royalty/parbatia-gohain-2.png",
+      "fileSize": 1613616
+    },
+    {
+      "id": "sati-sadhani-heroic",
+      "title": "Birangana Sati Sadhani (Heroic Queen)",
+      "category": "history-and-royalty",
+      "categoryName": "History & Royalty",
+      "categoryIcon": "👑",
+      "description": "The legendary last Queen of the Chutia dynasty, remembered for her indomitable spirit, valor, and ultimate sacrifice on Chandragiri hills.",
+      "tags": [
+        "Chutia",
+        "Sati Sadhani",
+        "Queen",
+        "Courage",
+        "Heroine"
+      ],
+      "imagePath": "images/history-and-royalty/sati-sadhani-heroic-queen.png",
+      "fileSize": 2777536
+    },
+    {
+      "id": "sati-sadhani-warrior",
+      "title": "Birangana Sati Sadhani (Warrior Stance)",
+      "category": "history-and-royalty",
+      "categoryName": "History & Royalty",
+      "categoryIcon": "👑",
+      "description": "Artistic depiction of Queen Sadhani standing fiercely in defence of her kingdom and heritage.",
+      "tags": [
+        "Chutia",
+        "Sati Sadhani",
+        "Warrior",
+        "Valor",
+        "Legend"
+      ],
+      "imagePath": "images/history-and-royalty/sati-sadhani-warrior.png",
+      "fileSize": 3243605
+    },
+    {
+      "id": "japi-pindha-bhoot-1",
+      "title": "Japi Pindha Bhoot (The Japi-Clad Spirit)",
+      "category": "folklore-and-legends",
+      "categoryName": "Folklore & Legends",
+      "categoryIcon": "👻",
+      "description": "Assamese rural folklore spirit famous in village tales — a mysterious spectral figure wandering misty paddy fields wearing a broad straw Japi.",
+      "tags": [
+        "Folklore",
+        "Ghost",
+        "Japi",
+        "Mythology",
+        "Assam Ghost",
+        "Supernatural"
+      ],
+      "imagePath": "images/folklore-and-legends/japi-pindha-bhoot-front.png",
+      "fileSize": 2338443
+    },
+    {
+      "id": "japi-pindha-bhoot-2",
+      "title": "Japi Pindha Bhoot (Nocturnal View)",
+      "category": "folklore-and-legends",
+      "categoryName": "Folklore & Legends",
+      "categoryIcon": "👻",
+      "description": "Atmospheric night-time perspective of the enigmatic Japi Pindha Bhoot along rural riverbanks and bamboo groves.",
+      "tags": [
+        "Folklore",
+        "Ghost",
+        "Spooky",
+        "Night",
+        "Japi",
+        "Bamboo Grove"
+      ],
+      "imagePath": "images/folklore-and-legends/japi-pindha-bhoot-night.png",
+      "fileSize": 2509451
+    },
+    {
+      "id": "hetuka-xulin-1",
+      "title": "Hetuka Xulin (Rural Legend)",
+      "category": "folklore-and-legends",
+      "categoryName": "Folklore & Legends",
+      "categoryIcon": "👻",
+      "description": "Artistic representation of Hetuka Xulin, an eerie figure originating in folklore and oral ghost traditions across rural Upper Assam.",
+      "tags": [
+        "Folklore",
+        "Legend",
+        "Rural",
+        "Myth",
+        "Oral Tradition"
+      ],
+      "imagePath": "images/folklore-and-legends/hetuka-xulin-rural-myth.jpg",
+      "fileSize": 414674
+    },
+    {
+      "id": "hetuka-xulin-2",
+      "title": "Hetuka Xulin (Dramatic Render)",
+      "category": "folklore-and-legends",
+      "categoryName": "Folklore & Legends",
+      "categoryIcon": "👻",
+      "description": "Dramatic visualization capturing the supernatural atmosphere and lore surrounding Hetuka Xulin in village mythology.",
+      "tags": [
+        "Folklore",
+        "Legend",
+        "Mythology",
+        "Eerie",
+        "Assam Lore"
+      ],
+      "imagePath": "images/folklore-and-legends/hetuka-xulin-dramatic.png",
+      "fileSize": 3464975
+    },
+    {
+      "id": "namghar-guru-asana-1",
+      "title": "Namghar Guru Asana (Singhasan)",
+      "category": "sacred-and-culture",
+      "categoryName": "Sacred & Culture",
+      "categoryIcon": "🪔",
+      "description": "The sanctum sanctorum of an Assamese Namghar — the sacred wooden Guru Asana (Singhasan) crowned by the holy Bhagavata Purana on seven tiers.",
+      "tags": [
+        "Namghar",
+        "Singhasan",
+        "Guru Asana",
+        "Vaishnavism",
+        "Sacred",
+        "Culture"
+      ],
+      "imagePath": "images/sacred-and-culture/namghar-guru-asana-singhasan-1.png",
+      "fileSize": 1717020
+    },
+    {
+      "id": "namghar-guru-asana-2",
+      "title": "Namghar Guru Asana with Carved Motifs",
+      "category": "sacred-and-culture",
+      "categoryName": "Sacred & Culture",
+      "categoryIcon": "🪔",
+      "description": "Intricately carved seven-tiered throne of the Namghar displaying detailed wooden craftsmanship and traditional spiritual iconography.",
+      "tags": [
+        "Namghar",
+        "Singhasan",
+        "Carving",
+        "Woodwork",
+        "Vaishnavite Art"
+      ],
+      "imagePath": "images/sacred-and-culture/namghar-guru-asana-singhasan-2.png",
+      "fileSize": 1907875
+    },
+    {
+      "id": "namghar-sacred-sculptures",
+      "title": "Sacred Motifs: Kurma, Gaja & Singha",
+      "category": "sacred-and-culture",
+      "categoryName": "Sacred & Culture",
+      "categoryIcon": "🪔",
+      "description": "Architectural woodwork portraying Kurma (the tortoise supporting the cosmos), Gaja (elephant), and Singha (lion) from Assamese neo-Vaishnavite symbolism.",
+      "tags": [
+        "Namghar",
+        "Kurma",
+        "Elephant",
+        "Lion",
+        "Sculpture",
+        "Symbolism"
+      ],
+      "imagePath": "images/sacred-and-culture/namghar-kurma-elephant-lion-motifs.png",
+      "fileSize": 2907766
+    },
+    {
+      "id": "assam-house-1",
+      "title": "Assam-Type House with Corrugated Roof (Type 1)",
+      "category": "traditional-architecture",
+      "categoryName": "Traditional Architecture",
+      "categoryIcon": "🏡",
+      "description": "Classic earthquake-resistant Assam-type house with timber framework, reed/plaster walls (Ikra), and pitched tin roofing.",
+      "tags": [
+        "Assam House",
+        "Architecture",
+        "Heritage",
+        "Ikra",
+        "Traditional"
+      ],
+      "imagePath": "images/traditional-architecture/assam-type-house-01.png",
+      "fileSize": 3215574
+    },
+    {
+      "id": "assam-house-2",
+      "title": "Assam-Type Villa with Front Garden (Type 2)",
+      "category": "traditional-architecture",
+      "categoryName": "Traditional Architecture",
+      "categoryIcon": "🏡",
+      "description": "Scenic rural Assam-type bungalow featuring an extended verandah and blooming flower garden walkway.",
+      "tags": [
+        "Assam House",
+        "Bungalow",
+        "Verandah",
+        "Garden",
+        "Countryside"
+      ],
+      "imagePath": "images/traditional-architecture/assam-type-house-02.png",
+      "fileSize": 3419042
+    },
+    {
+      "id": "assam-house-3",
+      "title": "Assam-Type Cottage with Wooden Railing (Type 3)",
+      "category": "traditional-architecture",
+      "categoryName": "Traditional Architecture",
+      "categoryIcon": "🏡",
+      "description": "Traditional wooden cottage with intricately designed timber jali railings and warm sheltered entrance porch.",
+      "tags": [
+        "Assam House",
+        "Cottage",
+        "Timber",
+        "Porch",
+        "Woodwork"
+      ],
+      "imagePath": "images/traditional-architecture/assam-type-house-03.png",
+      "fileSize": 3623694
+    },
+    {
+      "id": "assam-house-4",
+      "title": "Classic Assam-Type Heritage House (Type 4)",
+      "category": "traditional-architecture",
+      "categoryName": "Traditional Architecture",
+      "categoryIcon": "🏡",
+      "description": "Colonial-era influenced Assam-type architectural style with symmetrical gables and wide overhang eaves.",
+      "tags": [
+        "Assam House",
+        "Colonial",
+        "Heritage",
+        "Residence",
+        "Gables"
+      ],
+      "imagePath": "images/traditional-architecture/assam-type-house-04.png",
+      "fileSize": 3131639
+    },
+    {
+      "id": "assam-house-5",
+      "title": "Rural Assam-Type Homestead (Type 5)",
+      "category": "traditional-architecture",
+      "categoryName": "Traditional Architecture",
+      "categoryIcon": "🏡",
+      "description": "Quiet rural homestead nestled amongst tropical foliage, areca nut palms, and banana groves.",
+      "tags": [
+        "Assam House",
+        "Rural",
+        "Homestead",
+        "Nature",
+        "Palms"
+      ],
+      "imagePath": "images/traditional-architecture/assam-type-house-05.png",
+      "fileSize": 3238132
+    },
+    {
+      "id": "assam-house-6",
+      "title": "Sunlit Assam-Type Residence (Type 6)",
+      "category": "traditional-architecture",
+      "categoryName": "Traditional Architecture",
+      "categoryIcon": "🏡",
+      "description": "Warmly lit Assam-type building showcasing solid wooden pillars, airy windows, and high ceiling cross-ventilation.",
+      "tags": [
+        "Assam House",
+        "Timber",
+        "Sunlight",
+        "Ventilation"
+      ],
+      "imagePath": "images/traditional-architecture/assam-type-house-06.png",
+      "fileSize": 3089747
+    },
+    {
+      "id": "assam-house-7",
+      "title": "Spacious Assam-Type Bungalow (Type 7)",
+      "category": "traditional-architecture",
+      "categoryName": "Traditional Architecture",
+      "categoryIcon": "🏡",
+      "description": "Expansive Assam bungalow layout with spacious driveway, covered portico, and classic verandah seats (Chora-Ghar).",
+      "tags": [
+        "Assam House",
+        "Bungalow",
+        "Portico",
+        "Chora Ghar"
+      ],
+      "imagePath": "images/traditional-architecture/assam-type-house-07.png",
+      "fileSize": 2545164
+    },
+    {
+      "id": "assam-house-8",
+      "title": "Suburban Assam-Type Residence (Type 8)",
+      "category": "traditional-architecture",
+      "categoryName": "Traditional Architecture",
+      "categoryIcon": "🏡",
+      "description": "Suburban adaptation of indigenous earthquake-safe architecture with brick-nogging base and light timber superstructure.",
+      "tags": [
+        "Assam House",
+        "Design",
+        "Modern Heritage",
+        "Earthquake Safe"
+      ],
+      "imagePath": "images/traditional-architecture/assam-type-house-08.png",
+      "fileSize": 3152624
+    },
+    {
+      "id": "assam-house-9",
+      "title": "Traditional Village Assam House (Type 9)",
+      "category": "traditional-architecture",
+      "categoryName": "Traditional Architecture",
+      "categoryIcon": "🏡",
+      "description": "Serene village homestead painted in traditional pastel shades with a spacious welcoming courtyard.",
+      "tags": [
+        "Assam House",
+        "Village",
+        "Tradition",
+        "Courtyard"
+      ],
+      "imagePath": "images/traditional-architecture/assam-type-house-09.png",
+      "fileSize": 2517405
+    },
+    {
+      "id": "assam-house-10",
+      "title": "Heritage Assam-Type Estate (Type 10)",
+      "category": "traditional-architecture",
+      "categoryName": "Traditional Architecture",
+      "categoryIcon": "🏡",
+      "description": "Timeless depiction of a large Assamese estate house with broad verandahs and lush green backdrop.",
+      "tags": [
+        "Assam House",
+        "Heritage",
+        "Estate",
+        "Bungalow"
+      ],
+      "imagePath": "images/traditional-architecture/assam-type-house-10.png",
+      "fileSize": 3299900
+    },
+    {
+      "id": "beautiful-assamese-home",
+      "title": "Picturesque Assamese Country Home (Bari & Pukhuri)",
+      "category": "traditional-architecture",
+      "categoryName": "Traditional Architecture",
+      "categoryIcon": "🏡",
+      "description": "Picturesque countryside homestead complete with a village pond (Pukhuri), betel-nut grove (Tamul-Paner Bari), and open courtyard (Chotal).",
+      "tags": [
+        "Assam House",
+        "Courtyard",
+        "Village",
+        "Country Home",
+        "Pukhuri",
+        "Bari"
+      ],
+      "imagePath": "images/traditional-architecture/beautiful-assamese-country-home.png",
+      "fileSize": 3131639
+    },
+    {
+      "id": "old-assamese-home",
+      "title": "Vintage Traditional Assamese Homestead",
+      "category": "traditional-architecture",
+      "categoryName": "Traditional Architecture",
+      "categoryIcon": "🏡",
+      "description": "Rustic vintage Assamese house with thatched bamboo accents, mud-plastered walls, and traditional rural character.",
+      "tags": [
+        "Assam House",
+        "Vintage",
+        "Rural",
+        "Rustic",
+        "Bamboo",
+        "Thatched"
+      ],
+      "imagePath": "images/traditional-architecture/old-vintage-assamese-homestead.png",
+      "fileSize": 3470151
+    },
+    {
+      "id": "srimanta-sankardev-portrait",
+      "title": "Mahapurusha Srimanta Sankardev",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "15th–16th century saint-scholar, polymath, playwright, social reformer, and founder of Ekasarana Dharma and the Sattriya cultural tradition.",
+      "tags": [
+        "Sankardev",
+        "Mahapurusha",
+        "Saint",
+        "Vaishnavism",
+        "Borgeet",
+        "Sattriya",
+        "Icon"
+      ],
+      "imagePath": "images/notable-figures/srimanta-sankardev-portrait.png",
+      "fileSize": 2033639
+    },
+    {
+      "id": "srimanta-sankardev-scholar",
+      "title": "Srimanta Sankardev Writing on Sanchi-Pat",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Depiction of Guru Sankardev composing hymns, Kirtana Ghosha, and Ankiya Nat dramas on bark manuscripts (Sanchi-pat).",
+      "tags": [
+        "Sankardev",
+        "Manuscript",
+        "Scholar",
+        "Poet",
+        "Sanchi-pat",
+        "Kirtan"
+      ],
+      "imagePath": "images/notable-figures/srimanta-sankardev-scholar.png",
+      "fileSize": 2543548
+    },
+    {
+      "id": "srimanta-sankardev-meditation",
+      "title": "Srimanta Sankardev in Contemplation",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Contemplative and serene spiritual portrayal of Mahapurusha Srimanta Sankardev radiating spiritual wisdom.",
+      "tags": [
+        "Sankardev",
+        "Spiritual",
+        "Meditation",
+        "Wisdom"
+      ],
+      "imagePath": "images/notable-figures/srimanta-sankardev-meditation.png",
+      "fileSize": 1880557
+    },
+    {
+      "id": "srimanta-sankardev-teaching",
+      "title": "Mahapurusha Sankardev Preaching Bhakti",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Srimanta Sankardev expounding the universal humanist message of devotion, equality, and compassion to disciples.",
+      "tags": [
+        "Sankardev",
+        "Philosophy",
+        "Teacher",
+        "Bhakti",
+        "Humanism"
+      ],
+      "imagePath": "images/notable-figures/srimanta-sankardev-teaching.png",
+      "fileSize": 2271220
+    },
+    {
+      "id": "bishnu-rabha-portrait",
+      "title": "Kalaguru Bishnu Prasad Rabha (Portrait)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Kalaguru Bishnu Prasad Rabha — multifaceted artist, revolutionary freedom fighter, music maestro, and indigenous cultural renaissance pioneer.",
+      "tags": [
+        "Bishnu Rabha",
+        "Kalaguru",
+        "Music",
+        "Revolutionary",
+        "Artist",
+        "Icon"
+      ],
+      "imagePath": "images/notable-figures/bishnu-prasad-rabha-portrait.png",
+      "fileSize": 2750812
+    },
+    {
+      "id": "bishnu-rabha-singing",
+      "title": "Kalaguru Bishnu Prasad Rabha (Rabha Sangeet)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Kalaguru Bishnu Prasad Rabha passionately singing his evocative revolutionary and folk compositions (Rabha Sangeet).",
+      "tags": [
+        "Bishnu Rabha",
+        "Rabha Sangeet",
+        "Music",
+        "Songwriter",
+        "Artist"
+      ],
+      "imagePath": "images/notable-figures/bishnu-prasad-rabha-singing.png",
+      "fileSize": 3947024
+    },
+    {
+      "id": "bishnu-rabha-youth",
+      "title": "Bishnu Prasad Rabha (Youth & Fire)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Dynamic portrait of Bishnu Prasad Rabha in his youth during the freedom struggle and mass cultural mobilizations.",
+      "tags": [
+        "Bishnu Rabha",
+        "Youth",
+        "Culture",
+        "Freedom Fighter"
+      ],
+      "imagePath": "images/notable-figures/bishnu-prasad-rabha-youth.png",
+      "fileSize": 4123919
+    },
+    {
+      "id": "bishnu-rabha-visionary",
+      "title": "Kalaguru Bishnu Prasad Rabha (Visionary Leader)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Visionary portrait of Kalaguru Bishnu Prasad Rabha, unifier of Assam's diverse ethnic tribes and communities.",
+      "tags": [
+        "Bishnu Rabha",
+        "Visionary",
+        "Leader",
+        "Unity"
+      ],
+      "imagePath": "images/notable-figures/bishnu-prasad-rabha-visionary.png",
+      "fileSize": 4654662
+    },
+    {
+      "id": "jyotiprasad-agarwala-portrait",
+      "title": "Rupkonwar Jyoti Prasad Agarwala (Portrait)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Rupkonwar Jyoti Prasad Agarwala — pioneer of Assamese cinema (director of Joymoti, 1935), poet, songwriter (Jyoti Sangeet), and playwright.",
+      "tags": [
+        "Jyoti Prasad Agarwala",
+        "Rupkonwar",
+        "Cinema",
+        "Poet",
+        "Joymoti",
+        "Jyoti Sangeet"
+      ],
+      "imagePath": "images/notable-figures/jyoti-prasad-agarwala-portrait.png",
+      "fileSize": 2270980
+    },
+    {
+      "id": "jyotiprasad-agarwala-camera-1",
+      "title": "Jyoti Prasad Agarwala with Cinema Camera",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Rupkonwar directing early Assamese cinema behind vintage camera equipment during the filming of the epic Joymoti at Bholaguri Tea Estate.",
+      "tags": [
+        "Jyoti Prasad Agarwala",
+        "Filmmaker",
+        "Director",
+        "Cinema",
+        "Joymoti"
+      ],
+      "imagePath": "images/notable-figures/jyoti-prasad-agarwala-camera-1.png",
+      "fileSize": 1839065
+    },
+    {
+      "id": "jyotiprasad-agarwala-camera-2",
+      "title": "Jyoti Prasad Agarwala on Film Production Set",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "The master filmmaker framing a dramatic sequence during early Assamese cinematographic history.",
+      "tags": [
+        "Jyoti Prasad Agarwala",
+        "Director",
+        "Film Set",
+        "Pioneer"
+      ],
+      "imagePath": "images/notable-figures/jyoti-prasad-agarwala-camera-2.png",
+      "fileSize": 3198673
+    },
+    {
+      "id": "hemchandra-baruah-portrait",
+      "title": "Bhashar Oja Hemchandra Baruah",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Eminent lexicographer, social reformer, and author of Hemkosh — the first comprehensive etymological Assamese dictionary based on Sanskrit roots.",
+      "tags": [
+        "Hemchandra Baruah",
+        "Hemkosh",
+        "Lexicographer",
+        "Dictionary",
+        "Literature"
+      ],
+      "imagePath": "images/notable-figures/hemchandra-baruah-portrait.png",
+      "fileSize": 2801719
+    },
+    {
+      "id": "hemchandra-baruah-thought",
+      "title": "Hemchandra Baruah in Deep Thought",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Hemchandra Baruah formulating modern Assamese grammar and spelling rules during the 19th-century language restoration.",
+      "tags": [
+        "Hemchandra Baruah",
+        "Linguistics",
+        "Scholar",
+        "Grammar"
+      ],
+      "imagePath": "images/notable-figures/hemchandra-baruah-thought.png",
+      "fileSize": 2530932
+    },
+    {
+      "id": "hemchandra-baruah-study",
+      "title": "Hemchandra Baruah (Portrait Study)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Artistic portrait study of language reformer and crusader Hemchandra Baruah.",
+      "tags": [
+        "Hemchandra Baruah",
+        "Portrait",
+        "Literature",
+        "Reformer"
+      ],
+      "imagePath": "images/notable-figures/hemchandra-baruah-study.png",
+      "fileSize": 2755360
+    },
+    {
+      "id": "hemchandra-goswami-portrait",
+      "title": "Hemchandra Goswami (Jonaki Era Pioneer)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "One of the Trimurti triumvirate of modern Assamese literature (Jonaki era), prominent historian, poet, and sonneteer.",
+      "tags": [
+        "Hemchandra Goswami",
+        "Jonaki",
+        "Historian",
+        "Trimurti",
+        "Literature",
+        "Sonnet"
+      ],
+      "imagePath": "images/notable-figures/hemchandra-goswami-portrait.png",
+      "fileSize": 2298356
+    },
+    {
+      "id": "hemchandra-goswami-study",
+      "title": "Hemchandra Goswami (Manuscript Scholar)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Artistic depiction of antiquarian Hemchandra Goswami cataloging rare historical Buranjis and manuscripts.",
+      "tags": [
+        "Hemchandra Goswami",
+        "Writer",
+        "Jonaki Era",
+        "Buranjis"
+      ],
+      "imagePath": "images/notable-figures/hemchandra-goswami-study.png",
+      "fileSize": 2083605
+    },
+    {
+      "id": "anandaram-dhekial-phukan-1",
+      "title": "Anandaram Dhekial Phukan",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Pioneer of modern Assamese renaissance who fought resolutely for the reinstatement of Assamese language in colonial courts and schools (1853).",
+      "tags": [
+        "Anandaram Dhekial Phukan",
+        "Renaissance",
+        "Language",
+        "Pioneer",
+        "Advocate"
+      ],
+      "imagePath": "images/notable-figures/anandaram-dhekial-phukan-portrait.png",
+      "fileSize": 2879273
+    },
+    {
+      "id": "anandaram-dhekial-phukan-2",
+      "title": "Anandaram Dhekial Phukan (Formal Portrait)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Formal artistic portrait of the visionary intellectual and reformer Anandaram Dhekial Phukan.",
+      "tags": [
+        "Anandaram Dhekial Phukan",
+        "Scholar",
+        "Reformer",
+        "Intellectual"
+      ],
+      "imagePath": "images/notable-figures/anandaram-dhekial-phukan-study.png",
+      "fileSize": 2368131
+    },
+    {
+      "id": "gunabhiram-baruah-1",
+      "title": "Gunabhiram Baruah",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Distinguished 19th-century intellectual, dramatist (Ram-Navami), historian (Assam Buranji), and progressive social reformer.",
+      "tags": [
+        "Gunabhiram Baruah",
+        "Historian",
+        "Playwright",
+        "Reformer",
+        "Assam Buranji"
+      ],
+      "imagePath": "images/notable-figures/gunabhiram-baruah-portrait.png",
+      "fileSize": 2468299
+    },
+    {
+      "id": "gunabhiram-baruah-2",
+      "title": "Gunabhiram Baruah (Scholar Pose)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Artistic depiction of historian and biographer Gunabhiram Baruah.",
+      "tags": [
+        "Gunabhiram Baruah",
+        "Literature",
+        "History",
+        "Scholar"
+      ],
+      "imagePath": "images/notable-figures/gunabhiram-baruah-scholar.png",
+      "fileSize": 2235510
+    },
+    {
+      "id": "padmanath-gohain-baruah-1",
+      "title": "Sahityarathi Padmanath Gohain Baruah",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Eminent novelist, dramatist, and the monumental First President of Asam Sahitya Sabha (1917).",
+      "tags": [
+        "Padmanath Gohain Baruah",
+        "Sahitya Sabha",
+        "Novelist",
+        "President",
+        "Leader"
+      ],
+      "imagePath": "images/notable-figures/padmanath-gohain-baruah-portrait.png",
+      "fileSize": 3083049
+    },
+    {
+      "id": "padmanath-gohain-baruah-2",
+      "title": "Padmanath Gohain Baruah (Presidential Address)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Sahityarathi Padmanath Gohain Baruah presiding over the inaugural sessions of the Asam Sahitya Sabha.",
+      "tags": [
+        "Padmanath Gohain Baruah",
+        "Literature",
+        "Sahitya Sabha",
+        "Address"
+      ],
+      "imagePath": "images/notable-figures/padmanath-gohain-baruah-speech.png",
+      "fileSize": 2501030
+    },
+    {
+      "id": "satyanath-bora",
+      "title": "Satyanath Bora",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Master essayist, legal scholar, and grammarian who authored influential prose works like Sarathi and Bahal Byakaran.",
+      "tags": [
+        "Satyanath Bora",
+        "Grammarian",
+        "Essays",
+        "Education",
+        "Sarathi"
+      ],
+      "imagePath": "images/notable-figures/satyanath-bora-portrait.png",
+      "fileSize": 1630635
+    },
+    {
+      "id": "nathan-brown",
+      "title": "Rev. Nathan Brown (Editor of Orunodoi)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "American Baptist missionary who championed the Assamese language and founded Orunodoi (1846) in Sibsagar, the first Assamese periodical.",
+      "tags": [
+        "Nathan Brown",
+        "Orunodoi",
+        "Journalism",
+        "Printing",
+        "Language Champion"
+      ],
+      "imagePath": "images/notable-figures/nathan-brown-orunodoi.png",
+      "fileSize": 2710333
+    },
+    {
+      "id": "miles-bronson",
+      "title": "Rev. Miles Bronson (Dictionary Compiler)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Missionary and linguist who compiled and published the first Assamese-English Dictionary in 1867 in Sibsagar.",
+      "tags": [
+        "Miles Bronson",
+        "Dictionary",
+        "Linguistics",
+        "Missionary",
+        "Sibsagar"
+      ],
+      "imagePath": "images/notable-figures/miles-bronson-dictionary.png",
+      "fileSize": 2213814
+    },
+    {
+      "id": "william-carey",
+      "title": "William Carey (Serampore Press)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Linguist whose Serampore Mission Press printed the first Assamese book (Dharmapustak, translated by Atmaram Sarma in 1813).",
+      "tags": [
+        "William Carey",
+        "Serampore",
+        "Printing",
+        "History",
+        "Atmaram Sarma"
+      ],
+      "imagePath": "images/notable-figures/william-carey-serampore.png",
+      "fileSize": 3149337
+    },
+    {
+      "id": "paresh-baruah",
+      "title": "Paresh Baruah (Contemporary Figure)",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Contemporary socio-political military leader from Assam.",
+      "tags": [
+        "Contemporary",
+        "Politics",
+        "Assam"
+      ],
+      "imagePath": "images/notable-figures/paresh-baruah.png",
+      "fileSize": 2114907
+    },
+    {
+      "id": "assam-movement-aasu",
+      "title": "Assam Movement / Student Mobilization",
+      "category": "notable-figures",
+      "categoryName": "Notable Figures",
+      "categoryIcon": "📜",
+      "description": "Historical representation of the grassroots mass student mobilization during the historic Assam Agitation (1979–1985).",
+      "tags": [
+        "Assam Movement",
+        "AASU",
+        "History",
+        "Rally",
+        "Students"
+      ],
+      "imagePath": "images/notable-figures/assam-movement-student-rally.png",
+      "fileSize": 2381725
+    }
+  ]
+}

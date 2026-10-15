@@ -1,0 +1,46 @@
+{
+  "id": "208",
+  "college": "Handique Girls' College",
+  "pages": [
+    {
+      "url": "https://www.hgcollege.edu.in/",
+      "status": "ok",
+      "cache": "3d433b4bbfef666c4938.json"
+    },
+    {
+      "url": "https://www.hgcollege.edu.in/sub-pages/notification",
+      "status": "ok",
+      "cache": "0f87868e1b68e7fcc238.json"
+    },
+    {
+      "url": "https://www.hgcollege.edu.in/sub-pages/tenders",
+      "status": "ok",
+      "cache": "e811a5d8ff6d2aa22c3b.json"
+    },
+    {
+      "url": "http://www.hgcollege.edu.in/uploadfiles/extension_msc-physics_notice.pdf",
+      "status": "ok",
+      "cache": "9198d0276a2a70e77bb5.json"
+    },
+    {
+      "url": "https://www.hgcollege.edu.in/node/academics/details-of-academic-programme/post-graduate-course-in-botany",
+      "status": "ok",
+      "cache": "feef33f6bd25d7363a52.json"
+    },
+    {
+      "url": "https://www.hgcollege.edu.in/node/academics/details-of-academic-programme/post-graduate-course-in-chemistry",
+      "status": "ok",
+      "cache": "dcab0ce5ca0ed9bec801.json"
+    },
+    {
+      "url": "https://www.hgcollege.edu.in/node/academics/details-of-academic-programme/post-graduate-course-in-zoology",
+      "status": "ok",
+      "cache": "c5addbc7ffb34a7c1dba.json"
+    },
+    {
+      "url": "https://www.hgcollege.edu.in/node/academics/details-of-academic-programme/post-graduate-course-in-assamese",
+      "status": "ok",
+      "cache": "90f7e70151b4aa743a9a.json"
+    }
+  ]
+}

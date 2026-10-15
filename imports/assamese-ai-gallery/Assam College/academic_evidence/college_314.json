@@ -1,0 +1,36 @@
+{
+  "id": "314",
+  "college": "Nowgong Girls' College",
+  "pages": [
+    {
+      "url": "https://nowgonggirlscollege.edu.in/",
+      "status": "ok",
+      "cache": "9244dd0bec6f0f0934d3.json"
+    },
+    {
+      "url": "https://nowgonggirlscollege.edu.in/pg.php",
+      "status": "ok",
+      "cache": "717e2577baf09531bca0.json"
+    },
+    {
+      "url": "https://nowgonggirlscollege.edu.in/prospectus.php",
+      "status": "ok",
+      "cache": "f7cee49363df077b80c5.json"
+    },
+    {
+      "url": "https://nowgonggirlscollege.edu.in/upload/notice/1785226658.pdf",
+      "status": "ok",
+      "cache": "517dd1bc4943d058eb75.json"
+    },
+    {
+      "url": "https://nowgonggirlscollege.edu.in/ac_council.php",
+      "status": "ok",
+      "cache": "d1bacda2781850063611.json"
+    },
+    {
+      "url": "https://nowgonggirlscollege.edu.in/academiccalendar.php",
+      "status": "ok",
+      "cache": "bd51d282b267b9312fdd.json"
+    }
+  ]
+}

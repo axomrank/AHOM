@@ -1,0 +1,36 @@
+{
+  "id": "106",
+  "college": "Jonai Girls’ College",
+  "pages": [
+    {
+      "url": "https://jonaigirlscollege.in/",
+      "status": "ok",
+      "cache": "d1ed8bf5e0c6d1c1d4cb.json"
+    },
+    {
+      "url": "https://jonaigirlscollege.in/department.php",
+      "status": "ok",
+      "cache": "814ba6b07c520ed07649.json"
+    },
+    {
+      "url": "https://jonaigirlscollege.in/upload/prospectus/",
+      "status": "error",
+      "cache": "d3cc4c0f651173c74ffb.json"
+    },
+    {
+      "url": "https://jonaigirlscollege.in/files/academic board.pdf",
+      "status": "ok",
+      "cache": "99b1f8e89430b9c84832.json"
+    },
+    {
+      "url": "https://jonaigirlscollege.in/academic_cal.php",
+      "status": "ok",
+      "cache": "3607114f27e69780e9cc.json"
+    },
+    {
+      "url": "https://jonaigirlscollege.in/dpt_login/",
+      "status": "ok",
+      "cache": "f4602af255c8efa7aa5d.json"
+    }
+  ]
+}

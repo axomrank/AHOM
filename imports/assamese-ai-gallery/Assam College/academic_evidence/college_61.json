@@ -1,0 +1,41 @@
+{
+  "id": "61",
+  "college": "Chaiduar College",
+  "pages": [
+    {
+      "url": "https://chaiduarcollege.ac.in/",
+      "status": "ok",
+      "cache": "482329cd2fa249760252.json"
+    },
+    {
+      "url": "https://chaiduarcollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "b1566c014fb87e944f77.json"
+    },
+    {
+      "url": "https://chaiduarcollege.ac.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "2f8c19ebd1d4424dbb51.json"
+    },
+    {
+      "url": "https://chaiduarcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "a995d93dc74cbe8bd475.json"
+    },
+    {
+      "url": "https://chaiduarcollege.ac.in/course.php",
+      "status": "ok",
+      "cache": "ddddfba52dee60dd0c74.json"
+    },
+    {
+      "url": "https://chaiduarcollege.ac.in/academiccalendar.php",
+      "status": "ok",
+      "cache": "ad95799cb42ebe8dd92d.json"
+    },
+    {
+      "url": "https://chaiduarcollege.ac.in/academiccollab.php",
+      "status": "ok",
+      "cache": "b54c40ed705d0a00f20a.json"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "137",
+  "college": "Khowang College",
+  "pages": [
+    {
+      "url": "https://khowangcollege.edu.in/",
+      "status": "ok",
+      "cache": "e7feaff877af95ec936e.json"
+    },
+    {
+      "url": "https://khowangcollege.edu.in/departments.php",
+      "status": "ok",
+      "cache": "7915930ee04ebbea224a.json"
+    },
+    {
+      "url": "https://khowangcollege.edu.in/prospectus_read.php",
+      "status": "ok",
+      "cache": "4717ee301fb86821532d.json"
+    },
+    {
+      "url": "https://khowangcollege.edu.in/prospectus.php",
+      "status": "ok",
+      "cache": "a0eac394aa20a5ac4c05.json"
+    },
+    {
+      "url": "https://khowangcollege.edu.in/acalender.php",
+      "status": "ok",
+      "cache": "bebfb4f18908ad8f09a9.json"
+    }
+  ]
+}

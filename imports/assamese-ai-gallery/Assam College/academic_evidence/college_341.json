@@ -1,0 +1,26 @@
+{
+  "id": "341",
+  "college": "Sibsagar Girls' College",
+  "pages": [
+    {
+      "url": "https://sibsagargirlscollege.org.in/",
+      "status": "ok",
+      "cache": "4152c6ba7e74212f7b43.json"
+    },
+    {
+      "url": "https://sibsagargirlscollege.org.in/Prospectus 2026-27.pdf",
+      "status": "ok",
+      "cache": "35c7bb4b338e1a0f1286.json"
+    },
+    {
+      "url": "https://sibsagargirlscollege.org.in/Prospectus_2022-23.pdf",
+      "status": "error",
+      "cache": "391ee631f2d04a6b3017.json"
+    },
+    {
+      "url": "https://sibsagargirlscollege.org.in/uploads/Academic_Calendar.pdf",
+      "status": "ok",
+      "cache": "3a03d7f30ed687e1f820.json"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "161",
+  "college": "Dergaon Kamal Dowerah College",
+  "pages": [
+    {
+      "url": "https://dkdcollege.ac.in/",
+      "status": "ok",
+      "cache": "987c445e8a33e148499d.json"
+    },
+    {
+      "url": "https://www.dkdcollege.ac.in/files/2025/DKDC%20UG%20Prospectus%202025.pdf",
+      "status": "error",
+      "cache": "bf865336dbf166e671fb.json"
+    },
+    {
+      "url": "https://dkdcollege.ac.in/prospectus/",
+      "status": "ok",
+      "cache": "bb888a0a99dd7d9a153a.json"
+    },
+    {
+      "url": "https://dkdcollege.ac.in/academic-leadership/",
+      "status": "ok",
+      "cache": "5cb080cd235895c4bba8.json"
+    },
+    {
+      "url": "https://dkdcollege.ac.in/academic-programs/",
+      "status": "ok",
+      "cache": "d4a513e702e0ab09eb07.json"
+    },
+    {
+      "url": "https://dkdcollege.ac.in/academic-calender/",
+      "status": "ok",
+      "cache": "2e5c7828d8d092abc8d3.json"
+    }
+  ]
+}

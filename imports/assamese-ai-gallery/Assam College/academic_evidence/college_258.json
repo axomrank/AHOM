@@ -1,0 +1,46 @@
+{
+  "id": "258",
+  "college": "Commerce College Kokrajhar",
+  "pages": [
+    {
+      "url": "https://commercecollege.ac.in/",
+      "status": "ok",
+      "cache": "014d34acb7e84d64b9b2.json"
+    },
+    {
+      "url": "https://commercecollege.ac.in/doc/71e02eCQayqu6L86FtoA.pdf",
+      "status": "ok",
+      "cache": "cc83cfd20bee5f49e58a.json"
+    },
+    {
+      "url": "https://www.commercecollege.ac.in/doc/Q7tXTSU1dymvQxhrcaYb.pdf",
+      "status": "ok",
+      "cache": "53a1a67d500b5d95b422.json"
+    },
+    {
+      "url": "https://commercecollege.ac.in/doc/notice/N02kiS7rLpPB9TuGKBXO.pdf",
+      "status": "ok",
+      "cache": "c041385b31f3f02161a9.json"
+    },
+    {
+      "url": "https://commercecollege.ac.in/admission-prospectus",
+      "status": "ok",
+      "cache": "23daa787125158fb14db.json"
+    },
+    {
+      "url": "https://commercecollege.ac.in/academic-calender",
+      "status": "ok",
+      "cache": "0f7c6986fc4ac0a71995.json"
+    },
+    {
+      "url": "https://commercecollege.ac.in/college-forms",
+      "status": "ok",
+      "cache": "da9ea6714c63aabb19cf.json"
+    },
+    {
+      "url": "https://commercecollege.ac.in/courses",
+      "status": "ok",
+      "cache": "84783dcbf1f5e370dd11.json"
+    }
+  ]
+}

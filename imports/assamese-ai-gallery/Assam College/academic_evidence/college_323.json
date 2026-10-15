@@ -1,0 +1,46 @@
+{
+  "id": "323",
+  "college": "M.N.C. Balika Mahavidyalaya",
+  "pages": [
+    {
+      "url": "https://mncbm.ac.in/",
+      "status": "ok",
+      "cache": "2b1b38c302296987d94a.json"
+    },
+    {
+      "url": "https://mncbm.ac.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "ac5304a85f37299a7b53.json"
+    },
+    {
+      "url": "https://mncbm.ac.in/travel.php",
+      "status": "ok",
+      "cache": "980e3a7f010c95934720.json"
+    },
+    {
+      "url": "https://mncbm.ac.in/acalender.php",
+      "status": "ok",
+      "cache": "542a24acfb44a69eefd9.json"
+    },
+    {
+      "url": "https://mncbm.ac.in/academics.php",
+      "status": "ok",
+      "cache": "c8f9b416a726ba61ae9b.json"
+    },
+    {
+      "url": "https://mncbm.ac.in/upload/dept_notice/1709115151.docx",
+      "status": "ok",
+      "cache": "055f2709eb0edf98b829.json"
+    },
+    {
+      "url": "https://mncbm.ac.in/upload/dept_notice/1709115329.docx",
+      "status": "ok",
+      "cache": "c1929e9dd125561e9f1d.json"
+    },
+    {
+      "url": "https://mncbm.ac.in/upload/dept_notice/1709115249.docx",
+      "status": "ok",
+      "cache": "1b8601cf5fe406b8a653.json"
+    }
+  ]
+}

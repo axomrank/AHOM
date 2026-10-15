@@ -1,0 +1,31 @@
+{
+  "id": "46",
+  "college": "Barpeta College (formerly Barpeta Girls' College)",
+  "pages": [
+    {
+      "url": "https://barpetacollege.co.in/",
+      "status": "ok",
+      "cache": "a2c6c671d3ebad46dd03.json"
+    },
+    {
+      "url": "https://barpetacollege.co.in/department.php",
+      "status": "ok",
+      "cache": "e07c3ce11ee007f446d6.json"
+    },
+    {
+      "url": "https://barpetacollege.co.in/prospectus.php",
+      "status": "ok",
+      "cache": "72d89b480df2ab5f4cb0.json"
+    },
+    {
+      "url": "https://barpetacollege.co.in/academiccalender.php",
+      "status": "ok",
+      "cache": "d204f48dcff5c31374e9.json"
+    },
+    {
+      "url": "https://barpetacollege.co.in/academiccalender.php ",
+      "status": "error",
+      "cache": "e230e41f71792691d1ab.json"
+    }
+  ]
+}

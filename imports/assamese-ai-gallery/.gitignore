@@ -1,0 +1,10 @@
+
+Insta/tmp_venv/
+Study_Assam/
+*.pyc
+__pycache__/
+
+backups/
+output/
+.playwright-cli/
+__pycache__/

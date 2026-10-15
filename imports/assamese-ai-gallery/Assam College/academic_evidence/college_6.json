@@ -1,0 +1,46 @@
+{
+  "id": "6",
+  "college": "Government Model College, Borkhola",
+  "pages": [
+    {
+      "url": "https://gmcborkhola.org/",
+      "status": "ok",
+      "cache": "15425ea3691630c0ef21.json"
+    },
+    {
+      "url": "https://gmcborkhola.org/departments/",
+      "status": "ok",
+      "cache": "4a031aa3408e894071ad.json"
+    },
+    {
+      "url": "https://gmcborkhola.org/prospectus/",
+      "status": "ok",
+      "cache": "fa80a8310ddfd664398c.json"
+    },
+    {
+      "url": "https://gmcborkhola.org/academics/",
+      "status": "ok",
+      "cache": "02fe4d49c53faaab12a7.json"
+    },
+    {
+      "url": "http://gmcborkhola.org/department-of-bengali/",
+      "status": "ok",
+      "cache": "a02ffd9aecf734df2eb4.json"
+    },
+    {
+      "url": "http://gmcborkhola.org/department-of-education/",
+      "status": "ok",
+      "cache": "285053b4a1cdcdffd0df.json"
+    },
+    {
+      "url": "http://gmcborkhola.org/department-of-economics/",
+      "status": "ok",
+      "cache": "833dc4202067ccecee22.json"
+    },
+    {
+      "url": "http://gmcborkhola.org/department-of-english/",
+      "status": "ok",
+      "cache": "4d757d903a2000d69ce5.json"
+    }
+  ]
+}

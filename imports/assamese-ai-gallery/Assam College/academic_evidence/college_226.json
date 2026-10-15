@@ -1,0 +1,46 @@
+{
+  "id": "226",
+  "college": "Boko College (Jawaharlal Nehru College)",
+  "pages": [
+    {
+      "url": "https://jncollegeboko.ac.in/",
+      "status": "ok",
+      "cache": "7b49733f4ab00c4dc98d.json"
+    },
+    {
+      "url": "https://www.jncollegeboko.ac.in/department.php",
+      "status": "ok",
+      "cache": "13ba4abae27d3d0994bd.json"
+    },
+    {
+      "url": "https://jncollegeboko.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "434732e5d0125793ebe1.json"
+    },
+    {
+      "url": "https://jncollegeboko.ac.in/pg.php",
+      "status": "ok",
+      "cache": "f60dc39c88a0691e638f.json"
+    },
+    {
+      "url": "https://jncollegeboko.ac.in/prospectus 24-25 new.pdf",
+      "status": "ok",
+      "cache": "470532e660fedce03225.json"
+    },
+    {
+      "url": "https://www.jncollegeboko.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "084c963acb980cdac54f.json"
+    },
+    {
+      "url": "https://www.jncollegeboko.ac.in/pg.php",
+      "status": "ok",
+      "cache": "cd9c4a9ae930e9a664d6.json"
+    },
+    {
+      "url": "https://www.jncollegeboko.ac.in/prospectus 24-25 new.pdf",
+      "status": "ok",
+      "cache": "3db184ab8484fbec45d7.json"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "240",
+  "college": "Rampur Anchalik College",
+  "pages": [
+    {
+      "url": "http://www.rampuranchalikcollege.co.in/",
+      "status": "ok",
+      "cache": "8acb962d18e57bd405a1.json"
+    },
+    {
+      "url": "https://www.rampuranchalikcollege.co.in/department.php",
+      "status": "error",
+      "cache": "0d71c1309046b534c3a3.json"
+    },
+    {
+      "url": "http://www.rampuranchalikcollege.co.in/academiccalender.php",
+      "status": "ok",
+      "cache": "559dba3c26ee7fc9e608.json"
+    },
+    {
+      "url": "http://www.rampuranchalikcollege.co.in/department.php",
+      "status": "ok",
+      "cache": "22c00b600c6fa7c468f9.json"
+    },
+    {
+      "url": "http://www.rampuranchalikcollege.co.in/dptram_login/",
+      "status": "ok",
+      "cache": "2c7e06e35936360fd275.json"
+    },
+    {
+      "url": "http://www.rampuranchalikcollege.co.in/#!",
+      "status": "ok",
+      "cache": "12f75cf3e2cd299a123f.json"
+    }
+  ]
+}

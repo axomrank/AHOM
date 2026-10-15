@@ -1,0 +1,26 @@
+{
+  "id": "72",
+  "college": "Cachar College",
+  "pages": [
+    {
+      "url": "https://cacharcollege.ac.in/",
+      "status": "ok",
+      "cache": "6956b9a685732d57611e.json"
+    },
+    {
+      "url": "https://cacharcollege.ac.in/academic-coordinator.html",
+      "status": "ok",
+      "cache": "5e0e78d526ade6cef21c.json"
+    },
+    {
+      "url": "https://cacharcollege.ac.in/academic-calendar.html",
+      "status": "ok",
+      "cache": "5fb8057ff5cb8bd31663.json"
+    },
+    {
+      "url": "https://cacharcollege.ac.in/academic-cal.pdf",
+      "status": "error",
+      "cache": "f8569979155e199ad69f.json"
+    }
+  ]
+}

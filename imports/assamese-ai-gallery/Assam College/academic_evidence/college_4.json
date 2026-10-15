@@ -1,0 +1,46 @@
+{
+  "id": "4",
+  "college": "Pandit Deendayal Upadhyaya Adarsha Mahavidyalaya (PDUAM), Behali",
+  "pages": [
+    {
+      "url": "https://www.deendayalcollegebehali.in/",
+      "status": "ok",
+      "cache": "9a604b695f92057ce11a.json"
+    },
+    {
+      "url": "https://www.deendayalcollegebehali.in/https-www-deendayalcollegebehali-in-wp-content-uploads-2026-06-official-spot-admission-notice-docx/",
+      "status": "ok",
+      "cache": "fd6c7083af840892306a.json"
+    },
+    {
+      "url": "https://www.deendayalcollegebehali.in/prospectus/",
+      "status": "ok",
+      "cache": "e79ca2994db258e7efa4.json"
+    },
+    {
+      "url": "https://www.deendayalcollegebehali.in/prospectus-2024-25/",
+      "status": "ok",
+      "cache": "e83bf1090dde0f5647e3.json"
+    },
+    {
+      "url": "https://www.deendayalcollegebehali.in/prospectus-2023-24/",
+      "status": "ok",
+      "cache": "e55de0cc5bfb57350906.json"
+    },
+    {
+      "url": "https://www.deendayalcollegebehali.in/academic-council/",
+      "status": "ok",
+      "cache": "74a3aa87506750f730e3.json"
+    },
+    {
+      "url": "https://www.deendayalcollegebehali.in/academic-calendar/",
+      "status": "ok",
+      "cache": "6c9d4ad101c4d7e9d287.json"
+    },
+    {
+      "url": "https://www.deendayalcollegebehali.in/botany-department/",
+      "status": "ok",
+      "cache": "779fe019016f6c9d8220.json"
+    }
+  ]
+}

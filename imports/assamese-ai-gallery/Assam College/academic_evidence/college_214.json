@@ -1,0 +1,31 @@
+{
+  "id": "214",
+  "college": "Narangi Anchalik Mahavidyalaya",
+  "pages": [
+    {
+      "url": "https://narangianchalikmahavidyalaya.ac.in/",
+      "status": "ok",
+      "cache": "2e230d7d374a99d76cd4.json"
+    },
+    {
+      "url": "https://narangianchalikmahavidyalaya.ac.in/departments.php",
+      "status": "ok",
+      "cache": "2a4f9a2bafaa7c96e5bd.json"
+    },
+    {
+      "url": "https://narangianchalikmahavidyalaya.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "0db49c3b1cb4b7579745.json"
+    },
+    {
+      "url": "https://narangianchalikmahavidyalaya.ac.in/ac_co.php",
+      "status": "ok",
+      "cache": "0d2a0607370a0577ff4f.json"
+    },
+    {
+      "url": "https://narangianchalikmahavidyalaya.ac.in/academiccalendar.php",
+      "status": "ok",
+      "cache": "24f6c2e69516069ff0b7.json"
+    }
+  ]
+}

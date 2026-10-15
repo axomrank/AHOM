@@ -1,0 +1,21 @@
+{
+  "id": "16",
+  "college": "Government Model College, Kaziranga",
+  "pages": [
+    {
+      "url": "https://gmck.ac.in/",
+      "status": "ok",
+      "cache": "58f29cc062ae0bd8bf76.json"
+    },
+    {
+      "url": "https://gmck.ac.in/prospectus/",
+      "status": "ok",
+      "cache": "c708a29b4197ee269f7b.json"
+    },
+    {
+      "url": "https://gmck.ac.in/academic-cell/",
+      "status": "ok",
+      "cache": "1cb1c83d329bb37761cc.json"
+    }
+  ]
+}

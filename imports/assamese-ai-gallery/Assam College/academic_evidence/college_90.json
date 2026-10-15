@@ -1,0 +1,46 @@
+{
+  "id": "90",
+  "college": "Sonari Commerce College",
+  "pages": [
+    {
+      "url": "https://sonaricomcollege.org/",
+      "status": "ok",
+      "cache": "d396bacf5b048236db9f.json"
+    },
+    {
+      "url": "https://sonaricomcollege.org/index.php/workshops-and-seminars/250-wall-magazine-inauguration-2025-commerce-department",
+      "status": "ok",
+      "cache": "a811257a9a1e152328c2.json"
+    },
+    {
+      "url": "https://sonaricomcollege.org/index.php/downloads/prospectus",
+      "status": "ok",
+      "cache": "1842430013ae8d56566a.json"
+    },
+    {
+      "url": "https://sonaricomcollege.org/index.php/academics/course-offered/u-g-programmes/b-a-honours",
+      "status": "ok",
+      "cache": "1e66f00262ebec2be386.json"
+    },
+    {
+      "url": "https://sonaricomcollege.org/index.php/academics/course-offered/u-g-programmes/b-a-non-honours",
+      "status": "ok",
+      "cache": "5beae2292ba74649490e.json"
+    },
+    {
+      "url": "https://sonaricomcollege.org/index.php/academics/course-offered/u-g-programmes/b-com-honours",
+      "status": "ok",
+      "cache": "3460a2eeaae4cc3fd92e.json"
+    },
+    {
+      "url": "https://sonaricomcollege.org/index.php/academics/course-offered/u-g-programmes/b-com-non-honours",
+      "status": "ok",
+      "cache": "6673e3a9e4d1208f6e9d.json"
+    },
+    {
+      "url": "https://sonaricomcollege.org/index.php/academics/course-offered/h-s-course/h-s-arts",
+      "status": "ok",
+      "cache": "e9ba04471769069ee390.json"
+    }
+  ]
+}

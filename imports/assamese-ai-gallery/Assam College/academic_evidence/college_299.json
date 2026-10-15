@@ -1,0 +1,46 @@
+{
+  "id": "299",
+  "college": "Anandaram Dhekial Phookan College (A.D.P. College)",
+  "pages": [
+    {
+      "url": "https://adpcollege.ac.in/",
+      "status": "ok",
+      "cache": "6b6d2884392f061d7be9.json"
+    },
+    {
+      "url": "https://adpcollege.ac.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "70c3a07c5adab3e45572.json"
+    },
+    {
+      "url": "https://adpcollege.ac.in/upload/prospectus/1779257389.pdf",
+      "status": "ok",
+      "cache": "b8ca7f0f3d21029a2df5.json"
+    },
+    {
+      "url": "https://adpcollege.ac.in/postgraduate.php",
+      "status": "ok",
+      "cache": "17403d4f4212b3affcd9.json"
+    },
+    {
+      "url": "https://adpcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "ddeda6e8707211fc8353.json"
+    },
+    {
+      "url": "https://adpcollege.ac.in/New prospectus_23-24.pdf",
+      "status": "ok",
+      "cache": "7d0081f88de1bcbd3e67.json"
+    },
+    {
+      "url": "https://adpcollege.ac.in/file/Academic Council Formation 2023-24.pdf",
+      "status": "ok",
+      "cache": "1af63cca950474295f4d.json"
+    },
+    {
+      "url": "https://adpcollege.ac.in/academiccalendar.php",
+      "status": "ok",
+      "cache": "75d888a05796ccc761d3.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "228",
+  "college": "Chaygaon College",
+  "pages": [
+    {
+      "url": "https://chhaygaoncollege.in/",
+      "status": "ok",
+      "cache": "a5eb7dd2afc481fb6993.json"
+    },
+    {
+      "url": "https://chhaygaoncollege.in/department.php",
+      "status": "error",
+      "cache": "52551efc8bf7b001f8ea.json"
+    },
+    {
+      "url": "https://chhaygaoncollege.in/Prospectus draft 2025-26.pdf",
+      "status": "ok",
+      "cache": "7b78f864bf0964db69e0.json"
+    },
+    {
+      "url": "https://chhaygaoncollege.in/upload/dept_notice/1790752085.pdf",
+      "status": "ok",
+      "cache": "2fffa492550669a95e50.json"
+    },
+    {
+      "url": "https://chhaygaoncollege.in/upload/dept_notice/1790752031.pdf",
+      "status": "ok",
+      "cache": "9ddb44e30388e2227012.json"
+    },
+    {
+      "url": "https://chhaygaoncollege.in/upload/dept_notice/1789751202.pdf",
+      "status": "ok",
+      "cache": "08e5c2f99cc4c10e1b3c.json"
+    },
+    {
+      "url": "https://chhaygaoncollege.in/upload/dept_notice/1781678026.jpeg",
+      "status": "ok",
+      "cache": "71e1574a48bc2363eb05.json"
+    },
+    {
+      "url": "https://chhaygaoncollege.in/upload/dept_notice/1781505733.jpeg",
+      "status": "ok",
+      "cache": "cabb803189b355db9314.json"
+    }
+  ]
+}

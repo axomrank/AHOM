@@ -1,0 +1,26 @@
+{
+  "id": "178",
+  "college": "SC Dey College",
+  "pages": [
+    {
+      "url": "https://scdck.ac.in/",
+      "status": "ok",
+      "cache": "a9bfb6dd3082e528478b.json"
+    },
+    {
+      "url": "https://scdck.ac.in/wp-content/uploads/2024/06/PROSPECTUS-2024-2025_11zon.pdf",
+      "status": "ok",
+      "cache": "3e17434d7664fb41e26c.json"
+    },
+    {
+      "url": "https://scdck.ac.in/wp-content/uploads/2026/05/Prospectus-2026-2027.pdf",
+      "status": "ok",
+      "cache": "7d64abf2854a63c66366.json"
+    },
+    {
+      "url": "https://scdck.ac.in/academic-cell/",
+      "status": "ok",
+      "cache": "a74ee6e1a6f594f42f3e.json"
+    }
+  ]
+}

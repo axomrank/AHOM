@@ -1,0 +1,1 @@
+{"url": "https://jorhatcollege.org/mous.php", "retrieved": "2026-10-02", "status": "error", "error": "ConnectTimeout: HTTPSConnectionPool(host='jorhatcollege.org', port=443): Max retries exceeded with url: /mous.php (Caused by ConnectTimeoutError(<HTTPSConnection(host='jorhatcollege.org', port=443) at 0x739195d00aa0>"}

@@ -1,0 +1,46 @@
+{
+  "id": "348",
+  "college": "Tyagbir Hem Baruah College (T.H.B. College)",
+  "pages": [
+    {
+      "url": "https://thbcollege.in/",
+      "status": "ok",
+      "cache": "8b3de1e01a2b0211fb57.json"
+    },
+    {
+      "url": "https://thbcollege.in/assets/frontend/moving_text/Moving_33.pdf",
+      "status": "ok",
+      "cache": "3f7a19e568bfc12751b9.json"
+    },
+    {
+      "url": "https://thbcollege.in/home/course_offered",
+      "status": "ok",
+      "cache": "25757a25d58ddfebd8da.json"
+    },
+    {
+      "url": "https://thbcollege.in/home/department/english",
+      "status": "ok",
+      "cache": "af0ab0ecb8cabab5d807.json"
+    },
+    {
+      "url": "https://thbcollege.in/home/department/assamese",
+      "status": "ok",
+      "cache": "8281457c353710d273dd.json"
+    },
+    {
+      "url": "https://thbcollege.in/home/department/education",
+      "status": "ok",
+      "cache": "611c5ba1f37a9aa32040.json"
+    },
+    {
+      "url": "https://thbcollege.in/home/department/political Science",
+      "status": "ok",
+      "cache": "34ef68426d11c9905f6c.json"
+    },
+    {
+      "url": "https://thbcollege.in/home/department/economics",
+      "status": "ok",
+      "cache": "1d9569817b02df238f3c.json"
+    }
+  ]
+}

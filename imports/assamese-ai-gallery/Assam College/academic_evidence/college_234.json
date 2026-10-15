@@ -1,0 +1,36 @@
+{
+  "id": "234",
+  "college": "Manobendra Sarma Girls' College",
+  "pages": [
+    {
+      "url": "https://www.msgcollege.co.in/",
+      "status": "ok",
+      "cache": "01fac14590a02f0578fb.json"
+    },
+    {
+      "url": "https://www.msgcollege.co.in/departments.php",
+      "status": "ok",
+      "cache": "189679cca2bc626267e8.json"
+    },
+    {
+      "url": "https://www.msgcollege.co.in/upload/notice/1786085494.pdf",
+      "status": "ok",
+      "cache": "18fbfaa7814f6e418cea.json"
+    },
+    {
+      "url": "https://www.msgcollege.co.in/prospectus.php",
+      "status": "ok",
+      "cache": "5eabc62ee5a930783c09.json"
+    },
+    {
+      "url": "https://www.msgcollege.co.in/acalender.php",
+      "status": "ok",
+      "cache": "d902e25a5b5782c2981a.json"
+    },
+    {
+      "url": "https://www.msgcollege.co.in/academics.php",
+      "status": "error",
+      "cache": "a6fecb8f8706814d7626.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "70",
+  "college": "Manikpur Anchalik College",
+  "pages": [
+    {
+      "url": "https://manikpuranchalikcollege.ac.in/",
+      "status": "ok",
+      "cache": "05f8136ef7f29003df0e.json"
+    },
+    {
+      "url": "https://manikpuranchalikcollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "8acfa43791fa936a955d.json"
+    },
+    {
+      "url": "https://manikpuranchalikcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "f332afc2d07edf53af9a.json"
+    },
+    {
+      "url": "https://manikpuranchalikcollege.ac.in/upload/prospectus/1777544934.pdf",
+      "status": "error",
+      "cache": "bbf8b81a60a4abe55982.json"
+    },
+    {
+      "url": "https://manikpuranchalikcollege.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "203ab33fa227cfa9d050.json"
+    },
+    {
+      "url": "https://manikpuranchalikcollege.ac.in/Academic-Departments.php?a=185dcfb9de37884ed9b26e85aea2b7a7ed4ed5170f3a59de20738e9b8a16ca76d8deaa2999515e11ce8cfa8fda651cca31feb602618171a79ef255942f2fa7ff",
+      "status": "ok",
+      "cache": "96556aa3ec37deba403e.json"
+    },
+    {
+      "url": "https://manikpuranchalikcollege.ac.in/Academic-Departments.php?a=e415e92a073be369302e2a8c232f3c01c0320001a3487273cc12f8224f0a2246ca20024955dd083c4b9ebac311dc499be36bcf8a94d298fef99a326110f26586",
+      "status": "ok",
+      "cache": "679e58dbb654423f3c33.json"
+    },
+    {
+      "url": "https://manikpuranchalikcollege.ac.in/Academic-Departments.php?a=4746002cb78042d198209f1b4613fe41c599732b69d2e98b4c9a318fd5fc946bc010ff3be5685fa83cd0c885bba9966212d8df73909777b0062376475833e88c",
+      "status": "ok",
+      "cache": "ca7c4c8b7fd47cfe88c6.json"
+    }
+  ]
+}

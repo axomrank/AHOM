@@ -1,0 +1,46 @@
+{
+  "id": "2",
+  "college": "Government Model College, Baghbor",
+  "pages": [
+    {
+      "url": "https://gmdcbaghbar.ac.in/",
+      "status": "ok",
+      "cache": "b57c025dd495e9911fe2.json"
+    },
+    {
+      "url": "https://gmdcbaghbar.ac.in/academics/departments.php",
+      "status": "ok",
+      "cache": "1f25ad448eafdcfe70fa.json"
+    },
+    {
+      "url": "https://gmdcbaghbar.ac.in/uploads/notices/1783688548_NOTICE_COMMON_ADMISSION_TEST_FOR_ADMISSION_INTO_B.ED._PROGRAMMES_BUCAT-B.Ed._868.pdf",
+      "status": "ok",
+      "cache": "9be3bc9f6f51b610dddd.json"
+    },
+    {
+      "url": "https://gmdcbaghbar.ac.in/academics/faculty.php",
+      "status": "ok",
+      "cache": "b9dc1cffd48a59d2a2c6.json"
+    },
+    {
+      "url": "https://gmdcbaghbar.ac.in/notices.php?type=Academic%20Calendar",
+      "status": "ok",
+      "cache": "75a23c6e5f18c4cde0c9.json"
+    },
+    {
+      "url": "https://gmdcbaghbar.ac.in/academics/department_details.php?dept=Assamese",
+      "status": "ok",
+      "cache": "2a0b0b864f49c13996ab.json"
+    },
+    {
+      "url": "https://gmdcbaghbar.ac.in/academics/department_details.php?dept=English",
+      "status": "ok",
+      "cache": "82970db290d6fd527038.json"
+    },
+    {
+      "url": "https://gmdcbaghbar.ac.in/academics/department_details.php?dept=Political%20Science",
+      "status": "ok",
+      "cache": "8de8631909e47fdc4eec.json"
+    }
+  ]
+}

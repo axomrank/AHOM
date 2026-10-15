@@ -1,0 +1,21 @@
+{
+  "id": "169",
+  "college": "Kamarbandha College",
+  "pages": [
+    {
+      "url": "https://www.kamarbandhacollege.com/",
+      "status": "ok",
+      "cache": "d957f5b79128d9c52ece.json"
+    },
+    {
+      "url": "https://www.kamarbandhacollege.com/prospectus.php",
+      "status": "ok",
+      "cache": "e452ace68af8b652e021.json"
+    },
+    {
+      "url": "https://www.kamarbandhacollege.com/academic_calendar.pdf",
+      "status": "ok",
+      "cache": "2d8984cb8bc5b99b6301.json"
+    }
+  ]
+}

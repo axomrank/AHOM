@@ -1,0 +1,954 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Recognised by UGC u/s 2(f) and Affiliated to Assam University
+      - generic [ref=e6]: principalhgc1961@gmail.com
+    - generic [ref=e8]:
+      - link [ref=e11] [cursor=pointer]:
+        - /url: index.php
+        - img "emblem" [ref=e12]
+      - generic [ref=e14]:
+        - text: Haflong Government College হাফলং চৰকাৰী মহাবিদ্যালয়
+        - generic [ref=e16]: "Haflong, Dima Hasao, Assam, Pin: 788819"
+  - navigation [ref=e19]:
+    - list [ref=e22]:
+      - listitem [ref=e23]:
+        - link "Home" [ref=e24] [cursor=pointer]:
+          - /url: index.php
+      - listitem [ref=e25]:
+        - button "About" [ref=e26] [cursor=pointer]
+      - listitem [ref=e27]:
+        - button "Academics" [ref=e28] [cursor=pointer]
+      - listitem [ref=e29]:
+        - button "Administration" [ref=e30] [cursor=pointer]
+      - listitem [ref=e31]:
+        - button "Admission" [ref=e32] [cursor=pointer]
+      - listitem [ref=e33]:
+        - link "Cells" [ref=e34] [cursor=pointer]:
+          - /url: cell.php
+      - listitem [ref=e35]:
+        - link "IQAC" [ref=e36] [cursor=pointer]:
+          - /url: iqacdashboard.php
+      - listitem [ref=e37]:
+        - link "NAAC" [ref=e38] [cursor=pointer]:
+          - /url: naac_heading.php
+      - listitem [ref=e39]:
+        - button "AQAR" [ref=e40] [cursor=pointer]
+      - listitem [ref=e41]:
+        - button "Facilities" [ref=e42] [cursor=pointer]
+      - listitem [ref=e43]:
+        - button "Others" [ref=e44] [cursor=pointer]
+      - listitem [ref=e45]:
+        - link "LMS" [ref=e46] [cursor=pointer]:
+          - /url: lms2.php
+      - listitem [ref=e47]:
+        - link "Contact" [ref=e48] [cursor=pointer]:
+          - /url: contact.php
+  - generic [ref=e50]:
+    - generic [ref=e52]:
+      - link "Online Portal" [ref=e53] [cursor=pointer]:
+        - /url: online_portal/
+      - link "Staff Login" [ref=e55] [cursor=pointer]:
+        - /url: online_portal/attendence/staff.php
+      - link "Results" [ref=e57] [cursor=pointer]:
+        - /url: https://ausexamination.ac.in/
+      - link "Research Journal" [ref=e59] [cursor=pointer]:
+        - /url: files/College Journal.pdf
+      - link "Course Material" [ref=e61] [cursor=pointer]:
+        - /url: course_material.php
+      - link "Student Corner" [ref=e63] [cursor=pointer]:
+        - /url: studentcorner.php
+    - iframe [ref=e67]:
+      - generic [ref=f1e1]:
+        - generic "YouTube Video Player" [ref=f1e3]
+        - generic [ref=f1e5]:
+          - generic:
+            - generic:
+              - generic [ref=f1e6] [cursor=pointer]
+              - button "Play video" [ref=f1e10] [cursor=pointer]
+              - button "Hide player controls" [ref=f1e14] [cursor=pointer]
+              - generic [ref=f1e16]:
+                - generic [ref=f1e21]:
+                  - generic [ref=f1e22]:
+                    - link "NAAC PEER TEAM VISIT" [ref=f1e23] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=8ZLp9QB0fJs
+                    - link "SS Technologies" [ref=f1e24] [cursor=pointer]:
+                      - /url: /channel/UCrv_y6YUU9gPEkpClNRUqTQ
+                  - generic [ref=f1e26]:
+                    - button [ref=f1e27] [cursor=pointer]:
+                      - img "thumbnail-image" [ref=f1e28]
+                    - generic [ref=f1e30]:
+                      - generic: SS Technologies
+                      - generic: 59 subscribers
+                - generic:
+                  - generic [ref=f1e31]:
+                    - button "Share" [ref=f1e35] [cursor=pointer]
+                    - link "Watch on YouTube" [ref=f1e46] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=8ZLp9QB0fJs
+                      - generic [ref=f1e47]: Watch on
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link [aria-hidden]:
+                                - /url: https://www.youtube.com/watch?v=LiERXwMn2Us&feature=endscreen
+                                - generic: 33:07
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "Election Commission | Form-6 & ECINET पर सवाल | Rahul Gandhi ने TCS से क्यों पूछे सवाल? | Ankit Sir 5 hours ago":
+                                      - /url: https://www.youtube.com/watch?v=LiERXwMn2Us&feature=endscreen
+                                      - heading "Election Commission | Form-6 & ECINET पर सवाल | Rahul Gandhi ने TCS से क्यों पूछे सवाल? | Ankit Sir" [level=3]
+                                      - generic: 5 hours ago
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link [aria-hidden]:
+                                - /url: https://www.youtube.com/watch?v=PEylwLDmayE&feature=endscreen
+                                - generic: 2:14:31
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "Paradha 2026 New Release South Thriller Movie | Anupama Parameswaran, Darshana Rajendran, Sangeetha 10 hours ago":
+                                      - /url: https://www.youtube.com/watch?v=PEylwLDmayE&feature=endscreen
+                                      - heading "Paradha 2026 New Release South Thriller Movie | Anupama Parameswaran, Darshana Rajendran, Sangeetha" [level=3]
+                                      - generic: 10 hours ago
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link [aria-hidden]:
+                                - /url: https://www.youtube.com/watch?v=HXewGhP2AmM&feature=endscreen
+                                - generic: 5:10
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "B.H COLLEGE NAAC PEER TEAM 1 year ago":
+                                      - /url: https://www.youtube.com/watch?v=HXewGhP2AmM&feature=endscreen
+                                      - heading "B.H COLLEGE NAAC PEER TEAM" [level=3]
+                                      - generic: 1 year ago
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link [aria-hidden]:
+                                - /url: https://www.youtube.com/watch?v=x63HCoDfAhQ&feature=endscreen
+                                - generic: 2:12:47
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - 'link "Protecting the President: Security, VIP Threats & ADC Life | Major Rishabh | FO560 Raj Shamani 3 weeks ago"':
+                                      - /url: https://www.youtube.com/watch?v=x63HCoDfAhQ&feature=endscreen
+                                      - 'heading "Protecting the President: Security, VIP Threats & ADC Life | Major Rishabh | FO560 Raj Shamani" [level=3]'
+                                      - generic: 3 weeks ago
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link [aria-hidden]:
+                                - /url: https://www.youtube.com/watch?v=YKEsOc1aUCc&feature=endscreen
+                                - generic: 23:26
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "जेन ज़ी छा गए मुंबई में, कॉकरोचों ने शिवाजी पार्क को बना दिया जंतर-मंतर 3 hours ago":
+                                      - /url: https://www.youtube.com/watch?v=YKEsOc1aUCc&feature=endscreen
+                                      - heading "जेन ज़ी छा गए मुंबई में, कॉकरोचों ने शिवाजी पार्क को बना दिया जंतर-मंतर" [level=3]
+                                      - generic: 3 hours ago
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link [aria-hidden]:
+                                - /url: https://www.youtube.com/watch?v=jYjLzP3d5YE&feature=endscreen
+                                - generic: 44:44
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "KOLKATA to MUMBAI in VOLVO Sleeper Bus | 3 Days Road Trip 6 days ago":
+                                      - /url: https://www.youtube.com/watch?v=jYjLzP3d5YE&feature=endscreen
+                                      - heading "KOLKATA to MUMBAI in VOLVO Sleeper Bus | 3 Days Road Trip" [level=3]
+                                      - generic: 6 days ago
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link [aria-hidden]:
+                                - /url: https://www.youtube.com/watch?v=aEebBf4-kW4&feature=endscreen
+                                - generic: 12:57
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "Anatomy Viva Gone wrong😂😂 || MBBS FIRST YEAR|| 5 years ago":
+                                      - /url: https://www.youtube.com/watch?v=aEebBf4-kW4&feature=endscreen
+                                      - heading "Anatomy Viva Gone wrong😂😂 || MBBS FIRST YEAR||" [level=3]
+                                      - generic: 5 years ago
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link [aria-hidden]:
+                                - /url: https://www.youtube.com/watch?v=FmMmqed2RhE&feature=endscreen
+                                - generic: 44:54
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "Becoming an Officer in the Indian Army | Officers Training Academy | National Geographic 2 years ago":
+                                      - /url: https://www.youtube.com/watch?v=FmMmqed2RhE&feature=endscreen
+                                      - heading "Becoming an Officer in the Indian Army | Officers Training Academy | National Geographic" [level=3]
+                                      - generic: 2 years ago
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link [aria-hidden]:
+                                - /url: https://www.youtube.com/watch?v=k5qlDM_gvME&feature=endscreen
+                                - generic: 10:37
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "CJP Protest in Mumbai Draws Massive Crowds | GROUND REPORT 3 hours ago":
+                                      - /url: https://www.youtube.com/watch?v=k5qlDM_gvME&feature=endscreen
+                                      - heading "CJP Protest in Mumbai Draws Massive Crowds | GROUND REPORT" [level=3]
+                                      - generic: 3 hours ago
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link [aria-hidden]:
+                                - /url: https://www.youtube.com/watch?v=aRqLvtBzZfw&feature=endscreen
+                                - generic: 12:15
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "What’s Really Happening in Indian Villages? | Case Study 4 days ago":
+                                      - /url: https://www.youtube.com/watch?v=aRqLvtBzZfw&feature=endscreen
+                                      - heading "What’s Really Happening in Indian Villages? | Case Study" [level=3]
+                                      - generic: 4 days ago
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link [aria-hidden]:
+                                - /url: https://www.youtube.com/watch?v=xu9d1J6Nzqw&feature=endscreen
+                                - generic: 17:06
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - 'link "Inside Delhi Se: The Chole Bhature That Virat Kohli & Anushka Sharma Love | PINKVILLA BIZ 8 days ago"':
+                                      - /url: https://www.youtube.com/watch?v=xu9d1J6Nzqw&feature=endscreen
+                                      - 'heading "Inside Delhi Se: The Chole Bhature That Virat Kohli & Anushka Sharma Love | PINKVILLA BIZ" [level=3]'
+                                      - generic: 8 days ago
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link [aria-hidden]:
+                                - /url: https://www.youtube.com/watch?v=0-J5ovm3Y6E&feature=endscreen
+                                - generic: 16:13
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "...Is this really India? 🇮🇳 1 month ago":
+                                      - /url: https://www.youtube.com/watch?v=0-J5ovm3Y6E&feature=endscreen
+                                      - heading "...Is this really India? 🇮🇳" [level=3]
+                                      - generic: 1 month ago
+    - generic [ref=e68]:
+      - heading "News & Notice" [level=4] [ref=e71]
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - generic [ref=e76]:
+              - paragraph [ref=e77]: 01 October 2026
+              - separator [ref=e78]
+              - generic [ref=e79]: 
+            - generic [ref=e80]:
+              - text: Notification for Nijut Moina/Nijut Babu
+              - link "View File" [ref=e82] [cursor=pointer]:
+                - /url: upload/notice/1790847932.pdf
+          - generic [ref=e83]:
+            - generic [ref=e85]:
+              - paragraph [ref=e86]: 30 September 2026
+              - separator [ref=e87]
+              - generic [ref=e88]: 
+            - generic [ref=e89]:
+              - text: Notification for Admission of FYUG 7th Semester (ARST, SCIENCE & COMMERCE) for the Academic session 2026-27
+              - link "View File" [ref=e91] [cursor=pointer]:
+                - /url: upload/notice/1790756283.pdf
+          - generic [ref=e92]:
+            - generic [ref=e94]:
+              - paragraph [ref=e95]: 23 September 2026
+              - separator [ref=e96]
+              - generic [ref=e97]: 
+            - generic [ref=e98]:
+              - text: Urgent Notice – Uploading of Tree Plantation Photos on the Brikhya Bandhu Portal
+              - link "View File" [ref=e100] [cursor=pointer]:
+                - /url: upload/notice/1790228396.pdf
+          - generic [ref=e101]:
+            - generic [ref=e103]:
+              - paragraph [ref=e104]: 18 September 2026
+              - separator [ref=e105]
+              - generic [ref=e106]: 
+            - generic [ref=e107]:
+              - text: Notification for "NSP OTR"
+              - link "View File" [ref=e109] [cursor=pointer]:
+                - /url: upload/notice/1789725251.jpeg
+          - generic [ref=e110]:
+            - generic [ref=e112]:
+              - paragraph [ref=e113]: 10 September 2026
+              - separator [ref=e114]
+              - generic [ref=e115]: 
+            - generic [ref=e116]:
+              - text: NOTIFICATION FOR U.G. ADMISSIO
+              - link "View File" [ref=e117] [cursor=pointer]:
+                - /url: upload/notice/1789058343.pdf
+          - generic [ref=e118]:
+            - generic [ref=e120]:
+              - paragraph [ref=e121]: 08 September 2026
+              - separator [ref=e122]
+              - generic [ref=e123]: 
+            - generic [ref=e124]:
+              - text: Notification for FYUG 1st ,3rd
+              - link "View File" [ref=e125] [cursor=pointer]:
+                - /url: upload/notice/1788853333.pdf
+          - generic [ref=e126]:
+            - generic [ref=e128]:
+              - paragraph [ref=e129]: 03 September 2026
+              - separator [ref=e130]
+              - generic [ref=e131]: 
+            - generic [ref=e132]:
+              - text: Notification for Lateral entry
+              - link "View File" [ref=e133] [cursor=pointer]:
+                - /url: upload/notice/1788430750.pdf
+          - generic [ref=e134]:
+            - generic [ref=e136]:
+              - paragraph [ref=e137]: 31 August 2026
+              - separator [ref=e138]
+              - generic [ref=e139]: 
+            - generic [ref=e140]:
+              - text: Notification for Admission int
+              - link "View File" [ref=e141] [cursor=pointer]:
+                - /url: upload/notice/1788178187.pdf
+          - generic [ref=e142]:
+            - generic [ref=e144]:
+              - paragraph [ref=e145]: 31 August 2026
+              - separator [ref=e146]
+              - generic [ref=e147]: 
+            - generic [ref=e148]:
+              - text: Notification for Half Yearly E
+              - link "View File" [ref=e149] [cursor=pointer]:
+                - /url: upload/notice/1788171118.pdf
+          - generic [ref=e150]:
+            - generic [ref=e152]:
+              - paragraph [ref=e153]: 31 August 2026
+              - separator [ref=e154]
+              - generic [ref=e155]: 
+            - generic [ref=e156]:
+              - text: Reminder Notice to apply Niju
+              - link "View File" [ref=e157] [cursor=pointer]:
+                - /url: upload/notice/1788171623.pdf
+        - button [ref=e159] [cursor=pointer]:
+          - link "Read More" [ref=e161]:
+            - /url: notice.php
+  - generic [ref=e162]:
+    - generic [ref=e163]:
+      - text: Announcements
+      - link "| View All" [ref=e165] [cursor=pointer]:
+        - /url: headnotice.php
+    - generic [ref=e167]:
+      - text: Revised Notice for Admission of FYUG 3rd & 5th Semester Arts, Science & Commerce, 2025-26
+      - strong [ref=e168]: "||"
+      - text: Notice for Dr. Bani Kanta Kakati award 2024.
+      - strong [ref=e169]: "||"
+      - text: Notice for Dr. Bani Kanta Kakati award 2024.
+      - strong [ref=e170]: "||"
+      - text: HGC Admission for H S 1st Year ARTS, SCIENCE & COMMERCE for the Academic Session 2024-25 will be held on the following date. SCIENCE & COMMERCE - 27/05/2024 (Monday) ARTS
+      - strong [ref=e171]: "||"
+      - text: Notification regarding FYUG 1st Semester Examination 2024, centre fees & Practical Fees collection Start From 22/02/2024 -24/02/2024
+      - strong [ref=e172]: "||"
+  - generic [ref=e174]:
+    - generic [ref=e175]:
+      - heading "Welcome to" [level=3] [ref=e176]
+      - heading [level=3]:
+        - link:
+          - /url: ""
+      - generic [ref=e177]: 
+      - paragraph [ref=e179]:
+        - text: Haflong Government College is in its 66th year of existence. This college was born through the vision of the illustrious sons of the soil like Late N.L. Daolagupu, backed by the unstinted support of the intelligentsia of that time like Sonaram Thaosen, J.B Hagjer, Surath Chandra Daulagupu, Hironmoy Das Barman, G.C. Langthasa, P.C. Langthasa, D. Hojai, P.K. Gorlosa, V. Hmar, Nishikanta Daulagupu, Yusuf Khan and B. Chakraborty. The dream and vision of the pioneers became a reality with the establishment of this college on the 4th of September, 1961 and thus a new chapter was added to the annals of this hilly district. Since its inception this premier institution took up cudgels to articulate the aspirations of the ethnic societies of the district. This college was started as a private night college with 17 students on its roll in the Pre-university Arts classes at the Cultural Institute Hall. Later on it was shifted to its present site in 1964. In ...
+        - link "Read More" [ref=e181] [cursor=pointer]:
+          - /url: about.php
+    - generic [ref=e182]:
+      - heading "From Principal's Desk" [level=3] [ref=e183]
+      - img "..." [ref=e184]
+      - generic [ref=e185]: Dr. Sarbojit Thaosen
+      - paragraph [ref=e187]:
+        - generic [ref=e188]: 
+        - text: Haflong Government College is in its 66th year of existence. This college was born through the vision of the illustrious sons of the soil like Late N.L. Daolagupu, backed by the unstinted support of the intelligentsia of that time like Sonaram Thaosen, J.B Hagjer, Surath Chandra Daulagupu, Hironmoy Das Barman, G.C. L ...
+        - link "Read More" [ref=e190] [cursor=pointer]:
+          - /url: principal.php
+  - generic [ref=e192]:
+    - heading " College Statistics" [level=4] [ref=e194]:
+      - generic [ref=e195]: 
+      - text: College Statistics
+    - generic [ref=e197]:
+      - generic [ref=e198]: 
+      - generic [ref=e200]:
+        - generic [ref=e201]: "3699"
+        - text: +
+      - generic [ref=e202]: Students
+    - generic [ref=e204]:
+      - generic [ref=e205]: 
+      - generic [ref=e207]: 70+
+      - generic [ref=e208]: Teachers & Staffs
+    - generic [ref=e210]:
+      - generic [ref=e211]: 
+      - generic [ref=e213]: 13+
+      - generic [ref=e214]: Departments
+    - generic [ref=e216]:
+      - generic [ref=e217]: 
+      - generic [ref=e219]: 70+
+      - generic [ref=e220]: Courses
+  - generic [ref=e222]:
+    - generic [ref=e223]:
+      - heading [level=3] [ref=e224]:
+        - text: E-Magazine
+        - link "View All" [ref=e226] [cursor=pointer]:
+          - /url: departmentalemagazine.php
+      - generic [ref=e229]:
+        - generic [ref=e231]:
+          - link [ref=e232] [cursor=pointer]:
+            - /url: upload/dpt_e_magazine/1764561458.pdf
+            - img "E-Magazine" [ref=e234]
+          - paragraph [ref=e235]: World Aids Day
+        - generic [ref=e237]:
+          - link [ref=e238] [cursor=pointer]:
+            - /url: upload/dpt_e_magazine/1759989376.pdf
+            - img "E-Magazine" [ref=e240]
+          - paragraph [ref=e241]: World Mental Health Day
+        - generic [ref=e243]:
+          - link [ref=e244] [cursor=pointer]:
+            - /url: upload/dpt_e_magazine/1754527733.pdf
+            - img "E-Magazine" [ref=e246]
+          - paragraph [ref=e247]: Tiger Day
+        - generic [ref=e249]:
+          - link [ref=e250] [cursor=pointer]:
+            - /url: upload/dpt_e_magazine/1775012507.pdf
+            - img "E-Magazine" [ref=e252]
+          - paragraph [ref=e253]: World Health Day
+        - generic [ref=e255]:
+          - link [ref=e256] [cursor=pointer]:
+            - /url: upload/dpt_e_magazine/1769937916.pdf
+            - img "E-Magazine" [ref=e258]
+          - paragraph [ref=e259]: World Leprosy Day
+        - generic [ref=e261]:
+          - link [ref=e262] [cursor=pointer]:
+            - /url: upload/dpt_e_magazine/1764561458.pdf
+            - img "E-Magazine" [ref=e264]
+          - paragraph [ref=e265]: World Aids Day
+        - generic [ref=e267]:
+          - link [ref=e268] [cursor=pointer]:
+            - /url: upload/dpt_e_magazine/1759989376.pdf
+            - img "E-Magazine" [ref=e270]
+          - paragraph [ref=e271]: World Mental Health Day
+        - generic [ref=e273]:
+          - link [ref=e274] [cursor=pointer]:
+            - /url: upload/dpt_e_magazine/1754527733.pdf
+            - img "E-Magazine" [ref=e276]
+          - paragraph [ref=e277]: Tiger Day
+        - generic [ref=e279]:
+          - link [ref=e280] [cursor=pointer]:
+            - /url: upload/dpt_e_magazine/1775012507.pdf
+            - img "E-Magazine" [ref=e282]
+          - paragraph [ref=e283]: World Health Day
+        - generic [ref=e285]:
+          - link [ref=e286] [cursor=pointer]:
+            - /url: upload/dpt_e_magazine/1769937916.pdf
+            - img "E-Magazine" [ref=e288]
+          - paragraph [ref=e289]: World Leprosy Day
+        - generic [ref=e291]:
+          - link [ref=e292] [cursor=pointer]:
+            - /url: upload/dpt_e_magazine/1764561458.pdf
+            - img "E-Magazine" [ref=e294]
+          - paragraph [ref=e295]: World Aids Day
+    - generic [ref=e296]:
+      - heading [level=3] [ref=e297]:
+        - text: Wall Magazine
+        - link "View All" [ref=e299] [cursor=pointer]:
+          - /url: departmentalwallmagazine.php
+      - generic [ref=e302]:
+        - generic [ref=e304]:
+          - link [ref=e305] [cursor=pointer]:
+            - /url: upload/dpt_magazine/1757319012.pdf
+            - img "Department Wall Magazine" [ref=e307]
+          - paragraph [ref=e308]: Food and Nutrition
+        - generic [ref=e310]:
+          - link [ref=e311] [cursor=pointer]:
+            - /url: upload/dpt_magazine/1742966130.pdf
+            - img "Department Wall Magazine" [ref=e313]
+          - paragraph [ref=e314]: Chemistry in Everyday Life
+        - generic [ref=e316]:
+          - link [ref=e317] [cursor=pointer]:
+            - /url: upload/dpt_magazine/1735738742.pdf
+            - img "Department Wall Magazine" [ref=e319]
+          - paragraph [ref=e320]: Department Wall Megazine
+        - generic [ref=e322]:
+          - link [ref=e323] [cursor=pointer]:
+            - /url: upload/dpt_magazine/1763647474.pdf
+            - img "Department Wall Magazine" [ref=e325]
+          - paragraph [ref=e326]: BANAPHOOL
+        - generic [ref=e328]:
+          - link [ref=e329] [cursor=pointer]:
+            - /url: upload/dpt_magazine/1763647375.pdf
+            - img "Department Wall Magazine" [ref=e331]
+          - paragraph [ref=e332]: BANAPHOOL
+        - generic [ref=e334]:
+          - link [ref=e335] [cursor=pointer]:
+            - /url: upload/dpt_magazine/1757319012.pdf
+            - img "Department Wall Magazine" [ref=e337]
+          - paragraph [ref=e338]: Food and Nutrition
+        - generic [ref=e340]:
+          - link [ref=e341] [cursor=pointer]:
+            - /url: upload/dpt_magazine/1742966130.pdf
+            - img "Department Wall Magazine" [ref=e343]
+          - paragraph [ref=e344]: Chemistry in Everyday Life
+        - generic [ref=e346]:
+          - link [ref=e347] [cursor=pointer]:
+            - /url: upload/dpt_magazine/1735738742.pdf
+            - img "Department Wall Magazine" [ref=e349]
+          - paragraph [ref=e350]: Department Wall Megazine
+        - generic [ref=e352]:
+          - link [ref=e353] [cursor=pointer]:
+            - /url: upload/dpt_magazine/1763647474.pdf
+            - img "Department Wall Magazine" [ref=e355]
+          - paragraph [ref=e356]: BANAPHOOL
+        - generic [ref=e358]:
+          - link [ref=e359] [cursor=pointer]:
+            - /url: upload/dpt_magazine/1763647375.pdf
+            - img "Department Wall Magazine" [ref=e361]
+          - paragraph [ref=e362]: BANAPHOOL
+        - generic [ref=e364]:
+          - link [ref=e365] [cursor=pointer]:
+            - /url: upload/dpt_magazine/1757319012.pdf
+            - img "Department Wall Magazine" [ref=e367]
+          - paragraph [ref=e368]: Food and Nutrition
+    - generic [ref=e369]:
+      - heading "Upcoming Events" [level=4] [ref=e372]
+      - generic [ref=e373]:
+        - generic [ref=e374]:
+          - generic [ref=e375]:
+            - generic [ref=e377]:
+              - paragraph [ref=e378]: 07 March 2025
+              - separator [ref=e379]
+              - generic [ref=e380]: 
+            - generic [ref=e381]:
+              - text: Haflong Govt. College Organise
+              - link "View File" [ref=e382] [cursor=pointer]:
+                - /url: upload/upcomingevent/1741354821.jpeg
+          - generic [ref=e383]:
+            - generic [ref=e385]:
+              - paragraph [ref=e386]: 29 February 2024
+              - separator [ref=e387]
+              - generic [ref=e388]: 
+            - generic [ref=e389]:
+              - text: Notification of Higher Seconda
+              - link "View File" [ref=e390] [cursor=pointer]:
+                - /url: upload/upcomingevent/1709205756.pdf
+          - generic [ref=e391]:
+            - generic [ref=e393]:
+              - paragraph [ref=e394]: 15 February 2024
+              - separator [ref=e395]
+              - generic [ref=e396]: 
+            - generic [ref=e397]:
+              - text: FOUR YEARS UNDER GRADUATE (FYU
+              - link "View File" [ref=e398] [cursor=pointer]:
+                - /url: upload/upcomingevent/1707978000.pdf
+        - button [ref=e400] [cursor=pointer]:
+          - link "Read More" [ref=e402]:
+            - /url: upcomingevents.php
+  - text:   
+  - generic [ref=e404]:
+    - generic [ref=e405]:
+      - heading [level=3] [ref=e406]:
+        - text: Photo Gallery
+        - link "View All" [ref=e408] [cursor=pointer]:
+          - /url: gallery.php
+      - generic [ref=e411]:
+        - img "College Gallery" [ref=e415]
+        - img "College Gallery" [ref=e419]
+        - img "College Gallery" [ref=e423]
+        - img "College Gallery" [ref=e427]
+        - img "College Gallery" [ref=e431]
+        - img "College Gallery" [ref=e435]
+        - img "College Gallery" [ref=e439]
+        - img "College Gallery" [ref=e443]
+        - img "College Gallery" [ref=e447]
+        - img "College Gallery" [ref=e451]
+        - img "College Gallery" [ref=e455]
+        - img "College Gallery" [ref=e459]
+    - generic [ref=e460]:
+      - heading "College Tour" [level=4] [ref=e463]
+      - iframe [ref=e465]:
+        - generic [ref=f2e1]:
+          - generic "YouTube Video Player" [ref=f2e3]
+          - generic [ref=f2e5]:
+            - generic:
+              - generic:
+                - generic [ref=f2e6] [cursor=pointer]
+                - button "Play video" [ref=f2e10] [cursor=pointer]
+                - button "Hide player controls" [ref=f2e12] [cursor=pointer]
+                - generic [ref=f2e14]:
+                  - generic [ref=f2e19]:
+                    - generic [ref=f2e20]:
+                      - link "Haflong Govt College" [ref=f2e21] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=xc-Z31uaNvQ
+                      - link "SS Technologies" [ref=f2e22] [cursor=pointer]:
+                        - /url: /channel/UCrv_y6YUU9gPEkpClNRUqTQ
+                    - generic [ref=f2e24]:
+                      - button [ref=f2e25] [cursor=pointer]
+                      - generic [ref=f2e27]:
+                        - generic: SS Technologies
+                        - generic: 59 subscribers
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=8ZLp9QB0fJs&feature=endscreen
+                                  - generic: 14:53
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "NAAC PEER TEAM VISIT 1 year ago":
+                                        - /url: https://www.youtube.com/watch?v=8ZLp9QB0fJs&feature=endscreen
+                                        - heading "NAAC PEER TEAM VISIT" [level=3]
+                                        - generic: 1 year ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=QILzaejQiMo&feature=endscreen
+                                  - generic: 13:52
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "FRESHERS DAY 2024 || HAFLONG GOVERNMENT COLLEGE 2 years ago":
+                                        - /url: https://www.youtube.com/watch?v=QILzaejQiMo&feature=endscreen
+                                        - heading "FRESHERS DAY 2024 || HAFLONG GOVERNMENT COLLEGE" [level=3]
+                                        - generic: 2 years ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=6D3KtiYY9HA&feature=endscreen
+                                  - generic: 6:54
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Haflong Government College \\\\ commerce department 4 years ago":
+                                        - /url: https://www.youtube.com/watch?v=6D3KtiYY9HA&feature=endscreen
+                                        - heading "Haflong Government College \\\\ commerce department" [level=3]
+                                        - generic: 4 years ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=PEylwLDmayE&feature=endscreen
+                                  - generic: 2:14:31
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Paradha 2026 New Release South Thriller Movie | Anupama Parameswaran, Darshana Rajendran, Sangeetha 10 hours ago":
+                                        - /url: https://www.youtube.com/watch?v=PEylwLDmayE&feature=endscreen
+                                        - heading "Paradha 2026 New Release South Thriller Movie | Anupama Parameswaran, Darshana Rajendran, Sangeetha" [level=3]
+                                        - generic: 10 hours ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=_Vq7rDU86ss&feature=endscreen
+                                  - generic: 28:12
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "India's most remote music festival! (we vlogged for the first time) 7 days ago":
+                                        - /url: https://www.youtube.com/watch?v=_Vq7rDU86ss&feature=endscreen
+                                        - heading "India's most remote music festival! (we vlogged for the first time)" [level=3]
+                                        - generic: 7 days ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=k5qlDM_gvME&feature=endscreen
+                                  - generic: 10:37
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "CJP Protest in Mumbai Draws Massive Crowds | GROUND REPORT 3 hours ago":
+                                        - /url: https://www.youtube.com/watch?v=k5qlDM_gvME&feature=endscreen
+                                        - heading "CJP Protest in Mumbai Draws Massive Crowds | GROUND REPORT" [level=3]
+                                        - generic: 3 hours ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=HMjaBRIcbIk&feature=endscreen
+                                  - generic: 49:25
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Russian Girl Invited Me to Stay With Her Family for 7 Days 4 days ago":
+                                        - /url: https://www.youtube.com/watch?v=HMjaBRIcbIk&feature=endscreen
+                                        - heading "Russian Girl Invited Me to Stay With Her Family for 7 Days" [level=3]
+                                        - generic: 4 days ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=rjUThR_ziQ8&feature=endscreen
+                                  - generic: 34:49
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Exploring Haflong | Only hill station of Assam | Tribe food, Jatinga, Assam 4 years ago":
+                                        - /url: https://www.youtube.com/watch?v=rjUThR_ziQ8&feature=endscreen
+                                        - heading "Exploring Haflong | Only hill station of Assam | Tribe food, Jatinga, Assam" [level=3]
+                                        - generic: 4 years ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=va4GOYAAu2A&feature=endscreen
+                                  - generic: 22:58
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "India's Worst Himalayan Disaster | Kedarnath 2013 True Story | Dhruv Rathee 7 days ago":
+                                        - /url: https://www.youtube.com/watch?v=va4GOYAAu2A&feature=endscreen
+                                        - heading "India's Worst Himalayan Disaster | Kedarnath 2013 True Story | Dhruv Rathee" [level=3]
+                                        - generic: 7 days ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=SeMdwPCTEF0&feature=endscreen
+                                  - generic: 23:18
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Eating Uttar Pradesh Viral Street Food for 24 Hours 3 hours ago":
+                                        - /url: https://www.youtube.com/watch?v=SeMdwPCTEF0&feature=endscreen
+                                        - heading "Eating Uttar Pradesh Viral Street Food for 24 Hours" [level=3]
+                                        - generic: 3 hours ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=4Cspji1-3tc&feature=endscreen
+                                  - generic: 8:11
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Haflong Government College🏫🏢 || Haflong ||Dimahasao 4 years ago":
+                                        - /url: https://www.youtube.com/watch?v=4Cspji1-3tc&feature=endscreen
+                                        - heading "Haflong Government College🏫🏢 || Haflong ||Dimahasao" [level=3]
+                                        - generic: 4 years ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=O12hRCJo-2E&feature=endscreen
+                                  - generic: 23:38
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "घबराहट में सरकार, पुलिस की भयंकर तैनाती, किले में बदल गया जंतर-मंतर, सैंकड़ों लोग हिरासत में 7 hours ago":
+                                        - /url: https://www.youtube.com/watch?v=O12hRCJo-2E&feature=endscreen
+                                        - heading "घबराहट में सरकार, पुलिस की भयंकर तैनाती, किले में बदल गया जंतर-मंतर, सैंकड़ों लोग हिरासत में" [level=3]
+                                        - generic: 7 hours ago
+  - generic [ref=e467]:
+    - heading "Departmental QR Code" [level=3] [ref=e468]
+    - generic [ref=e473]:
+      - link "History" [ref=e476] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=4b0b583bc9e17ec1e4421ec8350f0ba7aa802165843c27dd8a4e2684208c412ee5b35ace3da01a4838108d0efa7687f65140ea1a91e0ad13ea90afaa8a7172fc
+      - link "Mathematics" [ref=e481] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=8e78b920240716999cdb069f20819734d247f9d684465ea02c65d7061859d44d140cb88c711919157fd4d845aba0cc4b49f09d51492aaab3f26f8fc09bba19b2
+      - link "PG History" [ref=e486] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=c11669f1f34bb71930ed9aaccf3527dd2ccd3ec2563f7a2720a2caaa912bd896fafd4bcb910200234e74f39dd149f22794382abf01bde44b378900d260e55a47
+      - link "PG Political Science" [ref=e491] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=4b0b583bc9e17ec1e4421ec8350f0ba7b9e7b83ac53834ad19d758192bfe0ab835a61453e4cb67338fa24b2ee0bd9ec4bc8f9925daddc7d514eb5fd88c821cd5
+      - link "Philosophy" [ref=e496] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=dd954f3b82e572728c64e9f804456f21b3e21936d6b278d47662d5cfe84203aa1efab433c276a0c6614615ed664dea176b3c1ad2e945b1f4b45acdd6217740b1
+      - link "Physics" [ref=e501] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=b2c65c3c44a3a9850258228c3d1679cfba8f98665ace69faa99db38a7f50cda5c7211e210a32539e951ce989b8c0609a382cfa844b65e369df7be8b839a49353
+      - link "Political Science" [ref=e506] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=8e78b920240716999cdb069f2081973423fc7127b78107dba4050884ff5845757b9546bc2ea219b8578f5ca78a682269c38f4bcbf8f4eecca9b9d8d078c4d697
+      - link "Zoology" [ref=e511] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=2b0b1309c1fc5297765eed5bd46fed0a7b98bd64d88d65163da2bd8fc32d92d773655b29f5ea327aa7c0b042983165aa447b26b9abda02587d27afb59323871e
+      - link "Assamese" [ref=e516] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=f6b865dc5af025362c6a2452166c56680c85ebf1d826ac24173c3a46df4fb74cab2f212e5afd2a922cee9f8143f6a3e8092c6ff71df8dc17ace1781e729a28e1
+      - link "Bengali" [ref=e521] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=3ff3a86f76d6916885f28ce2661af90c7a78b9c74bd65f459f7ba3a9933f0253e3d72e95dcdc9ecd68c6c09b0b3e19b80e52bbfc4ff7f7cfc3e5873bc3dc9d4d
+      - link "Botany" [ref=e526] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=47bf7e7447b85d9798993989dfec450db46e765503b510e460f3762dea8d2e552d3e64e418f50695ca19b545f7fd45115cd0829cd7576f9637839f24ca76f1bf
+      - link "Chemistry" [ref=e531] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=8c1c152ea846d11ca5bf45c8102609496ae5f9fa47f986932fc2a95ba9dec463f422ab87d745a8a8ad9fd6e2776da593c7b21b3bf5b7f1d10031fa3af36bf749
+      - link "Commerce" [ref=e536] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=b00dac5eb604fc70c477f5a6604b4da2fa3b6f70fda880de1b7164ce84e58187cca084576a5ad05846226593db45f68bf5ba6c6e4bfab14166b33a6eda1cb566
+      - link "Economics" [ref=e541] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=0ec2d002e087a60803255008550c7c8796a7f1b71444c24e7f22486bfdca29ea7ff66bf68db357e321945521641e6a17d7dd8c98b0fa602bff89d21861d506ec
+      - link "English" [ref=e546] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=f6b865dc5af025362c6a2452166c5668ded38da0993692929928351a5af3b909f8a2ced339469beab10423b5c07b762705a10be3d4aa5dede3b2f402cfb0284b
+      - link "History" [ref=e551] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=4b0b583bc9e17ec1e4421ec8350f0ba7aa802165843c27dd8a4e2684208c412ee5b35ace3da01a4838108d0efa7687f65140ea1a91e0ad13ea90afaa8a7172fc
+      - link "Mathematics" [ref=e556] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=8e78b920240716999cdb069f20819734d247f9d684465ea02c65d7061859d44d140cb88c711919157fd4d845aba0cc4b49f09d51492aaab3f26f8fc09bba19b2
+      - link "PG History" [ref=e561] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=c11669f1f34bb71930ed9aaccf3527dd2ccd3ec2563f7a2720a2caaa912bd896fafd4bcb910200234e74f39dd149f22794382abf01bde44b378900d260e55a47
+      - link "PG Political Science" [ref=e566] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=4b0b583bc9e17ec1e4421ec8350f0ba7b9e7b83ac53834ad19d758192bfe0ab835a61453e4cb67338fa24b2ee0bd9ec4bc8f9925daddc7d514eb5fd88c821cd5
+      - link "Philosophy" [ref=e571] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=dd954f3b82e572728c64e9f804456f21b3e21936d6b278d47662d5cfe84203aa1efab433c276a0c6614615ed664dea176b3c1ad2e945b1f4b45acdd6217740b1
+      - link "Physics" [ref=e576] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=b2c65c3c44a3a9850258228c3d1679cfba8f98665ace69faa99db38a7f50cda5c7211e210a32539e951ce989b8c0609a382cfa844b65e369df7be8b839a49353
+      - link "Political Science" [ref=e581] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=8e78b920240716999cdb069f2081973423fc7127b78107dba4050884ff5845757b9546bc2ea219b8578f5ca78a682269c38f4bcbf8f4eecca9b9d8d078c4d697
+      - link "Zoology" [ref=e586] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=2b0b1309c1fc5297765eed5bd46fed0a7b98bd64d88d65163da2bd8fc32d92d773655b29f5ea327aa7c0b042983165aa447b26b9abda02587d27afb59323871e
+      - link "Assamese" [ref=e591] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=f6b865dc5af025362c6a2452166c56680c85ebf1d826ac24173c3a46df4fb74cab2f212e5afd2a922cee9f8143f6a3e8092c6ff71df8dc17ace1781e729a28e1
+      - link "Bengali" [ref=e596] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=3ff3a86f76d6916885f28ce2661af90c7a78b9c74bd65f459f7ba3a9933f0253e3d72e95dcdc9ecd68c6c09b0b3e19b80e52bbfc4ff7f7cfc3e5873bc3dc9d4d
+      - link "Botany" [ref=e601] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=47bf7e7447b85d9798993989dfec450db46e765503b510e460f3762dea8d2e552d3e64e418f50695ca19b545f7fd45115cd0829cd7576f9637839f24ca76f1bf
+      - link "Chemistry" [ref=e606] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=8c1c152ea846d11ca5bf45c8102609496ae5f9fa47f986932fc2a95ba9dec463f422ab87d745a8a8ad9fd6e2776da593c7b21b3bf5b7f1d10031fa3af36bf749
+      - link "Commerce" [ref=e611] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=b00dac5eb604fc70c477f5a6604b4da2fa3b6f70fda880de1b7164ce84e58187cca084576a5ad05846226593db45f68bf5ba6c6e4bfab14166b33a6eda1cb566
+      - link "Economics" [ref=e616] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=0ec2d002e087a60803255008550c7c8796a7f1b71444c24e7f22486bfdca29ea7ff66bf68db357e321945521641e6a17d7dd8c98b0fa602bff89d21861d506ec
+      - link "English" [ref=e621] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=f6b865dc5af025362c6a2452166c5668ded38da0993692929928351a5af3b909f8a2ced339469beab10423b5c07b762705a10be3d4aa5dede3b2f402cfb0284b
+      - link "History" [ref=e626] [cursor=pointer]:
+        - /url: Academic-Departmentsnew.php?encRequest=4b0b583bc9e17ec1e4421ec8350f0ba7aa802165843c27dd8a4e2684208c412ee5b35ace3da01a4838108d0efa7687f65140ea1a91e0ad13ea90afaa8a7172fc
+  - generic [ref=e630]:
+    - heading "Important Links" [level=3] [ref=e631]
+    - generic [ref=e636]:
+      - link "IGNOU" [ref=e639] [cursor=pointer]:
+        - /url: http://www.ignou.ac.in/
+      - link "DHE, Assam" [ref=e644] [cursor=pointer]:
+        - /url: https://directorateofhighereducation.assam.gov.in/
+      - link "NAAC" [ref=e649] [cursor=pointer]:
+        - /url: http://naac.gov.in/index.php/en/
+      - link "RUSA" [ref=e654] [cursor=pointer]:
+        - /url: https://rusa.assam.gov.in/
+      - link "KKHSOU" [ref=e659] [cursor=pointer]:
+        - /url: https://kkhsou.ac.in/web/
+      - link "UGC" [ref=e664] [cursor=pointer]:
+        - /url: https://www.ugc.gov.in/
+      - link "Assam University" [ref=e669] [cursor=pointer]:
+        - /url: http://www.aus.ac.in/
+      - link "AICTE" [ref=e674] [cursor=pointer]:
+        - /url: https://www.aicte-india.org/
+      - link "IGNOU" [ref=e679] [cursor=pointer]:
+        - /url: http://www.ignou.ac.in/
+      - link "DHE, Assam" [ref=e684] [cursor=pointer]:
+        - /url: https://directorateofhighereducation.assam.gov.in/
+      - link "NAAC" [ref=e689] [cursor=pointer]:
+        - /url: http://naac.gov.in/index.php/en/
+      - link "RUSA" [ref=e694] [cursor=pointer]:
+        - /url: https://rusa.assam.gov.in/
+      - link "KKHSOU" [ref=e699] [cursor=pointer]:
+        - /url: https://kkhsou.ac.in/web/
+      - link "UGC" [ref=e704] [cursor=pointer]:
+        - /url: https://www.ugc.gov.in/
+      - link "Assam University" [ref=e709] [cursor=pointer]:
+        - /url: http://www.aus.ac.in/
+      - link "AICTE" [ref=e714] [cursor=pointer]:
+        - /url: https://www.aicte-india.org/
+      - link "IGNOU" [ref=e719] [cursor=pointer]:
+        - /url: http://www.ignou.ac.in/
+      - link "DHE, Assam" [ref=e724] [cursor=pointer]:
+        - /url: https://directorateofhighereducation.assam.gov.in/
+  - contentinfo [ref=e727]:
+    - generic [ref=e729]:
+      - generic [ref=e730]:
+        - generic [ref=e731]:
+          - img "logo" [ref=e733]
+          - heading "Haflong Govt. College" [level=3] [ref=e734]
+          - paragraph [ref=e735]: Haflong, Dima Hasao, Assam, 788819
+        - generic [ref=e736]:
+          - heading "About HGC" [level=4] [ref=e737]
+          - list [ref=e738]:
+            - listitem [ref=e739]:
+              - generic [ref=e740]: 
+              - link "Principal" [ref=e741] [cursor=pointer]:
+                - /url: principal.php
+            - listitem [ref=e742]:
+              - generic [ref=e743]: 
+              - link "Motto & Vision" [ref=e744] [cursor=pointer]:
+                - /url: mission&vision.php
+            - listitem [ref=e745]:
+              - generic [ref=e746]: 
+              - link "College Emblem" [ref=e747] [cursor=pointer]:
+                - /url: collegeemblem.php
+            - listitem [ref=e748]:
+              - generic [ref=e749]: 
+              - link "College Campus" [ref=e750] [cursor=pointer]:
+                - /url: collegecampus.php
+            - listitem [ref=e751]:
+              - generic [ref=e752]: 
+              - link "Results" [ref=e753] [cursor=pointer]:
+                - /url: https://ausexamination.ac.in/
+            - listitem [ref=e754]:
+              - generic [ref=e755]: 
+              - link "Notices" [ref=e756] [cursor=pointer]:
+                - /url: notice.php
+        - generic [ref=e757]:
+          - heading "Quick Links" [level=4] [ref=e758]
+          - list [ref=e759]:
+            - listitem [ref=e760]:
+              - generic [ref=e761]: 
+              - link "IQAC" [ref=e762] [cursor=pointer]:
+                - /url: iqacdashboard.php
+            - listitem [ref=e763]:
+              - generic [ref=e764]: 
+              - link "Cells" [ref=e765] [cursor=pointer]:
+                - /url: cell.php
+            - listitem [ref=e766]:
+              - generic [ref=e767]: 
+              - link "Library" [ref=e768] [cursor=pointer]:
+                - /url: library.php
+            - listitem [ref=e769]:
+              - generic [ref=e770]: 
+              - link "Academic Calendar" [ref=e771] [cursor=pointer]:
+                - /url: academic_cal.php
+        - generic [ref=e772]:
+          - heading "Keep In Touch" [level=4] [ref=e773]
+          - list [ref=e774]:
+            - listitem [ref=e775]:
+              - generic [ref=e776]: 
+              - link "Upcoming Events" [ref=e777] [cursor=pointer]:
+                - /url: upcomingevents.php
+            - listitem [ref=e778]:
+              - generic [ref=e779]: 
+              - link "Contact Us" [ref=e780] [cursor=pointer]:
+                - /url: contact.php
+      - generic [ref=e782]: All Rights Reserved | Copyright © 2026 Haflong Government College | Powered by S.S. Technologies
+  - text: 

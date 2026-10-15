@@ -1,0 +1,46 @@
+{
+  "id": "350",
+  "college": "Mankachar College",
+  "pages": [
+    {
+      "url": "https://www.mankacharcollege.net/",
+      "status": "ok",
+      "cache": "6ccc90ea77dacf95dcb4.json"
+    },
+    {
+      "url": "https://www.mankacharcollege.net/Prospectus.php",
+      "status": "ok",
+      "cache": "4eaea30e2e48b4f03efa.json"
+    },
+    {
+      "url": "https://www.mankacharcollege.net/department.php?d_id=6",
+      "status": "ok",
+      "cache": "c5ee34e108f48cf7ebf7.json"
+    },
+    {
+      "url": "https://www.mankacharcollege.net/department.php?d_id=3",
+      "status": "ok",
+      "cache": "f1f311c31f6c03f5d9e6.json"
+    },
+    {
+      "url": "https://www.mankacharcollege.net/department.php?d_id=8",
+      "status": "ok",
+      "cache": "a70f0bd28697273c8c6c.json"
+    },
+    {
+      "url": "https://www.mankacharcollege.net/department.php?d_id=5",
+      "status": "ok",
+      "cache": "2464df3762769e6572a4.json"
+    },
+    {
+      "url": "https://www.mankacharcollege.net/department.php?d_id=7",
+      "status": "ok",
+      "cache": "d37a300ef7b66907fb76.json"
+    },
+    {
+      "url": "https://www.mankacharcollege.net/department.php?d_id=4",
+      "status": "ok",
+      "cache": "e2af97584e4518dad427.json"
+    }
+  ]
+}

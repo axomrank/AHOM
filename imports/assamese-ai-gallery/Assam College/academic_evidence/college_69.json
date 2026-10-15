@@ -1,0 +1,16 @@
+{
+  "id": "69",
+  "college": "Mahatma Gandhi College",
+  "pages": [
+    {
+      "url": "https://mgcc.ac.in/",
+      "status": "error",
+      "cache": "6b6b43221036cbc9d22a.json"
+    },
+    {
+      "url": "https://mgcc.ac.in/doc/rXtkgPRTOwNNPKH0Kz90.pdf",
+      "status": "error",
+      "cache": "4fb4b72f0e7e6d92a055.json"
+    }
+  ]
+}

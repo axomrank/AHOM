@@ -1,0 +1,31 @@
+{
+  "id": "149",
+  "college": "Agia College",
+  "pages": [
+    {
+      "url": "https://www.agiacollege.co.in/",
+      "status": "ok",
+      "cache": "9d5e477d7c9196a3a0c5.json"
+    },
+    {
+      "url": "https://www.agiacollege.co.in/department.php",
+      "status": "ok",
+      "cache": "37f340f6b8735d665576.json"
+    },
+    {
+      "url": "https://www.agiacollege.co.in/prospectus.php",
+      "status": "ok",
+      "cache": "f0d29d3b0389817c1628.json"
+    },
+    {
+      "url": "https://www.agiacollege.co.in/academicaudit.php",
+      "status": "ok",
+      "cache": "14e1fa3d282054dc77f5.json"
+    },
+    {
+      "url": "https://www.agiacollege.co.in/academiccalendar.php",
+      "status": "ok",
+      "cache": "6a1515b7eada8f35c6ea.json"
+    }
+  ]
+}

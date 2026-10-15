@@ -1,0 +1,21 @@
+{
+  "id": "52",
+  "college": "Luitparia College",
+  "pages": [
+    {
+      "url": "https://lpcollege.ac.in/",
+      "status": "ok",
+      "cache": "a8b2883f4a8dab08c5c3.json"
+    },
+    {
+      "url": "https://lpcollege.ac.in/wp-content/uploads/2024/05/PROSPECTUS-2024-Final-.pdf",
+      "status": "ok",
+      "cache": "c0a50b1cb5fdddfe10f0.json"
+    },
+    {
+      "url": "https://lpcollege.ac.in/prospectus-lpc/",
+      "status": "ok",
+      "cache": "4811d83a730270ef8f59.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "231",
+  "college": "Damdama College",
+  "pages": [
+    {
+      "url": "https://damdamacollege.edu.in/",
+      "status": "ok",
+      "cache": "eb38a0b6af2d62d21d22.json"
+    },
+    {
+      "url": "https://damdamacollege.edu.in/storage/notifications/69f31d074e46b.pdf",
+      "status": "ok",
+      "cache": "ff80a47120be4aca584e.json"
+    },
+    {
+      "url": "https://damdamacollege.edu.in/storage/notifications/6811c48b5d85c.pdf",
+      "status": "ok",
+      "cache": "c34d0ddc21e092d4bd1a.json"
+    },
+    {
+      "url": "https://damdamacollege.edu.in/storage/admission/prospectus/662cbd6bbaa46.pdf",
+      "status": "ok",
+      "cache": "9eea2b9d3906ded791d0.json"
+    },
+    {
+      "url": "https://damdamacollege.edu.in/academic/admission",
+      "status": "ok",
+      "cache": "b98a5a1bac568d5953ea.json"
+    },
+    {
+      "url": "https://damdamacollege.edu.in/academic/syllabus",
+      "status": "ok",
+      "cache": "f6473fe1d35b3b591971.json"
+    },
+    {
+      "url": "https://damdamacollege.edu.in/academic/rule_regulation",
+      "status": "ok",
+      "cache": "bba3435480900502b287.json"
+    },
+    {
+      "url": "https://damdamacollege.edu.in/department",
+      "status": "ok",
+      "cache": "954c45c047ee113d88d5.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "308",
+  "college": "Katahguri College",
+  "pages": [
+    {
+      "url": "https://katahguricollege.org.in/",
+      "status": "ok",
+      "cache": "4b6bf68ea3e2fd74741c.json"
+    },
+    {
+      "url": "http://katahguricollege.org.in/wp-content/uploads/2026/05/Prospectus-2026-27.pdf",
+      "status": "ok",
+      "cache": "5b21ef5b82fc0cd992ba.json"
+    },
+    {
+      "url": "https://katahguricollege.org.in/arabic-department-profile/",
+      "status": "ok",
+      "cache": "3141afcf065a398cbd7c.json"
+    },
+    {
+      "url": "https://katahguricollege.org.in/academic-calendar-arabic-department/",
+      "status": "ok",
+      "cache": "6dd063c1ff46aa0ed865.json"
+    },
+    {
+      "url": "https://katahguricollege.org.in/arabic-department-programme-outcome-pos/",
+      "status": "ok",
+      "cache": "96516be7753943942f9b.json"
+    },
+    {
+      "url": "https://katahguricollege.org.in/arabic-department-syllabus/",
+      "status": "ok",
+      "cache": "28c65f74938bc8aa18f5.json"
+    },
+    {
+      "url": "https://katahguricollege.org.in/arabic-department-syllabus-honours/",
+      "status": "ok",
+      "cache": "338e9f4d4ba9630ad3cd.json"
+    },
+    {
+      "url": "https://katahguricollege.org.in/arabic-department-syllabus-regular/",
+      "status": "ok",
+      "cache": "621f3b3512f001524882.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "342",
+  "college": "Swahid Peoli Phukan College",
+  "pages": [
+    {
+      "url": "https://sppcollege.in/",
+      "status": "error",
+      "cache": "c7319712a931c02c3874.json"
+    },
+    {
+      "url": "https://sppcollege.in/firstpage.php",
+      "status": "error",
+      "cache": "505c1927892c8bd46e09.json"
+    }
+  ]
+}

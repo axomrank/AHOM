@@ -1,0 +1,21 @@
+{
+  "id": "84",
+  "college": "West Silchar College",
+  "pages": [
+    {
+      "url": "https://www.westsilcharcollege.ac.in/",
+      "status": "ok",
+      "cache": "25bcaaa9737b349a7010.json"
+    },
+    {
+      "url": "https://www.westsilcharcollege.ac.in/Documents/Prospectus%202025-26.pdf",
+      "status": "error",
+      "cache": "13bc1e464d941446b1b7.json"
+    },
+    {
+      "url": "https://www.westsilcharcollege.ac.in/prospectus.htm",
+      "status": "ok",
+      "cache": "3e7909773a0d75fbdff7.json"
+    }
+  ]
+}

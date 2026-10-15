@@ -1,0 +1,31 @@
+{
+  "id": "11",
+  "college": "Government Model Women’s College, Bilasipara",
+  "pages": [
+    {
+      "url": "https://gmwcbilasipara.ac.in/",
+      "status": "ok",
+      "cache": "62c67fc66cfbe6182b92.json"
+    },
+    {
+      "url": "https://gmwcbilasipara.ac.in/about.php",
+      "status": "ok",
+      "cache": "f0bdb217a48bedaf5371.json"
+    },
+    {
+      "url": "https://gmwcbilasipara.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "1472d832ea4bdca4fa85.json"
+    },
+    {
+      "url": "https://gmwcbilasipara.ac.in/acalendar.php",
+      "status": "ok",
+      "cache": "bd308f391884dee9c1b5.json"
+    },
+    {
+      "url": "https://gmwcbilasipara.ac.in/department.php",
+      "status": "ok",
+      "cache": "7e236185d9f4d25c6e00.json"
+    }
+  ]
+}

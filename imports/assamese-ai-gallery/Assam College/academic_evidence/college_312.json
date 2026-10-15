@@ -1,0 +1,46 @@
+{
+  "id": "312",
+  "college": "Nonoi College",
+  "pages": [
+    {
+      "url": "https://www.nonoicollege.in/departments.php",
+      "status": "ok",
+      "cache": "596d7080abbcbb5713dc.json"
+    },
+    {
+      "url": "https://www.nonoicollege.in/Prospectus2025-26.pdf",
+      "status": "ok",
+      "cache": "d1c62c7c7c6b9704b26f.json"
+    },
+    {
+      "url": "https://www.nonoicollege.in/course.php",
+      "status": "ok",
+      "cache": "a1114b290a66060b3eee.json"
+    },
+    {
+      "url": "https://www.nonoicollege.in/uc.php",
+      "status": "ok",
+      "cache": "e37d42055d39a92d1832.json"
+    },
+    {
+      "url": "https://www.nonoicollege.in/department-profile.php?did=1",
+      "status": "ok",
+      "cache": "f1639bcb62fc3705ce16.json"
+    },
+    {
+      "url": "https://www.nonoicollege.in/department-profile.php?did=3",
+      "status": "ok",
+      "cache": "15ff31dfbf453fa20a85.json"
+    },
+    {
+      "url": "https://www.nonoicollege.in/department-profile.php?did=4",
+      "status": "ok",
+      "cache": "95a39f2fd8c6cc503395.json"
+    },
+    {
+      "url": "https://www.nonoicollege.in/department-profile.php?did=2",
+      "status": "ok",
+      "cache": "155cb2e4cb988463314d.json"
+    }
+  ]
+}

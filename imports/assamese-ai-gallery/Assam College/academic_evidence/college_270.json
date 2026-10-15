@@ -1,0 +1,31 @@
+{
+  "id": "270",
+  "college": "Kherajkhat College",
+  "pages": [
+    {
+      "url": "https://kherajkhatcollege.co.in/",
+      "status": "ok",
+      "cache": "2a380855d2165b272c4a.json"
+    },
+    {
+      "url": "https://kherajkhatcollege.co.in/uploads/gallery/media/KKC%20Prospectus%202025%20%281%29.pdf",
+      "status": "error",
+      "cache": "3550a1e0a9566eb3770f.json"
+    },
+    {
+      "url": "https://kherajkhatcollege.co.in/page/prospectus",
+      "status": "ok",
+      "cache": "2461e4abc7ea43aafaac.json"
+    },
+    {
+      "url": "https://kherajkhatcollege.co.in/page/department",
+      "status": "ok",
+      "cache": "044a42f1a6e850d1ce0d.json"
+    },
+    {
+      "url": "https://kherajkhatcollege.co.in/page/academic-calender",
+      "status": "ok",
+      "cache": "3627271c839e9f8670c1.json"
+    }
+  ]
+}

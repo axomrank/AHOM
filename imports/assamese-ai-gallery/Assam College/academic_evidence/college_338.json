@@ -1,0 +1,26 @@
+{
+  "id": "338",
+  "college": "Nazira College",
+  "pages": [
+    {
+      "url": "https://naziracollege.in/",
+      "status": "ok",
+      "cache": "d19c11749f7bb1ed8435.json"
+    },
+    {
+      "url": "https://naziracollege.in/faq/",
+      "status": "ok",
+      "cache": "2581980fa28b7a57b47c.json"
+    },
+    {
+      "url": "https://naziracollege.in/admission-notice-academic-session-2018-19/",
+      "status": "ok",
+      "cache": "6fa428499385b78eda9d.json"
+    },
+    {
+      "url": "https://naziracollege.in/551-2/",
+      "status": "ok",
+      "cache": "c76495ad5fcb5f67588e.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "127",
+  "college": "P.B. College (Pramathesh Barua College)",
+  "pages": [
+    {
+      "url": "https://pbcollege.ac.in/",
+      "status": "ok",
+      "cache": "da1a963ba6617f230ba8.json"
+    },
+    {
+      "url": "https://pbcollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "68788e8de80b43f53321.json"
+    },
+    {
+      "url": "https://pbcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "d806510d44c89cf54f13.json"
+    },
+    {
+      "url": "https://pbcollege.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "f413ca68f5f008837724.json"
+    },
+    {
+      "url": "https://pbcollege.ac.in/Academic-Departments.php?a=f3c2f79f4b28bd467a3254b6ef1e478c7ceb42074155ba546126b1b4435f9a7e919156ac2e5a7d592e304e58572369e1d02c4d5585573c97712be2b56d5f5028",
+      "status": "ok",
+      "cache": "cc9329afc507ec633f5c.json"
+    },
+    {
+      "url": "https://pbcollege.ac.in/Academic-Departments.php?a=47bf7e7447b85d9798993989dfec450d3ff3599858dbfd73e2b9da4a2cd73b9a18f26088503ef6b9fb92a4e69d2add503a6588c2a8a8189a814f584714defc4f",
+      "status": "ok",
+      "cache": "4dcfad5b76d9235775c5.json"
+    },
+    {
+      "url": "https://pbcollege.ac.in/Academic-Departments.php?a=e415e92a073be369302e2a8c232f3c01dd5ee90c3ef1fdb5b35144b02444a81f8dca2f0bbc2612725c4a9adeeaf91d946850d34a8ab289015ff09066078fc12c",
+      "status": "ok",
+      "cache": "bb6510460e54d14d486e.json"
+    },
+    {
+      "url": "https://pbcollege.ac.in/Academic-Departments.php?a=b00dac5eb604fc70c477f5a6604b4da212b0f213920f955c9dc9272869d6d18709bad1b84951ea8f5ca17498a2caf71fd3a0dbb85145d932124e86cd43ecd9e6",
+      "status": "ok",
+      "cache": "0ca8dde42f96ac3fd710.json"
+    }
+  ]
+}

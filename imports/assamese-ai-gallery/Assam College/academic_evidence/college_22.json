@@ -1,0 +1,16 @@
+{
+  "id": "22",
+  "college": "Pandit Deendayal Upadhyaya Adarsha Mahavidyalaya (PDUAM), Eraligool",
+  "pages": [
+    {
+      "url": "https://www.pduameraligool.ac.in/",
+      "status": "ok",
+      "cache": "4e11c17916bb475e3037.json"
+    },
+    {
+      "url": "https://webbackend.pduameraligool.ac.in/src/uploads/COLLEGE_DOWNLOADS/Prospectus_2024_25_PW82qnSL3R.pdf",
+      "status": "ok",
+      "cache": "9d72ae5829031008965e.json"
+    }
+  ]
+}

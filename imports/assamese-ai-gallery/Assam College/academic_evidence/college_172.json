@@ -1,0 +1,46 @@
+{
+  "id": "172",
+  "college": "Melamora College",
+  "pages": [
+    {
+      "url": "https://melamoracollege.com/",
+      "status": "ok",
+      "cache": "9683cc13f17e1bfd302a.json"
+    },
+    {
+      "url": "https://melamoracollege.com/wp-content/uploads/2022/12/PROSPECTUS-MMC.pdf",
+      "status": "ok",
+      "cache": "8462ce5d1c8a7a8f8695.json"
+    },
+    {
+      "url": "https://melamoracollege.com/orientation-programme-1st-3rd-5th-semester-academic-session-2026-27/",
+      "status": "ok",
+      "cache": "825af7e8b08a306cf187.json"
+    },
+    {
+      "url": "https://melamoracollege.com/prospectus/",
+      "status": "ok",
+      "cache": "75a540d7cfa215c2aa64.json"
+    },
+    {
+      "url": "https://melamoracollege.com/academic-calender/",
+      "status": "ok",
+      "cache": "8b0f4e9c3a0c73a13a73.json"
+    },
+    {
+      "url": "https://melamoracollege.com/departments/",
+      "status": "ok",
+      "cache": "b87c192f98ae2156576e.json"
+    },
+    {
+      "url": "https://melamoracollege.com/department-of-political-science-2/",
+      "status": "ok",
+      "cache": "2086c41e346e03892aaa.json"
+    },
+    {
+      "url": "https://melamoracollege.com/economics/",
+      "status": "ok",
+      "cache": "47730e5982e07c5f5a3c.json"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Patterns observed across the Assam college directory
+
+The 363 directory records contain mixed website layouts. A link inventory over the cached pages found 193 colleges linking a prospectus PDF, 91 linking a central faculty/staff page, six using `/data/department/`, eight using `department.php` style queries, and six with subject-specific `*-department/` pages. These categories overlap; 141 records had no useful link under these simple patterns. The counts classify available cached links, not college academic coverage.
+
+- **Nested WordPress menu:** [PDUAM Behali](https://www.deendayalcollegebehali.in/) has `Departments → Science` (Botany, Chemistry, Mathematics, Physics, Statistics, Zoology) and `Departments → Arts` (Assamese, Economics, Education, English, History, Political Science, Sociology). Its 2026–27 admission links show B.A. and B.Sc. A homepage text extraction or eight-page link cap misses part of this tree. Its Physics department links to a separate domain; verify the cross-domain association before using it.
+- **Department pages with profile tables:** [Namrup College](https://namrupcollege.edu.in/data/department/botany/) and [Tinsukia College](https://tinsukiacollege.in/data/department/assamese/) list teaching names under a department heading with profile links. Skip “Vacant” entries. College-wide contact details in the footer are not faculty contacts.
+- **Central teaching roster:** [Furkating College](http://www.furkatingcollege.edu.in/teaching-staff/) groups teachers by department; profile links may provide person-level contact details. Do not infer a phone/email merely because it appears elsewhere on the same page.
+- **PHP department links:** Some sites use a query parameter (`department.php?...`) rather than clean subject URLs. Preserve the full parameterized URL and check the page heading.
+- **Prospectus PDFs:** A current prospectus can confirm levels and subjects where site menus are stale. Separate “planned”, distance-learning centre and PG diploma entries from active regular degree awards.
+- **Portal and notice-only rows:** Some new model colleges have DHE notices or Samarth listings but no working college website. A DHE 2025–26 notice and a 2026–27 portal row describe different sessions; absence from one is not a contradiction by itself.
+
+When a live request fails, retain cached content with its retrieval date and mark freshness limits. Do not infer that a page has disappeared from a network or parser error.

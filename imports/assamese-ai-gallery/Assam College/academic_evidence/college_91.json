@@ -1,0 +1,46 @@
+{
+  "id": "91",
+  "college": "Basugaon College",
+  "pages": [
+    {
+      "url": "https://basugaoncollege.ac.in/",
+      "status": "ok",
+      "cache": "ec80e6f5d54209dfb288.json"
+    },
+    {
+      "url": "https://basugaoncollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "8d0965dd5026ef42fea5.json"
+    },
+    {
+      "url": "https://basugaoncollege.ac.in/upload/prospectus/1777650937.pdf",
+      "status": "ok",
+      "cache": "ac0fb0057e11af49bbe2.json"
+    },
+    {
+      "url": "https://basugaoncollege.ac.in/iqac_academiccal.php",
+      "status": "ok",
+      "cache": "ac82dc6cd47638d2c2a2.json"
+    },
+    {
+      "url": "https://basugaoncollege.ac.in/courses.php",
+      "status": "ok",
+      "cache": "39f24761d0a366aad4da.json"
+    },
+    {
+      "url": "https://basugaoncollege.ac.in/Academic-Departmentsnew.php?department=6cc35481e8b339155bd4281f01cc5ffafe8ceb940fd531bd84524e03299965807dd5fcf83a6d72678794f99754879d1a1e9466ed65fd37b9bd596ab9910adc2f",
+      "status": "ok",
+      "cache": "99e83756457cea48d7a4.json"
+    },
+    {
+      "url": "https://basugaoncollege.ac.in/Academic-Departmentsnew.php?department=c11669f1f34bb71930ed9aaccf3527ddb9eefd822c3b361fef5a708d564a04f78422f0e7bb6961fd4484d5e33dd552c496f293b71361f29ceda8cca6f3171450",
+      "status": "ok",
+      "cache": "a1eb57beef9e3410b358.json"
+    },
+    {
+      "url": "https://basugaoncollege.ac.in/Academic-Departmentsnew.php?department=46de63c1c2f60e47b16f99a4ed334e14d17a3e387cd811d8f910a95db1ceb900a9794b9f98192dec116412f0a57a7d3c",
+      "status": "ok",
+      "cache": "13f2209d56d7d6216143.json"
+    }
+  ]
+}

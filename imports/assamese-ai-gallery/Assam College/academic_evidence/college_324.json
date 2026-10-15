@@ -1,0 +1,31 @@
+{
+  "id": "324",
+  "college": "Nalbari College",
+  "pages": [
+    {
+      "url": "https://nalbaricollege.ac.in/",
+      "status": "ok",
+      "cache": "7fb7d6351fc752d271ad.json"
+    },
+    {
+      "url": "https://nalbaricollege.ac.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "4929389d692f49c467fb.json"
+    },
+    {
+      "url": "https://nalbaricollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "6aef81dca5d4c56f3d93.json"
+    },
+    {
+      "url": "https://nalbaricollege.ac.in/PG.pdf",
+      "status": "ok",
+      "cache": "0553e83547268208aae6.json"
+    },
+    {
+      "url": "https://nalbaricollege.ac.in/a_cal.php",
+      "status": "ok",
+      "cache": "0f3f9f30edbe30de3f59.json"
+    }
+  ]
+}

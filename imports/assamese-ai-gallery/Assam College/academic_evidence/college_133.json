@@ -1,0 +1,46 @@
+{
+  "id": "133",
+  "college": "D.H.S.K. Commerce College",
+  "pages": [
+    {
+      "url": "https://dhskcommercecollege.edu.in/",
+      "status": "ok",
+      "cache": "186fba86bf4142668418.json"
+    },
+    {
+      "url": "https://dhskcommercecollege.edu.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "0086220747206a98f5c3.json"
+    },
+    {
+      "url": "https://dhskcommercecollege.edu.in/CoursesOffer.php",
+      "status": "ok",
+      "cache": "5b076799f112e0040573.json"
+    },
+    {
+      "url": "https://dhskcommercecollege.edu.in/prospectus.php",
+      "status": "error",
+      "cache": "6d94095941754d468c4b.json"
+    },
+    {
+      "url": "https://dhskcommercecollege.edu.in/ac.php",
+      "status": "error",
+      "cache": "b88f9f23b312bb8d873b.json"
+    },
+    {
+      "url": "https://dhskcommercecollege.edu.in/Academics.php",
+      "status": "ok",
+      "cache": "3f0193dafba47b32cfde.json"
+    },
+    {
+      "url": "https://dhskcommercecollege.edu.in/AcademicSupport.php",
+      "status": "ok",
+      "cache": "4aa4f5d70648ef4695e3.json"
+    },
+    {
+      "url": "https://dhskcommercecollege.edu.in/academic_contents.php?encRequest=d22f243d25cee12f27783957a183a684e3824e135e4ed1f2de5ca478de89168543a40f0a57e9380ad3150f3de490def2",
+      "status": "ok",
+      "cache": "c2d69de611c2a4724c3f.json"
+    }
+  ]
+}

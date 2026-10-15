@@ -1,0 +1,46 @@
+{
+  "id": "66",
+  "college": "Birjhora Mahavidyalaya",
+  "pages": [
+    {
+      "url": "https://birjhoramahavidyalaya.edu.in/",
+      "status": "ok",
+      "cache": "e4f86dd66b9b5c22a2a2.json"
+    },
+    {
+      "url": "https://www.birjhoramahavidyalaya.in/",
+      "status": "ok",
+      "cache": "3ff4d89917faf0233486.json"
+    },
+    {
+      "url": "https://birjhoramahavidyalaya.edu.in/Admission/CoursesOffered",
+      "status": "ok",
+      "cache": "539792ce95338719fe5b.json"
+    },
+    {
+      "url": "https://birjhoramahavidyalaya.edu.in/Admission/DisplayProspectus",
+      "status": "ok",
+      "cache": "26709b8013466739b437.json"
+    },
+    {
+      "url": "https://birjhoramahavidyalaya.edu.in/Academics/AcademicCallendar",
+      "status": "ok",
+      "cache": "e0b77dedc9216c0c3883.json"
+    },
+    {
+      "url": "https://birjhoramahavidyalaya.edu.in/Academics/Department",
+      "status": "ok",
+      "cache": "d77b7bf17c12d6d2d512.json"
+    },
+    {
+      "url": "https://birjhoramahavidyalaya.edu.in/Academics/Faculties",
+      "status": "ok",
+      "cache": "78361749d65daf7de56e.json"
+    },
+    {
+      "url": "https://birjhoramahavidyalaya.edu.in/Academics/CourseOutcomes/OutCome",
+      "status": "ok",
+      "cache": "cc1045959010f25665b7.json"
+    }
+  ]
+}

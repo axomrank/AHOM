@@ -1,0 +1,31 @@
+{
+  "id": "105",
+  "college": "Jiadhal College",
+  "pages": [
+    {
+      "url": "https://jiadhalcollege.co.in/",
+      "status": "ok",
+      "cache": "2b0c84ae227faea67ad2.json"
+    },
+    {
+      "url": "https://jiadhalcollege.co.in/uploads/gallery/media/1746794366-1685807467681df77e22b2c%21PROSPECTUS%202025-26.pdf?1746794448=",
+      "status": "error",
+      "cache": "1c68e4d02cf2b2a14e4b.json"
+    },
+    {
+      "url": "https://jiadhalcollege.co.in/page/prospectus",
+      "status": "ok",
+      "cache": "fd7a9775b44fa5748068.json"
+    },
+    {
+      "url": "https://jiadhalcollege.co.in/page/academic-calendar",
+      "status": "ok",
+      "cache": "80d756d6573132d7b016.json"
+    },
+    {
+      "url": "https://jiadhalcollege.co.in/page/academic-and-students-services",
+      "status": "ok",
+      "cache": "e8900a4811f162e87cc0.json"
+    }
+  ]
+}

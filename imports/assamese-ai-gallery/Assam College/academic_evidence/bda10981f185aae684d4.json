@@ -1,0 +1,1 @@
+{"url": "https://www.mkcollege.ac.in/clgdepartments.php", "retrieved": "2026-10-02", "status": "error", "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mkcollege.ac.in', port=443): Max retries exceeded with url: /clgdepartments.php (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mkcollege.ac.in', port=443) at 0"}

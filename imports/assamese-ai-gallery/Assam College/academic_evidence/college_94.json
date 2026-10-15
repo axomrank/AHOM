@@ -1,0 +1,16 @@
+{
+  "id": "94",
+  "college": "Borobazar College",
+  "pages": [
+    {
+      "url": "https://borobazarcollege.in/",
+      "status": "error",
+      "cache": "d2596efde57bd23a0c65.json"
+    },
+    {
+      "url": "https://www.borobazarcollege.ac.in/departments/",
+      "status": "error",
+      "cache": "b44d7f878252cf670533.json"
+    }
+  ]
+}

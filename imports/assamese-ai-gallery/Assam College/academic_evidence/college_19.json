@@ -1,0 +1,26 @@
+{
+  "id": "19",
+  "college": "Assam Government Sanskrit College",
+  "pages": [
+    {
+      "url": "https://kkhgsc.org/",
+      "status": "ok",
+      "cache": "f594abc41bf3b13254ab.json"
+    },
+    {
+      "url": "https://kkhgsc.org/assets/kkhgsc_docs/5.%20Prospectus%202024-25.pdf",
+      "status": "ok",
+      "cache": "2d37d20758e55c4412fa.json"
+    },
+    {
+      "url": "https://kkhgsc.org/Prospectus_2026_27.pdf",
+      "status": "ok",
+      "cache": "ed875e92264877df4150.json"
+    },
+    {
+      "url": "https://kkhgsc.org/assets/kkhgsc_docs/5. Prospectus 2024-25.pdf",
+      "status": "ok",
+      "cache": "ed063300b1d1bbaf0f12.json"
+    }
+  ]
+}

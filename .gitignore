@@ -11,3 +11,5 @@ backups/
 output/
 .playwright-cli/
 __pycache__/
+
+_site/

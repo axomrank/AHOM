@@ -1,0 +1,26 @@
+{
+  "id": "110",
+  "college": "Murkongselek College",
+  "pages": [
+    {
+      "url": "https://www.murkongselekcollege.org.in/",
+      "status": "ok",
+      "cache": "36cf45161a8ddd9be25f.json"
+    },
+    {
+      "url": "https://www.murkongselekcollege.org.in/course",
+      "status": "ok",
+      "cache": "4268946502d3942df088.json"
+    },
+    {
+      "url": "https://www.murkongselekcollege.org.in/ac",
+      "status": "ok",
+      "cache": "16ddd04e0829b77b2f38.json"
+    },
+    {
+      "url": "https://www.murkongselekcollege.org.in/dept",
+      "status": "ok",
+      "cache": "cbf76075eba73886453a.json"
+    }
+  ]
+}

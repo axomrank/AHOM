@@ -1,0 +1,46 @@
+{
+  "id": "184",
+  "college": "Lumding College",
+  "pages": [
+    {
+      "url": "https://www.lumdingcollege.org/",
+      "status": "ok",
+      "cache": "0e6fd65ddb7304a6fa5b.json"
+    },
+    {
+      "url": "https://www.lumdingcollege.org/teachingstaff.php",
+      "status": "ok",
+      "cache": "16a431ee1fd3298863c3.json"
+    },
+    {
+      "url": "https://www.lumdingcollege.org/admin/",
+      "status": "error",
+      "cache": "e042bb6877cb34cba36d.json"
+    },
+    {
+      "url": "https://www.lumdingcollege.org/academic-calender.php",
+      "status": "ok",
+      "cache": "7f6fc7f0a0e0ffa126bc.json"
+    },
+    {
+      "url": "https://www.lumdingcollege.org/iqac/Academic-Administrative-report.pdf",
+      "status": "ok",
+      "cache": "f9d8b60ebd3ce12f858f.json"
+    },
+    {
+      "url": "https://www.lumdingcollege.org/iqac/ppmupasf.pdf",
+      "status": "ok",
+      "cache": "c56299c877c25d6eaf33.json"
+    },
+    {
+      "url": "https://www.lumdingcollege.org/iqac/iumppasf.pdf",
+      "status": "ok",
+      "cache": "8f99ae3951b33343d674.json"
+    },
+    {
+      "url": "https://www.lumdingcollege.org/iqac-master.php?tid=18",
+      "status": "ok",
+      "cache": "39a60c3f95d2856af647.json"
+    }
+  ]
+}

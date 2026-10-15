@@ -1,0 +1,46 @@
+{
+  "id": "126",
+  "college": "Hatidhura College",
+  "pages": [
+    {
+      "url": "https://www.hatidhuracollege.co.in/",
+      "status": "ok",
+      "cache": "49b27fd06a5af65609e1.json"
+    },
+    {
+      "url": "https://www.hatidhuracollege.co.in/Departments",
+      "status": "ok",
+      "cache": "dee7aed7db0b74e5d6f6.json"
+    },
+    {
+      "url": "https://www.hatidhuracollege.co.in/files/Prospectus2026.pdf",
+      "status": "ok",
+      "cache": "b5336b9a63e87367640a.json"
+    },
+    {
+      "url": "https://www.hatidhuracollege.co.in/files/152HatidhuraColleg_GU-FoABA_1780996103.pdf",
+      "status": "ok",
+      "cache": "fbbe162ac9607028be1a.json"
+    },
+    {
+      "url": "https://www.hatidhuracollege.co.in/files/First%20Merit%20List%202026.pdf",
+      "status": "ok",
+      "cache": "1c6452a65e6e7ea70536.json"
+    },
+    {
+      "url": "https://www.hatidhuracollege.co.in/files/B.A%201st%20Sem%20Regular%20Course%20First%20Merit%20List%202026.pdf",
+      "status": "ok",
+      "cache": "55dcf92877bedd149bcb.json"
+    },
+    {
+      "url": "https://www.hatidhuracollege.co.in/files/B.A%201st%20Sem%20Philosophy%20Honours%20First%20Merit%20List%202026.pdf",
+      "status": "ok",
+      "cache": "db77d5bffe77b0b15cc9.json"
+    },
+    {
+      "url": "https://www.hatidhuracollege.co.in/files/B.A%201st%20Sem%20English%20Honours%20First%20Merit%20List%202026.pdf",
+      "status": "ok",
+      "cache": "aa482dac6eedb9c72653.json"
+    }
+  ]
+}

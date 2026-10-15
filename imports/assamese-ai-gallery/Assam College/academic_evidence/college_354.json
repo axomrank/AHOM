@@ -1,0 +1,36 @@
+{
+  "id": "354",
+  "college": "Doomdooma College",
+  "pages": [
+    {
+      "url": "https://www.doomdoomacollege.in/",
+      "status": "error",
+      "cache": "e882b7354152b218d0fe.json"
+    },
+    {
+      "url": "https://www.doomdoomacollege.in/page/arts",
+      "status": "error",
+      "cache": "c48de4f92f9e1e740622.json"
+    },
+    {
+      "url": "https://www.doomdoomacollege.in/page/science",
+      "status": "ok",
+      "cache": "1ac2ff7ddef23fce031d.json"
+    },
+    {
+      "url": "https://doomdoomacollege.in/api/staff/fetch_staff",
+      "status": "ok",
+      "cache": "ddd0656260c9b9d8ef24.json"
+    },
+    {
+      "url": "https://www.doomdoomacollege.in/page/college-prospectus",
+      "status": "ok",
+      "cache": "6e6438cc81d095667733.json"
+    },
+    {
+      "url": "https://www.doomdoomacollege.in/page/academic-calendar",
+      "status": "ok",
+      "cache": "aa02d8bd2db06af30615.json"
+    }
+  ]
+}

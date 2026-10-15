@@ -1,0 +1,26 @@
+{
+  "id": "288",
+  "college": "Rangachahi College",
+  "pages": [
+    {
+      "url": "https://rangachahicollege.in/",
+      "status": "ok",
+      "cache": "bfa8338fbc98211cb15c.json"
+    },
+    {
+      "url": "https://rangachahicollege.in/prosp.php",
+      "status": "ok",
+      "cache": "34e6e21b11a9431bc4a1.json"
+    },
+    {
+      "url": "https://rangachahicollege.in/courses.html",
+      "status": "ok",
+      "cache": "e80d77401ca626136260.json"
+    },
+    {
+      "url": "https://rangachahicollege.in/time.php",
+      "status": "ok",
+      "cache": "ff46a253bbfbdd638bf1.json"
+    }
+  ]
+}

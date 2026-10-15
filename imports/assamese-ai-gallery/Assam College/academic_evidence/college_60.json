@@ -1,0 +1,46 @@
+{
+  "id": "60",
+  "college": "Biswanath College",
+  "pages": [
+    {
+      "url": "https://biswanathcollege.in/",
+      "status": "ok",
+      "cache": "f348cbed9377d48424c8.json"
+    },
+    {
+      "url": "https://biswanathcollege.in/department/",
+      "status": "ok",
+      "cache": "8bcdc9afe9ada0f79918.json"
+    },
+    {
+      "url": "https://biswanathcollege.in/examination-form-fillup-notice/",
+      "status": "ok",
+      "cache": "e7a5d4043f00fcdcb129.json"
+    },
+    {
+      "url": "https://biswanathcollege.in/prospectus/",
+      "status": "ok",
+      "cache": "9998264cce3b818310a9.json"
+    },
+    {
+      "url": "https://biswanathcollege.in/academic/",
+      "status": "ok",
+      "cache": "fe0855794ac2716bf8ce.json"
+    },
+    {
+      "url": "https://biswanathcollege.in/academic-calendar/",
+      "status": "ok",
+      "cache": "0949e4891eeb01fb439f.json"
+    },
+    {
+      "url": "https://biswanathcollege.in/department/#content",
+      "status": "ok",
+      "cache": "4ce0addba87196c94bf0.json"
+    },
+    {
+      "url": "https://biswanathcollege.in/department/#page",
+      "status": "ok",
+      "cache": "18dddc5e20d6e41d44a5.json"
+    }
+  ]
+}

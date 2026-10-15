@@ -1,0 +1,1 @@
+{"url": "https://gcc.ac.in/index_academics_all.php?page=ekJQQUl6N1Z5S1VPQy83NHcrbHUxZz09&name=Departments", "retrieved": "2026-10-02", "status": "error", "error": "ConnectTimeout: HTTPSConnectionPool(host='gcc.ac.in', port=443): Max retries exceeded with url: /index_academics_all.php?page=ekJQQUl6N1Z5S1VPQy83NHcrbHUxZz09&name=Departments (Caused by ConnectTimeoutError(<HTTPSCon"}

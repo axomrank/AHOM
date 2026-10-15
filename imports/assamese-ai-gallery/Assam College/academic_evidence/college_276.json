@@ -1,0 +1,31 @@
+{
+  "id": "276",
+  "college": "North Bank College",
+  "pages": [
+    {
+      "url": "https://northbankcollege.ac.in/",
+      "status": "ok",
+      "cache": "36d61d5cfabe0b75453d.json"
+    },
+    {
+      "url": "https://northbankcollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "e361a4e84c7712100fff.json"
+    },
+    {
+      "url": "https://northbankcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "752e96603e51698f6dc4.json"
+    },
+    {
+      "url": "https://northbankcollege.ac.in/academic_cal.php",
+      "status": "ok",
+      "cache": "7539736b31127b776859.json"
+    },
+    {
+      "url": "https://northbankcollege.ac.in/academic-audit.php",
+      "status": "ok",
+      "cache": "3fd3a237f2239603a30b.json"
+    }
+  ]
+}

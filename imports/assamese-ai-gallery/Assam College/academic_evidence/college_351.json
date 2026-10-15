@@ -1,0 +1,46 @@
+{
+  "id": "351",
+  "college": "South Salmara College",
+  "pages": [
+    {
+      "url": "https://www.ssalmaracollege.com/",
+      "status": "ok",
+      "cache": "d7c436626b164bcdb32a.json"
+    },
+    {
+      "url": "https://www.ssalmaracollege.com/arts.php",
+      "status": "ok",
+      "cache": "51025eac0313caac6e48.json"
+    },
+    {
+      "url": "https://www.ssalmaracollege.com/admin/",
+      "status": "ok",
+      "cache": "3e4e1e05eb3d01432317.json"
+    },
+    {
+      "url": "https://www.ssalmaracollege.com/academic-calender.php",
+      "status": "ok",
+      "cache": "7b97ac2cea22c1c7d83e.json"
+    },
+    {
+      "url": "https://www.ssalmaracollege.com/department-profile.php?did=7",
+      "status": "ok",
+      "cache": "b6280e48fa2ef6af2eea.json"
+    },
+    {
+      "url": "https://www.ssalmaracollege.com/department-profile.php?did=6",
+      "status": "ok",
+      "cache": "dd1e8a76e45af8bd9a4c.json"
+    },
+    {
+      "url": "https://www.ssalmaracollege.com/department-profile.php?did=4",
+      "status": "ok",
+      "cache": "fd3b25493d33c4e174c2.json"
+    },
+    {
+      "url": "https://www.ssalmaracollege.com/department-profile.php?did=2",
+      "status": "ok",
+      "cache": "0151570af6fbd0b61fc3.json"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "302",
+  "college": "Dr. B.K.B. College",
+  "pages": [
+    {
+      "url": "https://bkbcollege.in/",
+      "status": "ok",
+      "cache": "4254932aea3b9a618feb.json"
+    },
+    {
+      "url": "https://bkbcollege.in/departments.php",
+      "status": "ok",
+      "cache": "ecf39b507f19c6e85cce.json"
+    },
+    {
+      "url": "https://bkbcollege.in/prospectus.php",
+      "status": "ok",
+      "cache": "704680e5ebd8565cf3aa.json"
+    },
+    {
+      "url": "https://bkbcollege.in/academic.php",
+      "status": "ok",
+      "cache": "e70f7fd10ecd9f00f227.json"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "243",
+  "college": "Saraighat College",
+  "pages": [
+    {
+      "url": "https://saraighatcollege.ac.in/",
+      "status": "ok",
+      "cache": "21b60b45ee7c725ac455.json"
+    },
+    {
+      "url": "https://saraighatcollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "7830463c520fc5196ac6.json"
+    },
+    {
+      "url": "https://saraighatcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "ba0e1da9884a64527721.json"
+    },
+    {
+      "url": "https://saraighatcollege.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "a90aa9fe20d27fa4859b.json"
+    },
+    {
+      "url": "https://saraighatcollege.ac.in/academiccalender.php ",
+      "status": "error",
+      "cache": "09e0cc04329bb3f35040.json"
+    }
+  ]
+}

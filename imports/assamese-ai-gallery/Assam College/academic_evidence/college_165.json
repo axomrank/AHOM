@@ -1,0 +1,46 @@
+{
+  "id": "165",
+  "college": "Hem Prova Borbora Girls' College (H.P.B. Girls' College)",
+  "pages": [
+    {
+      "url": "https://hpbgirlscollege.edu.in/",
+      "status": "ok",
+      "cache": "3466e56af7ee674ba3a5.json"
+    },
+    {
+      "url": "https://hpbgirlscollege.edu.in/departments/",
+      "status": "ok",
+      "cache": "680b27900373a4d861fd.json"
+    },
+    {
+      "url": "https://hpbgirlscollege.edu.in/prospectus/",
+      "status": "ok",
+      "cache": "7ace4f100ed8e25f0e85.json"
+    },
+    {
+      "url": "https://hpbgirlscollege.edu.in/academic-leadership/",
+      "status": "ok",
+      "cache": "6f56c10c0ac57d24cd39.json"
+    },
+    {
+      "url": "https://hpbgirlscollege.edu.in/programme-offered/",
+      "status": "ok",
+      "cache": "d50e503a9cb97fec4d89.json"
+    },
+    {
+      "url": "https://hpbgirlscollege.edu.in/academic-calendar/",
+      "status": "ok",
+      "cache": "6c9ccceeca7cb1caf00e.json"
+    },
+    {
+      "url": "https://hpbgirlscollege.edu.in/academic-collaborations/",
+      "status": "ok",
+      "cache": "b8f309164238cad17cdf.json"
+    },
+    {
+      "url": "https://hpbgirlscollege.edu.in/academic-council/",
+      "status": "ok",
+      "cache": "69628df5176750266ad7.json"
+    }
+  ]
+}

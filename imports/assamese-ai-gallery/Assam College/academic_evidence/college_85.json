@@ -1,0 +1,46 @@
+{
+  "id": "85",
+  "college": "Women's College, Silchar",
+  "pages": [
+    {
+      "url": "https://wcsilchar.ac.in/welcome",
+      "status": "ok",
+      "cache": "f3422c33fb1336bc32d6.json"
+    },
+    {
+      "url": "https://wcsilchar.ac.in/pages/2082",
+      "status": "ok",
+      "cache": "5b66e4c1defcb240c64a.json"
+    },
+    {
+      "url": "https://wcsilchar.ac.in/pages/1551",
+      "status": "ok",
+      "cache": "01d418b465c856b35e97.json"
+    },
+    {
+      "url": "https://wcsilchar.ac.in/departments/126",
+      "status": "ok",
+      "cache": "065e71bd71ef0663ad55.json"
+    },
+    {
+      "url": "https://wcsilchar.ac.in/departments/127",
+      "status": "ok",
+      "cache": "b1d57b6549372646197a.json"
+    },
+    {
+      "url": "https://wcsilchar.ac.in/departments/128",
+      "status": "ok",
+      "cache": "611ab87d68c377a74db6.json"
+    },
+    {
+      "url": "https://wcsilchar.ac.in/departments/129",
+      "status": "ok",
+      "cache": "8531aae30682c89d8121.json"
+    },
+    {
+      "url": "https://wcsilchar.ac.in/departments/130",
+      "status": "ok",
+      "cache": "1d132a3153fd6be0f356.json"
+    }
+  ]
+}

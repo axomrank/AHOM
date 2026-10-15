@@ -1,0 +1,36 @@
+{
+  "id": "318",
+  "college": "Udali College",
+  "pages": [
+    {
+      "url": "https://udalicollege.co.in/",
+      "status": "ok",
+      "cache": "caeb964e64ac3be042b8.json"
+    },
+    {
+      "url": "https://udalicollege.co.in/teaching-staff.php",
+      "status": "ok",
+      "cache": "38a52040d9e85c06b453.json"
+    },
+    {
+      "url": "https://udalicollege.co.in/view_news.php?id=103",
+      "status": "ok",
+      "cache": "9d5dbf2977ae783bed18.json"
+    },
+    {
+      "url": "https://udalicollege.co.in/course.php",
+      "status": "ok",
+      "cache": "13b43065f8dc429e130a.json"
+    },
+    {
+      "url": "https://udalicollege.co.in/departments.php",
+      "status": "ok",
+      "cache": "0ee802e68377f8c5d507.json"
+    },
+    {
+      "url": "https://udalicollege.co.in/academic-calender.php",
+      "status": "ok",
+      "cache": "0f4f1f940982481f1030.json"
+    }
+  ]
+}

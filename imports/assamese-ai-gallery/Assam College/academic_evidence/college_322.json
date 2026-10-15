@@ -1,0 +1,26 @@
+{
+  "id": "322",
+  "college": "Kamrup College",
+  "pages": [
+    {
+      "url": "https://www.kamrupcollege.co.in/",
+      "status": "ok",
+      "cache": "afd2942edde06ba48ece.json"
+    },
+    {
+      "url": "https://www.kamrupcollege.co.in/upload/prospectus/Prospectus%202026-27.pdf",
+      "status": "ok",
+      "cache": "3764c4ff78a660208cc5.json"
+    },
+    {
+      "url": "https://www.kamrupcollege.co.in/upload/prospectus/Prospectus 2026-27.pdf",
+      "status": "ok",
+      "cache": "f72dec17037d1b2377c1.json"
+    },
+    {
+      "url": "https://www.kamrupcollege.co.in/acalender.php",
+      "status": "ok",
+      "cache": "f61690f0e5636e5b9825.json"
+    }
+  ]
+}

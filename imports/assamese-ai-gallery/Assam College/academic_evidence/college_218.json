@@ -1,0 +1,16 @@
+{
+  "id": "218",
+  "college": "Pragjyotish College",
+  "pages": [
+    {
+      "url": "https://pragjyotishcollege.ac.in/",
+      "status": "ok",
+      "cache": "7f2fc2fe1d29289365a7.json"
+    },
+    {
+      "url": "https://webbackend.pragjyotishcollege.ac.in/src/uploads/COLLEGE_DOWNLOADS_GALLERY/PROSPECTUS%20FINAL%2010052024_TopgeuxdgP.pdf",
+      "status": "ok",
+      "cache": "486d2f447e9a24fd7893.json"
+    }
+  ]
+}

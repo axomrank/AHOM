@@ -1,0 +1,26 @@
+{
+  "id": "269",
+  "college": "Harhi College",
+  "pages": [
+    {
+      "url": "https://harhicollege.org/",
+      "status": "ok",
+      "cache": "74b30fb3866e71234866.json"
+    },
+    {
+      "url": "https://harhicollege.org/rti.php",
+      "status": "ok",
+      "cache": "1d677b5f5402a22c8bcb.json"
+    },
+    {
+      "url": "https://harhicollege.org/academiccalender.php",
+      "status": "ok",
+      "cache": "826e66caaecbda868bb5.json"
+    },
+    {
+      "url": "https://harhicollege.org/department.php",
+      "status": "ok",
+      "cache": "4fd0dee0efa6d7af0989.json"
+    }
+  ]
+}

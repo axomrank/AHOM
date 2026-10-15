@@ -1,0 +1,46 @@
+{
+  "id": "303",
+  "college": "Hatichong College",
+  "pages": [
+    {
+      "url": "https://hatichongcollege.org.in/",
+      "status": "ok",
+      "cache": "00017a941efa3ff97701.json"
+    },
+    {
+      "url": "https://hatichongcollege.org.in/wp-content/uploads/2023/07/HC_Prospectus_New_2023-24.pdf",
+      "status": "ok",
+      "cache": "bd68576de9d17011ecff.json"
+    },
+    {
+      "url": "https://hatichongcollege.org.in/wp-content/uploads/2024/05/PROSPECTUS-2024.pdf",
+      "status": "ok",
+      "cache": "e9b3a9e78880550f2da5.json"
+    },
+    {
+      "url": "https://hatichongcollege.org.in/college-academic-committee/",
+      "status": "ok",
+      "cache": "a19a3d22b9993820531a.json"
+    },
+    {
+      "url": "https://hatichongcollege.org.in/assamese-department-profile/",
+      "status": "ok",
+      "cache": "a5eb5d9274a78014bd9a.json"
+    },
+    {
+      "url": "https://hatichongcollege.org.in/assamese-academic-calendar/",
+      "status": "ok",
+      "cache": "834eb411dba033687122.json"
+    },
+    {
+      "url": "https://hatichongcollege.org.in/assamese-department-course-outcome-2/",
+      "status": "ok",
+      "cache": "ac7f5670c322a76bffb6.json"
+    },
+    {
+      "url": "https://hatichongcollege.org.in/departmental-activity-assamese-department/",
+      "status": "ok",
+      "cache": "c7e575da5f08c495d8be.json"
+    }
+  ]
+}

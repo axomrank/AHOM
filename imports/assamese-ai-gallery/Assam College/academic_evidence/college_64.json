@@ -1,0 +1,26 @@
+{
+  "id": "64",
+  "college": "Abhayapuri College",
+  "pages": [
+    {
+      "url": "https://abhayapuricollege.ac.in/",
+      "status": "ok",
+      "cache": "a8e644cb949acbc04d5f.json"
+    },
+    {
+      "url": "https://abhayapuricollege.ac.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "314d63c44843b47f3cac.json"
+    },
+    {
+      "url": "https://abhayapuricollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "4ea40c20b03bb95bdd88.json"
+    },
+    {
+      "url": "https://abhayapuricollege.ac.in/academic_cal.php",
+      "status": "ok",
+      "cache": "b946966c41980ce01a8d.json"
+    }
+  ]
+}

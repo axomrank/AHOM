@@ -1,0 +1,26 @@
+{
+  "id": "283",
+  "college": "Telahi Tuwaram Nath College",
+  "pages": [
+    {
+      "url": "https://telahituwaramnathcollege.edu.in/",
+      "status": "ok",
+      "cache": "9e4619264a16924b8f2b.json"
+    },
+    {
+      "url": "https://telahituwaramnathcollege.edu.in/subjects-offered/",
+      "status": "ok",
+      "cache": "f6ad50aa0488f7b0dac2.json"
+    },
+    {
+      "url": "https://telahituwaramnathcollege.edu.in/academic/",
+      "status": "ok",
+      "cache": "b01f1644c9965391cc50.json"
+    },
+    {
+      "url": "https://telahituwaramnathcollege.edu.in/department/",
+      "status": "ok",
+      "cache": "0f2ba66496e76f63f9c6.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "174",
+  "college": "Abdul Latif Choudhury College (A.L. Choudhury College)",
+  "pages": [
+    {
+      "url": "https://alccollege.ac.in/",
+      "status": "ok",
+      "cache": "53bd25f3d61c3c1bd59c.json"
+    },
+    {
+      "url": "https://alccollege.ac.in/cell.php?cell=cHJvc3BlY3R1cw==",
+      "status": "ok",
+      "cache": "ec979eac7dc5130195b3.json"
+    },
+    {
+      "url": "https://alccollege.ac.in/department.php?dept=Q29tbWVyY2U=",
+      "status": "ok",
+      "cache": "ebd81a3e226c417d479b.json"
+    },
+    {
+      "url": "https://alccollege.ac.in/department.php?dept=ZW5nbGlzaA==",
+      "status": "ok",
+      "cache": "b45c9070acddfbc3afe7.json"
+    },
+    {
+      "url": "https://alccollege.ac.in/department.php?dept=YmVuZ2FsaQ==",
+      "status": "ok",
+      "cache": "f5ea34bbd6efe5da2135.json"
+    },
+    {
+      "url": "https://alccollege.ac.in/department.php?dept=cG9saXRpY2FsIHNjaWVuY2U=",
+      "status": "ok",
+      "cache": "7b947507c8ed7c926eb9.json"
+    },
+    {
+      "url": "https://alccollege.ac.in/department.php?dept=ZWNvbm9taWNz",
+      "status": "ok",
+      "cache": "f7cb594439549cca5d5c.json"
+    },
+    {
+      "url": "https://alccollege.ac.in/department.php?dept=aGlzdG9yeQ==",
+      "status": "ok",
+      "cache": "63f8dca4b34b2ee256d2.json"
+    }
+  ]
+}

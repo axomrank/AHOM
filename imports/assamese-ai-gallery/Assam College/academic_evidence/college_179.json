@@ -1,0 +1,36 @@
+{
+  "id": "179",
+  "college": "SK Roy College",
+  "pages": [
+    {
+      "url": "https://www.careers360.com/colleges/sk-roy-college-katlicherra/courses/bahons-idpg",
+      "status": "ok",
+      "cache": "c76c55dad6ac8c26039d.json"
+    },
+    {
+      "url": "https://www.careers360.com/university/postgraduate-institute-of-medical-education-and-research-chandigarh",
+      "status": "ok",
+      "cache": "aeb0e9060720067cb992.json"
+    },
+    {
+      "url": "https://www.careers360.com/university/jawaharlal-institute-of-postgraduate-medical-education-and-research-puducherry",
+      "status": "ok",
+      "cache": "f9ac9e21caaed6549b59.json"
+    },
+    {
+      "url": "https://www.careers360.com/university/sanjay-gandhi-postgraduate-institute-of-medical-sciences-lucknow",
+      "status": "ok",
+      "cache": "22555b85a7ee1547e29a.json"
+    },
+    {
+      "url": "https://www.careers360.com/colleges/institute-of-post-graduate-medical-education-and-research-kolkata",
+      "status": "ok",
+      "cache": "40ab624655e3d644c9f3.json"
+    },
+    {
+      "url": "https://www.careers360.com/colleges/j-d-birla-institute-department-of-management-kolkata",
+      "status": "ok",
+      "cache": "8fa3314b314f24b9bd26.json"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "123",
+  "college": "Dhubri Girls' College",
+  "pages": [
+    {
+      "url": "https://www.dgcollegedhubri.org/",
+      "status": "ok",
+      "cache": "33033512bb06df39eb83.json"
+    },
+    {
+      "url": "https://www.dgcollegedhubri.org/departments.php",
+      "status": "ok",
+      "cache": "54ce8491455370148630.json"
+    },
+    {
+      "url": "https://www.dgcollegedhubri.org/ug.php",
+      "status": "ok",
+      "cache": "4c7f07a06cf4775fe59f.json"
+    },
+    {
+      "url": "https://www.dgcollegedhubri.org/prospectus.php",
+      "status": "ok",
+      "cache": "aba5e058a71839d07cbc.json"
+    },
+    {
+      "url": "https://www.dgcollegedhubri.org/academiccalendar.php",
+      "status": "ok",
+      "cache": "4a284665d53e3a214da3.json"
+    },
+    {
+      "url": "https://www.dgcollegedhubri.org/dpt_login/",
+      "status": "error",
+      "cache": "d2e1b6cbb80c42e640c9.json"
+    }
+  ]
+}

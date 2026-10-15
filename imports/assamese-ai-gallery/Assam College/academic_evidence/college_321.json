@@ -1,0 +1,46 @@
+{
+  "id": "321",
+  "college": "Dhamdhama Anchalik College",
+  "pages": [
+    {
+      "url": "https://dhamdhamacollege.edu.in/",
+      "status": "error",
+      "cache": "270275486328c3db1bd8.json"
+    },
+    {
+      "url": "https://www.dacollege.in/",
+      "status": "ok",
+      "cache": "f1b56ed3054b6d2afbb4.json"
+    },
+    {
+      "url": "https://www.dacollege.in/iqac_event.php?id=155",
+      "status": "ok",
+      "cache": "68337f988d69154f6605.json"
+    },
+    {
+      "url": "https://www.dacollege.in/college_prospectus.php",
+      "status": "ok",
+      "cache": "c7a2398af722d73f9287.json"
+    },
+    {
+      "url": "https://www.dacollege.in/academic_calender_dac.php",
+      "status": "ok",
+      "cache": "0f2f7c258272ed73e54a.json"
+    },
+    {
+      "url": "https://www.dacollege.in/department.php",
+      "status": "ok",
+      "cache": "35d0b8daf4e361db9bb7.json"
+    },
+    {
+      "url": "https://www.dacollege.in/department.php?page_id=1",
+      "status": "ok",
+      "cache": "00b0686865dc2f9c9841.json"
+    },
+    {
+      "url": "https://www.dacollege.in/department.php?page_id=2",
+      "status": "ok",
+      "cache": "d408ba7e0e0aeb825548.json"
+    }
+  ]
+}

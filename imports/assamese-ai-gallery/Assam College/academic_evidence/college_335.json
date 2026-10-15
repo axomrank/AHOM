@@ -1,0 +1,46 @@
+{
+  "id": "335",
+  "college": "Gargaon College",
+  "pages": [
+    {
+      "url": "https://gargaoncollege.ac.in/",
+      "status": "ok",
+      "cache": "de2afdb6f1701ab2b44c.json"
+    },
+    {
+      "url": "https://gargaoncollege.ac.in/departments.html",
+      "status": "ok",
+      "cache": "4750b8609a564b8995a8.json"
+    },
+    {
+      "url": "https://gargaoncollege.ac.in/content.html?id=f1c1592588411002af340cbaedd6fc33",
+      "status": "ok",
+      "cache": "6f16e963285c4ce182aa.json"
+    },
+    {
+      "url": "https://gargaoncollege.ac.in/content.html?id=28267ab848bcf807b2ed53c3a8f8fc8a",
+      "status": "ok",
+      "cache": "81fe69415af04fd35156.json"
+    },
+    {
+      "url": "https://gargaoncollege.ac.in/content.html?id=35cf8659cfcb13224cbd47863a34fc58",
+      "status": "ok",
+      "cache": "65090b268cc4481aedfe.json"
+    },
+    {
+      "url": "https://gargaoncollege.ac.in/content.html?id=da8ce53cf0240070ce6c69c48cd588ee",
+      "status": "ok",
+      "cache": "88cec79e49bb65b7fb04.json"
+    },
+    {
+      "url": "https://gargaoncollege.ac.in/news-detail.html?nid=28267ab848bcf807b2ed53c3a8f8fc8a",
+      "status": "ok",
+      "cache": "bce7084c72a9460e4347.json"
+    },
+    {
+      "url": "https://gargaoncollege.ac.in/prospectus.html",
+      "status": "ok",
+      "cache": "f06baaa43eefa2b72ba5.json"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "279",
+  "college": "Panigaon O.P.D. College",
+  "pages": [
+    {
+      "url": "https://www.opdcollege.edu.in/",
+      "status": "ok",
+      "cache": "67d858e42ea8059a4440.json"
+    },
+    {
+      "url": "https://www.opdcollege.edu.in/courses-offered.php",
+      "status": "ok",
+      "cache": "5f7b4c9cd9090f7a733e.json"
+    },
+    {
+      "url": "https://www.opdcollege.edu.in/uploads/HS_selection_list_OPD.pdf",
+      "status": "error",
+      "cache": "d9d92c12104e01ce5a3b.json"
+    },
+    {
+      "url": "https://www.opdcollege.edu.in/images/merit_BA2.pdf",
+      "status": "ok",
+      "cache": "32c3908faad710a55ed6.json"
+    },
+    {
+      "url": "https://www.opdcollege.edu.in/academic-calendar.php",
+      "status": "ok",
+      "cache": "794e00b16d3543073e23.json"
+    }
+  ]
+}

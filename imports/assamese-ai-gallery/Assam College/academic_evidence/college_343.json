@@ -1,0 +1,46 @@
+{
+  "id": "343",
+  "college": "Darrang College",
+  "pages": [
+    {
+      "url": "https://darrangcollege.ac.in/",
+      "status": "ok",
+      "cache": "47cb94379b283d958d2b.json"
+    },
+    {
+      "url": "https://darrangcollege.ac.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "e7203b809a4d6c3cd491.json"
+    },
+    {
+      "url": "https://darrangcollege.ac.in/upload/headnotice/1747484231.pdf",
+      "status": "ok",
+      "cache": "1f4cec60f64e4e7a6bdd.json"
+    },
+    {
+      "url": "https://darrangcollege.ac.in/upload/headnotice/1766942568.pdf",
+      "status": "ok",
+      "cache": "b56f520151b01969c2e2.json"
+    },
+    {
+      "url": "https://darrangcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "ca21b3b7a70a2fdabb0f.json"
+    },
+    {
+      "url": "https://darrangcollege.ac.in/academics.php",
+      "status": "ok",
+      "cache": "bb1c3b3aa49a93921394.json"
+    },
+    {
+      "url": "https://darrangcollege.ac.in/a_council.php",
+      "status": "ok",
+      "cache": "39008537493b7d294cde.json"
+    },
+    {
+      "url": "https://darrangcollege.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "3ff10bc4b57c7b196a52.json"
+    }
+  ]
+}

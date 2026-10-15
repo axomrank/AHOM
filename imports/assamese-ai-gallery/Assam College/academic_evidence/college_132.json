@@ -1,0 +1,46 @@
+{
+  "id": "132",
+  "college": "D.H.S.K. College",
+  "pages": [
+    {
+      "url": "https://dhsk.org/",
+      "status": "ok",
+      "cache": "77fa5aadcbd07e0a6d01.json"
+    },
+    {
+      "url": "https://college.dhsk.org/arts",
+      "status": "error",
+      "cache": "01f32768679ad9eb395a.json"
+    },
+    {
+      "url": "https://dhsk.org/science/",
+      "status": "ok",
+      "cache": "79640f00571e087dd3e5.json"
+    },
+    {
+      "url": "https://dhsk.org/academic-committee/courses-offered/",
+      "status": "ok",
+      "cache": "11456c3c3d9d427e1dc1.json"
+    },
+    {
+      "url": "https://dhsk.org/college-prospectus/",
+      "status": "ok",
+      "cache": "6d66e2c6476193fb99f5.json"
+    },
+    {
+      "url": "https://dhsk.org/international-academic-advisor/",
+      "status": "ok",
+      "cache": "c2ec42ae8ffe8dfd2ee6.json"
+    },
+    {
+      "url": "https://dhsk.org/academic-committee/",
+      "status": "ok",
+      "cache": "b74b6bcc30fa5de32d1d.json"
+    },
+    {
+      "url": "https://dhsk.org/departments/anthropology/",
+      "status": "ok",
+      "cache": "0f2d68c42d0e27351e49.json"
+    }
+  ]
+}

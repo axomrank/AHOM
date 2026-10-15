@@ -1,0 +1,26 @@
+{
+  "id": "187",
+  "college": "Chandra Kamal Bezbaruah College (C.K.B. College)",
+  "pages": [
+    {
+      "url": "https://www.ckbcollegeteok.com/",
+      "status": "ok",
+      "cache": "b7a0e95fa65a8dc40c01.json"
+    },
+    {
+      "url": "https://www.ckbcollegeteok.com/dept.php",
+      "status": "ok",
+      "cache": "bb1a1e1f4b10b8b2b333.json"
+    },
+    {
+      "url": "https://www.ckbcollegeteok.com/#departments",
+      "status": "ok",
+      "cache": "daaa9cf8f52aba249ba0.json"
+    },
+    {
+      "url": "https://www.ckbcollegeteok.com/noticesview.php?id=24",
+      "status": "ok",
+      "cache": "9926ccf7309f8dac6064.json"
+    }
+  ]
+}

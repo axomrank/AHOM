@@ -1,0 +1,16 @@
+{
+  "id": "119",
+  "college": "Bholanath College (B.N. College)",
+  "pages": [
+    {
+      "url": "https://bncollege.co.in/",
+      "status": "error",
+      "cache": "9e87c1ba7593a20d33b7.json"
+    },
+    {
+      "url": "https://www.bncollege.co.in/pdf/IQAC/prospectus/Prospectus-2016-17.pdf",
+      "status": "error",
+      "cache": "726c3713ca19a974ff52.json"
+    }
+  ]
+}

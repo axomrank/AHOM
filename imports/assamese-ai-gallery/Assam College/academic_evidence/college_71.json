@@ -1,0 +1,31 @@
+{
+  "id": "71",
+  "college": "Rajiv Gandhi Memorial College, Lengtisinga",
+  "pages": [
+    {
+      "url": "https://www.rgmc.ac.in/",
+      "status": "ok",
+      "cache": "d73e765dfccfeb611bf9.json"
+    },
+    {
+      "url": "https://www.rgmc.ac.in/department.php",
+      "status": "ok",
+      "cache": "549eb630e08ec2444367.json"
+    },
+    {
+      "url": "https://www.rgmc.ac.in/upload/prospectus/1748853936.pdf",
+      "status": "ok",
+      "cache": "ae7bcf9f400281f7bc77.json"
+    },
+    {
+      "url": "https://www.rgmc.ac.in/academicaudit.php",
+      "status": "ok",
+      "cache": "a045262d8eeb267d8ece.json"
+    },
+    {
+      "url": "https://www.rgmc.ac.in/acalendar.php",
+      "status": "ok",
+      "cache": "a70083acb658d41e6858.json"
+    }
+  ]
+}

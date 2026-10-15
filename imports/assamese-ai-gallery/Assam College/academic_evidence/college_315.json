@@ -1,0 +1,36 @@
+{
+  "id": "315",
+  "college": "Raha College",
+  "pages": [
+    {
+      "url": "https://rahacollege.co.in/",
+      "status": "ok",
+      "cache": "d7fd2119743c8682aca9.json"
+    },
+    {
+      "url": "https://rahacollege.co.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "0c79ec48785d64382e6b.json"
+    },
+    {
+      "url": "https://rahacollege.co.in/Prospectus.pdf",
+      "status": "ok",
+      "cache": "c4396579ffd5a7cb44d8.json"
+    },
+    {
+      "url": "https://rahacollege.co.in/admin/",
+      "status": "error",
+      "cache": "8bf12fd896328fe273cb.json"
+    },
+    {
+      "url": "https://rahacollege.co.in/academic-calender.php",
+      "status": "ok",
+      "cache": "f7f2a2f2ab5636491f7a.json"
+    },
+    {
+      "url": "https://rahacollege.co.in/department-profile.php?did=21",
+      "status": "ok",
+      "cache": "ac35b673c5f868a9cb79.json"
+    }
+  ]
+}

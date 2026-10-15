@@ -1,0 +1,26 @@
+{
+  "id": "156",
+  "college": "Lakhipur College",
+  "pages": [
+    {
+      "url": "https://lakhipurcollege.in/",
+      "status": "ok",
+      "cache": "9463b431093a44f68611.json"
+    },
+    {
+      "url": "https://lakhipurcollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "75946b66075598b6488a.json"
+    },
+    {
+      "url": "https://lakhipurcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "6ba8589c3ed1fbeb4b43.json"
+    },
+    {
+      "url": "https://lakhipurcollege.ac.in/academic-calendars/",
+      "status": "ok",
+      "cache": "3e014cbef41448095be9.json"
+    }
+  ]
+}

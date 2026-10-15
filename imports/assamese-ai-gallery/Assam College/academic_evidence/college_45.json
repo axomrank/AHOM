@@ -1,0 +1,36 @@
+{
+  "id": "45",
+  "college": "Barpeta Bongaigaon College",
+  "pages": [
+    {
+      "url": "http://bbcollegelangla.co.in/",
+      "status": "ok",
+      "cache": "aba5607962f09ef99f71.json"
+    },
+    {
+      "url": "https://bbcollegelangla.co.in/departments.php",
+      "status": "error",
+      "cache": "5fedbcb9f2b2d450814c.json"
+    },
+    {
+      "url": "http://bbcollegelangla.co.in/prospectus.php",
+      "status": "ok",
+      "cache": "5e2712a5436ffb39f7a7.json"
+    },
+    {
+      "url": "http://bbcollegelangla.co.in/departments.php",
+      "status": "ok",
+      "cache": "e77b3d70b2db8ffeb95c.json"
+    },
+    {
+      "url": "http://bbcollegelangla.co.in/academiccalender.php",
+      "status": "ok",
+      "cache": "f52763864ff97d44d0a5.json"
+    },
+    {
+      "url": "http://bbcollegelangla.co.in/dpt_login\\",
+      "status": "error",
+      "cache": "c8a17b38a8c17e1b52e6.json"
+    }
+  ]
+}

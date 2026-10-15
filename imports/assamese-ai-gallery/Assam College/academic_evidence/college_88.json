@@ -1,0 +1,46 @@
+{
+  "id": "88",
+  "college": "Sapekhati College",
+  "pages": [
+    {
+      "url": "https://www.sapekhaticollege.com/",
+      "status": "ok",
+      "cache": "3fd2f35cf95fa15cd459.json"
+    },
+    {
+      "url": "https://www.sapekhaticollege.com/prospectus",
+      "status": "ok",
+      "cache": "c4fd0fdf522098214e26.json"
+    },
+    {
+      "url": "https://www.sapekhaticollege.com/department/assamese",
+      "status": "ok",
+      "cache": "0c2fd4e808fc2bd24414.json"
+    },
+    {
+      "url": "https://www.sapekhaticollege.com/department/economics",
+      "status": "ok",
+      "cache": "c8a84980c503c9f0b026.json"
+    },
+    {
+      "url": "https://www.sapekhaticollege.com/department/education",
+      "status": "ok",
+      "cache": "453c6c69108bb0772769.json"
+    },
+    {
+      "url": "https://www.sapekhaticollege.com/department/english",
+      "status": "ok",
+      "cache": "131619fe96fd29902af6.json"
+    },
+    {
+      "url": "https://www.sapekhaticollege.com/department/history",
+      "status": "ok",
+      "cache": "5944dc2d0a265e7e06ad.json"
+    },
+    {
+      "url": "https://www.sapekhaticollege.com/department/political-science",
+      "status": "ok",
+      "cache": "e9e3c69650aceb9f7eb3.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "352",
+  "college": "Digboi College",
+  "pages": [
+    {
+      "url": "https://www.digboicollege.edu.in/?home",
+      "status": "ok",
+      "cache": "322cab7d14cc64a1af17.json"
+    },
+    {
+      "url": "https://www.digboicollege.edu.in/departments/",
+      "status": "ok",
+      "cache": "4d7b7a3fbb4703ba01a3.json"
+    },
+    {
+      "url": "https://www.digboicollege.edu.in/wp-content/uploads/2025/05/Academic-council.pdf",
+      "status": "ok",
+      "cache": "42ace8619693ff1a9ff5.json"
+    },
+    {
+      "url": "https://www.digboicollege.edu.in/revised-admission-timeline-for-all-ug-and-pg-courses-2026-27/",
+      "status": "ok",
+      "cache": "72be3d861351378edf88.json"
+    },
+    {
+      "url": "https://www.digboicollege.edu.in/prospectus/",
+      "status": "ok",
+      "cache": "a2fad52cc233477ae111.json"
+    },
+    {
+      "url": "https://www.digboicollege.edu.in/academic-calendar/",
+      "status": "ok",
+      "cache": "ac6a61f2f31c453001f0.json"
+    },
+    {
+      "url": "https://www.digboicollege.edu.in/department-magazine/",
+      "status": "ok",
+      "cache": "9cf1d3c8d949e9938899.json"
+    },
+    {
+      "url": "https://www.digboicollege.edu.in/event/educare-newsletter-5/",
+      "status": "ok",
+      "cache": "a44445fee21bf0eb171e.json"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "238",
+  "college": "Pub Kamrup College",
+  "pages": [
+    {
+      "url": "https://pubkamrupcollege.co.in/",
+      "status": "ok",
+      "cache": "77692aa86321a0ecca54.json"
+    },
+    {
+      "url": "https://pubkamrupcollege.co.in/department.php",
+      "status": "ok",
+      "cache": "18f460748a8ea11b437a.json"
+    },
+    {
+      "url": "https://pubkamrupcollege.co.in/prospectus.php",
+      "status": "ok",
+      "cache": "63275473807c1f21cfea.json"
+    },
+    {
+      "url": "https://pubkamrupcollege.co.in/pg.php",
+      "status": "ok",
+      "cache": "0b3c6da883197fd8943d.json"
+    },
+    {
+      "url": "https://pubkamrupcollege.co.in/academiccalendar.php",
+      "status": "ok",
+      "cache": "6a0fc0683592561cbffb.json"
+    },
+    {
+      "url": "https://pubkamrupcollege.co.in/authpub_dpt_login/",
+      "status": "ok",
+      "cache": "df4d07548e1f78d59b01.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "241",
+  "college": "Rangia College",
+  "pages": [
+    {
+      "url": "https://rangiacollege.ac.in/",
+      "status": "ok",
+      "cache": "5798ea3b53ebca4cbd46.json"
+    },
+    {
+      "url": "https://rangiacollege.ac.in/images/AQAR%202020-21/2021.pdf",
+      "status": "error",
+      "cache": "84ca458fcc33a4a27761.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "176",
+  "college": "Moinul Haque Choudhury College",
+  "pages": [
+    {
+      "url": "https://mhcmsc.in/",
+      "status": "ok",
+      "cache": "c54bed232b2121a95e1e.json"
+    },
+    {
+      "url": "https://mhcmsc.in/assets/file/AISHE/M.H.C%20Memorial%20Sc%20College%202021-2022.pdf",
+      "status": "ok",
+      "cache": "26d260bc8b1175a4cbea.json"
+    },
+    {
+      "url": "https://mhcmsc.in/assets/file/MHCM%20Prospectus%202026-2027.pdf",
+      "status": "error",
+      "cache": "50a86282d98835829e2b.json"
+    },
+    {
+      "url": "https://mhcmsc.in/courses",
+      "status": "ok",
+      "cache": "ff427f3a2ec9efdf9701.json"
+    },
+    {
+      "url": "https://mhcmsc.in/assets/file/academic_calendar/Academic%20Cal%202023-24.pdf",
+      "status": "ok",
+      "cache": "b8bae3c44cd7fd7d5f53.json"
+    },
+    {
+      "url": "https://mhcmsc.in/assets/file/academic_calendar/AC%20Calendar%202022-23.pdf",
+      "status": "ok",
+      "cache": "87462818dada70a03311.json"
+    },
+    {
+      "url": "https://mhcmsc.in/assets/file/academic_calendar/AC%20Calendar%202021-22.pdf",
+      "status": "ok",
+      "cache": "72d0c480a2dc3f927340.json"
+    },
+    {
+      "url": "https://mhcmsc.in/assets/file/academic_calendar/AC%20Calendar%202020-21.pdf",
+      "status": "ok",
+      "cache": "f125647b6b4e76517baa.json"
+    }
+  ]
+}

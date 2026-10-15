@@ -1,0 +1,46 @@
+{
+  "id": "295",
+  "college": "Mayang Anchalik College",
+  "pages": [
+    {
+      "url": "https://mayanganchalikcollege.org.in/",
+      "status": "ok",
+      "cache": "963290a454253dcfe3d9.json"
+    },
+    {
+      "url": "https://mayanganchalikcollege.org.in/department/",
+      "status": "ok",
+      "cache": "b2d6a17f28cb14d2b9c6.json"
+    },
+    {
+      "url": "https://mayanganchalikcollege.org.in/wp-content/uploads/2025/05/Prospectus-2025-26-Final.pdf",
+      "status": "ok",
+      "cache": "902661d7f6f41ef24e09.json"
+    },
+    {
+      "url": "https://mayanganchalikcollege.org.in/college-prospectus/",
+      "status": "ok",
+      "cache": "53a8b1f403b73a6485bc.json"
+    },
+    {
+      "url": "https://mayanganchalikcollege.org.in/wp-content/uploads/2024/05/MAC_PROSPECTUS_2024-25_NEW.pdf",
+      "status": "ok",
+      "cache": "a5dcd82dbbd0712c0434.json"
+    },
+    {
+      "url": "http://mayanganchalikcollege.org.in/college-prospectus/",
+      "status": "ok",
+      "cache": "d9bb2f5c40fd455001a2.json"
+    },
+    {
+      "url": "https://mayanganchalikcollege.org.in/academic-calendar-3/",
+      "status": "ok",
+      "cache": "7e7d0f52f5424d22cc39.json"
+    },
+    {
+      "url": "https://mayanganchalikcollege.org.in/academic-and-administrative-audit/",
+      "status": "ok",
+      "cache": "083fab4014eb5455aa3e.json"
+    }
+  ]
+}

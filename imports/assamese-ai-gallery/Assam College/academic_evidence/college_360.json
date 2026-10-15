@@ -1,0 +1,21 @@
+{
+  "id": "360",
+  "college": "Tinsukia Commerce College",
+  "pages": [
+    {
+      "url": "https://tinsukiacommercecollege.edu.in/",
+      "status": "ok",
+      "cache": "978fcab103cee5a77903.json"
+    },
+    {
+      "url": "https://tinsukiacommercecollege.edu.in/staff/",
+      "status": "ok",
+      "cache": "dfe23e3a77eb785dcc52.json"
+    },
+    {
+      "url": "https://tinsukiacommercecollege.edu.in/wp-content/uploads/2025/04/Prospectus-2025-26.pdf",
+      "status": "ok",
+      "cache": "9363253c9ca22c5ea608.json"
+    }
+  ]
+}

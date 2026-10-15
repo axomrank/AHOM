@@ -1,0 +1,21 @@
+{
+  "id": "129",
+  "college": "Ratnapith College",
+  "pages": [
+    {
+      "url": "https://www.ratnapithcollege.ac.in/",
+      "status": "ok",
+      "cache": "4b41abb511f31b22db55.json"
+    },
+    {
+      "url": "https://www.ratnapithcollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "759f931e03453ef4726a.json"
+    },
+    {
+      "url": "https://www.ratnapithcollege.ac.in/upload/prospectus/",
+      "status": "error",
+      "cache": "6c60dd696f58ebb76fbd.json"
+    }
+  ]
+}

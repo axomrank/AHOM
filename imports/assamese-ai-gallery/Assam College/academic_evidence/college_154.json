@@ -1,0 +1,36 @@
+{
+  "id": "154",
+  "college": "Habraghat Mahavidyalaya",
+  "pages": [
+    {
+      "url": "http://www.habraghatcollege.in/",
+      "status": "ok",
+      "cache": "25b32c420715b94d95bf.json"
+    },
+    {
+      "url": "https://www.habraghatcollege.in/",
+      "status": "ok",
+      "cache": "add47fba316381090602.json"
+    },
+    {
+      "url": "http://www.habraghatcollege.in/prospectus.php",
+      "status": "ok",
+      "cache": "922aa75abdbdaf01de3a.json"
+    },
+    {
+      "url": "https://www.habraghatcollege.in/prospectus.php",
+      "status": "ok",
+      "cache": "c816ce7198c4d045721a.json"
+    },
+    {
+      "url": "http://www.habraghatcollege.in/acacalander.php",
+      "status": "ok",
+      "cache": "69d0a40cd2181df030ef.json"
+    },
+    {
+      "url": "https://www.habraghatcollege.in/acacalander.php",
+      "status": "ok",
+      "cache": "71fd4cc45bb2ccd98931.json"
+    }
+  ]
+}

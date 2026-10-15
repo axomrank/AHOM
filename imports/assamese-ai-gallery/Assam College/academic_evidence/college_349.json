@@ -1,0 +1,31 @@
+{
+  "id": "349",
+  "college": "Hatsingimari College",
+  "pages": [
+    {
+      "url": "https://hatsingimaricollege.ac.in/",
+      "status": "ok",
+      "cache": "52d84bb15d1279dc29ab.json"
+    },
+    {
+      "url": "https://hatsingimaricollege.ac.in/departments.php",
+      "status": "ok",
+      "cache": "c0c185744060cbc47a50.json"
+    },
+    {
+      "url": "https://hatsingimaricollege.ac.in/course.php",
+      "status": "ok",
+      "cache": "858cdd6f1276745ca36b.json"
+    },
+    {
+      "url": "https://hatsingimaricollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "5611af11ab6bd74770fe.json"
+    },
+    {
+      "url": "https://hatsingimaricollege.ac.in/academiccalendar.php",
+      "status": "ok",
+      "cache": "18864df820af3772c30f.json"
+    }
+  ]
+}

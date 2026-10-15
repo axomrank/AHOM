@@ -1,0 +1,26 @@
+{
+  "id": "278",
+  "college": "Nowboicha College",
+  "pages": [
+    {
+      "url": "https://nowboichacollege.ac.in/",
+      "status": "ok",
+      "cache": "5fbbd33928282b83e5d8.json"
+    },
+    {
+      "url": "https://nowboichacollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "ea6b46bfe0cc72c0de94.json"
+    },
+    {
+      "url": "https://nowboichacollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "e08d74cf266fea5204a3.json"
+    },
+    {
+      "url": "https://nowboichacollege.ac.in/acalendar.php",
+      "status": "ok",
+      "cache": "4eb60cac01a1a15ba0be.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "221",
+  "college": "Sonapur College",
+  "pages": [
+    {
+      "url": "https://sonapurcollege.ac.in/",
+      "status": "ok",
+      "cache": "ad1181f7bdefc6451d86.json"
+    },
+    {
+      "url": "https://sonapurcollege.ac.in/assets/pdf/prospectus-2026.pdf",
+      "status": "ok",
+      "cache": "227819eb49d940af5b9a.json"
+    },
+    {
+      "url": "https://sonapurcollege.ac.in/faculty/faculty-department.php?department=Department+of+Assamese",
+      "status": "ok",
+      "cache": "814337e70b2e839038be.json"
+    },
+    {
+      "url": "https://sonapurcollege.ac.in/faculty/faculty-department.php?department=Department+of+Economics",
+      "status": "ok",
+      "cache": "27e15c141be76060af51.json"
+    },
+    {
+      "url": "https://sonapurcollege.ac.in/faculty/faculty-department.php?department=Department+of+Education",
+      "status": "ok",
+      "cache": "4e1677dfb50466dd67d0.json"
+    },
+    {
+      "url": "https://sonapurcollege.ac.in/faculty/faculty-department.php?department=Department+of+English",
+      "status": "ok",
+      "cache": "d15c750aba5d2e40a17c.json"
+    },
+    {
+      "url": "https://sonapurcollege.ac.in/faculty/faculty-department.php?department=Department+of+Geography",
+      "status": "ok",
+      "cache": "c703efe8d6382c107455.json"
+    },
+    {
+      "url": "https://sonapurcollege.ac.in/faculty/faculty-department.php?department=Department+of+History",
+      "status": "ok",
+      "cache": "6f3ae705dbe716783d87.json"
+    }
+  ]
+}

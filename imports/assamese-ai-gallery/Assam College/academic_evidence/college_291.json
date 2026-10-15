@@ -1,0 +1,16 @@
+{
+  "id": "291",
+  "college": "Charaibahi College",
+  "pages": [
+    {
+      "url": "http://www.charaibahicollege.ac.in/",
+      "status": "error",
+      "cache": "94762c54a49b64a11b98.json"
+    },
+    {
+      "url": "https://charaibahicollege.ac.in/departments/",
+      "status": "error",
+      "cache": "af535de99db5d2aa3007.json"
+    }
+  ]
+}

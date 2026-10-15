@@ -1,0 +1,46 @@
+{
+  "id": "306",
+  "college": "Kaliabor College",
+  "pages": [
+    {
+      "url": "https://kaliaborcollege.ac.in/",
+      "status": "ok",
+      "cache": "11e14796479dd0bb0c88.json"
+    },
+    {
+      "url": "https://kaliaborcollege.ac.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "a664489d6a72a9a87e8b.json"
+    },
+    {
+      "url": "https://kaliaborcollege.ac.in/ma_course.php",
+      "status": "ok",
+      "cache": "3143a4a8a3bf0c3a7e72.json"
+    },
+    {
+      "url": "https://kaliaborcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "89f6d50525ab4a062967.json"
+    },
+    {
+      "url": "https://kaliaborcollege.ac.in/academiccouncil.php",
+      "status": "ok",
+      "cache": "5144df8d478b900b4446.json"
+    },
+    {
+      "url": "https://kaliaborcollege.ac.in/academics.php",
+      "status": "ok",
+      "cache": "a7202c19f82ad62b592a.json"
+    },
+    {
+      "url": "https://kaliaborcollege.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "1628f3b6798a4b723233.json"
+    },
+    {
+      "url": "https://kaliaborcollege.ac.in/Academic-Departments.php?encRequest=69a24475132f7acdd0bb544341e88abd08901edca3c8eebb62ab777bbb5981bde45a5a056de520ddd327dc226326534f6cc8e45ef3deaef997b0974d76645bb8",
+      "status": "ok",
+      "cache": "18b7f1672c47bb5ce6b2.json"
+    }
+  ]
+}

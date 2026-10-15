@@ -1,0 +1,26 @@
+{
+  "id": "255",
+  "college": "Ramkrishna Nagar College",
+  "pages": [
+    {
+      "url": "https://rknagarcollege.org/",
+      "status": "ok",
+      "cache": "5d707911b20cfa37d80b.json"
+    },
+    {
+      "url": "https://www.rknagarcollege.org/IQAC/SSR%206.5.2.pdf",
+      "status": "ok",
+      "cache": "8b9087339f9ed4633a88.json"
+    },
+    {
+      "url": "https://rknagarcollege.org/colprospectus.htm",
+      "status": "ok",
+      "cache": "164de86aa693c72f9be9.json"
+    },
+    {
+      "url": "https://rknagarcollege.org/notificationarchive.htm",
+      "status": "ok",
+      "cache": "3d39e2491f9cffb79055.json"
+    }
+  ]
+}

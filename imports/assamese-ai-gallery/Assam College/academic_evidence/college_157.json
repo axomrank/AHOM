@@ -1,0 +1,46 @@
+{
+  "id": "157",
+  "college": "West Goalpara College",
+  "pages": [
+    {
+      "url": "https://westgoalparacollege.ac.in/",
+      "status": "ok",
+      "cache": "3ab14862283bbdba7393.json"
+    },
+    {
+      "url": "https://www.westgoalparacollege.ac.in/departments.php",
+      "status": "ok",
+      "cache": "d4648236c4aabdede107.json"
+    },
+    {
+      "url": "https://westgoalparacollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "e3c89c42aed876eb3363.json"
+    },
+    {
+      "url": "https://www.westgoalparacollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "fa3ffa3b22e53f8699c1.json"
+    },
+    {
+      "url": "https://westgoalparacollege.ac.in/departments.php",
+      "status": "ok",
+      "cache": "c4200b20b00a8696442e.json"
+    },
+    {
+      "url": "https://westgoalparacollege.ac.in/add_course.php",
+      "status": "ok",
+      "cache": "7eae4601239589713be0.json"
+    },
+    {
+      "url": "https://westgoalparacollege.ac.in/acalender.php",
+      "status": "ok",
+      "cache": "34d5577e82588bdda4c0.json"
+    },
+    {
+      "url": "https://westgoalparacollege.ac.in/Academic-Departmentsnew.php?department=8e78b920240716999cdb069f20819734a3ac35702ca8b8093bda8f293def9f42ad9cde549a16df29b2bfcc32135eeb76dc7124b0d8913d878b7744a6954d51eb",
+      "status": "ok",
+      "cache": "b20cd7ed4c264a5c498c.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "55",
+  "college": "Mandia Anchalik College",
+  "pages": [
+    {
+      "url": "https://www.macollege.co.in/",
+      "status": "ok",
+      "cache": "0644203aae91dfcf3374.json"
+    },
+    {
+      "url": "https://www.macollege.co.in/department.php",
+      "status": "ok",
+      "cache": "2c776ae2da8a80555703.json"
+    },
+    {
+      "url": "https://www.macollege.co.in/prospectus.pdf",
+      "status": "error",
+      "cache": "7530ee3e56a6738b782f.json"
+    },
+    {
+      "url": "https://www.macollege.co.in/admissionprocedure.php#regulations",
+      "status": "ok",
+      "cache": "bdfc9103418c5dda6308.json"
+    },
+    {
+      "url": "https://www.macollege.co.in/departments_details.php?id=1",
+      "status": "ok",
+      "cache": "25369e5d8382e454eef4.json"
+    },
+    {
+      "url": "https://www.macollege.co.in/departments_details.php?id=2",
+      "status": "ok",
+      "cache": "ffa09ef4ac17499f24e2.json"
+    },
+    {
+      "url": "https://www.macollege.co.in/departments_details.php?id=3",
+      "status": "ok",
+      "cache": "e959c51d9b4420d6f696.json"
+    },
+    {
+      "url": "https://www.macollege.co.in/departments_details.php?id=4",
+      "status": "ok",
+      "cache": "3be97eee97e264655eb7.json"
+    }
+  ]
+}

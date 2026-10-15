@@ -1,0 +1,46 @@
+{
+  "id": "76",
+  "college": "M.C. Das College",
+  "pages": [
+    {
+      "url": "https://www.mcdcollege.org.in/",
+      "status": "ok",
+      "cache": "6a624f3acb52fab44b16.json"
+    },
+    {
+      "url": "https://www.mcdcollege.org.in/facultyarts.htm",
+      "status": "ok",
+      "cache": "ddc859d297d7bc3e7f9c.json"
+    },
+    {
+      "url": "https://www.mcdcollege.org.in/facultysc.htm",
+      "status": "ok",
+      "cache": "e3d4997978168c701f1f.json"
+    },
+    {
+      "url": "https://www.mcdcollege.org.in/facultycomm.htm",
+      "status": "ok",
+      "cache": "106ca7baea14785738c4.json"
+    },
+    {
+      "url": "https://www.mcdcollege.org.in/Notification/Walk-in-interview%20Guest%20Lecturers%2004-08-2026.pdf",
+      "status": "ok",
+      "cache": "4dd760638e045b296bfc.json"
+    },
+    {
+      "url": "https://www.mcdcollege.org.in/Notification/Walk-in-interview Guest Lecturers 04-08-2026.pdf",
+      "status": "ok",
+      "cache": "0a87458a7843c9d5b532.json"
+    },
+    {
+      "url": "https://www.mcdcollege.org.in/Notification/FYUGP Under NEP 2020 admission Notice 28-06-2023.pdf",
+      "status": "ok",
+      "cache": "40d74f8b5e6e287a9fb5.json"
+    },
+    {
+      "url": "https://www.mcdcollege.org.in/Notification/Interview Call Letter Pol Sc Notice 17-04-2023.pdf",
+      "status": "ok",
+      "cache": "81e9cecca454b823a2f4.json"
+    }
+  ]
+}

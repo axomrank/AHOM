@@ -1,0 +1,31 @@
+{
+  "id": "48",
+  "college": "BHB College",
+  "pages": [
+    {
+      "url": "https://www.bhbcollege.ac.in/",
+      "status": "ok",
+      "cache": "36dcad72ac32b72b356f.json"
+    },
+    {
+      "url": "https://www.bhbcollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "73f39ed6eb4790690aeb.json"
+    },
+    {
+      "url": "https://www.bhbcollege.ac.in/courses_offered.php",
+      "status": "ok",
+      "cache": "7452f956a59d8a7d2a54.json"
+    },
+    {
+      "url": "https://www.bhbcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "237a154f4d9d5a8a8b43.json"
+    },
+    {
+      "url": "https://www.bhbcollege.ac.in/acalender.php",
+      "status": "ok",
+      "cache": "3edc60ec1c3fb9aad5ec.json"
+    }
+  ]
+}

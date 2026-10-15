@@ -1,0 +1,46 @@
+{
+  "id": "162",
+  "college": "Furkating College",
+  "pages": [
+    {
+      "url": "https://www.furkatingcollege.edu.in/",
+      "status": "ok",
+      "cache": "f53131779e14f7b94bc6.json"
+    },
+    {
+      "url": "http://www.furkatingcollege.edu.in/teaching-staff/",
+      "status": "ok",
+      "cache": "63fbdc084b687432d7aa.json"
+    },
+    {
+      "url": "https://www.furkatingcollege.edu.in/wp-content/uploads/2025/05/prospectus-25-26-final.pdf",
+      "status": "ok",
+      "cache": "240ca9862c5a4359f6c7.json"
+    },
+    {
+      "url": "https://www.furkatingcollege.edu.in/wp-content/uploads/2025/09/Adobe-Scan-1-Sep-2025-3.pdf",
+      "status": "ok",
+      "cache": "a52b41a6a7773f942e4b.json"
+    },
+    {
+      "url": "https://www.furkatingcollege.edu.in/wp-content/uploads/2026/03/Adobe-Scan-11-Mar-2026.pdf",
+      "status": "ok",
+      "cache": "463c3a7e841095d11ead.json"
+    },
+    {
+      "url": "http://www.furkatingcollege.edu.in/wp-content/uploads/2026/02/Adobe-Scan-5-Feb-2026.pdf",
+      "status": "ok",
+      "cache": "0b05f33e5201c96126eb.json"
+    },
+    {
+      "url": "https://www.furkatingcollege.edu.in/wp-content/uploads/2026/08/PG-2nd-Semester-Result-2026.pdf",
+      "status": "ok",
+      "cache": "db8355421008878aad46.json"
+    },
+    {
+      "url": "https://www.furkatingcollege.edu.in/wp-content/uploads/2026/05/Examination-Schedule-FYUGP-2nd-4th-6-th-PG-Even-Semester-Examination-2026.pdf",
+      "status": "ok",
+      "cache": "0103f1d74b235a6edb7c.json"
+    }
+  ]
+}

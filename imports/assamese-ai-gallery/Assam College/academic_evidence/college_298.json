@@ -1,0 +1,36 @@
+{
+  "id": "298",
+  "college": "Alhaz Sonai Bibi Choudhury College",
+  "pages": [
+    {
+      "url": "https://asbcc.ac.in/",
+      "status": "ok",
+      "cache": "bd988ed2dc7de82362c3.json"
+    },
+    {
+      "url": "https://asbcc.ac.in/courses.php",
+      "status": "ok",
+      "cache": "f338187a9b82a5543c81.json"
+    },
+    {
+      "url": "https://asbcc.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "6365a2e722b1b84d95f8.json"
+    },
+    {
+      "url": "https://asbcc.ac.in/department.php",
+      "status": "ok",
+      "cache": "65c878b6a0768bb1f158.json"
+    },
+    {
+      "url": "https://asbcc.ac.in/a_activity.php",
+      "status": "ok",
+      "cache": "a43464abb8675eac68d9.json"
+    },
+    {
+      "url": "https://asbcc.ac.in/academic_audit.php",
+      "status": "ok",
+      "cache": "45d2fd833c4af98b48cb.json"
+    }
+  ]
+}

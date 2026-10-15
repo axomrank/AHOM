@@ -1,0 +1,36 @@
+{
+  "id": "369",
+  "college": "Rangsina College",
+  "pages": [
+    {
+      "url": "https://www.rangsinacollege.co.in/",
+      "status": "ok",
+      "cache": "350491c6c636e37e8106.json"
+    },
+    {
+      "url": "https://www.rangsinacollege.co.in/upload/prospectus/1778915257.pdf",
+      "status": "ok",
+      "cache": "8322cb291fec7e2ae13a.json"
+    },
+    {
+      "url": "https://www.rangsinacollege.co.in/prospectus.php",
+      "status": "ok",
+      "cache": "aee1dba876b7ba1a1d92.json"
+    },
+    {
+      "url": "https://www.rangsinacollege.co.in/courses.php",
+      "status": "error",
+      "cache": "4aa18c9c676a7e8bf6eb.json"
+    },
+    {
+      "url": "https://www.rangsinacollege.co.in/academic_cal.php",
+      "status": "ok",
+      "cache": "e4da6438abb71234ef41.json"
+    },
+    {
+      "url": "https://www.rangsinacollege.co.in/department.php",
+      "status": "ok",
+      "cache": "55dcf0ba345ee885de53.json"
+    }
+  ]
+}

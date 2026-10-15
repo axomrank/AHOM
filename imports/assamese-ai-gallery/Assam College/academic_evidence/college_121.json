@@ -1,0 +1,46 @@
+{
+  "id": "121",
+  "college": "Chilarai College",
+  "pages": [
+    {
+      "url": "https://chilaraicollege.com/",
+      "status": "ok",
+      "cache": "65ab33221657551a1bc6.json"
+    },
+    {
+      "url": "https://chilaraicollege.com/department.php?d_id=1",
+      "status": "ok",
+      "cache": "0a992013073ea0098feb.json"
+    },
+    {
+      "url": "https://chilaraicollege.com/department.php?d_id=11",
+      "status": "ok",
+      "cache": "f04dd1dfb1325a4cea60.json"
+    },
+    {
+      "url": "https://chilaraicollege.com/department.php?d_id=2",
+      "status": "ok",
+      "cache": "3fafff9ecf2673122d3d.json"
+    },
+    {
+      "url": "https://chilaraicollege.com/department.php?d_id=9",
+      "status": "ok",
+      "cache": "9f1e4dd0159bd571d3b9.json"
+    },
+    {
+      "url": "https://chilaraicollege.com/department.php?d_id=7",
+      "status": "ok",
+      "cache": "96d75e445c52b25ed616.json"
+    },
+    {
+      "url": "https://chilaraicollege.com/department.php?d_id=4",
+      "status": "ok",
+      "cache": "fc38e0d2ca95a6983ff1.json"
+    },
+    {
+      "url": "https://chilaraicollege.com/department.php?d_id=8",
+      "status": "ok",
+      "cache": "10aa0899c239d33f7944.json"
+    }
+  ]
+}

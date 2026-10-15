@@ -1,0 +1,46 @@
+{
+  "id": "148",
+  "college": "Maibang Degree College",
+  "pages": [
+    {
+      "url": "https://maibangdegreecollege.edu.in/",
+      "status": "ok",
+      "cache": "c23732ac04b4726adcce.json"
+    },
+    {
+      "url": "https://maibangdegreecollege.edu.in/upload/prospectus/1746446352.pdf",
+      "status": "ok",
+      "cache": "5b563d0ed290b153d948.json"
+    },
+    {
+      "url": "https://maibangdegreecollege.edu.in/prospectus.php",
+      "status": "ok",
+      "cache": "d8b753376f2ed3f0a604.json"
+    },
+    {
+      "url": "https://maibangdegreecollege.edu.in/arts.php",
+      "status": "ok",
+      "cache": "40dc56a653a3df0c0216.json"
+    },
+    {
+      "url": "https://maibangdegreecollege.edu.in/upload/aaa/AAA MDC PDF Final.pdf",
+      "status": "ok",
+      "cache": "e56bb9d7121c8606b017.json"
+    },
+    {
+      "url": "https://maibangdegreecollege.edu.in/acalender.php",
+      "status": "ok",
+      "cache": "9246c0accb1e1f1bf39a.json"
+    },
+    {
+      "url": "https://maibangdegreecollege.edu.in/mb_dpt_login/",
+      "status": "ok",
+      "cache": "a63829e5b04881963894.json"
+    },
+    {
+      "url": "https://maibangdegreecollege.edu.in/academiccalender.php",
+      "status": "error",
+      "cache": "303cf10b0d7173a102c9.json"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "222",
+  "college": "West Guwahati Commerce College",
+  "pages": [
+    {
+      "url": "https://westguwahaticommercecollege.ac.in/",
+      "status": "ok",
+      "cache": "aa84c88c64014b0757d8.json"
+    },
+    {
+      "url": "https://westguwahaticommercecollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "5915834f729ab0dc726f.json"
+    },
+    {
+      "url": "https://westguwahaticommercecollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "d2400c52c285f28db6d3.json"
+    },
+    {
+      "url": "https://westguwahaticommercecollege.ac.in/academic_cal.php",
+      "status": "ok",
+      "cache": "faf4e8a0e6737d75fce6.json"
+    }
+  ]
+}

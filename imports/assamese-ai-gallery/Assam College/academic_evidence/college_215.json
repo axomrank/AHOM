@@ -1,0 +1,46 @@
+{
+  "id": "215",
+  "college": "North Gauhati College",
+  "pages": [
+    {
+      "url": "https://www.northgauhaticollege.in/",
+      "status": "ok",
+      "cache": "7333a3496b495b9db86c.json"
+    },
+    {
+      "url": "https://www.northgauhaticollege.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "c28407ef283103286c9f.json"
+    },
+    {
+      "url": "https://www.northgauhaticollege.in/upload/notice/1789817537.pdf",
+      "status": "ok",
+      "cache": "d1acc20aec6aaef1b474.json"
+    },
+    {
+      "url": "https://www.northgauhaticollege.in/prospectus2.php",
+      "status": "ok",
+      "cache": "0a5635a85f53a5490c55.json"
+    },
+    {
+      "url": "https://www.northgauhaticollege.in/courses.php",
+      "status": "ok",
+      "cache": "262b4d2f5bcce433634d.json"
+    },
+    {
+      "url": "https://www.northgauhaticollege.in/academiccalendar.php",
+      "status": "ok",
+      "cache": "4d9fc128d4263e5eb270.json"
+    },
+    {
+      "url": "https://www.northgauhaticollege.in/Teachers-Profile.php?Teacher-Id=54&Academic_department=ANTHROPOLOGY",
+      "status": "ok",
+      "cache": "4a531a19cafd3452c2f9.json"
+    },
+    {
+      "url": "https://www.northgauhaticollege.in/Teachers-Profile.php?Teacher-Id=60&Academic_department=ANTHROPOLOGY",
+      "status": "ok",
+      "cache": "d86c006d23933bf1c0ab.json"
+    }
+  ]
+}

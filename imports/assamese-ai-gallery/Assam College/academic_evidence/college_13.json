@@ -1,0 +1,46 @@
+{
+  "id": "13",
+  "college": "Government Model College, Diblong",
+  "pages": [
+    {
+      "url": "https://gmdcdiblong.co.in/",
+      "status": "ok",
+      "cache": "89ad7d8577a892e18bd4.json"
+    },
+    {
+      "url": "https://gmdcdiblong.co.in/upload/headnotice/1780302417.pdf",
+      "status": "ok",
+      "cache": "f76ec82e395f40b7234b.json"
+    },
+    {
+      "url": "https://gmdcdiblong.co.in/Prospectus GMDC 2024-25.pdf",
+      "status": "ok",
+      "cache": "8db29b43e82251811518.json"
+    },
+    {
+      "url": "https://gmdcdiblong.co.in/coursesoffered.php",
+      "status": "ok",
+      "cache": "e0cf5f7b66d41fa179fe.json"
+    },
+    {
+      "url": "https://gmdcdiblong.co.in/Academic-Departmentsnew.php?department=e5bcac3a240aa9e58d6bcd72b6099a6eb9513bfe3bb247d9f183cca5ba81f018ea02067e464a511c579e9220fd323d2e0a446e8f99058952cfb9f047d7daf871",
+      "status": "ok",
+      "cache": "cc0122ed3ba6878e33c8.json"
+    },
+    {
+      "url": "https://gmdcdiblong.co.in/Academic-Departmentsnew.php?department=fc90f0d23c6bc6ad6fd92618ac19763bfe06990b13011ac858ffe2865dde0f1215e63ccf9e61eb6562aadb33d95582089b9d9567e52b18ca9e037f88fa3153a8",
+      "status": "ok",
+      "cache": "9b425f1e54d8b020aa43.json"
+    },
+    {
+      "url": "https://gmdcdiblong.co.in/Academic-Departmentsnew.php?department=47bf7e7447b85d9798993989dfec450df4c24d2a51641ef3685c929fe94cd322fa17b96c27b2c008f2d3be0afeceb974cc81209621c7c21990c84364457d41c2",
+      "status": "ok",
+      "cache": "a484d2fa95c99fb090a0.json"
+    },
+    {
+      "url": "https://gmdcdiblong.co.in/Academic-Departmentsnew.php?department=f72ca5278453ae108d3374d14a7e42527373550f83ee6b2ada2b408e8718e762eb0dcc0307a2c375ee67acae5d7a35323338b85b3455aa9fde7c351593b1129b",
+      "status": "ok",
+      "cache": "1117d212a517943a46ff.json"
+    }
+  ]
+}

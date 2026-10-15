@@ -1,0 +1,26 @@
+{
+  "id": "130",
+  "college": "Sapatgram College",
+  "pages": [
+    {
+      "url": "https://www.sapatgramcollege.in/",
+      "status": "ok",
+      "cache": "45818b8f5d8de2add173.json"
+    },
+    {
+      "url": "https://www.sapatgramcollege.in/departments.php",
+      "status": "ok",
+      "cache": "0ca6d67770f4739b7f65.json"
+    },
+    {
+      "url": "https://www.sapatgramcollege.in/prospectus.php",
+      "status": "ok",
+      "cache": "68fc731e16b2dcd7cab7.json"
+    },
+    {
+      "url": "https://www.sapatgramcollege.in/academiccalendar.php",
+      "status": "ok",
+      "cache": "fde646aa430d71a953e5.json"
+    }
+  ]
+}

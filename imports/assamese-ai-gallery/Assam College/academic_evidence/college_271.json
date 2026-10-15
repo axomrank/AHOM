@@ -1,0 +1,46 @@
+{
+  "id": "271",
+  "college": "L.T.K. College",
+  "pages": [
+    {
+      "url": "https://ltkcollege.ac.in/",
+      "status": "ok",
+      "cache": "818cd8e66a74087325bd.json"
+    },
+    {
+      "url": "https://ltkcollege.ac.in/uploads/files/Prospectus-26-27 .pdf",
+      "status": "ok",
+      "cache": "0f097ab2235572d705fe.json"
+    },
+    {
+      "url": "https://ltkcollege.ac.in/uploads/notice/Academic Calendar-2026.pdf",
+      "status": "ok",
+      "cache": "79ead4d327c652892fed.json"
+    },
+    {
+      "url": "https://ltkcollege.ac.in/data/page/academic-calendar.php",
+      "status": "ok",
+      "cache": "66d5dc84cfba3864ec99.json"
+    },
+    {
+      "url": "https://ltkcollege.ac.in/data/department/assamese.php",
+      "status": "ok",
+      "cache": "d71d23c8201d484113cd.json"
+    },
+    {
+      "url": "https://ltkcollege.ac.in/data/department/botany.php",
+      "status": "ok",
+      "cache": "f9b87e1513388f85719d.json"
+    },
+    {
+      "url": "https://ltkcollege.ac.in/data/department/chemistry.php",
+      "status": "ok",
+      "cache": "6ac3721833c957841621.json"
+    },
+    {
+      "url": "https://ltkcollege.ac.in/data/department/economics.php",
+      "status": "ok",
+      "cache": "cbb4f7adaf6d6933ad96.json"
+    }
+  ]
+}

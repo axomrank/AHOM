@@ -1,0 +1,46 @@
+{
+  "id": "79",
+  "college": "Radhamadhab College",
+  "pages": [
+    {
+      "url": "https://rmcollege.org/",
+      "status": "ok",
+      "cache": "f91439e7513d7a7ae655.json"
+    },
+    {
+      "url": "https://www.rmcollege.org/bengdept.htm",
+      "status": "ok",
+      "cache": "a93a2860328a7597ae70.json"
+    },
+    {
+      "url": "https://www.rmcollege.org/manipudept.htm",
+      "status": "ok",
+      "cache": "3889440c045b36247d5d.json"
+    },
+    {
+      "url": "https://www.rmcollege.org/IQAC-Archive/FINAL%20SUPPLEMENTARY%20SSR.pdf",
+      "status": "ok",
+      "cache": "63efe2600cc0fc7db0e8.json"
+    },
+    {
+      "url": "https://rmcollege.org/Advertisement/Walk%20in%20Interview%2005-08-2026.pdf",
+      "status": "ok",
+      "cache": "4489540844b255e80dd8.json"
+    },
+    {
+      "url": "https://rmcollege.org/Notices/FYUGP SemI Induction Programme Notice 08-08-2026.pdf",
+      "status": "ok",
+      "cache": "c0adfa7c31cf8c80d5ec.json"
+    },
+    {
+      "url": "https://rmcollege.org/Notices/FYUG CUET Admission 2026-27 Revised Timeline Notice 05-07-2026.pdf",
+      "status": "ok",
+      "cache": "ce0171396ded42805632.json"
+    },
+    {
+      "url": "https://rmcollege.org/prospectus.htm",
+      "status": "ok",
+      "cache": "e395fc5ff460f6bf1f9d.json"
+    }
+  ]
+}

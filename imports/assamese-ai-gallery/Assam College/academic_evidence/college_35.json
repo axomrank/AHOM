@@ -1,0 +1,46 @@
+{
+  "id": "35",
+  "college": "Barama College",
+  "pages": [
+    {
+      "url": "https://www.baramacollegebarama.edu.in/",
+      "status": "ok",
+      "cache": "116c28bb83ef45705fed.json"
+    },
+    {
+      "url": "https://www.baramacollegebarama.edu.in/notice/e84d5884-73c2-4a22-a540-b55201a40389.pdf",
+      "status": "ok",
+      "cache": "be7a721a4634f7a7d9f0.json"
+    },
+    {
+      "url": "https://www.baramacollegebarama.edu.in/academic-calendar.php",
+      "status": "ok",
+      "cache": "42f6e4659d4001fb1024.json"
+    },
+    {
+      "url": "https://www.baramacollegebarama.edu.in/academic-forms.php",
+      "status": "ok",
+      "cache": "f66c4652f34fef0404c8.json"
+    },
+    {
+      "url": "https://www.baramacollegebarama.edu.in/assamese_department.php",
+      "status": "ok",
+      "cache": "0f5bcf5ae7bee299b2b8.json"
+    },
+    {
+      "url": "https://www.baramacollegebarama.edu.in/bodo_department.php",
+      "status": "ok",
+      "cache": "d202e9ef5cfe5f16cc23.json"
+    },
+    {
+      "url": "https://www.baramacollegebarama.edu.in/english_department.php",
+      "status": "ok",
+      "cache": "d1a7a3045501526df526.json"
+    },
+    {
+      "url": "https://www.baramacollegebarama.edu.in/economics_department.php",
+      "status": "ok",
+      "cache": "6235792be4c5ce2f42cf.json"
+    }
+  ]
+}

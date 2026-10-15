@@ -1,0 +1,31 @@
+{
+  "id": "230",
+  "college": "Dakshin Kamrup Girls' College",
+  "pages": [
+    {
+      "url": "https://dkgirlscollege.ac.in/",
+      "status": "ok",
+      "cache": "fcb2d53f8e72a46f931a.json"
+    },
+    {
+      "url": "https://dkgirlscollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "c8c3e99f2dae77e73a70.json"
+    },
+    {
+      "url": "https://dkgirlscollege.ac.in/prospectus/",
+      "status": "ok",
+      "cache": "2a1952a6cc9839a1b3f4.json"
+    },
+    {
+      "url": "https://dkgirlscollege.ac.in/academic-calendar/",
+      "status": "ok",
+      "cache": "fbbd97e6d966abc26e5a.json"
+    },
+    {
+      "url": "https://dkgirlscollege.ac.in/acalendar.php",
+      "status": "ok",
+      "cache": "ecac4684c2de14872fc0.json"
+    }
+  ]
+}

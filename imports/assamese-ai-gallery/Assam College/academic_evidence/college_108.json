@@ -1,0 +1,46 @@
+{
+  "id": "108",
+  "college": "Machkhowa Degree College",
+  "pages": [
+    {
+      "url": "https://oldweb.dibru.ac.in/",
+      "status": "ok",
+      "cache": "7f5d9aee329f7976bd87.json"
+    },
+    {
+      "url": "https://oldweb.dibru.ac.in/wp-content/uploads/2022/09/Final-Electoral-Roll-2022-Website.pdf",
+      "status": "ok",
+      "cache": "2e67770c97e4ef4486b7.json"
+    },
+    {
+      "url": "https://oldweb.dibru.ac.in/post-graduate-board/",
+      "status": "ok",
+      "cache": "e737500fea6d783242bc.json"
+    },
+    {
+      "url": "https://oldweb.dibru.ac.in/five-year-integrated-post-graduate-programme-fyipgp-as-per-nep-2020",
+      "status": "ok",
+      "cache": "50566381de882fe3c70d.json"
+    },
+    {
+      "url": "https://oldweb.dibru.ac.in/academic-council/",
+      "status": "ok",
+      "cache": "aa20aefa9e19b1b5f582.json"
+    },
+    {
+      "url": "https://oldweb.dibru.ac.in/department-centre",
+      "status": "ok",
+      "cache": "421fe48cf29dab7cfe14.json"
+    },
+    {
+      "url": "https://oldweb.dibru.ac.in/academic-regulations",
+      "status": "ok",
+      "cache": "90ec6af2d564e7a93fb8.json"
+    },
+    {
+      "url": "https://oldweb.dibru.ac.in/minutes-of-academic-council",
+      "status": "ok",
+      "cache": "4b46994ec793e8851e2e.json"
+    }
+  ]
+}

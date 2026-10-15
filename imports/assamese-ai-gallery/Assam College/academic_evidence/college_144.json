@@ -1,0 +1,46 @@
+{
+  "id": "144",
+  "college": "Pithubar Girls' Degree College",
+  "pages": [
+    {
+      "url": "https://pithubarcollege.org/",
+      "status": "ok",
+      "cache": "aea6a8c38dad621a0d5b.json"
+    },
+    {
+      "url": "https://pithubarcollege.org/uploads/college_activity_images/attachment/914.pdf",
+      "status": "ok",
+      "cache": "5c3e8a89393a88951ec6.json"
+    },
+    {
+      "url": "https://pithubarcollege.org/wp-content/uploads/2026/09/Academic-Cell.jpeg",
+      "status": "ok",
+      "cache": "bc8d9dd2c72566abcb72.json"
+    },
+    {
+      "url": "https://pithubarcollege.org/wp-content/uploads/2026/09/Research-and-Department-Cell.jpeg",
+      "status": "ok",
+      "cache": "6a3ac222125d8aaf8031.json"
+    },
+    {
+      "url": "https://pithubarcollege.org/department-of-assamese/",
+      "status": "ok",
+      "cache": "892d6b453faa4057f0ef.json"
+    },
+    {
+      "url": "https://pithubarcollege.org/department-of-english/",
+      "status": "ok",
+      "cache": "9465f581b93167595994.json"
+    },
+    {
+      "url": "https://pithubarcollege.org/department-of-economics/",
+      "status": "ok",
+      "cache": "20a20863e67998d27399.json"
+    },
+    {
+      "url": "https://pithubarcollege.org/department-of-education/",
+      "status": "ok",
+      "cache": "3c64b7ba2181fc4467ef.json"
+    }
+  ]
+}

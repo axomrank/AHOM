@@ -1,0 +1,1 @@
+{"url": "https://www.tanglacollege.ac.in/science-stream/", "retrieved": "2026-10-02", "status": "error", "error": "ConnectTimeout: HTTPSConnectionPool(host='www.tanglacollege.ac.in', port=443): Max retries exceeded with url: /science-stream/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tanglacollege.ac.in', port=443)"}

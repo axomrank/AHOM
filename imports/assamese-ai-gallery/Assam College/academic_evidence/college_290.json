@@ -1,0 +1,31 @@
+{
+  "id": "290",
+  "college": "Bhuragaon College",
+  "pages": [
+    {
+      "url": "https://bhuragaoncollege.org.in/",
+      "status": "ok",
+      "cache": "42b52ece216dc2d53df3.json"
+    },
+    {
+      "url": "https://bhuragaoncollege.org.in/department.php",
+      "status": "ok",
+      "cache": "60c8a49a2ed125d69531.json"
+    },
+    {
+      "url": "https://bhuragaoncollege.org.in/prospectus.php",
+      "status": "ok",
+      "cache": "d53b4cb6f83a02ba0d02.json"
+    },
+    {
+      "url": "https://bhuragaoncollege.org.in/academiccalender.php",
+      "status": "ok",
+      "cache": "90459118e5e11d74386d.json"
+    },
+    {
+      "url": "https://bhuragaoncollege.org.in/department.php#!",
+      "status": "ok",
+      "cache": "cfe367ad71b09977a5f4.json"
+    }
+  ]
+}

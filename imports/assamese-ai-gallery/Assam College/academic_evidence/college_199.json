@@ -1,0 +1,46 @@
+{
+  "id": "199",
+  "college": "Nanda Nath Saikia College (N.N. Saikia College)",
+  "pages": [
+    {
+      "url": "https://nnsaikiacollege.org/",
+      "status": "ok",
+      "cache": "551fc19dc0e9f5a33156.json"
+    },
+    {
+      "url": "https://nnsaikiacollege.org/index.php/main/news-and-events/1832-celebration-of-world-ozone-day-2026",
+      "status": "ok",
+      "cache": "6d8b9ca4c6215330f883.json"
+    },
+    {
+      "url": "https://nnsaikiacollege.org/index.php/main/news-and-events/1830-webinar-on-the-occasion-of-ozone-day-2026-organized-by-the-department-of-botany",
+      "status": "ok",
+      "cache": "a9167b5252a64a8ed5fc.json"
+    },
+    {
+      "url": "https://nnsaikiacollege.org/index.php/prospectus",
+      "status": "ok",
+      "cache": "1b06a618b999bb0e520f.json"
+    },
+    {
+      "url": "https://nnsaikiacollege.org/index.php/administration/academic-vice-principals",
+      "status": "ok",
+      "cache": "e5e512bd3cd60c14f9fa.json"
+    },
+    {
+      "url": "https://nnsaikiacollege.org/index.php/academics/course/regular-mode",
+      "status": "ok",
+      "cache": "74c0b30aba26053a1ed1.json"
+    },
+    {
+      "url": "https://nnsaikiacollege.org/index.php/academics/seat-capacity",
+      "status": "ok",
+      "cache": "c06cfe4252ddb2a178c8.json"
+    },
+    {
+      "url": "https://nnsaikiacollege.org/index.php/academics/eligibility",
+      "status": "ok",
+      "cache": "ffc2317175a012b2ade8.json"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "51",
+  "college": "Janapriya College, Barpeta",
+  "pages": [
+    {
+      "url": "https://janapriyacollege.in/",
+      "status": "ok",
+      "cache": "18698d6abda1423452fe.json"
+    },
+    {
+      "url": "https://janapriyacollege.in/?page=course",
+      "status": "ok",
+      "cache": "bdfbd10f1f36b883bcb1.json"
+    },
+    {
+      "url": "https://janapriyacollege.in/view/assets/documents/Prospectus.pdf",
+      "status": "ok",
+      "cache": "3d7ab520048dca1280ea.json"
+    },
+    {
+      "url": "https://janapriyacollege.in/?page=academic-ethos",
+      "status": "ok",
+      "cache": "c371ebf88bc777dc2a0d.json"
+    },
+    {
+      "url": "https://janapriyacollege.in/?page=academic-calendar",
+      "status": "ok",
+      "cache": "2dd60a33cbbb356ebb25.json"
+    }
+  ]
+}

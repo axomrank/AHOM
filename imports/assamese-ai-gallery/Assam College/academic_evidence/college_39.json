@@ -1,0 +1,46 @@
+{
+  "id": "39",
+  "college": "Salbari College",
+  "pages": [
+    {
+      "url": "https://salbaricollege.ac.in/",
+      "status": "ok",
+      "cache": "cbe8fbd88bc5cfc282c1.json"
+    },
+    {
+      "url": "https://salbaricollege.ac.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "23033957fc2c9ce6b3bd.json"
+    },
+    {
+      "url": "https://salbaricollege.ac.in/upload/notice/1787031041.pdf",
+      "status": "ok",
+      "cache": "79fd5869797ebe9676aa.json"
+    },
+    {
+      "url": "https://salbaricollege.ac.in/upload/notice/1785926534.pdf",
+      "status": "ok",
+      "cache": "75129abc2ff854202645.json"
+    },
+    {
+      "url": "https://salbaricollege.ac.in/Academic-Teachers-Details.php?encRequest=2b0b1309c1fc5297765eed5bd46fed0a871d2c44b89869fab186a6711a183d774fd99d4755252026628b4e2ae3974eb4a90b76fde56584516c13cbce91737e18af9a0818f9de372b810aa2faae954a69",
+      "status": "ok",
+      "cache": "a7694649fe4ead5c1428.json"
+    },
+    {
+      "url": "https://salbaricollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "545d88af5c727ebd6051.json"
+    },
+    {
+      "url": "https://salbaricollege.ac.in/academic_cal.php",
+      "status": "ok",
+      "cache": "70aff7855c2ac8e013d4.json"
+    },
+    {
+      "url": "https://salbaricollege.ac.in/Academic-Teachers-Details.php?encRequest=4b0b583bc9e17ec1e4421ec8350f0ba7c11e00921965594857b1733c8d4e0c9af0c6ad0c6b1aea6aaea6dc9bb669d6a1b2b64db0f488807ddeccc8147d83a484f8626873138fda789938a38d9f086f85",
+      "status": "ok",
+      "cache": "fb57941a65e1d763cd81.json"
+    }
+  ]
+}

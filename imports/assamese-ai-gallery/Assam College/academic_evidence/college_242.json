@@ -1,0 +1,46 @@
+{
+  "id": "242",
+  "college": "S.B.M.S. College",
+  "pages": [
+    {
+      "url": "https://sbmscollege.org/",
+      "status": "ok",
+      "cache": "42e882140b197ab42218.json"
+    },
+    {
+      "url": "https://sbmscollege.org/departments/",
+      "status": "ok",
+      "cache": "29902e3a95a5807c698b.json"
+    },
+    {
+      "url": "https://sbmscollege.org/wp-content/uploads/2026/09/academic_calendar_2026-2027.pdf",
+      "status": "ok",
+      "cache": "755548616463430a7f7c.json"
+    },
+    {
+      "url": "https://sbmscollege.org/admission/",
+      "status": "ok",
+      "cache": "4e502e57d4ec9335d35e.json"
+    },
+    {
+      "url": "https://sbmscollege.org/department-cos-pos/",
+      "status": "ok",
+      "cache": "2f628a245b6e49674a0f.json"
+    },
+    {
+      "url": "https://sbmscollege.org/academic-committee/",
+      "status": "ok",
+      "cache": "5f71412e75c0856e7af6.json"
+    },
+    {
+      "url": "https://sbmscollege.org/?cat=47",
+      "status": "ok",
+      "cache": "fbaa9fd8dc5a45368f67.json"
+    },
+    {
+      "url": "https://sbmscollege.org/#1723995889301-4dc637b2-dd39",
+      "status": "ok",
+      "cache": "9006f4cc4e615720465c.json"
+    }
+  ]
+}

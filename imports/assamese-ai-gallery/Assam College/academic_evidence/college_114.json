@@ -1,0 +1,46 @@
+{
+  "id": "114",
+  "college": "Silapathar Science College",
+  "pages": [
+    {
+      "url": "https://silapatharsciencecollege.ac.in/",
+      "status": "ok",
+      "cache": "575aa253aa6db8f24e6c.json"
+    },
+    {
+      "url": "https://silapatharsciencecollege.ac.in/data/page/prospectus-2025/",
+      "status": "ok",
+      "cache": "5e63cfddcfabea397e98.json"
+    },
+    {
+      "url": "https://silapatharsciencecollege.ac.in/uploads/notice/29092026_1790676880.pdf",
+      "status": "ok",
+      "cache": "c6f4924536a50dc12653.json"
+    },
+    {
+      "url": "https://silapatharsciencecollege.ac.in/uploads/files/MSc_Prospectus_2020.pdf",
+      "status": "ok",
+      "cache": "42dda2e17263ab58ceaa.json"
+    },
+    {
+      "url": "https://silapatharsciencecollege.ac.in/data/page/academic-calender-2019-20/",
+      "status": "ok",
+      "cache": "038872a6a8bfc8a90f2d.json"
+    },
+    {
+      "url": "https://silapatharsciencecollege.ac.in/data/page/m-sc-in-botany-and-zoology/",
+      "status": "ok",
+      "cache": "1956c851462670053ab5.json"
+    },
+    {
+      "url": "https://silapatharsciencecollege.ac.in/data/department/anthropology/",
+      "status": "ok",
+      "cache": "eeb65ada609842eb217b.json"
+    },
+    {
+      "url": "https://silapatharsciencecollege.ac.in/data/department/assamese/",
+      "status": "ok",
+      "cache": "acf4832210d0a8aa83af.json"
+    }
+  ]
+}

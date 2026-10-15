@@ -1,0 +1,36 @@
+{
+  "id": "44",
+  "college": "Barnagar College",
+  "pages": [
+    {
+      "url": "https://www.barnagarcollege.ac.in/",
+      "status": "ok",
+      "cache": "74d784c39a662ed25ada.json"
+    },
+    {
+      "url": "https://www.barnagarcollege.ac.in/departments.php",
+      "status": "ok",
+      "cache": "bc23d9aac697ff2b0f7f.json"
+    },
+    {
+      "url": "https://www.barnagarcollege.ac.in/upload/headnotice/1786188259.pdf",
+      "status": "ok",
+      "cache": "b0ea7a64f65556459775.json"
+    },
+    {
+      "url": "https://www.barnagarcollege.ac.in/upload/headnotice/1786188100.pdf",
+      "status": "ok",
+      "cache": "d8395c0e1b56dbb4073f.json"
+    },
+    {
+      "url": "https://www.barnagarcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "d4f78843d293121aae63.json"
+    },
+    {
+      "url": "https://www.barnagarcollege.ac.in/acalender.php",
+      "status": "ok",
+      "cache": "2527664b466fbb61f130.json"
+    }
+  ]
+}

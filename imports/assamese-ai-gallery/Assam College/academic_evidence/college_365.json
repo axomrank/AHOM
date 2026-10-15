@@ -1,0 +1,46 @@
+{
+  "id": "365",
+  "college": "Mazbat College",
+  "pages": [
+    {
+      "url": "https://mazbatcollege.in/",
+      "status": "ok",
+      "cache": "db53918c96320ff5b10d.json"
+    },
+    {
+      "url": "https://mazbatcollege.in/news-notification/Prospectus_2025.pdf",
+      "status": "ok",
+      "cache": "14df6fec95a42bacee20.json"
+    },
+    {
+      "url": "https://mazbatcollege.in/department/department-of-assamese.php",
+      "status": "ok",
+      "cache": "2f3dd88e013b2e7eb8d9.json"
+    },
+    {
+      "url": "https://mazbatcollege.in/department/department-of-bodo.php",
+      "status": "ok",
+      "cache": "4cdf1f2951afbd019ae8.json"
+    },
+    {
+      "url": "https://mazbatcollege.in/department/department-of-economic.php",
+      "status": "ok",
+      "cache": "0da7f0e075df6846f41f.json"
+    },
+    {
+      "url": "https://mazbatcollege.in/department/department-of-education.php",
+      "status": "ok",
+      "cache": "bf68cfaad1764a36c760.json"
+    },
+    {
+      "url": "https://mazbatcollege.in/department/department-of-english.php",
+      "status": "ok",
+      "cache": "322be1d68648fcedeb0d.json"
+    },
+    {
+      "url": "https://mazbatcollege.in/department/department-of-history.php",
+      "status": "ok",
+      "cache": "382af21b342ed5192384.json"
+    }
+  ]
+}

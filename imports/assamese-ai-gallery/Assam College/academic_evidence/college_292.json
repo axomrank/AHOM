@@ -1,0 +1,26 @@
+{
+  "id": "292",
+  "college": "Ghanakanta Baruah College",
+  "pages": [
+    {
+      "url": "https://gkbcollege.ac.in/",
+      "status": "ok",
+      "cache": "72795de789eaeda53dbe.json"
+    },
+    {
+      "url": "https://gkbcollege.ac.in/alldepartment/1/show",
+      "status": "ok",
+      "cache": "aa82c9adaf5c72cd64c0.json"
+    },
+    {
+      "url": "https://gkbcollege.ac.in/public/upload/Prospectus%202022-23.pdf",
+      "status": "ok",
+      "cache": "c8a9bc9678360f045a65.json"
+    },
+    {
+      "url": "https://gkbcollege.ac.in/alldepartment/1/show#kingster-mobile-menu",
+      "status": "ok",
+      "cache": "2e05c26fdd356b67c9d1.json"
+    }
+  ]
+}

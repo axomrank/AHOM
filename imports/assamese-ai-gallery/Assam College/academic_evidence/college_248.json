@@ -1,0 +1,31 @@
+{
+  "id": "248",
+  "college": "Eastern Karbi Anglong College",
+  "pages": [
+    {
+      "url": "https://www.ekac.in/",
+      "status": "ok",
+      "cache": "f0b2292290a627442fb6.json"
+    },
+    {
+      "url": "https://www.ekac.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "1566fac87598380073ad.json"
+    },
+    {
+      "url": "https://www.ekac.in/prospectus.php",
+      "status": "ok",
+      "cache": "7fc16e209207a33f35f8.json"
+    },
+    {
+      "url": "https://www.ekac.in/course_study.php",
+      "status": "ok",
+      "cache": "b41e4f7d87a6158c9aa3.json"
+    },
+    {
+      "url": "https://www.ekac.in/academic_calender.php",
+      "status": "ok",
+      "cache": "50b06b46054608d01c8a.json"
+    }
+  ]
+}

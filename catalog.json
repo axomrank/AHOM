@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "AHOM image library",
-    "count": 207,
+    "title": "AHOM & Assamese Heritage Library",
+    "count": 265,
     "source": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
     "dating_note": "Dates and descriptions are inherited from the repository catalogue, not independently historically verified. Approximate dates and ranges are retained. Unconfirmed scenes have no chronological sort year.",
     "image_note": "Illustrations are visual interpretations, not documentary photographs or evidence of historical appearance. Named figures are catalogue associations, not verified visual identifications.",
@@ -28,6 +28,10 @@
       "General Turbak": "Turbak",
       "Rebel Chief Ragha Moran": "Ragha Moran",
       "Manipur King Jai Singh": "Jai Singh"
+    },
+    "collections": {
+      "AHOM chronology": 207,
+      "Assamese AI gallery": 58
     }
   },
   "images": [
@@ -64,7 +68,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 1,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-001.webp"
+      "thumbnail": "thumbnails/AHOM-001.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-002",
@@ -99,7 +104,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 2,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-002.webp"
+      "thumbnail": "thumbnails/AHOM-002.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-003",
@@ -134,7 +140,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 3,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-003.webp"
+      "thumbnail": "thumbnails/AHOM-003.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-004",
@@ -169,7 +176,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 4,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-004.webp"
+      "thumbnail": "thumbnails/AHOM-004.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-006",
@@ -204,7 +212,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 5,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-006.webp"
+      "thumbnail": "thumbnails/AHOM-006.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-007",
@@ -239,7 +248,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 6,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-007.webp"
+      "thumbnail": "thumbnails/AHOM-007.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-008",
@@ -274,7 +284,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 7,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-008.webp"
+      "thumbnail": "thumbnails/AHOM-008.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-009",
@@ -308,7 +319,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 8,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-009.webp"
+      "thumbnail": "thumbnails/AHOM-009.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-010",
@@ -341,7 +353,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 9,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-010.webp"
+      "thumbnail": "thumbnails/AHOM-010.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-011",
@@ -374,7 +387,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 10,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-011.webp"
+      "thumbnail": "thumbnails/AHOM-011.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-012",
@@ -408,7 +422,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 11,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-012.webp"
+      "thumbnail": "thumbnails/AHOM-012.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-013",
@@ -441,7 +456,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 12,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-013.webp"
+      "thumbnail": "thumbnails/AHOM-013.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-014",
@@ -475,7 +491,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 13,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-014.webp"
+      "thumbnail": "thumbnails/AHOM-014.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-015",
@@ -510,7 +527,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 14,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-015.webp"
+      "thumbnail": "thumbnails/AHOM-015.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-016",
@@ -543,7 +561,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 15,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-016.webp"
+      "thumbnail": "thumbnails/AHOM-016.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-017",
@@ -576,7 +595,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 16,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-017.webp"
+      "thumbnail": "thumbnails/AHOM-017.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-019",
@@ -610,7 +630,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 17,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-019.webp"
+      "thumbnail": "thumbnails/AHOM-019.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-021",
@@ -645,7 +666,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 18,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-021.webp"
+      "thumbnail": "thumbnails/AHOM-021.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-022",
@@ -679,7 +701,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 19,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-022.webp"
+      "thumbnail": "thumbnails/AHOM-022.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-024",
@@ -713,7 +736,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 20,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-024.webp"
+      "thumbnail": "thumbnails/AHOM-024.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-026",
@@ -746,7 +770,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 21,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-026.webp"
+      "thumbnail": "thumbnails/AHOM-026.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-028",
@@ -779,7 +804,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 22,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-028.webp"
+      "thumbnail": "thumbnails/AHOM-028.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-030",
@@ -813,7 +839,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 23,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-030.webp"
+      "thumbnail": "thumbnails/AHOM-030.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-031",
@@ -846,7 +873,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 24,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-031.webp"
+      "thumbnail": "thumbnails/AHOM-031.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-032",
@@ -878,7 +906,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 25,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-032.webp"
+      "thumbnail": "thumbnails/AHOM-032.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-033",
@@ -911,7 +940,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 26,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-033.webp"
+      "thumbnail": "thumbnails/AHOM-033.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-034",
@@ -944,7 +974,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 27,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-034.webp"
+      "thumbnail": "thumbnails/AHOM-034.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-035",
@@ -977,7 +1008,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 28,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-035.webp"
+      "thumbnail": "thumbnails/AHOM-035.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-036",
@@ -1010,7 +1042,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 29,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-036.webp"
+      "thumbnail": "thumbnails/AHOM-036.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-037",
@@ -1043,7 +1076,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 30,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-037.webp"
+      "thumbnail": "thumbnails/AHOM-037.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-038",
@@ -1077,7 +1111,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 31,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-038.webp"
+      "thumbnail": "thumbnails/AHOM-038.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-039",
@@ -1110,7 +1145,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 32,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-039.webp"
+      "thumbnail": "thumbnails/AHOM-039.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-040",
@@ -1143,7 +1179,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 33,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-040.webp"
+      "thumbnail": "thumbnails/AHOM-040.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-041",
@@ -1177,7 +1214,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 34,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-041.webp"
+      "thumbnail": "thumbnails/AHOM-041.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-044",
@@ -1211,7 +1249,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 35,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-044.webp"
+      "thumbnail": "thumbnails/AHOM-044.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-045",
@@ -1245,7 +1284,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 36,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-045.webp"
+      "thumbnail": "thumbnails/AHOM-045.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-046",
@@ -1279,7 +1319,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 37,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-046.webp"
+      "thumbnail": "thumbnails/AHOM-046.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-047",
@@ -1313,7 +1354,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 38,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-047.webp"
+      "thumbnail": "thumbnails/AHOM-047.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-048",
@@ -1348,7 +1390,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 39,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-048.webp"
+      "thumbnail": "thumbnails/AHOM-048.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-049",
@@ -1381,7 +1424,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 40,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-049.webp"
+      "thumbnail": "thumbnails/AHOM-049.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-052",
@@ -1415,7 +1459,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 41,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-052.webp"
+      "thumbnail": "thumbnails/AHOM-052.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-053",
@@ -1448,7 +1493,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 42,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-053.webp"
+      "thumbnail": "thumbnails/AHOM-053.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-054",
@@ -1481,7 +1527,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 43,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-054.webp"
+      "thumbnail": "thumbnails/AHOM-054.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-055",
@@ -1514,7 +1561,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 44,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-055.webp"
+      "thumbnail": "thumbnails/AHOM-055.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-056",
@@ -1549,7 +1597,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 45,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-056.webp"
+      "thumbnail": "thumbnails/AHOM-056.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-058",
@@ -1583,7 +1632,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 46,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-058.webp"
+      "thumbnail": "thumbnails/AHOM-058.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-059",
@@ -1616,7 +1666,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 47,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-059.webp"
+      "thumbnail": "thumbnails/AHOM-059.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-060",
@@ -1649,7 +1700,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 48,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-060.webp"
+      "thumbnail": "thumbnails/AHOM-060.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-061",
@@ -1682,7 +1734,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 49,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-061.webp"
+      "thumbnail": "thumbnails/AHOM-061.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-062",
@@ -1715,7 +1768,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 50,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-062.webp"
+      "thumbnail": "thumbnails/AHOM-062.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-063",
@@ -1749,7 +1803,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 51,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-063.webp"
+      "thumbnail": "thumbnails/AHOM-063.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-065",
@@ -1783,7 +1838,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 52,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-065.webp"
+      "thumbnail": "thumbnails/AHOM-065.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-066",
@@ -1817,7 +1873,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 53,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-066.webp"
+      "thumbnail": "thumbnails/AHOM-066.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-067",
@@ -1850,7 +1907,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 54,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-067.webp"
+      "thumbnail": "thumbnails/AHOM-067.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-068",
@@ -1883,7 +1941,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 55,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-068.webp"
+      "thumbnail": "thumbnails/AHOM-068.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-069",
@@ -1917,7 +1976,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 56,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-069.webp"
+      "thumbnail": "thumbnails/AHOM-069.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-070",
@@ -1951,7 +2011,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 57,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-070.webp"
+      "thumbnail": "thumbnails/AHOM-070.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-072",
@@ -1984,7 +2045,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 58,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-072.webp"
+      "thumbnail": "thumbnails/AHOM-072.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-073",
@@ -2017,7 +2079,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 59,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-073.webp"
+      "thumbnail": "thumbnails/AHOM-073.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-074",
@@ -2050,7 +2113,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 60,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-074.webp"
+      "thumbnail": "thumbnails/AHOM-074.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-075",
@@ -2082,7 +2146,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 61,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-075.webp"
+      "thumbnail": "thumbnails/AHOM-075.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-076",
@@ -2114,7 +2179,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 62,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-076.webp"
+      "thumbnail": "thumbnails/AHOM-076.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-077",
@@ -2146,7 +2212,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 63,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-077.webp"
+      "thumbnail": "thumbnails/AHOM-077.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-078",
@@ -2178,7 +2245,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 64,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-078.webp"
+      "thumbnail": "thumbnails/AHOM-078.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-079",
@@ -2211,7 +2279,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 65,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-079.webp"
+      "thumbnail": "thumbnails/AHOM-079.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-080",
@@ -2244,7 +2313,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 66,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-080.webp"
+      "thumbnail": "thumbnails/AHOM-080.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-081",
@@ -2277,7 +2347,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 67,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-081.webp"
+      "thumbnail": "thumbnails/AHOM-081.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-082",
@@ -2311,7 +2382,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 68,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-082.webp"
+      "thumbnail": "thumbnails/AHOM-082.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-083",
@@ -2344,7 +2416,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 69,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-083.webp"
+      "thumbnail": "thumbnails/AHOM-083.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-084",
@@ -2377,7 +2450,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 70,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-084.webp"
+      "thumbnail": "thumbnails/AHOM-084.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-086",
@@ -2410,7 +2484,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 71,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-086.webp"
+      "thumbnail": "thumbnails/AHOM-086.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-087",
@@ -2443,7 +2518,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 72,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-087.webp"
+      "thumbnail": "thumbnails/AHOM-087.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-088",
@@ -2476,7 +2552,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 73,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-088.webp"
+      "thumbnail": "thumbnails/AHOM-088.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-089",
@@ -2510,7 +2587,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 74,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-089.webp"
+      "thumbnail": "thumbnails/AHOM-089.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-090",
@@ -2544,7 +2622,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 75,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-090.webp"
+      "thumbnail": "thumbnails/AHOM-090.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-091",
@@ -2578,7 +2657,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 76,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-091.webp"
+      "thumbnail": "thumbnails/AHOM-091.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-092",
@@ -2611,7 +2691,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 77,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-092.webp"
+      "thumbnail": "thumbnails/AHOM-092.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-093",
@@ -2644,7 +2725,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 78,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-093.webp"
+      "thumbnail": "thumbnails/AHOM-093.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-094",
@@ -2677,7 +2759,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 79,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-094.webp"
+      "thumbnail": "thumbnails/AHOM-094.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-095",
@@ -2711,7 +2794,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 80,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-095.webp"
+      "thumbnail": "thumbnails/AHOM-095.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-096",
@@ -2745,7 +2829,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 81,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-096.webp"
+      "thumbnail": "thumbnails/AHOM-096.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-097",
@@ -2777,7 +2862,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 82,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-097.webp"
+      "thumbnail": "thumbnails/AHOM-097.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-099",
@@ -2812,7 +2898,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 83,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-099.webp"
+      "thumbnail": "thumbnails/AHOM-099.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-100",
@@ -2847,7 +2934,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 84,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-100.webp"
+      "thumbnail": "thumbnails/AHOM-100.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-101",
@@ -2882,7 +2970,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 85,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-101.webp"
+      "thumbnail": "thumbnails/AHOM-101.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-107",
@@ -2914,7 +3003,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 86,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-107.webp"
+      "thumbnail": "thumbnails/AHOM-107.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-108",
@@ -2947,7 +3037,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 87,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-108.webp"
+      "thumbnail": "thumbnails/AHOM-108.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-109",
@@ -2980,7 +3071,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 88,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-109.webp"
+      "thumbnail": "thumbnails/AHOM-109.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-110",
@@ -3013,7 +3105,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 89,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-110.webp"
+      "thumbnail": "thumbnails/AHOM-110.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-111",
@@ -3045,7 +3138,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 90,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-111.webp"
+      "thumbnail": "thumbnails/AHOM-111.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-112",
@@ -3077,7 +3171,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 91,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-112.webp"
+      "thumbnail": "thumbnails/AHOM-112.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-113",
@@ -3112,7 +3207,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 92,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-113.webp"
+      "thumbnail": "thumbnails/AHOM-113.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-114",
@@ -3146,7 +3242,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 93,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-114.webp"
+      "thumbnail": "thumbnails/AHOM-114.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-115",
@@ -3178,7 +3275,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 94,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-115.webp"
+      "thumbnail": "thumbnails/AHOM-115.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-116",
@@ -3210,7 +3308,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 95,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-116.webp"
+      "thumbnail": "thumbnails/AHOM-116.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-117",
@@ -3242,7 +3341,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 96,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-117.webp"
+      "thumbnail": "thumbnails/AHOM-117.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-118",
@@ -3275,7 +3375,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 97,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-118.webp"
+      "thumbnail": "thumbnails/AHOM-118.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-119",
@@ -3310,7 +3411,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 98,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-119.webp"
+      "thumbnail": "thumbnails/AHOM-119.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-120",
@@ -3345,7 +3447,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 99,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-120.webp"
+      "thumbnail": "thumbnails/AHOM-120.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-121",
@@ -3379,7 +3482,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 100,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-121.webp"
+      "thumbnail": "thumbnails/AHOM-121.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-122",
@@ -3412,7 +3516,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 101,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-122.webp"
+      "thumbnail": "thumbnails/AHOM-122.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-123",
@@ -3444,7 +3549,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 102,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-123.webp"
+      "thumbnail": "thumbnails/AHOM-123.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-124",
@@ -3477,7 +3583,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 103,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-124.webp"
+      "thumbnail": "thumbnails/AHOM-124.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-125",
@@ -3509,7 +3616,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 104,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-125.webp"
+      "thumbnail": "thumbnails/AHOM-125.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-127",
@@ -3542,7 +3650,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 105,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-127.webp"
+      "thumbnail": "thumbnails/AHOM-127.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-128",
@@ -3575,7 +3684,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 106,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-128.webp"
+      "thumbnail": "thumbnails/AHOM-128.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-129",
@@ -3608,7 +3718,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 107,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-129.webp"
+      "thumbnail": "thumbnails/AHOM-129.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-130",
@@ -3643,7 +3754,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 108,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-130.webp"
+      "thumbnail": "thumbnails/AHOM-130.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-131",
@@ -3678,7 +3790,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 109,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-131.webp"
+      "thumbnail": "thumbnails/AHOM-131.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-133",
@@ -3712,7 +3825,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 110,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-133.webp"
+      "thumbnail": "thumbnails/AHOM-133.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-134",
@@ -3746,7 +3860,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 111,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-134.webp"
+      "thumbnail": "thumbnails/AHOM-134.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-135",
@@ -3781,7 +3896,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 112,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-135.webp"
+      "thumbnail": "thumbnails/AHOM-135.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-136",
@@ -3815,7 +3931,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 113,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-136.webp"
+      "thumbnail": "thumbnails/AHOM-136.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-138",
@@ -3849,7 +3966,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 114,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-138.webp"
+      "thumbnail": "thumbnails/AHOM-138.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-139",
@@ -3883,7 +4001,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 115,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-139.webp"
+      "thumbnail": "thumbnails/AHOM-139.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-141",
@@ -3916,7 +4035,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 116,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-141.webp"
+      "thumbnail": "thumbnails/AHOM-141.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-142",
@@ -3949,7 +4069,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 117,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-142.webp"
+      "thumbnail": "thumbnails/AHOM-142.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-144",
@@ -3982,7 +4103,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 118,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-144.webp"
+      "thumbnail": "thumbnails/AHOM-144.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-145",
@@ -4015,7 +4137,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 119,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-145.webp"
+      "thumbnail": "thumbnails/AHOM-145.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-146",
@@ -4048,7 +4171,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 120,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-146.webp"
+      "thumbnail": "thumbnails/AHOM-146.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-147",
@@ -4082,7 +4206,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 121,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-147.webp"
+      "thumbnail": "thumbnails/AHOM-147.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-148",
@@ -4116,7 +4241,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 122,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-148.webp"
+      "thumbnail": "thumbnails/AHOM-148.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-149",
@@ -4151,7 +4277,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 123,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-149.webp"
+      "thumbnail": "thumbnails/AHOM-149.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-150",
@@ -4186,7 +4313,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 124,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-150.webp"
+      "thumbnail": "thumbnails/AHOM-150.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-151",
@@ -4219,7 +4347,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 125,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-151.webp"
+      "thumbnail": "thumbnails/AHOM-151.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-152",
@@ -4252,7 +4381,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 126,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-152.webp"
+      "thumbnail": "thumbnails/AHOM-152.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-153",
@@ -4286,7 +4416,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 127,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-153.webp"
+      "thumbnail": "thumbnails/AHOM-153.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-154",
@@ -4320,7 +4451,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 128,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-154.webp"
+      "thumbnail": "thumbnails/AHOM-154.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-155",
@@ -4354,7 +4486,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 129,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-155.webp"
+      "thumbnail": "thumbnails/AHOM-155.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-157",
@@ -4388,7 +4521,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 130,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-157.webp"
+      "thumbnail": "thumbnails/AHOM-157.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-158",
@@ -4422,7 +4556,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 131,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-158.webp"
+      "thumbnail": "thumbnails/AHOM-158.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-159",
@@ -4455,7 +4590,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 132,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-159.webp"
+      "thumbnail": "thumbnails/AHOM-159.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-160",
@@ -4489,7 +4625,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 133,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-160.webp"
+      "thumbnail": "thumbnails/AHOM-160.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-161",
@@ -4523,7 +4660,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 134,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-161.webp"
+      "thumbnail": "thumbnails/AHOM-161.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-162",
@@ -4556,7 +4694,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 135,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-162.webp"
+      "thumbnail": "thumbnails/AHOM-162.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-163",
@@ -4589,7 +4728,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 136,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-163.webp"
+      "thumbnail": "thumbnails/AHOM-163.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-164",
@@ -4622,7 +4762,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 137,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-164.webp"
+      "thumbnail": "thumbnails/AHOM-164.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-165",
@@ -4655,7 +4796,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 138,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-165.webp"
+      "thumbnail": "thumbnails/AHOM-165.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-166",
@@ -4689,7 +4831,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 139,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-166.webp"
+      "thumbnail": "thumbnails/AHOM-166.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-167",
@@ -4722,7 +4865,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 140,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-167.webp"
+      "thumbnail": "thumbnails/AHOM-167.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-168",
@@ -4755,7 +4899,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 141,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-168.webp"
+      "thumbnail": "thumbnails/AHOM-168.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-169",
@@ -4789,7 +4934,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 142,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-169.webp"
+      "thumbnail": "thumbnails/AHOM-169.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-170",
@@ -4822,7 +4968,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 143,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-170.webp"
+      "thumbnail": "thumbnails/AHOM-170.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-171",
@@ -4855,7 +5002,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 144,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-171.webp"
+      "thumbnail": "thumbnails/AHOM-171.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-173",
@@ -4888,7 +5036,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 145,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-173.webp"
+      "thumbnail": "thumbnails/AHOM-173.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-174",
@@ -4922,7 +5071,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 146,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-174.webp"
+      "thumbnail": "thumbnails/AHOM-174.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-175",
@@ -4955,7 +5105,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 147,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-175.webp"
+      "thumbnail": "thumbnails/AHOM-175.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-176",
@@ -4989,7 +5140,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 148,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-176.webp"
+      "thumbnail": "thumbnails/AHOM-176.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-177",
@@ -5023,7 +5175,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 149,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-177.webp"
+      "thumbnail": "thumbnails/AHOM-177.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-178",
@@ -5056,7 +5209,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 150,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-178.webp"
+      "thumbnail": "thumbnails/AHOM-178.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-179",
@@ -5089,7 +5243,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 151,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-179.webp"
+      "thumbnail": "thumbnails/AHOM-179.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-180",
@@ -5123,7 +5278,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 152,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-180.webp"
+      "thumbnail": "thumbnails/AHOM-180.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-181",
@@ -5155,7 +5311,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 153,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-181.webp"
+      "thumbnail": "thumbnails/AHOM-181.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-182",
@@ -5187,7 +5344,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 154,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-182.webp"
+      "thumbnail": "thumbnails/AHOM-182.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-183",
@@ -5220,7 +5378,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 155,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-183.webp"
+      "thumbnail": "thumbnails/AHOM-183.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-184",
@@ -5253,7 +5412,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 156,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-184.webp"
+      "thumbnail": "thumbnails/AHOM-184.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-185",
@@ -5287,7 +5447,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 157,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-185.webp"
+      "thumbnail": "thumbnails/AHOM-185.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-186",
@@ -5321,7 +5482,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 158,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-186.webp"
+      "thumbnail": "thumbnails/AHOM-186.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-188",
@@ -5355,7 +5517,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 159,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-188.webp"
+      "thumbnail": "thumbnails/AHOM-188.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-189",
@@ -5389,7 +5552,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 160,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-189.webp"
+      "thumbnail": "thumbnails/AHOM-189.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-190",
@@ -5423,7 +5587,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 161,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-190.webp"
+      "thumbnail": "thumbnails/AHOM-190.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-191",
@@ -5457,7 +5622,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 162,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-191.webp"
+      "thumbnail": "thumbnails/AHOM-191.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-192",
@@ -5491,7 +5657,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 163,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-192.webp"
+      "thumbnail": "thumbnails/AHOM-192.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-193",
@@ -5524,7 +5691,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 164,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-193.webp"
+      "thumbnail": "thumbnails/AHOM-193.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-194",
@@ -5558,7 +5726,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 165,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-194.webp"
+      "thumbnail": "thumbnails/AHOM-194.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-195",
@@ -5592,7 +5761,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 166,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-195.webp"
+      "thumbnail": "thumbnails/AHOM-195.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-196",
@@ -5626,7 +5796,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 167,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-196.webp"
+      "thumbnail": "thumbnails/AHOM-196.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-197",
@@ -5659,7 +5830,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 168,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-197.webp"
+      "thumbnail": "thumbnails/AHOM-197.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-198",
@@ -5693,7 +5865,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 169,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-198.webp"
+      "thumbnail": "thumbnails/AHOM-198.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-199",
@@ -5726,7 +5899,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 170,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-199.webp"
+      "thumbnail": "thumbnails/AHOM-199.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-200",
@@ -5759,7 +5933,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 171,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-200.webp"
+      "thumbnail": "thumbnails/AHOM-200.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-201",
@@ -5793,7 +5968,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 172,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-201.webp"
+      "thumbnail": "thumbnails/AHOM-201.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-202",
@@ -5827,7 +6003,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 173,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-202.webp"
+      "thumbnail": "thumbnails/AHOM-202.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-203",
@@ -5861,7 +6038,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 174,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-203.webp"
+      "thumbnail": "thumbnails/AHOM-203.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-204",
@@ -5895,7 +6073,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 175,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-204.webp"
+      "thumbnail": "thumbnails/AHOM-204.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-205",
@@ -5929,7 +6108,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 176,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-205.webp"
+      "thumbnail": "thumbnails/AHOM-205.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-206",
@@ -5963,7 +6143,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 177,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-206.webp"
+      "thumbnail": "thumbnails/AHOM-206.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-207",
@@ -5997,7 +6178,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 178,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-207.webp"
+      "thumbnail": "thumbnails/AHOM-207.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-208",
@@ -6031,7 +6213,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 179,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-208.webp"
+      "thumbnail": "thumbnails/AHOM-208.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-209",
@@ -6064,7 +6247,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 180,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-209.webp"
+      "thumbnail": "thumbnails/AHOM-209.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-210",
@@ -6099,7 +6283,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 181,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-210.webp"
+      "thumbnail": "thumbnails/AHOM-210.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-212",
@@ -6132,7 +6317,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 182,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-212.webp"
+      "thumbnail": "thumbnails/AHOM-212.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-213",
@@ -6165,7 +6351,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 183,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-213.webp"
+      "thumbnail": "thumbnails/AHOM-213.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-214",
@@ -6199,7 +6386,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 184,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-214.webp"
+      "thumbnail": "thumbnails/AHOM-214.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-215",
@@ -6234,7 +6422,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 185,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-215.webp"
+      "thumbnail": "thumbnails/AHOM-215.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-217",
@@ -6269,7 +6458,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 186,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-217.webp"
+      "thumbnail": "thumbnails/AHOM-217.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-218",
@@ -6303,7 +6493,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 187,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-218.webp"
+      "thumbnail": "thumbnails/AHOM-218.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-219",
@@ -6337,7 +6528,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 188,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-219.webp"
+      "thumbnail": "thumbnails/AHOM-219.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-220",
@@ -6372,7 +6564,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 189,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-220.webp"
+      "thumbnail": "thumbnails/AHOM-220.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-221",
@@ -6405,7 +6598,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 190,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-221.webp"
+      "thumbnail": "thumbnails/AHOM-221.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-222",
@@ -6439,7 +6633,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 191,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-222.webp"
+      "thumbnail": "thumbnails/AHOM-222.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-223",
@@ -6473,7 +6668,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 192,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-223.webp"
+      "thumbnail": "thumbnails/AHOM-223.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-224",
@@ -6508,7 +6704,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 193,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-224.webp"
+      "thumbnail": "thumbnails/AHOM-224.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-225",
@@ -6542,7 +6739,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 194,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-225.webp"
+      "thumbnail": "thumbnails/AHOM-225.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-228",
@@ -6575,7 +6773,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 195,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-228.webp"
+      "thumbnail": "thumbnails/AHOM-228.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-229",
@@ -6608,7 +6807,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 196,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-229.webp"
+      "thumbnail": "thumbnails/AHOM-229.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-230",
@@ -6642,7 +6842,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 197,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-230.webp"
+      "thumbnail": "thumbnails/AHOM-230.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-232",
@@ -6676,7 +6877,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 198,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-232.webp"
+      "thumbnail": "thumbnails/AHOM-232.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-233",
@@ -6709,7 +6911,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 199,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-233.webp"
+      "thumbnail": "thumbnails/AHOM-233.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-042",
@@ -6742,7 +6945,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 200,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-042.webp"
+      "thumbnail": "thumbnails/AHOM-042.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-043",
@@ -6775,7 +6979,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 201,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-043.webp"
+      "thumbnail": "thumbnails/AHOM-043.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-102",
@@ -6808,7 +7013,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 202,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-102.webp"
+      "thumbnail": "thumbnails/AHOM-102.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-103",
@@ -6841,7 +7047,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 203,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-103.webp"
+      "thumbnail": "thumbnails/AHOM-103.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-104",
@@ -6874,7 +7081,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 204,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-104.webp"
+      "thumbnail": "thumbnails/AHOM-104.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-105",
@@ -6908,7 +7116,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 205,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-105.webp"
+      "thumbnail": "thumbnails/AHOM-105.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-106",
@@ -6941,7 +7150,8 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 206,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-106.webp"
+      "thumbnail": "thumbnails/AHOM-106.webp",
+      "collection": "AHOM chronology"
     },
     {
       "id": "AHOM-126",
@@ -6975,7 +7185,2038 @@
       "source_url": "https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv",
       "browse_order": 207,
       "identical_files": [],
-      "thumbnail": "thumbnails/AHOM-126.webp"
+      "thumbnail": "thumbnails/AHOM-126.webp",
+      "collection": "AHOM chronology"
+    },
+    {
+      "id": "sukapha-portrait",
+      "file": "imports/assamese-ai-gallery/images/history-and-royalty/sukapha-face-closeup.png",
+      "filename": "sukapha-face-closeup.png",
+      "event": "Chaolung Sukapha — Close-up Portrait",
+      "description": "Artistic portrait of Chaolung Sukapha, the visionary 13th-century Tai prince who crossed the Patkai mountains to establish the 600-year-long Ahom Kingdom in the Brahmaputra Valley.",
+      "category": "History & Royalty",
+      "category_key": "history-and-royalty",
+      "ruler": "Chaolung Sukapha",
+      "figures": [
+        "Chaolung Sukapha"
+      ],
+      "places": [],
+      "source_tags": [
+        "Ahom",
+        "Sukapha",
+        "King",
+        "Portrait",
+        "History",
+        "Founder"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · History & Royalty",
+      "variant": "Artwork 1",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "7f24ee2b1bdb28eca75f55fec529d8ff8e3f549119697293bc2d3b5bf52dd616",
+      "browse_order": 208,
+      "source_order": 1,
+      "identical_files": [],
+      "thumbnail": "thumbnails/sukapha-portrait.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "sukapha-throne-side",
+      "file": "imports/assamese-ai-gallery/images/history-and-royalty/sukapha-on-throne-side.png",
+      "filename": "sukapha-on-throne-side.png",
+      "event": "Chaolung Sukapha on Royal Throne (Profile)",
+      "description": "Profile view of Chaolung Sukapha seated on the intricately carved Ahom royal throne, adorned in royal regalia.",
+      "category": "History & Royalty",
+      "category_key": "history-and-royalty",
+      "ruler": "Chaolung Sukapha",
+      "figures": [
+        "Chaolung Sukapha"
+      ],
+      "places": [],
+      "source_tags": [
+        "Ahom",
+        "Sukapha",
+        "Throne",
+        "Royalty",
+        "Profile"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · History & Royalty",
+      "variant": "Artwork 2",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "af51d7f0a38a18a5eee5b9f9efbb638fda12dbfe0d420db62fa60953ab859443",
+      "browse_order": 209,
+      "source_order": 2,
+      "identical_files": [],
+      "thumbnail": "thumbnails/sukapha-throne-side.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "sukapha-throne-standing",
+      "file": "imports/assamese-ai-gallery/images/history-and-royalty/sukapha-royal-throne-standing.png",
+      "filename": "sukapha-royal-throne-standing.png",
+      "event": "Chaolung Sukapha with Royal Throne",
+      "description": "Chaolung Sukapha standing with majesty beside the grand carved wooden throne of the Ahom court.",
+      "category": "History & Royalty",
+      "category_key": "history-and-royalty",
+      "ruler": "Chaolung Sukapha",
+      "figures": [
+        "Chaolung Sukapha"
+      ],
+      "places": [],
+      "source_tags": [
+        "Ahom",
+        "Sukapha",
+        "Throne",
+        "Regal",
+        "Court"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · History & Royalty",
+      "variant": "Artwork 3",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "d8fb898b9dbc9aeefb273f209e0b4e94b3c582db1a83d7d4b4b65154c85e6894",
+      "browse_order": 210,
+      "source_order": 3,
+      "identical_files": [],
+      "thumbnail": "thumbnails/sukapha-throne-standing.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "sukapha-patkai-jungle",
+      "file": "imports/assamese-ai-gallery/images/history-and-royalty/sukapha-jungle-expedition.png",
+      "filename": "sukapha-jungle-expedition.png",
+      "event": "Chaolung Sukapha Patkai Expedition",
+      "description": "Sukapha leading his soldiers and followers through the dense rainforests of the Patkai mountain pass into Assam (1228 CE).",
+      "category": "History & Royalty",
+      "category_key": "history-and-royalty",
+      "ruler": "Chaolung Sukapha",
+      "figures": [
+        "Chaolung Sukapha"
+      ],
+      "places": [],
+      "source_tags": [
+        "Sukapha",
+        "Patkai",
+        "Migration",
+        "Expedition",
+        "Rainforest"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · History & Royalty",
+      "variant": "Artwork 4",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "aa3640a7c9e45ce0cc297db746d3c4957d1e1e8130f4db8cd7688ff60b99ed21",
+      "browse_order": 211,
+      "source_order": 4,
+      "identical_files": [],
+      "thumbnail": "thumbnails/sukapha-patkai-jungle.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "sukapha-brahmaputra-river",
+      "file": "imports/assamese-ai-gallery/images/history-and-royalty/sukapha-brahmaputra-riverbank.png",
+      "filename": "sukapha-brahmaputra-riverbank.png",
+      "event": "Chaolung Sukapha by the Brahmaputra",
+      "description": "Chaolung Sukapha surveying the majestic expanses and fertile banks of the Luit / Brahmaputra river.",
+      "category": "History & Royalty",
+      "category_key": "history-and-royalty",
+      "ruler": "Chaolung Sukapha",
+      "figures": [
+        "Chaolung Sukapha"
+      ],
+      "places": [],
+      "source_tags": [
+        "Sukapha",
+        "Brahmaputra",
+        "River",
+        "Expedition",
+        "Borders"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · History & Royalty",
+      "variant": "Artwork 5",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "1ce8c332fded47b149f085400ea31fee5885542d36bb50d9d03c1b58de6a8afa",
+      "browse_order": 212,
+      "source_order": 5,
+      "identical_files": [],
+      "thumbnail": "thumbnails/sukapha-brahmaputra-river.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "ahom-noble-warrior",
+      "file": "imports/assamese-ai-gallery/images/history-and-royalty/ahom-noble-warrior.png",
+      "filename": "ahom-noble-warrior.png",
+      "event": "Ahom Warrior & Noble Dignitary",
+      "description": "Artistic visualization of an Ahom military commander and nobleman in ceremonial headdress and traditional attire.",
+      "category": "History & Royalty",
+      "category_key": "history-and-royalty",
+      "ruler": "Ahom noble warrior",
+      "figures": [
+        "Ahom noble warrior"
+      ],
+      "places": [],
+      "source_tags": [
+        "Ahom",
+        "Warrior",
+        "Noble",
+        "Attire",
+        "Armor"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · History & Royalty",
+      "variant": "Artwork 6",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "35903dd85b1e0eed68bd305ccc7d4b0f52eade32ea928fed32213d9b05c90a26",
+      "browse_order": 213,
+      "source_order": 6,
+      "identical_files": [],
+      "thumbnail": "thumbnails/ahom-noble-warrior.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "patra-mantri-council",
+      "file": "imports/assamese-ai-gallery/images/history-and-royalty/borgohain-burhagohain-patra-mantri.png",
+      "filename": "borgohain-burhagohain-patra-mantri.png",
+      "event": "The Patra Mantris (Borgohain & Burhagohain)",
+      "description": "Illustration representing the legendary dual executive councils and grand ministers who governed alongside the Ahom Swargadeos.",
+      "category": "History & Royalty",
+      "category_key": "history-and-royalty",
+      "ruler": "Patra Mantri council",
+      "figures": [
+        "Patra Mantri council"
+      ],
+      "places": [],
+      "source_tags": [
+        "Ahom",
+        "Ministers",
+        "Borgohain",
+        "Burhagohain",
+        "Administration",
+        "Patra Mantri"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · History & Royalty",
+      "variant": "Artwork 7",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "b326a4f7f0d40058d3573a2885e234163db752c1602df9f33540ddd493483425",
+      "browse_order": 214,
+      "source_order": 7,
+      "identical_files": [],
+      "thumbnail": "thumbnails/patra-mantri-council.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "parbatia-gohain-1",
+      "file": "imports/assamese-ai-gallery/images/history-and-royalty/parbatia-gohain-1.png",
+      "filename": "parbatia-gohain-1.png",
+      "event": "Parbatia Gohain (Ahom Noble)",
+      "description": "Artistic depiction of Parbatia Gohain, prominent Ahom noble commander from the mountain frontier administration.",
+      "category": "History & Royalty",
+      "category_key": "history-and-royalty",
+      "ruler": "Parbatia Gohain",
+      "figures": [
+        "Parbatia Gohain"
+      ],
+      "places": [],
+      "source_tags": [
+        "Ahom",
+        "Gohain",
+        "Noble",
+        "History",
+        "Frontier"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · History & Royalty",
+      "variant": "Artwork 8",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "6ab0943d55e9a3f01f85633b63072f4fdf943fb391212f106ed39740cd9caffb",
+      "browse_order": 215,
+      "source_order": 8,
+      "identical_files": [],
+      "thumbnail": "thumbnails/parbatia-gohain-1.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "parbatia-gohain-2",
+      "file": "imports/assamese-ai-gallery/images/history-and-royalty/parbatia-gohain-2.png",
+      "filename": "parbatia-gohain-2.png",
+      "event": "Parbatia Gohain (Alternative Study)",
+      "description": "Alternative artistic visualization of Parbatia Gohain in classical Ahom aristocratic attire.",
+      "category": "History & Royalty",
+      "category_key": "history-and-royalty",
+      "ruler": "Parbatia Gohain",
+      "figures": [
+        "Parbatia Gohain"
+      ],
+      "places": [],
+      "source_tags": [
+        "Ahom",
+        "Gohain",
+        "Noble",
+        "Aristocracy"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · History & Royalty",
+      "variant": "Artwork 9",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "7917727903a4eb5cf7bff3accb5e849b232bc88c5bd97079d2f6e0e415cdb6ae",
+      "browse_order": 216,
+      "source_order": 9,
+      "identical_files": [],
+      "thumbnail": "thumbnails/parbatia-gohain-2.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "sati-sadhani-heroic",
+      "file": "imports/assamese-ai-gallery/images/history-and-royalty/sati-sadhani-heroic-queen.png",
+      "filename": "sati-sadhani-heroic-queen.png",
+      "event": "Birangana Sati Sadhani (Heroic Queen)",
+      "description": "The legendary last Queen of the Chutia dynasty, remembered for her indomitable spirit, valor, and ultimate sacrifice on Chandragiri hills.",
+      "category": "History & Royalty",
+      "category_key": "history-and-royalty",
+      "ruler": "Birangana Sati Sadhani",
+      "figures": [
+        "Birangana Sati Sadhani"
+      ],
+      "places": [],
+      "source_tags": [
+        "Chutia",
+        "Sati Sadhani",
+        "Queen",
+        "Courage",
+        "Heroine"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · History & Royalty",
+      "variant": "Artwork 10",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "9ff4ffb15e8dd72419b5d2c24358cf865d37207598c6cdf3a9624f1a82d47fcb",
+      "browse_order": 217,
+      "source_order": 10,
+      "identical_files": [],
+      "thumbnail": "thumbnails/sati-sadhani-heroic.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "sati-sadhani-warrior",
+      "file": "imports/assamese-ai-gallery/images/history-and-royalty/sati-sadhani-warrior.png",
+      "filename": "sati-sadhani-warrior.png",
+      "event": "Birangana Sati Sadhani (Warrior Stance)",
+      "description": "Artistic depiction of Queen Sadhani standing fiercely in defence of her kingdom and heritage.",
+      "category": "History & Royalty",
+      "category_key": "history-and-royalty",
+      "ruler": "Birangana Sati Sadhani",
+      "figures": [
+        "Birangana Sati Sadhani"
+      ],
+      "places": [],
+      "source_tags": [
+        "Chutia",
+        "Sati Sadhani",
+        "Warrior",
+        "Valor",
+        "Legend"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · History & Royalty",
+      "variant": "Artwork 11",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "4f017b298af63a7c1066712ef246890dfa30459b63da4c198b12b2e2a1ad08e2",
+      "browse_order": 218,
+      "source_order": 11,
+      "identical_files": [],
+      "thumbnail": "thumbnails/sati-sadhani-warrior.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "japi-pindha-bhoot-1",
+      "file": "imports/assamese-ai-gallery/images/folklore-and-legends/japi-pindha-bhoot-front.png",
+      "filename": "japi-pindha-bhoot-front.png",
+      "event": "Japi Pindha Bhoot (The Japi-Clad Spirit)",
+      "description": "Assamese rural folklore spirit famous in village tales — a mysterious spectral figure wandering misty paddy fields wearing a broad straw Japi.",
+      "category": "Folklore & Legends",
+      "category_key": "folklore-and-legends",
+      "ruler": "Japi Pindha Bhoot",
+      "figures": [
+        "Japi Pindha Bhoot"
+      ],
+      "places": [],
+      "source_tags": [
+        "Folklore",
+        "Ghost",
+        "Japi",
+        "Mythology",
+        "Assam Ghost",
+        "Supernatural"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Folklore & Legends",
+      "variant": "Artwork 12",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "6c268afe5b2d789d90219da1cdb6c16aaa73fb74ba9f8679ffef975498b04271",
+      "browse_order": 219,
+      "source_order": 12,
+      "identical_files": [],
+      "thumbnail": "thumbnails/japi-pindha-bhoot-1.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "japi-pindha-bhoot-2",
+      "file": "imports/assamese-ai-gallery/images/folklore-and-legends/japi-pindha-bhoot-night.png",
+      "filename": "japi-pindha-bhoot-night.png",
+      "event": "Japi Pindha Bhoot (Nocturnal View)",
+      "description": "Atmospheric night-time perspective of the enigmatic Japi Pindha Bhoot along rural riverbanks and bamboo groves.",
+      "category": "Folklore & Legends",
+      "category_key": "folklore-and-legends",
+      "ruler": "Japi Pindha Bhoot",
+      "figures": [
+        "Japi Pindha Bhoot"
+      ],
+      "places": [],
+      "source_tags": [
+        "Folklore",
+        "Ghost",
+        "Spooky",
+        "Night",
+        "Japi",
+        "Bamboo Grove"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Folklore & Legends",
+      "variant": "Artwork 13",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "3d2a1bde8cdc0b4a594930346f1f56d532a12de766d7378aea17816541b106b3",
+      "browse_order": 220,
+      "source_order": 13,
+      "identical_files": [],
+      "thumbnail": "thumbnails/japi-pindha-bhoot-2.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "hetuka-xulin-1",
+      "file": "imports/assamese-ai-gallery/images/folklore-and-legends/hetuka-xulin-rural-myth.jpg",
+      "filename": "hetuka-xulin-rural-myth.jpg",
+      "event": "Hetuka Xulin (Rural Legend)",
+      "description": "Artistic representation of Hetuka Xulin, an eerie figure originating in folklore and oral ghost traditions across rural Upper Assam.",
+      "category": "Folklore & Legends",
+      "category_key": "folklore-and-legends",
+      "ruler": "Hetuka Xulin",
+      "figures": [
+        "Hetuka Xulin"
+      ],
+      "places": [],
+      "source_tags": [
+        "Folklore",
+        "Legend",
+        "Rural",
+        "Myth",
+        "Oral Tradition"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Folklore & Legends",
+      "variant": "Artwork 14",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "2bc2882761826bc76eddad45e2ec947cf3f9f14a8cde2422cfc2c9e6dac4e22d",
+      "browse_order": 221,
+      "source_order": 14,
+      "identical_files": [],
+      "thumbnail": "thumbnails/hetuka-xulin-1.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "hetuka-xulin-2",
+      "file": "imports/assamese-ai-gallery/images/folklore-and-legends/hetuka-xulin-dramatic.png",
+      "filename": "hetuka-xulin-dramatic.png",
+      "event": "Hetuka Xulin (Dramatic Render)",
+      "description": "Dramatic visualization capturing the supernatural atmosphere and lore surrounding Hetuka Xulin in village mythology.",
+      "category": "Folklore & Legends",
+      "category_key": "folklore-and-legends",
+      "ruler": "Hetuka Xulin",
+      "figures": [
+        "Hetuka Xulin"
+      ],
+      "places": [],
+      "source_tags": [
+        "Folklore",
+        "Legend",
+        "Mythology",
+        "Eerie",
+        "Assam Lore"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Folklore & Legends",
+      "variant": "Artwork 15",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "c23c96e714c6647b169ef35327fd14981a210bed817bb0548a1d95c56ada3bfd",
+      "browse_order": 222,
+      "source_order": 15,
+      "identical_files": [],
+      "thumbnail": "thumbnails/hetuka-xulin-2.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "namghar-guru-asana-1",
+      "file": "imports/assamese-ai-gallery/images/sacred-and-culture/namghar-guru-asana-singhasan-1.png",
+      "filename": "namghar-guru-asana-singhasan-1.png",
+      "event": "Namghar Guru Asana (Singhasan)",
+      "description": "The sanctum sanctorum of an Assamese Namghar — the sacred wooden Guru Asana (Singhasan) crowned by the holy Bhagavata Purana on seven tiers.",
+      "category": "Sacred & Culture",
+      "category_key": "sacred-and-culture",
+      "ruler": "Namghar Guru Asana",
+      "figures": [
+        "Namghar Guru Asana"
+      ],
+      "places": [],
+      "source_tags": [
+        "Namghar",
+        "Singhasan",
+        "Guru Asana",
+        "Vaishnavism",
+        "Sacred",
+        "Culture"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Sacred & Culture",
+      "variant": "Artwork 16",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "e4d9d5b78067f56a90bce769388a9d978932c17a6cff1c4e0156daa2ae9c9090",
+      "browse_order": 223,
+      "source_order": 16,
+      "identical_files": [],
+      "thumbnail": "thumbnails/namghar-guru-asana-1.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "namghar-guru-asana-2",
+      "file": "imports/assamese-ai-gallery/images/sacred-and-culture/namghar-guru-asana-singhasan-2.png",
+      "filename": "namghar-guru-asana-singhasan-2.png",
+      "event": "Namghar Guru Asana with Carved Motifs",
+      "description": "Intricately carved seven-tiered throne of the Namghar displaying detailed wooden craftsmanship and traditional spiritual iconography.",
+      "category": "Sacred & Culture",
+      "category_key": "sacred-and-culture",
+      "ruler": "Namghar Guru Asana",
+      "figures": [
+        "Namghar Guru Asana"
+      ],
+      "places": [],
+      "source_tags": [
+        "Namghar",
+        "Singhasan",
+        "Carving",
+        "Woodwork",
+        "Vaishnavite Art"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Sacred & Culture",
+      "variant": "Artwork 17",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "f460160e281f414014b227cf48866ecf3c1221388b9aa9e1d4d4e0b56851c3fd",
+      "browse_order": 224,
+      "source_order": 17,
+      "identical_files": [],
+      "thumbnail": "thumbnails/namghar-guru-asana-2.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "namghar-sacred-sculptures",
+      "file": "imports/assamese-ai-gallery/images/sacred-and-culture/namghar-kurma-elephant-lion-motifs.png",
+      "filename": "namghar-kurma-elephant-lion-motifs.png",
+      "event": "Sacred Motifs: Kurma, Gaja & Singha",
+      "description": "Architectural woodwork portraying Kurma (the tortoise supporting the cosmos), Gaja (elephant), and Singha (lion) from Assamese neo-Vaishnavite symbolism.",
+      "category": "Sacred & Culture",
+      "category_key": "sacred-and-culture",
+      "ruler": "Sacred carved motifs",
+      "figures": [
+        "Sacred carved motifs"
+      ],
+      "places": [],
+      "source_tags": [
+        "Namghar",
+        "Kurma",
+        "Elephant",
+        "Lion",
+        "Sculpture",
+        "Symbolism"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Sacred & Culture",
+      "variant": "Artwork 18",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "0dc295ed10bfa97d5929c9aa90e9a711f8957e8ef4f5d617916a55cce3757dc9",
+      "browse_order": 225,
+      "source_order": 18,
+      "identical_files": [],
+      "thumbnail": "thumbnails/namghar-sacred-sculptures.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "assam-house-1",
+      "file": "imports/assamese-ai-gallery/images/traditional-architecture/assam-type-house-01.png",
+      "filename": "assam-type-house-01.png",
+      "event": "Assam-Type House with Corrugated Roof (Type 1)",
+      "description": "Classic earthquake-resistant Assam-type house with timber framework, reed/plaster walls (Ikra), and pitched tin roofing.",
+      "category": "Traditional Architecture",
+      "category_key": "traditional-architecture",
+      "ruler": "Assam-type houses",
+      "figures": [
+        "Assam-type houses"
+      ],
+      "places": [],
+      "source_tags": [
+        "Assam House",
+        "Architecture",
+        "Heritage",
+        "Ikra",
+        "Traditional"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Traditional Architecture",
+      "variant": "Artwork 19",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "34fb49ea6613d6dd78d4e9326118a054217377aacc2194a394d36371a0dcd974",
+      "browse_order": 226,
+      "source_order": 19,
+      "identical_files": [],
+      "thumbnail": "thumbnails/assam-house-1.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "assam-house-2",
+      "file": "imports/assamese-ai-gallery/images/traditional-architecture/assam-type-house-02.png",
+      "filename": "assam-type-house-02.png",
+      "event": "Assam-Type Villa with Front Garden (Type 2)",
+      "description": "Scenic rural Assam-type bungalow featuring an extended verandah and blooming flower garden walkway.",
+      "category": "Traditional Architecture",
+      "category_key": "traditional-architecture",
+      "ruler": "Assam-type houses",
+      "figures": [
+        "Assam-type houses"
+      ],
+      "places": [],
+      "source_tags": [
+        "Assam House",
+        "Bungalow",
+        "Verandah",
+        "Garden",
+        "Countryside"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Traditional Architecture",
+      "variant": "Artwork 20",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "da10f06bb64f63ce4f0c9af3becf58f3d03ac37ffc69cafb2828c79000366917",
+      "browse_order": 227,
+      "source_order": 20,
+      "identical_files": [],
+      "thumbnail": "thumbnails/assam-house-2.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "assam-house-3",
+      "file": "imports/assamese-ai-gallery/images/traditional-architecture/assam-type-house-03.png",
+      "filename": "assam-type-house-03.png",
+      "event": "Assam-Type Cottage with Wooden Railing (Type 3)",
+      "description": "Traditional wooden cottage with intricately designed timber jali railings and warm sheltered entrance porch.",
+      "category": "Traditional Architecture",
+      "category_key": "traditional-architecture",
+      "ruler": "Assam-type houses",
+      "figures": [
+        "Assam-type houses"
+      ],
+      "places": [],
+      "source_tags": [
+        "Assam House",
+        "Cottage",
+        "Timber",
+        "Porch",
+        "Woodwork"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Traditional Architecture",
+      "variant": "Artwork 21",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "0c1d817c8eb0f4afeeefce7753865df195adf4585089510df66df3d685311075",
+      "browse_order": 228,
+      "source_order": 21,
+      "identical_files": [],
+      "thumbnail": "thumbnails/assam-house-3.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "assam-house-4",
+      "file": "imports/assamese-ai-gallery/images/traditional-architecture/assam-type-house-04.png",
+      "filename": "assam-type-house-04.png",
+      "event": "Classic Assam-Type Heritage House (Type 4)",
+      "description": "Colonial-era influenced Assam-type architectural style with symmetrical gables and wide overhang eaves.",
+      "category": "Traditional Architecture",
+      "category_key": "traditional-architecture",
+      "ruler": "Assam-type houses",
+      "figures": [
+        "Assam-type houses"
+      ],
+      "places": [],
+      "source_tags": [
+        "Assam House",
+        "Colonial",
+        "Heritage",
+        "Residence",
+        "Gables"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Traditional Architecture",
+      "variant": "Artwork 22",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "6e23baf4bf83608b93d0ebb858b15eb3aeac632b3e7b8249990711212771e1e6",
+      "browse_order": 229,
+      "source_order": 22,
+      "identical_files": [
+        "beautiful-assamese-home"
+      ],
+      "thumbnail": "thumbnails/assam-house-4.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "assam-house-5",
+      "file": "imports/assamese-ai-gallery/images/traditional-architecture/assam-type-house-05.png",
+      "filename": "assam-type-house-05.png",
+      "event": "Rural Assam-Type Homestead (Type 5)",
+      "description": "Quiet rural homestead nestled amongst tropical foliage, areca nut palms, and banana groves.",
+      "category": "Traditional Architecture",
+      "category_key": "traditional-architecture",
+      "ruler": "Assam-type houses",
+      "figures": [
+        "Assam-type houses"
+      ],
+      "places": [],
+      "source_tags": [
+        "Assam House",
+        "Rural",
+        "Homestead",
+        "Nature",
+        "Palms"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Traditional Architecture",
+      "variant": "Artwork 23",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "69b9f9a9ed2aa71d4648b2b74a453f496c66d621df48bbf676218b0787924304",
+      "browse_order": 230,
+      "source_order": 23,
+      "identical_files": [],
+      "thumbnail": "thumbnails/assam-house-5.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "assam-house-6",
+      "file": "imports/assamese-ai-gallery/images/traditional-architecture/assam-type-house-06.png",
+      "filename": "assam-type-house-06.png",
+      "event": "Sunlit Assam-Type Residence (Type 6)",
+      "description": "Warmly lit Assam-type building showcasing solid wooden pillars, airy windows, and high ceiling cross-ventilation.",
+      "category": "Traditional Architecture",
+      "category_key": "traditional-architecture",
+      "ruler": "Assam-type houses",
+      "figures": [
+        "Assam-type houses"
+      ],
+      "places": [],
+      "source_tags": [
+        "Assam House",
+        "Timber",
+        "Sunlight",
+        "Ventilation"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Traditional Architecture",
+      "variant": "Artwork 24",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "fa87c9aaf9fe0c6c6e62f1aa26b54e4da39d876835d318286f4dfbef09e05247",
+      "browse_order": 231,
+      "source_order": 24,
+      "identical_files": [],
+      "thumbnail": "thumbnails/assam-house-6.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "assam-house-7",
+      "file": "imports/assamese-ai-gallery/images/traditional-architecture/assam-type-house-07.png",
+      "filename": "assam-type-house-07.png",
+      "event": "Spacious Assam-Type Bungalow (Type 7)",
+      "description": "Expansive Assam bungalow layout with spacious driveway, covered portico, and classic verandah seats (Chora-Ghar).",
+      "category": "Traditional Architecture",
+      "category_key": "traditional-architecture",
+      "ruler": "Assam-type houses",
+      "figures": [
+        "Assam-type houses"
+      ],
+      "places": [],
+      "source_tags": [
+        "Assam House",
+        "Bungalow",
+        "Portico",
+        "Chora Ghar"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Traditional Architecture",
+      "variant": "Artwork 25",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "e1acd02240ad58d7166344449bf94c45b544dcd961419b2160bfb061d9208648",
+      "browse_order": 232,
+      "source_order": 25,
+      "identical_files": [],
+      "thumbnail": "thumbnails/assam-house-7.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "assam-house-8",
+      "file": "imports/assamese-ai-gallery/images/traditional-architecture/assam-type-house-08.png",
+      "filename": "assam-type-house-08.png",
+      "event": "Suburban Assam-Type Residence (Type 8)",
+      "description": "Suburban adaptation of indigenous earthquake-safe architecture with brick-nogging base and light timber superstructure.",
+      "category": "Traditional Architecture",
+      "category_key": "traditional-architecture",
+      "ruler": "Assam-type houses",
+      "figures": [
+        "Assam-type houses"
+      ],
+      "places": [],
+      "source_tags": [
+        "Assam House",
+        "Design",
+        "Modern Heritage",
+        "Earthquake Safe"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Traditional Architecture",
+      "variant": "Artwork 26",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "ee2840b559e08e26194d3f405898f70f05b0be5007debbd8901b729ca6df6cc8",
+      "browse_order": 233,
+      "source_order": 26,
+      "identical_files": [],
+      "thumbnail": "thumbnails/assam-house-8.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "assam-house-9",
+      "file": "imports/assamese-ai-gallery/images/traditional-architecture/assam-type-house-09.png",
+      "filename": "assam-type-house-09.png",
+      "event": "Traditional Village Assam House (Type 9)",
+      "description": "Serene village homestead painted in traditional pastel shades with a spacious welcoming courtyard.",
+      "category": "Traditional Architecture",
+      "category_key": "traditional-architecture",
+      "ruler": "Assam-type houses",
+      "figures": [
+        "Assam-type houses"
+      ],
+      "places": [],
+      "source_tags": [
+        "Assam House",
+        "Village",
+        "Tradition",
+        "Courtyard"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Traditional Architecture",
+      "variant": "Artwork 27",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "8665715f59367b7278cfb74d8a35a689c4ff8cfea8a7d4f030e0d2160cd1c4b4",
+      "browse_order": 234,
+      "source_order": 27,
+      "identical_files": [],
+      "thumbnail": "thumbnails/assam-house-9.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "assam-house-10",
+      "file": "imports/assamese-ai-gallery/images/traditional-architecture/assam-type-house-10.png",
+      "filename": "assam-type-house-10.png",
+      "event": "Heritage Assam-Type Estate (Type 10)",
+      "description": "Timeless depiction of a large Assamese estate house with broad verandahs and lush green backdrop.",
+      "category": "Traditional Architecture",
+      "category_key": "traditional-architecture",
+      "ruler": "Assam-type houses",
+      "figures": [
+        "Assam-type houses"
+      ],
+      "places": [],
+      "source_tags": [
+        "Assam House",
+        "Heritage",
+        "Estate",
+        "Bungalow"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Traditional Architecture",
+      "variant": "Artwork 28",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "f2d0d9aff34e6dd887e2f2b25f0a97ed7156986a51b2846d65c512db9711b56a",
+      "browse_order": 235,
+      "source_order": 28,
+      "identical_files": [],
+      "thumbnail": "thumbnails/assam-house-10.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "beautiful-assamese-home",
+      "file": "imports/assamese-ai-gallery/images/traditional-architecture/beautiful-assamese-country-home.png",
+      "filename": "beautiful-assamese-country-home.png",
+      "event": "Picturesque Assamese Country Home (Bari & Pukhuri)",
+      "description": "Picturesque countryside homestead complete with a village pond (Pukhuri), betel-nut grove (Tamul-Paner Bari), and open courtyard (Chotal).",
+      "category": "Traditional Architecture",
+      "category_key": "traditional-architecture",
+      "ruler": "Assam-type houses",
+      "figures": [
+        "Assam-type houses"
+      ],
+      "places": [],
+      "source_tags": [
+        "Assam House",
+        "Courtyard",
+        "Village",
+        "Country Home",
+        "Pukhuri",
+        "Bari"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Traditional Architecture",
+      "variant": "Artwork 29",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "6e23baf4bf83608b93d0ebb858b15eb3aeac632b3e7b8249990711212771e1e6",
+      "browse_order": 236,
+      "source_order": 29,
+      "identical_files": [
+        "assam-house-4"
+      ],
+      "thumbnail": "thumbnails/beautiful-assamese-home.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "old-assamese-home",
+      "file": "imports/assamese-ai-gallery/images/traditional-architecture/old-vintage-assamese-homestead.png",
+      "filename": "old-vintage-assamese-homestead.png",
+      "event": "Vintage Traditional Assamese Homestead",
+      "description": "Rustic vintage Assamese house with thatched bamboo accents, mud-plastered walls, and traditional rural character.",
+      "category": "Traditional Architecture",
+      "category_key": "traditional-architecture",
+      "ruler": "Assam-type houses",
+      "figures": [
+        "Assam-type houses"
+      ],
+      "places": [],
+      "source_tags": [
+        "Assam House",
+        "Vintage",
+        "Rural",
+        "Rustic",
+        "Bamboo",
+        "Thatched"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Traditional Architecture",
+      "variant": "Artwork 30",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "0ead76d25fb46b6c714d2ae85ed02d5a2290697b6bd47ee9a47db845a48e76a6",
+      "browse_order": 237,
+      "source_order": 30,
+      "identical_files": [],
+      "thumbnail": "thumbnails/old-assamese-home.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "srimanta-sankardev-portrait",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/srimanta-sankardev-portrait.png",
+      "filename": "srimanta-sankardev-portrait.png",
+      "event": "Mahapurusha Srimanta Sankardev",
+      "description": "15th–16th century saint-scholar, polymath, playwright, social reformer, and founder of Ekasarana Dharma and the Sattriya cultural tradition.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Srimanta Sankardev",
+      "figures": [
+        "Srimanta Sankardev"
+      ],
+      "places": [],
+      "source_tags": [
+        "Sankardev",
+        "Mahapurusha",
+        "Saint",
+        "Vaishnavism",
+        "Borgeet",
+        "Sattriya",
+        "Icon"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 31",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "971db9ab2f64b5cafe5d9177ee3413cf205608fcd1296ea0cb68312ce866e367",
+      "browse_order": 238,
+      "source_order": 31,
+      "identical_files": [],
+      "thumbnail": "thumbnails/srimanta-sankardev-portrait.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "srimanta-sankardev-scholar",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/srimanta-sankardev-scholar.png",
+      "filename": "srimanta-sankardev-scholar.png",
+      "event": "Srimanta Sankardev Writing on Sanchi-Pat",
+      "description": "Depiction of Guru Sankardev composing hymns, Kirtana Ghosha, and Ankiya Nat dramas on bark manuscripts (Sanchi-pat).",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Srimanta Sankardev",
+      "figures": [
+        "Srimanta Sankardev"
+      ],
+      "places": [],
+      "source_tags": [
+        "Sankardev",
+        "Manuscript",
+        "Scholar",
+        "Poet",
+        "Sanchi-pat",
+        "Kirtan"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 32",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "d349f88d57ff97a8cfe1a651f229fa6fd29bac542c47547dce235cdc71b10297",
+      "browse_order": 239,
+      "source_order": 32,
+      "identical_files": [],
+      "thumbnail": "thumbnails/srimanta-sankardev-scholar.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "srimanta-sankardev-meditation",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/srimanta-sankardev-meditation.png",
+      "filename": "srimanta-sankardev-meditation.png",
+      "event": "Srimanta Sankardev in Contemplation",
+      "description": "Contemplative and serene spiritual portrayal of Mahapurusha Srimanta Sankardev radiating spiritual wisdom.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Srimanta Sankardev",
+      "figures": [
+        "Srimanta Sankardev"
+      ],
+      "places": [],
+      "source_tags": [
+        "Sankardev",
+        "Spiritual",
+        "Meditation",
+        "Wisdom"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 33",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "21331eb838d5e777214258887320fa450b07f187f2603a328ec41f92f908d880",
+      "browse_order": 240,
+      "source_order": 33,
+      "identical_files": [],
+      "thumbnail": "thumbnails/srimanta-sankardev-meditation.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "srimanta-sankardev-teaching",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/srimanta-sankardev-teaching.png",
+      "filename": "srimanta-sankardev-teaching.png",
+      "event": "Mahapurusha Sankardev Preaching Bhakti",
+      "description": "Srimanta Sankardev expounding the universal humanist message of devotion, equality, and compassion to disciples.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Srimanta Sankardev",
+      "figures": [
+        "Srimanta Sankardev"
+      ],
+      "places": [],
+      "source_tags": [
+        "Sankardev",
+        "Philosophy",
+        "Teacher",
+        "Bhakti",
+        "Humanism"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 34",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "54bc7a6bdf3d6a4f89ee528d003a175fe51e58e4158b49a693ff7eef1874449c",
+      "browse_order": 241,
+      "source_order": 34,
+      "identical_files": [],
+      "thumbnail": "thumbnails/srimanta-sankardev-teaching.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "bishnu-rabha-portrait",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/bishnu-prasad-rabha-portrait.png",
+      "filename": "bishnu-prasad-rabha-portrait.png",
+      "event": "Kalaguru Bishnu Prasad Rabha (Portrait)",
+      "description": "Kalaguru Bishnu Prasad Rabha — multifaceted artist, revolutionary freedom fighter, music maestro, and indigenous cultural renaissance pioneer.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Bishnu Prasad Rabha",
+      "figures": [
+        "Bishnu Prasad Rabha"
+      ],
+      "places": [],
+      "source_tags": [
+        "Bishnu Rabha",
+        "Kalaguru",
+        "Music",
+        "Revolutionary",
+        "Artist",
+        "Icon"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 35",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "3bafce847f2ff6244d2431fe04c0363437026e0a0fa91b16060f36e5a7c4bfd4",
+      "browse_order": 242,
+      "source_order": 35,
+      "identical_files": [],
+      "thumbnail": "thumbnails/bishnu-rabha-portrait.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "bishnu-rabha-singing",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/bishnu-prasad-rabha-singing.png",
+      "filename": "bishnu-prasad-rabha-singing.png",
+      "event": "Kalaguru Bishnu Prasad Rabha (Rabha Sangeet)",
+      "description": "Kalaguru Bishnu Prasad Rabha passionately singing his evocative revolutionary and folk compositions (Rabha Sangeet).",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Bishnu Prasad Rabha",
+      "figures": [
+        "Bishnu Prasad Rabha"
+      ],
+      "places": [],
+      "source_tags": [
+        "Bishnu Rabha",
+        "Rabha Sangeet",
+        "Music",
+        "Songwriter",
+        "Artist"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 36",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "da91ee36ec02478272bb9d428f9922c6191dcda2d17b5d81eb62e0e115c57778",
+      "browse_order": 243,
+      "source_order": 36,
+      "identical_files": [],
+      "thumbnail": "thumbnails/bishnu-rabha-singing.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "bishnu-rabha-youth",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/bishnu-prasad-rabha-youth.png",
+      "filename": "bishnu-prasad-rabha-youth.png",
+      "event": "Bishnu Prasad Rabha (Youth & Fire)",
+      "description": "Dynamic portrait of Bishnu Prasad Rabha in his youth during the freedom struggle and mass cultural mobilizations.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Bishnu Prasad Rabha",
+      "figures": [
+        "Bishnu Prasad Rabha"
+      ],
+      "places": [],
+      "source_tags": [
+        "Bishnu Rabha",
+        "Youth",
+        "Culture",
+        "Freedom Fighter"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 37",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "c516c3cb4cb9f420dc5671a34e6f636e4d6208d2f2f52740014ada6d5f0c1df7",
+      "browse_order": 244,
+      "source_order": 37,
+      "identical_files": [],
+      "thumbnail": "thumbnails/bishnu-rabha-youth.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "bishnu-rabha-visionary",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/bishnu-prasad-rabha-visionary.png",
+      "filename": "bishnu-prasad-rabha-visionary.png",
+      "event": "Kalaguru Bishnu Prasad Rabha (Visionary Leader)",
+      "description": "Visionary portrait of Kalaguru Bishnu Prasad Rabha, unifier of Assam's diverse ethnic tribes and communities.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Bishnu Prasad Rabha",
+      "figures": [
+        "Bishnu Prasad Rabha"
+      ],
+      "places": [],
+      "source_tags": [
+        "Bishnu Rabha",
+        "Visionary",
+        "Leader",
+        "Unity"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 38",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "c48e238236db241e1e4e5bb2fcb1f30b1805f5ebab30195f0071046125f14809",
+      "browse_order": 245,
+      "source_order": 38,
+      "identical_files": [],
+      "thumbnail": "thumbnails/bishnu-rabha-visionary.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "jyotiprasad-agarwala-portrait",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/jyoti-prasad-agarwala-portrait.png",
+      "filename": "jyoti-prasad-agarwala-portrait.png",
+      "event": "Rupkonwar Jyoti Prasad Agarwala (Portrait)",
+      "description": "Rupkonwar Jyoti Prasad Agarwala — pioneer of Assamese cinema (director of Joymoti, 1935), poet, songwriter (Jyoti Sangeet), and playwright.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Jyoti Prasad Agarwala",
+      "figures": [
+        "Jyoti Prasad Agarwala"
+      ],
+      "places": [],
+      "source_tags": [
+        "Jyoti Prasad Agarwala",
+        "Rupkonwar",
+        "Cinema",
+        "Poet",
+        "Joymoti",
+        "Jyoti Sangeet"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 39",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "8c0b2e57f2ffa43c03bf2ac65c0caf044ddb0f2a2fa66d3668ff129793194731",
+      "browse_order": 246,
+      "source_order": 39,
+      "identical_files": [],
+      "thumbnail": "thumbnails/jyotiprasad-agarwala-portrait.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "jyotiprasad-agarwala-camera-1",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/jyoti-prasad-agarwala-camera-1.png",
+      "filename": "jyoti-prasad-agarwala-camera-1.png",
+      "event": "Jyoti Prasad Agarwala with Cinema Camera",
+      "description": "Rupkonwar directing early Assamese cinema behind vintage camera equipment during the filming of the epic Joymoti at Bholaguri Tea Estate.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Jyoti Prasad Agarwala",
+      "figures": [
+        "Jyoti Prasad Agarwala"
+      ],
+      "places": [],
+      "source_tags": [
+        "Jyoti Prasad Agarwala",
+        "Filmmaker",
+        "Director",
+        "Cinema",
+        "Joymoti"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 40",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "10e0c8306f77c0f6e8d891bce783ada9827f78a6430faea3a6df3e37723636cc",
+      "browse_order": 247,
+      "source_order": 40,
+      "identical_files": [],
+      "thumbnail": "thumbnails/jyotiprasad-agarwala-camera-1.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "jyotiprasad-agarwala-camera-2",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/jyoti-prasad-agarwala-camera-2.png",
+      "filename": "jyoti-prasad-agarwala-camera-2.png",
+      "event": "Jyoti Prasad Agarwala on Film Production Set",
+      "description": "The master filmmaker framing a dramatic sequence during early Assamese cinematographic history.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Jyoti Prasad Agarwala",
+      "figures": [
+        "Jyoti Prasad Agarwala"
+      ],
+      "places": [],
+      "source_tags": [
+        "Jyoti Prasad Agarwala",
+        "Director",
+        "Film Set",
+        "Pioneer"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 41",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "1b3bae94631f2485e26f1ed02b741c240b47c0d0401e2800f83d61e5acbce8d2",
+      "browse_order": 248,
+      "source_order": 41,
+      "identical_files": [],
+      "thumbnail": "thumbnails/jyotiprasad-agarwala-camera-2.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "hemchandra-baruah-portrait",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/hemchandra-baruah-portrait.png",
+      "filename": "hemchandra-baruah-portrait.png",
+      "event": "Bhashar Oja Hemchandra Baruah",
+      "description": "Eminent lexicographer, social reformer, and author of Hemkosh — the first comprehensive etymological Assamese dictionary based on Sanskrit roots.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Hemchandra Baruah",
+      "figures": [
+        "Hemchandra Baruah"
+      ],
+      "places": [],
+      "source_tags": [
+        "Hemchandra Baruah",
+        "Hemkosh",
+        "Lexicographer",
+        "Dictionary",
+        "Literature"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 42",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "63883bc267620336f79746b49e22da53a4887d2e69e77c12b3224ec710030492",
+      "browse_order": 249,
+      "source_order": 42,
+      "identical_files": [],
+      "thumbnail": "thumbnails/hemchandra-baruah-portrait.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "hemchandra-baruah-thought",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/hemchandra-baruah-thought.png",
+      "filename": "hemchandra-baruah-thought.png",
+      "event": "Hemchandra Baruah in Deep Thought",
+      "description": "Hemchandra Baruah formulating modern Assamese grammar and spelling rules during the 19th-century language restoration.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Hemchandra Baruah",
+      "figures": [
+        "Hemchandra Baruah"
+      ],
+      "places": [],
+      "source_tags": [
+        "Hemchandra Baruah",
+        "Linguistics",
+        "Scholar",
+        "Grammar"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 43",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "42a23033203849b3fe4cccb21d069c188e60f1f8f0399eb812769af93ab398d8",
+      "browse_order": 250,
+      "source_order": 43,
+      "identical_files": [],
+      "thumbnail": "thumbnails/hemchandra-baruah-thought.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "hemchandra-baruah-study",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/hemchandra-baruah-study.png",
+      "filename": "hemchandra-baruah-study.png",
+      "event": "Hemchandra Baruah (Portrait Study)",
+      "description": "Artistic portrait study of language reformer and crusader Hemchandra Baruah.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Hemchandra Baruah",
+      "figures": [
+        "Hemchandra Baruah"
+      ],
+      "places": [],
+      "source_tags": [
+        "Hemchandra Baruah",
+        "Portrait",
+        "Literature",
+        "Reformer"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 44",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "29e5067fc56e48dc4e131cebeb8649a8fce22a854deffb14b0ba2dd1b93de4a8",
+      "browse_order": 251,
+      "source_order": 44,
+      "identical_files": [],
+      "thumbnail": "thumbnails/hemchandra-baruah-study.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "hemchandra-goswami-portrait",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/hemchandra-goswami-portrait.png",
+      "filename": "hemchandra-goswami-portrait.png",
+      "event": "Hemchandra Goswami (Jonaki Era Pioneer)",
+      "description": "One of the Trimurti triumvirate of modern Assamese literature (Jonaki era), prominent historian, poet, and sonneteer.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Hemchandra Goswami",
+      "figures": [
+        "Hemchandra Goswami"
+      ],
+      "places": [],
+      "source_tags": [
+        "Hemchandra Goswami",
+        "Jonaki",
+        "Historian",
+        "Trimurti",
+        "Literature",
+        "Sonnet"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 45",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "8a7bc2ac61d400389179275f106108f4f80674990450bea516e070470de50782",
+      "browse_order": 252,
+      "source_order": 45,
+      "identical_files": [],
+      "thumbnail": "thumbnails/hemchandra-goswami-portrait.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "hemchandra-goswami-study",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/hemchandra-goswami-study.png",
+      "filename": "hemchandra-goswami-study.png",
+      "event": "Hemchandra Goswami (Manuscript Scholar)",
+      "description": "Artistic depiction of antiquarian Hemchandra Goswami cataloging rare historical Buranjis and manuscripts.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Hemchandra Goswami",
+      "figures": [
+        "Hemchandra Goswami"
+      ],
+      "places": [],
+      "source_tags": [
+        "Hemchandra Goswami",
+        "Writer",
+        "Jonaki Era",
+        "Buranjis"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 46",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "dc0199d5142491647ce7b7a3ab358fd591cd81996a0d0c80fd0334b0609a293f",
+      "browse_order": 253,
+      "source_order": 46,
+      "identical_files": [],
+      "thumbnail": "thumbnails/hemchandra-goswami-study.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "anandaram-dhekial-phukan-1",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/anandaram-dhekial-phukan-portrait.png",
+      "filename": "anandaram-dhekial-phukan-portrait.png",
+      "event": "Anandaram Dhekial Phukan",
+      "description": "Pioneer of modern Assamese renaissance who fought resolutely for the reinstatement of Assamese language in colonial courts and schools (1853).",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Anandaram Dhekial Phukan",
+      "figures": [
+        "Anandaram Dhekial Phukan"
+      ],
+      "places": [],
+      "source_tags": [
+        "Anandaram Dhekial Phukan",
+        "Renaissance",
+        "Language",
+        "Pioneer",
+        "Advocate"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 47",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "29b61172adff8ca70361a31dbe6f1bbe64d4184552f38133936ef4469e099462",
+      "browse_order": 254,
+      "source_order": 47,
+      "identical_files": [],
+      "thumbnail": "thumbnails/anandaram-dhekial-phukan-1.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "anandaram-dhekial-phukan-2",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/anandaram-dhekial-phukan-study.png",
+      "filename": "anandaram-dhekial-phukan-study.png",
+      "event": "Anandaram Dhekial Phukan (Formal Portrait)",
+      "description": "Formal artistic portrait of the visionary intellectual and reformer Anandaram Dhekial Phukan.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Anandaram Dhekial Phukan",
+      "figures": [
+        "Anandaram Dhekial Phukan"
+      ],
+      "places": [],
+      "source_tags": [
+        "Anandaram Dhekial Phukan",
+        "Scholar",
+        "Reformer",
+        "Intellectual"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 48",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "6b8b6400aa5878bd3d57042209efdb1b17a95f15d273d8075e6a411b81bb301f",
+      "browse_order": 255,
+      "source_order": 48,
+      "identical_files": [],
+      "thumbnail": "thumbnails/anandaram-dhekial-phukan-2.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "gunabhiram-baruah-1",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/gunabhiram-baruah-portrait.png",
+      "filename": "gunabhiram-baruah-portrait.png",
+      "event": "Gunabhiram Baruah",
+      "description": "Distinguished 19th-century intellectual, dramatist (Ram-Navami), historian (Assam Buranji), and progressive social reformer.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Gunabhiram Baruah",
+      "figures": [
+        "Gunabhiram Baruah"
+      ],
+      "places": [],
+      "source_tags": [
+        "Gunabhiram Baruah",
+        "Historian",
+        "Playwright",
+        "Reformer",
+        "Assam Buranji"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 49",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "58e799eb7be556aa7abca625abd670706d43791609b6e2539296a21303935b8f",
+      "browse_order": 256,
+      "source_order": 49,
+      "identical_files": [],
+      "thumbnail": "thumbnails/gunabhiram-baruah-1.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "gunabhiram-baruah-2",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/gunabhiram-baruah-scholar.png",
+      "filename": "gunabhiram-baruah-scholar.png",
+      "event": "Gunabhiram Baruah (Scholar Pose)",
+      "description": "Artistic depiction of historian and biographer Gunabhiram Baruah.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Gunabhiram Baruah",
+      "figures": [
+        "Gunabhiram Baruah"
+      ],
+      "places": [],
+      "source_tags": [
+        "Gunabhiram Baruah",
+        "Literature",
+        "History",
+        "Scholar"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 50",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "4e3b48d3f88397ec34ece8889181cc41e56134aef73469cb46f79a712edf4f14",
+      "browse_order": 257,
+      "source_order": 50,
+      "identical_files": [],
+      "thumbnail": "thumbnails/gunabhiram-baruah-2.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "padmanath-gohain-baruah-1",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/padmanath-gohain-baruah-portrait.png",
+      "filename": "padmanath-gohain-baruah-portrait.png",
+      "event": "Sahityarathi Padmanath Gohain Baruah",
+      "description": "Eminent novelist, dramatist, and the monumental First President of Asam Sahitya Sabha (1917).",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Padmanath Gohain Baruah",
+      "figures": [
+        "Padmanath Gohain Baruah"
+      ],
+      "places": [],
+      "source_tags": [
+        "Padmanath Gohain Baruah",
+        "Sahitya Sabha",
+        "Novelist",
+        "President",
+        "Leader"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 51",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "3339af1b4d44bf61433637c16fc2511770b5e9265600b65eec0aaae1f1c1e18a",
+      "browse_order": 258,
+      "source_order": 51,
+      "identical_files": [],
+      "thumbnail": "thumbnails/padmanath-gohain-baruah-1.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "padmanath-gohain-baruah-2",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/padmanath-gohain-baruah-speech.png",
+      "filename": "padmanath-gohain-baruah-speech.png",
+      "event": "Padmanath Gohain Baruah (Presidential Address)",
+      "description": "Sahityarathi Padmanath Gohain Baruah presiding over the inaugural sessions of the Asam Sahitya Sabha.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Padmanath Gohain Baruah",
+      "figures": [
+        "Padmanath Gohain Baruah"
+      ],
+      "places": [],
+      "source_tags": [
+        "Padmanath Gohain Baruah",
+        "Literature",
+        "Sahitya Sabha",
+        "Address"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 52",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "f443b28d5038a77c2b08f0dab13f6b85c4da55327f7af83716144854dd967840",
+      "browse_order": 259,
+      "source_order": 52,
+      "identical_files": [],
+      "thumbnail": "thumbnails/padmanath-gohain-baruah-2.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "satyanath-bora",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/satyanath-bora-portrait.png",
+      "filename": "satyanath-bora-portrait.png",
+      "event": "Satyanath Bora",
+      "description": "Master essayist, legal scholar, and grammarian who authored influential prose works like Sarathi and Bahal Byakaran.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Satyanath Bora",
+      "figures": [
+        "Satyanath Bora"
+      ],
+      "places": [],
+      "source_tags": [
+        "Satyanath Bora",
+        "Grammarian",
+        "Essays",
+        "Education",
+        "Sarathi"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 53",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "f6b43ef27a6aa6c4e8770863817e5f124de2413fd8808b732c2f026e7ee43858",
+      "browse_order": 260,
+      "source_order": 53,
+      "identical_files": [],
+      "thumbnail": "thumbnails/satyanath-bora.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "nathan-brown",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/nathan-brown-orunodoi.png",
+      "filename": "nathan-brown-orunodoi.png",
+      "event": "Rev. Nathan Brown (Editor of Orunodoi)",
+      "description": "American Baptist missionary who championed the Assamese language and founded Orunodoi (1846) in Sibsagar, the first Assamese periodical.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Nathan Brown",
+      "figures": [
+        "Nathan Brown"
+      ],
+      "places": [],
+      "source_tags": [
+        "Nathan Brown",
+        "Orunodoi",
+        "Journalism",
+        "Printing",
+        "Language Champion"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 54",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "39963b0d956704ac936cd632449257d329ef49eec64f223307f4fa2983c4a6f5",
+      "browse_order": 261,
+      "source_order": 54,
+      "identical_files": [],
+      "thumbnail": "thumbnails/nathan-brown.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "miles-bronson",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/miles-bronson-dictionary.png",
+      "filename": "miles-bronson-dictionary.png",
+      "event": "Rev. Miles Bronson (Dictionary Compiler)",
+      "description": "Missionary and linguist who compiled and published the first Assamese-English Dictionary in 1867 in Sibsagar.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Miles Bronson",
+      "figures": [
+        "Miles Bronson"
+      ],
+      "places": [],
+      "source_tags": [
+        "Miles Bronson",
+        "Dictionary",
+        "Linguistics",
+        "Missionary",
+        "Sibsagar"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 55",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "9ce4bbbca2e2c2df6101b3a4c983e8634eff38f48948aaaf3934027c01fb56fb",
+      "browse_order": 262,
+      "source_order": 55,
+      "identical_files": [],
+      "thumbnail": "thumbnails/miles-bronson.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "william-carey",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/william-carey-serampore.png",
+      "filename": "william-carey-serampore.png",
+      "event": "William Carey (Serampore Press)",
+      "description": "Linguist whose Serampore Mission Press printed the first Assamese book (Dharmapustak, translated by Atmaram Sarma in 1813).",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "William Carey",
+      "figures": [
+        "William Carey"
+      ],
+      "places": [],
+      "source_tags": [
+        "William Carey",
+        "Serampore",
+        "Printing",
+        "History",
+        "Atmaram Sarma"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 56",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "045d21a3513924e935496db536ebbc3ad6fb8cd42fe478abbd9c62eeb1756561",
+      "browse_order": 263,
+      "source_order": 56,
+      "identical_files": [],
+      "thumbnail": "thumbnails/william-carey.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "paresh-baruah",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/paresh-baruah.png",
+      "filename": "paresh-baruah.png",
+      "event": "Paresh Baruah (Contemporary Figure)",
+      "description": "Contemporary socio-political military leader from Assam.",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Paresh Baruah",
+      "figures": [
+        "Paresh Baruah"
+      ],
+      "places": [],
+      "source_tags": [
+        "Contemporary",
+        "Politics",
+        "Assam"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 57",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "2c6a60882a4477692a3f43364a0c44a011bb8381174801b20966ffe4412566b9",
+      "browse_order": 264,
+      "source_order": 57,
+      "identical_files": [],
+      "thumbnail": "thumbnails/paresh-baruah.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
+    },
+    {
+      "id": "assam-movement-aasu",
+      "file": "imports/assamese-ai-gallery/images/notable-figures/assam-movement-student-rally.png",
+      "filename": "assam-movement-student-rally.png",
+      "event": "Assam Movement / Student Mobilization",
+      "description": "Historical representation of the grassroots mass student mobilization during the historic Assam Agitation (1979–1985).",
+      "category": "Notable Figures",
+      "category_key": "notable-figures",
+      "ruler": "Assam Movement",
+      "figures": [
+        "Assam Movement"
+      ],
+      "places": [],
+      "source_tags": [
+        "Assam Movement",
+        "AASU",
+        "History",
+        "Rally",
+        "Students"
+      ],
+      "date_label": "AI illustration",
+      "date_status": "illustration",
+      "sort_year": null,
+      "era": "AI gallery · Notable Figures",
+      "variant": "Artwork 58",
+      "reign": "Not assigned",
+      "ahom_name": "",
+      "sha256": "56cdc731b4d30cee1a62a1a39ac944d9492597dba60aff342935dbaed3906c43",
+      "browse_order": 265,
+      "source_order": 58,
+      "identical_files": [],
+      "thumbnail": "thumbnails/assam-movement-aasu.webp",
+      "collection": "Assamese AI gallery",
+      "source_url": "https://github.com/axomrank/assamese-ai-gallery/blob/8cd2ae390ca01d278762690744aa4a4d06627223/data/gallery.json"
     }
   ],
   "visual_similarity_groups": [
@@ -6986,6 +9227,53 @@
     [
       "AHOM-136",
       "AHOM-138"
+    ],
+    [
+      "japi-pindha-bhoot-1",
+      "japi-pindha-bhoot-2"
+    ],
+    [
+      "hetuka-xulin-1",
+      "hetuka-xulin-2"
+    ],
+    [
+      "namghar-guru-asana-1",
+      "namghar-guru-asana-2"
+    ],
+    [
+      "assam-house-1",
+      "assam-house-4",
+      "beautiful-assamese-home"
+    ],
+    [
+      "srimanta-sankardev-portrait",
+      "srimanta-sankardev-meditation",
+      "srimanta-sankardev-teaching"
+    ],
+    [
+      "bishnu-rabha-portrait",
+      "bishnu-rabha-singing",
+      "bishnu-rabha-youth"
+    ],
+    [
+      "hemchandra-baruah-portrait",
+      "hemchandra-baruah-study"
+    ],
+    [
+      "hemchandra-goswami-portrait",
+      "hemchandra-goswami-study"
+    ],
+    [
+      "anandaram-dhekial-phukan-1",
+      "anandaram-dhekial-phukan-2"
+    ],
+    [
+      "gunabhiram-baruah-1",
+      "gunabhiram-baruah-2"
+    ],
+    [
+      "padmanath-gohain-baruah-1",
+      "padmanath-gohain-baruah-2"
     ]
   ],
   "visual_similarity_note": "Automated perceptual hash suggestions; not proof of duplication. Event-variant view groups shared event titles. User decides all visual removals."

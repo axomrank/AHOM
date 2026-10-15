@@ -1,0 +1,16 @@
+{
+  "id": "58",
+  "college": "Uttar Barpeta College",
+  "pages": [
+    {
+      "url": "https://uttarbarpetacollege.in/",
+      "status": "ok",
+      "cache": "01ced11f649fbf941d65.json"
+    },
+    {
+      "url": "https://uttarbarpetacollege.in/about_us.php",
+      "status": "ok",
+      "cache": "3b1d93ba1d20b56d737d.json"
+    }
+  ]
+}

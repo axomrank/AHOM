@@ -1,0 +1,46 @@
+{
+  "id": "347",
+  "college": "Tezpur College",
+  "pages": [
+    {
+      "url": "https://tezpurcollege.com/",
+      "status": "ok",
+      "cache": "ca67711ccf371fcb3bb6.json"
+    },
+    {
+      "url": "https://tezpurcollege.com/department.php?r=10",
+      "status": "ok",
+      "cache": "546b71257708c4a8c74e.json"
+    },
+    {
+      "url": "https://tezpurcollege.com/news/313.pdf",
+      "status": "ok",
+      "cache": "050405c632a03a4fd1db.json"
+    },
+    {
+      "url": "https://tezpurcollege.com/prospectus.php",
+      "status": "ok",
+      "cache": "9739a363b241eefcfeca.json"
+    },
+    {
+      "url": "https://tezpurcollege.com/prospectus.php ",
+      "status": "error",
+      "cache": "b0d70d4f4406eca39f2b.json"
+    },
+    {
+      "url": "https://tezpurcollege.com/dept_prgm.php?r=10",
+      "status": "ok",
+      "cache": "28f5007108494806fa6d.json"
+    },
+    {
+      "url": "https://tezpurcollege.com/academic_calendar.php",
+      "status": "ok",
+      "cache": "6e4ad7473407b064b249.json"
+    },
+    {
+      "url": "https://tezpurcollege.com/department.php?r=11",
+      "status": "ok",
+      "cache": "d6df01b87911d669ae74.json"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "332",
+  "college": "Bir Lachit Borphukan College",
+  "pages": [
+    {
+      "url": "https://blbcollege.org.in/",
+      "status": "ok",
+      "cache": "cbfc7db2ebe8f6a85ad1.json"
+    },
+    {
+      "url": "https://blbcollege.org.in/PROSPECTUS BLB 25-26.pdf",
+      "status": "ok",
+      "cache": "b3e2049b9080c652301a.json"
+    },
+    {
+      "url": "https://blbcollege.org.in/academic-calender.php",
+      "status": "ok",
+      "cache": "c22300503161d7939270.json"
+    },
+    {
+      "url": "https://blbcollege.org.in/files/AcademicAudit.pdf",
+      "status": "ok",
+      "cache": "067f75c62f67dd21236b.json"
+    }
+  ]
+}

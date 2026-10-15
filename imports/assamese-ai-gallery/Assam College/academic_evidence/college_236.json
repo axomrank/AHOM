@@ -1,0 +1,46 @@
+{
+  "id": "236",
+  "college": "Pati Darrang College",
+  "pages": [
+    {
+      "url": "https://patidarrangcollege.com/",
+      "status": "ok",
+      "cache": "9b9bada8ac32a3d4ad39.json"
+    },
+    {
+      "url": "https://patidarrangcollege.com/pdf/Prospectus_2024-2025.pdf",
+      "status": "ok",
+      "cache": "e46c0a889ae6198a423f.json"
+    },
+    {
+      "url": "https://patidarrangcollege.com/pdf/Patidarrang_Prospectus_2025-26.pdf",
+      "status": "ok",
+      "cache": "af5107a2e26b417137c4.json"
+    },
+    {
+      "url": "https://patidarrangcollege.com/pdf/Patidarrang_Prospectus_2026-27.pdf",
+      "status": "ok",
+      "cache": "2db7939d453727a4f4e5.json"
+    },
+    {
+      "url": "https://patidarrangcollege.com/pdf/Patidarrang College.pdf",
+      "status": "ok",
+      "cache": "ecaba4b3f0b381882d04.json"
+    },
+    {
+      "url": "https://patidarrangcollege.com/pdf/Prospectus_2022-2023.pdf",
+      "status": "ok",
+      "cache": "21bc86a86f35f6e61595.json"
+    },
+    {
+      "url": "https://patidarrangcollege.com/pdf/Prospectus_2023-2024.pdf",
+      "status": "ok",
+      "cache": "9bcf6a97c59306395d68.json"
+    },
+    {
+      "url": "https://patidarrangcollege.com/departments.php?dept=1",
+      "status": "ok",
+      "cache": "ccf22811d4f911813af6.json"
+    }
+  ]
+}

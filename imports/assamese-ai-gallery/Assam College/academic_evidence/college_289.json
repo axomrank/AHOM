@@ -1,0 +1,46 @@
+{
+  "id": "289",
+  "college": "U.M.K. College (Uttar Majuli Kamalabari College)",
+  "pages": [
+    {
+      "url": "https://umkcollege.in/",
+      "status": "ok",
+      "cache": "6315be3c9dad30ebbfa1.json"
+    },
+    {
+      "url": "https://umkcollege.in/images/prospectus/UMK_Prospectus_2026-27.pdf",
+      "status": "ok",
+      "cache": "cb8279898ac11dee0df7.json"
+    },
+    {
+      "url": "https://umkcollege.in/index.php/academics/admissions/prospectus",
+      "status": "ok",
+      "cache": "e36cc64d43637c65aa12.json"
+    },
+    {
+      "url": "https://umkcollege.in/index.php/academics/courses/b-a-prog",
+      "status": "ok",
+      "cache": "762e267116dd1cc237cc.json"
+    },
+    {
+      "url": "https://umkcollege.in/index.php/academics/courses/higher-secondary-arts",
+      "status": "ok",
+      "cache": "8363b940265c3c8457fc.json"
+    },
+    {
+      "url": "https://umkcollege.in/index.php/academics/courses/add-on-course",
+      "status": "ok",
+      "cache": "105df2e232b2bb1163f6.json"
+    },
+    {
+      "url": "https://umkcollege.in/index.php/academics/admissions/b-a-programme",
+      "status": "ok",
+      "cache": "f201b17645f6eb1d53b1.json"
+    },
+    {
+      "url": "https://umkcollege.in/index.php/academics/admissions/hostel-accommodation",
+      "status": "ok",
+      "cache": "8d0bf34fb195c22809e2.json"
+    }
+  ]
+}

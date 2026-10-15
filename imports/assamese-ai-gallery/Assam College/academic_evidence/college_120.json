@@ -1,0 +1,26 @@
+{
+  "id": "120",
+  "college": "Bilasipara College",
+  "pages": [
+    {
+      "url": "http://bilasiparacollege.org/",
+      "status": "ok",
+      "cache": "10bf5256ae114d67c983.json"
+    },
+    {
+      "url": "http://bilasiparacollege.org/departments.php",
+      "status": "ok",
+      "cache": "cf2067fa9fb1fa282eef.json"
+    },
+    {
+      "url": "http://bilasiparacollege.org/prospectus.php",
+      "status": "ok",
+      "cache": "c15b8cdd391acff130e5.json"
+    },
+    {
+      "url": "http://bilasiparacollege.org/acalender.php",
+      "status": "ok",
+      "cache": "ff5cede694f7cbb1344c.json"
+    }
+  ]
+}

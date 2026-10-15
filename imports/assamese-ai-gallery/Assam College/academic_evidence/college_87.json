@@ -1,0 +1,46 @@
+{
+  "id": "87",
+  "college": "Moran Mahila Mahavidyalaya",
+  "pages": [
+    {
+      "url": "https://www.moranmahilamahavidyalaya.ac.in/",
+      "status": "ok",
+      "cache": "9e159a7a22ff1ef13d87.json"
+    },
+    {
+      "url": "https://www.moranmahilamahavidyalaya.ac.in/index_departments_all.php",
+      "status": "ok",
+      "cache": "3ffeb8fd1e823e287409.json"
+    },
+    {
+      "url": "https://www.moranmahilamahavidyalaya.ac.in/page_news_details.php?p=0203",
+      "status": "ok",
+      "cache": "3d397b653218e4561be4.json"
+    },
+    {
+      "url": "https://www.moranmahilamahavidyalaya.ac.in/index_page_details.php?page=0053&title=prospectus",
+      "status": "ok",
+      "cache": "9ab89a5fbc2f2f3afce7.json"
+    },
+    {
+      "url": "https://www.moranmahilamahavidyalaya.ac.in/index_page_details.php?page=260&title=prospectus",
+      "status": "ok",
+      "cache": "61104757176b7446442d.json"
+    },
+    {
+      "url": "https://www.moranmahilamahavidyalaya.ac.in/index_dept_page.php?p=09&name=Geography",
+      "status": "ok",
+      "cache": "2fb404b099dddfaaf594.json"
+    },
+    {
+      "url": "https://www.moranmahilamahavidyalaya.ac.in/index_page_details.php?page=0058&title=academic-program",
+      "status": "ok",
+      "cache": "0084d2a9db1740df7227.json"
+    },
+    {
+      "url": "https://www.moranmahilamahavidyalaya.ac.in/index_page_details.php?page=0012&title=academic-calendar",
+      "status": "ok",
+      "cache": "478046022bc4ed545627.json"
+    }
+  ]
+}

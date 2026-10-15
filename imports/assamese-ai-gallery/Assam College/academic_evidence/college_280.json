@@ -1,0 +1,21 @@
+{
+  "id": "280",
+  "college": "Pub Dikrong College",
+  "pages": [
+    {
+      "url": "https://pubdikrongcollege.in/",
+      "status": "ok",
+      "cache": "5e4922679a96adfdd61e.json"
+    },
+    {
+      "url": "https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/menu/document/5_0.pdf",
+      "status": "ok",
+      "cache": "b65bf38639b932ae9aec.json"
+    },
+    {
+      "url": "https://www.unom.ac.in/asc/uploads/2014-15/orientation-programmes-14-15.pdf",
+      "status": "error",
+      "cache": "2c4a5bb02c0b81e6bd81.json"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "254",
+  "college": "Rabindrasadan Girls' College",
+  "pages": [
+    {
+      "url": "https://rabindrasadangirlscollege.in/",
+      "status": "ok",
+      "cache": "98f8bf2461d03d0442c0.json"
+    },
+    {
+      "url": "https://rabindrasadangirlscollege.in/Dept.aspx",
+      "status": "ok",
+      "cache": "d6e91cd73c3de6fa2113.json"
+    },
+    {
+      "url": "https://rabindrasadangirlscollege.in/AcademicHelpdesk.aspx",
+      "status": "ok",
+      "cache": "14e7652f6769d6e3ecc2.json"
+    },
+    {
+      "url": "https://rabindrasadangirlscollege.in/Prospectus.aspx",
+      "status": "ok",
+      "cache": "df16dd36c1d75db606c0.json"
+    },
+    {
+      "url": "https://rabindrasadangirlscollege.in/Programmes.aspx",
+      "status": "ok",
+      "cache": "52c1ae4ec949df758319.json"
+    },
+    {
+      "url": "https://rabindrasadangirlscollege.in/ac.aspx",
+      "status": "ok",
+      "cache": "50ec651f6ab674736a1e.json"
+    },
+    {
+      "url": "https://rabindrasadangirlscollege.in/TeachersContribution.aspx",
+      "status": "ok",
+      "cache": "16bbe6e1b5a385802f68.json"
+    }
+  ]
+}

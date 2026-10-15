@@ -1,0 +1,1 @@
+{"url": "https://www.fakiragramcollege.ac.in/Academics/CourseOutcomes/OutCome", "retrieved": "2026-10-02", "status": "error", "error": "SSLError: HTTPSConnectionPool(host='www.fakiragramcollege.ac.in', port=443): Max retries exceeded with url: /Academics/CourseOutcomes/OutCome (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"}

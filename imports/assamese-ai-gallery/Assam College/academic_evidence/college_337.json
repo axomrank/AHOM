@@ -1,0 +1,46 @@
+{
+  "id": "337",
+  "college": "Jhanji Hemnath Sarma College",
+  "pages": [
+    {
+      "url": "https://jhanjihnscollege.edu.in/",
+      "status": "ok",
+      "cache": "65184b615432d25c5f2d.json"
+    },
+    {
+      "url": "https://jhanjihnscollege.edu.in/prospectus.php",
+      "status": "ok",
+      "cache": "3534a9eebab00c05951c.json"
+    },
+    {
+      "url": "https://jhanjihnscollege.edu.in/academic_calendar.php",
+      "status": "ok",
+      "cache": "0f0139aecf1a0982f9c9.json"
+    },
+    {
+      "url": "https://jhanjihnscollege.edu.in/department.php?r=5",
+      "status": "ok",
+      "cache": "bc3996d362b0cffd35e1.json"
+    },
+    {
+      "url": "https://jhanjihnscollege.edu.in/department.php?r=6",
+      "status": "ok",
+      "cache": "bb05192d1477a4544edc.json"
+    },
+    {
+      "url": "https://jhanjihnscollege.edu.in/department.php?r=7",
+      "status": "ok",
+      "cache": "83eed4c73359b4845596.json"
+    },
+    {
+      "url": "https://jhanjihnscollege.edu.in/department.php?r=8",
+      "status": "ok",
+      "cache": "de8e71ffec1d53c32b45.json"
+    },
+    {
+      "url": "https://jhanjihnscollege.edu.in/department.php?r=9",
+      "status": "ok",
+      "cache": "774dfb95c44bfd53fa2c.json"
+    }
+  ]
+}

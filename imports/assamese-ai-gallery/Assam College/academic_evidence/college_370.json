@@ -1,0 +1,16 @@
+{
+  "id": "370",
+  "college": "Thong Nokbe College",
+  "pages": [
+    {
+      "url": "https://thongnokbecollege.in/",
+      "status": "error",
+      "cache": "b08a380ee7ad5745b9b4.json"
+    },
+    {
+      "url": "https://webbackend.tnc.ac.in/src/uploads/COLLEGE_ACADEMIC_NOTICE/Prospectus_2025-26%20Thong%20Nokbe%20College_w3YeOmw65x.pdf",
+      "status": "ok",
+      "cache": "e6138a7f70c5ca5183ae.json"
+    }
+  ]
+}

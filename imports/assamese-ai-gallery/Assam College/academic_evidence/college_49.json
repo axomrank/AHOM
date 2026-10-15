@@ -1,0 +1,46 @@
+{
+  "id": "49",
+  "college": "GL Choudhury College",
+  "pages": [
+    {
+      "url": "https://glcc.ac.in/",
+      "status": "ok",
+      "cache": "41a917a9c7e1f9bf0ad4.json"
+    },
+    {
+      "url": "https://glcc.ac.in/department.php",
+      "status": "ok",
+      "cache": "bf042a72d20d0b9f8336.json"
+    },
+    {
+      "url": "https://glcc.ac.in/upload/notice/1781003004.pdf",
+      "status": "ok",
+      "cache": "610cc12cd938ced19abd.json"
+    },
+    {
+      "url": "https://glcc.ac.in/upload/notice/1781002958.pdf",
+      "status": "ok",
+      "cache": "d37fc402fc7736ecea9f.json"
+    },
+    {
+      "url": "https://glcc.ac.in/upload/notice/1780408425.pdf",
+      "status": "ok",
+      "cache": "29398d9eefb3d2cd68b7.json"
+    },
+    {
+      "url": "https://glcc.ac.in/upload/notice/1780408379.pdf",
+      "status": "ok",
+      "cache": "6f4b9f215b02ec1bf327.json"
+    },
+    {
+      "url": "https://glcc.ac.in/academic_cal.php",
+      "status": "ok",
+      "cache": "ecd6720b082ecc2d19b1.json"
+    },
+    {
+      "url": "https://glcc.ac.in/dpt_login",
+      "status": "ok",
+      "cache": "716baae51fcfc7daf0ad.json"
+    }
+  ]
+}

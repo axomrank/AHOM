@@ -1,0 +1,46 @@
+{
+  "id": "166",
+  "college": "J.D.S.G. College",
+  "pages": [
+    {
+      "url": "https://jdsgcollege.edu.in/",
+      "status": "ok",
+      "cache": "2538a71d7ecb37aba15f.json"
+    },
+    {
+      "url": "https://jdsgcollege.edu.in/prospectus/",
+      "status": "ok",
+      "cache": "feb46bd1e5e2446e5576.json"
+    },
+    {
+      "url": "https://jdsgcollege.edu.in/academic-coordinator/",
+      "status": "ok",
+      "cache": "8fe1843d4130c75b0270.json"
+    },
+    {
+      "url": "https://jdsgcollege.edu.in/academic-calendar-2/",
+      "status": "ok",
+      "cache": "4da74ae8f4373c627295.json"
+    },
+    {
+      "url": "https://jdsgcollege.edu.in/academic-audit-report/",
+      "status": "ok",
+      "cache": "8819694409f2746cc1e4.json"
+    },
+    {
+      "url": "https://jdsgcollege.edu.in/alumi-commerce-department/",
+      "status": "ok",
+      "cache": "0dffe74353f1d79da325.json"
+    },
+    {
+      "url": "https://jdsgcollege.edu.in/notice-commerce-department/",
+      "status": "ok",
+      "cache": "c833df6e315c04026e3e.json"
+    },
+    {
+      "url": "https://jdsgcollege.edu.in/academic-audit/",
+      "status": "ok",
+      "cache": "d33bed6f52410c70a755.json"
+    }
+  ]
+}

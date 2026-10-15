@@ -1,0 +1,46 @@
+{
+  "id": "273",
+  "college": "Lakhimpur Girls' College",
+  "pages": [
+    {
+      "url": "https://lgcollege.ac.in/",
+      "status": "ok",
+      "cache": "2c1ac01df626944df42d.json"
+    },
+    {
+      "url": "https://lgcollege.ac.in/data/department/index.php",
+      "status": "ok",
+      "cache": "c185cd72fcafde2316ef.json"
+    },
+    {
+      "url": "https://lgcollege.ac.in/data/page/prospectus.php",
+      "status": "ok",
+      "cache": "071300788f39cc4e46f3.json"
+    },
+    {
+      "url": "https://lgcollege.ac.in/data/page/academic-calendar.php",
+      "status": "ok",
+      "cache": "7365ad07409574409333.json"
+    },
+    {
+      "url": "https://lgcollege.ac.in/data/department/anthropology.php",
+      "status": "ok",
+      "cache": "2381ef5fc1a3513c3244.json"
+    },
+    {
+      "url": "https://lgcollege.ac.in/data/department/assamese.php",
+      "status": "ok",
+      "cache": "65abb8f644c3320ed408.json"
+    },
+    {
+      "url": "https://lgcollege.ac.in/data/department/botany.php",
+      "status": "ok",
+      "cache": "5a6541291babc2f6ef1a.json"
+    },
+    {
+      "url": "https://lgcollege.ac.in/data/department/chemistry.php",
+      "status": "ok",
+      "cache": "9ba3419fcdc4f46e4977.json"
+    }
+  ]
+}

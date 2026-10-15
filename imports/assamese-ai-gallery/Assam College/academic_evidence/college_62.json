@@ -1,0 +1,46 @@
+{
+  "id": "62",
+  "college": "Chatia College",
+  "pages": [
+    {
+      "url": "https://chatiacollege.com/",
+      "status": "ok",
+      "cache": "e7b31a8fb85f699af9c1.json"
+    },
+    {
+      "url": "https://chatiacollege.com/home/course",
+      "status": "ok",
+      "cache": "86fbdff28257bd3f76b7.json"
+    },
+    {
+      "url": "https://chatiacollege.com/home/academic_calender",
+      "status": "ok",
+      "cache": "926b673110a51f7c2dbb.json"
+    },
+    {
+      "url": "https://chatiacollege.com/home/department/assamese",
+      "status": "ok",
+      "cache": "95f7cb61650eed964d83.json"
+    },
+    {
+      "url": "https://chatiacollege.com/home/department/english",
+      "status": "ok",
+      "cache": "8c826b4e1b8e227823e6.json"
+    },
+    {
+      "url": "https://chatiacollege.com/home/department/political",
+      "status": "ok",
+      "cache": "e459a59480224c898d79.json"
+    },
+    {
+      "url": "https://chatiacollege.com/home/department/history",
+      "status": "ok",
+      "cache": "c2d5c2ec6393eed576e4.json"
+    },
+    {
+      "url": "https://chatiacollege.com/home/department/economics",
+      "status": "ok",
+      "cache": "9db6a777560bafe8f5dc.json"
+    }
+  ]
+}

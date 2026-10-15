@@ -1,0 +1,46 @@
+{
+  "id": "188",
+  "college": "Chandra Kamal Bezbaruah Commerce College (C.K.B. Commerce College)",
+  "pages": [
+    {
+      "url": "https://ckbcc.ac.in/",
+      "status": "ok",
+      "cache": "5d07280d5840cf75d1fa.json"
+    },
+    {
+      "url": "https://ckbcc.ac.in/index.php/departments-faculty/",
+      "status": "ok",
+      "cache": "070d07171646b9324461.json"
+    },
+    {
+      "url": "https://ckbcc.ac.in/index.php/event/results-of-online-portrait-making-competition-organised-on-the-occasion-of-rabha-divas-2026-by-iqac-in-association-with-department-of-englishchandra-kamal-bezbaruah-commerce-college-jorhat/",
+      "status": "ok",
+      "cache": "626baffb21b78342aecc.json"
+    },
+    {
+      "url": "https://ckbcc.ac.in/index.php/academic-calendar-prospectus/",
+      "status": "ok",
+      "cache": "2ffa585d109b113a3a42.json"
+    },
+    {
+      "url": "https://ckbcc.ac.in/index.php/prospectus/",
+      "status": "ok",
+      "cache": "68943a1e1a1c59559cfb.json"
+    },
+    {
+      "url": "https://ckbcc.ac.in/index.php/department-of-statistics-mathematics/",
+      "status": "ok",
+      "cache": "71cffa4185abd83abb38.json"
+    },
+    {
+      "url": "https://ckbcc.ac.in/index.php/department-of-hindi/",
+      "status": "ok",
+      "cache": "42c6b0aeb8e48a9e1252.json"
+    },
+    {
+      "url": "https://ckbcc.ac.in/index.php/department-of-english/",
+      "status": "ok",
+      "cache": "ad9578c576e1075e9588.json"
+    }
+  ]
+}

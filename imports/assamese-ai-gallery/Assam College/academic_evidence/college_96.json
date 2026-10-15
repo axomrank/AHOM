@@ -1,0 +1,46 @@
+{
+  "id": "96",
+  "college": "Deomornoi Degree College",
+  "pages": [
+    {
+      "url": "https://deomornoidegreecollege.com/",
+      "status": "ok",
+      "cache": "a178f75aef4707c0f88f.json"
+    },
+    {
+      "url": "https://deomornoidegreecollege.com/departments/",
+      "status": "ok",
+      "cache": "f69a949ef08542171b47.json"
+    },
+    {
+      "url": "https://deomornoidegreecollege.com/wp-content/uploads/2026/08/Deomornoi-Degree-College_Prospectus_Session-2026-2027.pdf",
+      "status": "ok",
+      "cache": "18d00813f41249186716.json"
+    },
+    {
+      "url": "https://deomornoidegreecollege.com/wp-content/uploads/2026/03/Field-Trip.pdf\"",
+      "status": "ok",
+      "cache": "ea6dbc951b3d1dcdf711.json"
+    },
+    {
+      "url": "https://deomornoidegreecollege.com/wp-content/uploads/2026/03/Field-Trip.pdf",
+      "status": "ok",
+      "cache": "52bce2b958924387e558.json"
+    },
+    {
+      "url": "https://deomornoidegreecollege.com/prospectus/",
+      "status": "ok",
+      "cache": "37bdfb59b666e31940da.json"
+    },
+    {
+      "url": "https://deomornoidegreecollege.com/prospectus-preparation-comm/",
+      "status": "ok",
+      "cache": "01e7ff3a2709a876a9bf.json"
+    },
+    {
+      "url": "https://deomornoidegreecollege.com/academic/",
+      "status": "ok",
+      "cache": "dac1d463f572bff64351.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "237",
+  "college": "Pub Bongsor College",
+  "pages": [
+    {
+      "url": "https://www.pubbongsorcollege.ac.in/",
+      "status": "ok",
+      "cache": "0d5a1c4e11b84875b656.json"
+    },
+    {
+      "url": "https://www.pubbongsorcollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "f958b0fbffbe07c5a9b8.json"
+    },
+    {
+      "url": "https://www.pubbongsorcollege.ac.in/upload/headnotice/1757323762.pdf",
+      "status": "ok",
+      "cache": "b41c77f5053e4a7e11d1.json"
+    },
+    {
+      "url": "https://www.pubbongsorcollege.ac.in/upload/notice/1789469800.pdf",
+      "status": "ok",
+      "cache": "bb1b7126fe2ebef78ec4.json"
+    },
+    {
+      "url": "https://www.pubbongsorcollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "1fe4d1b843a4d805c3cb.json"
+    },
+    {
+      "url": "https://www.pubbongsorcollege.ac.in/academiccalender.php",
+      "status": "ok",
+      "cache": "4586acdcbab233597d2d.json"
+    },
+    {
+      "url": "https://www.pubbongsorcollege.ac.in/upload/headnotice/1755748549.jpeg",
+      "status": "ok",
+      "cache": "dff7e3dc63cbd2c9bd7e.json"
+    },
+    {
+      "url": "https://www.pubbongsorcollege.ac.in/upload/headnotice/1709531004.jpeg",
+      "status": "ok",
+      "cache": "0761f222e8d716d3c03a.json"
+    }
+  ]
+}

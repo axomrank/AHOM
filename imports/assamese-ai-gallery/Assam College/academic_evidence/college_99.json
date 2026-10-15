@@ -1,0 +1,36 @@
+{
+  "id": "99",
+  "college": "Mangaldoi Commerce College",
+  "pages": [
+    {
+      "url": "https://mangaldoicommercecollege.ac.in/",
+      "status": "ok",
+      "cache": "5b9b68f43e879b1777a5.json"
+    },
+    {
+      "url": "https://mangaldoicommercecollege.ac.in/upload/prospectus/1748236951.pdf",
+      "status": "ok",
+      "cache": "66380d0d0d6dafe222e8.json"
+    },
+    {
+      "url": "https://mangaldoicommercecollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "137f0780bd07b9fa5b19.json"
+    },
+    {
+      "url": "https://mangaldoicommercecollege.ac.in/upload/prospectus/1785831116.pdf",
+      "status": "ok",
+      "cache": "39995098c545f6a6a4f0.json"
+    },
+    {
+      "url": "https://mangaldoicommercecollege.ac.in/acalender.php",
+      "status": "ok",
+      "cache": "28e35eca46b4ca19e0c6.json"
+    },
+    {
+      "url": "https://mangaldoicommercecollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "ddedf61b76b7d8f9b148.json"
+    }
+  ]
+}

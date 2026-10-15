@@ -1,0 +1,1 @@
+{"url": "https://bbkishancollege.ac.in/home-2/", "retrieved": "2026-10-02", "status": "error", "error": "ConnectTimeout: HTTPSConnectionPool(host='bbkishancollege.ac.in', port=443): Max retries exceeded with url: /home-2/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='bbkishancollege.ac.in', port=443) at 0x739196"}

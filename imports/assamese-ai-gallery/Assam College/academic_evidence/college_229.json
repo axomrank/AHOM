@@ -1,0 +1,46 @@
+{
+  "id": "229",
+  "college": "Dakshin Kamrup College",
+  "pages": [
+    {
+      "url": "https://dkcollegemirza.com/",
+      "status": "ok",
+      "cache": "bfe2ee81d9751dd5095d.json"
+    },
+    {
+      "url": "https://dkcollegemirza.com/department.php",
+      "status": "ok",
+      "cache": "82d5ee3cf653f5744528.json"
+    },
+    {
+      "url": "https://dkcollegemirza.com/teachingstaff.php",
+      "status": "ok",
+      "cache": "66bb51aff824f3591a05.json"
+    },
+    {
+      "url": "https://dkcollegemirza.com/prospectus.php",
+      "status": "ok",
+      "cache": "d8d09224c6c7c4a26645.json"
+    },
+    {
+      "url": "https://dkcollegemirza.com/courses.php",
+      "status": "ok",
+      "cache": "e880ab70c2340d2d9593.json"
+    },
+    {
+      "url": "https://dkcollegemirza.com/acalender.php",
+      "status": "ok",
+      "cache": "abc1593c2b4dd33c5164.json"
+    },
+    {
+      "url": "https://dkcollegemirza.com/dkc_dpt_login",
+      "status": "ok",
+      "cache": "8c357413b02b18905666.json"
+    },
+    {
+      "url": "https://dkcollegemirza.com/Academic-Departments.php?a=e5bcac3a240aa9e58d6bcd72b6099a6e61fb1b028ed78ca8fcb512ee1953a33e32599a910a934fb0c32febefdf0736c50571e227933cd1030707249a1ac23514",
+      "status": "ok",
+      "cache": "13be4aff63c87b37ea7e.json"
+    }
+  ]
+}

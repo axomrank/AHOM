@@ -1,0 +1,46 @@
+{
+  "id": "197",
+  "college": "Mariani College",
+  "pages": [
+    {
+      "url": "https://www.marianicollege.org.in/",
+      "status": "ok",
+      "cache": "f54fa5ec5c0f6be3a9b7.json"
+    },
+    {
+      "url": "https://www.marianicollege.org.in/index.php/prospectus",
+      "status": "ok",
+      "cache": "a8dee2fc9cbbaceea90c.json"
+    },
+    {
+      "url": "https://www.marianicollege.org.in/index.php/academics/prospectus",
+      "status": "ok",
+      "cache": "ed8f674e4e01afc749ad.json"
+    },
+    {
+      "url": "https://www.marianicollege.org.in/index.php/academics/courses/course",
+      "status": "ok",
+      "cache": "3e854f9d2621c8d3ea3c.json"
+    },
+    {
+      "url": "https://www.marianicollege.org.in/index.php/academics/courses/higher-secondary",
+      "status": "ok",
+      "cache": "50c4daf82f441d162e7d.json"
+    },
+    {
+      "url": "https://www.marianicollege.org.in/index.php/academics/courses/addon-courses",
+      "status": "ok",
+      "cache": "a9a10dcbdffa6b77a59f.json"
+    },
+    {
+      "url": "https://www.marianicollege.org.in/index.php/academics/admissions/syllabus",
+      "status": "ok",
+      "cache": "444166f11441c70856b0.json"
+    },
+    {
+      "url": "https://www.marianicollege.org.in/index.php/academics/time-table",
+      "status": "ok",
+      "cache": "c9efdad6b97feae9a3e5.json"
+    }
+  ]
+}

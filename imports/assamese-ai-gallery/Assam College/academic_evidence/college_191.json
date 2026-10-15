@@ -1,0 +1,16 @@
+{
+  "id": "191",
+  "college": "Dr. Nobin Bordoloi College",
+  "pages": [
+    {
+      "url": "https://drnabinbordoloicollege.org/",
+      "status": "error",
+      "cache": "9617312257dcbee044ef.json"
+    },
+    {
+      "url": "https://drnabinbordoloicollege.org/firstpage.php",
+      "status": "error",
+      "cache": "aa60c4abdd93f82eb4d3.json"
+    }
+  ]
+}

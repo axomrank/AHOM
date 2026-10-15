@@ -1,0 +1,46 @@
+{
+  "id": "223",
+  "college": "B.P. Chaliha College",
+  "pages": [
+    {
+      "url": "https://bpchalihacollege.org.in/",
+      "status": "ok",
+      "cache": "66a4bebb1f1a6a82eafe.json"
+    },
+    {
+      "url": "https://bpchalihacollege.org.in/teachingstaff.php",
+      "status": "ok",
+      "cache": "da66b7e02452f47b1034.json"
+    },
+    {
+      "url": "https://bpchalihacollege.org.in/prospectus.php",
+      "status": "ok",
+      "cache": "b36c530635540bc22c6b.json"
+    },
+    {
+      "url": "https://bpchalihacollege.org.in/academic_audit.php",
+      "status": "ok",
+      "cache": "a3dafe50474e38c2584b.json"
+    },
+    {
+      "url": "https://bpchalihacollege.org.in/academics.php?encRequest=1df3902fb0519e88e2397f978e1621cce8a8ae5ca37807c4167e86218b8dccd7192b6d7e53ea9e017f21f39070578f02",
+      "status": "ok",
+      "cache": "bf1e1f97a37c4d6b8a2e.json"
+    },
+    {
+      "url": "https://bpchalihacollege.org.in/academiccalender.php",
+      "status": "ok",
+      "cache": "40a650bfcfbdafbb596b.json"
+    },
+    {
+      "url": "https://bpchalihacollege.org.in/academics.php?encRequest=f6b865dc5af025362c6a2452166c566897e7edb5372f656e0dc6f9eacb4904020bb8ea7e660b49cd92a3f0b098afc296",
+      "status": "ok",
+      "cache": "a972ab12cb2efdc7e962.json"
+    },
+    {
+      "url": "https://bpchalihacollege.org.in/Academic-Departments.php?encRequest=8e78b920240716999cdb069f208197348da3b9c9f6c9e672c3c935692edcf70b66d386499c4213f1b00bae6ed53191bf492d52cd5ec128ea4f7e6055c1cc4a43",
+      "status": "ok",
+      "cache": "d850738ce8bbbf9be605.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "249",
+  "college": "Rukasen College",
+  "pages": [
+    {
+      "url": "https://rukasencollege.in/",
+      "status": "error",
+      "cache": "a7956deb9bc49ec7affe.json"
+    },
+    {
+      "url": "https://07fb74ad-1ee5-470e-b4ca-af26c653687a.usrfiles.com/ugd/07fb74_39564753e653415d9b8f73400fd17672.pdf",
+      "status": "ok",
+      "cache": "fef5963db322b32b21b3.json"
+    }
+  ]
+}

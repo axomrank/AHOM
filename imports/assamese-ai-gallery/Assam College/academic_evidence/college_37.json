@@ -1,0 +1,46 @@
+{
+  "id": "37",
+  "college": "Gyanpeeth Degree College",
+  "pages": [
+    {
+      "url": "https://gyanpeethdegreecollege.co.in/",
+      "status": "ok",
+      "cache": "e68b03a26ec1a325ff85.json"
+    },
+    {
+      "url": "https://gyanpeethdegreecollege.co.in/uploads/iqac/c3f059714faabc044ed8381933938d27.pdf",
+      "status": "ok",
+      "cache": "018afe1e883cad0dc636.json"
+    },
+    {
+      "url": "https://gyanpeethdegreecollege.co.in/course-details.php",
+      "status": "ok",
+      "cache": "c66884e8ea39b6e7163a.json"
+    },
+    {
+      "url": "https://gyanpeethdegreecollege.co.in/department.php?slug=economics",
+      "status": "ok",
+      "cache": "6e62add369051dce99aa.json"
+    },
+    {
+      "url": "https://gyanpeethdegreecollege.co.in/department.php?slug=history",
+      "status": "ok",
+      "cache": "e0ea58ed30bc501eeccc.json"
+    },
+    {
+      "url": "https://gyanpeethdegreecollege.co.in/department.php?slug=philosophy",
+      "status": "ok",
+      "cache": "9df0cbfe42ae229df9a5.json"
+    },
+    {
+      "url": "https://gyanpeethdegreecollege.co.in/department.php?slug=nepali",
+      "status": "ok",
+      "cache": "ab893c2e33e7a89676c7.json"
+    },
+    {
+      "url": "https://gyanpeethdegreecollege.co.in/department.php?slug=english",
+      "status": "ok",
+      "cache": "2f68ad2cd87d9345865f.json"
+    }
+  ]
+}

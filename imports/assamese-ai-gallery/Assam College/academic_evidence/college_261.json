@@ -1,0 +1,46 @@
+{
+  "id": "261",
+  "college": "Gossaigaon College",
+  "pages": [
+    {
+      "url": "https://gossaigaoncollege.org/",
+      "status": "ok",
+      "cache": "1ebe154109ba4283714d.json"
+    },
+    {
+      "url": "https://gossaigaoncollege.org/department/",
+      "status": "ok",
+      "cache": "1867054e720a935053af.json"
+    },
+    {
+      "url": "https://gossaigaoncollege.org/2025/07/09/admission-notice-for-admission-into-pg-assamese-bodo-education-geography-for-the-session-2025-26/",
+      "status": "ok",
+      "cache": "34b7d1fc0ff6b45ef3c8.json"
+    },
+    {
+      "url": "https://gossaigaoncollege.org/courses-offered/",
+      "status": "ok",
+      "cache": "5c95a247ea420955b018.json"
+    },
+    {
+      "url": "https://gossaigaoncollege.org/prospectus/",
+      "status": "ok",
+      "cache": "da5c2678f39df5fe62bf.json"
+    },
+    {
+      "url": "https://gossaigaoncollege.org/academic-calendar/",
+      "status": "ok",
+      "cache": "37a9d87c1441b2c2ceb9.json"
+    },
+    {
+      "url": "https://gossaigaoncollege.org/department/#main",
+      "status": "ok",
+      "cache": "7a9e6ee27f11c110a2da.json"
+    },
+    {
+      "url": "https://gossaigaoncollege.org/2022/04/23/department-of-zoology/",
+      "status": "ok",
+      "cache": "a1301687d9775638fca2.json"
+    }
+  ]
+}

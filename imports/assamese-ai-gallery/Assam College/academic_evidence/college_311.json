@@ -1,0 +1,16 @@
+{
+  "id": "311",
+  "college": "Nagaon G.N.D.G. Commerce College",
+  "pages": [
+    {
+      "url": "https://ngndgccollege.edu.in/departments.php",
+      "status": "ok",
+      "cache": "e697f93746881343e4ee.json"
+    },
+    {
+      "url": "https://ngndgccollege.edu.in/academic.php",
+      "status": "ok",
+      "cache": "0cbfeeff27cbc6fb4191.json"
+    }
+  ]
+}

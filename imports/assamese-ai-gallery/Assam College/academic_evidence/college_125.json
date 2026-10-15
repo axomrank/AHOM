@@ -1,0 +1,26 @@
+{
+  "id": "125",
+  "college": "Hamidabad College",
+  "pages": [
+    {
+      "url": "https://www.hamidabadcollege.in/",
+      "status": "ok",
+      "cache": "de5fabb2eba8fb5b8358.json"
+    },
+    {
+      "url": "https://www.hamidabadcollege.in/doc/prospectus.pdf",
+      "status": "ok",
+      "cache": "38af92afa8f3e9ccfe4b.json"
+    },
+    {
+      "url": "https://www.hamidabadcollege.in/User/academic",
+      "status": "ok",
+      "cache": "70236c3dd1f7deb54448.json"
+    },
+    {
+      "url": "https://www.hamidabadcollege.in/User/iqac_category/14",
+      "status": "ok",
+      "cache": "b19c8b7180ade1c8095b.json"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "300",
+  "college": "Batadraba Sri Sri Sankardev College",
+  "pages": [
+    {
+      "url": "https://batadrabassscollege.ac.in/",
+      "status": "ok",
+      "cache": "a54cc9cb7cae59252d9f.json"
+    },
+    {
+      "url": "https://batadrabassscollege.ac.in/department.php",
+      "status": "ok",
+      "cache": "279dbd4ea1da0e77fbd7.json"
+    },
+    {
+      "url": "https://batadrabassscollege.ac.in/upload/notice/1783679013.jpeg",
+      "status": "ok",
+      "cache": "d3e16a7e8e2afe7cd4e2.json"
+    },
+    {
+      "url": "https://batadrabassscollege.ac.in/prospectus.php",
+      "status": "ok",
+      "cache": "ae327224f3e9dd6eddc9.json"
+    },
+    {
+      "url": "https://batadrabassscollege.ac.in/academic_programs.php",
+      "status": "ok",
+      "cache": "f7cbdb8a79633a026733.json"
+    },
+    {
+      "url": "https://batadrabassscollege.ac.in/acalendar.php",
+      "status": "ok",
+      "cache": "df3ee1841f7dd9c6a271.json"
+    },
+    {
+      "url": "https://batadrabassscollege.ac.in/Academic-Departments.php?encRequest=d22f243d25cee12f27783957a183a6846f4c33fdb9ed55ee9cd2a6656b8aa9dfbd33883f09aac34fa4eaf7fe043213d135734558f3c03d17458e2b26187cf267",
+      "status": "ok",
+      "cache": "341537ad6ecd0b8a8215.json"
+    },
+    {
+      "url": "https://batadrabassscollege.ac.in/Academic-Departments.php?encRequest=8e78b920240716999cdb069f20819734d2852ed351dcfb60656a13636a3e9efeb317d7bd4dc9a36ebbed3468ad341a1131824e423fa6b704797a8158a9949517",
+      "status": "ok",
+      "cache": "c4da86589f63b8bb0264.json"
+    }
+  ]
+}

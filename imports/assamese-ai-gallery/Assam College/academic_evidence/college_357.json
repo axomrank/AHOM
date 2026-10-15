@@ -1,0 +1,36 @@
+{
+  "id": "357",
+  "college": "Padmanath Gohain Baruah Government Model College, Kakopather",
+  "pages": [
+    {
+      "url": "https://pngbgmckakopather.org/",
+      "status": "ok",
+      "cache": "e577f798eac591f64498.json"
+    },
+    {
+      "url": "https://pngbgmckakopather.org/department.php",
+      "status": "ok",
+      "cache": "9f5a90ab3db5de00a383.json"
+    },
+    {
+      "url": "https://pngbgmckakopather.org/courses.php",
+      "status": "ok",
+      "cache": "f8eb7aafe960ed40ebc0.json"
+    },
+    {
+      "url": "https://pngbgmckakopather.org/prospectus.php",
+      "status": "ok",
+      "cache": "9d5a7c5eab4133cf1f25.json"
+    },
+    {
+      "url": "https://pngbgmckakopather.org/iqac_academiccal.php",
+      "status": "ok",
+      "cache": "7a442c2169ada7aad11b.json"
+    },
+    {
+      "url": "https://pngbgmckakopather.org/academic-staff.php",
+      "status": "ok",
+      "cache": "3d60a25cffa486bd16cc.json"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "33",
+  "college": "North Kamrup College",
+  "pages": [
+    {
+      "url": "https://www.northkamrupcollege.org/",
+      "status": "ok",
+      "cache": "6ed6a78edd5e9f156f7f.json"
+    },
+    {
+      "url": "https://www.northkamrupcollege.org/cad",
+      "status": "ok",
+      "cache": "c53a0bf682fd0eb263c5.json"
+    },
+    {
+      "url": "https://www.northkamrupcollege.org/123.pdf",
+      "status": "ok",
+      "cache": "0d449605c45d347613c6.json"
+    },
+    {
+      "url": "https://www.northkamrupcollege.org/notify/1688992688.pdf",
+      "status": "ok",
+      "cache": "572b9c50ecbdd3b44886.json"
+    },
+    {
+      "url": "https://www.northkamrupcollege.org/AASchedle.pdf",
+      "status": "ok",
+      "cache": "1a36fab7442eda24cb55.json"
+    },
+    {
+      "url": "https://www.northkamrupcollege.org/vnotice/13",
+      "status": "ok",
+      "cache": "bc36f0575928d1dfe5a6.json"
+    },
+    {
+      "url": "https://www.northkamrupcollege.org/news/1657731809.pdf",
+      "status": "ok",
+      "cache": "1b7bae98cec3f12424f5.json"
+    }
+  ]
+}
