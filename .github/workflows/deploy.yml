@@ -26,14 +26,29 @@ jobs:
         with:
           lfs: true
 
+      - name: Check existing Pages configuration
+        id: pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh api "repos/${{ github.repository }}/pages" --silent; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Pages is not configured or could not be read. Skipping deployment; repository files remain available."
+          fi
+
       - name: Setup Pages
+        if: steps.pages.outputs.enabled == 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
+        if: steps.pages.outputs.enabled == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
 
       - name: Deploy to GitHub Pages
+        if: steps.pages.outputs.enabled == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
