@@ -6,3 +6,8 @@ coverage/
 *.log
 .env*
 !.env.example
+
+backups/
+output/
+.playwright-cli/
+__pycache__/
