@@ -1,15 +1,2 @@
-node_modules/
-build/
-dist/
-coverage/
 .DS_Store
-*.log
-.env*
-!.env.example
-
-backups/
-output/
-.playwright-cli/
-__pycache__/
-
-_site/
+Thumbs.db
