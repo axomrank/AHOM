@@ -1,0 +1,128 @@
+{
+  "note": "Chapters of the saga on the home page. `groups` are the scene eras (the `group` column of scene rows in data/ahom.csv) that each chapter collects. `word` is the large Assamese word behind the chapter and `gloss` says what it means. `moments` are scene ids shown in the chapter, `people` are person ids. Edit here, then run: python3 tools/build.py",
+  "eras": [
+    {
+      "id": "foundation",
+      "title": "The coming of Sukaphaa",
+      "start": 1228, "end": 1497,
+      "groups": ["Foundational Era (1228–1497)"],
+      "word": "চৰাইদেউ",
+      "gloss": "Charaideo, the first capital and royal burial ground",
+      "lead": [
+        "In 1215 the Tai prince Sukaphaa left Mong Mao with nine thousand followers, priests and two elephants. Thirteen years later he crossed the Patkai hills and came down into Namrup.",
+        "He made the Moran and Barahi chiefs his kin by marriage rather than his enemies, set the Burhagohain and Borgohain beside the throne, and in 1253 founded Charaideo, where Ahom kings would lie in their moidams for six centuries. Through three interregnums and a lost prince raised in a Brahmin home, the line held."
+      ],
+      "moments": ["AHOM-006", "AHOM-017", "AHOM-066"],
+      "people": ["sukaphaa", "badaucha", "thakumatha", "sukhaangphaa", "sudangphaa", "susenphaa"],
+      "reel": "04-bor-axom"
+    },
+    {
+      "id": "expansion",
+      "title": "Swarganarayan’s kingdom",
+      "start": 1497, "end": 1603,
+      "groups": ["Imperial Expansion & Early Invasions (1497–1603)"],
+      "word": "গড়গাঁও",
+      "gloss": "Garhgaon, the walled capital built in 1540",
+      "lead": [
+        "Suhungmung, the first Ahom king to take a Hindu title, Swarganarayan, doubled the kingdom. He annexed the Chutia lands in 1523, drove the Kacharis back to Dimapur and turned back the armies of Bengal.",
+        "When the Bengal general Turbak invaded in 1532, Mula Gabharu took up her fallen husband’s sword and died fighting. Later in 1533 the Ahoms killed Turbak and chased his army back to the Karatoya. Suklenmung built Garhgaon as a fortified capital, and Sukhaamphaa held off the Koch general Chilarai in 1562."
+      ],
+      "moments": ["AHOM-094", "AHOM-100", "AHOM-113"],
+      "people": ["suhungmung", "konseng", "mula-gabharu", "turbak", "suklenmung", "sukhaamphaa", "chilarai"],
+      "reel": "07-mula-gabharu"
+    },
+    {
+      "id": "mughal",
+      "title": "Against the Mughal Empire",
+      "start": 1603, "end": 1681,
+      "groups": ["Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)"],
+      "word": "শৰাইঘাট",
+      "gloss": "Saraighat, where the Mughal fleet was broken in 1671",
+      "lead": [
+        "Pratap Singha and his minister Momai Tamuli Borbarua rebuilt the paik system and created the offices of Borbarua and Borphukan. After years of war the Mughals accepted a frontier on the Barnadi in 1639.",
+        "In 1662 Mir Jumla took Garhgaon, but the monsoon and the hill war around Namrup wore his army down, and he died on the way back. Chakradhwaj Singha would not live with the treaty’s shame. His commander Lachit Borphukan retook Guwahati in 1667 and in 1671 broke Ram Singh’s fleet at Saraighat."
+      ],
+      "moments": ["AHOM-131", "AHOM-145", "AHOM-157"],
+      "people": ["pratap-singha", "momai-tamuli", "jayadhwaj-singha", "mir-jumla", "ramani-gabharu", "chakradhwaj-singha", "lachit-borphukan", "ram-singh-i"]
+    },
+    {
+      "id": "intrigue",
+      "title": "Six kings in nine years",
+      "start": 1672, "end": 1681,
+      "groups": ["Period of Ministerial Intrigue & Terror (1672–1681)"],
+      "word": "ষড়যন্ত্ৰ",
+      "gloss": "Conspiracy",
+      "lead": [
+        "After Saraighat the ministers held the real power. Debera Borbarua made kings and murdered them; Atan Burhagohain overthrew him; Laluk Sola Borphukan handed Guwahati back to the Mughals in 1679.",
+        "To keep a boy-king on the throne, Laluk had the princes maimed, since a maimed prince could never rule. Prince Gadapani escaped into the hills. His wife Joymoti was tortured to death at Jerenga in 1680 rather than say where he was."
+      ],
+      "moments": ["AHOM-166", "AHOM-176", "AHOM-177"],
+      "people": ["debera-borbarua", "atan-burhagohain", "laluk-sola", "sulikphaa", "joymoti", "gadadhar-singha"]
+    },
+    {
+      "id": "tungkhungia",
+      "title": "The Tungkhungia kings",
+      "start": 1681, "end": 1769,
+      "groups": ["Tungkhungia Restoration & Golden Age (1681–1769)"],
+      "word": "ৰংঘৰ",
+      "gloss": "Rang Ghar, the royal pavilion at Rangpur",
+      "lead": [
+        "Gadapani came out of hiding as Gadadhar Singha, drove the Mughals past the Manas in 1682 and began the Tungkhungia line. His son Rudra Singha built Rangpur and the Joysagar tank and made the Kachari and Jaintia kings his vassals.",
+        "Under Siva Singha three queens ruled in turn as Bar Raja. Phuleswari’s persecution of the Moamoria sattra planted the next century’s revolt. Pramatta Singha raised the Rang Ghar in brick, and Rajeswar Singha rebuilt the Kareng Ghar at Garhgaon."
+      ],
+      "moments": ["AHOM-178", "AHOM-189", "AHOM-197"],
+      "people": ["gadadhar-singha", "rudra-singha", "siva-singha", "phuleswari", "pramatta-singha", "rajeswar-singha", "kirti-chandra-borbarua"]
+    },
+    {
+      "id": "moamoria",
+      "title": "The Moamoria risings",
+      "start": 1769, "end": 1817,
+      "groups": ["Moamoria Rebellions & Decline (1769–1817)"],
+      "word": "মোৱামৰীয়া",
+      "gloss": "Moamoria, the disciples of the Mayamara sattra",
+      "lead": [
+        "In 1769 the Moamorias took Rangpur and imprisoned Lakshmi Singha. Queen Kuranganayani had the rebel leader killed and the king restored. The second rising, in 1786, drove Gaurinath Singha down the Brahmaputra to Guwahati.",
+        "The king asked the East India Company for help, and Captain Welsh’s sepoys pushed the rebels back between 1792 and 1794. The capital moved to Jorhat, Purnananda Burhagohain governed in the king’s name, and the kingdom never recovered its old strength."
+      ],
+      "moments": ["AHOM-203", "AHOM-205", "AHOM-210"],
+      "people": ["lakshmi-singha", "kuranganayani", "gaurinath-singha", "harihar-tanti", "sarbananda-singha", "captain-welsh", "purnananda-burhagohain"]
+    },
+    {
+      "id": "burmese",
+      "title": "The days of the Burmese",
+      "start": 1817, "end": 1826,
+      "groups": ["Burmese Invasions & Fall of Kingdom (1817–1826)"],
+      "word": "মানৰ আক্ৰমণ",
+      "gloss": "The Burmese invasions, remembered as Manor Din",
+      "lead": [
+        "Badan Chandra Borphukan, fleeing his enemies at court, brought a Burmese army into Assam in 1817. Three invasions followed. Chandrakanta, Purandar, Chandrakanta again, then Jogeswar as a puppet: kings were set up and thrown down while the Burmese commander Mingimaha Tilwa held the valley.",
+        "When Britain and Burma went to war in 1824, British troops drove the Burmese out. The Treaty of Yandabo, signed in February 1826, gave Assam to the East India Company."
+      ],
+      "moments": ["AHOM-215", "AHOM-223", "AHOM-228"],
+      "people": ["badan-chandra-borphukan", "chandrakanta-singha", "purandar-singha", "jogeswar-singha", "mingimaha-tilwa", "maha-bandula"]
+    },
+    {
+      "id": "british",
+      "title": "The last Swargadeo",
+      "start": 1826, "end": 1838,
+      "groups": ["Early British Rule & Ahom Resistance (1826–1833)", "British Annexation & End of Monarchy (1833–1838)"],
+      "word": "ইয়াণ্ডাবু",
+      "gloss": "Yandabo, where Assam was signed away",
+      "lead": [
+        "The Ahom nobles had expected their kingdom back. Instead Gomdhar Konwar rose in 1828, and in 1830 Piyali Phukan and Jiuram Dulia Baruah were hanged for plotting to drive the British out.",
+        "In 1833 the Company made Purandar Singha a tributary king of Upper Assam and set a tribute he could not pay. In 1838 it removed him and annexed the land, six hundred and ten years after Sukaphaa crossed the Patkai."
+      ],
+      "moments": ["AHOM-229", "AHOM-230", "AHOM-233"],
+      "people": ["purandar-singha", "david-scott"]
+    }
+  ],
+  "reels": [
+    {"id": "01-journey-begins", "title": "The journey begins", "year": "1215", "line": "নতুন দেশ বিচাৰি যাম।", "translation": "I will go and find a new land."},
+    {"id": "02-crossing-patkai", "title": "Crossing the Patkai", "year": "1215–1228", "line": "এই পাহাৰৰ সিপাৰেই আমাৰ ভৱিষ্যত।", "translation": "Our future lies beyond these hills."},
+    {"id": "03-naga-chief", "title": "The Naga chiefs", "year": "1228", "line": "", "translation": ""},
+    {"id": "04-bor-axom", "title": "Building Bor Axom", "year": "1230s", "line": "আজিৰ পৰা আমি সকলো এক।", "translation": "From today, we are all one."},
+    {"id": "05-throne", "title": "Sukaphaa on the throne", "year": "1253", "line": "", "translation": ""},
+    {"id": "06-royal-banner", "title": "The royal banner", "year": "1253", "line": "ইয়াতেই হ'ব আমাৰ ৰাজধানী — চৰাইদেউ।", "translation": "Here will be our capital: Charaideo."},
+    {"id": "07-mula-gabharu", "title": "Mula Gabharu", "year": "1533", "line": "", "translation": ""}
+  ]
+}

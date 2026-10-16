@@ -1,0 +1,5 @@
+# QASIM KHAN CHISHTI — reference and design
+
+Prepared 16 October 2026. Modern artistic reconstruction. See ../mughal-bengal-14-research.md for source access, provenance and limitations. Proposed faces, ages, garment cuts and colours are artistic choices except where explicitly connected to a source portrait description. No individual local scene is treated as an authenticated portrait.
+
+Jahangir-era Bengal subahdar c.1613–17, distinguish from later Qasim Khan Juvayni. Interpretive portrait, man about 42, warm medium-brown skin, broad forehead, long oval face, attentive slightly hooded eyes, aquiline nose, neat rounded black beard with a few grey hairs, average solid build. Provincial governor's court dress: fine pale pistachio long Mughal wrap-front jama with tiny restrained gold floral sprigs, cream narrow trousers, dark rose woven patka with hanging ends, pale cream turban with modest single gem clasp, light cream shawl over left shoulder, leather mojari shoes, small sheathed dagger secured at waist. Rank without emperor crown or excessive necklaces.

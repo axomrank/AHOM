@@ -1,0 +1,5 @@
+# MUNAWAR KHAN — reference and design
+
+Prepared 16 October 2026. Modern artistic reconstruction. See ../mughal-bengal-14-research.md for source access, provenance and limitations. Proposed faces, ages, garment cuts and colours are artistic choices except where explicitly connected to a source portrait description. No individual local scene is treated as an authenticated portrait.
+
+Mughal officer associated with Saraighat 1671, distinguish from unrelated later namesakes. Interpretive man about 35, medium deep brown skin, tall wiry physique, high cheekbones, narrow square jaw, broad slightly flattened nose, keen dark eyes, short black beard and thick moustache. River-campaign officer's practical outfit: indigo knee-length quilted coat under short riveted mail shirt, dark brown leather belt with restrained fittings, pale tan trousers, low iron open-face helmet with short neck mail, simple brown leather shoes, plain sheathed saber. Little ornament. No pirate hat, naval uniform, giant epaulettes or European cuirass. Likeness equipment and age uncertain.

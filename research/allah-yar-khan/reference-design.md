@@ -1,0 +1,5 @@
+# ALLAH YAR KHAN — reference and design
+
+Prepared 16 October 2026. Modern artistic reconstruction. See ../mughal-bengal-14-research.md for source access, provenance and limitations. Proposed faces, ages, garment cuts and colours are artistic choices except where explicitly connected to a source portrait description. No individual local scene is treated as an authenticated portrait.
+
+Mughal frontier commander and Asurar Ali treaty negotiator in 1639. Interpretive man about 52, medium brown skin, medium-height broad build, heavy-lidded observant eyes, wide rectangular face, prominent curved nose, salt-and-pepper moustache and short rounded grey-black beard. Dignified restrained Mughal officer in pearl-grey knee-length jama, dark indigo sleeveless quilted outer coat without modern buttons, cream narrow trousers, muted maroon patka, compact off-white folded turban, brown leather mojari, plain sheathed sword. No armor overload, no excessive jewellery. Practical frontier administrator ready for negotiations.

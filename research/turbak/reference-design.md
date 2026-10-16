@@ -1,0 +1,5 @@
+# TURBAK — reference and design
+
+Prepared 16 October 2026. Modern artistic reconstruction. See ../mughal-bengal-14-research.md for source access, provenance and limitations. Proposed faces, ages, garment cuts and colours are artistic choices except where explicitly connected to a source portrait description. No individual local scene is treated as an authenticated portrait.
+
+Bengal Sultanate commander invading Assam 1532–33; do not portray as seventeenth-century Mughal noble. Interpretive man about 50, tall broad-shouldered stocky physique, weathered medium tan-brown skin, long broad face, prominent nose, deeply set dark eyes, thick black-grey full beard cut to upper chest, strong thick moustache. Dark quilted blue-grey knee-length coat under plain riveted iron mail hauberk, wide worn dark leather belt, charcoal trousers, sturdy simple leather ankle riding shoes. Plain open-faced slightly conical steel helmet with short mail neck curtain, no giant spike or plumes. Sheathed gently curved sword. Restrained campaign equipment without lavish gold or heraldry.

@@ -1,0 +1,5 @@
+# SHIHABUDDIN TALISH — reference and design
+
+Prepared 16 October 2026. Modern artistic reconstruction. See ../mughal-bengal-14-research.md for source access, provenance and limitations. Proposed faces, ages, garment cuts and colours are artistic choices except where explicitly connected to a source portrait description. No individual local scene is treated as an authenticated portrait.
+
+Mirza Muhammad Wali known as Shihabuddin Talish, chronicler and news reporter accompanying Mir Jumla in 1662. Interpretive scholarly man about 40, slim slightly stooped build, medium olive-brown skin, narrow oval face, thoughtful deep-set dark eyes, long fine nose, neatly trimmed black beard and fine moustache. Simple educated Mughal official's cream cotton long jama, muted brown sleeveless light overcoat, pale blue-grey patka, plain white compact turban, simple brown mojari. Small closed leather manuscript notebook carried in left hand at waist consistently, empty right hand. NO armor, sword, giant jewellery or royal regalia. No spectacles. Attentive sober expression.

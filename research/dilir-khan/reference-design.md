@@ -1,0 +1,5 @@
+# DILIR KHAN — reference and design
+
+Prepared 16 October 2026. Modern artistic reconstruction. See ../mughal-bengal-14-research.md for source access, provenance and limitations. Proposed faces, ages, garment cuts and colours are artistic choices except where explicitly connected to a source portrait description. No individual local scene is treated as an authenticated portrait.
+
+Dilir Khan Daudzai, Afghan commander with Mir Jumla in Assam 1662. Interpretive man about 46, tall strong athletic build, medium tan-brown skin, very angular face, heavy close-set dark eyes, long straight broad nose, thick black beard just below jaw, thick black moustache and dark hair hidden beneath helmet. Functional Mughal cavalry campaign dress: iron mail shirt with four restrained flat steel torso reinforcement plates over dark maroon quilted knee-length coat, ochre trousers, russet patka, open-face low domed steel helmet with mail neck guard, leather riding shoes, sheathed sword. Realistic riveted armor, no modern tactical silhouette or fantasy scales. Keep distinct from Turbak and Abu Bakr.

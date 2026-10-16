@@ -1,0 +1,5 @@
+# Astabhuj Deva / Mayamara Mahanta
+
+Research: ../moamoria-seven-research.md. The catalogue's 1769 Mahanta is interpreted as Astabhuj Deva, distinguished from founder Aniruddhadeva and son Gagini Deka Mahanta. Bhuyan records succession in 1748 and death in 1770; title is an office rather than a unique personal name.
+
+Built-in image generation uses `media/scenes/ahom/1681-1769-tungkhungia-restoration/02_Phuleswari_Durga_Puja_and_Religious_Tensions.webp` for white religious garments, dhoti and red-woven shoulder cloth ONLY. Scene's earlier date means none of its men is asserted to be Astabhuj. Face is a new interpretive grey-haired, short-bearded elder; no authenticated portrait was established. The simple shirt, low hair knot, wooden sandals, approximate visual age and plain forehead are artistic completions. Nath's discussion of Kala-sanghati ritual restraint informs omission of beads and sacred thread, not proof of a particular personal wardrobe. Exact prompt is in generation-prompt.txt.

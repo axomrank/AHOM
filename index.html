@@ -1,7 +1,79 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.svg"><title>AHOM & Assamese Heritage Library</title><link rel="stylesheet" href="gallery.css?v=93a3e1bae5c1"><script defer src="catalog.js?v=93a3e1bae5c1"></script><script defer src="gallery.js?v=93a3e1bae5c1"></script></head><body>
-<header><small>COMBINED COLLECTION · 265 ILLUSTRATIONS</small><h1>Ahom & Assamese heritage</h1><p>207 Ahom history illustrations and 58 Assamese AI artworks, organised for browsing and comparison. Choose two images to compare, rate your preferred versions, and keep notes for books, lessons and carousels.</p><nav><a href="duplicate-review.html">Visual duplicate review</a><a href="catalog.json" download>Catalogue JSON</a></nav></header>
-<div class="toolbar"><button id="compareBtn" disabled>Compare (0/2)</button><button id="clearCompare" disabled>Clear comparison</button><button id="exportNotes">Export personal reviews</button><label class="upload">Import personal reviews<input id="importNotes" type="file" accept=".json"></label></div><p id="notice" role="status" aria-live="polite"></p>
-<main><div class="filters"><label class="searchfield">SEARCH EVENTS, CHARACTERS, TAGS OR NOTES<input id="search" type="search" placeholder="Lachit, Gadapani, Saraighat, book cover…"></label><label>COLLECTION<select id="collection"></select></label><label>CHARACTER / SUBJECT<select id="person"></select></label><label>ERA<select id="era"></select></label><label>PLACE<select id="place"></select></label><label>THEME<select id="theme"></select></label><label>YOUR TAG<select id="tag"></select></label><label>MINIMUM RATING<select id="rating"><option value="">Any</option><option value="1">1 star</option><option value="2">2 stars</option><option value="3">3 stars</option><option value="4">4 stars</option><option value="5">5 stars</option></select></label><label>REVIEW STATUS<select id="review"><option value="">All</option><option value="flagged">Flagged for correction</option><option value="reviewed">Personally reviewed</option><option value="unconfirmed">Unconfirmed scene</option><option value="illustration">Imported AI artwork</option></select></label><label>FROM YEAR<input id="from" type="number" placeholder="1215"></label><label>TO YEAR<input id="to" type="number" placeholder="1838"></label><label>SORT<select id="sort"><option value="chronology">Chronology & AI categories</option><option value="rating">Highest rated</option></select></label><button id="resetFilters">Clear filters</button></div><p id="count" role="status" aria-live="polite"></p><div id="gallery"></div></main>
-<footer>Dates, descriptions and named associations follow the source catalogue; they are not independent historical verification. Illustrations are not documentary evidence of appearance. Eight unconfirmed Ahom scenes are separated from dated events. Imported AI artworks are grouped by their source categories without invented dates. Personal notes stay in this browser until you export them. <a href="https://github.com/Angsumi/AHOM/blob/main/AHOM_KINGDOM_MASTER_CHRONOLOGY.csv">Source chronology</a></footer>
-<dialog id="detail" aria-labelledby="detailTitle"><div class="dialoghead"><h2 id="detailTitle"></h2><button data-close="detail">Close ✕</button></div><p id="detailMeta" class="detailsmall"></p><img id="detailImage" class="detailImage" alt=""><p id="description"></p><p id="associations" class="detailsmall"></p><p><a id="original" download>Download original</a></p><div class="reviewform"><label class="formfield">YOUR RATING<select id="stars"><option value="0">Not rated</option><option value="1">★</option><option value="2">★★</option><option value="3">★★★</option><option value="4">★★★★</option><option value="5">★★★★★</option></select></label><label class="formfield">YOUR TAGS · COMMA SEPARATED<input id="tags" placeholder="best version, book cover, carousel"></label><fieldset class="wide"><legend>Flag details needing historical review</legend><div id="flags"></div></fieldset><label class="formfield wide">YOUR NOTES<textarea id="noteText" placeholder="What works well? What needs correcting? Add evidence or a reference…"></textarea></label><label class="wide"><input id="reviewed" type="checkbox">I have reviewed this illustration (not a claim of verified history)</label><button id="saveNote">Save personal review</button><p id="saveStatus" role="status"></p></div></dialog>
-<dialog id="comparison" aria-labelledby="compareTitle"><div class="dialoghead"><h2 id="compareTitle">Compare illustrations</h2><button data-close="comparison">Close ✕</button></div><div class="comparecontrols"><label>Linked zoom <input id="zoom" type="range" min="1" max="5" step=".05" value="1"></label><span id="zoomLabel">100%</span><button id="resetView">Reset view</button><small>Drag either image to pan both. Scroll over either image to zoom both.</small></div><div id="comparisonImages"></div></dialog></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahom: the kingdom on the Brahmaputra</title>
+<meta name="description" content="The Ahom kingdom of Assam, 1228–1838: its saga era by era, all forty-one reigns, the people of the chronicles and illustrated scenes.">
+<meta name="theme-color" content="#0E1530">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Marcellus&family=Noto+Serif+Bengali:wght@500;900&family=Tiro+Bangla&display=swap">
+<link rel="stylesheet" href="assets/site.css?v=7">
+</head>
+<body>
+<a class="skip" href="#view">Skip to content</a>
+
+<svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">
+  <defs>
+    <!-- the keel arch of Ahom temple doorways, in the element's own 0–1 box -->
+    <clipPath id="arch" clipPathUnits="objectBoundingBox">
+      <path d="M0,1 L0,.30 C0,.17 .28,.13 .41,.055 Q.5,0 .59,.055 C.72,.13 1,.17 1,.30 L1,1 Z"/>
+    </clipPath>
+  </defs>
+</svg>
+
+<header class="bar">
+  <a class="brand" href="#/" aria-label="Ahom, home">
+    <svg class="brand-mark" viewBox="0 0 24 30" aria-hidden="true"><path d="M2,29 L2,10 C2,6 9,5 11,2.2 Q12,1 13,2.2 C15,5 22,6 22,10 L22,29 Z"/><path d="M7,29 L7,15 C7,12.5 10.6,12 12,9.5 C13.4,12 17,12.5 17,15 L17,29"/></svg>
+    <span>Ahom</span><span class="brand-as" lang="as">আহোম</span>
+  </a>
+  <nav aria-label="Sections">
+    <a href="#/" data-nav="saga">Saga</a>
+    <a href="#/kings" data-nav="kings">Kings</a>
+    <a href="#/people" data-nav="people">People</a>
+    <a href="#/scenes" data-nav="scenes">Scenes</a>
+  </nav>
+</header>
+
+<main id="view" tabindex="-1"></main>
+
+<footer class="foot">
+  <div class="weave" aria-hidden="true"></div>
+  <div class="foot-in">
+    <p class="foot-word" lang="as" aria-hidden="true">স্বৰ্গদেউ</p>
+    <div class="foot-text">
+      <p>The Ahom kingdom of Assam, from Sukaphaa’s crossing of the Patkai in 1228 to the annexation of 1838.</p>
+      <p class="quiet">The paintings, portraits and films here are modern reconstructions, not likenesses from the period. Where the sources disagree, a record says how sure it is.</p>
+    </div>
+    <nav class="foot-nav" aria-label="Sections">
+      <a href="#/">Saga</a><a href="#/kings">Kings</a><a href="#/people">People</a><a href="#/scenes">Scenes</a>
+    </nav>
+  </div>
+</footer>
+
+<dialog class="lightbox" id="lightbox" aria-labelledby="lb-title">
+  <div class="lb-frame">
+    <figure class="lb-figure">
+      <div class="lb-media"><img id="lb-img" alt=""><div class="lb-blank" id="lb-blank" hidden><span class="blank" aria-hidden="true"><span class="blank-text">Not yet painted</span></span></div></div>
+      <div class="lb-versions" id="lb-versions"></div>
+    </figure>
+    <div class="lb-text">
+      <p class="lb-date" id="lb-date"></p>
+      <h2 id="lb-title"></h2>
+      <p id="lb-summary"></p>
+      <p class="quiet" id="lb-notes"></p>
+      <div class="chips" id="lb-people"></div>
+      <p class="lb-count quiet" id="lb-count"></p>
+    </div>
+  </div>
+  <button class="lb-btn lb-prev" id="lb-prev" type="button" aria-label="Previous scene"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <button class="lb-btn lb-next" id="lb-next" type="button" aria-label="Next scene"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+  <button class="lb-btn lb-close" id="lb-close" type="button" aria-label="Close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+</dialog>
+
+<script src="data/site.js?v=7"></script>
+<script src="assets/app.js?v=7"></script>
+</body>
+</html>

@@ -1,2 +1,7 @@
+# originals and retired files stay local, out of git
+archive/
+incoming/*
+!incoming/.gitkeep
+__pycache__/
+*.pyc
 .DS_Store
-Thumbs.db

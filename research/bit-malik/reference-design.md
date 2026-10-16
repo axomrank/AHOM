@@ -1,0 +1,5 @@
+# BIT MALIK — reference and design
+
+Prepared 16 October 2026. Modern artistic reconstruction. See ../mughal-bengal-14-research.md for source access, provenance and limitations. Proposed faces, ages, garment cuts and colours are artistic choices except where explicitly connected to a source portrait description. No individual local scene is treated as an authenticated portrait.
+
+Bengal Sultanate expedition commander, c.1527, pre-Mughal context. Interpretive individual: about 43, medium-brown skin, compact muscular frame, broad flat cheekbones, heavy brow, short broad nose, short black beard and moustache, dark brown eyes. Campaign outfit: plain dark iron riveted MAIL shirt over quilted muted brick-red knee-length coat, cream cotton trousers, simple brown leather riding shoes and belt, plain low steel helmet with unobtrusive neck mail and open face. No late-Mughal jeweled turban, royal pearls or imperial regalia. Modestly curved sheathed sword at waist. Distinct face from Turbak. Armor material broadly supported by Indian 16th–17th-century museum mail, exact personal equipment unknown.

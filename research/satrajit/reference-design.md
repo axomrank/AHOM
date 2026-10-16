@@ -1,0 +1,5 @@
+# RAJA SATRAJIT — reference and design
+
+Prepared 16 October 2026. Modern artistic reconstruction. See ../mughal-bengal-14-research.md for source access, provenance and limitations. Proposed faces, ages, garment cuts and colours are artistic choices except where explicitly connected to a source portrait description. No individual local scene is treated as an authenticated portrait.
+
+Raja Satrajit of Bhusna, Bengali Hindu regional chief and Mughal ally in 1615, not a Rajput of Amber. Interpretive man about 40, warm brown skin, average sturdy build, rounded oval face, alert wide-set dark eyes, full lips, medium broad nose, thick straight black moustache, clean-shaven chin, black hair at nape. Early seventeenth-century Bengali noble in Mughal service: fine ivory cotton wrap-front knee-length jama with subtle red woven edges, muted saffron patka waist sash, cream close-fitting trousers, deep red compact folded cloth turban, restrained pearl necklace, brown pointed leather slippers, modest sheathed sword. No invented caste or forehead mark, no elaborate Rajput crown or medieval fantasy armor.

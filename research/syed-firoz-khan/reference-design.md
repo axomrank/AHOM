@@ -1,0 +1,5 @@
+# SYED FIROZ KHAN — reference and design
+
+Prepared 16 October 2026. Modern artistic reconstruction. See ../mughal-bengal-14-research.md for source access, provenance and limitations. Proposed faces, ages, garment cuts and colours are artistic choices except where explicitly connected to a source portrait description. No individual local scene is treated as an authenticated portrait.
+
+Imperial faujdar of Guwahati in the 1660s, later envoy in Assam conflict. Interpretive man about 48, medium brown skin, short stout build, round face, thick arched eyebrows, rounded broad nose, close cropped salt-and-pepper beard and moustache, dark eyes. Restrained garrison officer clothing: dark slate-blue knee-length Mughal jama, light quilted sleeveless buff cotton outer vest, cream churidar trousers, dull burgundy patka, cream turban with navy narrow band, brown leather mojari, modest sheathed curved sword. No royal jewels, invented genealogy emblem, halo or prison chains. Serious composed expression.
