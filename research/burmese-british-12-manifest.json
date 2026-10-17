@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-17",
+  "method": "Built-in image_gen",
+  "outputs": {
+    "cornwallis": "/home/angsuman/.codex/generated_images/01a14820-83c0-7c21-9017-8ea04f50fb7f/exec-ad353296-bcdc-4486-8f3a-111adf460d29.png",
+    "bodawpaya": "/home/angsuman/.codex/generated_images/01a14820-83c0-7c21-9017-8ea04f50fb7f/exec-53ceb550-1eb3-4f01-a02d-10863eba7879.png",
+    "kiamingi": "/home/angsuman/.codex/generated_images/01a14820-83c0-7c21-9017-8ea04f50fb7f/exec-94ed13b8-7d22-4763-87ae-2edb3bf49e31.png",
+    "mingimaha-tilwa": "/home/angsuman/.codex/generated_images/01a14820-83c0-7c21-9017-8ea04f50fb7f/exec-2b9bd73b-2062-4159-899e-780ccdf567d0.png",
+    "bagyidaw": "/home/angsuman/.codex/generated_images/01a14820-83c0-7c21-9017-8ea04f50fb7f/exec-78d42c4c-94e0-4dfc-ba26-f655e271e296.png",
+    "maha-bandula": "/home/angsuman/.codex/generated_images/01a14820-83c0-7c21-9017-8ea04f50fb7f/exec-1b39a334-3f1c-48f3-a531-80bbaac3ebf2.png",
+    "david-scott": "/home/angsuman/.codex/generated_images/01a14820-83c0-7c21-9017-8ea04f50fb7f/exec-35a8db10-376a-465b-bebb-dd9b4a3ee8a9.png",
+    "alfred-richards": "/home/angsuman/.codex/generated_images/01a14820-83c0-7c21-9017-8ea04f50fb7f/exec-a25836ef-11d4-4a7b-bcd1-22a5144b25cc.png",
+    "archibald-campbell": "/home/angsuman/.codex/generated_images/01a14820-83c0-7c21-9017-8ea04f50fb7f/exec-dadc697b-011e-439c-9c34-5ab4c424be7d.png",
+    "thomas-robertson": "/home/angsuman/.codex/generated_images/01a14820-83c0-7c21-9017-8ea04f50fb7f/exec-5f743c40-2201-4683-abb9-1229cb22cf76.png",
+    "francis-jenkins": "/home/angsuman/.codex/generated_images/01a14820-83c0-7c21-9017-8ea04f50fb7f/exec-1b0446b6-ac3e-4b34-a87c-c2c66f0c1921.png",
+    "captain-welsh": "/home/angsuman/.codex/generated_images/01a14820-83c0-7c21-9017-8ea04f50fb7f/exec-fba066c3-6dbb-464f-a0db-7ffb72135966.png"
+  },
+  "local_references": {
+    "captain-welsh": "media/scenes/ahom/1769-1817-moamoria-rebellions/18_Captain_Thomas_Welsh_Expedition.webp",
+    "cornwallis": "media/scenes/ahom/1769-1817-moamoria-rebellions/18_Captain_Thomas_Welsh_Expedition.webp",
+    "bodawpaya": "media/scenes/ahom/1817-1826-burmese-invasions/22_First_Burmese_Invasion_v03.webp",
+    "kiamingi": "media/scenes/ahom/1817-1826-burmese-invasions/25_Second_Burmese_Invasion_and_Purandar_Flight.webp",
+    "mingimaha-tilwa": "media/scenes/ahom/1817-1826-burmese-invasions/26_Chandrakanta_Singha_Restored_Under_Burmese_Control.webp",
+    "bagyidaw": "media/scenes/ahom/1817-1826-burmese-invasions/22_First_Burmese_Invasion_v03.webp",
+    "maha-bandula": "media/scenes/ahom/1817-1826-burmese-invasions/28_Jogeswar_Singha_Under_Burmese_Control.webp",
+    "david-scott": "media/scenes/ahom/1817-1826-burmese-invasions/29_First_Anglo_Burmese_War_and_Treaty_of_Yandabo_Montage.webp",
+    "alfred-richards": "media/scenes/ahom/1817-1826-burmese-invasions/30_First_Anglo_Burmese_War_v01.webp",
+    "archibald-campbell": "media/scenes/ahom/1817-1826-burmese-invasions/31_Treaty_of_Yandabo_v02.webp",
+    "thomas-robertson": "media/scenes/ahom/1833-1838-british-annexation/32_Purandar_Singha_Restored_as_Tributary_Ruler.webp",
+    "francis-jenkins": "media/scenes/ahom/1833-1838-british-annexation/34_British_Annexation_and_Deposition_of_Purandar_Singha.webp"
+  }
+}

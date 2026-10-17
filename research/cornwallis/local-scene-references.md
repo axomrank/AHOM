@@ -1,9 +1,12 @@
 # LORD CORNWALLIS — local-reference brief
 
-Prepared 16 October 2026. Status: research/design ready; image generation blocked by daily tool quota. No finished sheet created in this batch.
+Prepared 16 October 2026. Status: completed 17 October 2026 with built-in image_gen; inspected and imported. See ../burmese-british-12-completion.md.
 
-Local reference: /home/angsuman/extra_spac/Assam History/media/scenes/ahom/1769-1817-moamoria-rebellions/18_Captain_Thomas_Welsh_Expedition.webp
+Local reference: /home/angsuman/extra_spac/AHOM/media/scenes/ahom/1769-1817-moamoria-rebellions/18_Captain_Thomas_Welsh_Expedition.webp
 
 Charles Cornwallis around age54 in1792. Source is late eighteenth-century British clothing context ONLY, the mounted foreground man is Welsh, do not copy his face. New Cornwallis face inspired by John Smart portrait tradition: pale ruddy skin, full rounded cheeks, high receding forehead, heavy eyelids, blue-grey eyes, prominent nose, clean-shaven, thinning grey hair combed back, stocky frame. Scarlet general's tailcoat with navy facings, gold lace and epaulettes, cream waistcoat and breeches, black stock, white shirt, tall black riding boots; broad blue Garter ribbon across torso with a single restrained star appropriate to portrait convention. Bareheaded so his balding face remains visible. No headwear held, relaxed empty hands. No modern medal rack.
 
 Reference artwork is modern project illustration, not historical portrait evidence. Provisional panel identity assignments are recorded as production choices; unshown face, costume and rear-view details are reconstructed. See ../burmese-british-10-research.md.
+
+Current generation input: `media/scenes/ahom/1769-1817-moamoria-rebellions/18_Captain_Thomas_Welsh_Expedition.webp`.
+Final sheet: `media/characters/cornwallis/turnaround-1.webp`.

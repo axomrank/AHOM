@@ -1,5 +1,7 @@
 # Burmese and British figures — local reference batch
 
+Completion update, 17 October 2026: all original ten plus Robertson and Jenkins are now finished. See [twelve-sheet completion report](burmese-british-12-completion.md). The blocked status below records the earlier attempt.
+
 Prepared 16 October 2026. User requested ten realistic sheets using local references. The catalogue now has twelve people in this group. Scope interpreted as the original ten through Archibald Campbell, excluding the later Thomas Robertson and Francis Jenkins entries. No sheets generated: first built-in generation attempt for Welsh returned usage_limit_reached (HTTP429). Tool reports reset at 16 October 2026, 23:05 IST. No automatic retry or scheduled action created. Catalogue is unchanged.
 
 ## Prepared roster

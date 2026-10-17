@@ -971,15 +971,16 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "With no acceptable heir after Sukhrangphaa's death, the throne stays empty for five years and the Burhagohain and Borgohain rule. It is the first of three interregnums before 1397.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Empty royal seat and unnamed ministers; the deceased Sukhrangphaa is not depicted alive.",
+         "status": "illustrated",
          "people": [
           "sukhrangphaa"
          ],
          "sources": [
           "https://en.wikipedia.org/wiki/Ahom_dynasty"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-278_Interregnum_After_Sukhrangphaa.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-278_Interregnum_After_Sukhrangphaa.webp",
          "main": false
         }
        ]
@@ -1097,7 +1098,8 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "Nandi and Satyanarayana rule the Chutia kingdom from Sadhayapura (Sadiya), the earliest Chutia kings known from inscriptions. Tyao Khamti's campaign against them fails.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. The river withdrawal and opposing Chutia ruler are illustrative, not a documented personal confrontation; campaign dates vary.",
+         "status": "illustrated",
          "people": [
           "tyao-khamti",
           "nandi-chutia",
@@ -1106,8 +1108,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Chutia_kingdom"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-279_Tyao_Khamti_Failed_Chutia_Expedition.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-279_Tyao_Khamti_Failed_Chutia_Expedition.webp",
          "main": true
         },
         {
@@ -1247,7 +1249,8 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "The Kamata king, allied with Sudangphaa by marriage, drives Ghiyasuddin Azam Shah of Bengal back across the Karatoya. A Boko inscription shows the Sultanate held part of Kamrup for some years.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Exact chronology and Ahom military participation are uncertain; the Sultan at the ford is an illustrative reconstruction. Sudangphaa is not shown in battle.",
+         "status": "illustrated",
          "people": [
           "ghiyasuddin-azam-shah",
           "sudangphaa"
@@ -1255,8 +1258,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-280_Kamata_Forces_Drive_Back_Bengal.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-280_Kamata_Forces_Drive_Back_Bengal.webp",
          "main": false
         },
         {
@@ -1370,15 +1373,16 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "Early in his reign the Tipam chiefs plot against the young king. Sudangphaa invites the conspirators to a feast and has them killed.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive.",
+         "status": "illustrated",
          "people": [
           "sudangphaa"
          ],
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-236_Feast_Trap_for_the_Tipam_Conspirators.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-236_Feast_Trap_for_the_Tipam_Conspirators.webp",
          "main": true
         },
         {
@@ -1438,7 +1442,8 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "The rival claimant Tai Sulai returns with a Mong Kawng (Mungkang) army led by the defector Tasim Pou. Sudangphaa meets it near Kuhiarbari in the Tipam country and defeats it, though he is lightly wounded by a spear.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive.",
+         "status": "illustrated",
          "people": [
           "sudangphaa",
           "tai-sulai",
@@ -1448,8 +1453,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
          "main": true
         },
         {
@@ -1461,18 +1466,20 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "Ahom and Mong Kawng envoys swear a treaty by Nongnyang lake fixing the Patkai range as the border between the two kingdoms. The boundary holds for centuries.",
-         "notes": "Nongnyang lake as the treaty site follows Gait, A History of Assam; Wikipedia gives only the Patkai boundary.",
-         "status": "needs image",
+         "notes": "Nongnyang lake as the treaty site follows Gait, A History of Assam; Wikipedia gives only the Patkai boundary. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting depicts the two negotiating commanders; Sudangphaa is not physically shown.",
+         "status": "illustrated",
          "people": [
-          "sudangphaa"
+          "sudangphaa",
+          "nangchukham-borgohain",
+          "tasim-pou-borgohain"
          ],
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa",
           "https://en.wikipedia.org/wiki/Ahom_kingdom"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
-         "main": true
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-235_Patkai_Boundary_Treaty_at_Nongnyang_Lake.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-235_Patkai_Boundary_Treaty_at_Nongnyang_Lake.webp",
+         "main": false
         },
         {
          "id": "AHOM-237",
@@ -1483,8 +1490,8 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "Tai Sulai flees to Kamata. Sudangphaa's commander Nangchukham Borgohain invades, and the Kamata king, also pressed by Bengal, makes peace and gives a daughter in marriage to Sudangphaa.",
-         "notes": "Chronology of the Kamata episode is undated and disputed.",
-         "status": "needs image",
+         "notes": "Chronology of the Kamata episode is undated and disputed. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive.",
+         "status": "illustrated",
          "people": [
           "nangchukham-borgohain",
           "sudangphaa",
@@ -1493,8 +1500,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-237_Nangchukham_Borgohain_Marches_on_Kamata.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-237_Nangchukham_Borgohain_Marches_on_Kamata.webp",
          "main": false
         },
         {
@@ -6509,7 +6516,8 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "The rival claimant Tai Sulai returns with a Mong Kawng (Mungkang) army led by the defector Tasim Pou. Sudangphaa meets it near Kuhiarbari in the Tipam country and defeats it, though he is lightly wounded by a spear.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive.",
+         "status": "illustrated",
          "people": [
           "sudangphaa",
           "tai-sulai",
@@ -6519,8 +6527,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
          "main": false
         },
         {
@@ -6532,8 +6540,8 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "Tai Sulai flees to Kamata. Sudangphaa's commander Nangchukham Borgohain invades, and the Kamata king, also pressed by Bengal, makes peace and gives a daughter in marriage to Sudangphaa.",
-         "notes": "Chronology of the Kamata episode is undated and disputed.",
-         "status": "needs image",
+         "notes": "Chronology of the Kamata episode is undated and disputed. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive.",
+         "status": "illustrated",
          "people": [
           "nangchukham-borgohain",
           "sudangphaa",
@@ -6542,8 +6550,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-237_Nangchukham_Borgohain_Marches_on_Kamata.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-237_Nangchukham_Borgohain_Marches_on_Kamata.webp",
          "main": false
         }
        ]
@@ -7489,7 +7497,8 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "The rival claimant Tai Sulai returns with a Mong Kawng (Mungkang) army led by the defector Tasim Pou. Sudangphaa meets it near Kuhiarbari in the Tipam country and defeats it, though he is lightly wounded by a spear.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive.",
+         "status": "illustrated",
          "people": [
           "sudangphaa",
           "tai-sulai",
@@ -7499,9 +7508,33 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
          "main": false
+        },
+        {
+         "id": "AHOM-235",
+         "title": "Treaty of the Patkai Boundary at Nongnyang Lake",
+         "date_label": "1401",
+         "century": "15th century",
+         "sort_year": 1401,
+         "era": "Foundational Era (1228–1497)",
+         "collection": "AHOM chronology",
+         "summary": "Ahom and Mong Kawng envoys swear a treaty by Nongnyang lake fixing the Patkai range as the border between the two kingdoms. The boundary holds for centuries.",
+         "notes": "Nongnyang lake as the treaty site follows Gait, A History of Assam; Wikipedia gives only the Patkai boundary. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting depicts the two negotiating commanders; Sudangphaa is not physically shown.",
+         "status": "illustrated",
+         "people": [
+          "sudangphaa",
+          "nangchukham-borgohain",
+          "tasim-pou-borgohain"
+         ],
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa",
+          "https://en.wikipedia.org/wiki/Ahom_kingdom"
+         ],
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-235_Patkai_Boundary_Treaty_at_Nongnyang_Lake.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-235_Patkai_Boundary_Treaty_at_Nongnyang_Lake.webp",
+         "main": true
         }
        ]
       },
@@ -7541,7 +7574,8 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "The rival claimant Tai Sulai returns with a Mong Kawng (Mungkang) army led by the defector Tasim Pou. Sudangphaa meets it near Kuhiarbari in the Tipam country and defeats it, though he is lightly wounded by a spear.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive.",
+         "status": "illustrated",
          "people": [
           "sudangphaa",
           "tai-sulai",
@@ -7551,9 +7585,33 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
          "main": false
+        },
+        {
+         "id": "AHOM-235",
+         "title": "Treaty of the Patkai Boundary at Nongnyang Lake",
+         "date_label": "1401",
+         "century": "15th century",
+         "sort_year": 1401,
+         "era": "Foundational Era (1228–1497)",
+         "collection": "AHOM chronology",
+         "summary": "Ahom and Mong Kawng envoys swear a treaty by Nongnyang lake fixing the Patkai range as the border between the two kingdoms. The boundary holds for centuries.",
+         "notes": "Nongnyang lake as the treaty site follows Gait, A History of Assam; Wikipedia gives only the Patkai boundary. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting depicts the two negotiating commanders; Sudangphaa is not physically shown.",
+         "status": "illustrated",
+         "people": [
+          "sudangphaa",
+          "nangchukham-borgohain",
+          "tasim-pou-borgohain"
+         ],
+         "sources": [
+          "https://en.wikipedia.org/wiki/Sudangphaa",
+          "https://en.wikipedia.org/wiki/Ahom_kingdom"
+         ],
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-235_Patkai_Boundary_Treaty_at_Nongnyang_Lake.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-235_Patkai_Boundary_Treaty_at_Nongnyang_Lake.webp",
+         "main": true
         },
         {
          "id": "AHOM-237",
@@ -7564,8 +7622,8 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "Tai Sulai flees to Kamata. Sudangphaa's commander Nangchukham Borgohain invades, and the Kamata king, also pressed by Bengal, makes peace and gives a daughter in marriage to Sudangphaa.",
-         "notes": "Chronology of the Kamata episode is undated and disputed.",
-         "status": "needs image",
+         "notes": "Chronology of the Kamata episode is undated and disputed. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive.",
+         "status": "illustrated",
          "people": [
           "nangchukham-borgohain",
           "sudangphaa",
@@ -7574,8 +7632,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sudangphaa"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-237_Nangchukham_Borgohain_Marches_on_Kamata.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-237_Nangchukham_Borgohain_Marches_on_Kamata.webp",
          "main": true
         }
        ]
@@ -10970,13 +11028,25 @@
        "sort_year": 1792,
        "role": "British officer",
        "summary": "Led the British contingent that took Guwahati in 1792 and Rangpur in March 1794; recalled in April 1794.",
+       "notes": "Character sheet is a modern artistic reconstruction using local scene references. Identity assignments, unseen costume details and apparent ages are interpretive, not authenticated likenesses. See research/burmese-british-12-completion.md and research/captain-welsh/local-scene-references.md.",
        "confidence": "high",
        "status": "researched",
        "sources": [
         "https://en.wikipedia.org/wiki/Gaurinath_Singha",
-        "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+        "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+        "https://jorhat.assam.gov.in/about-us/history-jorhat"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Captain Thomas Welsh, realistic eight-view character sheet from local project references, modern artistic reconstruction",
+         "image": "media/characters/captain-welsh/turnaround-1.webp",
+         "thumbnail": "media/characters/captain-welsh/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-210",
@@ -11024,12 +11094,24 @@
        "sort_year": 1792,
        "role": "Governor-General",
        "summary": "Ordered the dispatch of Captain Welsh's troops to Assam.",
+       "notes": "Character sheet is a modern artistic reconstruction using local scene references. Identity assignments, unseen costume details and apparent ages are interpretive, not authenticated likenesses. See research/burmese-british-12-completion.md and research/cornwallis/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sources": [
-        "https://en.wikipedia.org/wiki/Gaurinath_Singha"
+        "https://en.wikipedia.org/wiki/Gaurinath_Singha",
+        "https://www.npg.org.uk/collections/search/portrait/mw01484/Charles-Cornwallis-1st-Marquess-Cornwallis"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Lord Cornwallis, realistic eight-view character sheet from local project references, modern artistic reconstruction",
+         "image": "media/characters/cornwallis/turnaround-1.webp",
+         "thumbnail": "media/characters/cornwallis/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-210",
@@ -11060,12 +11142,23 @@
        "sort_year": 1816,
        "role": "King of Burma",
        "summary": "Received Badan Chandra Borphukan in 1816 and sent the first Burmese expedition into Assam in 1817.",
+       "notes": "Character sheet is a modern artistic reconstruction using local scene references. Identity assignments, unseen costume details and apparent ages are interpretive, not authenticated likenesses. See research/burmese-british-12-completion.md and research/bodawpaya/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sources": [
         "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bodawpaya, realistic eight-view character sheet from local project references, modern artistic reconstruction",
+         "image": "media/characters/bodawpaya/turnaround-1.webp",
+         "thumbnail": "media/characters/bodawpaya/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-272",
@@ -11100,13 +11193,24 @@
        "sort_year": 1819,
        "role": "Burmese general",
        "summary": "Commanded Bodawpaya's second invasion in 1819; after the Burmese victory he reinstalled Chandrakanta Singha.",
+       "notes": "Character sheet is a modern artistic reconstruction using local scene references. Identity assignments, unseen costume details and apparent ages are interpretive, not authenticated likenesses. See research/burmese-british-12-completion.md and research/kiamingi/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sources": [
         "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
         "https://en.wikipedia.org/wiki/Chandrakanta_Singha"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Kiamingi (Ala Mingi), realistic eight-view character sheet from local project references, modern artistic reconstruction",
+         "image": "media/characters/kiamingi/turnaround-1.webp",
+         "thumbnail": "media/characters/kiamingi/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-220",
@@ -11137,12 +11241,23 @@
        "sort_year": 1821,
        "role": "Burmese general",
        "summary": "Sent to Assam in 1821; installed Jogeswar Singha, defeated Chandrakanta in June 1822 and was declared Raja of Assam, ending Ahom rule.",
+       "notes": "Character sheet is a modern artistic reconstruction using local scene references. Identity assignments, unseen costume details and apparent ages are interpretive, not authenticated likenesses. See research/burmese-british-12-completion.md and research/mingimaha-tilwa/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sources": [
         "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Mingimaha Tilwa, realistic eight-view character sheet from local project references, modern artistic reconstruction",
+         "image": "media/characters/mingimaha-tilwa/turnaround-1.webp",
+         "thumbnail": "media/characters/mingimaha-tilwa/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-274",
@@ -11200,12 +11315,23 @@
        "sort_year": 1821,
        "role": "King of Burma",
        "summary": "Sent Mingimaha Tilwa to Assam in 1821 and ruled through the First Anglo-Burmese War.",
+       "notes": "Character sheet is a modern artistic reconstruction using local scene references. Identity assignments, unseen costume details and apparent ages are interpretive, not authenticated likenesses. See research/burmese-british-12-completion.md and research/bagyidaw/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sources": [
         "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bagyidaw, realistic eight-view character sheet from local project references, modern artistic reconstruction",
+         "image": "media/characters/bagyidaw/turnaround-1.webp",
+         "thumbnail": "media/characters/bagyidaw/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-275",
@@ -11241,12 +11367,24 @@
        "sort_year": 1822,
        "role": "Burmese commander-in-chief",
        "summary": "Led 20,000 men to defeat Chandrakanta in 1822; killed at Danubyu in the First Anglo-Burmese War.",
+       "notes": "Character sheet is a modern artistic reconstruction using local scene references. Identity assignments, unseen costume details and apparent ages are interpretive, not authenticated likenesses. See research/burmese-british-12-completion.md and research/maha-bandula/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sources": [
-        "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+        "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+        "https://jorhat.assam.gov.in/about-us/history-jorhat"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Maha Bandula, realistic eight-view character sheet from local project references, modern artistic reconstruction",
+         "image": "media/characters/maha-bandula/turnaround-1.webp",
+         "thumbnail": "media/characters/maha-bandula/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-223",
@@ -11298,13 +11436,24 @@
        "sort_year": 1823,
        "role": "British Agent on the north-east frontier",
        "summary": "British official in Assam and the north-east in the years before and after Yandabo.",
-       "notes": "Role from general knowledge; check against a dedicated source.",
+       "notes": "Role from general knowledge; check against a dedicated source. Character sheet is a modern artistic reconstruction using local scene references. Identity assignments, unseen costume details and apparent ages are interpretive, not authenticated likenesses. See research/burmese-british-12-completion.md and research/david-scott/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
        "sources": [
-        "project catalogue (catalog.json / Assam_History_Characters.csv)"
+        "project catalogue (catalog.json / Assam_History_Characters.csv)",
+        "https://jorhat.assam.gov.in/about-us/history-jorhat"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "David Scott, realistic eight-view character sheet from local project references, modern artistic reconstruction",
+         "image": "media/characters/david-scott/turnaround-1.webp",
+         "thumbnail": "media/characters/david-scott/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-224",
@@ -11335,12 +11484,24 @@
        "sort_year": 1824,
        "role": "British officer",
        "summary": "Named in the project catalogue in the First Anglo-Burmese War scenes.",
+       "notes": "Character sheet is a modern artistic reconstruction using local scene references. Identity assignments, unseen costume details and apparent ages are interpretive, not authenticated likenesses. See research/burmese-british-12-completion.md and research/alfred-richards/local-scene-references.md.",
        "confidence": "low",
        "status": "researched",
        "sources": [
-        "project catalogue (catalog.json / Assam_History_Characters.csv)"
+        "project catalogue (catalog.json / Assam_History_Characters.csv)",
+        "https://jorhat.assam.gov.in/about-us/history-jorhat"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Colonel Alfred Richards, realistic eight-view character sheet from local project references, modern artistic reconstruction",
+         "image": "media/characters/alfred-richards/turnaround-1.webp",
+         "thumbnail": "media/characters/alfred-richards/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-225",
@@ -11370,12 +11531,24 @@
        "sort_year": 1824,
        "role": "British general",
        "summary": "Led the 1824 Yangon expedition and co-signed the Treaty of Yandabo on 24 February 1826.",
+       "notes": "Character sheet is a modern artistic reconstruction using local scene references. Identity assignments, unseen costume details and apparent ages are interpretive, not authenticated likenesses. See research/burmese-british-12-completion.md and research/archibald-campbell/local-scene-references.md.",
        "confidence": "high",
        "status": "researched",
        "sources": [
-        "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+        "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+        "https://jorhat.assam.gov.in/about-us/history-jorhat"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Sir Archibald Campbell, realistic eight-view character sheet from local project references, modern artistic reconstruction",
+         "image": "media/characters/archibald-campbell/turnaround-1.webp",
+         "thumbnail": "media/characters/archibald-campbell/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-224",
@@ -11423,14 +11596,24 @@
        "sort_year": 1833,
        "role": "British commissioner",
        "summary": "His 1833 report recommended Purandar Singha, whose disposition he called mild and pacific, as the British choice for tributary prince of Upper Assam.",
-       "notes": "After the 1826 cut-off; included because it ends the Purandar Singha story.",
+       "notes": "After the 1826 cut-off; included because it ends the Purandar Singha story. Character sheet is a modern artistic reconstruction using local scene references. Identity assignments, unseen costume details and apparent ages are interpretive, not authenticated likenesses. See research/burmese-british-12-completion.md and research/thomas-robertson/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sources": [
         "https://en.wikipedia.org/wiki/Purandar_Singha",
         "project catalogue (catalog.json / Assam_History_Characters.csv)"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Thomas Campbell Robertson, realistic eight-view character sheet from local project references, modern artistic reconstruction",
+         "image": "media/characters/thomas-robertson/turnaround-1.webp",
+         "thumbnail": "media/characters/thomas-robertson/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-229",
@@ -11460,14 +11643,25 @@
        "sort_year": 1835,
        "role": "British Commissioner and Agent to the Governor-General",
        "summary": "Investigated Purandar Singha's administration in 1835–38 and reported it as a hotbed of corruption; Purandar was deposed and the territory annexed in September 1838.",
-       "notes": "After the 1826 cut-off; included because it ends the Purandar Singha story.",
+       "notes": "After the 1826 cut-off; included because it ends the Purandar Singha story. Character sheet is a modern artistic reconstruction using local scene references. Identity assignments, unseen costume details and apparent ages are interpretive, not authenticated likenesses. See research/burmese-british-12-completion.md and research/francis-jenkins/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sources": [
         "https://en.wikipedia.org/wiki/Purandar_Singha",
-        "project catalogue (catalog.json / Assam_History_Characters.csv)"
+        "project catalogue (catalog.json / Assam_History_Characters.csv)",
+        "https://ignca.gov.in/Asi_data/42192.pdf"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Captain Francis Jenkins, realistic eight-view character sheet from local project references, modern artistic reconstruction",
+         "image": "media/characters/francis-jenkins/turnaround-1.webp",
+         "thumbnail": "media/characters/francis-jenkins/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-233",
@@ -11504,7 +11698,7 @@
        "sort_year": 1228,
        "role": "King of Kamata",
        "summary": "Founder of the Kamata kingdom. Took the throne in 1228 as a vassal of Delhi, then stopped paying tribute; captured and executed Yuzbak in 1257 and moved the capital from Kamarupanagara to Kamatapur after that.",
-       "notes": "Heritage University paper gives 1228–1265. Control over lands east of the Manas was loose. The reorganisation into the Kamata state is dated c. 1250–1270.",
+       "notes": "Heritage University paper gives 1228–1265. Control over lands east of the Manas was loose. The reorganisation into the Kamata state is dated c. 1250–1270. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See research/regional-rulers-11-completion.md and research/sandhya/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sources": [
@@ -11512,7 +11706,17 @@
         "https://en.wikipedia.org/wiki/Kamata_kingdom",
         "https://heritageuniversityofkerala.com/JournalPDF/Volume11.2/70.pdf"
        ],
-       "sheet_status": "none"
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Sandhya (Kamateswar), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/sandhya/turnaround-1.webp",
+         "thumbnail": "media/characters/sandhya/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ]
       },
       {
        "id": "durlabhnarayan",
@@ -11524,7 +11728,7 @@
        "sort_year": 1330,
        "role": "King of Kamata",
        "summary": "Son of Pratapdhwaj who took Kamrup, Goalpara and Koch Bihar from Kamatapur. His court poets produced early Assamese literature, including Hema Saraswati and Harihara Vipra.",
-       "notes": "Replaces the earlier early-14th-century guess. The catalogue ties him to the Ahom–Kamata war of c. 1324, which falls in Pratapdhwaj's reign by these dates. The chronology and extent of his rule are disputed.",
+       "notes": "Replaces the earlier early-14th-century guess. The catalogue ties him to the Ahom–Kamata war of c. 1324, which falls in Pratapdhwaj's reign by these dates. The chronology and extent of his rule are disputed. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See research/regional-rulers-11-completion.md and research/durlabhnarayan/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sources": [
@@ -11532,7 +11736,17 @@
         "https://en.wikipedia.org/wiki/Hema_Saraswati",
         "https://www.dimasathairili.com/2022/08/list-of-kamata-kings-and-rulers.html.html"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Durlabhnarayan (Kamata), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/durlabhnarayan/turnaround-1.webp",
+         "thumbnail": "media/characters/durlabhnarayan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-041",
@@ -11626,12 +11840,23 @@
        "sort_year": 1350,
        "role": "Earliest attested Chutia king",
        "summary": "Ruled from Sadhayapura (Sadiya); known from a grant issued by his son Satyanarayana, who also names his mother Daivaki.",
+       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See research/regional-rulers-11-completion.md and research/nandi-chutia/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Nandi (Nandisvara), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/nandi-chutia/turnaround-1.webp",
+         "thumbnail": "media/characters/nandi-chutia/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-279",
@@ -11642,7 +11867,8 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "Nandi and Satyanarayana rule the Chutia kingdom from Sadhayapura (Sadiya), the earliest Chutia kings known from inscriptions. Tyao Khamti's campaign against them fails.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. The river withdrawal and opposing Chutia ruler are illustrative, not a documented personal confrontation; campaign dates vary.",
+         "status": "illustrated",
          "people": [
           "tyao-khamti",
           "nandi-chutia",
@@ -11651,8 +11877,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Chutia_kingdom"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-279_Tyao_Khamti_Failed_Chutia_Expedition.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-279_Tyao_Khamti_Failed_Chutia_Expedition.webp",
          "main": false
         }
        ]
@@ -11666,13 +11892,23 @@
        "sort_year": 1380,
        "role": "Chutia king",
        "summary": "Son of Nandi; ruled from Sadhayapura. A later Chutia king names Ratnanarayana, identified with him, as king of Kamatapura, which may show a link between Sadiya and Kamata.",
-       "notes": "The Ratnanarayana identification is a scholarly suggestion.",
+       "notes": "The Ratnanarayana identification is a scholarly suggestion. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See research/regional-rulers-11-completion.md and research/satyanarayana-chutia/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Satyanarayana (Ratnanarayana), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/satyanarayana-chutia/turnaround-1.webp",
+         "thumbnail": "media/characters/satyanarayana-chutia/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-279",
@@ -11683,7 +11919,8 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "Nandi and Satyanarayana rule the Chutia kingdom from Sadhayapura (Sadiya), the earliest Chutia kings known from inscriptions. Tyao Khamti's campaign against them fails.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. The river withdrawal and opposing Chutia ruler are illustrative, not a documented personal confrontation; campaign dates vary.",
+         "status": "illustrated",
          "people": [
           "tyao-khamti",
           "nandi-chutia",
@@ -11692,8 +11929,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Chutia_kingdom"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-279_Tyao_Khamti_Failed_Chutia_Expedition.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-279_Tyao_Khamti_Failed_Chutia_Expedition.webp",
          "main": false
         }
        ]
@@ -11707,14 +11944,24 @@
        "sort_year": 1510,
        "role": "Last Chutia king",
        "summary": "Built a fort at Dikhowmukh in 1513, was routed attacking the Ahom fort at Dibru in 1523, and was killed, ending the kingdom in 1523–24.",
-       "notes": "Known from an inscription dated 1522.",
+       "notes": "Known from an inscription dated 1522. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See research/regional-rulers-11-completion.md and research/dhirnarayan/local-scene-references.md.",
        "confidence": "high",
        "status": "researched",
        "sources": [
         "https://en.wikipedia.org/wiki/Chutia_kingdom",
         "https://en.wikipedia.org/wiki/Suhungmung"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Dhirnarayan, realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/dhirnarayan/turnaround-1.webp",
+         "thumbnail": "media/characters/dhirnarayan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-096",
@@ -11757,14 +12004,24 @@
        "sort_year": 1396,
        "role": "Sultan of Bengal",
        "summary": "An inscription at Boko in Kamrup shows the Sultanate held the region for some years. The Kamata king, allied with the Ahoms by marriage, drove him back across the Karatoya.",
-       "notes": "Dates are inferred from coins.",
+       "notes": "Dates are inferred from coins. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See research/regional-rulers-11-completion.md and research/ghiyasuddin-azam-shah/local-scene-references.md.",
        "confidence": "medium",
        "status": "researched",
        "sources": [
         "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam",
         "https://en.wikipedia.org/wiki/Bengal_Sultanate%E2%80%93Kamata_Kingdom_War"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Ghiyasuddin Azam Shah, realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/ghiyasuddin-azam-shah/turnaround-1.webp",
+         "thumbnail": "media/characters/ghiyasuddin-azam-shah/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-280",
@@ -11775,7 +12032,8 @@
          "era": "Foundational Era (1228–1497)",
          "collection": "AHOM chronology",
          "summary": "The Kamata king, allied with Sudangphaa by marriage, drives Ghiyasuddin Azam Shah of Bengal back across the Karatoya. A Boko inscription shows the Sultanate held part of Kamrup for some years.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Exact chronology and Ahom military participation are uncertain; the Sultan at the ford is an illustrative reconstruction. Sudangphaa is not shown in battle.",
+         "status": "illustrated",
          "people": [
           "ghiyasuddin-azam-shah",
           "sudangphaa"
@@ -11783,8 +12041,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-280_Kamata_Forces_Drive_Back_Bengal.webp",
+         "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-280_Kamata_Forces_Drive_Back_Bengal.webp",
          "main": true
         }
        ]
@@ -11806,7 +12064,7 @@
        "sort_year": 1540,
        "role": "Second Koch king",
        "summary": "Took the Koch kingdom to its peak with his brother Chilarai as commander. Introduced the Narayani silver coin; Sankardev's teaching spread in his time.",
-       "notes": "Infobox gives 1554–1587; text gives 1540. Died 1587 (some sources 1588).",
+       "notes": "Infobox gives 1554–1587; text gives 1540. Died 1587 (some sources 1588). Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See research/regional-rulers-11-completion.md and research/nara-narayan/local-scene-references.md. Character sheet revised from user-provided statue for royal facial structure, pointed crown, earrings, draped shawl, tunic and pleated dhoti. Colors, materials and unseen details are interpretive. See research/nara-narayan/statue-dress-revision.md.",
        "relation": "Son of Biswa Singha",
        "koch_no": 2,
        "koch_branch": "Koch kingdom (undivided)",
@@ -11816,7 +12074,17 @@
         "https://en.wikipedia.org/wiki/Nara_Narayan",
         "https://en.wikipedia.org/wiki/Koch_dynasty"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Nara Narayan, eight-view royal character sheet revised from user-provided statue reference, modern artistic reconstruction",
+         "image": "media/characters/nara-narayan/turnaround-1.webp",
+         "thumbnail": "media/characters/nara-narayan/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-113",
@@ -11848,7 +12116,7 @@
        "sort_year": 1540,
        "role": "Koch general",
        "summary": "Third son of Biswa Singha and commander-in-chief under Nara Narayan. Led the 1562–63 invasion that forced the Treaty of Majuli; died of smallpox in 1571.",
-       "notes": "Spouse: Kamalpriya.",
+       "notes": "Spouse: Kamalpriya. Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See research/regional-rulers-11-completion.md and research/chilarai/local-scene-references.md. Character sheet costume revised from user-provided equestrian statue reference on 17 October 2026. Sleeveless breastplate, compact helmet and pleated wrapped riding cloth follow the visible silhouette; colors, materials, footwear and rear details are inferred. Existing face retained. See research/chilarai/statue-dress-revision.md. Character sheet physique made more muscular at user direction, preserving approved face and statue-based dress. Current version: turnaround-1.webp.",
        "relation": "Brother of Nara Narayan; commander",
        "koch_no": 0,
        "koch_branch": "Koch kingdom (undivided)",
@@ -11859,7 +12127,17 @@
         "https://en.wikipedia.org/wiki/Sukhaamphaa",
         "https://en.wikipedia.org/wiki/Koch_dynasty"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Chilarai (Sukladhwaj), eight-view warrior dress revised from user-provided statue reference, original facial structure retained, modern artistic reconstruction",
+         "image": "media/characters/chilarai/turnaround-1.webp",
+         "thumbnail": "media/characters/chilarai/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-109",
@@ -11931,13 +12209,24 @@
        "sort_year": 1694,
        "role": "Jaintia king",
        "summary": "Kidnapped the Dimasa king, prompting Rudra Singha's 1707–08 invasion; died an Ahom captive.",
+       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See research/regional-rulers-11-completion.md and research/ram-singh-jaintia/local-scene-references.md.",
        "confidence": "high",
        "status": "researched",
        "sources": [
         "https://en.wikipedia.org/wiki/Jaintia_Kingdom",
         "https://en.wikipedia.org/wiki/Rudra_Singha"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Ram Singh I (Jaintia), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/ram-singh-jaintia/turnaround-1.webp",
+         "thumbnail": "media/characters/ram-singh-jaintia/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-188",
@@ -11968,13 +12257,24 @@
        "sort_year": 1759,
        "role": "King of Manipur",
        "summary": "Fled to Ahom territory after the Burmese invasion of 1764 and was sheltered by Rajeswar Singha, who backed his return; reinstated in 1773. Promoted Vaishnavism and the Manipuri Raas Leela.",
+       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See research/regional-rulers-11-completion.md and research/bhagyachandra/local-scene-references.md.",
        "confidence": "high",
        "status": "researched",
        "sources": [
         "https://en.wikipedia.org/wiki/Bhagyachandra",
         "https://en.wikipedia.org/wiki/Rajeswar_Singha"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Bhagyachandra (Jai Singh), realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/bhagyachandra/turnaround-1.webp",
+         "thumbnail": "media/characters/bhagyachandra/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-201",
@@ -12030,6 +12330,7 @@
        "sort_year": 1706,
        "role": "Dimasa king",
        "summary": "Declared independence; Rudra Singha invaded Maibong in December 1706 and destroyed its fort. Tamradhwaj fled to Jaintia and was imprisoned.",
+       "notes": "Character sheet is a modern artistic reconstruction using local project reference images. Face, apparent age, costume and unseen details are interpretive, not an authenticated likeness. See research/regional-rulers-11-completion.md and research/tamradhwaj/local-scene-references.md.",
        "confidence": "high",
        "status": "researched",
        "sources": [
@@ -12037,7 +12338,17 @@
         "https://en.wikipedia.org/wiki/Rudra_Singha",
         "https://en.wikipedia.org/wiki/Kachari_Kingdom"
        ],
-       "sheet_status": "scenes",
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Tamradhwaj Narayan, realistic eight-view character sheet using local project references, modern artistic reconstruction",
+         "image": "media/characters/tamradhwaj/turnaround-1.webp",
+         "thumbnail": "media/characters/tamradhwaj/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
        "scenes": [
         {
          "id": "AHOM-188",
@@ -12820,15 +13131,16 @@
      "era": "Foundational Era (1228–1497)",
      "collection": "AHOM chronology",
      "summary": "With no acceptable heir after Sukhrangphaa's death, the throne stays empty for five years and the Burhagohain and Borgohain rule. It is the first of three interregnums before 1397.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Empty royal seat and unnamed ministers; the deceased Sukhrangphaa is not depicted alive.",
+     "status": "illustrated",
      "people": [
       "sukhrangphaa"
      ],
      "sources": [
       "https://en.wikipedia.org/wiki/Ahom_dynasty"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-278_Interregnum_After_Sukhrangphaa.webp",
+     "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-278_Interregnum_After_Sukhrangphaa.webp"
     },
     {
      "id": "AHOM-053",
@@ -12885,7 +13197,8 @@
      "era": "Foundational Era (1228–1497)",
      "collection": "AHOM chronology",
      "summary": "Nandi and Satyanarayana rule the Chutia kingdom from Sadhayapura (Sadiya), the earliest Chutia kings known from inscriptions. Tyao Khamti's campaign against them fails.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. The river withdrawal and opposing Chutia ruler are illustrative, not a documented personal confrontation; campaign dates vary.",
+     "status": "illustrated",
      "people": [
       "tyao-khamti",
       "nandi-chutia",
@@ -12897,8 +13210,8 @@
      "sources": [
       "https://en.wikipedia.org/wiki/Chutia_kingdom"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-279_Tyao_Khamti_Failed_Chutia_Expedition.webp",
+     "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-279_Tyao_Khamti_Failed_Chutia_Expedition.webp"
     },
     {
      "id": "AHOM-056",
@@ -12992,7 +13305,8 @@
      "era": "Foundational Era (1228–1497)",
      "collection": "AHOM chronology",
      "summary": "The Kamata king, allied with Sudangphaa by marriage, drives Ghiyasuddin Azam Shah of Bengal back across the Karatoya. A Boko inscription shows the Sultanate held part of Kamrup for some years.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Exact chronology and Ahom military participation are uncertain; the Sultan at the ford is an illustrative reconstruction. Sudangphaa is not shown in battle.",
+     "status": "illustrated",
      "people": [
       "ghiyasuddin-azam-shah",
       "sudangphaa"
@@ -13003,8 +13317,8 @@
      "sources": [
       "https://en.wikipedia.org/wiki/Muslim_invasions_of_Assam"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-280_Kamata_Forces_Drive_Back_Bengal.webp",
+     "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-280_Kamata_Forces_Drive_Back_Bengal.webp"
     },
     {
      "id": "AHOM-062",
@@ -13126,7 +13440,8 @@
      "era": "Foundational Era (1228–1497)",
      "collection": "AHOM chronology",
      "summary": "Early in his reign the Tipam chiefs plot against the young king. Sudangphaa invites the conspirators to a feast and has them killed.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive.",
+     "status": "illustrated",
      "people": [
       "sudangphaa"
      ],
@@ -13136,8 +13451,8 @@
      "sources": [
       "https://en.wikipedia.org/wiki/Sudangphaa"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-236_Feast_Trap_for_the_Tipam_Conspirators.webp",
+     "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-236_Feast_Trap_for_the_Tipam_Conspirators.webp"
     }
    ]
   },
@@ -13206,7 +13521,8 @@
      "era": "Foundational Era (1228–1497)",
      "collection": "AHOM chronology",
      "summary": "The rival claimant Tai Sulai returns with a Mong Kawng (Mungkang) army led by the defector Tasim Pou. Sudangphaa meets it near Kuhiarbari in the Tipam country and defeats it, though he is lightly wounded by a spear.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive.",
+     "status": "illustrated",
      "people": [
       "sudangphaa",
       "tai-sulai",
@@ -13219,8 +13535,8 @@
      "sources": [
       "https://en.wikipedia.org/wiki/Sudangphaa"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp",
+     "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-234_Sudangphaa_Repels_the_Mong_Kawng_Invasion.webp"
     },
     {
      "id": "AHOM-235",
@@ -13231,20 +13547,23 @@
      "era": "Foundational Era (1228–1497)",
      "collection": "AHOM chronology",
      "summary": "Ahom and Mong Kawng envoys swear a treaty by Nongnyang lake fixing the Patkai range as the border between the two kingdoms. The boundary holds for centuries.",
-     "notes": "Nongnyang lake as the treaty site follows Gait, A History of Assam; Wikipedia gives only the Patkai boundary.",
-     "status": "needs image",
+     "notes": "Nongnyang lake as the treaty site follows Gait, A History of Assam; Wikipedia gives only the Patkai boundary. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting depicts the two negotiating commanders; Sudangphaa is not physically shown.",
+     "status": "illustrated",
      "people": [
-      "sudangphaa"
+      "sudangphaa",
+      "nangchukham-borgohain",
+      "tasim-pou-borgohain"
      ],
      "main_people": [
-      "sudangphaa"
+      "nangchukham-borgohain",
+      "tasim-pou-borgohain"
      ],
      "sources": [
       "https://en.wikipedia.org/wiki/Sudangphaa",
       "https://en.wikipedia.org/wiki/Ahom_kingdom"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-235_Patkai_Boundary_Treaty_at_Nongnyang_Lake.webp",
+     "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-235_Patkai_Boundary_Treaty_at_Nongnyang_Lake.webp"
     },
     {
      "id": "AHOM-237",
@@ -13255,8 +13574,8 @@
      "era": "Foundational Era (1228–1497)",
      "collection": "AHOM chronology",
      "summary": "Tai Sulai flees to Kamata. Sudangphaa's commander Nangchukham Borgohain invades, and the Kamata king, also pressed by Bengal, makes peace and gives a daughter in marriage to Sudangphaa.",
-     "notes": "Chronology of the Kamata episode is undated and disputed.",
-     "status": "needs image",
+     "notes": "Chronology of the Kamata episode is undated and disputed. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive.",
+     "status": "illustrated",
      "people": [
       "nangchukham-borgohain",
       "sudangphaa",
@@ -13268,8 +13587,8 @@
      "sources": [
       "https://en.wikipedia.org/wiki/Sudangphaa"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1228-1497-foundational-era/AHOM-237_Nangchukham_Borgohain_Marches_on_Kamata.webp",
+     "scene_thumbnail": "media/scenes/ahom/1228-1497-foundational-era/thumb/AHOM-237_Nangchukham_Borgohain_Marches_on_Kamata.webp"
     },
     {
      "id": "AHOM-073",
