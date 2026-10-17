@@ -3278,8 +3278,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "While Shah Jahan's sons fight for the Mughal throne, the Mughal faujdar abandons Guwahati. Jayadhwaj Singha's army occupies Kamrup and pushes the Koch king Pran Narayan back beyond Dhubri. This is the direct cause of Mir Jumla's invasion.",
-         "notes": "Sources disagree whether the Koches or the Ahoms entered Guwahati first.",
-         "status": "needs image",
+         "notes": "Sources disagree whether the Koches or the Ahoms entered Guwahati first. Modern artistic reconstruction using project visual references; setting, architecture, attendants and staging are interpretive. Prompts: research/ahom-250-252-prompts.json. Depicts occupation by the king’s army, without asserting his personal presence in Guwahati.",
+         "status": "illustrated",
          "people": [
           "jayadhwaj-singha"
          ],
@@ -3287,8 +3287,8 @@
           "https://en.wikipedia.org/wiki/Treaty_of_Ghilajharighat",
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-250_Jayadhwaj_Singha_Takes_Guwahati.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-250_Jayadhwaj_Singha_Takes_Guwahati.webp",
          "main": true
         },
         {
@@ -3861,8 +3861,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "About a year after Saraighat, Lachit Borphukan dies of illness at Kaliabor. Udayaditya Singha builds the Lachit Maidam at Hoolungapara and makes Lachit's brother Laluk Sola the new Borphukan.",
-         "notes": "Death date given as 25 April 1672 in some sources.",
-         "status": "needs image",
+         "notes": "Death date given as 25 April 1672 in some sources. Modern artistic reconstruction using project visual references; setting, architecture, attendants and staging are interpretive. Prompts: research/ahom-250-252-prompts.json. Deathbed composition is illustrative, not an eyewitness record.",
+         "status": "illustrated",
          "people": [
           "lachit-borphukan",
           "udayaditya-singha",
@@ -3871,8 +3871,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Lachit_Borphukan"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-252_Death_of_Lachit_Borphukan_at_Kaliabor.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-252_Death_of_Lachit_Borphukan_at_Kaliabor.webp",
          "main": false
         },
         {
@@ -4425,6 +4425,26 @@
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-254_Laluk_Sola_Bodyguard_Assassination.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-254_Laluk_Sola_Bodyguard_Assassination.webp",
          "main": false
+        },
+        {
+         "id": "AHOM-281",
+         "title": "Martyrdom of Princess Joymoti Konwari",
+         "date_label": "1680",
+         "century": "17th century",
+         "sort_year": 1680,
+         "era": "Period of Ministerial Intrigue & Terror (1672–1681)",
+         "collection": "AHOM chronology",
+         "summary": "Tied to thorn bushes on Jerenga Pathar and brutally tortured for 14 continuous days by Lora Raja's agents, Princess Joymoti breathes her last refusing to betray her husband Gadapani.",
+         "notes": "Modern artistic reconstruction requested by the user: Joymoti bound to a tree in flat Assamese paddy fields, Gadapani watching while concealed in vegetation in interpretive Naga-style woven dress. Tree restraint, shared viewpoint, costume and staging are dramatic choices, not an eyewitness record or an authenticated community-specific textile. Non-graphic depiction of persecution. Prompt: research/joymoti-gadapani-paddyfield-prompt.json.",
+         "status": "illustrated",
+         "people": [
+          "gadadhar-singha",
+          "joymoti",
+          "sulikphaa"
+         ],
+         "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
+         "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
+         "main": false
         }
        ]
       },
@@ -4499,6 +4519,26 @@
          ],
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/25_Joymoti_Refuses_to_Reveal_Gadapani_Hiding_Place.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/25_Joymoti_Refuses_to_Reveal_Gadapani_Hiding_Place.webp",
+         "main": false
+        },
+        {
+         "id": "AHOM-281",
+         "title": "Martyrdom of Princess Joymoti Konwari",
+         "date_label": "1680",
+         "century": "17th century",
+         "sort_year": 1680,
+         "era": "Period of Ministerial Intrigue & Terror (1672–1681)",
+         "collection": "AHOM chronology",
+         "summary": "Tied to thorn bushes on Jerenga Pathar and brutally tortured for 14 continuous days by Lora Raja's agents, Princess Joymoti breathes her last refusing to betray her husband Gadapani.",
+         "notes": "Modern artistic reconstruction requested by the user: Joymoti bound to a tree in flat Assamese paddy fields, Gadapani watching while concealed in vegetation in interpretive Naga-style woven dress. Tree restraint, shared viewpoint, costume and staging are dramatic choices, not an eyewitness record or an authenticated community-specific textile. Non-graphic depiction of persecution. Prompt: research/joymoti-gadapani-paddyfield-prompt.json.",
+         "status": "illustrated",
+         "people": [
+          "gadadhar-singha",
+          "joymoti",
+          "sulikphaa"
+         ],
+         "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
+         "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
          "main": false
         },
         {
@@ -6855,6 +6895,26 @@
          "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/25_Joymoti_Refuses_to_Reveal_Gadapani_Hiding_Place.webp",
          "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/25_Joymoti_Refuses_to_Reveal_Gadapani_Hiding_Place.webp",
          "main": true
+        },
+        {
+         "id": "AHOM-281",
+         "title": "Martyrdom of Princess Joymoti Konwari",
+         "date_label": "1680",
+         "century": "17th century",
+         "sort_year": 1680,
+         "era": "Period of Ministerial Intrigue & Terror (1672–1681)",
+         "collection": "AHOM chronology",
+         "summary": "Tied to thorn bushes on Jerenga Pathar and brutally tortured for 14 continuous days by Lora Raja's agents, Princess Joymoti breathes her last refusing to betray her husband Gadapani.",
+         "notes": "Modern artistic reconstruction requested by the user: Joymoti bound to a tree in flat Assamese paddy fields, Gadapani watching while concealed in vegetation in interpretive Naga-style woven dress. Tree restraint, shared viewpoint, costume and staging are dramatic choices, not an eyewitness record or an authenticated community-specific textile. Non-graphic depiction of persecution. Prompt: research/joymoti-gadapani-paddyfield-prompt.json.",
+         "status": "illustrated",
+         "people": [
+          "gadadhar-singha",
+          "joymoti",
+          "sulikphaa"
+         ],
+         "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
+         "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
+         "main": true
         }
        ]
       },
@@ -8748,8 +8808,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "About a year after Saraighat, Lachit Borphukan dies of illness at Kaliabor. Udayaditya Singha builds the Lachit Maidam at Hoolungapara and makes Lachit's brother Laluk Sola the new Borphukan.",
-         "notes": "Death date given as 25 April 1672 in some sources.",
-         "status": "needs image",
+         "notes": "Death date given as 25 April 1672 in some sources. Modern artistic reconstruction using project visual references; setting, architecture, attendants and staging are interpretive. Prompts: research/ahom-250-252-prompts.json. Deathbed composition is illustrative, not an eyewitness record.",
+         "status": "illustrated",
          "people": [
           "lachit-borphukan",
           "udayaditya-singha",
@@ -8758,8 +8818,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Lachit_Borphukan"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-252_Death_of_Lachit_Borphukan_at_Kaliabor.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-252_Death_of_Lachit_Borphukan_at_Kaliabor.webp",
          "main": true
         }
        ]
@@ -8800,8 +8860,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "About a year after Saraighat, Lachit Borphukan dies of illness at Kaliabor. Udayaditya Singha builds the Lachit Maidam at Hoolungapara and makes Lachit's brother Laluk Sola the new Borphukan.",
-         "notes": "Death date given as 25 April 1672 in some sources.",
-         "status": "needs image",
+         "notes": "Death date given as 25 April 1672 in some sources. Modern artistic reconstruction using project visual references; setting, architecture, attendants and staging are interpretive. Prompts: research/ahom-250-252-prompts.json. Deathbed composition is illustrative, not an eyewitness record.",
+         "status": "illustrated",
          "people": [
           "lachit-borphukan",
           "udayaditya-singha",
@@ -8810,8 +8870,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Lachit_Borphukan"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-252_Death_of_Lachit_Borphukan_at_Kaliabor.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-252_Death_of_Lachit_Borphukan_at_Kaliabor.webp",
          "main": false
         },
         {
@@ -10643,7 +10703,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "Sick since the monsoon at Garhgaon, Mir Jumla dies on the way back to Dhaka soon after the Treaty of Ghilajharighat.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project visual references; setting, architecture, attendants and staging are interpretive. Prompts: research/ahom-250-252-prompts.json. Deathbed composition is illustrative, not an eyewitness record.",
+         "status": "illustrated",
          "people": [
           "mir-jumla",
           "dilir-khan"
@@ -10651,8 +10712,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Mir_Jumla_II"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-251_Death_of_Mir_Jumla.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-251_Death_of_Mir_Jumla.webp",
          "main": true
         }
        ]
@@ -10729,7 +10790,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "Sick since the monsoon at Garhgaon, Mir Jumla dies on the way back to Dhaka soon after the Treaty of Ghilajharighat.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project visual references; setting, architecture, attendants and staging are interpretive. Prompts: research/ahom-250-252-prompts.json. Deathbed composition is illustrative, not an eyewitness record.",
+         "status": "illustrated",
          "people": [
           "mir-jumla",
           "dilir-khan"
@@ -10737,8 +10799,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Mir_Jumla_II"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-251_Death_of_Mir_Jumla.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-251_Death_of_Mir_Jumla.webp",
          "main": false
         }
        ]
@@ -14616,7 +14678,7 @@
     "Period of Ministerial Intrigue & Terror (1672–1681)",
     "Tungkhungia Restoration & Golden Age (1681–1769)"
    ],
-   "scene_count": 76,
+   "scene_count": 77,
    "scene_titles": 64,
    "scenes": [
     {
@@ -15023,8 +15085,8 @@
      "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
      "collection": "AHOM chronology",
      "summary": "While Shah Jahan's sons fight for the Mughal throne, the Mughal faujdar abandons Guwahati. Jayadhwaj Singha's army occupies Kamrup and pushes the Koch king Pran Narayan back beyond Dhubri. This is the direct cause of Mir Jumla's invasion.",
-     "notes": "Sources disagree whether the Koches or the Ahoms entered Guwahati first.",
-     "status": "needs image",
+     "notes": "Sources disagree whether the Koches or the Ahoms entered Guwahati first. Modern artistic reconstruction using project visual references; setting, architecture, attendants and staging are interpretive. Prompts: research/ahom-250-252-prompts.json. Depicts occupation by the king’s army, without asserting his personal presence in Guwahati.",
+     "status": "illustrated",
      "people": [
       "jayadhwaj-singha"
      ],
@@ -15035,8 +15097,8 @@
       "https://en.wikipedia.org/wiki/Treaty_of_Ghilajharighat",
       "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-250_Jayadhwaj_Singha_Takes_Guwahati.webp",
+     "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-250_Jayadhwaj_Singha_Takes_Guwahati.webp"
     },
     {
      "id": "AHOM-130",
@@ -15207,7 +15269,8 @@
      "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
      "collection": "AHOM chronology",
      "summary": "Sick since the monsoon at Garhgaon, Mir Jumla dies on the way back to Dhaka soon after the Treaty of Ghilajharighat.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project visual references; setting, architecture, attendants and staging are interpretive. Prompts: research/ahom-250-252-prompts.json. Deathbed composition is illustrative, not an eyewitness record.",
+     "status": "illustrated",
      "people": [
       "mir-jumla",
       "dilir-khan"
@@ -15218,8 +15281,8 @@
      "sources": [
       "https://en.wikipedia.org/wiki/Mir_Jumla_II"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-251_Death_of_Mir_Jumla.webp",
+     "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-251_Death_of_Mir_Jumla.webp"
     },
     {
      "id": "AHOM-142",
@@ -15593,8 +15656,8 @@
      "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
      "collection": "AHOM chronology",
      "summary": "About a year after Saraighat, Lachit Borphukan dies of illness at Kaliabor. Udayaditya Singha builds the Lachit Maidam at Hoolungapara and makes Lachit's brother Laluk Sola the new Borphukan.",
-     "notes": "Death date given as 25 April 1672 in some sources.",
-     "status": "needs image",
+     "notes": "Death date given as 25 April 1672 in some sources. Modern artistic reconstruction using project visual references; setting, architecture, attendants and staging are interpretive. Prompts: research/ahom-250-252-prompts.json. Deathbed composition is illustrative, not an eyewitness record.",
+     "status": "illustrated",
      "people": [
       "lachit-borphukan",
       "udayaditya-singha",
@@ -15606,8 +15669,8 @@
      "sources": [
       "https://en.wikipedia.org/wiki/Lachit_Borphukan"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-252_Death_of_Lachit_Borphukan_at_Kaliabor.webp",
+     "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-252_Death_of_Lachit_Borphukan_at_Kaliabor.webp"
     },
     {
      "id": "AHOM-253",
@@ -15906,6 +15969,28 @@
      ],
      "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-254_Laluk_Sola_Bodyguard_Assassination.webp",
      "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-254_Laluk_Sola_Bodyguard_Assassination.webp"
+    },
+    {
+     "id": "AHOM-281",
+     "title": "Martyrdom of Princess Joymoti Konwari",
+     "date_label": "1680",
+     "century": "17th century",
+     "sort_year": 1680,
+     "era": "Period of Ministerial Intrigue & Terror (1672–1681)",
+     "collection": "AHOM chronology",
+     "summary": "Tied to thorn bushes on Jerenga Pathar and brutally tortured for 14 continuous days by Lora Raja's agents, Princess Joymoti breathes her last refusing to betray her husband Gadapani.",
+     "notes": "Modern artistic reconstruction requested by the user: Joymoti bound to a tree in flat Assamese paddy fields, Gadapani watching while concealed in vegetation in interpretive Naga-style woven dress. Tree restraint, shared viewpoint, costume and staging are dramatic choices, not an eyewitness record or an authenticated community-specific textile. Non-graphic depiction of persecution. Prompt: research/joymoti-gadapani-paddyfield-prompt.json.",
+     "status": "illustrated",
+     "people": [
+      "gadadhar-singha",
+      "joymoti",
+      "sulikphaa"
+     ],
+     "main_people": [
+      "joymoti"
+     ],
+     "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp",
+     "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-281_Joymoti_Bound_Gadapani_Watches_Paddyfield.webp"
     },
     {
      "id": "AHOM-178",
