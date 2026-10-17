@@ -1,0 +1,38 @@
+[
+  {
+    "id": "AHOM-276",
+    "slug": "Gomdhar_Konwar_Revolt",
+    "main_people": "",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-67227fe6-0c47-4f28-a3aa-4971af4a3941.png",
+    "references": [],
+    "prompt": "Use case: historical-scene. ONE landscape1536x1024 naturalistic cinematic historical painting for AHOM, no text captions watermark border montage or panels. Humid Assam early19th century, broadleaf forest and bamboo, alluvial ground, modest timber/bamboo/thatch architecture, natural anatomy and handwoven cloth. People are provisional artistic reconstructions, no authenticated portraits or character sheets exist for these named figures. Do not reuse faces of existing Ahom kings or infer son's exact face from father. No modern tricolour, modern guns, pith helmets, Victorian later uniforms, fantasy crowns or European castles. 1828 Upper Assam rural assembly supporting Gomdhar Konwar's attempt to restore Ahom rule. Choose the mobilisation near Jorhat before the failed march on Rangpur, not an invented literal coronation ritual. A single young adult Assamese prince in a plain cream handwoven long tunic, dhoti, muted red sash and simple cream wrapped headcloth stands in THREE-QUARTER BACK/SIDE VIEW addressing an assembly outside a modest raised timber thatched pavilion. His face partly seen in profile, no claim authenticated likeness. An older unnamed noble in offwhite cloth beside him holds a folded message; do not individually identify him as Dhananjoy because no sheet or verified portrait. Distinct rural followers, some women at sides, carrying bamboo staves, spears and a few period flintlock muskets, no identical uniform. Calm serious resolve, not a triumphant victory or modern independence rally. Bamboo grove, rice margins and low wooded horizon, morning haze. No named British officer, no British troops, no future prison/exile montage, no giant stone throne or invented crowning objects.",
+    "limitation": "Selects the revolt\u2019s mobilisation rather than a documented coronation ceremony or battle. Gomdhar\u2019s appearance, assembly, clothing and site are provisional reconstructions; no authenticated likeness is claimed.",
+    "method": "built-in image_gen",
+    "review": "Visually inspected: provisional prince in partial profile, coherent rural assembly, period materials and distinct followers, no modern flag or invented coronation ritual.",
+    "title": "Gomdhar Konwar's Revolt",
+    "date_label": "1828",
+    "historical_sources": "https://en.wikipedia.org/wiki/Gomdhar_Konwar",
+    "additional_sources": [
+      "https://cbcindia.gov.in/wp-content/themes/boc/mann_ki_baat/e_july24/files/basic-html/page31.html"
+    ],
+    "final_asset": "media/scenes/ahom/1826-1833-early-british-resistance/AHOM-276_Gomdhar_Konwar_Revolt.webp"
+  },
+  {
+    "id": "AHOM-277",
+    "slug": "Piyali_Phukan_and_Jiuram_Last_Moments",
+    "main_people": "",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-22ea6d17-341e-429a-8371-3625dd26fbc6.png",
+    "references": [],
+    "prompt": "Use case: historical-scene. ONE landscape1536x1024 naturalistic cinematic historical painting for AHOM, no text captions watermark border montage or panels. Humid Assam early19th century, broadleaf forest and bamboo, alluvial ground, modest timber/bamboo/thatch architecture, natural anatomy and handwoven cloth. People are provisional artistic reconstructions, no authenticated portraits or character sheets exist for these named figures. Do not reuse faces of existing Ahom kings or infer son's exact face from father. No modern tricolour, modern guns, pith helmets, Victorian later uniforms, fantasy crowns or European castles. 1830 Upper Assam, solemn moments immediately BEFORE the execution of Piyali Phukan and Jiuram Dulia Baruah/Medhi for resistance to East India Company rule. Two distinct Assamese adult men in simple cream cotton dhoti and modest upper cloth, one wearing a faded red shoulder cloth and the other plain offwhite, stand upright at centre-left seen predominantly from THREE-QUARTER BACK VIEW. They remain alive and dignified with calm solemn posture, faces not asserted as historical portraits. Their hands rest naturally in front, no visible wounds, no body suspension, no strangulation, no corpse, no blood. A rough EMPTY timber gallows crossbeam stands at middle-distance right with two unused loops faintly visible, enough to communicate impending execution but not a sensational closeup. Small contingent of East India Company Indian sepoy guards in restrained early1830s scarlet jackets and white trousers with simple dark early19th-century shako-type caps, carrying flintlock muskets; one bareheaded European official in dark civilian coat holds unreadable folded order at side. Uniform details provisional, no unit badges or exact officer identity. Behind a low bamboo barrier a few grieving Assamese witnesses, distinct faces, quiet dignity. Modest earthen compound with thatched timber guard shelter, bamboo and humid trees under overcast sky. No fixed identifiable Jorhat/Sivasagar monument or exact day since sources disagree. Do NOT depict Maniram Dewan or Piyali Barua of1858, Badan Chandra is dead and absent. No invented heroic speech, modern placard, flags or readable text.",
+    "limitation": "Depicts the moments before the 1830 execution, not the hanging itself. Piyali and Jiuram have provisional appearances; day, place and Jiuram\u2019s name vary across accounts. Not Piyali Barua and Maniram Dewan\u2019s 1858 execution; Badan Chandra is absent.",
+    "method": "built-in image_gen",
+    "review": "Visually inspected: two living condemned men with provisional appearances, empty gallows, restrained early Company guards and witnesses, no injury or body suspension, no later 1858 figures.",
+    "title": "Piyali Phukan and Jiuram Dulia Baruah Hanged",
+    "date_label": "1830",
+    "historical_sources": "https://en.wikipedia.org/wiki/British_rule_in_Assam; https://www.etvbharat.com/english/state/assam/martyrs-of-freedom-struggle-from-assam-awaits-recognition/na20200925181218073",
+    "additional_sources": [
+      "https://cbcindia.gov.in/wp-content/themes/boc/mann_ki_baat/e_july24/files/basic-html/page31.html"
+    ],
+    "final_asset": "media/scenes/ahom/1826-1833-early-british-resistance/AHOM-277_Piyali_Phukan_and_Jiuram_Last_Moments.webp"
+  }
+]

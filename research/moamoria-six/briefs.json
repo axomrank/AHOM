@@ -1,0 +1,56 @@
+[
+  {
+    "id": "AHOM-266",
+    "slug": "Bihu_Ambush_on_Gaurinath",
+    "refs": [
+      "gaurinath-singha"
+    ],
+    "scene": "April1782 Bihu-night surprise attack on Gaurinath's royal convoy. Exactly one Gaurinath from reference, same moustache face and cream-gold coat red sash and cream royal turban, is hurried off a muddy torchlit path toward bamboo cover by two distinct loyal attendants. Behind him a halted modest timber carrying litter, scattered ceremonial parasol and startled torchbearers; attackers in plain muted cotton emerge from the retinue carrying bamboo staves and practical swords. Convey surprise, flight and confusion, not a formal pitched battle. Gaurinath survives and escapes; upright, no injury or gore. No named rebel leaders whose presence is unproven, no later downstream royal-barge flight. Blue night and flickering torches.",
+    "limit": "Shows the king escaping the 1782 convoy ambush; route, litter and participants are reconstructed. No later river flight or named rebel command is implied."
+  },
+  {
+    "id": "AHOM-267",
+    "slug": "Harihar_Tanti_Rising",
+    "refs": [
+      "harihar-tanti"
+    ],
+    "scene": "1786 later uprising in the north-bank foothill zone, distinct from first revolt1769. Exactly one Harihar from reference, lean middle-aged man with narrow moustached face, white short tunic and dhoti, pale red-bordered headcloth, dark blue waist sash, addresses diverse rural followers beside a narrow river landing at foot of low forested hills. Men with staves, spears, cane shields and a few period matchlocks prepare small wooden boats; women gather travel bundles nearby, all distinct faces. Somber urgency rather than triumphant fantasy. A thin distant smoke plume suggests regional destruction but no visible named satra or personal arson by Harihar; do NOT show Harihar lighting a monastery. Majuli and foothills are NOT composited into one exact identifiable site, no snowy Himalayas. Clouded humid daylight.",
+    "limit": "Selects Harihar’s mobilisation rather than attributing a specific satra burning to his personal presence. Sources differ on Harihar/Hawha and their geographic roles; no alias is imposed."
+  },
+  {
+    "id": "AHOM-268",
+    "slug": "Bharat_Singha_at_Rangpur",
+    "refs": [
+      "bharat-singha"
+    ],
+    "scene": "Late1780s–early1790s Bharat Singha installed as rebel ruler at Rangpur. Exactly one Bharat from reference, strong moustache, mustard knee-length coat, red waist sash, pale shoulder cloth with red bands and mustard turban, sits upright on a modest carved timber seat on low dais in weathered former royal audience pavilion. Plain-clothed rebel representatives respectfully present shallow tray of small silver coins and folded state papers. No literal crown-placement ceremony, no huge gold crown absent from reference, no European regalia, no giant magnified legible coins. Coins small, softly detailed, not claimed historical facsimiles. Slight damage and repaired timber at edges suggest disrupted Rangpur, not burning ruins filling room. Gaurinath is in exile and MUST NOT appear; Ramakanta and Sarbananda MUST NOT be confused with Bharat. Daylight, restrained authority.",
+    "limit": "An imagined installation audience at Rangpur, not a documented coronation ritual. Coinage supports Bharat’s rulership but does not establish one exact accession year; miniature coins are not facsimiles."
+  },
+  {
+    "id": "AHOM-269",
+    "slug": "Sarbananda_Founds_Bengmara",
+    "refs": [
+      "sarbananda-singha"
+    ],
+    "scene": "1791 transfer of Sarbananda's centre to Bengmara, present-day Tinsukia. Exactly one Sarbananda from reference, mature moustached face, white cotton wrap and tunic, dark green sash, cream green-bordered headcloth, stands beside modest newly built timber-and-bamboo administrative pavilion. He discusses settlement layout with an anonymous local organiser pointing to wooden stakes; carpenters raise posts, households arrive with baskets and cloth bundles, a scribe sets down tied records. Broad water tank edge visible to side and damp Upper Assam plain, bamboo groves, distant thatched hamlet. Evoke civic founding and settlement, not a battlefield or giant stone palace. Do not claim exact original town plan, tank shape or Godha portrait. No Bharat or Gaurinath present. Clear morning.",
+    "limit": "Bengmara’s founding is supported by the Tinsukia district account. Town layout, building work and tank setting are illustrative; no exact original site plan or named minister’s likeness is asserted."
+  },
+  {
+    "id": "AHOM-270",
+    "slug": "Court_Relocates_to_Jorhat",
+    "refs": [
+      "purnananda-burhagohain"
+    ],
+    "scene": "c1794 relocation of Ahom administration to Jorhat/Dichoi, distinct from emergency royal flight1788. Exactly one Purnananda from reference, elderly angular face grey moustache, mustard turban, white layered cotton drape, dark waist sash, supervises unloading administrative records at modest timber riverside landing on Bhogdoi. Porters carry closed wooden chests and tied bark manuscript bundles from narrow cargo boats toward a new open-sided thatched office; scribes arrange records, builders repair posts, market hamlet in background. Focus organised transfer and rebuilding government, no blaze, no king in royal procession, no British officers. Gaurinath NOT physically present because chronology/attendance uncertain. No later modern Jorhat architecture, no Rangpur palace teleported to riverbank. Soft overcast daylight.",
+    "limit": "Shows administrative relocation under Purnananda rather than a single authenticated royal arrival. Sources differ on the timing and Gaurinath chronology; he is not physically depicted."
+  },
+  {
+    "id": "AHOM-271",
+    "slug": "Matak_Autonomy_Settlement",
+    "refs": [
+      "sarbananda-singha"
+    ],
+    "scene": "Settlement conventionally dated1805 recognising Matak autonomy at Bengmara. Exactly one Sarbananda from reference, same mature moustached face white cotton green sash cream green-bordered headcloth, slightly older with subtle grey, seated at low wooden desk inside modest open timber pavilion. He receives a folded state communication from a distinct anonymous Ahom envoy in plain cream cotton and muted brown headcloth. Scribe beside them records the agreement, tied records and modest measured rice bundles and brass bowls suggest annual tribute obligation without invented quantities. Two unarmed local representatives watch, calm wary diplomacy after prolonged conflict. Purnananda MUST NOT personally appear: envoy represents his government, no claim of documented personal meeting. No modern treaty text, flags, pen nibs, British officiant, handcuffs or surrender humiliation. Green Bengmara landscape and rebuilt homes beyond, warm quiet afternoon.",
+    "limit": "An envoy-mediated interpretation of the autonomy agreement, conventionally dated 1805. Exact participants and ceremony are not established; sources differ on Sarbananda/Matibar succession and settlement chronology."
+  }
+]

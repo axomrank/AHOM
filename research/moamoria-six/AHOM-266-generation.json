@@ -1,0 +1,18 @@
+{
+  "id": "AHOM-266",
+  "slug": "Bihu_Ambush_on_Gaurinath",
+  "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-ed8c06b5-1e6a-46d6-9791-3d083c363037.png",
+  "references": [
+    "/home/angsuman/extra_spac/AHOM/media/characters/gaurinath-singha/turnaround-1.webp"
+  ],
+  "prompt": "Use case: historical-scene. ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM, restrained realism, lifelike anatomy, no text, captions, labels, watermark, montage or border. Assam late18th/early19th century humid alluvial Brahmaputra valley, bamboo and broadleaf trees, handwoven cotton and silk, timber/bamboo/thatch buildings, period wooden boats. No European castle, desert, modern objects, modern flags or fantasy costume. Each referenced multi-view sheet depicts ONE PERSON: show that character ONCE only, preserve distinctive face, hair and clothes, never copy reference-sheet panels or lettering. Extras must have distinct faces and plain varied muted cotton attire. These are artistic identities, not authenticated likenesses. Moamoria is a religious/political movement across communities, not a uniform ethnic costume. April1782 Bihu-night surprise attack on Gaurinath's royal convoy. Exactly one Gaurinath from reference, same moustache face and cream-gold coat red sash and cream royal turban, is hurried off a muddy torchlit path toward bamboo cover by two distinct loyal attendants. Behind him a halted modest timber carrying litter, scattered ceremonial parasol and startled torchbearers; attackers in plain muted cotton emerge from the retinue carrying bamboo staves and practical swords. Convey surprise, flight and confusion, not a formal pitched battle. Gaurinath survives and escapes; upright, no injury or gore. No named rebel leaders whose presence is unproven, no later downstream royal-barge flight. Blue night and flickering torches.",
+  "limitation": "Shows the king escaping the 1782 convoy ambush; route, litter and participants are reconstructed. No later river flight or named rebel command is implied.",
+  "method": "built-in image_gen",
+  "review": "Reviewed Gaurinath identity, single king escaping, torchlit ambush, non-graphic action and bamboo setting.",
+  "title": "The Bihu Ambush on Gaurinath Singha",
+  "date_label": "April 1782",
+  "historical_sources": "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+  "additional_sources": [
+    "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+  ]
+}

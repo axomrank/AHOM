@@ -1,0 +1,157 @@
+[
+  {
+    "id": "AHOM-255",
+    "slug": "Battle_of_Itakhuli",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-0ed5782b-339b-46c0-a957-308299092d9f.png",
+    "references": [],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-255-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Battle_of_Itakhuli; https://en.wikipedia.org/wiki/Supatphaa",
+    "review": "Inspected for scene coherence, project character continuity, anatomy and period context; reconstruction limits in research.md.",
+    "method": "built-in image_gen",
+    "prompt": "Use case: historical-scene. Create ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM. No text, lettering, captions, borders, montage or watermark. Assam humid Brahmaputra valley, bamboo, broadleaf trees, wet alluvial earth, period handwoven cotton and silk, realistic anatomy. Referenced character sheets each show ONE person in multiple views: depict that person ONCE only, preserve face, hair and recognizable clothing. Extras have distinct faces and plain muted cotton; never duplicate royal clothing. Modern interpretive reconstruction, not authenticated portraits. Avoid fantasy armor, European castles, modern objects, national flags, Rajasthan desert or Mughal marble halls. Timber/bamboo/thatch architecture unless scene explicitly calls for Assamese brick temples or palace. 1682 final Ahom victory at Itakhuli near Guwahati. Show anonymous Ahom river troops landing from long narrow wooden warboats below a low earthen riverside fort; a captured period cannon on timber carriage in foreground, Mughal soldiers withdrawing in distant background, humid Brahmaputra and wooded Guwahati hills. Ahom commander in plain indigo cotton directs men with cane shields, spears and matchlocks. Focus on aftermath of breakthrough, no gore. Do not show Gadadhar personally commanding on battlefield; king is political context, no identified commander likeness available. No later Sukreswar temple.\n",
+    "final_asset": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-255_Battle_of_Itakhuli.webp"
+  },
+  {
+    "id": "AHOM-256",
+    "slug": "Gadadhar_Persecution_of_the_Satras",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-dfc4e962-9966-4bfe-8ec9-1adc84fedc80.png",
+    "references": [],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-256-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Supatphaa; https://en.wikipedia.org/wiki/Auniati_Satra",
+    "review": "Inspected for scene coherence, project character continuity, anatomy and period context; reconstruction limits in research.md.",
+    "method": "built-in image_gen",
+    "prompt": "Use case: historical-scene. Create ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM. No text, lettering, captions, borders, montage or watermark. Assam humid Brahmaputra valley, bamboo, broadleaf trees, wet alluvial earth, period handwoven cotton and silk, realistic anatomy. Referenced character sheets each show ONE person in multiple views: depict that person ONCE only, preserve face, hair and recognizable clothing. Extras have distinct faces and plain muted cotton; never duplicate royal clothing. Modern interpretive reconstruction, not authenticated portraits. Avoid fantasy armor, European castles, modern objects, national flags, Rajasthan desert or Mughal marble halls. Timber/bamboo/thatch architecture unless scene explicitly calls for Assamese brick temples or palace. c1690s Gadadhar reign persecution of Vaishnava satras. Show guards in plain cotton confiscating brass ritual vessels outside modest timber bamboo thatched naamghar while distressed Vaishnava devotees in ivory wraps gather wrapped manuscripts and leave. Main foreground elderly unnamed devotee shields manuscript bundle, dignified not caricatured. Gadadhar himself NOT physically present: supplied sheet contextual only, do not depict king. Non-graphic, no mutilation, flames or invented personal confrontation. Atmosphere of coercion and displacement.\n",
+    "final_asset": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-256_Gadadhar_Persecution_of_the_Satras.webp"
+  },
+  {
+    "id": "AHOM-257",
+    "slug": "Namdang_Stone_Bridge_Construction",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-1a20055d-759d-4dc9-98f4-ce04461a375b.png",
+    "references": [
+      "media/characters/rudra-singha/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-257-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Rudra_Singha",
+    "review": "Inspected for scene coherence, project character continuity, anatomy and period context; reconstruction limits in research.md.",
+    "method": "built-in image_gen",
+    "prompt": "Use case: historical-scene. Create ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM. No text, lettering, captions, borders, montage or watermark. Assam humid Brahmaputra valley, bamboo, broadleaf trees, wet alluvial earth, period handwoven cotton and silk, realistic anatomy. Referenced character sheets each show ONE person in multiple views: depict that person ONCE only, preserve face, hair and recognizable clothing. Extras have distinct faces and plain muted cotton; never duplicate royal clothing. Modern interpretive reconstruction, not authenticated portraits. Avoid fantasy armor, European castles, modern objects, national flags, Rajasthan desert or Mughal marble halls. Timber/bamboo/thatch architecture unless scene explicitly calls for Assamese brick temples or palace. 1703 Rudra Singha inspecting the construction of the Namdang stone bridge. Exactly one Rudra from sheet stands on stream bank beside anonymous stone mason demonstrating a chisel. Low broad grey stone slab bridge spans narrow shallow Namdang stream, workers with ropes and simple timber levers finish stone surfaces. Physical form conservative low stone crossing, NOT tall Roman arches or suspension bridge. Bamboo and rice fields, morning. Rangnath Dol is a separate contemporary commission and MUST NOT be placed beside bridge; choose bridge alone for this event.\n",
+    "final_asset": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-257_Namdang_Stone_Bridge_Construction.webp"
+  },
+  {
+    "id": "AHOM-258",
+    "slug": "Rudra_Plans_Bengal_Campaign",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-31f19201-7ee2-4478-aac2-a467739800cd.png",
+    "references": [
+      "media/characters/rudra-singha/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-258-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Rudra_Singha",
+    "review": "Inspected for scene coherence, project character continuity, anatomy and period context; reconstruction limits in research.md.",
+    "method": "built-in image_gen",
+    "prompt": "Use case: historical-scene. Create ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM. No text, lettering, captions, borders, montage or watermark. Assam humid Brahmaputra valley, bamboo, broadleaf trees, wet alluvial earth, period handwoven cotton and silk, realistic anatomy. Referenced character sheets each show ONE person in multiple views: depict that person ONCE only, preserve face, hair and recognizable clothing. Extras have distinct faces and plain muted cotton; never duplicate royal clothing. Modern interpretive reconstruction, not authenticated portraits. Avoid fantasy armor, European castles, modern objects, national flags, Rajasthan desert or Mughal marble halls. Timber/bamboo/thatch architecture unless scene explicitly calls for Assamese brick temples or palace. 1713 Rangpur assembly planning a proposed Bengal invasion. Exactly one Rudra in reference royal dress stands beside low desk with rolled letters, small abstract route sketch without legible labels, ministers and envoys listen inside open timber court with carved posts. Beyond veranda army supply boats, bundled rice and restrained troops preparing. No actual Bengal invasion or victory; planning only. Warm slanting afternoon light.\n",
+    "final_asset": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-258_Rudra_Plans_Bengal_Campaign.webp"
+  },
+  {
+    "id": "AHOM-259",
+    "slug": "Death_of_Rudra_at_Guwahati",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-453a6c97-059c-4c64-bdd6-7b197eab3a3f.png",
+    "references": [
+      "media/characters/rudra-singha/turnaround-1.webp",
+      "media/characters/siva-singha/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-259-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Rudra_Singha; https://en.wikipedia.org/wiki/Sutanpha",
+    "review": "Inspected for scene coherence, project character continuity, anatomy and period context; reconstruction limits in research.md.",
+    "method": "built-in image_gen",
+    "prompt": "Use case: historical-scene. Create ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM. No text, lettering, captions, borders, montage or watermark. Assam humid Brahmaputra valley, bamboo, broadleaf trees, wet alluvial earth, period handwoven cotton and silk, realistic anatomy. Referenced character sheets each show ONE person in multiple views: depict that person ONCE only, preserve face, hair and recognizable clothing. Extras have distinct faces and plain muted cotton; never duplicate royal clothing. Modern interpretive reconstruction, not authenticated portraits. Avoid fantasy armor, European castles, modern objects, national flags, Rajasthan desert or Mughal marble halls. Timber/bamboo/thatch architecture unless scene explicitly calls for Assamese brick temples or palace. 27 August1714 Guwahati riverside camp. Exactly one Rudra from reference, aged about49, lies gravely ill on low woven cot in plain cream sleeping cloth, recognizable clean-shaven face and hair, royal clothes on stand. Exactly one son Siva from second reference kneels beside cot, recognizable face, cream gold dress but crown removed and resting nearby. Father weakly gestures while son listens. Two distinct quiet attendants. Open canvas and bamboo camp shelter, river and moored boats seen beyond, rain-grey daylight. No corpse wounds, no priest physically present, no invented exact deathbed words.\n",
+    "final_asset": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-259_Death_of_Rudra_at_Guwahati.webp"
+  },
+  {
+    "id": "AHOM-260",
+    "slug": "Krishnaram_Parbatiya_Gosain",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-66d0cdf0-036d-49f1-8d9c-52ce31475e2a.png",
+    "references": [
+      "media/characters/krishnaram-bhattacharya/turnaround-1.webp",
+      "media/characters/siva-singha/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-260-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Sutanpha",
+    "review": "Visually inspected: distinct referenced people, temple context, scene coherence and anatomy.",
+    "method": "built-in image_gen",
+    "prompt": "Use case: historical-scene. Create ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM. No text, lettering, captions, borders, montage or watermark. Assam humid Brahmaputra valley, bamboo, broadleaf trees, wet alluvial earth, period handwoven cotton and silk, realistic anatomy. Referenced character sheets each show ONE person in multiple views: depict that person ONCE only, preserve face, hair and recognizable clothing. Extras have distinct faces and plain muted cotton; never duplicate royal clothing. Modern interpretive reconstruction, not authenticated portraits. Avoid fantasy armor, European castles, modern objects, national flags, Rajasthan desert or Mughal marble halls. Timber/bamboo/thatch architecture unless scene explicitly calls for Assamese brick temples or palace. Early18th century Nilachal hill Kamakhya patronage. Exactly one Krishnaram from first sheet, older stocky stern priest with receding hair and ochre drape, receives folded land-grant document from exactly one Siva from second sheet, ivory-gold attire, moustache and crown. Restrained formal meeting in courtyard with curved ribbed Nilachal-style temple dome and brick masonry behind, trees and hill haze. Disciples carry ritual brass vessel, no animal sacrifice, no invented ritual or legible script. Depicts royal patronage, not a claim of exact recorded ceremony.\n",
+    "final_asset": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-260_Krishnaram_Parbatiya_Gosain.webp"
+  },
+  {
+    "id": "AHOM-261",
+    "slug": "Painting_the_Hastividyarnava",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-6dfbf389-529c-460d-b06f-2f1d15d6837c.png",
+    "references": [
+      "media/characters/siva-singha/turnaround-1.webp",
+      "media/characters/ambika/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-261-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Hastividyarnava; https://en.wikipedia.org/wiki/Assamese_manuscript_painting",
+    "review": "Visually inspected: Siva and Ambika identity continuity, manuscript folios, two painters and writer, elephant outside workshop.",
+    "method": "built-in image_gen",
+    "prompt": "Use case: historical-scene. Create ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM. No text, lettering, captions, borders, montage or watermark. Assam humid Brahmaputra valley, bamboo, broadleaf trees, wet alluvial earth, period handwoven cotton and silk, realistic anatomy. Referenced character sheets each show ONE person in multiple views: depict that person ONCE only, preserve face, hair and recognizable clothing. Extras have distinct faces and plain muted cotton; never duplicate royal clothing. Modern interpretive reconstruction, not authenticated portraits. Avoid fantasy armor, European castles, modern objects, national flags, Rajasthan desert or Mughal marble halls. Timber/bamboo/thatch architecture unless scene explicitly calls for Assamese brick temples or palace. 1734 manuscript workshop patronage of Hastividyarnava. Exactly one Siva from image1 and exactly one Queen Ambika from image2 observe a seated anonymous scribe and TWO distinct painters working at low desks. Horizontal sanchi bark manuscript folios with tiny stylized elephant miniatures in red yellow black, brushes and pigment shells. Elephant treatise rather than modern bound book. In distance outside open veranda a real Asian elephant and mahout stand quietly in garden, not inside room. Queen cream textile with purple border, preserve face. Painters Dilbar and Dosai and writer Sukumar Barkaith are anonymous reconstructions, no invented authentic portraits or legible writing.\n",
+    "final_asset": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-261_Painting_the_Hastividyarnava.webp"
+  },
+  {
+    "id": "AHOM-262",
+    "slug": "Sarbeswari_Third_Bar_Raja",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-4f167ce8-f651-467d-a634-989e741a1c18.png",
+    "references": [
+      "media/characters/sarbeswari/turnaround-1.webp",
+      "media/characters/siva-singha/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-262-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Sutanpha",
+    "review": "Visually inspected: Sarbeswari distinctive head ornaments and textile, queen seated receiving state document, Siva standing, distinct extras.",
+    "method": "built-in image_gen",
+    "prompt": "Use case: historical-scene. Create ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM. No text, lettering, captions, borders, montage or watermark. Assam humid Brahmaputra valley, bamboo, broadleaf trees, wet alluvial earth, period handwoven cotton and silk, realistic anatomy. Referenced character sheets each show ONE person in multiple views: depict that person ONCE only, preserve face, hair and recognizable clothing. Extras have distinct faces and plain muted cotton; never duplicate royal clothing. Modern interpretive reconstruction, not authenticated portraits. Avoid fantasy armor, European castles, modern objects, national flags, Rajasthan desert or Mughal marble halls. Timber/bamboo/thatch architecture unless scene explicitly calls for Assamese brick temples or palace. 1739 Sarbeswari raised as third Bar Raja. Exactly one Queen Sarbeswari from image1, distinctive fan ornaments at head and cream pink patterned wrap, sits upright on modest carved gilded Assamese throne beneath textile canopy, receiving a sealed folded state document from kneeling official. Exactly one Siva from image2 stands respectfully to side in cream gold dress. Focus queen governing and receiving authority; no European orb or scepter. Open timber audience hall with woven hangings and small brass lamps. Other queens absent.\n",
+    "final_asset": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-262_Sarbeswari_Third_Bar_Raja.webp"
+  },
+  {
+    "id": "AHOM-263",
+    "slug": "Rajeswar_Accession",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-ec655dcf-f35f-4930-8ee9-6b07a069dd62.png",
+    "references": [
+      "media/characters/rajeswar-singha/turnaround-1.webp",
+      "media/characters/kirti-chandra-borbarua/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-263-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Ahom_kingdom; https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua",
+    "review": "Visually inspected: Rajeswar seated, Kirti presenting order, appropriate court materials, Pramatta absent.",
+    "method": "built-in image_gen",
+    "prompt": "Use case: historical-scene. Create ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM. No text, lettering, captions, borders, montage or watermark. Assam humid Brahmaputra valley, bamboo, broadleaf trees, wet alluvial earth, period handwoven cotton and silk, realistic anatomy. Referenced character sheets each show ONE person in multiple views: depict that person ONCE only, preserve face, hair and recognizable clothing. Extras have distinct faces and plain muted cotton; never duplicate royal clothing. Modern interpretive reconstruction, not authenticated portraits. Avoid fantasy armor, European castles, modern objects, national flags, Rajasthan desert or Mughal marble halls. Timber/bamboo/thatch architecture unless scene explicitly calls for Assamese brick temples or palace. 1751 accession of Rajeswar Singha. Exactly one Rajeswar from image1 seated on carved Assamese court throne, ivory gold embroidered coat red sash and royal headgear. Exactly one Kirti Chandra from image2, ochre turban and cream long coat dark sash, stands near dais presenting formal folded order to assembled nobles. Subtle authority and court politics, dignified. Timber-pillared court with cloth canopy, no later palace falsely shown completed. Pramatta has died and MUST NOT appear. No invented literal European crown placement ritual.\n",
+    "final_asset": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-263_Rajeswar_Accession.webp"
+  },
+  {
+    "id": "AHOM-264",
+    "slug": "Rebuilding_Kareng_Ghar",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-342fbadb-5d38-4b62-90df-8e974e97fef6.png",
+    "references": [
+      "media/characters/rajeswar-singha/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-264-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Kareng_Ghar; https://en.wikipedia.org/wiki/Garhgaon",
+    "review": "Visually inspected: Rajeswar continuity, red brick palace massing, curved roof, bamboo scaffolds, lime mortar and plumb line; worksite and proportions interpretive.",
+    "method": "built-in image_gen",
+    "prompt": "Use case: historical-scene. Create ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM. No text, lettering, captions, borders, montage or watermark. Assam humid Brahmaputra valley, bamboo, broadleaf trees, wet alluvial earth, period handwoven cotton and silk, realistic anatomy. Referenced character sheets each show ONE person in multiple views: depict that person ONCE only, preserve face, hair and recognizable clothing. Extras have distinct faces and plain muted cotton; never duplicate royal clothing. Modern interpretive reconstruction, not authenticated portraits. Avoid fantasy armor, European castles, modern objects, national flags, Rajasthan desert or Mughal marble halls. Timber/bamboo/thatch architecture unless scene explicitly calls for Assamese brick temples or palace. 1750s rebuilding Kareng Ghar at Garhgaon. Exactly one Rajeswar in reference dress examines brickwork with anonymous master mason, foreground lime mortar bowl, red bricks, plumb line and bamboo scaffolding. Background partly completed compact multi-storey Ahom red-brick palace with tiered diminishing roof massing, curved roofline, arched openings and plaster portions based on surviving Garhgaon Kareng Ghar. No fanciful seven aboveground floors, no Talatal Ghar tunnels exposed, no European castle or Mughal marble dome. Assam overcast daylight, trees and damp worksite.\n",
+    "final_asset": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-264_Rebuilding_Kareng_Ghar.webp"
+  },
+  {
+    "id": "AHOM-265",
+    "slug": "Burning_of_the_Buranjis",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-2226d5e2-377b-4dec-b6e2-e7444330dcef.png",
+    "references": [
+      "media/characters/kirti-chandra-borbarua/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-265-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua",
+    "review": "Visually inspected: Kirti character continuity, selected bark manuscript bundles at fire, surviving records and distinct scribes.",
+    "method": "built-in image_gen",
+    "prompt": "Use case: historical-scene. Create ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM. No text, lettering, captions, borders, montage or watermark. Assam humid Brahmaputra valley, bamboo, broadleaf trees, wet alluvial earth, period handwoven cotton and silk, realistic anatomy. Referenced character sheets each show ONE person in multiple views: depict that person ONCE only, preserve face, hair and recognizable clothing. Extras have distinct faces and plain muted cotton; never duplicate royal clothing. Modern interpretive reconstruction, not authenticated portraits. Avoid fantasy armor, European castles, modern objects, national flags, Rajasthan desert or Mughal marble halls. Timber/bamboo/thatch architecture unless scene explicitly calls for Assamese brick temples or palace. Mid18th century under Rajeswar reign, Kirti Chandra's selective destruction of chronicles. Exactly one Kirti from reference in ochre turban cream coat dark sash directs an attendant lowering selected loose sanchi bark manuscript bundles into small controlled courtyard fire in shallow brick hearth. Nearby anxious elderly scribes hold remaining tied folios; stacks of saved records under veranda. Close focus on loss of historical memory, solemn dusk. No giant modern books, paper library shelves, no legible invented Assamese writing. King absent, no claim exact date or author personally witnessing.\n",
+    "final_asset": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-265_Burning_of_the_Buranjis.webp"
+  }
+]

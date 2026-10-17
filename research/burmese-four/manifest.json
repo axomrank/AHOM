@@ -1,0 +1,85 @@
+[
+  {
+    "id": "AHOM-272",
+    "slug": "Badan_Chandra_Appeals_to_Bodawpaya",
+    "main_people": "badan-chandra-borphukan; bodawpaya",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-976932de-ad5d-4244-8316-8dd1ffdb03b0.png",
+    "references": [
+      "/home/angsuman/extra_spac/AHOM/media/characters/badan-chandra-borphukan/turnaround-1.webp",
+      "/home/angsuman/extra_spac/AHOM/media/characters/bodawpaya/turnaround-1.webp"
+    ],
+    "prompt": "Use case: historical-scene. ONE landscape1536x1024 naturalistic cinematic historical painting for AHOM. No text, captions, watermark, panels, montage or borders. Lifelike anatomy, restrained historical realism, handwoven cloth, period weapons and timber. Each multi-view character reference shows ONE PERSON: depict each identified character ONCE only, preserve face, hair and recognizable costume; do not reproduce sheet labels or duplicate views. Extras have varied distinct faces and plain muted cotton. Artistic reconstruction, not authenticated likenesses. No modern flags, modern firearms, fantasy armor, European castles, desert or Mughal marble palace. 1816 Badan Chandra appeals at the Konbaung royal court, conventionally called court of Ava, not a literal archaeological reconstruction of Inwa. Exactly one Badan from image1, mature moustache, red woven headcloth cream long cotton tunic red sash, kneels respectfully on woven mat in foreground left presenting a folded petition on shallow tray. His dao remains sheathed and laid aside. Exactly one elderly Bodawpaya from image2, aged Burmese face, maroon gold ceremonial robe and broad gilded royal headdress, sits on raised gilded carved timber throne toward right. Two distinct Burmese officials attend in subdued traditional court dress. Rich teak hall, vermilion lacquer posts, gilded carved timber details, broad open doors, tropical light. Single audience seeking military assistance, no British officials, no Purnananda present, no army invading behind throne, no modern treaty writing. King Bodawpaya must NOT become youthful Bagyidaw. Restrained tense diplomacy.",
+    "limitation": "Depicts Badan Chandra\u2019s appeal in 1816. Court layout and petition ceremony are reconstructed; \u2018Ava\u2019 is used conventionally, not as proof of the exact palace site. Purnananda is historical context and absent.",
+    "method": "built-in image_gen",
+    "review": "Reviewed distinct Badan Chandra and elderly Bodawpaya identities, petition staging, teak/lacquer/gilded court context, no Bagyidaw or Purnananda.",
+    "title": "Badan Chandra Borphukan Goes to the Court of Ava",
+    "date_label": "1815\u20131816",
+    "historical_sources": "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+    "additional_sources": [
+      "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+    ],
+    "final_asset": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp"
+  },
+  {
+    "id": "AHOM-273",
+    "slug": "Chandrakanta_Recovers_Guwahati",
+    "main_people": "chandrakanta-singha",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-d60c5a2e-0f17-45e2-b155-5430fb12d1f3.png",
+    "references": [
+      "/home/angsuman/extra_spac/AHOM/media/characters/chandrakanta-singha/turnaround-1.webp"
+    ],
+    "prompt": "Use case: historical-scene. ONE landscape1536x1024 naturalistic cinematic historical painting for AHOM. No text, captions, watermark, panels, montage or borders. Lifelike anatomy, restrained historical realism, handwoven cloth, period weapons and timber. Each multi-view character reference shows ONE PERSON: depict each identified character ONCE only, preserve face, hair and recognizable costume; do not reproduce sheet labels or duplicate views. Extras have varied distinct faces and plain muted cotton. Artistic reconstruction, not authenticated likenesses. No modern flags, modern firearms, fantasy armor, European castles, desert or Mughal marble palace. December1821 Chandrakanta recovers Guwahati after taking Assam Chowki in October. Exactly one Chandrakanta from sheet, young moustached face cream gold coat red sash cream feathered turban, mounted on realistic horse near a low earthen riverside gateway. He directs troops entering recovered Guwahati, not a triumphal coronation. Several distinct Sikh soldiers with full beards and wrapped practical blue/ochre turbans, simple long tunics and loose trousers, carry period flintlock muskets and sheathed curved swords; Assamese supporters in plain cotton with spears alongside. Not modern Sikh regiment uniforms or invented insignia. Distant Burmese rear guard withdrawing along riverbank, no identified Burmese general or personal duel. Brahmaputra wooden boats, wooded Guwahati hills and modest timber thatched settlement, cool dry-season morning. No modern skyline or later temple facades, no gore.",
+    "limitation": "Selects the December 1821 recovery of Guwahati, distinct from October\u2019s Assam Chowki action. Sikh participation is included; troop uniforms, gateway and deployment remain interpretive. Related accounts give January 1822 for the recovery; the catalogue retains December 1821.",
+    "method": "built-in image_gen",
+    "review": "Visually inspected: Chandrakanta identity, Sikh and Assamese troop distinction, period river settlement and coherent horse anatomy; no modern skyline or extra king.",
+    "title": "Chandrakanta Retakes Guwahati",
+    "date_label": "October\u2013December 1821",
+    "historical_sources": "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+    "additional_sources": [
+      "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+    ],
+    "final_asset": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-273_Chandrakanta_Recovers_Guwahati.webp"
+  },
+  {
+    "id": "AHOM-274",
+    "slug": "Defeat_at_Mahgarh",
+    "main_people": "chandrakanta-singha; maha-bandula",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-7238b060-d1e3-4345-9ee0-31db5acdff96.png",
+    "references": [
+      "/home/angsuman/extra_spac/AHOM/media/characters/chandrakanta-singha/turnaround-1.webp",
+      "/home/angsuman/extra_spac/AHOM/media/characters/maha-bandula/turnaround-1.webp"
+    ],
+    "prompt": "Use case: historical-scene. ONE landscape1536x1024 naturalistic cinematic historical painting for AHOM. No text, captions, watermark, panels, montage or borders. Lifelike anatomy, restrained historical realism, handwoven cloth, period weapons and timber. Each multi-view character reference shows ONE PERSON: depict each identified character ONCE only, preserve face, hair and recognizable costume; do not reproduce sheet labels or duplicate views. Extras have varied distinct faces and plain muted cotton. Artistic reconstruction, not authenticated likenesses. No modern flags, modern firearms, fantasy armor, European castles, desert or Mughal marble palace. April1822 defeat of Chandrakanta near Mahgarh/Jorhat after his March camp. Exactly one Chandrakanta from image1 in foreground left, same young moustached face royal cream gold coat red sash and turban, directs his exhausted Sikh and Assamese troops to withdraw across a damaged EARTHEN rampart and timber palisade. He remains alive, on foot helping coordinate retreat, not killed. Distinct Sikh bearded soldiers in plain wrapped turbans and long cotton tunics carry period muskets, Assamese supporters with shields, no gore or piles of corpses. Across open churned field, exactly one Maha Bandula from image2 appears at middle-distance right with readable dark moustached face, dark bronze cuirass and rounded brimmed helmet over maroon coat, directing advancing Burmese troops with spears and period muskets. Clear spatial separation: NO invented personal sword duel. Flat humid Upper Assam agricultural plain, bamboo and low woodland, smoke haze, broken cloud. No mountains surrounding Jorhat, no later city buildings, no Bagyidaw or Tilwa physically present.",
+    "limitation": "Campaign roles follow the catalogue and Jorhat district account. Exact battlefield layout and Bandula\u2019s depicted position are reconstructed. The painting does not assert a personal encounter or duel with Chandrakanta. Banners and markings are illustrative, not authenticated heraldry.",
+    "method": "built-in image_gen",
+    "review": "Visually inspected: Chandrakanta retreat and Bandula advance spatially separated, Sikh/Assamese allies distinguished, flat Assam terrain, earthen fortification, non-graphic action.",
+    "title": "Chandrakanta's Last Stand at Mahgarh",
+    "date_label": "March\u2013April 1822",
+    "historical_sources": "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+    "additional_sources": [
+      "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+      "https://jorhat.assam.gov.in/about-us/history-jorhat"
+    ],
+    "final_asset": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-274_Defeat_at_Mahgarh.webp"
+  },
+  {
+    "id": "AHOM-275",
+    "slug": "Tilwa_After_Hadira_Chowki",
+    "main_people": "mingimaha-tilwa",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-a8a49925-4539-4b95-9f93-60657f8ee84e.png",
+    "references": [
+      "/home/angsuman/extra_spac/AHOM/media/characters/mingimaha-tilwa/turnaround-1.webp"
+    ],
+    "prompt": "Use case: historical-scene. ONE landscape1536x1024 naturalistic cinematic historical painting for AHOM. No text, captions, watermark, panels, montage or borders. Lifelike anatomy, restrained historical realism, handwoven cloth, period weapons and timber. Each multi-view character reference shows ONE PERSON: depict each identified character ONCE only, preserve face, hair and recognizable costume; do not reproduce sheet labels or duplicate views. Extras have varied distinct faces and plain muted cotton. Artistic reconstruction, not authenticated likenesses. No modern flags, modern firearms, fantasy armor, European castles, desert or Mughal marble palace. June\u2013July1822 aftermath of defeat at Hadira/Assam Chowki near western frontier. Exactly one Mingimaha Tilwa from sheet, distinctive mature Burmese moustached face, indigo coat dark trousers red sash engraved metal cuirass and rounded brimmed helmet with mail neckguard, stands on captured low earthen stockade platform beside river. A distinct Burmese officer offers a folded report; ordinary soldiers in muted maroon brown cotton secure abandoned muskets and timber gate. Far across wide composition at left, small unnamed surviving troops and civilians withdraw with bundles in simple wooden boats toward western bank; no recognizable Chandrakanta duplicated or captive king. Focus Tilwa consolidating command and reported elevation after victory, NOT a literal coronation, gold crown placement or authenticated proclamation ritual. Bagyidaw remains in Burma and MUST NOT appear. Assam river landscape with reeds, alluvial banks, broadleaf trees and low distant foothills, monsoon-heavy sky. No modern India\u2013Bangladesh border markers, British intervention troops, flags, torture or gore.",
+    "limitation": "Selects the captured-post aftermath and Tilwa\u2019s consolidation. June/July dating varies; no exact proclamation ceremony or personal presence of Bagyidaw is asserted. This military defeat is distinguished from the 1826 treaty.",
+    "method": "built-in image_gen",
+    "review": "Reviewed Tilwa identity, captured earthen stockade, retreating river traffic, period weapons, no invented crown ceremony or Bagyidaw.",
+    "title": "Defeat at Hadira Chowki; Tilwa Proclaimed Raja of Assam",
+    "date_label": "June\u2013July 1822",
+    "historical_sources": "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+    "additional_sources": [
+      "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+    ],
+    "final_asset": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-275_Tilwa_After_Hadira_Chowki.webp"
+  }
+]

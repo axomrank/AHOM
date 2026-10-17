@@ -1,0 +1,17 @@
+{
+  "id": "AHOM-276",
+  "slug": "Gomdhar_Konwar_Revolt",
+  "main_people": "",
+  "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-67227fe6-0c47-4f28-a3aa-4971af4a3941.png",
+  "references": [],
+  "prompt": "Use case: historical-scene. ONE landscape1536x1024 naturalistic cinematic historical painting for AHOM, no text captions watermark border montage or panels. Humid Assam early19th century, broadleaf forest and bamboo, alluvial ground, modest timber/bamboo/thatch architecture, natural anatomy and handwoven cloth. People are provisional artistic reconstructions, no authenticated portraits or character sheets exist for these named figures. Do not reuse faces of existing Ahom kings or infer son's exact face from father. No modern tricolour, modern guns, pith helmets, Victorian later uniforms, fantasy crowns or European castles. 1828 Upper Assam rural assembly supporting Gomdhar Konwar's attempt to restore Ahom rule. Choose the mobilisation near Jorhat before the failed march on Rangpur, not an invented literal coronation ritual. A single young adult Assamese prince in a plain cream handwoven long tunic, dhoti, muted red sash and simple cream wrapped headcloth stands in THREE-QUARTER BACK/SIDE VIEW addressing an assembly outside a modest raised timber thatched pavilion. His face partly seen in profile, no claim authenticated likeness. An older unnamed noble in offwhite cloth beside him holds a folded message; do not individually identify him as Dhananjoy because no sheet or verified portrait. Distinct rural followers, some women at sides, carrying bamboo staves, spears and a few period flintlock muskets, no identical uniform. Calm serious resolve, not a triumphant victory or modern independence rally. Bamboo grove, rice margins and low wooded horizon, morning haze. No named British officer, no British troops, no future prison/exile montage, no giant stone throne or invented crowning objects.",
+  "limitation": "Selects the revolt\u2019s mobilisation rather than a documented coronation ceremony or battle. Gomdhar\u2019s appearance, assembly, clothing and site are provisional reconstructions; no authenticated likeness is claimed.",
+  "method": "built-in image_gen",
+  "review": "Visually inspected: provisional prince in partial profile, coherent rural assembly, period materials and distinct followers, no modern flag or invented coronation ritual.",
+  "title": "Gomdhar Konwar's Revolt",
+  "date_label": "1828",
+  "historical_sources": "https://en.wikipedia.org/wiki/Gomdhar_Konwar",
+  "additional_sources": [
+    "https://cbcindia.gov.in/wp-content/themes/boc/mann_ki_baat/e_july24/files/basic-html/page31.html"
+  ]
+}

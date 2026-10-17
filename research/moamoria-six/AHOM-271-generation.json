@@ -1,0 +1,18 @@
+{
+  "id": "AHOM-271",
+  "slug": "Matak_Autonomy_Settlement",
+  "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-d7616247-f68b-47f9-b46a-ce683b38a30e.png",
+  "references": [
+    "/home/angsuman/extra_spac/AHOM/media/characters/sarbananda-singha/turnaround-1.webp"
+  ],
+  "prompt": "Use case: historical-scene. ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM, restrained realism, lifelike anatomy, no text, captions, labels, watermark, montage or border. Assam late18th/early19th century humid alluvial Brahmaputra valley, bamboo and broadleaf trees, handwoven cotton and silk, timber/bamboo/thatch buildings, period wooden boats. No European castle, desert, modern objects, modern flags or fantasy costume. Each referenced multi-view sheet depicts ONE PERSON: show that character ONCE only, preserve distinctive face, hair and clothes, never copy reference-sheet panels or lettering. Extras must have distinct faces and plain varied muted cotton attire. These are artistic identities, not authenticated likenesses. Moamoria is a religious/political movement across communities, not a uniform ethnic costume. Settlement conventionally dated1805 recognising Matak autonomy at Bengmara. Exactly one Sarbananda from reference, same mature moustached face white cotton green sash cream green-bordered headcloth, slightly older with subtle grey, seated at low wooden desk inside modest open timber pavilion. He receives a folded state communication from a distinct anonymous Ahom envoy in plain cream cotton and muted brown headcloth. Scribe beside them records the agreement, tied records and modest measured rice bundles and brass bowls suggest annual tribute obligation without invented quantities. Two unarmed local representatives watch, calm wary diplomacy after prolonged conflict. Purnananda MUST NOT personally appear: envoy represents his government, no claim of documented personal meeting. No modern treaty text, flags, pen nibs, British officiant, handcuffs or surrender humiliation. Green Bengmara landscape and rebuilt homes beyond, warm quiet afternoon.",
+  "limitation": "An envoy-mediated interpretation of the autonomy agreement, conventionally dated 1805. Exact participants and ceremony are not established; sources differ on Sarbananda/Matibar succession and settlement chronology.",
+  "method": "built-in image_gen",
+  "review": "Visually inspected: Sarbananda continuity, anonymous envoy rather than Purnananda, period records and non-quantified tribute context.",
+  "title": "Matak Autonomy: Sarbananda Made Barsenapati",
+  "date_label": "1805",
+  "historical_sources": "https://en.wikipedia.org/wiki/Moamoria_rebellion; https://en.wikipedia.org/wiki/Matak_rajya",
+  "additional_sources": [
+    "https://en.wikipedia.org/wiki/Matak_rajya"
+  ]
+}

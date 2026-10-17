@@ -1,0 +1,17 @@
+{
+  "id": "AHOM-277",
+  "slug": "Piyali_Phukan_and_Jiuram_Last_Moments",
+  "main_people": "",
+  "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-22ea6d17-341e-429a-8371-3625dd26fbc6.png",
+  "references": [],
+  "prompt": "Use case: historical-scene. ONE landscape1536x1024 naturalistic cinematic historical painting for AHOM, no text captions watermark border montage or panels. Humid Assam early19th century, broadleaf forest and bamboo, alluvial ground, modest timber/bamboo/thatch architecture, natural anatomy and handwoven cloth. People are provisional artistic reconstructions, no authenticated portraits or character sheets exist for these named figures. Do not reuse faces of existing Ahom kings or infer son's exact face from father. No modern tricolour, modern guns, pith helmets, Victorian later uniforms, fantasy crowns or European castles. 1830 Upper Assam, solemn moments immediately BEFORE the execution of Piyali Phukan and Jiuram Dulia Baruah/Medhi for resistance to East India Company rule. Two distinct Assamese adult men in simple cream cotton dhoti and modest upper cloth, one wearing a faded red shoulder cloth and the other plain offwhite, stand upright at centre-left seen predominantly from THREE-QUARTER BACK VIEW. They remain alive and dignified with calm solemn posture, faces not asserted as historical portraits. Their hands rest naturally in front, no visible wounds, no body suspension, no strangulation, no corpse, no blood. A rough EMPTY timber gallows crossbeam stands at middle-distance right with two unused loops faintly visible, enough to communicate impending execution but not a sensational closeup. Small contingent of East India Company Indian sepoy guards in restrained early1830s scarlet jackets and white trousers with simple dark early19th-century shako-type caps, carrying flintlock muskets; one bareheaded European official in dark civilian coat holds unreadable folded order at side. Uniform details provisional, no unit badges or exact officer identity. Behind a low bamboo barrier a few grieving Assamese witnesses, distinct faces, quiet dignity. Modest earthen compound with thatched timber guard shelter, bamboo and humid trees under overcast sky. No fixed identifiable Jorhat/Sivasagar monument or exact day since sources disagree. Do NOT depict Maniram Dewan or Piyali Barua of1858, Badan Chandra is dead and absent. No invented heroic speech, modern placard, flags or readable text.",
+  "limitation": "Depicts the moments before the 1830 execution, not the hanging itself. Piyali and Jiuram have provisional appearances; day, place and Jiuram\u2019s name vary across accounts. Not Piyali Barua and Maniram Dewan\u2019s 1858 execution; Badan Chandra is absent.",
+  "method": "built-in image_gen",
+  "review": "Visually inspected: two living condemned men with provisional appearances, empty gallows, restrained early Company guards and witnesses, no injury or body suspension, no later 1858 figures.",
+  "title": "Piyali Phukan and Jiuram Dulia Baruah Hanged",
+  "date_label": "1830",
+  "historical_sources": "https://en.wikipedia.org/wiki/British_rule_in_Assam; https://www.etvbharat.com/english/state/assam/martyrs-of-freedom-struggle-from-assam-awaits-recognition/na20200925181218073",
+  "additional_sources": [
+    "https://cbcindia.gov.in/wp-content/themes/boc/mann_ki_baat/e_july24/files/basic-html/page31.html"
+  ]
+}

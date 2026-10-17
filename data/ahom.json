@@ -2085,7 +2085,8 @@
          "era": "Imperial Expansion & Early Invasions (1497–1603)",
          "collection": "AHOM chronology",
          "summary": "Suhungmung orders the first recorded survey of the kingdom's adult men, the base of the later paik militia system.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. The rural registration is illustrative; no fully developed later paik bureaucracy is implied.",
+         "status": "illustrated",
          "people": [
           "suhungmung"
          ],
@@ -2093,8 +2094,8 @@
           "https://en.wikipedia.org/wiki/Suhungmung",
           "https://en.wikipedia.org/wiki/Ahom_kingdom"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-238_Suhungmung_Counts_the_Fighting_Men.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-238_Suhungmung_Counts_the_Fighting_Men.webp",
          "main": true
         },
         {
@@ -2180,16 +2181,16 @@
          "era": "Imperial Expansion & Early Invasions (1497–1603)",
          "collection": "AHOM chronology",
          "summary": "After five years of war, the Kachari king Khunkhara's army is beaten and its commander killed. The Ahoms chase him to his capital Dimapur; he flees, and Suhungmung installs Detsung as Kachari king.",
-         "notes": "Khunkhara and Detsung are not yet in the database.",
-         "status": "needs image",
+         "notes": "Khunkhara and Detsung are not yet in the database. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Dimapur architecture and campaign staging are interpretive; no authenticated portraits of Khunkhara or Detsung are shown.",
+         "status": "illustrated",
          "people": [
           "suhungmung"
          ],
          "sources": [
           "https://en.wikipedia.org/wiki/Suhungmung"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-239_Ahom_Pursuit_Toward_Dimapur.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-239_Ahom_Pursuit_Toward_Dimapur.webp",
          "main": true
         },
         {
@@ -2282,8 +2283,8 @@
          "era": "Imperial Expansion & Early Invasions (1497–1603)",
          "collection": "AHOM chronology",
          "summary": "After her husband Phrasengmung Borgohain is killed by Turbak's army, Princess Mula Gabharu leads women warriors into battle and is killed with five companions. Her death rallies the Ahom army.",
-         "notes": "Wikipedia names the Battle of Kachua; much of the story (the Kin Lao vow, her speech) is legend.",
-         "status": "needs image",
+         "notes": "Wikipedia names the Battle of Kachua; much of the story (the Kin Lao vow, her speech) is legend. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Non-graphic reconstruction of the remembered last battle; no exact personal duel with Turbak is asserted. Phrasengmung is not shown alive.",
+         "status": "illustrated",
          "people": [
           "mula-gabharu",
           "phrasengmung-borgohain",
@@ -2294,8 +2295,8 @@
           "https://en.wikipedia.org/wiki/Mula_Gabharu",
           "https://en.wikipedia.org/wiki/Turbak%27s_invasion_of_Assam"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-240_Mula_Gabharu_Last_Battle.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-240_Mula_Gabharu_Last_Battle.webp",
          "main": false
         },
         {
@@ -2307,8 +2308,8 @@
          "era": "Imperial Expansion & Early Invasions (1497–1603)",
          "collection": "AHOM chronology",
          "summary": "The vassal Kachari king Detsung revolts. The Ahoms pursue him to Jangmarang and kill him; Dimapur is abandoned and the Kacharis move their capital to Maibong. Ahom rule now reaches the Kolong river.",
-         "notes": "Detsung is not yet in the database.",
-         "status": "needs image",
+         "notes": "Detsung is not yet in the database. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting shows campaign aftermath at Dimapur, not Detsung dying there; his death is placed during pursuit at Jangmarang. Pillar placement and damage are interpretive.",
+         "status": "illustrated",
          "people": [
           "suhungmung"
          ],
@@ -2316,8 +2317,8 @@
           "https://en.wikipedia.org/wiki/Suhungmung",
           "https://en.wikipedia.org/wiki/Ahom_kingdom"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-241_Dimapur_Abandoned_After_the_Campaign.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-241_Dimapur_Abandoned_After_the_Campaign.webp",
          "main": true
         },
         {
@@ -2329,7 +2330,8 @@
          "era": "Imperial Expansion & Early Invasions (1497–1603)",
          "collection": "AHOM chronology",
          "summary": "The great king Suhungmung is stabbed in his sleep by his servant Ratiman. His son Suklenmung and a Kachari queen are suspected of the plot.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Depicts the moment before the attack. Suklenmung and the queen are absent; their complicity remains an allegation.",
+         "status": "illustrated",
          "people": [
           "suhungmung",
           "suklenmung"
@@ -2338,8 +2340,8 @@
           "https://en.wikipedia.org/wiki/Suhungmung",
           "https://en.wikipedia.org/wiki/Suklenmung"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-242_Suhungmung_Assassination_in_the_Night.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-242_Suhungmung_Assassination_in_the_Night.webp",
          "main": true
         }
        ]
@@ -2405,7 +2407,8 @@
          "era": "Imperial Expansion & Early Invasions (1497–1603)",
          "collection": "AHOM chronology",
          "summary": "The great king Suhungmung is stabbed in his sleep by his servant Ratiman. His son Suklenmung and a Kachari queen are suspected of the plot.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Depicts the moment before the attack. Suklenmung and the queen are absent; their complicity remains an allegation.",
+         "status": "illustrated",
          "people": [
           "suhungmung",
           "suklenmung"
@@ -2414,8 +2417,8 @@
           "https://en.wikipedia.org/wiki/Suhungmung",
           "https://en.wikipedia.org/wiki/Suklenmung"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-242_Suhungmung_Assassination_in_the_Night.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-242_Suhungmung_Assassination_in_the_Night.webp",
          "main": false
         },
         {
@@ -2443,17 +2446,18 @@
          "era": "Imperial Expansion & Early Invasions (1497–1603)",
          "collection": "AHOM chronology",
          "summary": "Under Suklenmung, Hari, the son-in-law of the Vaishnava saint Sankardeva, is captured and executed. Sankardeva leaves the Ahom kingdom for Koch territory.",
-         "notes": "Sankardeva and Hari are not yet in the database.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction of Sankardev departing after Hari’s execution. Sankardev follows the newly created project character sheet based on the user-provided devotional portrait; its youthful apparent age, face and clothing are artistic continuity, not an authenticated likeness or period-age claim. Assam river setting, architecture and staging are interpretive. Hari is not depicted; Suklenmung is historical context and is not physically shown.",
+         "status": "illustrated",
          "people": [
-          "suklenmung"
+          "suklenmung",
+          "sankardev"
          ],
          "sources": [
           "https://en.wikipedia.org/wiki/Suklenmung"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
-         "main": true
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-243_Sankardeva_Departs_After_Hari_Execution_v02.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-243_Sankardeva_Departs_After_Hari_Execution_v02.webp",
+         "main": false
         },
         {
          "id": "AHOM-109",
@@ -2821,8 +2825,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "Pratap Singha marries Mangaldoi, daughter of the Koch Hajo king Parikshit Narayan, sealing an alliance against the Mughals.",
-         "notes": "Wikipedia spells her name Mangaldahi.",
-         "status": "needs image",
+         "notes": "Wikipedia spells her name Mangaldahi. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Marriage ceremony staging is illustrative; Mangaldoi parentage varies across sources.",
+         "status": "illustrated",
          "people": [
           "pratap-singha",
           "mangaldoi"
@@ -2830,8 +2834,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Susenghphaa"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-244_Pratap_Singha_Marries_Mangaldoi.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-244_Pratap_Singha_Marries_Mangaldoi.webp",
          "main": false
         },
         {
@@ -2843,8 +2847,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "Pratap Singha accepts a Jaintia princess in marriage, but the Kachari king Jasanarayan blocks her passage. War follows; Sundar Gohain drives deep into Kachari land before Bhimbal Konwar's night attack kills him.",
-         "notes": "Exact year not found; Jasanarayan, Bhimbal Konwar and Sundar Gohain are not yet in the database.",
-         "status": "needs image",
+         "notes": "Exact year not found; Jasanarayan, Bhimbal Konwar and Sundar Gohain are not yet in the database. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting depicts the passage dispute being reported to Pratap Singha, not the later battle. No identified bride or Kachari commander is shown.",
+         "status": "illustrated",
          "people": [
           "pratap-singha"
          ],
@@ -2852,8 +2856,8 @@
           "https://en.wikipedia.org/wiki/Susenghphaa",
           "https://en.wikipedia.org/wiki/Balinarayan"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-245_Jaintia_Passage_Dispute_at_Pratap_Court.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-245_Jaintia_Passage_Dispute_at_Pratap_Court.webp",
          "main": true
         },
         {
@@ -2865,8 +2869,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "After the Mughals defeat Parikshit of Koch Hajo, his brother Balinarayan flees to Pratap Singha, who makes him tributary raja of Darrang as Dharmanarayan. The refuge angers the Mughal governor Qasim Khan.",
-         "notes": "Balinarayan is not yet in the database.",
-         "status": "needs image",
+         "notes": "Balinarayan is not yet in the database. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Balinarayan has a provisional face because no project sheet exists. Painting depicts asylum; Qasim Khan is not physically shown.",
+         "status": "illustrated",
          "people": [
           "pratap-singha",
           "qasim-khan-chishti"
@@ -2874,8 +2878,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Balinarayan"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-246_Balinarayan_Seeks_Refuge.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-246_Balinarayan_Seeks_Refuge.webp",
          "main": true
         },
         {
@@ -2905,8 +2909,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "The first Mughal invasion under Sayyid Abu Bakr and Satrajit takes Kajali, then is destroyed in a night attack by the Bharali–Brahmaputra confluence. Abu Bakr is killed, Satrajit escapes, and Pratap Singha builds a fort at Samdhara inscribed 'Victory in Unequal Battle'.",
-         "notes": "Wikipedia dates the Battle of Bharali to 1615 and the Battle of Samdhara to January 1616.",
-         "status": "needs image",
+         "notes": "Wikipedia dates the Battle of Bharali to 1615 and the Battle of Samdhara to January 1616. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Night-action staging, boat designs and deployment are interpretive; Abu Bakr and Satrajit follow project sheets. Pratap Singha and Qasim Khan are not physically shown. Catalogue retains the 1615–1616 range.",
+         "status": "illustrated",
          "people": [
           "abu-bakr",
           "satrajit",
@@ -2918,9 +2922,9 @@
           "https://en.wikipedia.org/wiki/Battle_of_Bharali_(1615)",
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
-         "main": true
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
+         "main": false
         },
         {
          "id": "AHOM-248",
@@ -2931,7 +2935,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "Pratap Singha and Balinarayan push west to Sualkuchi and Hajo. The Mughals under Allah Yar Khan strike back and retake Kamrup; Balinarayan dies, and the Samdhara garrison and the naval fight at Duimunisila stop the Mughal advance.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. The artwork selects Momai Tamuli directing river defence as a representative moment of the multi-year war. Pratap Singha and Allah Yar Khan are not physically shown; vessels and deployments are interpretive.",
+         "status": "illustrated",
          "people": [
           "pratap-singha",
           "allah-yar-khan",
@@ -2941,9 +2946,9 @@
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
           "https://en.wikipedia.org/wiki/Battle_of_Duimunisila"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
-         "main": true
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-248_Momai_Tamuli_Defends_the_River_1638.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-248_Momai_Tamuli_Defends_the_River_1638.webp",
+         "main": false
         },
         {
          "id": "AHOM-120",
@@ -3251,7 +3256,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "Coins first appear under Jayadhwaj Singha. The old belief that Suklenmung struck the first Ahom coins comes from misread coins of Chakradhwaj Singha.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Workshop, hand tools and royal visit are illustrative. Small silver coin marks are not an authenticated transcription of a specific issue.",
+         "status": "illustrated",
          "people": [
           "jayadhwaj-singha"
          ],
@@ -3259,8 +3265,8 @@
           "https://en.wikipedia.org/wiki/Suklenmung",
           "https://en.wikipedia.org/wiki/Ahom_kingdom"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-249_First_Ahom_Coins_Jayadhwaj_Singha.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-249_First_Ahom_Coins_Jayadhwaj_Singha.webp",
          "main": true
         },
         {
@@ -3878,8 +3884,8 @@
          "era": "Period of Ministerial Intrigue & Terror (1672–1681)",
          "collection": "AHOM chronology",
          "summary": "Angered by the king's devotion to the ascetic Paramananda Sanyasi and his jailing of Vaishnava mahantas, Debera Hazarika and the king's brother Sarugohain storm the palace at midnight. Udayaditya is taken to Charaideo and killed; his brother takes the throne as Ramdhwaj Singha.",
-         "notes": "Paramananda Sanyasi is not yet in the database.",
-         "status": "needs image",
+         "notes": "Paramananda Sanyasi is not yet in the database. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting depicts the midnight deposition, not the later execution at Charaideo. Sarugohain follows the Ramdhwaj sheet with royal cap removed because he is not yet enthroned. Court layout and staging are interpretive.",
+         "status": "illustrated",
          "people": [
           "udayaditya-singha",
           "debera-borbarua",
@@ -3889,8 +3895,8 @@
           "https://en.wikipedia.org/wiki/Sunyatphaa",
           "https://en.wikipedia.org/wiki/Suklamphaa"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-253_Midnight_Coup_Against_Udayaditya.webp",
+         "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-253_Midnight_Coup_Against_Udayaditya.webp",
          "main": true
         }
        ]
@@ -3973,8 +3979,8 @@
          "era": "Period of Ministerial Intrigue & Terror (1672–1681)",
          "collection": "AHOM chronology",
          "summary": "Angered by the king's devotion to the ascetic Paramananda Sanyasi and his jailing of Vaishnava mahantas, Debera Hazarika and the king's brother Sarugohain storm the palace at midnight. Udayaditya is taken to Charaideo and killed; his brother takes the throne as Ramdhwaj Singha.",
-         "notes": "Paramananda Sanyasi is not yet in the database.",
-         "status": "needs image",
+         "notes": "Paramananda Sanyasi is not yet in the database. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting depicts the midnight deposition, not the later execution at Charaideo. Sarugohain follows the Ramdhwaj sheet with royal cap removed because he is not yet enthroned. Court layout and staging are interpretive.",
+         "status": "illustrated",
          "people": [
           "udayaditya-singha",
           "debera-borbarua",
@@ -3984,8 +3990,8 @@
           "https://en.wikipedia.org/wiki/Sunyatphaa",
           "https://en.wikipedia.org/wiki/Suklamphaa"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-253_Midnight_Coup_Against_Udayaditya.webp",
+         "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-253_Midnight_Coup_Against_Udayaditya.webp",
          "main": false
         }
        ]
@@ -4407,7 +4413,8 @@
          "era": "Period of Ministerial Intrigue & Terror (1672–1681)",
          "collection": "AHOM chronology",
          "summary": "The Borphukan who sold Guwahati to the Mughals is killed by his own bodyguard, ending his hold over the boy-king Sulikphaa.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting depicts the instant before the bodyguard attacks sleeping Laluk Sola, whose face follows the project sheet. Bodyguard appearance, residence and staging are interpretive. Sulikphaa is not physically shown or depicted ordering the killing.",
+         "status": "illustrated",
          "people": [
           "laluk-sola",
           "sulikphaa"
@@ -4415,8 +4422,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Laluksola_Borphukan"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-254_Laluk_Sola_Bodyguard_Assassination.webp",
+         "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-254_Laluk_Sola_Bodyguard_Assassination.webp",
          "main": false
         }
        ]
@@ -4519,7 +4526,8 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "Gadadhar Singha's three-pronged army and navy close on Guwahati. After the naval battle at Paniduar on 15 August, the Itakhuli fort falls and the Mughals are chased to the Manas river, which becomes the accepted border. The Ahom–Mughal wars end.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Anonymous troops depict the riverine breakthrough and its aftermath; Gadadhar is not personally placed on the battlefield. Exact fort layout is reconstructed.",
+         "status": "illustrated",
          "people": [
           "gadadhar-singha"
          ],
@@ -4527,8 +4535,8 @@
           "https://en.wikipedia.org/wiki/Battle_of_Itakhuli",
           "https://en.wikipedia.org/wiki/Supatphaa"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-255_Battle_of_Itakhuli.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-255_Battle_of_Itakhuli.webp",
          "main": true
         },
         {
@@ -4572,8 +4580,8 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "Late in his reign Gadadhar Singha turns on the Vaishnava satras. The Dakhinpat gosain is mutilated and his idols melted down, the Auniati head flees, and Mayamara disciples suffer most. The grievance feeds the later Moamoria rebellion.",
-         "notes": "Motives (personal grudge or politico-economic) are debated.",
-         "status": "needs image",
+         "notes": "Motives (personal grudge or politico-economic) are debated. Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Confiscation and displacement are shown without graphic violence. Gadadhar is absent; motives remain debated.",
+         "status": "illustrated",
          "people": [
           "gadadhar-singha"
          ],
@@ -4581,8 +4589,8 @@
           "https://en.wikipedia.org/wiki/Supatphaa",
           "https://en.wikipedia.org/wiki/Auniati_Satra"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-256_Gadadhar_Persecution_of_the_Satras.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-256_Gadadhar_Persecution_of_the_Satras.webp",
          "main": true
         }
        ]
@@ -4698,15 +4706,17 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "Rudra Singha builds the Rangnath Dol and the Namdang stone bridge, cut from a single rock, followed by the Fakuwa Dol in 1703–04.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. The painting selects Namdang bridge construction; Rangnath Dol is a separate site and is not placed beside the bridge. Construction methods and stone arrangement are interpretive.",
+         "status": "illustrated",
          "people": [
           "rudra-singha"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Rudra_Singha"
+          "https://en.wikipedia.org/wiki/Rudra_Singha",
+          "https://sivasagar.assam.gov.in/tourist-place-detail/334"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-257_Namdang_Stone_Bridge_Construction.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-257_Namdang_Stone_Bridge_Construction.webp",
          "main": true
         },
         {
@@ -4816,15 +4826,16 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "At a general assembly at Rangpur, Rudra Singha announces his plan to invade Mughal Bengal with a league of Hindu rajas, and moves his army to Guwahati.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Depicts preparations for the proposed campaign, which was not launched, rather than a conquest of Bengal. The route sketch is illustrative.",
+         "status": "illustrated",
          "people": [
           "rudra-singha"
          ],
          "sources": [
           "https://en.wikipedia.org/wiki/Rudra_Singha"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-258_Rudra_Plans_Bengal_Campaign.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-258_Rudra_Plans_Bengal_Campaign.webp",
          "main": true
         },
         {
@@ -4836,7 +4847,8 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "Eight days after falling ill, Rudra Singha dies in camp at Guwahati with the Bengal campaign unlaunched. On his deathbed he tells his son Siva Singha to take Krishnaram Bhattacharya as guru.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Rudra and Siva appear in an imagined Guwahati camp deathbed scene. Exact words, witnesses and furnishings are not authenticated.",
+         "status": "illustrated",
          "people": [
           "rudra-singha",
           "siva-singha"
@@ -4845,8 +4857,8 @@
           "https://en.wikipedia.org/wiki/Rudra_Singha",
           "https://en.wikipedia.org/wiki/Sutanpha"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-259_Death_of_Rudra_at_Guwahati.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-259_Death_of_Rudra_at_Guwahati.webp",
          "main": true
         }
        ]
@@ -4895,7 +4907,8 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "Eight days after falling ill, Rudra Singha dies in camp at Guwahati with the Bengal campaign unlaunched. On his deathbed he tells his son Siva Singha to take Krishnaram Bhattacharya as guru.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Rudra and Siva appear in an imagined Guwahati camp deathbed scene. Exact words, witnesses and furnishings are not authenticated.",
+         "status": "illustrated",
          "people": [
           "rudra-singha",
           "siva-singha"
@@ -4904,8 +4917,8 @@
           "https://en.wikipedia.org/wiki/Rudra_Singha",
           "https://en.wikipedia.org/wiki/Sutanpha"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-259_Death_of_Rudra_at_Guwahati.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-259_Death_of_Rudra_at_Guwahati.webp",
          "main": false
         },
         {
@@ -4917,7 +4930,8 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "Siva Singha becomes the disciple of the Nabadwip Shakta priest Krishnaram Bhattacharya and gives him charge of the Kamakhya temple on Nilachal hill, where he is known as the Parbatiya Gosain.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. The document handover illustrates royal patronage, not an authenticated ceremony. Temple courtyard and grant format are reconstructed.",
+         "status": "illustrated",
          "people": [
           "krishnaram-bhattacharya",
           "siva-singha"
@@ -4925,8 +4939,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sutanpha"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-260_Krishnaram_Parbatiya_Gosain.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-260_Krishnaram_Parbatiya_Gosain.webp",
          "main": false
         },
         {
@@ -5006,8 +5020,8 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "Under Siva Singha and Queen Ambika, Sukumar Barkaith writes the Hastividyarnava, a treatise on royal elephants, illustrated by the painters Dilbar and Dosai.",
-         "notes": "Sukumar Barkaith, Dilbar and Dosai are not yet in the database.",
-         "status": "needs image",
+         "notes": "Sukumar Barkaith, Dilbar and Dosai are not yet in the database. Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Workshop staging and the appearances of Sukumar Barkaith, Dilbar and Dosai are provisional. Painted folios are decorative reconstructions, not manuscript facsimiles.",
+         "status": "illustrated",
          "people": [
           "siva-singha",
           "ambika"
@@ -5016,8 +5030,8 @@
           "https://en.wikipedia.org/wiki/Hastividyarnava",
           "https://en.wikipedia.org/wiki/Assamese_manuscript_painting"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-261_Painting_the_Hastividyarnava.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-261_Painting_the_Hastividyarnava.webp",
          "main": false
         },
         {
@@ -5045,8 +5059,8 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "After Ambika's death, Siva Singha raises another queen to rule as Bar Raja under the name Sarbeswari; she holds the title until his death in 1744.",
-         "notes": "Sources differ on her earlier name (Akari Gabharu or Enadari).",
-         "status": "needs image",
+         "notes": "Sources differ on her earlier name (Akari Gabharu or Enadari). Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Sarbeswari receives state papers as Bar Raja with Siva nearby. The ceremony is illustrative; accounts vary on her earlier name.",
+         "status": "illustrated",
          "people": [
           "sarbeswari",
           "siva-singha"
@@ -5054,8 +5068,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sutanpha"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-262_Sarbeswari_Third_Bar_Raja.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-262_Sarbeswari_Third_Bar_Raja.webp",
          "main": false
         }
        ]
@@ -5152,7 +5166,8 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "On Pramatta Singha's death, the Borbarua Kirti Chandra passes over the elder princes and places Rajeswar Singha on the throne, beginning two decades of his dominance at court.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Kirti Chandra presents an accession order at court. The deceased Pramatta is absent; the ceremony is interpretive.",
+         "status": "illustrated",
          "people": [
           "rajeswar-singha",
           "kirti-chandra-borbarua",
@@ -5162,8 +5177,8 @@
           "https://en.wikipedia.org/wiki/Ahom_kingdom",
           "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-263_Rajeswar_Accession.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-263_Rajeswar_Accession.webp",
          "main": false
         }
        ]
@@ -5230,7 +5245,8 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "On Pramatta Singha's death, the Borbarua Kirti Chandra passes over the elder princes and places Rajeswar Singha on the throne, beginning two decades of his dominance at court.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Kirti Chandra presents an accession order at court. The deceased Pramatta is absent; the ceremony is interpretive.",
+         "status": "illustrated",
          "people": [
           "rajeswar-singha",
           "kirti-chandra-borbarua",
@@ -5240,8 +5256,8 @@
           "https://en.wikipedia.org/wiki/Ahom_kingdom",
           "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-263_Rajeswar_Accession.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-263_Rajeswar_Accession.webp",
          "main": false
         },
         {
@@ -5253,17 +5269,18 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "Rajeswar Singha replaces the wooden palace at Garhgaon with the brick and stone seven-storey Kareng Ghar that still stands.",
-         "notes": "The Kareng Ghar infobox gives 1758; the text and the Sivasagar district site give 1752.",
-         "status": "needs image",
+         "notes": "The Kareng Ghar infobox gives 1758; the text and the Sivasagar district site give 1752. Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Shows a general 1750s worksite. Sources differ between 1752 and 1758; scaffolding, work methods and palace proportions are reconstructed.",
+         "status": "illustrated",
          "people": [
           "rajeswar-singha"
          ],
          "sources": [
           "https://en.wikipedia.org/wiki/Kareng_Ghar",
-          "https://en.wikipedia.org/wiki/Garhgaon"
+          "https://en.wikipedia.org/wiki/Garhgaon",
+          "https://sivasagar.assam.gov.in/tourist-place-detail/328"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-264_Rebuilding_Kareng_Ghar.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-264_Rebuilding_Kareng_Ghar.webp",
          "main": true
         },
         {
@@ -5275,17 +5292,18 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "Stung by the Chakari-pheti Buranji's mockery of his low birth, Kirti Chandra Borbarua has the Buranjis collected and burns those he judges false. Some copies survive.",
-         "notes": "Most sources place this under Rajeswar Singha; some under Lakshmi Singha. Numali Borgohain (author of the Chakari-pheti) is not yet in the database.",
-         "status": "needs image",
+         "notes": "Most sources place this under Rajeswar Singha; some under Lakshmi Singha. Numali Borgohain (author of the Chakari-pheti) is not yet in the database. Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Selected chronicles are destroyed while other records survive. Exact timing, participants and staging are uncertain; the king is absent.",
+         "status": "illustrated",
          "people": [
           "kirti-chandra-borbarua",
           "rajeswar-singha"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua"
+          "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua",
+          "https://en.wikipedia.org/wiki/Buranji"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-265_Burning_of_the_Buranjis.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-265_Burning_of_the_Buranjis.webp",
          "main": false
         },
         {
@@ -5426,12 +5444,15 @@
          "era": "Moamoria Rebellions & Decline (1769–1817)",
          "collection": "AHOM chronology",
          "summary": "Restored royal government executes thousands of Moamoria adherents and leaders, cementing irreversible societal rifts.",
+         "notes": "User-requested interpretive composition: Ragha Neog appears in his project character-sheet costume, kneeling upright and looking fearlessly at the king. The catalogue records Ragha killed during the April 1770 counter-coup, before subsequent royal repression; this addition is not a documented historical encounter. Character likeness and costume are artistic reconstructions.",
+         "status": "illustrated",
          "people": [
-          "lakshmi-singha"
+          "lakshmi-singha",
+          "ragha-moran"
          ],
-         "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/15_Royal_Repression_After_the_Moamoria_Rebellion.webp",
-         "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/15_Royal_Repression_After_the_Moamoria_Rebellion.webp",
-         "main": false
+         "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/15_Royal_Repression_After_the_Moamoria_Rebellion_Ragha_v02.webp",
+         "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/15_Royal_Repression_After_the_Moamoria_Rebellion_Ragha_v02.webp",
+         "main": true
         }
        ]
       },
@@ -5481,15 +5502,17 @@
          "era": "Moamoria Rebellions & Decline (1769–1817)",
          "collection": "AHOM chronology",
          "summary": "During Bohag Bihu the Moamorias attack the convoy of the newly crowned Gaurinath Singha. He escapes; the rebels briefly take Rangpur before Ghanashyam Burhagohain retakes it, followed by mass killings.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Shows the king escaping the 1782 convoy ambush; route, litter and participants are reconstructed. No later river flight or named rebel command is implied. Revised Bihu troupe uses a user-supplied contemporary cultural photograph for dance gestures, cream/red textiles, dhol and pepa. Exact eighteenth-century festival costume and troupe staging remain interpretive; performers are not identified as attackers.",
+         "status": "illustrated",
          "people": [
           "gaurinath-singha"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+          "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+          "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-266_Bihu_Ambush_on_Gaurinath_v02.webp",
+         "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-266_Bihu_Ambush_on_Gaurinath_v02.webp",
          "main": true
         },
         {
@@ -5551,17 +5574,18 @@
          "era": "Moamoria Rebellions & Decline (1769–1817)",
          "collection": "AHOM chronology",
          "summary": "With Gaurinath in exile at Guwahati, the Moamorias install Bharat Singha as king at Rangpur. He strikes coins claiming descent from Bhagadatta, and is killed in 1799.",
-         "notes": "Coins in his name are dated 1789–94 and 1796–97.",
-         "status": "needs image",
+         "notes": "Coins in his name are dated 1789–94 and 1796–97. Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. An imagined installation audience at Rangpur, not a documented coronation ritual. Coinage supports Bharat’s rulership but does not establish one exact accession year; miniature coins are not facsimiles.",
+         "status": "illustrated",
          "people": [
           "bharat-singha",
           "gaurinath-singha"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+          "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+          "https://www.floridaconferenceofhistorians.org/uploads/1/8/2/8/18284773/fch_vol_18.pdf"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-268_Bharat_Singha_at_Rangpur.webp",
+         "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-268_Bharat_Singha_at_Rangpur.webp",
          "main": false
         },
         {
@@ -5608,19 +5632,21 @@
          "era": "Moamoria Rebellions & Decline (1769–1817)",
          "collection": "AHOM chronology",
          "summary": "With Rangpur wrecked by the rebellion, the Ahom court moves its capital to Jorhat, which stays the last capital of the kingdom.",
-         "notes": "Sources disagree on whether the move was completed before or after Gaurinath's death.",
-         "status": "needs image",
+         "notes": "Sources disagree on whether the move was completed before or after Gaurinath's death. Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Shows administrative relocation under Purnananda rather than a single authenticated royal arrival. Sources differ on the timing and Gaurinath chronology; he is not physically depicted.",
+         "status": "illustrated",
          "people": [
           "gaurinath-singha",
           "purnananda-burhagohain"
          ],
          "sources": [
           "https://en.wikipedia.org/wiki/Ahom_kingdom",
-          "https://en.wikipedia.org/wiki/Timeline_of_Jorhat"
+          "https://en.wikipedia.org/wiki/Timeline_of_Jorhat",
+          "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+          "https://jorhat.assam.gov.in/about-us/history-jorhat"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
-         "main": true
+         "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-270_Court_Relocates_to_Jorhat.webp",
+         "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-270_Court_Relocates_to_Jorhat.webp",
+         "main": false
         }
        ]
       },
@@ -5849,15 +5875,17 @@
          "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
          "collection": "AHOM chronology",
          "summary": "Raising troops in British territory, Chandrakanta Singha recaptures Assam Chowki in October and Guwahati in December 1821.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Selects the December 1821 recovery of Guwahati, distinct from October’s Assam Chowki action. Sikh participation is included; troop uniforms, gateway and deployment remain interpretive. Related accounts give January 1822 for the recovery; the catalogue retains December 1821.",
+         "status": "illustrated",
          "people": [
           "chandrakanta-singha"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-273_Chandrakanta_Recovers_Guwahati.webp",
+         "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-273_Chandrakanta_Recovers_Guwahati.webp",
          "main": true
         },
         {
@@ -5869,17 +5897,20 @@
          "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
          "collection": "AHOM chronology",
          "summary": "Chandrakanta camps at Mahgarh near Jorhat. Maha Bandula's Burmese army defeats him in April 1822 and he falls back to Guwahati.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Campaign roles follow the catalogue and Jorhat district account. Exact battlefield layout and Bandula’s depicted position are reconstructed. The painting does not assert a personal encounter or duel with Chandrakanta. Banners and markings are illustrative, not authenticated heraldry.",
+         "status": "illustrated",
          "people": [
           "chandrakanta-singha",
           "maha-bandula",
           "mingimaha-tilwa"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+          "https://jorhat.assam.gov.in/about-us/history-jorhat"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-274_Defeat_at_Mahgarh.webp",
+         "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-274_Defeat_at_Mahgarh.webp",
          "main": true
         },
         {
@@ -5891,18 +5922,19 @@
          "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
          "collection": "AHOM chronology",
          "summary": "Mingimaha Tilwa defeats Chandrakanta at Hadira (Assam) Chowki. Chandrakanta withdraws to British territory, and Tilwa is declared Raja of Assam, ending Ahom rule until 1826.",
-         "notes": "Wikipedia places the defeat in June 1822, with an alternative account in July.",
-         "status": "needs image",
+         "notes": "Wikipedia places the defeat in June 1822, with an alternative account in July. Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Selects the captured-post aftermath and Tilwa’s consolidation. June/July dating varies; no exact proclamation ceremony or personal presence of Bagyidaw is asserted. This military defeat is distinguished from the 1826 treaty.",
+         "status": "illustrated",
          "people": [
           "mingimaha-tilwa",
           "chandrakanta-singha",
           "bagyidaw"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-275_Tilwa_After_Hadira_Chowki.webp",
+         "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-275_Tilwa_After_Hadira_Chowki.webp",
          "main": false
         }
        ]
@@ -6595,8 +6627,8 @@
          "era": "Imperial Expansion & Early Invasions (1497–1603)",
          "collection": "AHOM chronology",
          "summary": "After her husband Phrasengmung Borgohain is killed by Turbak's army, Princess Mula Gabharu leads women warriors into battle and is killed with five companions. Her death rallies the Ahom army.",
-         "notes": "Wikipedia names the Battle of Kachua; much of the story (the Kin Lao vow, her speech) is legend.",
-         "status": "needs image",
+         "notes": "Wikipedia names the Battle of Kachua; much of the story (the Kin Lao vow, her speech) is legend. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Non-graphic reconstruction of the remembered last battle; no exact personal duel with Turbak is asserted. Phrasengmung is not shown alive.",
+         "status": "illustrated",
          "people": [
           "mula-gabharu",
           "phrasengmung-borgohain",
@@ -6607,8 +6639,8 @@
           "https://en.wikipedia.org/wiki/Mula_Gabharu",
           "https://en.wikipedia.org/wiki/Turbak%27s_invasion_of_Assam"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-240_Mula_Gabharu_Last_Battle.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-240_Mula_Gabharu_Last_Battle.webp",
          "main": true
         }
        ]
@@ -6652,8 +6684,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "Pratap Singha marries Mangaldoi, daughter of the Koch Hajo king Parikshit Narayan, sealing an alliance against the Mughals.",
-         "notes": "Wikipedia spells her name Mangaldahi.",
-         "status": "needs image",
+         "notes": "Wikipedia spells her name Mangaldahi. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Marriage ceremony staging is illustrative; Mangaldoi parentage varies across sources.",
+         "status": "illustrated",
          "people": [
           "pratap-singha",
           "mangaldoi"
@@ -6661,8 +6693,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Susenghphaa"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-244_Pratap_Singha_Marries_Mangaldoi.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-244_Pratap_Singha_Marries_Mangaldoi.webp",
          "main": true
         }
        ]
@@ -6963,8 +6995,8 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "Under Siva Singha and Queen Ambika, Sukumar Barkaith writes the Hastividyarnava, a treatise on royal elephants, illustrated by the painters Dilbar and Dosai.",
-         "notes": "Sukumar Barkaith, Dilbar and Dosai are not yet in the database.",
-         "status": "needs image",
+         "notes": "Sukumar Barkaith, Dilbar and Dosai are not yet in the database. Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Workshop staging and the appearances of Sukumar Barkaith, Dilbar and Dosai are provisional. Painted folios are decorative reconstructions, not manuscript facsimiles.",
+         "status": "illustrated",
          "people": [
           "siva-singha",
           "ambika"
@@ -6973,8 +7005,8 @@
           "https://en.wikipedia.org/wiki/Hastividyarnava",
           "https://en.wikipedia.org/wiki/Assamese_manuscript_painting"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-261_Painting_the_Hastividyarnava.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-261_Painting_the_Hastividyarnava.webp",
          "main": true
         }
        ]
@@ -7016,8 +7048,8 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "After Ambika's death, Siva Singha raises another queen to rule as Bar Raja under the name Sarbeswari; she holds the title until his death in 1744.",
-         "notes": "Sources differ on her earlier name (Akari Gabharu or Enadari).",
-         "status": "needs image",
+         "notes": "Sources differ on her earlier name (Akari Gabharu or Enadari). Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Sarbeswari receives state papers as Bar Raja with Siva nearby. The ceremony is illustrative; accounts vary on her earlier name.",
+         "status": "illustrated",
          "people": [
           "sarbeswari",
           "siva-singha"
@@ -7025,8 +7057,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sutanpha"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-262_Sarbeswari_Third_Bar_Raja.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-262_Sarbeswari_Third_Bar_Raja.webp",
          "main": true
         }
        ]
@@ -7761,8 +7793,8 @@
          "era": "Imperial Expansion & Early Invasions (1497–1603)",
          "collection": "AHOM chronology",
          "summary": "After her husband Phrasengmung Borgohain is killed by Turbak's army, Princess Mula Gabharu leads women warriors into battle and is killed with five companions. Her death rallies the Ahom army.",
-         "notes": "Wikipedia names the Battle of Kachua; much of the story (the Kin Lao vow, her speech) is legend.",
-         "status": "needs image",
+         "notes": "Wikipedia names the Battle of Kachua; much of the story (the Kin Lao vow, her speech) is legend. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Non-graphic reconstruction of the remembered last battle; no exact personal duel with Turbak is asserted. Phrasengmung is not shown alive.",
+         "status": "illustrated",
          "people": [
           "mula-gabharu",
           "phrasengmung-borgohain",
@@ -7773,8 +7805,8 @@
           "https://en.wikipedia.org/wiki/Mula_Gabharu",
           "https://en.wikipedia.org/wiki/Turbak%27s_invasion_of_Assam"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-240_Mula_Gabharu_Last_Battle.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-240_Mula_Gabharu_Last_Battle.webp",
          "main": false
         }
        ]
@@ -8064,7 +8096,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "Pratap Singha and Balinarayan push west to Sualkuchi and Hajo. The Mughals under Allah Yar Khan strike back and retake Kamrup; Balinarayan dies, and the Samdhara garrison and the naval fight at Duimunisila stop the Mughal advance.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. The artwork selects Momai Tamuli directing river defence as a representative moment of the multi-year war. Pratap Singha and Allah Yar Khan are not physically shown; vessels and deployments are interpretive.",
+         "status": "illustrated",
          "people": [
           "pratap-singha",
           "allah-yar-khan",
@@ -8074,9 +8107,9 @@
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
           "https://en.wikipedia.org/wiki/Battle_of_Duimunisila"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
-         "main": false
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-248_Momai_Tamuli_Defends_the_River_1638.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-248_Momai_Tamuli_Defends_the_River_1638.webp",
+         "main": true
         },
         {
          "id": "AHOM-120",
@@ -8825,7 +8858,8 @@
          "era": "Period of Ministerial Intrigue & Terror (1672–1681)",
          "collection": "AHOM chronology",
          "summary": "The Borphukan who sold Guwahati to the Mughals is killed by his own bodyguard, ending his hold over the boy-king Sulikphaa.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting depicts the instant before the bodyguard attacks sleeping Laluk Sola, whose face follows the project sheet. Bodyguard appearance, residence and staging are interpretive. Sulikphaa is not physically shown or depicted ordering the killing.",
+         "status": "illustrated",
          "people": [
           "laluk-sola",
           "sulikphaa"
@@ -8833,8 +8867,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Laluksola_Borphukan"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-254_Laluk_Sola_Bodyguard_Assassination.webp",
+         "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-254_Laluk_Sola_Bodyguard_Assassination.webp",
          "main": true
         }
        ]
@@ -8909,8 +8943,8 @@
          "era": "Period of Ministerial Intrigue & Terror (1672–1681)",
          "collection": "AHOM chronology",
          "summary": "Angered by the king's devotion to the ascetic Paramananda Sanyasi and his jailing of Vaishnava mahantas, Debera Hazarika and the king's brother Sarugohain storm the palace at midnight. Udayaditya is taken to Charaideo and killed; his brother takes the throne as Ramdhwaj Singha.",
-         "notes": "Paramananda Sanyasi is not yet in the database.",
-         "status": "needs image",
+         "notes": "Paramananda Sanyasi is not yet in the database. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting depicts the midnight deposition, not the later execution at Charaideo. Sarugohain follows the Ramdhwaj sheet with royal cap removed because he is not yet enthroned. Court layout and staging are interpretive.",
+         "status": "illustrated",
          "people": [
           "udayaditya-singha",
           "debera-borbarua",
@@ -8920,8 +8954,8 @@
           "https://en.wikipedia.org/wiki/Sunyatphaa",
           "https://en.wikipedia.org/wiki/Suklamphaa"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-253_Midnight_Coup_Against_Udayaditya.webp",
+         "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-253_Midnight_Coup_Against_Udayaditya.webp",
          "main": false
         },
         {
@@ -9015,7 +9049,8 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "Siva Singha becomes the disciple of the Nabadwip Shakta priest Krishnaram Bhattacharya and gives him charge of the Kamakhya temple on Nilachal hill, where he is known as the Parbatiya Gosain.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. The document handover illustrates royal patronage, not an authenticated ceremony. Temple courtyard and grant format are reconstructed.",
+         "status": "illustrated",
          "people": [
           "krishnaram-bhattacharya",
           "siva-singha"
@@ -9023,8 +9058,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Sutanpha"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-260_Krishnaram_Parbatiya_Gosain.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-260_Krishnaram_Parbatiya_Gosain.webp",
          "main": true
         }
        ]
@@ -9127,7 +9162,8 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "On Pramatta Singha's death, the Borbarua Kirti Chandra passes over the elder princes and places Rajeswar Singha on the throne, beginning two decades of his dominance at court.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Kirti Chandra presents an accession order at court. The deceased Pramatta is absent; the ceremony is interpretive.",
+         "status": "illustrated",
          "people": [
           "rajeswar-singha",
           "kirti-chandra-borbarua",
@@ -9137,8 +9173,8 @@
           "https://en.wikipedia.org/wiki/Ahom_kingdom",
           "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-263_Rajeswar_Accession.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-263_Rajeswar_Accession.webp",
          "main": true
         },
         {
@@ -9150,17 +9186,18 @@
          "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
          "collection": "AHOM chronology",
          "summary": "Stung by the Chakari-pheti Buranji's mockery of his low birth, Kirti Chandra Borbarua has the Buranjis collected and burns those he judges false. Some copies survive.",
-         "notes": "Most sources place this under Rajeswar Singha; some under Lakshmi Singha. Numali Borgohain (author of the Chakari-pheti) is not yet in the database.",
-         "status": "needs image",
+         "notes": "Most sources place this under Rajeswar Singha; some under Lakshmi Singha. Numali Borgohain (author of the Chakari-pheti) is not yet in the database. Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Selected chronicles are destroyed while other records survive. Exact timing, participants and staging are uncertain; the king is absent.",
+         "status": "illustrated",
          "people": [
           "kirti-chandra-borbarua",
           "rajeswar-singha"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua"
+          "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua",
+          "https://en.wikipedia.org/wiki/Buranji"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-265_Burning_of_the_Buranjis.webp",
+         "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-265_Burning_of_the_Buranjis.webp",
          "main": true
         }
        ]
@@ -9283,19 +9320,21 @@
          "era": "Moamoria Rebellions & Decline (1769–1817)",
          "collection": "AHOM chronology",
          "summary": "With Rangpur wrecked by the rebellion, the Ahom court moves its capital to Jorhat, which stays the last capital of the kingdom.",
-         "notes": "Sources disagree on whether the move was completed before or after Gaurinath's death.",
-         "status": "needs image",
+         "notes": "Sources disagree on whether the move was completed before or after Gaurinath's death. Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Shows administrative relocation under Purnananda rather than a single authenticated royal arrival. Sources differ on the timing and Gaurinath chronology; he is not physically depicted.",
+         "status": "illustrated",
          "people": [
           "gaurinath-singha",
           "purnananda-burhagohain"
          ],
          "sources": [
           "https://en.wikipedia.org/wiki/Ahom_kingdom",
-          "https://en.wikipedia.org/wiki/Timeline_of_Jorhat"
+          "https://en.wikipedia.org/wiki/Timeline_of_Jorhat",
+          "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+          "https://jorhat.assam.gov.in/about-us/history-jorhat"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
-         "main": false
+         "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-270_Court_Relocates_to_Jorhat.webp",
+         "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-270_Court_Relocates_to_Jorhat.webp",
+         "main": true
         },
         {
          "id": "AHOM-213",
@@ -9323,7 +9362,8 @@
          "era": "Moamoria Rebellions & Decline (1769–1817)",
          "collection": "AHOM chronology",
          "summary": "After a stalemate at Bengmara, Purnananda Burhagohain recognises Sarbananda as Barsenapati of an autonomous Matak rajya paying annual tribute. The Moamoria rebellion ends.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. An envoy-mediated interpretation of the autonomy agreement, conventionally dated 1805. Exact participants and ceremony are not established; sources differ on Sarbananda/Matibar succession and settlement chronology.",
+         "status": "illustrated",
          "people": [
           "sarbananda-singha",
           "purnananda-burhagohain"
@@ -9332,8 +9372,8 @@
           "https://en.wikipedia.org/wiki/Moamoria_rebellion",
           "https://en.wikipedia.org/wiki/Matak_rajya"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-271_Matak_Autonomy_Settlement.webp",
+         "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-271_Matak_Autonomy_Settlement.webp",
          "main": false
         },
         {
@@ -9363,17 +9403,19 @@
          "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
          "collection": "AHOM chronology",
          "summary": "Hunted by Purnananda Burhagohain, Badan Chandra flees to Bengal, is refused help by the East India Company, and reaches the Burmese king Bodawpaya to ask for an army.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Depicts Badan Chandra’s appeal in 1816. Court layout and petition ceremony are reconstructed; ‘Ava’ is used conventionally, not as proof of the exact palace site. Purnananda is historical context and absent.",
+         "status": "illustrated",
          "people": [
           "badan-chandra-borphukan",
           "bodawpaya",
           "purnananda-burhagohain"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp",
+         "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp",
          "main": false
         },
         {
@@ -9470,17 +9512,19 @@
          "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
          "collection": "AHOM chronology",
          "summary": "Hunted by Purnananda Burhagohain, Badan Chandra flees to Bengal, is refused help by the East India Company, and reaches the Burmese king Bodawpaya to ask for an army.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Depicts Badan Chandra’s appeal in 1816. Court layout and petition ceremony are reconstructed; ‘Ava’ is used conventionally, not as proof of the exact palace site. Purnananda is historical context and absent.",
+         "status": "illustrated",
          "people": [
           "badan-chandra-borphukan",
           "bodawpaya",
           "purnananda-burhagohain"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp",
+         "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp",
          "main": true
         },
         {
@@ -9547,17 +9591,18 @@
          "era": "Early British Rule & Ahom Resistance (1826–1833)",
          "collection": "AHOM chronology",
          "summary": "A plot to drive the British out and restore Ahom rule is uncovered. Piyali Phukan, son of Badan Chandra Borphukan, and Jiuram Dulia Baruah are hanged.",
-         "notes": "Sources differ on the day and place (August or 23 September 1830; Sivasagar or Jorhat) and on Jiuram's name (Dulia Baruah or Medhi). Piyali and Jiuram are not yet in the database; badan-chandra-borphukan is linked only as his father.",
-         "status": "needs image",
+         "notes": "Sources differ on the day and place (August or 23 September 1830; Sivasagar or Jorhat) and on Jiuram's name (Dulia Baruah or Medhi). Piyali and Jiuram are not yet in the database; badan-chandra-borphukan is linked only as his father. Modern artistic reconstruction with provisional appearances; appearance, material details and staging are interpretive. Depicts the moments before the 1830 execution, not the hanging itself. Piyali and Jiuram have provisional appearances; day, place and Jiuram’s name vary across accounts. Not Piyali Barua and Maniram Dewan’s 1858 execution; Badan Chandra is absent.",
+         "status": "illustrated",
          "people": [
           "badan-chandra-borphukan"
          ],
          "sources": [
           "https://en.wikipedia.org/wiki/British_rule_in_Assam",
-          "https://www.etvbharat.com/english/state/assam/martyrs-of-freedom-struggle-from-assam-awaits-recognition/na20200925181218073"
+          "https://www.etvbharat.com/english/state/assam/martyrs-of-freedom-struggle-from-assam-awaits-recognition/na20200925181218073",
+          "https://cbcindia.gov.in/wp-content/themes/boc/mann_ki_baat/e_july24/files/basic-html/page31.html"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1826-1833-early-british-resistance/AHOM-277_Piyali_Phukan_and_Jiuram_Last_Moments.webp",
+         "scene_thumbnail": "media/scenes/ahom/1826-1833-early-british-resistance/thumb/AHOM-277_Piyali_Phukan_and_Jiuram_Last_Moments.webp",
          "main": false
         }
        ]
@@ -9798,6 +9843,25 @@
          "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/14_Kuranganayani_Counter_Coup_Against_Ragha_Moran.webp",
          "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/14_Kuranganayani_Counter_Coup_Against_Ragha_Moran.webp",
          "main": false
+        },
+        {
+         "id": "AHOM-206",
+         "title": "Royal Retribution and Repression of Moamoria Rebels",
+         "date_label": "1770–1772",
+         "century": "18th century",
+         "sort_year": 1770,
+         "era": "Moamoria Rebellions & Decline (1769–1817)",
+         "collection": "AHOM chronology",
+         "summary": "Restored royal government executes thousands of Moamoria adherents and leaders, cementing irreversible societal rifts.",
+         "notes": "User-requested interpretive composition: Ragha Neog appears in his project character-sheet costume, kneeling upright and looking fearlessly at the king. The catalogue records Ragha killed during the April 1770 counter-coup, before subsequent royal repression; this addition is not a documented historical encounter. Character likeness and costume are artistic reconstructions.",
+         "status": "illustrated",
+         "people": [
+          "lakshmi-singha",
+          "ragha-moran"
+         ],
+         "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/15_Royal_Repression_After_the_Moamoria_Rebellion_Ragha_v02.webp",
+         "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/15_Royal_Repression_After_the_Moamoria_Rebellion_Ragha_v02.webp",
+         "main": true
         }
        ]
       },
@@ -9925,15 +9989,18 @@
          "era": "Moamoria Rebellions & Decline (1769–1817)",
          "collection": "AHOM chronology",
          "summary": "The rebellion resumes from the Dafla hills under Harihar Tanti, joined by Pitambar. Rebels burn the satras of Majuli and march on Rangpur.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Selects Harihar’s mobilisation rather than attributing a specific satra burning to his personal presence. Sources differ on Harihar/Hawha and their geographic roles; no alias is imposed.",
+         "status": "illustrated",
          "people": [
           "harihar-tanti"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+          "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+          "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+          "https://www.floridaconferenceofhistorians.org/uploads/1/8/2/8/18284773/fch_vol_18.pdf"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-267_Harihar_Tanti_Rising.webp",
+         "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-267_Harihar_Tanti_Rising.webp",
          "main": true
         }
        ]
@@ -9973,17 +10040,18 @@
          "era": "Moamoria Rebellions & Decline (1769–1817)",
          "collection": "AHOM chronology",
          "summary": "With Gaurinath in exile at Guwahati, the Moamorias install Bharat Singha as king at Rangpur. He strikes coins claiming descent from Bhagadatta, and is killed in 1799.",
-         "notes": "Coins in his name are dated 1789–94 and 1796–97.",
-         "status": "needs image",
+         "notes": "Coins in his name are dated 1789–94 and 1796–97. Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. An imagined installation audience at Rangpur, not a documented coronation ritual. Coinage supports Bharat’s rulership but does not establish one exact accession year; miniature coins are not facsimiles.",
+         "status": "illustrated",
          "people": [
           "bharat-singha",
           "gaurinath-singha"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+          "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+          "https://www.floridaconferenceofhistorians.org/uploads/1/8/2/8/18284773/fch_vol_18.pdf"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-268_Bharat_Singha_at_Rangpur.webp",
+         "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-268_Bharat_Singha_at_Rangpur.webp",
          "main": true
         }
        ]
@@ -10022,16 +10090,18 @@
          "era": "Moamoria Rebellions & Decline (1769–1817)",
          "collection": "AHOM chronology",
          "summary": "The Moamoria leader Sarbananda Singha takes the title Swargadeo and moves his capital from Rangagarah to Bengmara in present-day Tinsukia.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Bengmara’s founding is supported by the Tinsukia district account. Town layout, building work and tank setting are illustrative; no exact original site plan or named minister’s likeness is asserted.",
+         "status": "illustrated",
          "people": [
           "sarbananda-singha"
          ],
          "sources": [
           "https://en.wikipedia.org/wiki/Sarbananda_Singha",
-          "https://en.wikipedia.org/wiki/Matak_rajya"
+          "https://en.wikipedia.org/wiki/Matak_rajya",
+          "https://tinsukia.assam.gov.in/about-us/history"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-269_Sarbananda_Founds_Bengmara.webp",
+         "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-269_Sarbananda_Founds_Bengmara.webp",
          "main": true
         },
         {
@@ -10043,7 +10113,8 @@
          "era": "Moamoria Rebellions & Decline (1769–1817)",
          "collection": "AHOM chronology",
          "summary": "After a stalemate at Bengmara, Purnananda Burhagohain recognises Sarbananda as Barsenapati of an autonomous Matak rajya paying annual tribute. The Moamoria rebellion ends.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. An envoy-mediated interpretation of the autonomy agreement, conventionally dated 1805. Exact participants and ceremony are not established; sources differ on Sarbananda/Matibar succession and settlement chronology.",
+         "status": "illustrated",
          "people": [
           "sarbananda-singha",
           "purnananda-burhagohain"
@@ -10052,8 +10123,8 @@
           "https://en.wikipedia.org/wiki/Moamoria_rebellion",
           "https://en.wikipedia.org/wiki/Matak_rajya"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-271_Matak_Autonomy_Settlement.webp",
+         "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-271_Matak_Autonomy_Settlement.webp",
          "main": true
         }
        ]
@@ -10186,8 +10257,8 @@
          "era": "Imperial Expansion & Early Invasions (1497–1603)",
          "collection": "AHOM chronology",
          "summary": "After her husband Phrasengmung Borgohain is killed by Turbak's army, Princess Mula Gabharu leads women warriors into battle and is killed with five companions. Her death rallies the Ahom army.",
-         "notes": "Wikipedia names the Battle of Kachua; much of the story (the Kin Lao vow, her speech) is legend.",
-         "status": "needs image",
+         "notes": "Wikipedia names the Battle of Kachua; much of the story (the Kin Lao vow, her speech) is legend. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Non-graphic reconstruction of the remembered last battle; no exact personal duel with Turbak is asserted. Phrasengmung is not shown alive.",
+         "status": "illustrated",
          "people": [
           "mula-gabharu",
           "phrasengmung-borgohain",
@@ -10198,8 +10269,8 @@
           "https://en.wikipedia.org/wiki/Mula_Gabharu",
           "https://en.wikipedia.org/wiki/Turbak%27s_invasion_of_Assam"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-240_Mula_Gabharu_Last_Battle.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-240_Mula_Gabharu_Last_Battle.webp",
          "main": false
         }
        ]
@@ -10240,8 +10311,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "The first Mughal invasion under Sayyid Abu Bakr and Satrajit takes Kajali, then is destroyed in a night attack by the Bharali–Brahmaputra confluence. Abu Bakr is killed, Satrajit escapes, and Pratap Singha builds a fort at Samdhara inscribed 'Victory in Unequal Battle'.",
-         "notes": "Wikipedia dates the Battle of Bharali to 1615 and the Battle of Samdhara to January 1616.",
-         "status": "needs image",
+         "notes": "Wikipedia dates the Battle of Bharali to 1615 and the Battle of Samdhara to January 1616. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Night-action staging, boat designs and deployment are interpretive; Abu Bakr and Satrajit follow project sheets. Pratap Singha and Qasim Khan are not physically shown. Catalogue retains the 1615–1616 range.",
+         "status": "illustrated",
          "people": [
           "abu-bakr",
           "satrajit",
@@ -10253,9 +10324,9 @@
           "https://en.wikipedia.org/wiki/Battle_of_Bharali_(1615)",
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
-         "main": false
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
+         "main": true
         }
        ]
       },
@@ -10295,8 +10366,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "The first Mughal invasion under Sayyid Abu Bakr and Satrajit takes Kajali, then is destroyed in a night attack by the Bharali–Brahmaputra confluence. Abu Bakr is killed, Satrajit escapes, and Pratap Singha builds a fort at Samdhara inscribed 'Victory in Unequal Battle'.",
-         "notes": "Wikipedia dates the Battle of Bharali to 1615 and the Battle of Samdhara to January 1616.",
-         "status": "needs image",
+         "notes": "Wikipedia dates the Battle of Bharali to 1615 and the Battle of Samdhara to January 1616. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Night-action staging, boat designs and deployment are interpretive; Abu Bakr and Satrajit follow project sheets. Pratap Singha and Qasim Khan are not physically shown. Catalogue retains the 1615–1616 range.",
+         "status": "illustrated",
          "people": [
           "abu-bakr",
           "satrajit",
@@ -10308,8 +10379,8 @@
           "https://en.wikipedia.org/wiki/Battle_of_Bharali_(1615)",
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
          "main": true
         }
        ]
@@ -10350,8 +10421,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "After the Mughals defeat Parikshit of Koch Hajo, his brother Balinarayan flees to Pratap Singha, who makes him tributary raja of Darrang as Dharmanarayan. The refuge angers the Mughal governor Qasim Khan.",
-         "notes": "Balinarayan is not yet in the database.",
-         "status": "needs image",
+         "notes": "Balinarayan is not yet in the database. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Balinarayan has a provisional face because no project sheet exists. Painting depicts asylum; Qasim Khan is not physically shown.",
+         "status": "illustrated",
          "people": [
           "pratap-singha",
           "qasim-khan-chishti"
@@ -10359,8 +10430,8 @@
          "sources": [
           "https://en.wikipedia.org/wiki/Balinarayan"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-246_Balinarayan_Seeks_Refuge.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-246_Balinarayan_Seeks_Refuge.webp",
          "main": false
         },
         {
@@ -10372,8 +10443,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "The first Mughal invasion under Sayyid Abu Bakr and Satrajit takes Kajali, then is destroyed in a night attack by the Bharali–Brahmaputra confluence. Abu Bakr is killed, Satrajit escapes, and Pratap Singha builds a fort at Samdhara inscribed 'Victory in Unequal Battle'.",
-         "notes": "Wikipedia dates the Battle of Bharali to 1615 and the Battle of Samdhara to January 1616.",
-         "status": "needs image",
+         "notes": "Wikipedia dates the Battle of Bharali to 1615 and the Battle of Samdhara to January 1616. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Night-action staging, boat designs and deployment are interpretive; Abu Bakr and Satrajit follow project sheets. Pratap Singha and Qasim Khan are not physically shown. Catalogue retains the 1615–1616 range.",
+         "status": "illustrated",
          "people": [
           "abu-bakr",
           "satrajit",
@@ -10385,8 +10456,8 @@
           "https://en.wikipedia.org/wiki/Battle_of_Bharali_(1615)",
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
          "main": false
         }
        ]
@@ -10428,7 +10499,8 @@
          "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
          "collection": "AHOM chronology",
          "summary": "Pratap Singha and Balinarayan push west to Sualkuchi and Hajo. The Mughals under Allah Yar Khan strike back and retake Kamrup; Balinarayan dies, and the Samdhara garrison and the naval fight at Duimunisila stop the Mughal advance.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. The artwork selects Momai Tamuli directing river defence as a representative moment of the multi-year war. Pratap Singha and Allah Yar Khan are not physically shown; vessels and deployments are interpretive.",
+         "status": "illustrated",
          "people": [
           "pratap-singha",
           "allah-yar-khan",
@@ -10438,8 +10510,8 @@
           "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
           "https://en.wikipedia.org/wiki/Battle_of_Duimunisila"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-248_Momai_Tamuli_Defends_the_River_1638.webp",
+         "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-248_Momai_Tamuli_Defends_the_River_1638.webp",
          "main": false
         },
         {
@@ -11169,18 +11241,20 @@
          "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
          "collection": "AHOM chronology",
          "summary": "Hunted by Purnananda Burhagohain, Badan Chandra flees to Bengal, is refused help by the East India Company, and reaches the Burmese king Bodawpaya to ask for an army.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Depicts Badan Chandra’s appeal in 1816. Court layout and petition ceremony are reconstructed; ‘Ava’ is used conventionally, not as proof of the exact palace site. Purnananda is historical context and absent.",
+         "status": "illustrated",
          "people": [
           "badan-chandra-borphukan",
           "bodawpaya",
           "purnananda-burhagohain"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
-         "main": false
+         "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp",
+         "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp",
+         "main": true
         }
        ]
       },
@@ -11268,17 +11342,20 @@
          "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
          "collection": "AHOM chronology",
          "summary": "Chandrakanta camps at Mahgarh near Jorhat. Maha Bandula's Burmese army defeats him in April 1822 and he falls back to Guwahati.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Campaign roles follow the catalogue and Jorhat district account. Exact battlefield layout and Bandula’s depicted position are reconstructed. The painting does not assert a personal encounter or duel with Chandrakanta. Banners and markings are illustrative, not authenticated heraldry.",
+         "status": "illustrated",
          "people": [
           "chandrakanta-singha",
           "maha-bandula",
           "mingimaha-tilwa"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+          "https://jorhat.assam.gov.in/about-us/history-jorhat"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-274_Defeat_at_Mahgarh.webp",
+         "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-274_Defeat_at_Mahgarh.webp",
          "main": false
         },
         {
@@ -11290,18 +11367,19 @@
          "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
          "collection": "AHOM chronology",
          "summary": "Mingimaha Tilwa defeats Chandrakanta at Hadira (Assam) Chowki. Chandrakanta withdraws to British territory, and Tilwa is declared Raja of Assam, ending Ahom rule until 1826.",
-         "notes": "Wikipedia places the defeat in June 1822, with an alternative account in July.",
-         "status": "needs image",
+         "notes": "Wikipedia places the defeat in June 1822, with an alternative account in July. Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Selects the captured-post aftermath and Tilwa’s consolidation. June/July dating varies; no exact proclamation ceremony or personal presence of Bagyidaw is asserted. This military defeat is distinguished from the 1826 treaty.",
+         "status": "illustrated",
          "people": [
           "mingimaha-tilwa",
           "chandrakanta-singha",
           "bagyidaw"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-275_Tilwa_After_Hadira_Chowki.webp",
+         "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-275_Tilwa_After_Hadira_Chowki.webp",
          "main": true
         }
        ]
@@ -11342,18 +11420,19 @@
          "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
          "collection": "AHOM chronology",
          "summary": "Mingimaha Tilwa defeats Chandrakanta at Hadira (Assam) Chowki. Chandrakanta withdraws to British territory, and Tilwa is declared Raja of Assam, ending Ahom rule until 1826.",
-         "notes": "Wikipedia places the defeat in June 1822, with an alternative account in July.",
-         "status": "needs image",
+         "notes": "Wikipedia places the defeat in June 1822, with an alternative account in July. Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Selects the captured-post aftermath and Tilwa’s consolidation. June/July dating varies; no exact proclamation ceremony or personal presence of Bagyidaw is asserted. This military defeat is distinguished from the 1826 treaty.",
+         "status": "illustrated",
          "people": [
           "mingimaha-tilwa",
           "chandrakanta-singha",
           "bagyidaw"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
+         "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-275_Tilwa_After_Hadira_Chowki.webp",
+         "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-275_Tilwa_After_Hadira_Chowki.webp",
          "main": false
         }
        ]
@@ -11412,18 +11491,21 @@
          "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
          "collection": "AHOM chronology",
          "summary": "Chandrakanta camps at Mahgarh near Jorhat. Maha Bandula's Burmese army defeats him in April 1822 and he falls back to Guwahati.",
-         "status": "needs image",
+         "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Campaign roles follow the catalogue and Jorhat district account. Exact battlefield layout and Bandula’s depicted position are reconstructed. The painting does not assert a personal encounter or duel with Chandrakanta. Banners and markings are illustrative, not authenticated heraldry.",
+         "status": "illustrated",
          "people": [
           "chandrakanta-singha",
           "maha-bandula",
           "mingimaha-tilwa"
          ],
          "sources": [
-          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+          "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+          "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+          "https://jorhat.assam.gov.in/about-us/history-jorhat"
          ],
-         "scene_image": "",
-         "scene_thumbnail": "",
-         "main": false
+         "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-274_Defeat_at_Mahgarh.webp",
+         "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-274_Defeat_at_Mahgarh.webp",
+         "main": true
         }
        ]
       },
@@ -11679,6 +11761,67 @@
          "scene_image": "media/scenes/ahom/1833-1838-british-annexation/34_British_Annexation_and_Deposition_of_Purandar_Singha.webp",
          "scene_thumbnail": "media/scenes/ahom/1833-1838-british-annexation/thumb/34_British_Annexation_and_Deposition_of_Purandar_Singha.webp",
          "main": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Saints and cultural figures",
+     "start_year": 1449,
+     "end_year": 1568,
+     "characters": [
+      {
+       "id": "sankardev",
+       "name": "Srimanta Sankardev",
+       "name_assamese": "শ্ৰীমন্ত শংকৰদেৱ",
+       "date_label": "1449–1568 (traditional dates)",
+       "start_year": 1449,
+       "end_year": 1568,
+       "sort_year": 1449,
+       "role": "Vaishnava saint-scholar, poet and cultural reformer",
+       "summary": "Assamese saint-scholar and cultural reformer associated with Ekasarana Dharma, devotional literature, music and theatre.",
+       "notes": "Character sheet follows the user-provided devotional portrait. Facial appearance, apparent adult age, clothing and unseen draping are artistic interpretations, not an authenticated likeness. See research/sankardev/local-scene-references.md.",
+       "also_called": "Sankaradeva; Mahapurush Srimanta Sankardev",
+       "confidence": "high",
+       "status": "researched",
+       "sources": [
+        "https://bordowathan.org/3383-2/",
+        "https://egyankosh.ac.in/bitstream/123456789/116368/3/Unit-16.pdf"
+       ],
+       "sheet_status": "sheet",
+       "character_sheets": [
+        {
+         "kind": "turnaround",
+         "caption": "Srimanta Sankardev, eight-view character sheet following user-provided devotional portrait, modern artistic reconstruction",
+         "image": "media/characters/sankardev/turnaround-1.webp",
+         "thumbnail": "media/characters/sankardev/thumb/turnaround-1.webp",
+         "width": 1536,
+         "height": 1024
+        }
+       ],
+       "scenes": [
+        {
+         "id": "AHOM-243",
+         "title": "Execution of Hari and Sankardeva Leaves the Ahom Kingdom",
+         "date_label": "c. 1540s",
+         "century": "16th century",
+         "sort_year": 1545,
+         "era": "Imperial Expansion & Early Invasions (1497–1603)",
+         "collection": "AHOM chronology",
+         "summary": "Under Suklenmung, Hari, the son-in-law of the Vaishnava saint Sankardeva, is captured and executed. Sankardeva leaves the Ahom kingdom for Koch territory.",
+         "notes": "Modern artistic reconstruction of Sankardev departing after Hari’s execution. Sankardev follows the newly created project character sheet based on the user-provided devotional portrait; its youthful apparent age, face and clothing are artistic continuity, not an authenticated likeness or period-age claim. Assam river setting, architecture and staging are interpretive. Hari is not depicted; Suklenmung is historical context and is not physically shown.",
+         "status": "illustrated",
+         "people": [
+          "suklenmung",
+          "sankardev"
+         ],
+         "sources": [
+          "https://en.wikipedia.org/wiki/Suklenmung"
+         ],
+         "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-243_Sankardeva_Departs_After_Hari_Execution_v02.webp",
+         "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-243_Sankardeva_Departs_After_Hari_Execution_v02.webp",
+         "main": true
         }
        ]
       }
@@ -13986,7 +14129,8 @@
      "era": "Imperial Expansion & Early Invasions (1497–1603)",
      "collection": "AHOM chronology",
      "summary": "Suhungmung orders the first recorded survey of the kingdom's adult men, the base of the later paik militia system.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. The rural registration is illustrative; no fully developed later paik bureaucracy is implied.",
+     "status": "illustrated",
      "people": [
       "suhungmung"
      ],
@@ -13997,8 +14141,8 @@
       "https://en.wikipedia.org/wiki/Suhungmung",
       "https://en.wikipedia.org/wiki/Ahom_kingdom"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-238_Suhungmung_Counts_the_Fighting_Men.webp",
+     "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-238_Suhungmung_Counts_the_Fighting_Men.webp"
     },
     {
      "id": "AHOM-095",
@@ -14082,8 +14226,8 @@
      "era": "Imperial Expansion & Early Invasions (1497–1603)",
      "collection": "AHOM chronology",
      "summary": "After five years of war, the Kachari king Khunkhara's army is beaten and its commander killed. The Ahoms chase him to his capital Dimapur; he flees, and Suhungmung installs Detsung as Kachari king.",
-     "notes": "Khunkhara and Detsung are not yet in the database.",
-     "status": "needs image",
+     "notes": "Khunkhara and Detsung are not yet in the database. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Dimapur architecture and campaign staging are interpretive; no authenticated portraits of Khunkhara or Detsung are shown.",
+     "status": "illustrated",
      "people": [
       "suhungmung"
      ],
@@ -14093,8 +14237,8 @@
      "sources": [
       "https://en.wikipedia.org/wiki/Suhungmung"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-239_Ahom_Pursuit_Toward_Dimapur.webp",
+     "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-239_Ahom_Pursuit_Toward_Dimapur.webp"
     },
     {
      "id": "AHOM-100",
@@ -14215,8 +14359,8 @@
      "era": "Imperial Expansion & Early Invasions (1497–1603)",
      "collection": "AHOM chronology",
      "summary": "After her husband Phrasengmung Borgohain is killed by Turbak's army, Princess Mula Gabharu leads women warriors into battle and is killed with five companions. Her death rallies the Ahom army.",
-     "notes": "Wikipedia names the Battle of Kachua; much of the story (the Kin Lao vow, her speech) is legend.",
-     "status": "needs image",
+     "notes": "Wikipedia names the Battle of Kachua; much of the story (the Kin Lao vow, her speech) is legend. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Non-graphic reconstruction of the remembered last battle; no exact personal duel with Turbak is asserted. Phrasengmung is not shown alive.",
+     "status": "illustrated",
      "people": [
       "mula-gabharu",
       "phrasengmung-borgohain",
@@ -14230,8 +14374,8 @@
       "https://en.wikipedia.org/wiki/Mula_Gabharu",
       "https://en.wikipedia.org/wiki/Turbak%27s_invasion_of_Assam"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-240_Mula_Gabharu_Last_Battle.webp",
+     "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-240_Mula_Gabharu_Last_Battle.webp"
     },
     {
      "id": "AHOM-241",
@@ -14242,8 +14386,8 @@
      "era": "Imperial Expansion & Early Invasions (1497–1603)",
      "collection": "AHOM chronology",
      "summary": "The vassal Kachari king Detsung revolts. The Ahoms pursue him to Jangmarang and kill him; Dimapur is abandoned and the Kacharis move their capital to Maibong. Ahom rule now reaches the Kolong river.",
-     "notes": "Detsung is not yet in the database.",
-     "status": "needs image",
+     "notes": "Detsung is not yet in the database. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting shows campaign aftermath at Dimapur, not Detsung dying there; his death is placed during pursuit at Jangmarang. Pillar placement and damage are interpretive.",
+     "status": "illustrated",
      "people": [
       "suhungmung"
      ],
@@ -14254,8 +14398,8 @@
       "https://en.wikipedia.org/wiki/Suhungmung",
       "https://en.wikipedia.org/wiki/Ahom_kingdom"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-241_Dimapur_Abandoned_After_the_Campaign.webp",
+     "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-241_Dimapur_Abandoned_After_the_Campaign.webp"
     },
     {
      "id": "AHOM-107",
@@ -14284,7 +14428,8 @@
      "era": "Imperial Expansion & Early Invasions (1497–1603)",
      "collection": "AHOM chronology",
      "summary": "The great king Suhungmung is stabbed in his sleep by his servant Ratiman. His son Suklenmung and a Kachari queen are suspected of the plot.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Depicts the moment before the attack. Suklenmung and the queen are absent; their complicity remains an allegation.",
+     "status": "illustrated",
      "people": [
       "suhungmung",
       "suklenmung"
@@ -14296,8 +14441,8 @@
       "https://en.wikipedia.org/wiki/Suhungmung",
       "https://en.wikipedia.org/wiki/Suklenmung"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-242_Suhungmung_Assassination_in_the_Night.webp",
+     "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-242_Suhungmung_Assassination_in_the_Night.webp"
     },
     {
      "id": "AHOM-108",
@@ -14323,19 +14468,20 @@
      "era": "Imperial Expansion & Early Invasions (1497–1603)",
      "collection": "AHOM chronology",
      "summary": "Under Suklenmung, Hari, the son-in-law of the Vaishnava saint Sankardeva, is captured and executed. Sankardeva leaves the Ahom kingdom for Koch territory.",
-     "notes": "Sankardeva and Hari are not yet in the database.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction of Sankardev departing after Hari’s execution. Sankardev follows the newly created project character sheet based on the user-provided devotional portrait; its youthful apparent age, face and clothing are artistic continuity, not an authenticated likeness or period-age claim. Assam river setting, architecture and staging are interpretive. Hari is not depicted; Suklenmung is historical context and is not physically shown.",
+     "status": "illustrated",
      "people": [
-      "suklenmung"
+      "suklenmung",
+      "sankardev"
      ],
      "main_people": [
-      "suklenmung"
+      "sankardev"
      ],
      "sources": [
       "https://en.wikipedia.org/wiki/Suklenmung"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1497-1603-imperial-expansion/AHOM-243_Sankardeva_Departs_After_Hari_Execution_v02.webp",
+     "scene_thumbnail": "media/scenes/ahom/1497-1603-imperial-expansion/thumb/AHOM-243_Sankardeva_Departs_After_Hari_Execution_v02.webp"
     },
     {
      "id": "AHOM-109",
@@ -14537,8 +14683,8 @@
      "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
      "collection": "AHOM chronology",
      "summary": "Pratap Singha marries Mangaldoi, daughter of the Koch Hajo king Parikshit Narayan, sealing an alliance against the Mughals.",
-     "notes": "Wikipedia spells her name Mangaldahi.",
-     "status": "needs image",
+     "notes": "Wikipedia spells her name Mangaldahi. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Marriage ceremony staging is illustrative; Mangaldoi parentage varies across sources.",
+     "status": "illustrated",
      "people": [
       "pratap-singha",
       "mangaldoi"
@@ -14549,8 +14695,8 @@
      "sources": [
       "https://en.wikipedia.org/wiki/Susenghphaa"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-244_Pratap_Singha_Marries_Mangaldoi.webp",
+     "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-244_Pratap_Singha_Marries_Mangaldoi.webp"
     },
     {
      "id": "AHOM-245",
@@ -14561,8 +14707,8 @@
      "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
      "collection": "AHOM chronology",
      "summary": "Pratap Singha accepts a Jaintia princess in marriage, but the Kachari king Jasanarayan blocks her passage. War follows; Sundar Gohain drives deep into Kachari land before Bhimbal Konwar's night attack kills him.",
-     "notes": "Exact year not found; Jasanarayan, Bhimbal Konwar and Sundar Gohain are not yet in the database.",
-     "status": "needs image",
+     "notes": "Exact year not found; Jasanarayan, Bhimbal Konwar and Sundar Gohain are not yet in the database. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting depicts the passage dispute being reported to Pratap Singha, not the later battle. No identified bride or Kachari commander is shown.",
+     "status": "illustrated",
      "people": [
       "pratap-singha"
      ],
@@ -14573,8 +14719,8 @@
       "https://en.wikipedia.org/wiki/Susenghphaa",
       "https://en.wikipedia.org/wiki/Balinarayan"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-245_Jaintia_Passage_Dispute_at_Pratap_Court.webp",
+     "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-245_Jaintia_Passage_Dispute_at_Pratap_Court.webp"
     },
     {
      "id": "AHOM-246",
@@ -14585,8 +14731,8 @@
      "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
      "collection": "AHOM chronology",
      "summary": "After the Mughals defeat Parikshit of Koch Hajo, his brother Balinarayan flees to Pratap Singha, who makes him tributary raja of Darrang as Dharmanarayan. The refuge angers the Mughal governor Qasim Khan.",
-     "notes": "Balinarayan is not yet in the database.",
-     "status": "needs image",
+     "notes": "Balinarayan is not yet in the database. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Balinarayan has a provisional face because no project sheet exists. Painting depicts asylum; Qasim Khan is not physically shown.",
+     "status": "illustrated",
      "people": [
       "pratap-singha",
       "qasim-khan-chishti"
@@ -14597,8 +14743,8 @@
      "sources": [
       "https://en.wikipedia.org/wiki/Balinarayan"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-246_Balinarayan_Seeks_Refuge.webp",
+     "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-246_Balinarayan_Seeks_Refuge.webp"
     },
     {
      "id": "AHOM-119",
@@ -14626,8 +14772,8 @@
      "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
      "collection": "AHOM chronology",
      "summary": "The first Mughal invasion under Sayyid Abu Bakr and Satrajit takes Kajali, then is destroyed in a night attack by the Bharali–Brahmaputra confluence. Abu Bakr is killed, Satrajit escapes, and Pratap Singha builds a fort at Samdhara inscribed 'Victory in Unequal Battle'.",
-     "notes": "Wikipedia dates the Battle of Bharali to 1615 and the Battle of Samdhara to January 1616.",
-     "status": "needs image",
+     "notes": "Wikipedia dates the Battle of Bharali to 1615 and the Battle of Samdhara to January 1616. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Night-action staging, boat designs and deployment are interpretive; Abu Bakr and Satrajit follow project sheets. Pratap Singha and Qasim Khan are not physically shown. Catalogue retains the 1615–1616 range.",
+     "status": "illustrated",
      "people": [
       "abu-bakr",
       "satrajit",
@@ -14635,16 +14781,16 @@
       "pratap-singha"
      ],
      "main_people": [
-      "pratap-singha",
-      "abu-bakr"
+      "abu-bakr",
+      "satrajit"
      ],
      "sources": [
       "https://en.wikipedia.org/wiki/Battle_of_Samdhara",
       "https://en.wikipedia.org/wiki/Battle_of_Bharali_(1615)",
       "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp",
+     "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-247_Night_Attack_on_Abu_Bakr_Fleet.webp"
     },
     {
      "id": "AHOM-248",
@@ -14655,21 +14801,22 @@
      "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
      "collection": "AHOM chronology",
      "summary": "Pratap Singha and Balinarayan push west to Sualkuchi and Hajo. The Mughals under Allah Yar Khan strike back and retake Kamrup; Balinarayan dies, and the Samdhara garrison and the naval fight at Duimunisila stop the Mughal advance.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. The artwork selects Momai Tamuli directing river defence as a representative moment of the multi-year war. Pratap Singha and Allah Yar Khan are not physically shown; vessels and deployments are interpretive.",
+     "status": "illustrated",
      "people": [
       "pratap-singha",
       "allah-yar-khan",
       "momai-tamuli"
      ],
      "main_people": [
-      "pratap-singha"
+      "momai-tamuli"
      ],
      "sources": [
       "https://en.wikipedia.org/wiki/Ahom%E2%80%93Mughal_conflicts",
       "https://en.wikipedia.org/wiki/Battle_of_Duimunisila"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-248_Momai_Tamuli_Defends_the_River_1638.webp",
+     "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-248_Momai_Tamuli_Defends_the_River_1638.webp"
     },
     {
      "id": "AHOM-120",
@@ -14852,7 +14999,8 @@
      "era": "Mughal-Ahom Wars & Zenith of Statecraft (1603–1681)",
      "collection": "AHOM chronology",
      "summary": "Coins first appear under Jayadhwaj Singha. The old belief that Suklenmung struck the first Ahom coins comes from misread coins of Chakradhwaj Singha.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Workshop, hand tools and royal visit are illustrative. Small silver coin marks are not an authenticated transcription of a specific issue.",
+     "status": "illustrated",
      "people": [
       "jayadhwaj-singha"
      ],
@@ -14863,8 +15011,8 @@
       "https://en.wikipedia.org/wiki/Suklenmung",
       "https://en.wikipedia.org/wiki/Ahom_kingdom"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1603-1681-mughal-ahom-wars/AHOM-249_First_Ahom_Coins_Jayadhwaj_Singha.webp",
+     "scene_thumbnail": "media/scenes/ahom/1603-1681-mughal-ahom-wars/thumb/AHOM-249_First_Ahom_Coins_Jayadhwaj_Singha.webp"
     },
     {
      "id": "AHOM-250",
@@ -15470,8 +15618,8 @@
      "era": "Period of Ministerial Intrigue & Terror (1672–1681)",
      "collection": "AHOM chronology",
      "summary": "Angered by the king's devotion to the ascetic Paramananda Sanyasi and his jailing of Vaishnava mahantas, Debera Hazarika and the king's brother Sarugohain storm the palace at midnight. Udayaditya is taken to Charaideo and killed; his brother takes the throne as Ramdhwaj Singha.",
-     "notes": "Paramananda Sanyasi is not yet in the database.",
-     "status": "needs image",
+     "notes": "Paramananda Sanyasi is not yet in the database. Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting depicts the midnight deposition, not the later execution at Charaideo. Sarugohain follows the Ramdhwaj sheet with royal cap removed because he is not yet enthroned. Court layout and staging are interpretive.",
+     "status": "illustrated",
      "people": [
       "udayaditya-singha",
       "debera-borbarua",
@@ -15484,8 +15632,8 @@
       "https://en.wikipedia.org/wiki/Sunyatphaa",
       "https://en.wikipedia.org/wiki/Suklamphaa"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-253_Midnight_Coup_Against_Udayaditya.webp",
+     "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-253_Midnight_Coup_Against_Udayaditya.webp"
     },
     {
      "id": "AHOM-164",
@@ -15744,7 +15892,8 @@
      "era": "Period of Ministerial Intrigue & Terror (1672–1681)",
      "collection": "AHOM chronology",
      "summary": "The Borphukan who sold Guwahati to the Mughals is killed by his own bodyguard, ending his hold over the boy-king Sulikphaa.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character sheets; setting, architecture and staging are interpretive. Painting depicts the instant before the bodyguard attacks sleeping Laluk Sola, whose face follows the project sheet. Bodyguard appearance, residence and staging are interpretive. Sulikphaa is not physically shown or depicted ordering the killing.",
+     "status": "illustrated",
      "people": [
       "laluk-sola",
       "sulikphaa"
@@ -15755,8 +15904,8 @@
      "sources": [
       "https://en.wikipedia.org/wiki/Laluksola_Borphukan"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1672-1681-ministerial-intrigue/AHOM-254_Laluk_Sola_Bodyguard_Assassination.webp",
+     "scene_thumbnail": "media/scenes/ahom/1672-1681-ministerial-intrigue/thumb/AHOM-254_Laluk_Sola_Bodyguard_Assassination.webp"
     },
     {
      "id": "AHOM-178",
@@ -15785,7 +15934,8 @@
      "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
      "collection": "AHOM chronology",
      "summary": "Gadadhar Singha's three-pronged army and navy close on Guwahati. After the naval battle at Paniduar on 15 August, the Itakhuli fort falls and the Mughals are chased to the Manas river, which becomes the accepted border. The Ahom–Mughal wars end.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Anonymous troops depict the riverine breakthrough and its aftermath; Gadadhar is not personally placed on the battlefield. Exact fort layout is reconstructed.",
+     "status": "illustrated",
      "people": [
       "gadadhar-singha"
      ],
@@ -15796,8 +15946,8 @@
       "https://en.wikipedia.org/wiki/Battle_of_Itakhuli",
       "https://en.wikipedia.org/wiki/Supatphaa"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-255_Battle_of_Itakhuli.webp",
+     "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-255_Battle_of_Itakhuli.webp"
     },
     {
      "id": "AHOM-179",
@@ -15838,8 +15988,8 @@
      "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
      "collection": "AHOM chronology",
      "summary": "Late in his reign Gadadhar Singha turns on the Vaishnava satras. The Dakhinpat gosain is mutilated and his idols melted down, the Auniati head flees, and Mayamara disciples suffer most. The grievance feeds the later Moamoria rebellion.",
-     "notes": "Motives (personal grudge or politico-economic) are debated.",
-     "status": "needs image",
+     "notes": "Motives (personal grudge or politico-economic) are debated. Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Confiscation and displacement are shown without graphic violence. Gadadhar is absent; motives remain debated.",
+     "status": "illustrated",
      "people": [
       "gadadhar-singha"
      ],
@@ -15850,8 +16000,8 @@
       "https://en.wikipedia.org/wiki/Supatphaa",
       "https://en.wikipedia.org/wiki/Auniati_Satra"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-256_Gadadhar_Persecution_of_the_Satras.webp",
+     "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-256_Gadadhar_Persecution_of_the_Satras.webp"
     },
     {
      "id": "AHOM-181",
@@ -15944,7 +16094,8 @@
      "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
      "collection": "AHOM chronology",
      "summary": "Rudra Singha builds the Rangnath Dol and the Namdang stone bridge, cut from a single rock, followed by the Fakuwa Dol in 1703–04.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. The painting selects Namdang bridge construction; Rangnath Dol is a separate site and is not placed beside the bridge. Construction methods and stone arrangement are interpretive.",
+     "status": "illustrated",
      "people": [
       "rudra-singha"
      ],
@@ -15952,10 +16103,11 @@
       "rudra-singha"
      ],
      "sources": [
-      "https://en.wikipedia.org/wiki/Rudra_Singha"
+      "https://en.wikipedia.org/wiki/Rudra_Singha",
+      "https://sivasagar.assam.gov.in/tourist-place-detail/334"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-257_Namdang_Stone_Bridge_Construction.webp",
+     "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-257_Namdang_Stone_Bridge_Construction.webp"
     },
     {
      "id": "AHOM-185",
@@ -16064,7 +16216,8 @@
      "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
      "collection": "AHOM chronology",
      "summary": "At a general assembly at Rangpur, Rudra Singha announces his plan to invade Mughal Bengal with a league of Hindu rajas, and moves his army to Guwahati.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Depicts preparations for the proposed campaign, which was not launched, rather than a conquest of Bengal. The route sketch is illustrative.",
+     "status": "illustrated",
      "people": [
       "rudra-singha"
      ],
@@ -16074,8 +16227,8 @@
      "sources": [
       "https://en.wikipedia.org/wiki/Rudra_Singha"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-258_Rudra_Plans_Bengal_Campaign.webp",
+     "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-258_Rudra_Plans_Bengal_Campaign.webp"
     },
     {
      "id": "AHOM-259",
@@ -16086,7 +16239,8 @@
      "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
      "collection": "AHOM chronology",
      "summary": "Eight days after falling ill, Rudra Singha dies in camp at Guwahati with the Bengal campaign unlaunched. On his deathbed he tells his son Siva Singha to take Krishnaram Bhattacharya as guru.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Rudra and Siva appear in an imagined Guwahati camp deathbed scene. Exact words, witnesses and furnishings are not authenticated.",
+     "status": "illustrated",
      "people": [
       "rudra-singha",
       "siva-singha"
@@ -16098,8 +16252,8 @@
       "https://en.wikipedia.org/wiki/Rudra_Singha",
       "https://en.wikipedia.org/wiki/Sutanpha"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-259_Death_of_Rudra_at_Guwahati.webp",
+     "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-259_Death_of_Rudra_at_Guwahati.webp"
     },
     {
      "id": "AHOM-260",
@@ -16110,7 +16264,8 @@
      "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
      "collection": "AHOM chronology",
      "summary": "Siva Singha becomes the disciple of the Nabadwip Shakta priest Krishnaram Bhattacharya and gives him charge of the Kamakhya temple on Nilachal hill, where he is known as the Parbatiya Gosain.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. The document handover illustrates royal patronage, not an authenticated ceremony. Temple courtyard and grant format are reconstructed.",
+     "status": "illustrated",
      "people": [
       "krishnaram-bhattacharya",
       "siva-singha"
@@ -16121,8 +16276,8 @@
      "sources": [
       "https://en.wikipedia.org/wiki/Sutanpha"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-260_Krishnaram_Parbatiya_Gosain.webp",
+     "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-260_Krishnaram_Parbatiya_Gosain.webp"
     },
     {
      "id": "AHOM-192",
@@ -16203,8 +16358,8 @@
      "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
      "collection": "AHOM chronology",
      "summary": "Under Siva Singha and Queen Ambika, Sukumar Barkaith writes the Hastividyarnava, a treatise on royal elephants, illustrated by the painters Dilbar and Dosai.",
-     "notes": "Sukumar Barkaith, Dilbar and Dosai are not yet in the database.",
-     "status": "needs image",
+     "notes": "Sukumar Barkaith, Dilbar and Dosai are not yet in the database. Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Workshop staging and the appearances of Sukumar Barkaith, Dilbar and Dosai are provisional. Painted folios are decorative reconstructions, not manuscript facsimiles.",
+     "status": "illustrated",
      "people": [
       "siva-singha",
       "ambika"
@@ -16216,8 +16371,8 @@
       "https://en.wikipedia.org/wiki/Hastividyarnava",
       "https://en.wikipedia.org/wiki/Assamese_manuscript_painting"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-261_Painting_the_Hastividyarnava.webp",
+     "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-261_Painting_the_Hastividyarnava.webp"
     },
     {
      "id": "AHOM-196",
@@ -16243,8 +16398,8 @@
      "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
      "collection": "AHOM chronology",
      "summary": "After Ambika's death, Siva Singha raises another queen to rule as Bar Raja under the name Sarbeswari; she holds the title until his death in 1744.",
-     "notes": "Sources differ on her earlier name (Akari Gabharu or Enadari).",
-     "status": "needs image",
+     "notes": "Sources differ on her earlier name (Akari Gabharu or Enadari). Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Sarbeswari receives state papers as Bar Raja with Siva nearby. The ceremony is illustrative; accounts vary on her earlier name.",
+     "status": "illustrated",
      "people": [
       "sarbeswari",
       "siva-singha"
@@ -16255,8 +16410,8 @@
      "sources": [
       "https://en.wikipedia.org/wiki/Sutanpha"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-262_Sarbeswari_Third_Bar_Raja.webp",
+     "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-262_Sarbeswari_Third_Bar_Raja.webp"
     },
     {
      "id": "AHOM-197",
@@ -16327,7 +16482,8 @@
      "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
      "collection": "AHOM chronology",
      "summary": "On Pramatta Singha's death, the Borbarua Kirti Chandra passes over the elder princes and places Rajeswar Singha on the throne, beginning two decades of his dominance at court.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Kirti Chandra presents an accession order at court. The deceased Pramatta is absent; the ceremony is interpretive.",
+     "status": "illustrated",
      "people": [
       "rajeswar-singha",
       "kirti-chandra-borbarua",
@@ -16340,8 +16496,8 @@
       "https://en.wikipedia.org/wiki/Ahom_kingdom",
       "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-263_Rajeswar_Accession.webp",
+     "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-263_Rajeswar_Accession.webp"
     },
     {
      "id": "AHOM-264",
@@ -16352,8 +16508,8 @@
      "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
      "collection": "AHOM chronology",
      "summary": "Rajeswar Singha replaces the wooden palace at Garhgaon with the brick and stone seven-storey Kareng Ghar that still stands.",
-     "notes": "The Kareng Ghar infobox gives 1758; the text and the Sivasagar district site give 1752.",
-     "status": "needs image",
+     "notes": "The Kareng Ghar infobox gives 1758; the text and the Sivasagar district site give 1752. Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Shows a general 1750s worksite. Sources differ between 1752 and 1758; scaffolding, work methods and palace proportions are reconstructed.",
+     "status": "illustrated",
      "people": [
       "rajeswar-singha"
      ],
@@ -16362,10 +16518,11 @@
      ],
      "sources": [
       "https://en.wikipedia.org/wiki/Kareng_Ghar",
-      "https://en.wikipedia.org/wiki/Garhgaon"
+      "https://en.wikipedia.org/wiki/Garhgaon",
+      "https://sivasagar.assam.gov.in/tourist-place-detail/328"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-264_Rebuilding_Kareng_Ghar.webp",
+     "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-264_Rebuilding_Kareng_Ghar.webp"
     },
     {
      "id": "AHOM-265",
@@ -16376,8 +16533,8 @@
      "era": "Tungkhungia Restoration & Golden Age (1681–1769)",
      "collection": "AHOM chronology",
      "summary": "Stung by the Chakari-pheti Buranji's mockery of his low birth, Kirti Chandra Borbarua has the Buranjis collected and burns those he judges false. Some copies survive.",
-     "notes": "Most sources place this under Rajeswar Singha; some under Lakshmi Singha. Numali Borgohain (author of the Chakari-pheti) is not yet in the database.",
-     "status": "needs image",
+     "notes": "Most sources place this under Rajeswar Singha; some under Lakshmi Singha. Numali Borgohain (author of the Chakari-pheti) is not yet in the database. Modern artistic reconstruction; project character identities, costumes, buildings and staging are interpretive. Selected chronicles are destroyed while other records survive. Exact timing, participants and staging are uncertain; the king is absent.",
+     "status": "illustrated",
      "people": [
       "kirti-chandra-borbarua",
       "rajeswar-singha"
@@ -16386,10 +16543,11 @@
       "kirti-chandra-borbarua"
      ],
      "sources": [
-      "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua"
+      "https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua",
+      "https://en.wikipedia.org/wiki/Buranji"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1681-1769-tungkhungia-restoration/AHOM-265_Burning_of_the_Buranjis.webp",
+     "scene_thumbnail": "media/scenes/ahom/1681-1769-tungkhungia-restoration/thumb/AHOM-265_Burning_of_the_Buranjis.webp"
     },
     {
      "id": "AHOM-201",
@@ -16495,11 +16653,18 @@
      "era": "Moamoria Rebellions & Decline (1769–1817)",
      "collection": "AHOM chronology",
      "summary": "Restored royal government executes thousands of Moamoria adherents and leaders, cementing irreversible societal rifts.",
+     "notes": "User-requested interpretive composition: Ragha Neog appears in his project character-sheet costume, kneeling upright and looking fearlessly at the king. The catalogue records Ragha killed during the April 1770 counter-coup, before subsequent royal repression; this addition is not a documented historical encounter. Character likeness and costume are artistic reconstructions.",
+     "status": "illustrated",
      "people": [
+      "lakshmi-singha",
+      "ragha-moran"
+     ],
+     "main_people": [
+      "ragha-moran",
       "lakshmi-singha"
      ],
-     "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/15_Royal_Repression_After_the_Moamoria_Rebellion.webp",
-     "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/15_Royal_Repression_After_the_Moamoria_Rebellion.webp"
+     "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/15_Royal_Repression_After_the_Moamoria_Rebellion_Ragha_v02.webp",
+     "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/15_Royal_Repression_After_the_Moamoria_Rebellion_Ragha_v02.webp"
     },
     {
      "id": "AHOM-266",
@@ -16510,7 +16675,8 @@
      "era": "Moamoria Rebellions & Decline (1769–1817)",
      "collection": "AHOM chronology",
      "summary": "During Bohag Bihu the Moamorias attack the convoy of the newly crowned Gaurinath Singha. He escapes; the rebels briefly take Rangpur before Ghanashyam Burhagohain retakes it, followed by mass killings.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Shows the king escaping the 1782 convoy ambush; route, litter and participants are reconstructed. No later river flight or named rebel command is implied. Revised Bihu troupe uses a user-supplied contemporary cultural photograph for dance gestures, cream/red textiles, dhol and pepa. Exact eighteenth-century festival costume and troupe staging remain interpretive; performers are not identified as attackers.",
+     "status": "illustrated",
      "people": [
       "gaurinath-singha"
      ],
@@ -16518,10 +16684,11 @@
       "gaurinath-singha"
      ],
      "sources": [
-      "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+      "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+      "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-266_Bihu_Ambush_on_Gaurinath_v02.webp",
+     "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-266_Bihu_Ambush_on_Gaurinath_v02.webp"
     },
     {
      "id": "AHOM-207",
@@ -16564,7 +16731,8 @@
      "era": "Moamoria Rebellions & Decline (1769–1817)",
      "collection": "AHOM chronology",
      "summary": "The rebellion resumes from the Dafla hills under Harihar Tanti, joined by Pitambar. Rebels burn the satras of Majuli and march on Rangpur.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Selects Harihar’s mobilisation rather than attributing a specific satra burning to his personal presence. Sources differ on Harihar/Hawha and their geographic roles; no alias is imposed.",
+     "status": "illustrated",
      "people": [
       "harihar-tanti"
      ],
@@ -16572,10 +16740,12 @@
       "harihar-tanti"
      ],
      "sources": [
-      "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+      "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+      "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+      "https://www.floridaconferenceofhistorians.org/uploads/1/8/2/8/18284773/fch_vol_18.pdf"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-267_Harihar_Tanti_Rising.webp",
+     "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-267_Harihar_Tanti_Rising.webp"
     },
     {
      "id": "AHOM-209",
@@ -16604,8 +16774,8 @@
      "era": "Moamoria Rebellions & Decline (1769–1817)",
      "collection": "AHOM chronology",
      "summary": "With Gaurinath in exile at Guwahati, the Moamorias install Bharat Singha as king at Rangpur. He strikes coins claiming descent from Bhagadatta, and is killed in 1799.",
-     "notes": "Coins in his name are dated 1789–94 and 1796–97.",
-     "status": "needs image",
+     "notes": "Coins in his name are dated 1789–94 and 1796–97. Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. An imagined installation audience at Rangpur, not a documented coronation ritual. Coinage supports Bharat’s rulership but does not establish one exact accession year; miniature coins are not facsimiles.",
+     "status": "illustrated",
      "people": [
       "bharat-singha",
       "gaurinath-singha"
@@ -16614,10 +16784,11 @@
       "bharat-singha"
      ],
      "sources": [
-      "https://en.wikipedia.org/wiki/Moamoria_rebellion"
+      "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+      "https://www.floridaconferenceofhistorians.org/uploads/1/8/2/8/18284773/fch_vol_18.pdf"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-268_Bharat_Singha_at_Rangpur.webp",
+     "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-268_Bharat_Singha_at_Rangpur.webp"
     },
     {
      "id": "AHOM-269",
@@ -16628,7 +16799,8 @@
      "era": "Moamoria Rebellions & Decline (1769–1817)",
      "collection": "AHOM chronology",
      "summary": "The Moamoria leader Sarbananda Singha takes the title Swargadeo and moves his capital from Rangagarah to Bengmara in present-day Tinsukia.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Bengmara’s founding is supported by the Tinsukia district account. Town layout, building work and tank setting are illustrative; no exact original site plan or named minister’s likeness is asserted.",
+     "status": "illustrated",
      "people": [
       "sarbananda-singha"
      ],
@@ -16637,10 +16809,11 @@
      ],
      "sources": [
       "https://en.wikipedia.org/wiki/Sarbananda_Singha",
-      "https://en.wikipedia.org/wiki/Matak_rajya"
+      "https://en.wikipedia.org/wiki/Matak_rajya",
+      "https://tinsukia.assam.gov.in/about-us/history"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-269_Sarbananda_Founds_Bengmara.webp",
+     "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-269_Sarbananda_Founds_Bengmara.webp"
     },
     {
      "id": "AHOM-210",
@@ -16687,21 +16860,23 @@
      "era": "Moamoria Rebellions & Decline (1769–1817)",
      "collection": "AHOM chronology",
      "summary": "With Rangpur wrecked by the rebellion, the Ahom court moves its capital to Jorhat, which stays the last capital of the kingdom.",
-     "notes": "Sources disagree on whether the move was completed before or after Gaurinath's death.",
-     "status": "needs image",
+     "notes": "Sources disagree on whether the move was completed before or after Gaurinath's death. Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Shows administrative relocation under Purnananda rather than a single authenticated royal arrival. Sources differ on the timing and Gaurinath chronology; he is not physically depicted.",
+     "status": "illustrated",
      "people": [
       "gaurinath-singha",
       "purnananda-burhagohain"
      ],
      "main_people": [
-      "gaurinath-singha"
+      "purnananda-burhagohain"
      ],
      "sources": [
       "https://en.wikipedia.org/wiki/Ahom_kingdom",
-      "https://en.wikipedia.org/wiki/Timeline_of_Jorhat"
+      "https://en.wikipedia.org/wiki/Timeline_of_Jorhat",
+      "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+      "https://jorhat.assam.gov.in/about-us/history-jorhat"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-270_Court_Relocates_to_Jorhat.webp",
+     "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-270_Court_Relocates_to_Jorhat.webp"
     },
     {
      "id": "AHOM-213",
@@ -16747,7 +16922,8 @@
      "era": "Moamoria Rebellions & Decline (1769–1817)",
      "collection": "AHOM chronology",
      "summary": "After a stalemate at Bengmara, Purnananda Burhagohain recognises Sarbananda as Barsenapati of an autonomous Matak rajya paying annual tribute. The Moamoria rebellion ends.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. An envoy-mediated interpretation of the autonomy agreement, conventionally dated 1805. Exact participants and ceremony are not established; sources differ on Sarbananda/Matibar succession and settlement chronology.",
+     "status": "illustrated",
      "people": [
       "sarbananda-singha",
       "purnananda-burhagohain"
@@ -16759,8 +16935,8 @@
       "https://en.wikipedia.org/wiki/Moamoria_rebellion",
       "https://en.wikipedia.org/wiki/Matak_rajya"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-271_Matak_Autonomy_Settlement.webp",
+     "scene_thumbnail": "media/scenes/ahom/1769-1817-moamoria-rebellions/thumb/AHOM-271_Matak_Autonomy_Settlement.webp"
     },
     {
      "id": "AHOM-214",
@@ -16788,20 +16964,23 @@
      "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
      "collection": "AHOM chronology",
      "summary": "Hunted by Purnananda Burhagohain, Badan Chandra flees to Bengal, is refused help by the East India Company, and reaches the Burmese king Bodawpaya to ask for an army.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Depicts Badan Chandra’s appeal in 1816. Court layout and petition ceremony are reconstructed; ‘Ava’ is used conventionally, not as proof of the exact palace site. Purnananda is historical context and absent.",
+     "status": "illustrated",
      "people": [
       "badan-chandra-borphukan",
       "bodawpaya",
       "purnananda-burhagohain"
      ],
      "main_people": [
-      "badan-chandra-borphukan"
+      "badan-chandra-borphukan",
+      "bodawpaya"
      ],
      "sources": [
-      "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+      "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+      "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp",
+     "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-272_Badan_Chandra_Appeals_to_Bodawpaya.webp"
     },
     {
      "id": "AHOM-215",
@@ -16963,7 +17142,8 @@
      "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
      "collection": "AHOM chronology",
      "summary": "Raising troops in British territory, Chandrakanta Singha recaptures Assam Chowki in October and Guwahati in December 1821.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Selects the December 1821 recovery of Guwahati, distinct from October’s Assam Chowki action. Sikh participation is included; troop uniforms, gateway and deployment remain interpretive. Related accounts give January 1822 for the recovery; the catalogue retains December 1821.",
+     "status": "illustrated",
      "people": [
       "chandrakanta-singha"
      ],
@@ -16971,10 +17151,11 @@
       "chandrakanta-singha"
      ],
      "sources": [
-      "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+      "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+      "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-273_Chandrakanta_Recovers_Guwahati.webp",
+     "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-273_Chandrakanta_Recovers_Guwahati.webp"
     },
     {
      "id": "AHOM-274",
@@ -16985,20 +17166,24 @@
      "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
      "collection": "AHOM chronology",
      "summary": "Chandrakanta camps at Mahgarh near Jorhat. Maha Bandula's Burmese army defeats him in April 1822 and he falls back to Guwahati.",
-     "status": "needs image",
+     "notes": "Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Campaign roles follow the catalogue and Jorhat district account. Exact battlefield layout and Bandula’s depicted position are reconstructed. The painting does not assert a personal encounter or duel with Chandrakanta. Banners and markings are illustrative, not authenticated heraldry.",
+     "status": "illustrated",
      "people": [
       "chandrakanta-singha",
       "maha-bandula",
       "mingimaha-tilwa"
      ],
      "main_people": [
-      "chandrakanta-singha"
+      "chandrakanta-singha",
+      "maha-bandula"
      ],
      "sources": [
-      "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+      "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+      "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+      "https://jorhat.assam.gov.in/about-us/history-jorhat"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-274_Defeat_at_Mahgarh.webp",
+     "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-274_Defeat_at_Mahgarh.webp"
     },
     {
      "id": "AHOM-275",
@@ -17009,8 +17194,8 @@
      "era": "Burmese Invasions & Fall of Kingdom (1817–1826)",
      "collection": "AHOM chronology",
      "summary": "Mingimaha Tilwa defeats Chandrakanta at Hadira (Assam) Chowki. Chandrakanta withdraws to British territory, and Tilwa is declared Raja of Assam, ending Ahom rule until 1826.",
-     "notes": "Wikipedia places the defeat in June 1822, with an alternative account in July.",
-     "status": "needs image",
+     "notes": "Wikipedia places the defeat in June 1822, with an alternative account in July. Modern artistic reconstruction using project character references; appearance, material details and staging are interpretive. Selects the captured-post aftermath and Tilwa’s consolidation. June/July dating varies; no exact proclamation ceremony or personal presence of Bagyidaw is asserted. This military defeat is distinguished from the 1826 treaty.",
+     "status": "illustrated",
      "people": [
       "mingimaha-tilwa",
       "chandrakanta-singha",
@@ -17020,10 +17205,11 @@
       "mingimaha-tilwa"
      ],
      "sources": [
-      "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam"
+      "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+      "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1817-1826-burmese-invasions/AHOM-275_Tilwa_After_Hadira_Chowki.webp",
+     "scene_thumbnail": "media/scenes/ahom/1817-1826-burmese-invasions/thumb/AHOM-275_Tilwa_After_Hadira_Chowki.webp"
     },
     {
      "id": "AHOM-224",
@@ -17083,13 +17269,14 @@
      "era": "Early British Rule & Ahom Resistance (1826–1833)",
      "collection": "AHOM chronology",
      "summary": "Former Ahom nobles led by Dhananjoy Borgohain crown the prince Gomdhar Konwar near Jorhat and march on Rangpur. Lieutenant Rutherford's troops defeat them; Gomdhar is captured and banished. The first armed rising against British rule in Assam.",
-     "notes": "Gomdhar Konwar, Dhananjoy Borgohain and Rutherford are not yet in the database.",
-     "status": "needs image",
+     "notes": "Gomdhar Konwar, Dhananjoy Borgohain and Rutherford are not yet in the database. Modern artistic reconstruction with provisional appearances; appearance, material details and staging are interpretive. Selects the revolt’s mobilisation rather than a documented coronation ceremony or battle. Gomdhar’s appearance, assembly, clothing and site are provisional reconstructions; no authenticated likeness is claimed.",
+     "status": "illustrated",
      "sources": [
-      "https://en.wikipedia.org/wiki/Gomdhar_Konwar"
+      "https://en.wikipedia.org/wiki/Gomdhar_Konwar",
+      "https://cbcindia.gov.in/wp-content/themes/boc/mann_ki_baat/e_july24/files/basic-html/page31.html"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1826-1833-early-british-resistance/AHOM-276_Gomdhar_Konwar_Revolt.webp",
+     "scene_thumbnail": "media/scenes/ahom/1826-1833-early-british-resistance/thumb/AHOM-276_Gomdhar_Konwar_Revolt.webp"
     },
     {
      "id": "AHOM-277",
@@ -17100,17 +17287,18 @@
      "era": "Early British Rule & Ahom Resistance (1826–1833)",
      "collection": "AHOM chronology",
      "summary": "A plot to drive the British out and restore Ahom rule is uncovered. Piyali Phukan, son of Badan Chandra Borphukan, and Jiuram Dulia Baruah are hanged.",
-     "notes": "Sources differ on the day and place (August or 23 September 1830; Sivasagar or Jorhat) and on Jiuram's name (Dulia Baruah or Medhi). Piyali and Jiuram are not yet in the database; badan-chandra-borphukan is linked only as his father.",
-     "status": "needs image",
+     "notes": "Sources differ on the day and place (August or 23 September 1830; Sivasagar or Jorhat) and on Jiuram's name (Dulia Baruah or Medhi). Piyali and Jiuram are not yet in the database; badan-chandra-borphukan is linked only as his father. Modern artistic reconstruction with provisional appearances; appearance, material details and staging are interpretive. Depicts the moments before the 1830 execution, not the hanging itself. Piyali and Jiuram have provisional appearances; day, place and Jiuram’s name vary across accounts. Not Piyali Barua and Maniram Dewan’s 1858 execution; Badan Chandra is absent.",
+     "status": "illustrated",
      "people": [
       "badan-chandra-borphukan"
      ],
      "sources": [
       "https://en.wikipedia.org/wiki/British_rule_in_Assam",
-      "https://www.etvbharat.com/english/state/assam/martyrs-of-freedom-struggle-from-assam-awaits-recognition/na20200925181218073"
+      "https://www.etvbharat.com/english/state/assam/martyrs-of-freedom-struggle-from-assam-awaits-recognition/na20200925181218073",
+      "https://cbcindia.gov.in/wp-content/themes/boc/mann_ki_baat/e_july24/files/basic-html/page31.html"
      ],
-     "scene_image": "",
-     "scene_thumbnail": ""
+     "scene_image": "media/scenes/ahom/1826-1833-early-british-resistance/AHOM-277_Piyali_Phukan_and_Jiuram_Last_Moments.webp",
+     "scene_thumbnail": "media/scenes/ahom/1826-1833-early-british-resistance/thumb/AHOM-277_Piyali_Phukan_and_Jiuram_Last_Moments.webp"
     },
     {
      "id": "AHOM-229",
@@ -17219,13 +17407,14 @@
    "era": "Early British Rule & Ahom Resistance (1826–1833)",
    "collection": "AHOM chronology",
    "summary": "Former Ahom nobles led by Dhananjoy Borgohain crown the prince Gomdhar Konwar near Jorhat and march on Rangpur. Lieutenant Rutherford's troops defeat them; Gomdhar is captured and banished. The first armed rising against British rule in Assam.",
-   "notes": "Gomdhar Konwar, Dhananjoy Borgohain and Rutherford are not yet in the database.",
-   "status": "needs image",
+   "notes": "Gomdhar Konwar, Dhananjoy Borgohain and Rutherford are not yet in the database. Modern artistic reconstruction with provisional appearances; appearance, material details and staging are interpretive. Selects the revolt’s mobilisation rather than a documented coronation ceremony or battle. Gomdhar’s appearance, assembly, clothing and site are provisional reconstructions; no authenticated likeness is claimed.",
+   "status": "illustrated",
    "sources": [
-    "https://en.wikipedia.org/wiki/Gomdhar_Konwar"
+    "https://en.wikipedia.org/wiki/Gomdhar_Konwar",
+    "https://cbcindia.gov.in/wp-content/themes/boc/mann_ki_baat/e_july24/files/basic-html/page31.html"
    ],
-   "scene_image": "",
-   "scene_thumbnail": ""
+   "scene_image": "media/scenes/ahom/1826-1833-early-british-resistance/AHOM-276_Gomdhar_Konwar_Revolt.webp",
+   "scene_thumbnail": "media/scenes/ahom/1826-1833-early-british-resistance/thumb/AHOM-276_Gomdhar_Konwar_Revolt.webp"
   }
  ]
 }

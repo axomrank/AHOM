@@ -1,0 +1,19 @@
+{
+  "id": "AHOM-270",
+  "slug": "Court_Relocates_to_Jorhat",
+  "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-a1d2317c-8622-4916-9e38-cf667d38ad35.png",
+  "references": [
+    "/home/angsuman/extra_spac/AHOM/media/characters/purnananda-burhagohain/turnaround-1.webp"
+  ],
+  "prompt": "Use case: historical-scene. ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM, restrained realism, lifelike anatomy, no text, captions, labels, watermark, montage or border. Assam late18th/early19th century humid alluvial Brahmaputra valley, bamboo and broadleaf trees, handwoven cotton and silk, timber/bamboo/thatch buildings, period wooden boats. No European castle, desert, modern objects, modern flags or fantasy costume. Each referenced multi-view sheet depicts ONE PERSON: show that character ONCE only, preserve distinctive face, hair and clothes, never copy reference-sheet panels or lettering. Extras must have distinct faces and plain varied muted cotton attire. These are artistic identities, not authenticated likenesses. Moamoria is a religious/political movement across communities, not a uniform ethnic costume. c1794 relocation of Ahom administration to Jorhat/Dichoi, distinct from emergency royal flight1788. Exactly one Purnananda from reference, elderly angular face grey moustache, mustard turban, white layered cotton drape, dark waist sash, supervises unloading administrative records at modest timber riverside landing on Bhogdoi. Porters carry closed wooden chests and tied bark manuscript bundles from narrow cargo boats toward a new open-sided thatched office; scribes arrange records, builders repair posts, market hamlet in background. Focus organised transfer and rebuilding government, no blaze, no king in royal procession, no British officers. Gaurinath NOT physically present because chronology/attendance uncertain. No later modern Jorhat architecture, no Rangpur palace teleported to riverbank. Soft overcast daylight.",
+  "limitation": "Shows administrative relocation under Purnananda rather than a single authenticated royal arrival. Sources differ on the timing and Gaurinath chronology; he is not physically depicted.",
+  "method": "built-in image_gen",
+  "review": "Reviewed Purnananda elder identity, records transfer and new administrative buildings; Gaurinath absent.",
+  "title": "The Capital Moves from Rangpur to Jorhat",
+  "date_label": "1794",
+  "historical_sources": "https://en.wikipedia.org/wiki/Ahom_kingdom; https://en.wikipedia.org/wiki/Timeline_of_Jorhat",
+  "additional_sources": [
+    "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+    "https://jorhat.assam.gov.in/about-us/history-jorhat"
+  ]
+}

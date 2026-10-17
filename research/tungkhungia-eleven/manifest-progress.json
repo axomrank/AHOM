@@ -1,0 +1,113 @@
+[
+  {
+    "id": "AHOM-255",
+    "slug": "Battle_of_Itakhuli",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-0ed5782b-339b-46c0-a957-308299092d9f.png",
+    "references": [],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-255-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Battle_of_Itakhuli; https://en.wikipedia.org/wiki/Supatphaa",
+    "review": "Inspected for scene coherence, project character continuity, anatomy and period context; reconstruction limits in research.md."
+  },
+  {
+    "id": "AHOM-256",
+    "slug": "Gadadhar_Persecution_of_the_Satras",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-dfc4e962-9966-4bfe-8ec9-1adc84fedc80.png",
+    "references": [],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-256-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Supatphaa; https://en.wikipedia.org/wiki/Auniati_Satra",
+    "review": "Inspected for scene coherence, project character continuity, anatomy and period context; reconstruction limits in research.md."
+  },
+  {
+    "id": "AHOM-257",
+    "slug": "Namdang_Stone_Bridge_Construction",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-1a20055d-759d-4dc9-98f4-ce04461a375b.png",
+    "references": [
+      "media/characters/rudra-singha/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-257-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Rudra_Singha",
+    "review": "Inspected for scene coherence, project character continuity, anatomy and period context; reconstruction limits in research.md."
+  },
+  {
+    "id": "AHOM-258",
+    "slug": "Rudra_Plans_Bengal_Campaign",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-31f19201-7ee2-4478-aac2-a467739800cd.png",
+    "references": [
+      "media/characters/rudra-singha/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-258-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Rudra_Singha",
+    "review": "Inspected for scene coherence, project character continuity, anatomy and period context; reconstruction limits in research.md."
+  },
+  {
+    "id": "AHOM-259",
+    "slug": "Death_of_Rudra_at_Guwahati",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-453a6c97-059c-4c64-bdd6-7b197eab3a3f.png",
+    "references": [
+      "media/characters/rudra-singha/turnaround-1.webp",
+      "media/characters/siva-singha/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-259-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Rudra_Singha; https://en.wikipedia.org/wiki/Sutanpha",
+    "review": "Inspected for scene coherence, project character continuity, anatomy and period context; reconstruction limits in research.md."
+  },
+  {
+    "id": "AHOM-260",
+    "slug": "Krishnaram_Parbatiya_Gosain",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-66d0cdf0-036d-49f1-8d9c-52ce31475e2a.png",
+    "references": [
+      "media/characters/krishnaram-bhattacharya/turnaround-1.webp",
+      "media/characters/siva-singha/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-260-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Sutanpha",
+    "review": "Visually inspected: distinct referenced people, temple context, scene coherence and anatomy."
+  },
+  {
+    "id": "AHOM-261",
+    "slug": "Painting_the_Hastividyarnava",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-6dfbf389-529c-460d-b06f-2f1d15d6837c.png",
+    "references": [
+      "media/characters/siva-singha/turnaround-1.webp",
+      "media/characters/ambika/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-261-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Hastividyarnava; https://en.wikipedia.org/wiki/Assamese_manuscript_painting",
+    "review": "Visually inspected: Siva and Ambika identity continuity, manuscript folios, two painters and writer, elephant outside workshop."
+  },
+  {
+    "id": "AHOM-262",
+    "slug": "Sarbeswari_Third_Bar_Raja",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-4f167ce8-f651-467d-a634-989e741a1c18.png",
+    "references": [
+      "media/characters/sarbeswari/turnaround-1.webp",
+      "media/characters/siva-singha/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-262-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Sutanpha",
+    "review": "Visually inspected: Sarbeswari distinctive head ornaments and textile, queen seated receiving state document, Siva standing, distinct extras."
+  },
+  {
+    "id": "AHOM-263",
+    "slug": "Rajeswar_Accession",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-ec655dcf-f35f-4930-8ee9-6b07a069dd62.png",
+    "references": [
+      "media/characters/rajeswar-singha/turnaround-1.webp",
+      "media/characters/kirti-chandra-borbarua/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-263-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Ahom_kingdom; https://en.wikipedia.org/wiki/Kirti_Chandra_Borbarua",
+    "review": "Visually inspected: Rajeswar seated, Kirti presenting order, appropriate court materials, Pramatta absent."
+  },
+  {
+    "id": "AHOM-264",
+    "slug": "Rebuilding_Kareng_Ghar",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-342fbadb-5d38-4b62-90df-8e974e97fef6.png",
+    "references": [
+      "media/characters/rajeswar-singha/turnaround-1.webp"
+    ],
+    "prompt_file": "research/tungkhungia-eleven/AHOM-264-prompt.txt",
+    "historical_sources": "https://en.wikipedia.org/wiki/Kareng_Ghar; https://en.wikipedia.org/wiki/Garhgaon",
+    "review": "Visually inspected: Rajeswar continuity, red brick palace massing, curved roof, bamboo scaffolds, lime mortar and plumb line; worksite and proportions interpretive."
+  }
+]

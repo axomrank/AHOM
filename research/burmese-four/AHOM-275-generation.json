@@ -1,0 +1,19 @@
+{
+  "id": "AHOM-275",
+  "slug": "Tilwa_After_Hadira_Chowki",
+  "main_people": "mingimaha-tilwa",
+  "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-a8a49925-4539-4b95-9f93-60657f8ee84e.png",
+  "references": [
+    "/home/angsuman/extra_spac/AHOM/media/characters/mingimaha-tilwa/turnaround-1.webp"
+  ],
+  "prompt": "Use case: historical-scene. ONE landscape1536x1024 naturalistic cinematic historical painting for AHOM. No text, captions, watermark, panels, montage or borders. Lifelike anatomy, restrained historical realism, handwoven cloth, period weapons and timber. Each multi-view character reference shows ONE PERSON: depict each identified character ONCE only, preserve face, hair and recognizable costume; do not reproduce sheet labels or duplicate views. Extras have varied distinct faces and plain muted cotton. Artistic reconstruction, not authenticated likenesses. No modern flags, modern firearms, fantasy armor, European castles, desert or Mughal marble palace. June\u2013July1822 aftermath of defeat at Hadira/Assam Chowki near western frontier. Exactly one Mingimaha Tilwa from sheet, distinctive mature Burmese moustached face, indigo coat dark trousers red sash engraved metal cuirass and rounded brimmed helmet with mail neckguard, stands on captured low earthen stockade platform beside river. A distinct Burmese officer offers a folded report; ordinary soldiers in muted maroon brown cotton secure abandoned muskets and timber gate. Far across wide composition at left, small unnamed surviving troops and civilians withdraw with bundles in simple wooden boats toward western bank; no recognizable Chandrakanta duplicated or captive king. Focus Tilwa consolidating command and reported elevation after victory, NOT a literal coronation, gold crown placement or authenticated proclamation ritual. Bagyidaw remains in Burma and MUST NOT appear. Assam river landscape with reeds, alluvial banks, broadleaf trees and low distant foothills, monsoon-heavy sky. No modern India\u2013Bangladesh border markers, British intervention troops, flags, torture or gore.",
+  "limitation": "Selects the captured-post aftermath and Tilwa\u2019s consolidation. June/July dating varies; no exact proclamation ceremony or personal presence of Bagyidaw is asserted. This military defeat is distinguished from the 1826 treaty.",
+  "method": "built-in image_gen",
+  "review": "Reviewed Tilwa identity, captured earthen stockade, retreating river traffic, period weapons, no invented crown ceremony or Bagyidaw.",
+  "title": "Defeat at Hadira Chowki; Tilwa Proclaimed Raja of Assam",
+  "date_label": "June\u2013July 1822",
+  "historical_sources": "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+  "additional_sources": [
+    "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+  ]
+}

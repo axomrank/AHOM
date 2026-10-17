@@ -1,0 +1,19 @@
+{
+  "id": "AHOM-273",
+  "slug": "Chandrakanta_Recovers_Guwahati",
+  "main_people": "chandrakanta-singha",
+  "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-d60c5a2e-0f17-45e2-b155-5430fb12d1f3.png",
+  "references": [
+    "/home/angsuman/extra_spac/AHOM/media/characters/chandrakanta-singha/turnaround-1.webp"
+  ],
+  "prompt": "Use case: historical-scene. ONE landscape1536x1024 naturalistic cinematic historical painting for AHOM. No text, captions, watermark, panels, montage or borders. Lifelike anatomy, restrained historical realism, handwoven cloth, period weapons and timber. Each multi-view character reference shows ONE PERSON: depict each identified character ONCE only, preserve face, hair and recognizable costume; do not reproduce sheet labels or duplicate views. Extras have varied distinct faces and plain muted cotton. Artistic reconstruction, not authenticated likenesses. No modern flags, modern firearms, fantasy armor, European castles, desert or Mughal marble palace. December1821 Chandrakanta recovers Guwahati after taking Assam Chowki in October. Exactly one Chandrakanta from sheet, young moustached face cream gold coat red sash cream feathered turban, mounted on realistic horse near a low earthen riverside gateway. He directs troops entering recovered Guwahati, not a triumphal coronation. Several distinct Sikh soldiers with full beards and wrapped practical blue/ochre turbans, simple long tunics and loose trousers, carry period flintlock muskets and sheathed curved swords; Assamese supporters in plain cotton with spears alongside. Not modern Sikh regiment uniforms or invented insignia. Distant Burmese rear guard withdrawing along riverbank, no identified Burmese general or personal duel. Brahmaputra wooden boats, wooded Guwahati hills and modest timber thatched settlement, cool dry-season morning. No modern skyline or later temple facades, no gore.",
+  "limitation": "Selects the December 1821 recovery of Guwahati, distinct from October\u2019s Assam Chowki action. Sikh participation is included; troop uniforms, gateway and deployment remain interpretive. Related accounts give January 1822 for the recovery; the catalogue retains December 1821.",
+  "method": "built-in image_gen",
+  "review": "Visually inspected: Chandrakanta identity, Sikh and Assamese troop distinction, period river settlement and coherent horse anatomy; no modern skyline or extra king.",
+  "title": "Chandrakanta Retakes Guwahati",
+  "date_label": "October\u2013December 1821",
+  "historical_sources": "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+  "additional_sources": [
+    "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+  ]
+}

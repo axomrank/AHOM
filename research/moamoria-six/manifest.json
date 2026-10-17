@@ -1,0 +1,145 @@
+[
+  {
+    "id": "AHOM-266",
+    "slug": "Bihu_Ambush_on_Gaurinath",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-d621b91f-8362-4131-9472-68f9612c9eb2.png",
+    "references": [
+      "research/moamoria-six/bihu-group-user-reference.jpg",
+      "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-266_Bihu_Ambush_on_Gaurinath.webp",
+      "media/characters/gaurinath-singha/turnaround-1.webp"
+    ],
+    "prompt": "Use case: historical-scene edit/remake. Create one landscape1536x1024 naturalistic cinematic historical painting, coherent scene, no text/watermark/border. Image1 is USER BIHU CULTURAL REFERENCE ONLY: use the troupe's visual language, NOT its specific faces, photograph layout, modern printing, caption or watermark. Image2 is PREVIOUS AMBUSH SCENE: retain historical narrative, nighttime Assam setting and main king identity but substantially recompose left/middle to show unmistakable Bihu celebration interrupted by ambush. Image3 is GAURINATH IDENTITY: depicts ONE man in multiple views, appear ONCE only. Preserve his face moustache cream turban gold brocade coat and red sash.\nApril1782 Bohag Bihu night, royal convoy attacked and king escaping. King remains foreground RIGHT, moving urgently into bamboo cover, two distinct plain-clothed loyal attendants guiding him by shoulder/forearm without restraining him as a prisoner. King alive upright, no wounds. In LEFT/MIDDLE foreground, a clearly readable Bihu troupe of Assamese women dancers and male musicians, large enough to recognize clothing/instruments. Three women in cream woven mekhela-chador with deep red woven borders/motifs over red blouses, tied hair with small red flowers, Assamese jewelry restrained, their curved arms and open palms recalling Bihu poses from image1; their dancing is visibly interrupted, expressions startled as they turn or step away, not smiling for camera while fighting occurs. Two male dhol players in cream dhoti and simple cream-red woven tunic/headband, real cylindrical double-headed rope-laced dhol slung at waist; one stops playing and looks toward commotion. Another male musician holds a recognizable curved buffalo-horn pepa with small reed mouthpiece, lowered in alarm. Men and women have varied distinct faces, no copying photograph individuals. Handwoven natural textiles, limited red motifs rather than modern identical printed stage uniforms; adapt reference respectfully to late18th-century material setting without claiming exact documented costumes.\nBehind troupe, halted EMPTY timber carrying litter and fallen ceremonial parasol, torchbearers recoiling, only two or three attackers in plain muted darker cotton emerging at rear edge of retinue with bamboo staves/practical sword. Bihu dancers/musicians are festival participants caught in confusion, not automatically identified as attackers. Weapons held away from dancers, no injury, gore or execution. Keep king's escape the narrative focus while the group makes Bihu unmistakable. Open humid Assam village path, broadleaf tree and bamboo, earthen ground, timber/thatch background; warm torches illuminate cream/red troupe and king against cool blue night. No boats/1788 river flight, no modern flags, camera-stage group portrait, fantasy armor or European palace. Avoid cloned faces, malformed hands, floating instruments and extra king in litter. Festival staging is an artistic reconstruction, not eyewitness evidence.",
+    "limitation": "Shows the king escaping the 1782 convoy ambush; route, litter and participants are reconstructed. No later river flight or named rebel command is implied.",
+    "method": "built-in image_gen",
+    "review": "Visually inspected: recognizable cream/red Bihu dancers with red blouses and floral hair, rope-laced dhol and curved pepa, interrupted celebration expressions, king identity and escape maintained, separate attackers, no copied watermark or lettering. Contemporary reference is cultural guidance, not proof of exact 1782 clothing.",
+    "title": "The Bihu Ambush on Gaurinath Singha",
+    "date_label": "April 1782",
+    "historical_sources": "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+    "additional_sources": [
+      "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+    ],
+    "final_asset": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-266_Bihu_Ambush_on_Gaurinath_v02.webp",
+    "previous_final_asset": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-266_Bihu_Ambush_on_Gaurinath.webp",
+    "remake": {
+      "id": "AHOM-266",
+      "method": "built-in image_gen",
+      "prompt": "Use case: historical-scene edit/remake. Create one landscape1536x1024 naturalistic cinematic historical painting, coherent scene, no text/watermark/border. Image1 is USER BIHU CULTURAL REFERENCE ONLY: use the troupe's visual language, NOT its specific faces, photograph layout, modern printing, caption or watermark. Image2 is PREVIOUS AMBUSH SCENE: retain historical narrative, nighttime Assam setting and main king identity but substantially recompose left/middle to show unmistakable Bihu celebration interrupted by ambush. Image3 is GAURINATH IDENTITY: depicts ONE man in multiple views, appear ONCE only. Preserve his face moustache cream turban gold brocade coat and red sash.\nApril1782 Bohag Bihu night, royal convoy attacked and king escaping. King remains foreground RIGHT, moving urgently into bamboo cover, two distinct plain-clothed loyal attendants guiding him by shoulder/forearm without restraining him as a prisoner. King alive upright, no wounds. In LEFT/MIDDLE foreground, a clearly readable Bihu troupe of Assamese women dancers and male musicians, large enough to recognize clothing/instruments. Three women in cream woven mekhela-chador with deep red woven borders/motifs over red blouses, tied hair with small red flowers, Assamese jewelry restrained, their curved arms and open palms recalling Bihu poses from image1; their dancing is visibly interrupted, expressions startled as they turn or step away, not smiling for camera while fighting occurs. Two male dhol players in cream dhoti and simple cream-red woven tunic/headband, real cylindrical double-headed rope-laced dhol slung at waist; one stops playing and looks toward commotion. Another male musician holds a recognizable curved buffalo-horn pepa with small reed mouthpiece, lowered in alarm. Men and women have varied distinct faces, no copying photograph individuals. Handwoven natural textiles, limited red motifs rather than modern identical printed stage uniforms; adapt reference respectfully to late18th-century material setting without claiming exact documented costumes.\nBehind troupe, halted EMPTY timber carrying litter and fallen ceremonial parasol, torchbearers recoiling, only two or three attackers in plain muted darker cotton emerging at rear edge of retinue with bamboo staves/practical sword. Bihu dancers/musicians are festival participants caught in confusion, not automatically identified as attackers. Weapons held away from dancers, no injury, gore or execution. Keep king's escape the narrative focus while the group makes Bihu unmistakable. Open humid Assam village path, broadleaf tree and bamboo, earthen ground, timber/thatch background; warm torches illuminate cream/red troupe and king against cool blue night. No boats/1788 river flight, no modern flags, camera-stage group portrait, fantasy armor or European palace. Avoid cloned faces, malformed hands, floating instruments and extra king in litter. Festival staging is an artistic reconstruction, not eyewitness evidence.",
+      "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-d621b91f-8362-4131-9472-68f9612c9eb2.png",
+      "references": [
+        "research/moamoria-six/bihu-group-user-reference.jpg",
+        "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-266_Bihu_Ambush_on_Gaurinath.webp",
+        "media/characters/gaurinath-singha/turnaround-1.webp"
+      ],
+      "review": "Visually inspected: recognizable cream/red Bihu dancers with red blouses and floral hair, rope-laced dhol and curved pepa, interrupted celebration expressions, king identity and escape maintained, separate attackers, no copied watermark or lettering. Contemporary reference is cultural guidance, not proof of exact 1782 clothing.",
+      "final_asset": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-266_Bihu_Ambush_on_Gaurinath_v02.webp",
+      "previous_final_asset": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-266_Bihu_Ambush_on_Gaurinath.webp",
+      "previous_project_asset_deleted": true
+    },
+    "superseded_generation": {
+      "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-ed8c06b5-1e6a-46d6-9791-3d083c363037.png",
+      "references": [
+        "/home/angsuman/extra_spac/AHOM/media/characters/gaurinath-singha/turnaround-1.webp"
+      ],
+      "prompt": "Use case: historical-scene. ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM, restrained realism, lifelike anatomy, no text, captions, labels, watermark, montage or border. Assam late18th/early19th century humid alluvial Brahmaputra valley, bamboo and broadleaf trees, handwoven cotton and silk, timber/bamboo/thatch buildings, period wooden boats. No European castle, desert, modern objects, modern flags or fantasy costume. Each referenced multi-view sheet depicts ONE PERSON: show that character ONCE only, preserve distinctive face, hair and clothes, never copy reference-sheet panels or lettering. Extras must have distinct faces and plain varied muted cotton attire. These are artistic identities, not authenticated likenesses. Moamoria is a religious/political movement across communities, not a uniform ethnic costume. April1782 Bihu-night surprise attack on Gaurinath's royal convoy. Exactly one Gaurinath from reference, same moustache face and cream-gold coat red sash and cream royal turban, is hurried off a muddy torchlit path toward bamboo cover by two distinct loyal attendants. Behind him a halted modest timber carrying litter, scattered ceremonial parasol and startled torchbearers; attackers in plain muted cotton emerge from the retinue carrying bamboo staves and practical swords. Convey surprise, flight and confusion, not a formal pitched battle. Gaurinath survives and escapes; upright, no injury or gore. No named rebel leaders whose presence is unproven, no later downstream royal-barge flight. Blue night and flickering torches.",
+      "review": "Reviewed Gaurinath identity, single king escaping, torchlit ambush, non-graphic action and bamboo setting."
+    },
+    "previous_project_asset_deleted": true
+  },
+  {
+    "id": "AHOM-267",
+    "slug": "Harihar_Tanti_Rising",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-7ed2bb08-ea41-454c-bd5a-0dcda624159d.png",
+    "references": [
+      "/home/angsuman/extra_spac/AHOM/media/characters/harihar-tanti/turnaround-1.webp"
+    ],
+    "prompt": "Use case: historical-scene. ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM, restrained realism, lifelike anatomy, no text, captions, labels, watermark, montage or border. Assam late18th/early19th century humid alluvial Brahmaputra valley, bamboo and broadleaf trees, handwoven cotton and silk, timber/bamboo/thatch buildings, period wooden boats. No European castle, desert, modern objects, modern flags or fantasy costume. Each referenced multi-view sheet depicts ONE PERSON: show that character ONCE only, preserve distinctive face, hair and clothes, never copy reference-sheet panels or lettering. Extras must have distinct faces and plain varied muted cotton attire. These are artistic identities, not authenticated likenesses. Moamoria is a religious/political movement across communities, not a uniform ethnic costume. 1786 later uprising in the north-bank foothill zone, distinct from first revolt1769. Exactly one Harihar from reference, lean middle-aged man with narrow moustached face, white short tunic and dhoti, pale red-bordered headcloth, dark blue waist sash, addresses diverse rural followers beside a narrow river landing at foot of low forested hills. Men with staves, spears, cane shields and a few period matchlocks prepare small wooden boats; women gather travel bundles nearby, all distinct faces. Somber urgency rather than triumphant fantasy. A thin distant smoke plume suggests regional destruction but no visible named satra or personal arson by Harihar; do NOT show Harihar lighting a monastery. Majuli and foothills are NOT composited into one exact identifiable site, no snowy Himalayas. Clouded humid daylight.",
+    "limitation": "Selects Harihar\u2019s mobilisation rather than attributing a specific satra burning to his personal presence. Sources differ on Harihar/Hawha and their geographic roles; no alias is imposed.",
+    "method": "built-in image_gen",
+    "review": "Reviewed Harihar identity, diverse followers, north-bank mobilisation and distant smoke without personal arson depiction.",
+    "title": "Harihar Tanti's Rising and the Burning of the Majuli Satras",
+    "date_label": "1786",
+    "historical_sources": "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+    "additional_sources": [
+      "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+      "https://www.floridaconferenceofhistorians.org/uploads/1/8/2/8/18284773/fch_vol_18.pdf"
+    ],
+    "final_asset": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-267_Harihar_Tanti_Rising.webp"
+  },
+  {
+    "id": "AHOM-268",
+    "slug": "Bharat_Singha_at_Rangpur",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-7337d23c-cf69-46ed-9e94-e9bb4cb5b070.png",
+    "references": [
+      "/home/angsuman/extra_spac/AHOM/media/characters/bharat-singha/turnaround-1.webp"
+    ],
+    "prompt": "Use case: historical-scene. ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM, restrained realism, lifelike anatomy, no text, captions, labels, watermark, montage or border. Assam late18th/early19th century humid alluvial Brahmaputra valley, bamboo and broadleaf trees, handwoven cotton and silk, timber/bamboo/thatch buildings, period wooden boats. No European castle, desert, modern objects, modern flags or fantasy costume. Each referenced multi-view sheet depicts ONE PERSON: show that character ONCE only, preserve distinctive face, hair and clothes, never copy reference-sheet panels or lettering. Extras must have distinct faces and plain varied muted cotton attire. These are artistic identities, not authenticated likenesses. Moamoria is a religious/political movement across communities, not a uniform ethnic costume. Late1780s\u2013early1790s Bharat Singha installed as rebel ruler at Rangpur. Exactly one Bharat from reference, strong moustache, mustard knee-length coat, red waist sash, pale shoulder cloth with red bands and mustard turban, sits upright on a modest carved timber seat on low dais in weathered former royal audience pavilion. Plain-clothed rebel representatives respectfully present shallow tray of small silver coins and folded state papers. No literal crown-placement ceremony, no huge gold crown absent from reference, no European regalia, no giant magnified legible coins. Coins small, softly detailed, not claimed historical facsimiles. Slight damage and repaired timber at edges suggest disrupted Rangpur, not burning ruins filling room. Gaurinath is in exile and MUST NOT appear; Ramakanta and Sarbananda MUST NOT be confused with Bharat. Daylight, restrained authority.",
+    "limitation": "An imagined installation audience at Rangpur, not a documented coronation ritual. Coinage supports Bharat\u2019s rulership but does not establish one exact accession year; miniature coins are not facsimiles.",
+    "method": "built-in image_gen",
+    "review": "Reviewed Bharat identity and mustard dress, modest audience, small non-facsimile coins and absence of Gaurinath.",
+    "title": "Bharat Singha Crowned at Rangpur",
+    "date_label": "c. 1791",
+    "historical_sources": "https://en.wikipedia.org/wiki/Moamoria_rebellion",
+    "additional_sources": [
+      "https://www.floridaconferenceofhistorians.org/uploads/1/8/2/8/18284773/fch_vol_18.pdf"
+    ],
+    "final_asset": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-268_Bharat_Singha_at_Rangpur.webp"
+  },
+  {
+    "id": "AHOM-269",
+    "slug": "Sarbananda_Founds_Bengmara",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-eeb57c7a-673a-498d-a261-37a14de27639.png",
+    "references": [
+      "/home/angsuman/extra_spac/AHOM/media/characters/sarbananda-singha/turnaround-1.webp"
+    ],
+    "prompt": "Use case: historical-scene. ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM, restrained realism, lifelike anatomy, no text, captions, labels, watermark, montage or border. Assam late18th/early19th century humid alluvial Brahmaputra valley, bamboo and broadleaf trees, handwoven cotton and silk, timber/bamboo/thatch buildings, period wooden boats. No European castle, desert, modern objects, modern flags or fantasy costume. Each referenced multi-view sheet depicts ONE PERSON: show that character ONCE only, preserve distinctive face, hair and clothes, never copy reference-sheet panels or lettering. Extras must have distinct faces and plain varied muted cotton attire. These are artistic identities, not authenticated likenesses. Moamoria is a religious/political movement across communities, not a uniform ethnic costume. 1791 transfer of Sarbananda's centre to Bengmara, present-day Tinsukia. Exactly one Sarbananda from reference, mature moustached face, white cotton wrap and tunic, dark green sash, cream green-bordered headcloth, stands beside modest newly built timber-and-bamboo administrative pavilion. He discusses settlement layout with an anonymous local organiser pointing to wooden stakes; carpenters raise posts, households arrive with baskets and cloth bundles, a scribe sets down tied records. Broad water tank edge visible to side and damp Upper Assam plain, bamboo groves, distant thatched hamlet. Evoke civic founding and settlement, not a battlefield or giant stone palace. Do not claim exact original town plan, tank shape or Godha portrait. No Bharat or Gaurinath present. Clear morning.",
+    "limitation": "Bengmara\u2019s founding is supported by the Tinsukia district account. Town layout, building work and tank setting are illustrative; no exact original site plan or named minister\u2019s likeness is asserted.",
+    "method": "built-in image_gen",
+    "review": "Reviewed Sarbananda identity, Bengmara civic construction and illustrative tank/settlement context.",
+    "title": "Sarbananda Singha's Capital at Bengmara",
+    "date_label": "1791",
+    "historical_sources": "https://en.wikipedia.org/wiki/Sarbananda_Singha; https://en.wikipedia.org/wiki/Matak_rajya",
+    "additional_sources": [
+      "https://tinsukia.assam.gov.in/about-us/history"
+    ],
+    "final_asset": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-269_Sarbananda_Founds_Bengmara.webp"
+  },
+  {
+    "id": "AHOM-270",
+    "slug": "Court_Relocates_to_Jorhat",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-a1d2317c-8622-4916-9e38-cf667d38ad35.png",
+    "references": [
+      "/home/angsuman/extra_spac/AHOM/media/characters/purnananda-burhagohain/turnaround-1.webp"
+    ],
+    "prompt": "Use case: historical-scene. ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM, restrained realism, lifelike anatomy, no text, captions, labels, watermark, montage or border. Assam late18th/early19th century humid alluvial Brahmaputra valley, bamboo and broadleaf trees, handwoven cotton and silk, timber/bamboo/thatch buildings, period wooden boats. No European castle, desert, modern objects, modern flags or fantasy costume. Each referenced multi-view sheet depicts ONE PERSON: show that character ONCE only, preserve distinctive face, hair and clothes, never copy reference-sheet panels or lettering. Extras must have distinct faces and plain varied muted cotton attire. These are artistic identities, not authenticated likenesses. Moamoria is a religious/political movement across communities, not a uniform ethnic costume. c1794 relocation of Ahom administration to Jorhat/Dichoi, distinct from emergency royal flight1788. Exactly one Purnananda from reference, elderly angular face grey moustache, mustard turban, white layered cotton drape, dark waist sash, supervises unloading administrative records at modest timber riverside landing on Bhogdoi. Porters carry closed wooden chests and tied bark manuscript bundles from narrow cargo boats toward a new open-sided thatched office; scribes arrange records, builders repair posts, market hamlet in background. Focus organised transfer and rebuilding government, no blaze, no king in royal procession, no British officers. Gaurinath NOT physically present because chronology/attendance uncertain. No later modern Jorhat architecture, no Rangpur palace teleported to riverbank. Soft overcast daylight.",
+    "limitation": "Shows administrative relocation under Purnananda rather than a single authenticated royal arrival. Sources differ on the timing and Gaurinath chronology; he is not physically depicted.",
+    "method": "built-in image_gen",
+    "review": "Reviewed Purnananda elder identity, records transfer and new administrative buildings; Gaurinath absent.",
+    "title": "The Capital Moves from Rangpur to Jorhat",
+    "date_label": "1794",
+    "historical_sources": "https://en.wikipedia.org/wiki/Ahom_kingdom; https://en.wikipedia.org/wiki/Timeline_of_Jorhat",
+    "additional_sources": [
+      "https://tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf",
+      "https://jorhat.assam.gov.in/about-us/history-jorhat"
+    ],
+    "final_asset": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-270_Court_Relocates_to_Jorhat.webp"
+  },
+  {
+    "id": "AHOM-271",
+    "slug": "Matak_Autonomy_Settlement",
+    "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-d7616247-f68b-47f9-b46a-ce683b38a30e.png",
+    "references": [
+      "/home/angsuman/extra_spac/AHOM/media/characters/sarbananda-singha/turnaround-1.webp"
+    ],
+    "prompt": "Use case: historical-scene. ONE landscape 1536x1024 cinematic naturalistic historical painting for AHOM, restrained realism, lifelike anatomy, no text, captions, labels, watermark, montage or border. Assam late18th/early19th century humid alluvial Brahmaputra valley, bamboo and broadleaf trees, handwoven cotton and silk, timber/bamboo/thatch buildings, period wooden boats. No European castle, desert, modern objects, modern flags or fantasy costume. Each referenced multi-view sheet depicts ONE PERSON: show that character ONCE only, preserve distinctive face, hair and clothes, never copy reference-sheet panels or lettering. Extras must have distinct faces and plain varied muted cotton attire. These are artistic identities, not authenticated likenesses. Moamoria is a religious/political movement across communities, not a uniform ethnic costume. Settlement conventionally dated1805 recognising Matak autonomy at Bengmara. Exactly one Sarbananda from reference, same mature moustached face white cotton green sash cream green-bordered headcloth, slightly older with subtle grey, seated at low wooden desk inside modest open timber pavilion. He receives a folded state communication from a distinct anonymous Ahom envoy in plain cream cotton and muted brown headcloth. Scribe beside them records the agreement, tied records and modest measured rice bundles and brass bowls suggest annual tribute obligation without invented quantities. Two unarmed local representatives watch, calm wary diplomacy after prolonged conflict. Purnananda MUST NOT personally appear: envoy represents his government, no claim of documented personal meeting. No modern treaty text, flags, pen nibs, British officiant, handcuffs or surrender humiliation. Green Bengmara landscape and rebuilt homes beyond, warm quiet afternoon.",
+    "limitation": "An envoy-mediated interpretation of the autonomy agreement, conventionally dated 1805. Exact participants and ceremony are not established; sources differ on Sarbananda/Matibar succession and settlement chronology.",
+    "method": "built-in image_gen",
+    "review": "Visually inspected: Sarbananda continuity, anonymous envoy rather than Purnananda, period records and non-quantified tribute context.",
+    "title": "Matak Autonomy: Sarbananda Made Barsenapati",
+    "date_label": "1805",
+    "historical_sources": "https://en.wikipedia.org/wiki/Moamoria_rebellion; https://en.wikipedia.org/wiki/Matak_rajya",
+    "additional_sources": [
+      "https://en.wikipedia.org/wiki/Matak_rajya"
+    ],
+    "final_asset": "media/scenes/ahom/1769-1817-moamoria-rebellions/AHOM-271_Matak_Autonomy_Settlement.webp"
+  }
+]

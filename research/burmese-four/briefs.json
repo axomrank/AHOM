@@ -1,0 +1,44 @@
+[
+  {
+    "id": "AHOM-272",
+    "slug": "Badan_Chandra_Appeals_to_Bodawpaya",
+    "refs": [
+      "badan-chandra-borphukan",
+      "bodawpaya"
+    ],
+    "main": "badan-chandra-borphukan; bodawpaya",
+    "scene": "1816 Badan Chandra appeals at the Konbaung royal court, conventionally called court of Ava, not a literal archaeological reconstruction of Inwa. Exactly one Badan from image1, mature moustache, red woven headcloth cream long cotton tunic red sash, kneels respectfully on woven mat in foreground left presenting a folded petition on shallow tray. His dao remains sheathed and laid aside. Exactly one elderly Bodawpaya from image2, aged Burmese face, maroon gold ceremonial robe and broad gilded royal headdress, sits on raised gilded carved timber throne toward right. Two distinct Burmese officials attend in subdued traditional court dress. Rich teak hall, vermilion lacquer posts, gilded carved timber details, broad open doors, tropical light. Single audience seeking military assistance, no British officials, no Purnananda present, no army invading behind throne, no modern treaty writing. King Bodawpaya must NOT become youthful Bagyidaw. Restrained tense diplomacy.",
+    "limit": "Depicts Badan Chandra’s appeal in 1816. Court layout and petition ceremony are reconstructed; ‘Ava’ is used conventionally, not as proof of the exact palace site. Purnananda is historical context and absent."
+  },
+  {
+    "id": "AHOM-273",
+    "slug": "Chandrakanta_Recovers_Guwahati",
+    "refs": [
+      "chandrakanta-singha"
+    ],
+    "main": "chandrakanta-singha",
+    "scene": "December1821 Chandrakanta recovers Guwahati after taking Assam Chowki in October. Exactly one Chandrakanta from sheet, young moustached face cream gold coat red sash cream feathered turban, mounted on realistic horse near a low earthen riverside gateway. He directs troops entering recovered Guwahati, not a triumphal coronation. Several distinct Sikh soldiers with full beards and wrapped practical blue/ochre turbans, simple long tunics and loose trousers, carry period flintlock muskets and sheathed curved swords; Assamese supporters in plain cotton with spears alongside. Not modern Sikh regiment uniforms or invented insignia. Distant Burmese rear guard withdrawing along riverbank, no identified Burmese general or personal duel. Brahmaputra wooden boats, wooded Guwahati hills and modest timber thatched settlement, cool dry-season morning. No modern skyline or later temple facades, no gore.",
+    "limit": "Selects the December 1821 recovery of Guwahati, distinct from October’s Assam Chowki action. Sikh participation is included; troop uniforms, gateway and deployment remain interpretive."
+  },
+  {
+    "id": "AHOM-274",
+    "slug": "Defeat_at_Mahgarh",
+    "refs": [
+      "chandrakanta-singha",
+      "maha-bandula"
+    ],
+    "main": "chandrakanta-singha; maha-bandula",
+    "scene": "April1822 defeat of Chandrakanta near Mahgarh/Jorhat after his March camp. Exactly one Chandrakanta from image1 in foreground left, same young moustached face royal cream gold coat red sash and turban, directs his exhausted Sikh and Assamese troops to withdraw across a damaged EARTHEN rampart and timber palisade. He remains alive, on foot helping coordinate retreat, not killed. Distinct Sikh bearded soldiers in plain wrapped turbans and long cotton tunics carry period muskets, Assamese supporters with shields, no gore or piles of corpses. Across open churned field, exactly one Maha Bandula from image2 appears at middle-distance right with readable dark moustached face, dark bronze cuirass and rounded brimmed helmet over maroon coat, directing advancing Burmese troops with spears and period muskets. Clear spatial separation: NO invented personal sword duel. Flat humid Upper Assam agricultural plain, bamboo and low woodland, smoke haze, broken cloud. No mountains surrounding Jorhat, no later city buildings, no Bagyidaw or Tilwa physically present.",
+    "limit": "Campaign roles follow the catalogue and Jorhat district account. Exact battlefield layout and Bandula’s depicted position are reconstructed. The painting does not assert a personal encounter or duel with Chandrakanta."
+  },
+  {
+    "id": "AHOM-275",
+    "slug": "Tilwa_After_Hadira_Chowki",
+    "refs": [
+      "mingimaha-tilwa"
+    ],
+    "main": "mingimaha-tilwa",
+    "scene": "June–July1822 aftermath of defeat at Hadira/Assam Chowki near western frontier. Exactly one Mingimaha Tilwa from sheet, distinctive mature Burmese moustached face, indigo coat dark trousers red sash engraved metal cuirass and rounded brimmed helmet with mail neckguard, stands on captured low earthen stockade platform beside river. A distinct Burmese officer offers a folded report; ordinary soldiers in muted maroon brown cotton secure abandoned muskets and timber gate. Far across wide composition at left, small unnamed surviving troops and civilians withdraw with bundles in simple wooden boats toward western bank; no recognizable Chandrakanta duplicated or captive king. Focus Tilwa consolidating command and reported elevation after victory, NOT a literal coronation, gold crown placement or authenticated proclamation ritual. Bagyidaw remains in Burma and MUST NOT appear. Assam river landscape with reeds, alluvial banks, broadleaf trees and low distant foothills, monsoon-heavy sky. No modern India–Bangladesh border markers, British intervention troops, flags, torture or gore.",
+    "limit": "Selects the captured-post aftermath and Tilwa’s consolidation. June/July dating varies; no exact proclamation ceremony or personal presence of Bagyidaw is asserted. This military defeat is distinguished from the 1826 treaty."
+  }
+]

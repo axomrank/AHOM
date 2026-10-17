@@ -1,0 +1,20 @@
+{
+  "id": "AHOM-272",
+  "slug": "Badan_Chandra_Appeals_to_Bodawpaya",
+  "main_people": "badan-chandra-borphukan; bodawpaya",
+  "generated_path": "/home/angsuman/.codex/generated_images/01a14899-e063-7672-89a4-90ecd0de17e5/exec-976932de-ad5d-4244-8316-8dd1ffdb03b0.png",
+  "references": [
+    "/home/angsuman/extra_spac/AHOM/media/characters/badan-chandra-borphukan/turnaround-1.webp",
+    "/home/angsuman/extra_spac/AHOM/media/characters/bodawpaya/turnaround-1.webp"
+  ],
+  "prompt": "Use case: historical-scene. ONE landscape1536x1024 naturalistic cinematic historical painting for AHOM. No text, captions, watermark, panels, montage or borders. Lifelike anatomy, restrained historical realism, handwoven cloth, period weapons and timber. Each multi-view character reference shows ONE PERSON: depict each identified character ONCE only, preserve face, hair and recognizable costume; do not reproduce sheet labels or duplicate views. Extras have varied distinct faces and plain muted cotton. Artistic reconstruction, not authenticated likenesses. No modern flags, modern firearms, fantasy armor, European castles, desert or Mughal marble palace. 1816 Badan Chandra appeals at the Konbaung royal court, conventionally called court of Ava, not a literal archaeological reconstruction of Inwa. Exactly one Badan from image1, mature moustache, red woven headcloth cream long cotton tunic red sash, kneels respectfully on woven mat in foreground left presenting a folded petition on shallow tray. His dao remains sheathed and laid aside. Exactly one elderly Bodawpaya from image2, aged Burmese face, maroon gold ceremonial robe and broad gilded royal headdress, sits on raised gilded carved timber throne toward right. Two distinct Burmese officials attend in subdued traditional court dress. Rich teak hall, vermilion lacquer posts, gilded carved timber details, broad open doors, tropical light. Single audience seeking military assistance, no British officials, no Purnananda present, no army invading behind throne, no modern treaty writing. King Bodawpaya must NOT become youthful Bagyidaw. Restrained tense diplomacy.",
+  "limitation": "Depicts Badan Chandra\u2019s appeal in 1816. Court layout and petition ceremony are reconstructed; \u2018Ava\u2019 is used conventionally, not as proof of the exact palace site. Purnananda is historical context and absent.",
+  "method": "built-in image_gen",
+  "review": "Reviewed distinct Badan Chandra and elderly Bodawpaya identities, petition staging, teak/lacquer/gilded court context, no Bagyidaw or Purnananda.",
+  "title": "Badan Chandra Borphukan Goes to the Court of Ava",
+  "date_label": "1815\u20131816",
+  "historical_sources": "https://en.wikipedia.org/wiki/Burmese_invasions_of_Assam",
+  "additional_sources": [
+    "https://www.tripurauniv.ac.in/site/images/pdf/StudyMaterialsDetail/BA-4TH%28History%29-History%20of%20Tripura%20and%20Assam.pdf"
+  ]
+}
