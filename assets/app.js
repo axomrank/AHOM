@@ -108,7 +108,7 @@
 
   function home() {
     setTitle("");
-    const hero = A.reels.find(r => r.id === "02-crossing-patkai");
+    const hero = A.reels.find(r => r.id === "02-sukaphaa-crosses-the-patkai");
     const kings = new Set(A.reigns.map(r => r.id)).size;
     view.innerHTML = `
     <section class="hero" aria-labelledby="hero-title">
@@ -134,8 +134,8 @@
     </div>
     <section class="films" aria-labelledby="films-title">
       <div class="films-head">
-        <h2 id="films-title">Seven short films</h2>
-        <p>Ten-second scenes from the founding of the kingdom, with Assamese dialogue. Tap one to play it with sound.</p>
+        <h2 id="films-title">${A.reels.length} short films</h2>
+        <p>Ten-second scenes from the chronicles, from Sukaphaa’s journey to Mula Gabharu’s last stand, in the order they happened. Tap one to play it with sound.</p>
       </div>
       <ul class="film-row">${A.reels.map(r => `<li>
         <button type="button" class="reel" data-reel="${r.id}" aria-label="Play ${esc(r.title)}">

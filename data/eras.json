@@ -14,7 +14,7 @@
       ],
       "moments": ["AHOM-006", "AHOM-017", "AHOM-066"],
       "people": ["sukaphaa", "badaucha", "thakumatha", "sukhaangphaa", "sudangphaa", "susenphaa"],
-      "reel": "04-bor-axom"
+      "reel": "04-bor-axom-sukaphaa-badaucha-thakumatha"
     },
     {
       "id": "expansion",
@@ -29,7 +29,7 @@
       ],
       "moments": ["AHOM-094", "AHOM-100", "AHOM-113"],
       "people": ["suhungmung", "konseng", "mula-gabharu", "turbak", "suklenmung", "sukhaamphaa", "chilarai"],
-      "reel": "07-mula-gabharu"
+      "reel": "27-last-battle-mula-gabharu"
     },
     {
       "id": "mughal",
@@ -117,12 +117,32 @@
     }
   ],
   "reels": [
-    {"id": "01-journey-begins", "title": "The journey begins", "year": "1215", "line": "নতুন দেশ বিচাৰি যাম।", "translation": "I will go and find a new land."},
-    {"id": "02-crossing-patkai", "title": "Crossing the Patkai", "year": "1215–1228", "line": "এই পাহাৰৰ সিপাৰেই আমাৰ ভৱিষ্যত।", "translation": "Our future lies beyond these hills."},
-    {"id": "03-naga-chief", "title": "The Naga chiefs", "year": "1228", "line": "", "translation": ""},
-    {"id": "04-bor-axom", "title": "Building Bor Axom", "year": "1230s", "line": "আজিৰ পৰা আমি সকলো এক।", "translation": "From today, we are all one."},
-    {"id": "05-throne", "title": "Sukaphaa on the throne", "year": "1253", "line": "", "translation": ""},
-    {"id": "06-royal-banner", "title": "The royal banner", "year": "1253", "line": "ইয়াতেই হ'ব আমাৰ ৰাজধানী — চৰাইদেউ।", "translation": "Here will be our capital: Charaideo."},
-    {"id": "07-mula-gabharu", "title": "Mula Gabharu", "year": "1533", "line": "", "translation": ""}
+    {"id": "01-sukaphaa-leaves-mong-mao", "title": "Sukaphaa leaves Mong Mao", "year": "1215", "line": "নতুন দেশ বিচাৰি যাম।", "translation": "I will go and find a new land."},
+    {"id": "02-sukaphaa-crosses-the-patkai", "title": "Sukaphaa crosses the Patkai", "year": "1215–1228", "line": "এই পাহাৰৰ সিপাৰেই আমাৰ ভৱিষ্যত।", "translation": "Our future lies beyond these hills."},
+    {"id": "03-sukaphaa-meets-the-naga-chiefs", "title": "Sukaphaa meets the Naga chiefs", "year": "1228", "line": "", "translation": ""},
+    {"id": "04-bor-axom-sukaphaa-badaucha-thakumatha", "title": "Sukaphaa, Badaucha and Thakumatha found Bor Axom", "year": "1230s", "line": "আজিৰ পৰা আমি সকলো এক।", "translation": "From today, we are all one."},
+    {"id": "05-moran-borahi-festival-sukaphaa", "title": "Sukaphaa feasts with the Moran and Borahi", "year": "1235–1240", "line": "", "translation": ""},
+    {"id": "06-wet-rice-fields-sukaphaa", "title": "Sukaphaa in the new rice fields", "year": "c. 1240–1250", "line": "", "translation": ""},
+    {"id": "07-road-to-charaideo-sukaphaa", "title": "Sukaphaa’s road to Charaideo", "year": "1215–1253", "line": "", "translation": ""},
+    {"id": "08-throne-sukaphaa", "title": "Sukaphaa on the throne", "year": "1253", "line": "", "translation": ""},
+    {"id": "09-royal-banner-sukaphaa", "title": "Sukaphaa plants the royal banner", "year": "1253", "line": "ইয়াতেই হ'ব আমাৰ ৰাজধানী — চৰাইদেউ।", "translation": "Here will be our capital: Charaideo."},
+    {"id": "10-charaideo-capital-sukaphaa", "title": "Charaideo, Sukaphaa’s capital", "year": "1253", "line": "", "translation": ""},
+    {"id": "11-last-words-sukaphaa", "title": "Sukaphaa’s last words", "year": "1268", "line": "", "translation": ""},
+    {"id": "12-accession-suteuphaa", "title": "Suteuphaa takes the throne", "year": "1268", "line": "", "translation": ""},
+    {"id": "13-dikhou-standoff-suteuphaa", "title": "Suteuphaa on the Dikhou frontier", "year": "c. 1270", "line": "", "translation": ""},
+    {"id": "14-dikhou-treaty-suteuphaa-kachari-king", "title": "Suteuphaa’s treaty with the Kachari king", "year": "c. 1275", "line": "", "translation": ""},
+    {"id": "15-naga-clans-conspire", "title": "The Naga clans conspire", "year": "c. 1277", "line": "", "translation": ""},
+    {"id": "16-naga-tribute-suteuphaa", "title": "The Naga chiefs submit to Suteuphaa", "year": "c. 1279", "line": "", "translation": ""},
+    {"id": "17-kamata-war-sukhaangphaa", "title": "Sukhaangphaa marches on Kamata", "year": "c. 1305", "line": "", "translation": ""},
+    {"id": "18-royal-wedding-sukhaangphaa-rajani", "title": "Sukhaangphaa weds Rajani of Kamata", "year": "c. 1308", "line": "", "translation": ""},
+    {"id": "19-birth-of-chao-pulai-rajani", "title": "Rajani gives birth to Chao Pulai", "year": "c. 1310", "line": "", "translation": ""},
+    {"id": "20-naming-chao-pulai-sukhaangphaa", "title": "Sukhaangphaa names his son Chao Pulai", "year": "c. 1310", "line": "", "translation": ""},
+    {"id": "21-secret-pact-chao-pulai", "title": "Chao Pulai’s secret pact with Kamata", "year": "c. 1335", "line": "", "translation": ""},
+    {"id": "22-sadiya-governor-sukhrangphaa-chao-pulai", "title": "Sukhrangphaa makes Chao Pulai governor of Sadiya", "year": "c. 1339", "line": "", "translation": ""},
+    {"id": "23-empty-throne-burhagohain-borgohain", "title": "The ministers keep the empty throne", "year": "1364–1369", "line": "", "translation": ""},
+    {"id": "24-safrai-summit-sutuphaa-chutia-king", "title": "Sutuphaa meets the Chutia king on the Safrai", "year": "1376", "line": "", "translation": ""},
+    {"id": "25-ministers-rule-burhagohain-borgohain", "title": "The Burhagohain and Borgohain rule", "year": "1376–1380", "line": "", "translation": ""},
+    {"id": "26-chutia-campaign-tyao-khamti", "title": "Tyao Khamti marches on the Chutias", "year": "1380–1387", "line": "", "translation": ""},
+    {"id": "27-last-battle-mula-gabharu", "title": "Mula Gabharu’s last battle", "year": "1533", "line": "", "translation": ""}
   ]
 }
