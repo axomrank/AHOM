@@ -93,6 +93,15 @@
     </section>`;
   }
 
+  // the hero's still: the scene chosen for the front of the site, a wide torn print with its caption
+  function heroStill(id) {
+    const s = S[id], pic = s.images[0];
+    return `<figure class="hero-still">
+      <div class="hero-still-frame"><img src="${esc(pic[0])}" srcset="${esc(pic[1])} 420w, ${esc(pic[0])} 1536w" sizes="(min-width: 860px) 55vw, 100vw" alt="${esc(s.title)}" width="1536" height="1024"></div>
+      <figcaption><span>${esc(s.title)}</span><span class="film-year">${dash(s.date || "")}</span></figcaption>
+    </figure>`;
+  }
+
   function film(r, cls) {
     return `<figure class="film ${cls}">
       <div class="film-frame">
@@ -106,14 +115,53 @@
     </figure>`;
   }
 
+  // the Ahom crest in relief: stacked gilt copies of the traced crest, each a little deeper, tilted in 3D
+  function relief() {
+    const layers = Array.from({ length: 10 }, (_, i) => `<div class="crest crest--bare relief-layer" style="--i:${i}"></div>`).join("");
+    return `<div class="relief-wrap"><div class="relief" role="img" aria-label="The Ahom crest: a gilt beast in a lobed cartouche">${layers}</div></div>`;
+  }
+
+  // the scalloped cartouche of the royal seal: a lobed outline with a dotted rim, the word set inside
+  function scallop(cx, cy, rx, ry, n, bulge) {
+    const pts = Array.from({ length: n }, (_, i) => {
+      const a = 2 * Math.PI * i / n;
+      return [cx + rx * Math.cos(a), cy + ry * Math.sin(a)];
+    });
+    const f = v => v.toFixed(1);
+    let d = `M${f(pts[0][0])},${f(pts[0][1])}`;
+    for (let i = 1; i <= n; i++) {
+      const p = pts[i % n];
+      d += ` A${f(bulge)},${f(bulge)} 0 0 1 ${f(p[0])},${f(p[1])}`;
+    }
+    return d + "Z";
+  }
+  function cartouche(word) {
+    const outer = scallop(110, 60, 98, 52, 12, 22), inner = scallop(110, 60, 84, 42, 12, 16);
+    return `<div class="cartouche" aria-hidden="true"><svg viewBox="0 0 220 120" focusable="false"><path class="rim" d="${outer}"/><path class="rim rim-in" d="${inner}"/></svg><span lang="as">${esc(word)}</span></div>`;
+  }
+
+  // the forty-one reigns laid on one red line, as the chronicle counts them
+  function reignLine() {
+    const span = LAST - FIRST;
+    const pct = y => ((y - FIRST) / span * 100).toFixed(3);
+    const marks = A.reigns.map(r => `<i style="left:${pct(r.start)}%;width:${Math.max(0.4, (r.end - r.start) / span * 100).toFixed(3)}%" title="${esc(P[r.id].name)}, ${r.start === r.end ? r.start : `${r.start}–${r.end}`}"></i>`).join("");
+    const ticks = [1300, 1400, 1500, 1600, 1700, 1800].map(y => `<span style="left:${pct(y)}%">${y}</span>`).join("");
+    return `<section class="reign-line" aria-label="The forty-one reigns, 1228 to 1838">
+      <a class="rl-track" href="#/kings" aria-label="All forty-one reigns">${marks}</a>
+      <div class="rl-ticks" aria-hidden="true">${ticks}</div>
+    </section>`;
+  }
+
   function home() {
     setTitle("");
     const hero = A.reels.find(r => r.id === "02-sukaphaa-crosses-the-patkai");
     const kings = new Set(A.reigns.map(r => r.id)).size;
     view.innerHTML = `
     <section class="hero" aria-labelledby="hero-title">
-      ${bgWord("আহোম", "hero-word")}
+      <figure class="hero-back" aria-hidden="true"><img src="media/characters/sukaphaa/portrait-2.webp" alt="" width="1024" height="1536" decoding="async"></figure>
       <div class="hero-text">
+        ${relief()}
+        <p class="hero-as" lang="as">আহোম</p>
         <p class="hero-dates">1228<span aria-hidden="true"></span>1838</p>
         <h1 id="hero-title">Six hundred years on the Brahmaputra</h1>
         <p class="lede">In 1228 a Tai prince named Sukaphaa crossed the Patkai hills into Assam. His line ruled the valley for six centuries, held off the Mughal Empire and fell only to Burmese armies and a British treaty. This is their story, chapter by chapter.</p>
@@ -122,9 +170,8 @@
           <a class="btn" href="#/kings">See all ${A.reigns.length} reigns</a>
         </div>
       </div>
-      ${film(hero, "hero-film")}
     </section>
-    <div class="weave" aria-hidden="true"></div>
+    ${reignLine()}
     <div class="saga">
       <nav class="rail" aria-label="Chapters of the saga">
         <p class="rail-year" aria-hidden="true">1228</p>
@@ -610,6 +657,7 @@
       watchFilms();
     }
     $$("[data-nav]").forEach(a => a.toggleAttribute("aria-current", a.dataset.nav === (page === "person" ? "people" : page)));
+    document.body.dataset.route = page === "saga" ? "home" : page;
 
     if (page === "saga" && parts[1] && ERA[parts[1]]) {
       const target = $(`#ch-${parts[1]}`);
@@ -621,6 +669,29 @@
     }
     traversing = false;
   }
+
+
+  // the welcome: the throne film's own sound, played once when the site opens. Browsers only let sound start
+  // after a press or key, so if the first attempt is refused it starts on the reader's first touch.
+  // The header button turns it on and off.
+  function welcome() {
+    const btn = $(".sound-toggle");
+    if (!btn) return;
+    const a = new Audio("assets/welcome.mp3");
+    a.volume = 0.7;
+    let on = false;
+    const show = v => { on = v; btn.setAttribute("aria-pressed", String(v)); btn.textContent = v ? "Sound off" : "Sound on"; };
+    const begin = () => a.play().then(() => { show(true); detach(); }).catch(() => {});
+    const gesture = () => begin();
+    function detach() { removeEventListener("pointerdown", gesture); removeEventListener("keydown", gesture); }
+    btn.addEventListener("click", () => { if (on) { a.pause(); show(false); } else { begin(); } });
+    a.addEventListener("ended", () => show(false));
+    begin();
+    addEventListener("pointerdown", gesture, { once: false });
+    addEventListener("keydown", gesture, { once: false });
+  }
+  welcome();
+
 
   addEventListener("hashchange", route);
   if ("scrollRestoration" in history) history.scrollRestoration = "manual";

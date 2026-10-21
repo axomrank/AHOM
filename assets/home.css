@@ -1,0 +1,259 @@
+/* The home page in the Ahom taste (design/TASTE.md): cream paper, lacquer maroon and gilt, photographs as
+   torn prints, botanical sprigs on the corners, the royal seal's scalloped cartouche. Applies only on the home
+   route (body[data-route="home"]); the other pages keep site.css. */
+
+@font-face { font-family: "Tiro Bangla Ahom"; src: url("fonts/TiroBangla-Regular.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Galada Ahom"; src: url("fonts/Galada-Regular.ttf") format("truetype"); font-display: swap; }
+
+body[data-route="home"] {
+  --paper: #F3ECDD;
+  --paper-2: #EAE0CA;
+  --paper-3: #DCCDAF;
+  --ink: #3D2B1F;
+  --ink-soft: #6B5544;
+  --maroon: #5A0E1C;
+  --maroon-2: #7A1F2C;
+  --gilt: #B8862B;
+  --sage: #5E7A45;
+  --gold-line: rgba(90, 14, 28, .35);
+  --gold-faint: rgba(90, 14, 28, .06);
+  --band: rgba(61, 43, 31, .22);
+  --display: "Marcellus", "Trajan Pro", "Times New Roman", serif;
+  --text: "Alegreya", Georgia, serif;
+  --as: "Tiro Bangla Ahom", "Tiro Bangla", "Noto Serif Bengali", serif;
+  --as-display: "Galada Ahom", "Tiro Bangla Ahom", serif;
+  --shadow: 0 16px 22px -14px rgba(61, 43, 31, .45), 0 2px 3px rgba(61, 43, 31, .12);
+  background: var(--paper);
+  background-image: radial-gradient(ellipse 80% 50% at 90% 0%, rgba(184, 134, 43, .10), transparent 70%);
+  background-attachment: fixed;
+  color: var(--ink);
+}
+/* the paper grain stays: it is the surface of every print on the page */
+body[data-route="home"]::after { opacity: .18; mix-blend-mode: multiply; }
+
+/* ornaments the taste does not use on this page */
+body[data-route="home"] .weave,
+body[data-route="home"] .ch-word,
+body[data-route="home"] .foot-word,
+body[data-route="home"] .door-word,
+body[data-route="home"] .hero-word,
+body[data-route="home"] .arch-line { display: none; }
+
+/* the bar: paper, with a maroon rule beneath, as the top margin of a print */
+body[data-route="home"] .bar { background: var(--paper); color: var(--ink); box-shadow: 0 1px 0 var(--maroon); }
+body[data-route="home"] .brand { color: var(--maroon); }
+body[data-route="home"] .brand-mark { stroke: var(--gilt); }
+body[data-route="home"] .brand-as { color: var(--gilt); font-family: var(--as); }
+body[data-route="home"] .bar nav a { color: var(--ink-soft); }
+body[data-route="home"] .bar nav a:hover { color: var(--maroon); }
+body[data-route="home"] .bar nav a[aria-current] { color: var(--maroon); border-bottom-color: var(--gilt); }
+
+/* the hero: the seal and the name in the left column, a torn print off-centre on the right, a sprig on its corner */
+body[data-route="home"] .hero { max-width: 1240px; min-height: 0; align-items: center; gap: clamp(2rem, 5vw, 5.5rem); padding: 9vh var(--gutter) 7vh; }
+body[data-route="home"] .hero::before {
+  content: ""; position: absolute; z-index: 0; left: 40%; top: 1vh; width: clamp(160px, 17vw, 240px); aspect-ratio: 360 / 300;
+  background: url("motifs/leaf-sprig.svg") no-repeat center / contain; opacity: .9; filter: drop-shadow(2px 4px 3px rgba(61, 43, 31, .18));
+  pointer-events: none;
+}
+body[data-route="home"] .hero::after {
+  content: ""; position: absolute; z-index: 0; right: 4%; top: 2vh; width: clamp(54px, 6vw, 84px); aspect-ratio: 120 / 420;
+  background: url("motifs/feather.svg") no-repeat center / contain; transform: rotate(14deg); opacity: .9; filter: drop-shadow(2px 4px 3px rgba(61, 43, 31, .2));
+  pointer-events: none;
+}
+body[data-route="home"] .hero-text { text-align: left; position: relative; z-index: 1; }
+
+/* the cartouche: a lobed outline with a dotted rim, the Assamese word inside in gilt-edged maroon */
+body[data-route="home"] .cartouche { position: relative; width: min(16rem, 74vw); aspect-ratio: 220 / 120; margin: 0 0 2rem; display: grid; place-items: center; }
+body[data-route="home"] .cartouche svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+body[data-route="home"] .cartouche .rim { fill: none; stroke: var(--gilt); stroke-width: 3.4; stroke-linecap: round; stroke-dasharray: 0 8; }
+body[data-route="home"] .cartouche .rim-in { stroke-width: 2.2; stroke-dasharray: 0 5; }
+body[data-route="home"] .cartouche span { position: relative; font: 400 clamp(2.4rem, 4.6vw, 3.4rem)/1 var(--as-display); color: var(--maroon); }
+
+body[data-route="home"] .hero-dates { display: flex; align-items: center; gap: 1rem; font: 400 1rem/1 var(--display); letter-spacing: .18em; color: var(--gilt); margin: 0 0 1.2rem; }
+body[data-route="home"] .hero-dates span { width: 3.4rem; height: 1px; background: var(--gilt); }
+body[data-route="home"] .hero h1 { font-size: clamp(2rem, 3.6vw, 3.2rem); line-height: 1.06; text-transform: uppercase; letter-spacing: .03em; color: var(--ink); max-width: 13ch; margin: 0 0 1.4rem; }
+body[data-route="home"] .lede { color: var(--ink-soft); max-width: 31em; font-size: 1.18rem; }
+body[data-route="home"] .actions { margin-top: 2.2rem; gap: 1rem; }
+body[data-route="home"] .btn { border: 1px solid var(--maroon); color: var(--maroon); background: transparent; border-radius: 0; font-family: var(--display); letter-spacing: .1em; font-size: .95rem; text-transform: uppercase; transition: none; }
+body[data-route="home"] .btn:hover { background: var(--gold-faint); }
+body[data-route="home"] .btn-gold { background: var(--maroon); border-color: var(--maroon); color: var(--paper); box-shadow: var(--shadow); }
+body[data-route="home"] .btn-gold:hover { background: var(--maroon-2); color: var(--paper); }
+
+/* the hero still: a wide painting as a torn print, the caption beneath it */
+body[data-route="home"] .hero { grid-template-columns: minmax(0, .85fr) minmax(0, 1.35fr); }
+body[data-route="home"] .hero-still { margin: 0; width: 100%; filter: drop-shadow(0 18px 18px rgba(61, 43, 31, .28)); }
+body[data-route="home"] .hero-still-frame { aspect-ratio: 3 / 2; }
+body[data-route="home"] .hero-still img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 60%; clip-path: url(#torn); }
+body[data-route="home"] .hero-still figcaption { display: flex; justify-content: space-between; gap: 1rem; margin-top: 1rem; font-style: italic; color: var(--ink-soft); font-size: .98rem; }
+body[data-route="home"] .hero-still .film-year { color: var(--gilt); font-style: normal; }
+
+/* the film as a torn print with a soft shadow */
+body[data-route="home"] .hero-film { width: min(20rem, 100%); justify-self: center; filter: drop-shadow(0 18px 18px rgba(61, 43, 31, .28)); animation: none; }
+body[data-route="home"] .hero-film .film-frame { padding: 0; }
+body[data-route="home"] .hero-film video,
+body[data-route="home"] .hero-film img { clip-path: url(#torn); }
+body[data-route="home"] .film figcaption { color: var(--ink-soft); font-style: italic; }
+body[data-route="home"] .film-year { color: var(--gilt); font-style: normal; }
+body[data-route="home"] .sound { color: var(--maroon); text-decoration-color: var(--gilt); }
+
+/* the reign line: a maroon ruling, forty-one ink marks, the centuries beneath */
+body[data-route="home"] .reign-line { max-width: 1240px; margin: 0 auto; padding: 1vh var(--gutter) 7vh; }
+body[data-route="home"] .rl-track { position: relative; display: block; height: 40px; }
+body[data-route="home"] .rl-track::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 2px; background: var(--maroon); transform: translateY(-50%); }
+body[data-route="home"] .rl-track i { position: absolute; top: 50%; height: 14px; transform: translateY(-50%); background: var(--ink); min-width: 2px; }
+body[data-route="home"] .rl-track:hover i { background: var(--maroon); }
+body[data-route="home"] .rl-ticks { position: relative; height: 1.6rem; margin-top: .6rem; font: 400 .8rem/1 var(--display); color: var(--ink-soft); letter-spacing: .04em; }
+body[data-route="home"] .rl-ticks span { position: absolute; transform: translateX(-50%); white-space: nowrap; }
+
+/* the saga: each chapter a page of the chronicle, numbered in gilt */
+body[data-route="home"] .saga { max-width: 1240px; padding: 0 var(--gutter); }
+body[data-route="home"] .rail { padding-top: 4vh; }
+body[data-route="home"] .rail-year { font: 400 1rem/1 var(--display); letter-spacing: .16em; color: var(--gilt); }
+body[data-route="home"] .rail-year::after { content: none; }
+body[data-route="home"] .rail ol { border-left-color: var(--gold-line); }
+body[data-route="home"] .rail a { color: var(--ink-soft); }
+body[data-route="home"] .rail a[aria-current] { color: var(--maroon); }
+body[data-route="home"] .rail a[aria-current]::before { background: var(--gilt); }
+
+body[data-route="home"] .chapter { border-top: 1px solid var(--gold-line); padding: 9vh 0 7vh; text-align: center; }
+body[data-route="home"] .ch-head { display: flex; flex-direction: column; align-items: center; gap: .5rem; margin-bottom: 3rem; }
+body[data-route="home"] .ch-num { font: 400 1.5rem/1 var(--display); color: var(--gilt); min-width: 0; }
+body[data-route="home"] .ch-years { font: 400 .95rem/1 var(--display); letter-spacing: .16em; color: var(--maroon); margin: 0; }
+body[data-route="home"] .ch-head h2 { font-size: clamp(2rem, 4vw, 3rem); text-transform: uppercase; letter-spacing: .03em; color: var(--ink); max-width: 18ch; margin: 0 auto; }
+body[data-route="home"] .ch-gloss { font-style: italic; color: var(--ink-soft); font-size: 1.08rem; margin: .4rem 0 0; }
+body[data-route="home"] .ch-gloss [lang="as"] { font: 400 1.5rem/1.3 var(--as); font-style: normal; color: var(--maroon); display: block; margin: 0 0 .3rem; }
+
+body[data-route="home"] .ch-body { display: flex; flex-direction: column; align-items: center; gap: 2.6rem; }
+body[data-route="home"] .ch-lead { text-align: left; max-width: 36em; font-size: 1.16rem; line-height: 1.75; color: var(--ink); }
+body[data-route="home"] .ch-lead p:first-child::first-letter { font-family: var(--display); color: var(--maroon); }
+body[data-route="home"] .ch-film { width: min(15rem, 70vw); filter: drop-shadow(0 16px 16px rgba(61, 43, 31, .25)); }
+body[data-route="home"] .ch-film video { clip-path: url(#torn); }
+
+/* the painted scenes as torn prints, captioned in italic beneath */
+body[data-route="home"] .moments { display: grid; grid-template-columns: 1fr 1fr; gap: 2.4rem 2rem; margin-top: 3rem; width: 100%; }
+body[data-route="home"] .moments .scene-l { grid-column: 1 / -1; grid-row: auto; }
+body[data-route="home"] .scene { filter: drop-shadow(0 14px 14px rgba(61, 43, 31, .22)); text-align: left; }
+body[data-route="home"] .scene-open { clip-path: url(#torn); background: var(--paper-3); }
+body[data-route="home"] .scene-open::after { display: none; }
+body[data-route="home"] .scene figcaption { padding-top: 1rem; color: var(--ink); font-size: .98rem; }
+body[data-route="home"] .scene-date { color: var(--maroon); font: 400 .82rem/1.2 var(--display); letter-spacing: .08em; }
+body[data-route="home"] .blank { background: var(--paper-2); color: var(--ink-soft); }
+body[data-route="home"] .blank .arch-line { display: none; }
+body[data-route="home"] .blank-text { font-style: italic; margin-top: 0; }
+
+body[data-route="home"] .ch-foot { flex-direction: column; align-items: center; margin-top: 2.8rem; gap: 1.4rem; }
+body[data-route="home"] .who-list { justify-content: center; flex: none; gap: 1.2rem 2rem; }
+body[data-route="home"] .who { grid-template-columns: auto; max-width: none; text-align: center; justify-items: center; row-gap: .2rem; }
+body[data-route="home"] .who .arch { grid-row: auto; clip-path: none; border: 1px solid var(--gold-line); background: var(--paper-2); }
+body[data-route="home"] .arch-empty { background: var(--paper-2); }
+body[data-route="home"] .arch-empty span { color: var(--maroon); opacity: 1; font-family: var(--as); }
+body[data-route="home"] .who-name { color: var(--ink); font-family: var(--display); letter-spacing: .03em; }
+body[data-route="home"] .who-role { font-style: italic; }
+body[data-route="home"] .more { color: var(--maroon); font-family: var(--display); letter-spacing: .06em; text-decoration: none; }
+body[data-route="home"] .more:hover { color: var(--ink); text-decoration: none; }
+
+/* the painted reels: a row of torn prints under a bamboo sprig */
+body[data-route="home"] .films { position: relative; isolation: isolate; border-top: 1px solid var(--gold-line); max-width: 1240px; margin: 0 auto; padding: 10vh var(--gutter); }
+body[data-route="home"] .films::before {
+  content: ""; position: absolute; z-index: -1; left: -26px; top: 8vh; width: clamp(110px, 12vw, 170px); aspect-ratio: 160 / 420;
+  background: url("motifs/bamboo.svg") no-repeat center / contain; opacity: .85; filter: drop-shadow(2px 4px 3px rgba(61, 43, 31, .15));
+}
+body[data-route="home"] .films-head { flex-direction: column; align-items: center; text-align: center; gap: .8rem; margin-bottom: 3rem; }
+body[data-route="home"] .films-head h2 { color: var(--ink); text-transform: uppercase; letter-spacing: .03em; }
+body[data-route="home"] .films-head p { color: var(--ink-soft); max-width: 34em; }
+body[data-route="home"] .film-row { grid-auto-columns: minmax(10.5rem, 12.5rem); gap: 1.8rem; scrollbar-color: var(--gilt) transparent; }
+body[data-route="home"] .film-row .film-frame { margin: 9px; filter: drop-shadow(0 12px 12px rgba(61, 43, 31, .22)); }
+body[data-route="home"] .film-row .film-frame img,
+body[data-route="home"] .film-row .film-frame video { clip-path: url(#torn); }
+body[data-route="home"] .reel-title { text-align: center; color: var(--ink); }
+body[data-route="home"] .reel-line { text-align: center; color: var(--ink-soft); }
+body[data-route="home"] .reel-line [lang="as"] { font-family: var(--as); color: var(--maroon); font-style: normal; font-size: 1rem; }
+body[data-route="home"] .play { background: rgba(243, 236, 221, .85); border-color: var(--gilt); }
+body[data-route="home"] .play::after { border-color: transparent transparent transparent var(--maroon); }
+body[data-route="home"] .reel:hover .play { background: var(--paper); }
+
+/* the three doors: each a page of the index, its Assamese heading in the chronicle hand */
+body[data-route="home"] .doors { max-width: 1240px; margin: 0 auto; padding: 0 var(--gutter) 9vh; gap: 1.6rem; }
+body[data-route="home"] .door { background: var(--paper-2); border: 1px solid var(--gold-line); box-shadow: var(--shadow); color: var(--ink); min-height: 15rem; }
+body[data-route="home"] .door:hover { background: var(--paper); border-color: var(--gilt); transform: none; box-shadow: var(--shadow); }
+body[data-route="home"] .door-word { display: block; position: static; font: 400 2rem/1.25 var(--as); color: var(--maroon); margin-bottom: .8rem; }
+body[data-route="home"] .door-n { color: var(--ink); font-family: var(--display); }
+body[data-route="home"] .door-t { color: var(--ink-soft); }
+
+/* the colophon: a sparkle and the closing lines */
+body[data-route="home"] .foot { position: relative; background: var(--paper); color: var(--ink-soft); border-top: 1px solid var(--gold-line); }
+body[data-route="home"] .foot::before {
+  content: ""; position: absolute; right: 6vw; top: 3vh; width: 26px; height: 26px;
+  background: url("motifs/sparkle.svg") no-repeat center / contain; opacity: .9;
+}
+body[data-route="home"] .foot-in { max-width: 1240px; text-align: center; grid-template-columns: 1fr; justify-items: center; }
+body[data-route="home"] .foot-text { max-width: 34em; }
+body[data-route="home"] .foot-text .quiet { color: var(--ink-soft); }
+body[data-route="home"] .foot-nav { flex-direction: row; justify-content: center; flex-wrap: wrap; gap: 1rem 2rem; }
+body[data-route="home"] .foot-nav a { color: var(--maroon); font-family: var(--display); letter-spacing: .08em; }
+
+@media (max-width: 860px) {
+  body[data-route="home"] .hero { grid-template-columns: 1fr; text-align: center; }
+  body[data-route="home"] .hero-text { text-align: center; display: flex; flex-direction: column; align-items: center; }
+  body[data-route="home"] .hero-dates { justify-content: center; }
+  body[data-route="home"] .lede { margin: 0 auto; }
+  body[data-route="home"] .actions { justify-content: center; }
+  body[data-route="home"] .hero-film { order: 2; }
+  body[data-route="home"] .hero::before { left: 58%; width: 140px; }
+  body[data-route="home"] .hero::after { display: none; }
+  body[data-route="home"] .doors { grid-template-columns: 1fr; }
+  body[data-route="home"] .moments { grid-template-columns: 1fr; }
+  body[data-route="home"] .films::before { display: none; }
+}
+@media (max-width: 1080px) {
+  body[data-route="home"] .rail { position: static; background: none; backdrop-filter: none; -webkit-backdrop-filter: none; }
+}
+
+/* the crest in relief: ten gilt copies stacked behind one another, the top one the brightest,
+   the rest a deeper bronze, so the beast and its outline stand off the page; the whole relief tilts in 3D */
+body[data-route="home"] .relief-wrap { filter: drop-shadow(0 22px 16px rgba(61, 43, 31, .32)); margin: 0 0 1.6rem; }
+body[data-route="home"] .relief {
+  position: relative; width: min(24rem, 78vw); aspect-ratio: 270 / 187;
+  transform-style: preserve-3d; transform: rotateX(16deg) rotateY(-22deg);
+  transition: transform .8s cubic-bezier(.2, .7, .2, 1);
+}
+body[data-route="home"] .relief:hover { transform: rotateX(8deg) rotateY(-10deg); }
+body[data-route="home"] .relief-layer {
+  position: absolute; inset: 0; width: 100%; max-width: none; margin: 0;
+  transform: translateZ(calc(var(--i) * -2.2px));
+  --crest-width: 100%;
+}
+body[data-route="home"] .relief-layer:not(:first-child) {
+  --crest-gilt: linear-gradient(170deg, #8A6420 0%, #6B4614 55%, #4A2F0C 100%);
+}
+body[data-route="home"] .relief-layer:first-child::before {
+  filter: drop-shadow(0 1px 0 rgba(255, 246, 200, .6));
+}
+body[data-route="home"] .hero-as {
+  font: 400 clamp(1.8rem, 3vw, 2.4rem)/1.2 var(--as-display); color: var(--maroon); margin: 0 0 .8rem;
+}
+@media (prefers-reduced-motion: reduce) { body[data-route="home"] .relief { transition: none; } }
+
+/* Sukaphaa, portrait, behind the hero: a faded print under the crest and the still */
+body[data-route="home"] .hero-back {
+  position: absolute; z-index: 0; right: 0; top: 0; bottom: 0; width: min(46vw, 620px); margin: 0; pointer-events: none;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 45%), linear-gradient(to bottom, #000 55%, transparent 100%);
+          mask-image: linear-gradient(to right, transparent 0%, #000 45%), linear-gradient(to bottom, #000 55%, transparent 100%);
+  -webkit-mask-composite: source-in;
+          mask-composite: intersect;
+}
+body[data-route="home"] .hero-back img {
+  width: 100%; height: 100%; object-fit: cover; object-position: 50% 15%;
+  opacity: .42; filter: sepia(.45) saturate(.85) contrast(1.08);
+}
+body[data-route="home"] .hero > *:not(.hero-back) { position: relative; z-index: 1; }
+body[data-route="home"] .hero::before, body[data-route="home"] .hero::after { z-index: 1; }
+
+
+
+/* the Assamese name on the hero: large and heavy */
+body[data-route="home"] .hero-as { font: 900 clamp(3.2rem, 6vw, 5.2rem)/1.05 "Noto Serif Bengali", var(--as-display); margin: 0 0 .4rem; }
+
+/* no leaves and no feather on the home page */
+body[data-route="home"] .hero::before,
+body[data-route="home"] .hero::after { display: none; }

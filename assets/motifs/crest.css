@@ -1,0 +1,74 @@
+/* The Ahom crest: a gilt beast in a lobed cartouche with a dotted rim, on a brown ground.
+   The ornament is the gold of the reference image, traced to crest.svg and used as a mask, so the
+   gilt is a plain fill that can be restyled. The crest keeps its own ground unless --crest-ground
+   is set to a transparent value, or the .crest--bare modifier is used.
+
+   Markup:
+     <div class="crest" role="img" aria-label="The Ahom crest"></div>
+
+   Variants:
+     .crest--maroon   lacquer maroon ground, for the seal bar and cards
+     .crest--bare     gilt only, for placing on paper or photographs
+     .crest--organism the animal alone, without the outline, rim or sprigs
+     .crest--shine    a slow sheen across the gilt (off with reduced motion)
+     .crest--sm / .crest--lg   width presets (default is the --crest-width below)
+
+   Tokens (set on .crest or any parent):
+     --crest-ground   the brown ground colour
+     --crest-gilt     the fill of the ornament (any background value)
+     --crest-width    the rendered width; the height follows the 270:187 ratio */
+
+.crest {
+  --crest-ground: #8B4700;
+  --crest-gilt: linear-gradient(168deg, #FCEE7A 0%, #F2D845 40%, #E0B634 80%, #F6DF62 100%);
+  --crest-width: 22rem;
+  position: relative;
+  display: block;
+  width: var(--crest-width);
+  max-width: 100%;
+  aspect-ratio: 270 / 187;
+  background: var(--crest-ground);
+  isolation: isolate;
+  -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+}
+
+.crest::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--crest-gilt);
+  -webkit-mask: url("crest.svg") center / 100% 100% no-repeat;
+          mask: url("crest.svg") center / 100% 100% no-repeat;
+}
+
+.crest--maroon { --crest-ground: #5A0E1C; }
+.crest--bare { --crest-ground: transparent; --crest-gilt: #B8862B; }
+
+/* the organism: the animal alone, without the lobed outline, the dotted rim or the sprigs */
+.crest--organism::before {
+  -webkit-mask: url("organism.svg") center / 100% 100% no-repeat;
+          mask: url("organism.svg") center / 100% 100% no-repeat;
+}
+
+.crest--sm { --crest-width: 12rem; }
+.crest--lg { --crest-width: 36rem; }
+
+/* the sheen: a wide gradient slides under the mask, so the gilt catches the light */
+.crest--shine::before {
+  background-size: 240% 100%;
+  animation: crest-sheen 7s ease-in-out infinite;
+}
+
+@keyframes crest-sheen {
+  0%, 100% { background-position: 100% 0; }
+  50% { background-position: 0 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .crest--shine::before { animation: none; }
+}
+
+@media (forced-colors: active) {
+  .crest { forced-color-adjust: none; }
+}

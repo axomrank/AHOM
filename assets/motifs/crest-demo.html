@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahom crest, CSS component</title>
+<link rel="stylesheet" href="crest.css">
+<style>
+  :root {
+    --paper: #F3ECDD;
+    --paper-2: #EAE0CA;
+    --ink: #3D2B1F;
+    --ink-soft: #6B5544;
+    --maroon: #5A0E1C;
+    --gilt: #B8862B;
+    --rule: rgba(90, 14, 28, .25);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #1D0A10;
+      --paper-2: #2A1219;
+      --ink: #F1E6D2;
+      --ink-soft: #C9B79A;
+      --rule: rgba(201, 160, 74, .3);
+    }
+  }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 16px/1.5 Georgia, "Times New Roman", serif;
+  }
+  main { max-width: 64rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+  h1 { font: 400 2rem/1.1 Georgia, serif; margin: 0 0 .5rem; color: var(--maroon); }
+  h2 { font: 400 1.2rem/1.2 Georgia, serif; margin: 2.5rem 0 1rem; color: var(--maroon); border-top: 1px solid var(--rule); padding-top: 1.5rem; }
+  p.lede { color: var(--ink-soft); max-width: 40rem; margin: 0; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 1.5rem;
+    align-items: start;
+  }
+  figure { margin: 0; }
+  figcaption { font-size: .85rem; color: var(--ink-soft); margin-top: .6rem; }
+  code { font: .9em ui-monospace, Menlo, Consolas, monospace; }
+  .swatch { padding: 1.25rem; background: var(--paper-2); }
+  .swatch.dark { background: #2b1a14; }
+  pre {
+    background: var(--paper-2);
+    border-left: 3px solid var(--gilt);
+    padding: 1rem 1.25rem;
+    overflow-x: auto;
+    font: .82rem/1.55 ui-monospace, Menlo, Consolas, monospace;
+    color: var(--ink);
+  }
+  @media (max-width: 600px) {
+    main { padding-inline: 16px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>The Ahom crest, as a CSS component</h1>
+  <p class="lede">One element, one class. The gilt is a CSS mask over the traced ornament in <code>crest.svg</code>, so the colour and size come from CSS tokens, not from the artwork.</p>
+
+  <h2>Default</h2>
+  <figure>
+    <div class="crest" role="img" aria-label="The Ahom crest"></div>
+    <figcaption><code>&lt;div class="crest"&gt;</code>, 22rem wide, brown ground, gilt sheen</figcaption>
+  </figure>
+
+  <h2>Variants</h2>
+  <div class="grid">
+    <figure>
+      <div class="crest crest--maroon" role="img" aria-label="The Ahom crest on maroon"></div>
+      <figcaption><code>crest--maroon</code>, lacquer maroon ground</figcaption>
+    </figure>
+    <figure>
+      <div class="swatch"><div class="crest crest--bare crest--sm" role="img" aria-label="The Ahom crest in gilt on paper"></div></div>
+      <figcaption><code>crest--bare crest--sm</code>, gilt on paper, 12rem</figcaption>
+    </figure>
+    <figure>
+      <div class="crest crest--shine" role="img" aria-label="The Ahom crest with a sheen"></div>
+      <figcaption><code>crest--shine</code>, slow sheen (off with reduced motion)</figcaption>
+    </figure>
+  </div>
+
+  <h2>The animal alone</h2>
+  <div class="grid">
+    <figure>
+      <div class="crest crest--organism" role="img" aria-label="The Ahom animal"></div>
+      <figcaption><code>crest--organism</code>, the animal without outline, rim or sprigs</figcaption>
+    </figure>
+    <figure>
+      <div class="swatch"><div class="crest crest--organism crest--bare crest--sm" role="img" aria-label="The Ahom animal in gilt on paper"></div></div>
+      <figcaption><code>crest--organism crest--bare</code>, gilt on paper</figcaption>
+    </figure>
+  </div>
+
+  <h2>The CSS</h2>
+  <pre><code>.crest {
+  --crest-ground: #8B4700;
+  --crest-gilt: linear-gradient(168deg, #FCEE7A 0%, #F2D845 40%, #E0B634 80%, #F6DF62 100%);
+  --crest-width: 22rem;
+  position: relative;
+  display: block;
+  width: var(--crest-width);
+  max-width: 100%;
+  aspect-ratio: 270 / 187;
+  background: var(--crest-ground);
+  isolation: isolate;
+}
+
+.crest::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--crest-gilt);
+  -webkit-mask: url("crest.svg") center / 100% 100% no-repeat;
+          mask: url("crest.svg") center / 100% 100% no-repeat;
+}
+
+.crest--maroon  { --crest-ground: #5A0E1C; }
+.crest--bare    { --crest-ground: transparent; --crest-gilt: #B8862B; }
+.crest--sm      { --crest-width: 12rem; }
+.crest--lg      { --crest-width: 36rem; }
+
+.crest--organism::before {
+  -webkit-mask: url("organism.svg") center / 100% 100% no-repeat;
+          mask: url("organism.svg") center / 100% 100% no-repeat;
+}
+
+.crest--shine::before {
+  background-size: 240% 100%;
+  animation: crest-sheen 7s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .crest--shine::before { animation: none; }
+}</code></pre>
+</main>
+</body>
+</html>
