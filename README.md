@@ -50,14 +50,17 @@ The MAP tab is a story-driven historical atlas: narrative on the left, animated 
 geography on the right, with linked place names, event search, reading paths, playback,
 camera movement and a sequence scrubber. The 39 river paths come from the local APP
 catalogue (`assets/maps/assam.json`, imported from `Dist + Rivers (simplified).kmz`).
-Optional Assam, India and district boundary pills are off by default and toggle independently.
+Optional Assam, India, district and International boundary pills are off by default and toggle independently.
+International loads Natural Earth's 258 country/territory outlines on demand, with a world
+overview. A Sukaphaa journey shortcut opens an animated migration overview and five-stage
+reading path from Mong Mao to Charaideo (1215–1253), with source-linked qualifications.
 District lines retain the local source's 33-unit vintage; Assam's outline is dissolved from
 the original KMZ polygons. India uses DataMeet's Survey of India derived country dataset.
 These are modern reference layers, not historical borders. Provenance and licenses are in
 `assets/maps/README.md` and `assets/maps/boundaries.json`. The 77 reference coordinates in `data/map-sites.json`
 come from APP's `content/entities.json` (re-import with `tools/import_map_sites.py FILE`).
 `tools/map_events.py` binds literal place/river mentions to events; `data/map-stories.json`
-defines explicit connections and editorial qualifications. Nine events have animated
+defines explicit connections and editorial qualifications. Fourteen events have animated
 connections; 112 events name mappable places or rivers. Other records retain valley context.
 River journeys follow the stored Brahmaputra geometry between reference points. Connections
 are interpretive links between places, not claims about exact historical tracks. All map

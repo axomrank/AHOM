@@ -25,7 +25,8 @@ def build_map_events(root,scenes,basemap):
         override=next((explicit[a] for a in [s['id'],*s.get('alias',[])] if a in explicit),{})
         events[s['id']]={'sites':override.get('sites',matched),'rivers':override.get('rivers',rivers),
                          'route':override.get('route',[]),'mode':override.get('mode','connection'),
-                         'caption':override.get('caption','')}
+                         'caption':override.get('caption',''),'sources':override.get('sources',[]),
+                         'mapDate':override.get('mapDate','')}
     for p in sites:
         p['scenes']=[sid for sid,event in events.items() if p['id'] in event['sites']]
     return {'sites':sites,'events':events}

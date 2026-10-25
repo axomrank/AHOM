@@ -2,12 +2,15 @@
 window.AhomMap = (() => {
   'use strict';
   const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const PRESETS={assam:[89.2,24,96.25,28.2],upper:[93.5,26.35,96.2,28.15],india:[67,6,98,38]};
+  const PRESETS={assam:[89.2,24,96.25,28.2],upper:[93.5,26.35,96.2,28.15],india:[67,6,98,38],world:[-180,-90,180,85]};
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+  let worldCache=null;
 
   function mount(root,base,sites,onPlace,boundaries) {
     const byId=Object.fromEntries(sites.map(p=>[p.id,p]));
-    const layers={assam:false,india:false,district:false};
+    const layers={assam:false,india:false,district:false,world:false};
+    let worldParts=[],worldCountries=[];
+    const worldRequest=new AbortController();
     let box=[...PRESETS.assam], event={sites:[],rivers:[],route:[]}, focused='', focusedRiver='', drag=null;
     let width=900,height=550,centre=[92.7,26],cosine=1,scale=1;
     let cameraFrame=0,routeFrame=0,routeAnimation=null,dead=false,cameraMoving=false;
@@ -16,13 +19,35 @@ window.AhomMap = (() => {
     const controls=document.createElement('div');
     controls.className='atlas-boundary-pills';
     controls.setAttribute('role','group');controls.setAttribute('aria-label','Modern reference boundaries');
-    controls.innerHTML='<span class="boundary-label">Boundaries</span>'+Object.keys(layers).map(id=>`<button type="button" data-boundary="${id}" aria-pressed="false"><i aria-hidden="true"></i>${id==='district'?'District':id==='india'?'India':'Assam'}</button>`).join('')+'<button type="button" class="boundary-overview" data-region="india" hidden>View India ↗</button>';
+    controls.innerHTML='<span class="boundary-label">Boundaries</span>'+Object.keys(layers).map(id=>`<button type="button" data-boundary="${id}" aria-pressed="false"><i aria-hidden="true"></i>${{district:'District',india:'India',assam:'Assam',world:'International'}[id]}</button>`).join('')+'<button type="button" class="boundary-overview" data-region="india" hidden>View India ↗</button><button type="button" class="boundary-overview" data-region="world" hidden>View world ↗</button><span class="boundary-status" role="status"></span>';
     frame.before(controls);
     const project=([lat,lon])=>[width/2+(lon-centre[0])*cosine*scale,height/2-(lat-centre[1])*scale];
     const inside=([x,y],pad=30)=>x>pad&&x<width-pad&&y>pad&&y<height-pad;
     const line=points=>'M'+points.map(p=>project(p).map(v=>v.toFixed(2)).join(',')).join('L');
+    async function loadWorld() {
+      if(!worldCache){const response=await fetch('assets/maps/world.json',{signal:worldRequest.signal});if(!response.ok)throw new Error('Boundary download failed');worldCache=await response.json();}
+      if(dead)return;
+      worldCountries=worldCache.countries;
+      worldParts=worldCountries.flatMap(c=>c.rings.map(r=>{
+        const bounds=r.reduce((b,[lat,lon])=>[Math.min(b[0],lon),Math.min(b[1],lat),Math.max(b[2],lon),Math.max(b[3],lat)],[180,90,-180,-90]);
+        return {id:c.id,name:c.name,bounds,d:'M'+r.map(([lat,lon])=>`${lon},${-lat}`).join('L')+'Z'};
+      }));
+    }
+    function worldMarkup() {
+      if(!layers.world)return '';
+      // Keep precompiled geographic paths; transform once and cull offscreen islands.
+      const parts=worldParts.filter(p=>{
+        const a=project([p.bounds[3],p.bounds[0]]),b=project([p.bounds[1],p.bounds[2]]);
+        return b[0]>=0&&a[0]<=width&&b[1]>=0&&a[1]<=height;
+      });
+      let content=`<g transform="translate(${width/2} ${height/2}) scale(${cosine*scale} ${scale}) translate(${-centre[0]} ${centre[1]})">`;
+      for(const p of parts)content+=`<path class="atlas-boundary boundary-world" data-country="${esc(p.id)}" d="${p.d}"><title>${esc(p.name)} · modern reference</title></path>`;
+      content+='</g>';
+      if(box[2]-box[0]<35)for(const country of worldCountries){const [x,y]=project(country.geo);if(inside([x,y],40))content+=`<text class="atlas-country-label" x="${x}" y="${y}">${esc(country.name)}</text>`;}
+      return content;
+    }
     function boundaryMarkup() {
-      let content='';
+      let content=worldMarkup();
       if(layers.district)for(const [id,d] of Object.entries(base.districts))content+=`<path class="atlas-boundary boundary-district" data-district="${id}" d="${d.rings.map(r=>line(r)+'Z').join('')}"><title>${esc(d.name)} district · source reference geography</title></path>`;
       for(const id of ['india','assam'])if(layers[id])content+=`<path class="atlas-boundary boundary-${id}" data-outline="${id}" d="${boundaries[id].rings.map(r=>line(r)+'Z').join('')}"><title>${esc(boundaries[id].name)} · modern reference</title></path>`;
       return content;
@@ -111,7 +136,7 @@ window.AhomMap = (() => {
     function animateRoute() {
       const route=svg.querySelector('.atlas-route');if(!route||reduced.matches)return;
       routeAnimation?.cancel();cancelAnimationFrame(routeFrame);
-      const length=route.getTotalLength(),duration=3600;
+      const length=route.getTotalLength(),duration=Math.min(8400,Math.max(3600,(event.route?.length||2)*1200));
       routeAnimation=route.animate([{strokeDasharray:`${length} ${length}`,strokeDashoffset:length},{strokeDasharray:`${length} ${length}`,strokeDashoffset:0}],{duration,easing:'linear'});
       const traveller=svg.querySelector('.route-traveller'),start=performance.now();
       const tick=now=>{
@@ -138,12 +163,21 @@ window.AhomMap = (() => {
     function focusPlace(id){if(!byId[id])return;focused=id;const [lat,lon]=byId[id].geo;flyTo([lon-.06,lat-.04,lon+.06,lat+.04]);}
     function focusRiver(id){if(!base.rivers[id])return;focusedRiver=id;const pts=base.rivers[id].pts,lat=pts.map(p=>p[0]),lon=pts.map(p=>p[1]);flyTo([Math.min(...lon)-.2,Math.min(...lat)-.2,Math.max(...lon)+.2,Math.max(...lat)+.2]);}
     function replay(){focused='';focusedRiver='';flyTo(eventBox());}
-    function click(e) {
-      const layer=e.target.closest('[data-boundary]');if(layer){const id=layer.dataset.boundary;layers[id]=!layers[id];layer.setAttribute('aria-pressed',String(layers[id]));root.querySelector('.boundary-overview').hidden=!layers.india;svg.querySelector('.atlas-boundaries').innerHTML=boundaryMarkup();return;}
+    async function click(e) {
+      const layer=e.target.closest('[data-boundary]');if(layer){
+        const id=layer.dataset.boundary,status=root.querySelector('.boundary-status');
+        if(id==='world'&&!worldParts.length){
+          layer.disabled=true;layer.setAttribute('aria-busy','true');status.textContent='Loading international borders…';
+          try{await loadWorld();}catch(error){if(!dead)status.textContent='Borders could not load. Select International to retry.';return;}
+          finally{layer.disabled=false;layer.removeAttribute('aria-busy');}
+          if(dead)return;status.textContent='';
+        }
+        layers[id]=!layers[id];layer.setAttribute('aria-pressed',String(layers[id]));root.querySelector('[data-region=india]').hidden=!layers.india;root.querySelector('[data-region=world]').hidden=!layers.world;svg.querySelector('.atlas-boundaries').innerHTML=boundaryMarkup();return;
+      }
       const pin=e.target.closest('[data-map-place]');if(pin){focusPlace(pin.dataset.mapPlace);onPlace?.(pin.dataset.mapPlace);return;}
       const preset=e.target.closest('[data-region]');if(preset){if(preset.dataset.region==='event')replay();else flyTo(PRESETS[preset.dataset.region]);return;}
       if(e.target.closest('[data-replay]')){replay();return;}
-      const zoom=e.target.closest('[data-zoom]');if(zoom){const f=zoom.dataset.zoom==='in'?.65:1/.65,dx=Math.max(.06,Math.min(40,(box[2]-box[0])*f))/2,dy=dx*(box[3]-box[1])/(box[2]-box[0]);flyTo([centre[0]-dx,centre[1]-dy,centre[0]+dx,centre[1]+dy]);}
+      const zoom=e.target.closest('[data-zoom]');if(zoom){const f=zoom.dataset.zoom==='in'?.65:1/.65,dx=Math.max(.06,Math.min(360,(box[2]-box[0])*f))/2,dy=dx*(box[3]-box[1])/(box[2]-box[0]);flyTo([centre[0]-dx,centre[1]-dy,centre[0]+dx,centre[1]+dy]);}
     }
     root.addEventListener('click',click);
     root.addEventListener('keydown',e=>{
@@ -156,7 +190,7 @@ window.AhomMap = (() => {
     svg.addEventListener('pointermove',e=>{if(!drag)return;const dx=(e.clientX-drag.x)/(drag.scale*drag.cosine),dy=(e.clientY-drag.y)/drag.scale;box=[drag.box[0]-dx,drag.box[1]+dy,drag.box[2]-dx,drag.box[3]+dy];draw();});
     const release=()=>{drag=null;svg.classList.remove('is-panning');};svg.addEventListener('pointerup',release);svg.addEventListener('pointercancel',release);
     const observer=new ResizeObserver(()=>{if(frame.clientWidth===width&&Math.max(220,frame.clientHeight)===height)return;stopAnimations();draw();});observer.observe(frame);draw();
-    return {showEvent,focusPlace,focusRiver,replay,destroy(){dead=true;stopAnimations();observer.disconnect();}};
+    return {showEvent,focusPlace,focusRiver,replay,destroy(){dead=true;worldRequest.abort();stopAnimations();observer.disconnect();}};
   }
   return {mount};
 })();

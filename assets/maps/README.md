@@ -36,3 +36,26 @@ administrative gazetteer. Districts retain the source catalogue's 33-unit vintag
 
 Rebuild with `tools/import_boundaries.py LOCAL_KMZ INDIA_SOI_GEOJSON` (requires Shapely).
 Input SHA-256 hashes are retained in the output. The normal site build needs no GIS libraries.
+
+## International borders
+
+`world.json` supplies 258 country and territory features from
+[Natural Earth 1:10m admin-0 countries](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/).
+It includes coastlines, small countries and overseas islands. The International pill loads
+this file on demand and exposes View world; all other boundary pills remain independent.
+Natural Earth's default de facto geography may differ from the separately sourced India
+outline. These are modern context layers. Data is [public domain](https://www.naturalearthdata.com/about/terms-of-use/).
+
+Re-import with `tools/import_world_boundaries.py ne_10m_admin_0_countries.geojson`
+(requires Shapely). Exterior rings are simplified at 0.012°, preserving topology and
+small features. The renderer precompiles paths and excludes offscreen rings while panning.
+
+## Sukaphaa journey
+
+The `sukaphaa` reading path and `AHOM-001` overview link Mong Mao, the Patkai / Pangsau
+catalogue reference, Namrup, Tipam, Habung, Simaluguri and Charaideo (1215–1253).
+The following four stages animate subsets of the journey. Straight connections mark
+approximate named reference places, omitting intermediate stops; they do not reconstruct
+the exact migration trail or imply all settlements were founded in 1228.
+Sources are attached to the overview in `data/map-stories.json`: Dimbeswar Neog,
+*Introduction to Assam*, p. 67, and N. K. Basu, *Assam in the Ahom Age*.

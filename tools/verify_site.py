@@ -43,6 +43,14 @@ def main():
         lat,lon=place['geo']
         assert -90<=lat<=90 and -180<=lon<=180, f'Invalid coordinates for {place["id"]}'
         assert all(sid in scenes for sid in place['scenes'])
+    world=json.loads((ROOT/'assets/maps/world.json').read_text())
+    assert len(world['countries'])>=250 and world['license']=='Public domain'
+    assert {'IND','CHN','MMR','BTN','BGD','SGP','VAT'} <= {c['id'] for c in world['countries']}
+    for country in world['countries']:
+        assert country['rings'] and country['name']
+        for ring in country['rings']:
+            assert len(ring)>=4 and ring[0]==ring[-1]
+            assert all(-90<=lat<=90 and -180<=lon<=180 for lat,lon in ring)
     atlas=data['atlas']
     site_ids={p['id'] for p in atlas['sites']}
     assert len(site_ids)==len(atlas['sites'])
@@ -59,6 +67,9 @@ def main():
     assert atlas['events']['AHOM-157']['sites']==['saraighat']
     assert atlas['events']['AHOM-209']['route']==['rangpur','guwahati']
     assert atlas['events']['AHOM-209']['mode']=='river'
+    assert atlas['events']['AHOM-001']['route']==['mongmao','pangsau','namrup','tipam','habung','simaluguri','charaideo']
+    assert len(atlas['events']['AHOM-001']['sources'])==2
+    assert next(t for t in data['trails'] if t['id']=='sukaphaa')['scenes']==['AHOM-001','AHOM-006','AHOM-011','AHOM-012','AHOM-017']
     for r in data['reels']:
         check(r['src'],r['id']);check(r['poster'],r['id'])
         assert r['scene'] in scenes, f'Unknown scene for {r["id"]}'

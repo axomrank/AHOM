@@ -179,6 +179,17 @@
 .atlas-boundary-pills i { width: 12px; border-top: 2px solid #7d7040; }
 .atlas-boundary-pills [data-boundary=india] i { border-color: #775879; border-top-style: dashed; }
 .atlas-boundary-pills [data-boundary=district] i { border-color: #a59679; border-top-style: dotted; }
+.atlas-boundary-pills [data-boundary=world] i { border-color: #6c796d; }
+.atlas-boundary-pills button:disabled { cursor: progress; opacity: .6; }
+.boundary-status { flex-basis: 100%; }
+.boundary-status:empty { display: none; }
+.boundary-world { stroke: #6c796d; stroke-width: 1; opacity: .8; vector-effect: non-scaling-stroke; }
+.atlas-country-label { font-size: 11px; letter-spacing: .08em; text-anchor: middle; fill: #6c796d; paint-order: stroke; stroke: #f6efdf; stroke-width: 3; pointer-events: none; }
+.atlas-journey-link { color: var(--maroon-ink); font-size: .8rem; display: inline-block; margin: 0 0 .7rem; }
+.atlas-map-heading #atlas-map-year { font-size: clamp(1.3rem,2.3vw,2rem); }
+.atlas-route-sources { font-size: .7rem; margin: .5rem 0; color: var(--ash); }
+.atlas-route-sources summary { cursor: pointer; }
+.atlas-route-sources a { display: block; margin-top: .4rem; }
 .atlas-boundary-pills .boundary-overview { border-color: transparent; color: var(--maroon-ink); margin-left: auto; }
 .atlas-boundary-pills [hidden] { display: none; }
 .atlas-boundary { fill: none; stroke-linejoin: round; stroke-linecap: round; pointer-events: none; }
