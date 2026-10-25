@@ -20,7 +20,8 @@ Live at https://axomrank.github.io/AHOM/
 | `research/` | Research notes per person and per batch, and the reel scripts |
 | `tools/` | Content generation, reel preparation, validation and deployment packaging |
 | `chapters/`, `people/`, `scenes/`, `films/`, `trails/` | Generated, crawlable reference pages with metadata and sources |
-| `data/explore.json` | Reading paths and the schematic places guide |
+| `data/explore.json` | Reading paths and place groupings |
+| `data/map-sites.json`, `data/map-stories.json` | Geographic catalogue and editorial event/route bindings for MAP |
 
 `archive/` (originals, full-size reels, backups) and `incoming/` stay on your computer and are not in git.
 
@@ -45,11 +46,19 @@ descriptions and links to historical context. The subtitles describe the scene;
 they do not transcribe speech. `data/reel-context.json` holds the Assamese titles.
 Existing scripted Assamese lines and English translations are labelled as scripts, not audio
 transcripts. Verified speech captions are still needed; do not derive them from prompts.
-The places guide uses real district polygons and 39 river paths from the local APP
-catalogue (`assets/maps/assam.json`, originally imported from `Dist + Rivers (simplified).kmz`).
-Site coordinates are copied from APP's `content/entities.json`. Modern district outlines
-are a geographic reference, rather than the borders of the historical kingdom. The map
-works without a tile service and supports region presets, zoom, pan and scene filtering.
+The MAP tab is a story-driven historical atlas: narrative on the left, animated river
+geography on the right, with linked place names, event search, reading paths, playback,
+camera movement and a sequence scrubber. The 39 river paths come from the local APP
+catalogue (`assets/maps/assam.json`, imported from `Dist + Rivers (simplified).kmz`).
+Modern district lines are not rendered. The 77 reference coordinates in `data/map-sites.json`
+come from APP's `content/entities.json` (re-import with `tools/import_map_sites.py FILE`).
+`tools/map_events.py` binds literal place/river mentions to events; `data/map-stories.json`
+defines explicit connections and editorial qualifications. Nine events have animated
+connections; 112 events name mappable places or rivers. Other records retain valley context.
+River journeys follow the stored Brahmaputra geometry between reference points. Connections
+are interpretive links between places, not claims about exact historical tracks. All map
+animations respect reduced-motion preferences; playback is opt-in and stops on navigation.
+The old `#/explore` URL opens MAP for compatibility. Share an event with `#/map?event=AHOM-209`.
 
 The build stops and lists the problem if a row names an unknown person or an image file that is missing.
 

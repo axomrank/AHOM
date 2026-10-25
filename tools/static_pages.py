@@ -43,7 +43,7 @@ def build_pages(root, data):
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description[:300])}"><meta property="og:url" content="{e(url)}"><meta property="og:type" content="{'article' if kind == 'Article' else 'website'}">{metaimage}
 <meta name="twitter:card" content="summary_large_image"><link rel="icon" href="{BASE}favicon.svg"><link rel="stylesheet" href="{BASE}assets/site.css"><link rel="stylesheet" href="{BASE}assets/library.css">
 <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False).replace('<','&lt;')}</script></head>
-<body><a class="skip" href="#content">Skip to content</a><header class="bar"><a class="brand" href="{BASE}">Ahom · আহোম</a><nav aria-label="Sections">{link('chapters/','Chapters')}{link('people/','People')}{link('scenes/','Scenes')}{link('films/','Films')}</nav></header>
+<body><a class="skip" href="#content">Skip to content</a><header class="bar"><a class="brand" href="{BASE}">Ahom · আহোম</a><nav aria-label="Sections">{link('chapters/','Chapters')}{link('people/','People')}{link('scenes/','Scenes')}{link('films/','Films')}{link('#/map','MAP')}</nav></header>
 <main id="content" class="reference"><nav class="crumbs" aria-label="Breadcrumb">{link('', 'Home')} / {link('chapters/', 'Reference library')}</nav><h1>{e(title)}</h1>{body}</main>
 <footer class="foot"><div class="reference"><p>The paintings, portraits and films are modern reconstructions. Dialogue is dramatised; source records may disagree.</p>{link('', 'Explore the interactive archive')}</div></footer></body></html>'''
         prefix = '../' * len(path.strip('/').split('/'))
@@ -75,7 +75,7 @@ def build_pages(root, data):
             body += f'<img class="reference-painting" src="{e(BASE+im)}" alt="{e(s["alt"])}">'
         body += f'<p>{e(s["summary"])}</p><p>{e(s.get("notes"))}</p>'+sources(s.get('sources',[]))
         body += '<p>People: '+', '.join(link('people/'+pid+'/',people[pid]['name']) for pid in s['people'])+'</p>'
-        body += f'<p>{link("#/scene/"+s["id"],"Open this scene in the interactive archive")}</p><nav class="pager" aria-label="Chronological scenes">'
+        body += f'<p>{link("#/scene/"+s["id"],"Open this scene in the interactive archive")} · {link("#/map?event="+s["id"],"Follow this event on MAP")}</p><nav class="pager" aria-label="Chronological scenes">'
         if i: body += link('scenes/'+ordered[i-1]['id'].lower()+'/', 'Earlier: '+ordered[i-1]['title'])
         if i+1 < len(ordered): body += link('scenes/'+ordered[i+1]['id'].lower()+'/', 'Later: '+ordered[i+1]['title'])
         body += '</nav>'

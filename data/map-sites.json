@@ -1,0 +1,1019 @@
+{
+  "source": "Local APP content/entities.json; locations are catalogue reference points.",
+  "sites": [
+    {
+      "id": "mongmao",
+      "name": "Mong Mao",
+      "as": "মং মাও",
+      "geo": [
+        24.018,
+        97.856
+      ],
+      "aliases": [
+        "Mong Mao"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "pangsau",
+      "name": "Pangsau Pass",
+      "as": "পাংচাউ গিৰিপথ",
+      "geo": [
+        27.2476,
+        96.156
+      ],
+      "aliases": [
+        "Pangsau",
+        "Pangsau Pass"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "namrup",
+      "name": "Namrup",
+      "as": "নামৰূপ",
+      "geo": [
+        27.1836,
+        95.3469
+      ],
+      "aliases": [
+        "Namrup"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "tipam",
+      "name": "Tipam",
+      "as": "তিপাম",
+      "geo": [
+        27.2723,
+        95.4018
+      ],
+      "aliases": [
+        "Tipam"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "abhoypur",
+      "name": "Abhoypur",
+      "as": "অভয়পুৰ",
+      "geo": [
+        27.001,
+        94.9593
+      ],
+      "aliases": [
+        "Abhoypur"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "habung",
+      "name": "Habung",
+      "as": "হাবুং",
+      "geo": [
+        27.3415,
+        94.5009
+      ],
+      "aliases": [
+        "Habung"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "simaluguri",
+      "name": "Simaluguri",
+      "as": "চিমলুগুৰি",
+      "geo": [
+        26.9199,
+        94.7614
+      ],
+      "aliases": [
+        "Simaluguri",
+        "Shimolguri",
+        "Simulguri"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "charaideo",
+      "name": "Charaideo",
+      "as": "চৰাইদেউ",
+      "geo": [
+        26.9419,
+        94.8761
+      ],
+      "aliases": [
+        "Charaideo"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "sivasagar",
+      "name": "Sivasagar",
+      "as": "শিৱসাগৰ",
+      "geo": [
+        26.9889,
+        94.639
+      ],
+      "aliases": [
+        "Sivasagar",
+        "Sibsagar"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "mungkang",
+      "name": "Mungkang",
+      "as": "মুংকাং",
+      "geo": [
+        25.3014,
+        96.9417
+      ],
+      "aliases": [
+        "Mungkang",
+        "Mong Kawng"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "kamata",
+      "name": "Kamata",
+      "as": "কামতা",
+      "geo": [
+        26.16,
+        89.36
+      ],
+      "aliases": [
+        "Kamata"
+      ],
+      "kind": "region reference"
+    },
+    {
+      "id": "sadiya",
+      "name": "Sadiya",
+      "as": "শদিয়া",
+      "geo": [
+        27.83,
+        95.67
+      ],
+      "aliases": [
+        "Sadiya"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "nongnyang",
+      "name": "Nongnyang lake",
+      "as": "নংনিয়াং হ্ৰদ",
+      "geo": [
+        27.22,
+        96.17
+      ],
+      "aliases": [
+        "Nongnyang",
+        "Nongkyang",
+        "Nongnyang Lake"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "dimapur",
+      "name": "Dimapur",
+      "as": "ডিমাপুৰ",
+      "geo": [
+        25.91,
+        93.73
+      ],
+      "aliases": [
+        "Dimapur"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "dikhowmukh",
+      "name": "Dikhowmukh",
+      "as": "দিখৌমুখ",
+      "geo": [
+        26.98,
+        94.38
+      ],
+      "aliases": [
+        "Dikhowmukh"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "singri",
+      "name": "Singri",
+      "as": "শিংৰি",
+      "geo": [
+        26.66,
+        92.38
+      ],
+      "aliases": [
+        "Singri"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "karatoya",
+      "name": "Karatoya",
+      "as": "কৰতোৱা",
+      "geo": [
+        25.85,
+        89.35
+      ],
+      "aliases": [
+        "Karatoya"
+      ],
+      "kind": "river reference"
+    },
+    {
+      "id": "kaliabor",
+      "name": "Kaliabor",
+      "as": "কলিয়াবৰ",
+      "geo": [
+        26.58,
+        93.0
+      ],
+      "aliases": [
+        "Kaliabor"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "garhgaon",
+      "name": "Garhgaon",
+      "as": "গড়গাঁও",
+      "geo": [
+        26.93,
+        94.73
+      ],
+      "aliases": [
+        "Garhgaon"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "narayanpur",
+      "name": "Narayanpur",
+      "as": "নাৰায়ণপুৰ",
+      "geo": [
+        26.95,
+        93.87
+      ],
+      "aliases": [
+        "Narayanpur"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "majuli",
+      "name": "Majuli",
+      "as": "মাজুলী",
+      "geo": [
+        27.0,
+        94.2167
+      ],
+      "aliases": [
+        "Majuli"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "hajo",
+      "name": "Hajo",
+      "as": "হাজো",
+      "geo": [
+        26.25,
+        91.53
+      ],
+      "aliases": [
+        "Hajo"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "guwahati",
+      "name": "Guwahati",
+      "as": "গুৱাহাটী",
+      "geo": [
+        26.18,
+        91.75
+      ],
+      "aliases": [
+        "Guwahati"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "samdhara",
+      "name": "Samdhara",
+      "as": "সমধাৰা",
+      "geo": [
+        26.62,
+        92.88
+      ],
+      "aliases": [
+        "Samdhara"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "biswanath",
+      "name": "Biswanath",
+      "as": "বিশ্বনাথ",
+      "geo": [
+        26.73,
+        93.15
+      ],
+      "aliases": [
+        "Biswanath"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "dergaon",
+      "name": "Dergaon",
+      "as": "দেৰগাঁও",
+      "geo": [
+        26.7,
+        93.97
+      ],
+      "aliases": [
+        "Dergaon"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "kajali",
+      "name": "Kajali",
+      "as": "কাজলী",
+      "geo": [
+        26.24,
+        92.05
+      ],
+      "aliases": [
+        "Kajali"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "auniati",
+      "name": "Auniati Satra",
+      "as": "আউনীআটী সত্ৰ",
+      "geo": [
+        26.9402,
+        94.1238
+      ],
+      "aliases": [
+        "Auniati Satra"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "ghilajharighat",
+      "name": "Ghilajharighat",
+      "as": "ঘিলাধাৰীঘাটৰ সন্ধি",
+      "geo": [
+        27.27,
+        95.4
+      ],
+      "aliases": [
+        "Ghilajharighat"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "jogighopa",
+      "name": "Jogighopa",
+      "as": "যোগীঘোপা",
+      "geo": [
+        26.23,
+        90.57
+      ],
+      "aliases": [
+        "Jogighopa"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "saraighat",
+      "name": "Saraighat",
+      "as": "শৰাইঘাট",
+      "geo": [
+        26.1758,
+        91.6722
+      ],
+      "aliases": [
+        "Saraighat"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "alaboi",
+      "name": "Alaboi",
+      "as": "আলাবৈ",
+      "geo": [
+        26.3,
+        91.7
+      ],
+      "aliases": [
+        "Alaboi"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "jerenga",
+      "name": "Jerenga Pathar",
+      "as": "জেৰেঙা পথাৰ",
+      "geo": [
+        26.99,
+        94.66
+      ],
+      "aliases": [
+        "Jerenga",
+        "Jerenga Pathar"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "itakhuli",
+      "name": "Itakhuli",
+      "as": "ইটাখুলিৰ যুদ্ধ",
+      "geo": [
+        26.185,
+        91.746
+      ],
+      "aliases": [
+        "Itakhuli"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "umananda",
+      "name": "Umananda",
+      "as": "উমানন্দ",
+      "geo": [
+        26.195,
+        91.7447
+      ],
+      "aliases": [
+        "Umananda"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "rangpur",
+      "name": "Rangpur",
+      "as": "ৰংপুৰ",
+      "geo": [
+        26.96,
+        94.62
+      ],
+      "aliases": [
+        "Rangpur"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "joysagar",
+      "name": "Joysagar",
+      "as": "জয়সাগৰ",
+      "geo": [
+        26.9706,
+        94.6869
+      ],
+      "aliases": [
+        "Joysagar"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "maibong",
+      "name": "Maibong",
+      "as": "মাইবং",
+      "geo": [
+        25.3,
+        93.17
+      ],
+      "aliases": [
+        "Maibong"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "jaintiapur",
+      "name": "Jaintiapur",
+      "as": "জয়ন্তীয়াপুৰ",
+      "geo": [
+        25.13,
+        92.13
+      ],
+      "aliases": [
+        "Jaintiapur"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "kamakhya",
+      "name": "Kamakhya",
+      "as": "কামাখ্যা",
+      "geo": [
+        26.1664,
+        91.7055
+      ],
+      "aliases": [
+        "Kamakhya"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "siva-dol",
+      "name": "Siva Dol",
+      "as": "শিৱদ'ল",
+      "geo": [
+        26.9856,
+        94.635
+      ],
+      "aliases": [
+        "Siva Dol",
+        "Shiva Dol",
+        "Sivadol"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "rang-ghar",
+      "name": "Rang Ghar",
+      "as": "ৰংঘৰ",
+      "geo": [
+        26.967,
+        94.619
+      ],
+      "aliases": [
+        "Rang Ghar",
+        "Rangghar"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "talatal-ghar",
+      "name": "Talatal Ghar",
+      "as": "তলাতল ঘৰ",
+      "geo": [
+        26.9663,
+        94.6247
+      ],
+      "aliases": [
+        "Talatal Ghar"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "kareng-ghar",
+      "name": "Kareng Ghar",
+      "as": "কাৰেং ঘৰ",
+      "geo": [
+        26.9355,
+        94.7443
+      ],
+      "aliases": [
+        "Kareng Ghar"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "manipur",
+      "name": "Manipur",
+      "as": "মণিপুৰ",
+      "geo": [
+        24.8,
+        93.94
+      ],
+      "aliases": [
+        "Manipur"
+      ],
+      "kind": "region reference"
+    },
+    {
+      "id": "jorhat",
+      "name": "Jorhat",
+      "as": "যোৰহাট",
+      "geo": [
+        26.75,
+        94.22
+      ],
+      "aliases": [
+        "Jorhat"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "bengmara",
+      "name": "Bengmara",
+      "as": "বেংমৰা",
+      "geo": [
+        27.49,
+        95.36
+      ],
+      "aliases": [
+        "Bengmara"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "nazira",
+      "name": "Nazira",
+      "as": "নাজিৰা",
+      "geo": [
+        26.91,
+        94.73
+      ],
+      "aliases": [
+        "Nazira"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "dibrugarh",
+      "name": "Dibrugarh",
+      "as": "ডিব্ৰুগড়",
+      "geo": [
+        27.4728,
+        94.912
+      ],
+      "aliases": [
+        "Dibrugarh"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "tinsukia",
+      "name": "Tinsukia",
+      "as": "তিনিচুকীয়া",
+      "geo": [
+        27.4922,
+        95.3597
+      ],
+      "aliases": [
+        "Tinsukia"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "ledo",
+      "name": "Ledo",
+      "as": "লেডো",
+      "geo": [
+        27.2905,
+        95.744
+      ],
+      "aliases": [
+        "Ledo"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "golaghat",
+      "name": "Golaghat",
+      "as": "গোলাঘাট",
+      "geo": [
+        26.5167,
+        93.9667
+      ],
+      "aliases": [
+        "Golaghat"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "lakhimpur",
+      "name": "North Lakhimpur",
+      "as": "উত্তৰ লক্ষীমপুৰ",
+      "geo": [
+        27.2357,
+        94.1019
+      ],
+      "aliases": [
+        "North Lakhimpur"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "tezpur",
+      "name": "Tezpur",
+      "as": "তেজপুৰ",
+      "geo": [
+        26.6528,
+        92.7926
+      ],
+      "aliases": [
+        "Tezpur"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "nagaon",
+      "name": "Nagaon",
+      "as": "নগাঁও",
+      "geo": [
+        26.35,
+        92.6833
+      ],
+      "aliases": [
+        "Nagaon"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "barpeta",
+      "name": "Barpeta",
+      "as": "বৰপেটা",
+      "geo": [
+        26.3226,
+        91.0033
+      ],
+      "aliases": [
+        "Barpeta"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "goalpara",
+      "name": "Goalpara",
+      "as": "গোৱালপাৰা",
+      "geo": [
+        26.1667,
+        90.6167
+      ],
+      "aliases": [
+        "Goalpara"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "dhubri",
+      "name": "Dhubri",
+      "as": "ধুবুৰী",
+      "geo": [
+        26.0207,
+        89.9743
+      ],
+      "aliases": [
+        "Dhubri"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "sualkuchi",
+      "name": "Sualkuchi",
+      "as": "সুৱালকুছি",
+      "geo": [
+        26.17,
+        91.57
+      ],
+      "aliases": [
+        "Sualkuchi"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "mayong",
+      "name": "Mayong",
+      "as": "মায়ং",
+      "geo": [
+        26.25,
+        92.0333
+      ],
+      "aliases": [
+        "Mayong"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "kaziranga",
+      "name": "Kaziranga",
+      "as": "কাজিৰঙা",
+      "geo": [
+        26.5775,
+        93.1711
+      ],
+      "aliases": [
+        "Kaziranga"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "kohima",
+      "name": "Kohima",
+      "as": "কোহিমা",
+      "geo": [
+        25.6747,
+        94.1086
+      ],
+      "aliases": [
+        "Kohima"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "imphal",
+      "name": "Imphal",
+      "as": "ইম্ফল",
+      "geo": [
+        24.817,
+        93.9368
+      ],
+      "aliases": [
+        "Imphal"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "silchar",
+      "name": "Silchar",
+      "as": "শিলচৰ",
+      "geo": [
+        24.8333,
+        92.7789
+      ],
+      "aliases": [
+        "Silchar"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "cooch-behar",
+      "name": "Cooch Behar",
+      "as": "কোচবিহাৰ",
+      "geo": [
+        26.3452,
+        89.4482
+      ],
+      "aliases": [
+        "Cooch Behar"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "bhamo",
+      "name": "Bhamo",
+      "as": "ভামো",
+      "geo": [
+        24.2667,
+        97.2333
+      ],
+      "aliases": [
+        "Bhamo"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "tawang",
+      "name": "Tawang",
+      "as": "তাৱাং",
+      "geo": [
+        27.5861,
+        91.8594
+      ],
+      "aliases": [
+        "Tawang"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "hukawng",
+      "name": "Hukawng Valley",
+      "as": "হুকাং উপত্যকা",
+      "geo": [
+        26.4383,
+        96.5589
+      ],
+      "aliases": [
+        "Hukawng Valley"
+      ],
+      "kind": "region reference"
+    },
+    {
+      "id": "namdang",
+      "name": "Namdang Stone Bridge",
+      "as": "নামদাং শিলৰ দলং",
+      "geo": [
+        26.9504,
+        94.5452
+      ],
+      "aliases": [
+        "Namdang",
+        "Namdang Stone Bridge"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "hayagriva-madhava",
+      "name": "Hayagriva Madhava Temple",
+      "as": "হয়গ্ৰীৱ মাধৱ মন্দিৰ",
+      "geo": [
+        26.2427,
+        91.5265
+      ],
+      "aliases": [
+        "Hayagriva Madhava Temple"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "dakhinpat",
+      "name": "Dakhinpat Satra",
+      "as": "দক্ষিণপাট সত্ৰ",
+      "geo": [
+        26.9181,
+        94.2664
+      ],
+      "aliases": [
+        "Dakhinpat Satra"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "kamalabari",
+      "name": "Kamalabari Satra",
+      "as": "কমলাবাৰী সত্ৰ",
+      "geo": [
+        26.9562,
+        94.1728
+      ],
+      "aliases": [
+        "Kamalabari Satra"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "garamur",
+      "name": "Garamur Satra",
+      "as": "গড়মূৰ সত্ৰ",
+      "geo": [
+        26.9832,
+        94.1564
+      ],
+      "aliases": [
+        "Garamur Satra"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "barpeta-satra",
+      "name": "Barpeta Satra",
+      "as": "বৰপেটা সত্ৰ",
+      "geo": [
+        26.3226,
+        91.0033
+      ],
+      "aliases": [
+        "Barpeta Satra"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "pandu",
+      "name": "Pandu",
+      "as": "পাণ্ডু",
+      "geo": [
+        26.1636,
+        91.6806
+      ],
+      "aliases": [
+        "Pandu"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "bordowa",
+      "name": "Bordowa Than (Batadrava)",
+      "as": "বৰদোৱা থান (বটদ্ৰবা)",
+      "geo": [
+        26.3504,
+        92.6796
+      ],
+      "aliases": [
+        "Bordowa",
+        "Batadrava"
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "mong-yang",
+      "name": "Mong Yang (Mohnyin)",
+      "as": "মং য়াং (মোহনিয়িন)",
+      "geo": [
+        24.779,
+        96.373
+      ],
+      "aliases": [
+        "Mong Yang (Mohnyin)"
+      ],
+      "kind": "place"
+    }
+  ]
+}

@@ -35,6 +35,22 @@ def main():
         lat,lon=place['geo']
         assert -90<=lat<=90 and -180<=lon<=180, f'Invalid coordinates for {place["id"]}'
         assert all(sid in scenes for sid in place['scenes'])
+    atlas=data['atlas']
+    site_ids={p['id'] for p in atlas['sites']}
+    assert len(site_ids)==len(atlas['sites'])
+    assert set(atlas['events'])==set(scenes), 'Every story needs an explicit map state'
+    for pid in atlas['sites']:
+        lat,lon=pid['geo']
+        assert -90<=lat<=90 and -180<=lon<=180
+        assert all(sid in scenes for sid in pid['scenes'])
+    for sid,event in atlas['events'].items():
+        assert set(event['sites'])<=site_ids and set(event['route'])<=site_ids
+        assert set(event['rivers'])<=set(data['basemap']['rivers'])
+        assert not event['route'] or len(event['route'])>=2
+        assert set(event['route'])<=set(event['sites']), f'Route endpoints must be visible for {sid}'
+    assert atlas['events']['AHOM-157']['sites']==['saraighat']
+    assert atlas['events']['AHOM-209']['route']==['rangpur','guwahati']
+    assert atlas['events']['AHOM-209']['mode']=='river'
     for r in data['reels']:
         check(r['src'],r['id']);check(r['poster'],r['id'])
         assert r['scene'] in scenes, f'Unknown scene for {r["id"]}'

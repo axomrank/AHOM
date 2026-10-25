@@ -13,4 +13,7 @@ The eight site coordinates in `data/explore.json` come from APP's `content/entit
 Combined labels use a single explicit anchor: Saraighat for Guwahati / Saraighat,
 Rangpur for Rangpur / Sivasagar, and Namrup for Namrup / Patkai.
 
-`assets/map.js` projects the supplied geometry directly and leaves the source data intact.
+`assets/map.js` projects the supplied river geometry directly and leaves the source data intact.
+The MAP explorer does not draw the modern district polygons. Its expanded catalogue of
+77 reference points is stored in `data/map-sites.json`; `data/map-stories.json` adds event
+connections with explicit qualifications. These connections are not surveyed historical tracks.

@@ -1,129 +1,148 @@
-// Geographic map drawn from the local APP district/river dataset. No tile service required.
+// Historical map renderer: local river geography, animated camera, event places and routes.
 window.AhomMap = (() => {
   'use strict';
-  const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const PRESETS = {
-    assam: [89.4, 23.95, 96.15, 28.15],
-    upper: [93.55, 26.35, 96.15, 28.15],
-    capitals: [94.35, 26.7, 95.1, 27.2],
-  };
+  const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const PRESETS={assam:[89.2,24,96.25,28.2],upper:[93.5,26.35,96.2,28.15]};
+  const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 
-  function mount(root, base, places, select) {
-    let box = [...PRESETS.assam], selected = '', preset = 'assam', drag = null;
-    let width = 1000, height = 570, scale, cosine, centre;
-    root.innerHTML = `<div class="map-toolbar" aria-label="Map controls"><div class="map-presets" role="group" aria-label="Map region"><button type="button" data-region="assam">All Assam</button><button type="button" data-region="upper">Upper Assam</button><button type="button" data-region="capitals">Royal capitals</button></div><div class="map-zoom" role="group" aria-label="Map zoom"><button type="button" data-zoom="in" aria-label="Zoom in">+</button><button type="button" data-zoom="out" aria-label="Zoom out">−</button><button type="button" data-region="assam" aria-label="Reset map view">Reset</button></div></div>
-      <div class="geographic-map"><svg class="geographic-canvas" role="group" aria-label="Geographic map of Assam with historical places" tabindex="0"></svg><p class="map-hint">Drag to pan · Use + / − to zoom</p></div>
-      <div class="map-key"><span><i class="key-district"></i>Districts</span><span><i class="key-river"></i>Rivers</span><span><i class="key-place"></i>Historical places</span></div>
-      <div class="map-place-list" role="group" aria-label="Find scenes by place">${places.map((p,i)=>`<button type="button" data-map-place="${p.id}" aria-pressed="false"><span class="place-number">${i+1}</span><span>${esc(p.name)}<small>${p.scenes.length} scenes</small></span></button>`).join('')}</div>
-      <p class="map-attribution">District and river geometry from the local APP map catalogue, imported from <cite>Dist + Rivers (simplified).kmz</cite>. District outlines are a modern reference; site locations follow the local catalogue. <a href="assets/maps/assam.json" target="_blank" rel="noopener">View map data</a>.</p>`;
-    const svg = root.querySelector('svg');
+  function mount(root,base,sites,onPlace) {
+    const byId=Object.fromEntries(sites.map(p=>[p.id,p]));
+    let box=[...PRESETS.assam], event={sites:[],rivers:[],route:[]}, focused='', focusedRiver='', drag=null;
+    let width=900,height=550,centre=[92.7,26],cosine=1,scale=1;
+    let cameraFrame=0,routeFrame=0,routeAnimation=null,dead=false,cameraMoving=false;
+    root.innerHTML=`<div class="atlas-toolbar"><div class="map-presets" role="group" aria-label="Map region"><button type="button" data-region="event">Follow event</button><button type="button" data-region="assam">Whole valley</button><button type="button" data-region="upper">Upper Assam</button></div><div class="map-zoom" role="group" aria-label="Map zoom"><button type="button" data-zoom="in" aria-label="Zoom in">+</button><button type="button" data-zoom="out" aria-label="Zoom out">−</button><button type="button" data-replay aria-label="Replay map animation">↻</button></div></div><div class="geographic-map"><svg class="geographic-canvas" role="group" aria-label="Historical places and rivers. Drag or use arrow keys to pan." tabindex="0"></svg><p class="map-hint">Drag to explore · + / − to zoom</p><span class="atlas-compass" aria-hidden="true">N<br>↑</span></div><div class="atlas-map-key"><span><i class="key-river"></i>Rivers</span><span><i class="key-place"></i>Event places</span><span><i class="key-route"></i>Story connection</span></div>`;
+    const svg=root.querySelector('svg'),frame=root.querySelector('.geographic-map');
+    const project=([lat,lon])=>[width/2+(lon-centre[0])*cosine*scale,height/2-(lat-centre[1])*scale];
+    const inside=([x,y],pad=30)=>x>pad&&x<width-pad&&y>pad&&y<height-pad;
+    const line=points=>'M'+points.map(p=>project(p).map(v=>v.toFixed(2)).join(',')).join('L');
 
-    function project([lat,lon]) {
-      return [width/2+(lon-centre[0])*cosine*scale, height/2-(lat-centre[1])*scale];
-    }
-    const path = (points, close=false) => 'M'+points.map(p=>project(p).map(n=>n.toFixed(2)).join(',')).join('L')+(close?'Z':'');
-    const inView = ([x,y], pad=20) => x>pad && y>pad && x<width-pad && y<height-pad;
-
-    function draw() {
-      width = Math.max(280,root.querySelector('.geographic-map').clientWidth);
-      height = width<600 ? 420 : Math.round(width*.57);
-      centre=[(box[0]+box[2])/2,(box[1]+box[3])/2];
-      cosine=Math.cos(centre[1]*Math.PI/180);
-      scale=Math.min((width-36)/((box[2]-box[0])*cosine),(height-36)/(box[3]-box[1]));
-      svg.setAttribute('viewBox',`0 0 ${width} ${height}`);
-      svg.setAttribute('width',width);svg.setAttribute('height',height);
-      svg.dataset.bounds=box.join(',');
-      let out=`<rect class="map-ground" width="${width}" height="${height}"/>`;
-      out+=Object.entries(base.districts).map(([id,d])=>`<path class="geo-district" data-district="${id}" d="${d.rings.map(r=>path(r,true)).join(' ')}"><title>${esc(d.name)} · modern district</title></path>`).join('');
-      out+=Object.entries(base.rivers).map(([id,r])=>`<path class="geo-river ${id==='brahmaputra'?'geo-main-river':''}" data-river="${id}" d="${path(r.pts)}"><title>${esc(r.name)}</title></path>`).join('');
-      const main=base.rivers.brahmaputra;
-      const visible=main.pts.map(project).filter(p=>inView(p,45));
-      if(visible.length) {
-        const p=visible[Math.floor(visible.length*.5)];
-        out+=`<text class="geo-river-label" x="${p[0]}" y="${p[1]-12}">Brahmaputra</text>`;
+    function stopAnimations(){cancelAnimationFrame(cameraFrame);cancelAnimationFrame(routeFrame);routeAnimation?.cancel();routeAnimation=null;cameraMoving=false;}
+    function routePoints() {
+      const points=(event.route||[]).map(id=>byId[id].geo);
+      if(event.mode!=='river'||points.length<2)return points;
+      const river=base.rivers.brahmaputra.pts;
+      const nearest=p=>river.reduce((best,q,i)=>{
+        const d=(p[0]-q[0])**2+((p[1]-q[1])*Math.cos(p[0]*Math.PI/180))**2;
+        return d<best.d?{d,i}:best;
+      },{d:Infinity,i:0}).i;
+      const out=[points[0]];
+      for(let n=1;n<points.length;n++) {
+        const a=nearest(points[n-1]),b=nearest(points[n]);
+        const segment=river.slice(Math.min(a,b),Math.max(a,b)+1);
+        out.push(...(a>b?segment.reverse():segment),points[n]);
       }
-      // Numbered pins stay at their geographic positions. Labels use leader lines to avoid overlaps.
-      const labels=[];
-      const offsets=[[12,-20],[12,24],[-12,-20],[-12,24],[12,-48],[-12,48],[12,50],[-12,-50],[35,-75],[-35,75]];
-      for(const [i,p] of places.entries()) {
-        const [x,y]=project(p.geo);
-        if(!inView([x,y],8))continue;
-        const name=p.mapLabel || p.name.split(' / ')[0];
-        const tw=name.length*7+14;
-        let label=null;
-        for(const [dx,dy] of offsets) {
-          const lx=x+dx, ly=y+dy, left=dx<0?lx-tw:lx;
-          const rect=[left,ly-15,left+tw,ly+6];
-          if(rect[0]<4||rect[2]>width-4||rect[1]<35||rect[3]>height-35)continue;
-          if(labels.some(r=>rect[0]<r[2]+6&&rect[2]>r[0]-6&&rect[1]<r[3]+6&&rect[3]>r[1]-6))continue;
-          // Keep labels away from every other place marker.
-          if(places.some(other=>{if(other===p)return false;const [px,py]=project(other.geo);return px>rect[0]-10&&px<rect[2]+10&&py>rect[1]-10&&py<rect[3]+10;}))continue;
-          label={lx,ly,left,rect,anchor:dx<0?'end':'start'};labels.push(rect);break;
+      return out;
+    }
+    function eventBox() {
+      let points=[...(event.sites||[]).map(id=>byId[id].geo),...routePoints()];
+      if(!points.length)for(const id of event.rivers||[])points.push(...base.rivers[id].pts);
+      if(!points.length)return [...PRESETS.assam];
+      const lat=points.map(p=>p[0]),lon=points.map(p=>p[1]);
+      const cx=(Math.min(...lon)+Math.max(...lon))/2,cy=(Math.min(...lat)+Math.max(...lat))/2;
+      const dx=Math.max(Math.max(...lon)-Math.min(...lon),points.length===1?1.2:.12)*.7;
+      const dy=Math.max(Math.max(...lat)-Math.min(...lat),points.length===1?.7:.09)*.75;
+      return [cx-dx,cy-dy,cx+dx,cy+dy];
+    }
+    function draw(animate=false) {
+      if(dead)return;
+      width=Math.max(280,frame.clientWidth);height=Math.max(220,frame.clientHeight);
+      centre=[(box[0]+box[2])/2,(box[1]+box[3])/2];cosine=Math.cos(centre[1]*Math.PI/180);
+      scale=Math.min((width-90)/((box[2]-box[0])*cosine),(height-100)/(box[3]-box[1]));
+      svg.setAttribute('viewBox',`0 0 ${width} ${height}`);svg.dataset.bounds=box.join(',');
+      const activeRivers=new Set(event.rivers||[]);
+      if(focusedRiver)activeRivers.add(focusedRiver);
+      if(event.mode==='river'&&event.route?.length)activeRivers.add('brahmaputra');
+      let content='<defs><radialGradient id="atlas-paper" cx="40%" cy="35%" r="85%"><stop offset="0" stop-color="#fbf7eb"/><stop offset="1" stop-color="#eae0c6"/></radialGradient><marker id="atlas-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,1L9,5L0,9" fill="none" stroke="currentColor" stroke-width="1.6"/></marker></defs>';
+      content+=`<rect class="map-ground" width="${width}" height="${height}"/>`;
+      for(const [id,r] of Object.entries(base.rivers)) {
+        const d=line(r.pts),main=id==='brahmaputra',active=activeRivers.has(id);
+        content+=`<g class="atlas-river ${main?'is-main':''} ${active?'is-highlighted':''}" data-river="${id}"><title>${esc(r.name)}</title><path class="river-bed" d="${d}"/><path class="river-ink" d="${d}"/></g>`;
+      }
+      const points=routePoints();
+      if(points.length>1)content+=`<path class="atlas-route-halo" d="${line(points)}" opacity="${cameraMoving?0:1}"/><path class="atlas-route" d="${line(points)}" opacity="${cameraMoving?0:1}" marker-end="url(#atlas-arrow)"/><circle class="route-traveller" r="5" visibility="hidden"/>`;
+      const occupied=[];
+      const avoid=(rect,pad=8)=>occupied.some(r=>rect[0]<r[2]+pad&&rect[2]>r[0]-pad&&rect[1]<r[3]+pad&&rect[3]>r[1]-pad);
+      for(const id of [...new Set(['brahmaputra',...activeRivers,'dikhou','dihing','manas','dhansiri-south'])]) {
+        const river=base.rivers[id];if(!river)continue;
+        const points=river.pts.map(project).filter(p=>inside(p,50));
+        if(!points.length || (!activeRivers.has(id)&&id!=='brahmaputra'&&box[2]-box[0]>4))continue;
+        for(const t of [.5,.25,.75]) {
+          const [x,y]=points[Math.floor((points.length-1)*t)],name=river.name.replace(/\/.*/,'');
+          const rect=[x-name.length*3.5,y-22,x+name.length*3.5,y];
+          if(avoid(rect))continue;occupied.push(rect);
+          content+=`<text class="geo-river-label" x="${x}" y="${y-8}">${esc(name)}</text>`;break;
         }
-        const active=selected===p.id;
-        if(label)out+=`<g class="geo-place-label" aria-hidden="true"><path d="M${x},${y}L${label.lx},${label.ly-5}"/><rect x="${label.left-3}" y="${label.ly-16}" width="${tw+6}" height="23" rx="3"/><text x="${label.lx}" y="${label.ly}" text-anchor="${label.anchor}">${esc(name)}</text></g>`;
-        out+=`<g class="geo-pin ${active?'is-selected':''}" role="button" tabindex="0" data-map-place="${p.id}" aria-label="${esc(p.name)}, ${p.scenes.length} scenes" aria-pressed="${active}"><circle class="geo-hit" cx="${x}" cy="${y}" r="18"/><circle class="geo-dot" cx="${x}" cy="${y}" r="11"/><text x="${x}" y="${y+4}" aria-hidden="true">${i+1}</text></g>`;
       }
-      out+=`<g class="map-north" transform="translate(${width-25},25)" aria-hidden="true"><path d="M0,12V-4M-4,1L0,-5L4,1"/><text y="-10">N</text></g>`;
-      svg.innerHTML=out;
-      root.querySelectorAll('.map-presets [data-region]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.region===preset)));
-      root.querySelectorAll('.map-place-list [data-map-place]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mapPlace===selected)));
+      const active=(event.sites||[]).map(id=>byId[id]);
+      for(const id of ['guwahati','charaideo','sadiya','jorhat','dimapur']) {
+        if(active.some(p=>p.id===id))continue;
+        const [x,y]=project(byId[id].geo);if(inside([x,y],10))content+=`<circle class="atlas-reference-dot" cx="${x}" cy="${y}" r="2.5"/>`;
+      }
+      const pinPoints=active.map(p=>project(p.geo));
+      for(const [i,p] of active.entries()) {
+        const [x,y]=pinPoints[i];if(!inside([x,y],10))continue;
+        const name=p.name.replace(' Stone Bridge',' Bridge'),tw=Math.max(50,name.length*7.2+18);
+        let label=null;
+        for(const [dx,dy] of [[15,-23],[15,30],[-15,-23],[-15,30],[15,-52],[-15,54],[40,-80],[-40,80]]) {
+          const lx=x+dx,ly=y+dy,left=dx<0?lx-tw:lx,rect=[left,ly-17,left+tw,ly+7];
+          if(rect[0]<4||rect[2]>width-4||rect[1]<10||rect[3]>height-24||avoid(rect))continue;
+          if(pinPoints.some((point,j)=>j!==i&&point[0]>rect[0]-12&&point[0]<rect[2]+12&&point[1]>rect[1]-12&&point[1]<rect[3]+12))continue;
+          label={lx,ly,left,anchor:dx<0?'end':'start'};occupied.push(rect);break;
+        }
+        if(label)content+=`<g class="geo-place-label" aria-hidden="true"><path d="M${x},${y}L${label.lx},${label.ly-5}"/><rect x="${label.left-3}" y="${label.ly-18}" width="${tw+6}" height="26" rx="4"/><text x="${label.lx}" y="${label.ly}" text-anchor="${label.anchor}">${esc(name)}</text></g>`;
+        content+=`<g class="geo-pin atlas-event-pin ${focused===p.id?'is-selected':''} ${animate?'animate-pin':''}" role="button" tabindex="0" data-map-place="${p.id}" aria-label="${esc(p.name)}" aria-pressed="${focused===p.id}"><circle class="geo-hit" cx="${x}" cy="${y}" r="20"/><circle class="event-pulse" cx="${x}" cy="${y}" r="15" style="transform-origin:${x}px ${y}px;animation-delay:${i*.18}s"/><circle class="geo-dot" cx="${x}" cy="${y}" r="9"/><circle class="event-pin-centre" cx="${x}" cy="${y}" r="2.5"/></g>`;
+      }
+      svg.innerHTML=content;
+      if(animate)animateRoute();
     }
-
-    function setSelected(id) {
-      if(selected===id)return;
-      const focusedPin=svg.contains(document.activeElement) ? document.activeElement.dataset.mapPlace : null;
-      selected=id;
-      const p=places.find(p=>p.id===id);
-      if(p && !inView(project(p.geo),25)) {
-        const dx=(box[2]-box[0])/2,dy=(box[3]-box[1])/2;
-        box=[p.geo[1]-dx,p.geo[0]-dy,p.geo[1]+dx,p.geo[0]+dy];preset='';
-      }
-      draw();
-      if(focusedPin)svg.querySelector(`[data-map-place="${focusedPin}"]`)?.focus();
+    function animateRoute() {
+      const route=svg.querySelector('.atlas-route');if(!route||reduced.matches)return;
+      routeAnimation?.cancel();cancelAnimationFrame(routeFrame);
+      const length=route.getTotalLength(),duration=3600;
+      routeAnimation=route.animate([{strokeDasharray:`${length} ${length}`,strokeDashoffset:length},{strokeDasharray:`${length} ${length}`,strokeDashoffset:0}],{duration,easing:'linear'});
+      const traveller=svg.querySelector('.route-traveller'),start=performance.now();
+      const tick=now=>{
+        if(dead||!route.isConnected)return;
+        const t=Math.min(1,(now-start)/duration),p=route.getPointAtLength(length*t);
+        traveller.setAttribute('cx',p.x);traveller.setAttribute('cy',p.y);traveller.setAttribute('visibility','visible');
+        if(t<1)routeFrame=requestAnimationFrame(tick);else traveller.setAttribute('visibility','hidden');
+      };
+      routeFrame=requestAnimationFrame(tick);
     }
-    function activate(event) {
-      const pin=event.target.closest('[data-map-place]');
-      if(pin) {select(pin.dataset.mapPlace);return;}
-      const region=event.target.closest('[data-region]');
-      if(region) {preset=region.dataset.region;box=[...PRESETS[preset]];draw();return;}
-      const zoom=event.target.closest('[data-zoom]');
-      if(zoom) {
-        const factor=zoom.dataset.zoom==='in'?.65:1/.65;
-        const dx=Math.min(12,Math.max(.06,(box[2]-box[0])*factor))/2;
-        const dy=dx*(box[3]-box[1])/(box[2]-box[0]);
-        box=[centre[0]-dx,centre[1]-dy,centre[0]+dx,centre[1]+dy];preset='';draw();
-      }
+    function flyTo(target,animate=true) {
+      stopAnimations();
+      if(!animate||reduced.matches){box=[...target];draw(animate);return;}
+      cameraMoving=true;
+      const from=[...box],start=performance.now();
+      const tick=now=>{
+        const t=Math.min(1,(now-start)/850),ease=1-(1-t)**3;
+        box=from.map((v,i)=>v+(target[i]-v)*ease);draw(false);
+        if(t<1)cameraFrame=requestAnimationFrame(tick);else {cameraMoving=false;draw(true);}
+      };
+      cameraFrame=requestAnimationFrame(tick);
     }
-    root.addEventListener('click',activate);
-    function keyboard(event) {
-      if(event.target===svg && ['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(event.key)) {
-        event.preventDefault();
-        const dx=(box[2]-box[0])*.1*(event.key==='ArrowLeft'?-1:event.key==='ArrowRight'?1:0);
-        const dy=(box[3]-box[1])*.1*(event.key==='ArrowDown'?-1:event.key==='ArrowUp'?1:0);
-        box=[box[0]+dx,box[1]+dy,box[2]+dx,box[3]+dy];preset='';draw();return;
-      }
-      if(event.target.closest('[data-map-place]') && ['Enter',' '].includes(event.key)) {
-        if(event.target.tagName==='BUTTON')return; // Native HTML buttons already activate on keypress.
-        event.preventDefault();activate(event);
-      }
+    function showEvent(value,animate=true){event=value;focused='';focusedRiver='';flyTo(eventBox(),animate);}
+    function focusPlace(id){if(!byId[id])return;focused=id;const [lat,lon]=byId[id].geo;flyTo([lon-.06,lat-.04,lon+.06,lat+.04]);}
+    function focusRiver(id){if(!base.rivers[id])return;focusedRiver=id;const pts=base.rivers[id].pts,lat=pts.map(p=>p[0]),lon=pts.map(p=>p[1]);flyTo([Math.min(...lon)-.2,Math.min(...lat)-.2,Math.max(...lon)+.2,Math.max(...lat)+.2]);}
+    function replay(){focused='';focusedRiver='';flyTo(eventBox());}
+    function click(e) {
+      const pin=e.target.closest('[data-map-place]');if(pin){focusPlace(pin.dataset.mapPlace);onPlace?.(pin.dataset.mapPlace);return;}
+      const preset=e.target.closest('[data-region]');if(preset){if(preset.dataset.region==='event')replay();else flyTo(PRESETS[preset.dataset.region]);return;}
+      if(e.target.closest('[data-replay]')){replay();return;}
+      const zoom=e.target.closest('[data-zoom]');if(zoom){const f=zoom.dataset.zoom==='in'?.65:1/.65,dx=Math.max(.06,Math.min(14,(box[2]-box[0])*f))/2,dy=dx*(box[3]-box[1])/(box[2]-box[0]);flyTo([centre[0]-dx,centre[1]-dy,centre[0]+dx,centre[1]+dy]);}
     }
-    root.addEventListener('keydown',keyboard);
-    svg.addEventListener('pointerdown',event=>{
-      if(event.target.closest('[data-map-place]') || event.button!==0)return;
-      drag={x:event.clientX,y:event.clientY,box:[...box],scale,cosine};
-      svg.setPointerCapture(event.pointerId);svg.classList.add('is-panning');
+    root.addEventListener('click',click);
+    root.addEventListener('keydown',e=>{
+      if(e.target.closest('[data-map-place]')&&['Enter',' '].includes(e.key)){e.preventDefault();click(e);}
+      if(e.target===svg&&['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){
+        e.preventDefault();stopAnimations();const dx=(box[2]-box[0])*.1*(e.key==='ArrowLeft'?-1:e.key==='ArrowRight'?1:0),dy=(box[3]-box[1])*.1*(e.key==='ArrowDown'?-1:e.key==='ArrowUp'?1:0);box=[box[0]+dx,box[1]+dy,box[2]+dx,box[3]+dy];draw();
+      }
     });
-    svg.addEventListener('pointermove',event=>{
-      if(!drag)return;
-      const dx=(event.clientX-drag.x)/(drag.scale*drag.cosine),dy=(event.clientY-drag.y)/drag.scale;
-      box=[drag.box[0]-dx,drag.box[1]+dy,drag.box[2]-dx,drag.box[3]+dy];preset='';draw();
-    });
-    const stop=()=>{drag=null;svg.classList.remove('is-panning');};
-    svg.addEventListener('pointerup',stop);svg.addEventListener('pointercancel',stop);
-    const observer=new ResizeObserver(()=>draw());observer.observe(root.querySelector('.geographic-map'));
-    draw();
-    return {setSelected,destroy(){observer.disconnect();}};
+    svg.addEventListener('pointerdown',e=>{if(e.target.closest('[data-map-place]')||e.button!==0)return;stopAnimations();drag={x:e.clientX,y:e.clientY,box:[...box],scale,cosine};svg.setPointerCapture(e.pointerId);svg.classList.add('is-panning');});
+    svg.addEventListener('pointermove',e=>{if(!drag)return;const dx=(e.clientX-drag.x)/(drag.scale*drag.cosine),dy=(e.clientY-drag.y)/drag.scale;box=[drag.box[0]-dx,drag.box[1]+dy,drag.box[2]-dx,drag.box[3]+dy];draw();});
+    const release=()=>{drag=null;svg.classList.remove('is-panning');};svg.addEventListener('pointerup',release);svg.addEventListener('pointercancel',release);
+    const observer=new ResizeObserver(()=>{if(frame.clientWidth===width&&Math.max(220,frame.clientHeight)===height)return;stopAnimations();draw();});observer.observe(frame);draw();
+    return {showEvent,focusPlace,focusRiver,replay,destroy(){dead=true;stopAnimations();observer.disconnect();}};
   }
   return {mount};
 })();

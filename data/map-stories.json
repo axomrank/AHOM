@@ -1,0 +1,26 @@
+{
+  "note": "Explicit event connections, in narrative order. Lines connect named reference points and do not claim exact historical tracks. River routes use the local river geometry between reference points.",
+  "events": {
+    "AHOM-006": {"sites":["pangsau"],"rivers":[],"caption":"The crossing is located at Pangsau Pass in the local catalogue."},
+    "AHOM-011": {"sites":["namrup"],"rivers":["dihing"]},
+    "AHOM-012": {"sites":["tipam","habung","simaluguri"],"caption":"Early settlements named in the account. Their order here does not assert a travel itinerary."},
+    "AHOM-065": {"sites":["habung","charaideo"],"route":["habung","charaideo"],"mode":"river","caption":"The prince returns from Habung to Charaideo. The connection follows the Brahmaputra between nearby river reference points."},
+    "AHOM-095": {"sites":["sadiya"],"rivers":["brahmaputra"],"caption":"The Sadiya area provides a reference for the Chutia campaign; the precise march is not plotted."},
+    "AHOM-113": {"sites":["garhgaon","namrup"],"route":["garhgaon","namrup"],"caption":"Retreat from the capital toward Namrup, shown as a connection between the named places."},
+    "AHOM-131": {"sites":[],"rivers":["brahmaputra"],"caption":"The invasion advances along the Brahmaputra. This account does not specify a complete itinerary."},
+    "AHOM-134": {"sites":["namrup","garhgaon"],"caption":"Namrup and the occupied capital locate the counter-war; no single battle position is asserted."},
+    "AHOM-147": {"sites":["itakhuli"],"rivers":["brahmaputra","manas"]},
+    "AHOM-157": {"sites":["saraighat"],"rivers":["brahmaputra"]},
+    "AHOM-209": {"sites":["rangpur","guwahati"],"route":["rangpur","guwahati"],"mode":"river","caption":"Gaurinath's flight down the Brahmaputra, from the Rangpur region toward Guwahati."},
+    "AHOM-215": {"sites":["jorhat"],"caption":"The account names Jorhat as the destination. The invasion's exact Patkai pass and march are not reconstructed."},
+    "AHOM-224": {"sites":[],"rivers":["brahmaputra"]},
+    "AHOM-239": {"sites":["dimapur"]},
+    "AHOM-241": {"sites":["dimapur","maibong"],"route":["dimapur","maibong"],"caption":"The Kachari capital shifts from Dimapur to Maibong after the campaign. The line connects the two capitals."},
+    "AHOM-250": {"sites":["guwahati","dhubri"],"route":["guwahati","dhubri"],"mode":"river","caption":"The westward advance from Guwahati toward Dhubri, linked along the Brahmaputra."},
+    "AHOM-255": {"sites":["guwahati","itakhuli"],"rivers":["brahmaputra","manas"]},
+    "AHOM-258": {"sites":["rangpur","guwahati"],"route":["rangpur","guwahati"],"mode":"river","caption":"Rudra Singha moves from Rangpur toward the Guwahati camp. The projected Bengal campaign remains unlaunched."},
+    "AHOM-270": {"sites":["rangpur","jorhat"],"route":["rangpur","jorhat"],"caption":"The court moves from Rangpur to Jorhat. The connection marks the change of capital."},
+    "AHOM-274": {"sites":["jorhat","guwahati"],"route":["jorhat","guwahati"],"mode":"river","caption":"Jorhat is the regional reference for Mahgarh; the retreat ends at Guwahati. The exact battlefield is not pinned."},
+    "AHOM-276": {"sites":["jorhat","rangpur"],"route":["jorhat","rangpur"],"caption":"Gomdhar's supporters advance from near Jorhat toward Rangpur. The line connects the places named in the account."}
+  }
+}

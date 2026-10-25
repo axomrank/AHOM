@@ -221,6 +221,7 @@
     const i = ordered.indexOf(s);
     const reels = A.reels.filter(r => r.scene === id);
     view.innerHTML = `<article class="reference"><nav class="crumbs"><a href="#/scenes/${s.era}">${esc(ERA[s.era].title)}</a></nav><p>${esc(s.date)}</p><h1>${esc(s.title)}</h1>${sceneFigure(s,[id],"scene-l")}<p>${esc(s.summary)}</p><p class="quiet">${esc(s.notes)}</p>${sourceList(s.sources)}<p>Modern illustrated reconstruction.</p><div class="chips">${s.people.map(pid => `<a class="chip" href="#/person/${pid}">${esc(P[pid].name)}</a>`).join("")}</div><p><a href="scenes/${id.toLowerCase()}/">Reference page for sharing and citation</a></p>${reels.length ? `<h2>Watch this moment</h2><ul>${reels.map(r=>`<li><a href="#/films/${r.id}">${esc(r.title)}</a></li>`).join("")}</ul>` : ""}<nav class="pager" aria-label="Chronological scenes">${i ? `<a href="#/scene/${ordered[i-1].id}">← ${esc(ordered[i-1].title)}</a>` : '<span></span>'}${i+1<ordered.length ? `<a href="#/scene/${ordered[i+1].id}">${esc(ordered[i+1].title)} →</a>` : ""}</nav></article>`;
+    $('.chips',view).insertAdjacentHTML('afterend', `<p><a href="#/map?event=${s.id}">Follow this event on MAP →</a></p>`);
   }
 
   function reelCard(r) {
@@ -245,37 +246,9 @@
   }
 
   function explore(params) {
-    setTitle("Explore Ahom history");
-    const trail = A.trails.find(t=>t.id===params.get('trail'));
-    view.innerHTML = `<section class="reference"><h1>Explore the kingdom</h1>
-      <p>Follow a reading path, locate a place, or filter the historical timeline.</p>
-      <div class="trail-grid">${A.trails.map(t=>`<a class="trail-card" href="#/explore?trail=${t.id}"><h2>${esc(t.title)}</h2><p>${esc(t.summary)}</p><span>${t.scenes.length} scenes →</span></a>`).join('')}</div>
-      ${trail ? `<section><h2>${esc(trail.title)}</h2><p>${esc(trail.summary)}</p><ol class="reading-path">${trail.scenes.map(id=>`<li><a href="#/scene/${id}">${esc(S[id].date)} · ${esc(S[id].title)}</a></li>`).join('')}</ol><p><a href="trails/${trail.id}/">Share this reading path</a></p></section>` : ''}
-      <h2>Places of the chronicles</h2><p>Follow the Brahmaputra through the places of Ahom history. Select a numbered pin or a place below to find related scenes; zoom into the royal capitals for a closer look.</p>
-      <div id="chronicles-map"></div><p id="place-note" aria-live="polite"></p>
-      <h2>Timeline of events</h2><div class="library-filters">
-      <label>Search events <input id="event-search" type="search" placeholder="A battle, ruler or place"></label>
-      <label>Chapter <select id="event-era"><option value="">All chapters</option>${A.eras.map(e=>`<option value="${e.id}">${esc(e.title)}</option>`).join('')}</select></label>
-      <label>Person <select id="event-person"><option value="">Everyone</option>${Object.values(P).map(p=>`<option value="${p.id}">${esc(p.name)}</option>`).join('')}</select></label>
-      <label>From <input id="event-from" type="number" min="1215" max="1838" value="1215"></label>
-      <label>To <input id="event-to" type="number" min="1215" max="1838" value="1838"></label>
-      <button class="btn" type="button" id="event-reset">Reset filters</button></div>
-      <p id="event-count" aria-live="polite"></p><ol class="event-timeline" id="event-list"></ol></section>`;
-    let place = '';
-    const q=$('#event-search'), era=$('#event-era'), person=$('#event-person'), from=$('#event-from'), to=$('#event-to');
-    function draw() {
-      const p=A.places.find(p=>p.id===place), term=q.value.trim().toLowerCase();
-      const found=A.scenes.filter(s=>(!p||p.scenes.includes(s.id)) && (!era.value||s.era===era.value) && (!person.value||s.people.includes(person.value)) && (!s.year || s.year>=+from.value && s.year<=+to.value) && [s.title,s.summary,...s.people.map(id=>P[id].name)].join(' ').toLowerCase().includes(term)).sort((a,b)=>(a.year||0)-(b.year||0));
-      $('#event-list').innerHTML=found.map(s=>`<li><span>${esc(s.date)}</span><a href="#/scene/${s.id}">${esc(s.title)}</a></li>`).join('') || '<li>No matching events. Reset the filters to see the full timeline.</li>';
-      $('#event-count').textContent=`${found.length} events`;
-      $('#place-note').innerHTML=p ? `${esc(p.name)}: ${esc(p.note)} ${p.source ? `<a href="${esc(p.source)}" target="_blank" rel="noopener">Place reference</a>` : ''}` : '';
-      map.setSelected(place);
-    }
-    [q,era,person,from,to].forEach(el=>el.addEventListener('input',draw));
-    const map=window.AhomMap.mount($('#chronicles-map'),A.basemap,A.places,id=>{place=place===id?'':id;draw();});
-    cleanup.push(()=>map.destroy());
-    $('#event-reset').onclick=()=>{place='';q.value='';era.value='';person.value='';from.value=1215;to.value=1838;draw();};
-    draw();
+    setTitle("Historical map explorer");
+    const atlas=window.AhomAtlas.mount(view,A,params,sourceList);
+    cleanup.push(()=>atlas.destroy());
   }
 
   // the year in the rail follows the reader through each chapter
@@ -636,6 +609,7 @@
     $("#lb-sources").innerHTML = sourceList(s.sources);
     $("#lb-permalink").href = `#/scene/${s.id}`;
     $("#lb-reference").href = `scenes/${s.id.toLowerCase()}/`;
+    $("#lb-map").href = `#/map?event=${s.id}`;
     $("#lb-people").innerHTML = s.people.map(pid => `<a class="chip chip-person" href="#/person/${pid}">${arch(P[pid], "arch-xs")}${esc(P[pid].name)}</a>`).join("");
     $("#lb-versions").innerHTML = s.images.length > 1 ? s.images.map((im, k) => `<button type="button" data-v="${k}" aria-pressed="${k === lbVersion}">Version ${k + 1}</button>`).join("") : "";
     $("#lb-count").textContent = lbList.length > 1 ? `Scene ${lbAt + 1} of ${lbList.length}` : "";
@@ -725,12 +699,13 @@
     const [path, query = ""] = raw.split("?");
     const parts = path.split("/").filter(Boolean);
     const params = new URLSearchParams(query);
-    const page = parts[0] || "saga";
+    const requested = parts[0] || "saga";
+    const page = requested === 'explore' ? 'map' : requested;
     const key = page === 'saga' ? 'saga' : `${page}/${parts[1] || ""}${page === 'explore' ? '?' + query : ''}`;
 
     if (lb.open) lb.close();
     if (current && current !== key) scrollMemory.set(current, scrollY);
-    const same = key === current && !['films','people','explore'].includes(page);
+    const same = key === current && !['films','people','map'].includes(page);
     if (!same) {
       $$("video").forEach(v => v.pause());
       cleanup.forEach(f => f()); cleanup = [];
@@ -741,12 +716,12 @@
       else if (page === "scenes") scenes(parts[1]);
       else if (page === "scene") scenePage(parts[1]);
       else if (page === "films") films(params, parts[1]);
-      else if (page === "explore") explore(params);
+      else if (page === "map") explore(params);
       else notFound("That page is not part of this site.", "#/", "Go to the saga");
       current = key;
       watchFilms();
     }
-    $$("[data-nav]").forEach(a => a.toggleAttribute("aria-current", a.dataset.nav === (page === "person" ? "people" : page === 'scene' ? 'scenes' : page)));
+    $$("[data-nav]").forEach(a => { if(a.dataset.nav === (page === "person" ? "people" : page === 'scene' ? 'scenes' : page))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current'); });
     document.body.dataset.route = page === "saga" ? "home" : page;
 
     if (page === "saga" && parts[1] && ERA[parts[1]]) {
