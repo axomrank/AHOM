@@ -45,7 +45,11 @@ descriptions and links to historical context. The subtitles describe the scene;
 they do not transcribe speech. `data/reel-context.json` holds the Assamese titles.
 Existing scripted Assamese lines and English translations are labelled as scripts, not audio
 transcripts. Verified speech captions are still needed; do not derive them from prompts.
-The places guide is schematic and does not claim precise coordinates or historical borders.
+The places guide uses real district polygons and 39 river paths from the local APP
+catalogue (`assets/maps/assam.json`, originally imported from `Dist + Rivers (simplified).kmz`).
+Site coordinates are copied from APP's `content/entities.json`. Modern district outlines
+are a geographic reference, rather than the borders of the historical kingdom. The map
+works without a tile service and supports region presets, zoom, pan and scene filtering.
 
 The build stops and lists the problem if a row names an unknown person or an image file that is missing.
 

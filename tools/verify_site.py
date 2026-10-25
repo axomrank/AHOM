@@ -29,6 +29,12 @@ def main():
     assert len(set(ids))==len(ids), 'Duplicate reel IDs'
     assert len({r['src'] for r in data['reels']})==len(ids), 'Duplicate film source paths'
     assert len(data['reigns'])==41
+    assert data['basemap']==json.loads((ROOT/'assets/maps/assam.json').read_text())
+    assert data['basemap']['districts'] and data['basemap']['rivers'].get('brahmaputra')
+    for place in data['places']:
+        lat,lon=place['geo']
+        assert -90<=lat<=90 and -180<=lon<=180, f'Invalid coordinates for {place["id"]}'
+        assert all(sid in scenes for sid in place['scenes'])
     for r in data['reels']:
         check(r['src'],r['id']);check(r['poster'],r['id'])
         assert r['scene'] in scenes, f'Unknown scene for {r["id"]}'

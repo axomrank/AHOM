@@ -247,7 +247,20 @@
   function explore(params) {
     setTitle("Explore Ahom history");
     const trail = A.trails.find(t=>t.id===params.get('trail'));
-    view.innerHTML = `<section class="reference"><h1>Explore the kingdom</h1><p>Follow a reading path, locate a place, or filter the historical timeline.</p><div class="trail-grid">${A.trails.map(t=>`<a class="trail-card" href="#/explore?trail=${t.id}"><h2>${esc(t.title)}</h2><p>${esc(t.summary)}</p><span>${t.scenes.length} scenes →</span></a>`).join('')}</div>${trail ? `<section><h2>${esc(trail.title)}</h2><p>${esc(trail.summary)}</p><ol class="reading-path">${trail.scenes.map(id=>`<li><a href="#/scene/${id}">${esc(S[id].date)} · ${esc(S[id].title)}</a></li>`).join('')}</ol><p><a href="trails/${trail.id}/">Share this reading path</a></p></section>` : ''}<h2>Places of the chronicles</h2><p>Click a place to find related scenes. This is a schematic guide, with approximate positions; it does not depict historical borders or exact distances.</p><div class="history-map"><svg viewBox="0 0 1000 500" aria-hidden="true"><path d="M60 410 Q220 300 390 310 T650 210 T970 60"/><text x="290" y="285">Brahmaputra</text></svg>${A.places.map(p=>`<button type="button" data-place="${p.id}" style="left:${p.x}%;top:${p.y}%" aria-pressed="false">${esc(p.name)}</button>`).join('')}</div><p id="place-note" aria-live="polite"></p><h2>Timeline of events</h2><div class="library-filters"><label>Search events <input id="event-search" type="search" placeholder="A battle, ruler or place"></label><label>Chapter <select id="event-era"><option value="">All chapters</option>${A.eras.map(e=>`<option value="${e.id}">${esc(e.title)}</option>`).join('')}</select></label><label>Person <select id="event-person"><option value="">Everyone</option>${Object.values(P).map(p=>`<option value="${p.id}">${esc(p.name)}</option>`).join('')}</select></label><label>From <input id="event-from" type="number" min="1215" max="1838" value="1215"></label><label>To <input id="event-to" type="number" min="1215" max="1838" value="1838"></label><button class="btn" type="button" id="event-reset">Reset filters</button></div><p id="event-count" aria-live="polite"></p><ol class="event-timeline" id="event-list"></ol></section>`;
+    view.innerHTML = `<section class="reference"><h1>Explore the kingdom</h1>
+      <p>Follow a reading path, locate a place, or filter the historical timeline.</p>
+      <div class="trail-grid">${A.trails.map(t=>`<a class="trail-card" href="#/explore?trail=${t.id}"><h2>${esc(t.title)}</h2><p>${esc(t.summary)}</p><span>${t.scenes.length} scenes →</span></a>`).join('')}</div>
+      ${trail ? `<section><h2>${esc(trail.title)}</h2><p>${esc(trail.summary)}</p><ol class="reading-path">${trail.scenes.map(id=>`<li><a href="#/scene/${id}">${esc(S[id].date)} · ${esc(S[id].title)}</a></li>`).join('')}</ol><p><a href="trails/${trail.id}/">Share this reading path</a></p></section>` : ''}
+      <h2>Places of the chronicles</h2><p>Follow the Brahmaputra through the places of Ahom history. Select a numbered pin or a place below to find related scenes; zoom into the royal capitals for a closer look.</p>
+      <div id="chronicles-map"></div><p id="place-note" aria-live="polite"></p>
+      <h2>Timeline of events</h2><div class="library-filters">
+      <label>Search events <input id="event-search" type="search" placeholder="A battle, ruler or place"></label>
+      <label>Chapter <select id="event-era"><option value="">All chapters</option>${A.eras.map(e=>`<option value="${e.id}">${esc(e.title)}</option>`).join('')}</select></label>
+      <label>Person <select id="event-person"><option value="">Everyone</option>${Object.values(P).map(p=>`<option value="${p.id}">${esc(p.name)}</option>`).join('')}</select></label>
+      <label>From <input id="event-from" type="number" min="1215" max="1838" value="1215"></label>
+      <label>To <input id="event-to" type="number" min="1215" max="1838" value="1838"></label>
+      <button class="btn" type="button" id="event-reset">Reset filters</button></div>
+      <p id="event-count" aria-live="polite"></p><ol class="event-timeline" id="event-list"></ol></section>`;
     let place = '';
     const q=$('#event-search'), era=$('#event-era'), person=$('#event-person'), from=$('#event-from'), to=$('#event-to');
     function draw() {
@@ -256,10 +269,11 @@
       $('#event-list').innerHTML=found.map(s=>`<li><span>${esc(s.date)}</span><a href="#/scene/${s.id}">${esc(s.title)}</a></li>`).join('') || '<li>No matching events. Reset the filters to see the full timeline.</li>';
       $('#event-count').textContent=`${found.length} events`;
       $('#place-note').innerHTML=p ? `${esc(p.name)}: ${esc(p.note)} ${p.source ? `<a href="${esc(p.source)}" target="_blank" rel="noopener">Place reference</a>` : ''}` : '';
-      $$('[data-place]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.place===place)));
+      map.setSelected(place);
     }
     [q,era,person,from,to].forEach(el=>el.addEventListener('input',draw));
-    $$('[data-place]').forEach(b=>b.onclick=()=>{place=place===b.dataset.place?'':b.dataset.place;draw();});
+    const map=window.AhomMap.mount($('#chronicles-map'),A.basemap,A.places,id=>{place=place===id?'':id;draw();});
+    cleanup.push(()=>map.destroy());
     $('#event-reset').onclick=()=>{place='';q.value='';era.value='';person.value='';from.value=1215;to.value=1838;draw();};
     draw();
   }
