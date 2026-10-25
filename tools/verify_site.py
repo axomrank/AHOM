@@ -31,6 +31,14 @@ def main():
     assert len(data['reigns'])==41
     assert data['basemap']==json.loads((ROOT/'assets/maps/assam.json').read_text())
     assert data['basemap']['districts'] and data['basemap']['rivers'].get('brahmaputra')
+    assert data['boundaries']==json.loads((ROOT/'assets/maps/boundaries.json').read_text())
+    for key in ['assam','india']:
+        layer=data['boundaries'][key]
+        assert layer['source'] and len(layer['sha256'])==64
+        assert layer['rings']
+        for ring in layer['rings']:
+            assert len(ring)>=4 and ring[0]==ring[-1], f'Open boundary ring: {key}'
+            assert all(-90<=lat<=90 and -180<=lon<=180 for lat,lon in ring)
     for place in data['places']:
         lat,lon=place['geo']
         assert -90<=lat<=90 and -180<=lon<=180, f'Invalid coordinates for {place["id"]}'

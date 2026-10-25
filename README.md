@@ -50,7 +50,11 @@ The MAP tab is a story-driven historical atlas: narrative on the left, animated 
 geography on the right, with linked place names, event search, reading paths, playback,
 camera movement and a sequence scrubber. The 39 river paths come from the local APP
 catalogue (`assets/maps/assam.json`, imported from `Dist + Rivers (simplified).kmz`).
-Modern district lines are not rendered. The 77 reference coordinates in `data/map-sites.json`
+Optional Assam, India and district boundary pills are off by default and toggle independently.
+District lines retain the local source's 33-unit vintage; Assam's outline is dissolved from
+the original KMZ polygons. India uses DataMeet's Survey of India derived country dataset.
+These are modern reference layers, not historical borders. Provenance and licenses are in
+`assets/maps/README.md` and `assets/maps/boundaries.json`. The 77 reference coordinates in `data/map-sites.json`
 come from APP's `content/entities.json` (re-import with `tools/import_map_sites.py FILE`).
 `tools/map_events.py` binds literal place/river mentions to events; `data/map-stories.json`
 defines explicit connections and editorial qualifications. Nine events have animated

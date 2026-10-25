@@ -20,7 +20,7 @@ window.AhomAtlas = (() => {
       <div class="atlas-story-scroll"><article id="atlas-story"></article><details class="atlas-queue"><summary id="atlas-queue-title">Events in this sequence</summary><ol id="atlas-event-list"></ol></details></div></aside>
       <section class="atlas-map-panel" aria-label="Animated historical map"><div class="atlas-map-heading"><div><span class="atlas-map-kicker" id="atlas-map-era"></span><p id="atlas-map-year"></p></div><div id="atlas-map-focus" aria-live="polite">Places in this event</div></div><div id="chronicles-map"></div>
       <div class="atlas-route-caption" id="atlas-route-caption" aria-live="polite"></div><label class="atlas-scrubber">Move through this sequence<input id="atlas-scrub" type="range" min="0" max="0" step="1" value="0" aria-label="Event in sequence"><span id="atlas-scrub-date"></span></label>
-      <details class="atlas-geography-note"><summary>About this map</summary><p>All 39 river paths come from the local APP geographic catalogue. Site pins use its reference coordinates. Animated connections link the places in an account; they do not claim exact historical tracks or unrecorded borders. Some stories do not specify a mappable location.</p><a href="assets/maps/assam.json" target="_blank" rel="noopener">River geography</a></details></section></div></section>`;
+      <details class="atlas-geography-note"><summary>About this map</summary><p>All 39 river paths come from the local APP geographic catalogue. Site pins use its reference coordinates. Animated connections link the places in an account; they do not claim exact historical tracks or unrecorded borders. Some stories do not specify a mappable location. Boundary pills show optional modern reference geography, not Ahom borders; district lines retain the local source’s 33-unit vintage.</p><p>India outline: <a href="https://github.com/datameet/maps/blob/master/Country/README.md" target="_blank" rel="noopener">DataMeet Community Maps / Survey of India derived</a> · CC BY-SA 2.5 / ODbL. <a href="assets/maps/boundaries.json" target="_blank" rel="noopener">Boundary data and provenance</a></p><a href="assets/maps/assam.json" target="_blank" rel="noopener">River geography</a></details></section></div></section>`;
     const $=sel=>root.querySelector(sel);
     const eventGeography=document.createElement('p');$('.atlas-geography-note').append(eventGeography);
     const q=$('#atlas-search'),era=$('#atlas-era'),trail=$('#atlas-trail'),place=$('#atlas-place'),person=$('#atlas-person');
@@ -29,7 +29,7 @@ window.AhomAtlas = (() => {
     const map=window.AhomMap.mount($('#chronicles-map'),A.basemap,A.atlas.sites,id=>{
       $('#atlas-map-focus').textContent=sites[id].name;
       root.querySelectorAll('[data-focus-site]').forEach(b=>b.classList.toggle('is-focused',b.dataset.focusSite===id));
-    });
+    },A.boundaries);
 
     function annotate(text,event) {
       const matches=[];

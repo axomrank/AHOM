@@ -2,19 +2,31 @@
 window.AhomMap = (() => {
   'use strict';
   const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const PRESETS={assam:[89.2,24,96.25,28.2],upper:[93.5,26.35,96.2,28.15]};
+  const PRESETS={assam:[89.2,24,96.25,28.2],upper:[93.5,26.35,96.2,28.15],india:[67,6,98,38]};
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 
-  function mount(root,base,sites,onPlace) {
+  function mount(root,base,sites,onPlace,boundaries) {
     const byId=Object.fromEntries(sites.map(p=>[p.id,p]));
+    const layers={assam:false,india:false,district:false};
     let box=[...PRESETS.assam], event={sites:[],rivers:[],route:[]}, focused='', focusedRiver='', drag=null;
     let width=900,height=550,centre=[92.7,26],cosine=1,scale=1;
     let cameraFrame=0,routeFrame=0,routeAnimation=null,dead=false,cameraMoving=false;
     root.innerHTML=`<div class="atlas-toolbar"><div class="map-presets" role="group" aria-label="Map region"><button type="button" data-region="event">Follow event</button><button type="button" data-region="assam">Whole valley</button><button type="button" data-region="upper">Upper Assam</button></div><div class="map-zoom" role="group" aria-label="Map zoom"><button type="button" data-zoom="in" aria-label="Zoom in">+</button><button type="button" data-zoom="out" aria-label="Zoom out">−</button><button type="button" data-replay aria-label="Replay map animation">↻</button></div></div><div class="geographic-map"><svg class="geographic-canvas" role="group" aria-label="Historical places and rivers. Drag or use arrow keys to pan." tabindex="0"></svg><p class="map-hint">Drag to explore · + / − to zoom</p><span class="atlas-compass" aria-hidden="true">N<br>↑</span></div><div class="atlas-map-key"><span><i class="key-river"></i>Rivers</span><span><i class="key-place"></i>Event places</span><span><i class="key-route"></i>Story connection</span></div>`;
     const svg=root.querySelector('svg'),frame=root.querySelector('.geographic-map');
+    const controls=document.createElement('div');
+    controls.className='atlas-boundary-pills';
+    controls.setAttribute('role','group');controls.setAttribute('aria-label','Modern reference boundaries');
+    controls.innerHTML='<span class="boundary-label">Boundaries</span>'+Object.keys(layers).map(id=>`<button type="button" data-boundary="${id}" aria-pressed="false"><i aria-hidden="true"></i>${id==='district'?'District':id==='india'?'India':'Assam'}</button>`).join('')+'<button type="button" class="boundary-overview" data-region="india" hidden>View India ↗</button>';
+    frame.before(controls);
     const project=([lat,lon])=>[width/2+(lon-centre[0])*cosine*scale,height/2-(lat-centre[1])*scale];
     const inside=([x,y],pad=30)=>x>pad&&x<width-pad&&y>pad&&y<height-pad;
     const line=points=>'M'+points.map(p=>project(p).map(v=>v.toFixed(2)).join(',')).join('L');
+    function boundaryMarkup() {
+      let content='';
+      if(layers.district)for(const [id,d] of Object.entries(base.districts))content+=`<path class="atlas-boundary boundary-district" data-district="${id}" d="${d.rings.map(r=>line(r)+'Z').join('')}"><title>${esc(d.name)} district · source reference geography</title></path>`;
+      for(const id of ['india','assam'])if(layers[id])content+=`<path class="atlas-boundary boundary-${id}" data-outline="${id}" d="${boundaries[id].rings.map(r=>line(r)+'Z').join('')}"><title>${esc(boundaries[id].name)} · modern reference</title></path>`;
+      return content;
+    }
 
     function stopAnimations(){cancelAnimationFrame(cameraFrame);cancelAnimationFrame(routeFrame);routeAnimation?.cancel();routeAnimation=null;cameraMoving=false;}
     function routePoints() {
@@ -54,6 +66,7 @@ window.AhomMap = (() => {
       if(event.mode==='river'&&event.route?.length)activeRivers.add('brahmaputra');
       let content='<defs><radialGradient id="atlas-paper" cx="40%" cy="35%" r="85%"><stop offset="0" stop-color="#fbf7eb"/><stop offset="1" stop-color="#eae0c6"/></radialGradient><marker id="atlas-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,1L9,5L0,9" fill="none" stroke="currentColor" stroke-width="1.6"/></marker></defs>';
       content+=`<rect class="map-ground" width="${width}" height="${height}"/>`;
+      content+=`<g class="atlas-boundaries">${boundaryMarkup()}</g>`;
       for(const [id,r] of Object.entries(base.rivers)) {
         const d=line(r.pts),main=id==='brahmaputra',active=activeRivers.has(id);
         content+=`<g class="atlas-river ${main?'is-main':''} ${active?'is-highlighted':''}" data-river="${id}"><title>${esc(r.name)}</title><path class="river-bed" d="${d}"/><path class="river-ink" d="${d}"/></g>`;
@@ -126,10 +139,11 @@ window.AhomMap = (() => {
     function focusRiver(id){if(!base.rivers[id])return;focusedRiver=id;const pts=base.rivers[id].pts,lat=pts.map(p=>p[0]),lon=pts.map(p=>p[1]);flyTo([Math.min(...lon)-.2,Math.min(...lat)-.2,Math.max(...lon)+.2,Math.max(...lat)+.2]);}
     function replay(){focused='';focusedRiver='';flyTo(eventBox());}
     function click(e) {
+      const layer=e.target.closest('[data-boundary]');if(layer){const id=layer.dataset.boundary;layers[id]=!layers[id];layer.setAttribute('aria-pressed',String(layers[id]));root.querySelector('.boundary-overview').hidden=!layers.india;svg.querySelector('.atlas-boundaries').innerHTML=boundaryMarkup();return;}
       const pin=e.target.closest('[data-map-place]');if(pin){focusPlace(pin.dataset.mapPlace);onPlace?.(pin.dataset.mapPlace);return;}
       const preset=e.target.closest('[data-region]');if(preset){if(preset.dataset.region==='event')replay();else flyTo(PRESETS[preset.dataset.region]);return;}
       if(e.target.closest('[data-replay]')){replay();return;}
-      const zoom=e.target.closest('[data-zoom]');if(zoom){const f=zoom.dataset.zoom==='in'?.65:1/.65,dx=Math.max(.06,Math.min(14,(box[2]-box[0])*f))/2,dy=dx*(box[3]-box[1])/(box[2]-box[0]);flyTo([centre[0]-dx,centre[1]-dy,centre[0]+dx,centre[1]+dy]);}
+      const zoom=e.target.closest('[data-zoom]');if(zoom){const f=zoom.dataset.zoom==='in'?.65:1/.65,dx=Math.max(.06,Math.min(40,(box[2]-box[0])*f))/2,dy=dx*(box[3]-box[1])/(box[2]-box[0]);flyTo([centre[0]-dx,centre[1]-dy,centre[0]+dx,centre[1]+dy]);}
     }
     root.addEventListener('click',click);
     root.addEventListener('keydown',e=>{
