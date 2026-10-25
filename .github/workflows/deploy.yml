@@ -26,6 +26,23 @@ jobs:
         with:
           lfs: true
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install content build dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Validate content and generate reference pages
+        run: python tools/build.py
+
+      - name: Verify the public archive
+        run: python tools/verify_site.py
+
+      - name: Stage public website
+        run: python tools/package_site.py _site
+
       - name: Check existing Pages configuration
         id: pages
         env:
@@ -46,7 +63,7 @@ jobs:
         if: steps.pages.outputs.enabled == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: '_site'
 
       - name: Deploy to GitHub Pages
         if: steps.pages.outputs.enabled == 'true'

@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="as">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Ahom Recipe 005 · Joysagar</title>
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "SKBishal"; src: url("assets/fonts/skbishal.ttf") format("truetype"); }
+      @font-face { font-family: "Padmasetu"; src: url("assets/fonts/padmasetu.ttf") format("truetype"); }
+      @font-face { font-family: "Cormorant"; font-style: italic; font-weight: 600; src: url("assets/fonts/cormorant-600i.woff2") format("woff2"); }
+      :root { --cloth: #f5f0e6; --red: #b5121b; --ink: #23140d; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--cloth); }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: var(--cloth); }
+      .layer, .clip { position: absolute; inset: 0; }
+      #cloth { background: url("assets/tex/cloth.jpg") center / cover; }
+      #cam { position: absolute; inset: 0; }
+      #grain { background: url("assets/tex/grain.png") 0 0 / 512px 512px repeat; opacity: 0.18; mix-blend-mode: multiply; pointer-events: none; }
+      .band { position: absolute; left: 0; width: 1080px; overflow: hidden; }
+      .band .fill { position: absolute; inset: 0; background: var(--red); }
+      .band .motif { position: absolute; left: 0; height: 64px; width: 2160px; }
+      .band .thread { position: absolute; left: 0; right: 0; height: 4px; background: var(--cloth); }
+      #band-top { top: 0; height: 250px; }
+      #band-bot { bottom: 0; height: 236px; }
+      #series { position: absolute; left: 0; right: 0; top: 150px; text-align: center; font-family: "Padmasetu", serif; font-size: 36px; color: var(--cloth); }
+      .as { font-family: "SKBishal", serif; color: var(--ink); line-height: 1.1; white-space: nowrap; }
+      .red { color: var(--red); }
+      .en { font-family: "Cormorant", serif; font-style: italic; font-weight: 600; font-size: 44px; color: var(--ink); line-height: 1.2; text-align: center; }
+      .center { position: absolute; left: 50px; right: 50px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+      .sticker { display: inline-block; background: #fffaf0; border: 5px solid var(--ink); border-radius: 22px; padding: 10px 30px 0; box-shadow: 8px 8px 0 var(--ink); }
+      .sticker.redbg { background: var(--red); }
+      .sticker.redbg .as { color: #fffaf0; }
+      #card { position: absolute; left: 90px; right: 90px; top: 640px; height: 740px; background: #fffaf0; border: 6px solid var(--ink); border-radius: 36px; box-shadow: 16px 16px 0 var(--red); padding: 54px 56px; display: flex; flex-direction: column; gap: 26px; }
+      #card .tag { font-family: "Padmasetu", serif; font-size: 38px; color: var(--red); }
+      #card .row { display: flex; justify-content: space-between; align-items: center; border-top: 3px dashed rgba(35,20,13,0.35); padding-top: 22px; }
+      #card .k { font-family: "Padmasetu", serif; font-size: 42px; color: var(--ink); }
+      #card .v { font-family: "SKBishal", serif; font-size: 58px; color: var(--ink); }
+      #card .v.red { color: var(--red); }
+
+      /* top-down plot of land */
+      #plot { position: absolute; left: 60px; top: 680px; width: 960px; height: 760px; }
+      #land { position: absolute; inset: 0; border-radius: 40px; border: 6px solid var(--ink); background: radial-gradient(circle at 30% 30%, #c79a5c, #a87a43 70%); overflow: hidden; }
+      #land::after { content: ""; position: absolute; inset: 0; background-image: radial-gradient(#8a6034 2px, transparent 2.5px); background-size: 36px 36px; opacity: 0.5; }
+      .ell { position: absolute; left: 50%; top: 50%; border-radius: 50%; }
+      #bank { width: 860px; height: 660px; margin: -330px 0 0 -430px; background: #d9b47a; border: 6px solid var(--ink); }
+      #pit { width: 800px; height: 600px; margin: -300px 0 0 -400px; background: radial-gradient(circle at 45% 40%, #6e4426, #4a2c16); border: 6px solid var(--ink); }
+      #water { width: 800px; height: 600px; margin: -300px 0 0 -400px; background: radial-gradient(circle at 40% 35%, #8fd0e0, #3d93b8 60%, #2a6f92); border: 6px solid var(--ink); overflow: hidden; }
+      .ripple { position: absolute; left: 50%; top: 50%; border: 5px solid rgba(255,255,255,0.7); border-radius: 50%; width: 200px; height: 150px; margin: -75px 0 0 -100px; }
+      #diggers { position: absolute; inset: 0; }
+      .dg { position: absolute; width: 30px; height: 34px; }
+      #shovel { position: absolute; left: 600px; top: 760px; width: 220px; height: 420px; overflow: visible; }
+      #fields { position: absolute; left: 90px; top: 830px; width: 900px; height: 460px; display: grid; grid-template-columns: repeat(18, 1fr); grid-template-rows: repeat(10, 1fr); gap: 3px; }
+      #fields .f { background: #4f9a3f; border: 2px solid #1d3d17; position: relative; }
+      #fields .f::after { content: ""; position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: rgba(255,255,255,0.8); }
+      #daybar { position: absolute; left: 0; right: 0; top: 290px; display: flex; flex-direction: column; align-items: center; }
+      #day { font-family: "SKBishal", serif; font-size: 180px; color: var(--red); line-height: 1; }
+      #plate { position: absolute; left: 70px; top: 560px; width: 940px; height: 640px; border: 14px solid #fffaf0; border-radius: 24px; box-shadow: 0 0 0 5px var(--ink), 18px 18px 0 5px var(--ink); overflow: hidden; background: var(--ink); }
+      #plate img { width: 100%; height: 100%; object-fit: cover; display: block; }
+      .credit { position: absolute; right: 80px; top: 1226px; font-family: "Cormorant", serif; font-style: italic; font-weight: 600; font-size: 26px; color: rgba(35,20,13,0.7); }
+      .pup { position: absolute; }
+    </style>
+  </head>
+  <body>
+    <svg width="0" height="0" style="position:absolute">
+      <defs>
+        <pattern id="gm" x="0" y="0" width="120" height="64" patternUnits="userSpaceOnUse">
+          <rect width="120" height="64" fill="#b5121b" />
+          <path d="M60 6 L84 32 L60 58 L36 32 Z" fill="#f5f0e6" />
+          <path d="M60 18 L72 32 L60 46 L48 32 Z" fill="#b5121b" />
+          <rect x="57" y="29" width="6" height="6" fill="#f5f0e6" />
+          <path d="M0 64 L0 52 L8 52 L8 44 L16 44 L16 52 L24 52 L24 64 Z M96 64 L96 52 L104 52 L104 44 L112 44 L112 52 L120 52 L120 64 Z" fill="#f5f0e6" />
+          <path d="M0 0 L0 12 L8 12 L8 20 L16 20 L16 12 L24 12 L24 0 Z M96 0 L96 12 L104 12 L104 20 L112 20 L112 12 L120 12 L120 0 Z" fill="#f5f0e6" />
+        </pattern>
+      </defs>
+    </svg>
+
+    <div id="root" data-composition-id="main" data-start="0" data-duration="16" data-width="1080" data-height="1920">
+      <audio id="master" src="assets/audio/master.wav" data-start="0" data-duration="16" data-track-index="9" data-volume="1"></audio>
+      <div id="cloth" class="layer clip" data-start="0" data-duration="16" data-track-index="0"></div>
+
+      <div id="cam">
+        <!-- the plot of land, used by hook, dig, flood and ending -->
+        <div id="scene" class="clip" data-start="0" data-duration="16" data-track-index="1">
+          <div id="plot">
+            <div id="land">
+              <div class="ell" id="bank"></div>
+              <div class="ell" id="pit"></div>
+              <div class="ell" id="water">
+                <div class="ripple" id="rp1"></div><div class="ripple" id="rp2"></div><div class="ripple" id="rp3"></div>
+              </div>
+              <div id="pups"></div>
+            </div>
+            <div id="diggers"></div>
+            <div id="dirt" class="layer"></div>
+          </div>
+          <svg id="shovel" viewBox="0 0 220 420">
+            <rect x="96" y="0" width="22" height="270" rx="8" fill="#8b5a2b" stroke="#23140d" stroke-width="6" transform="rotate(18 107 135)" />
+            <path d="M120 250 L200 262 L186 380 C150 410 96 400 80 370 L98 262 Z" fill="#cfd6d4" stroke="#23140d" stroke-width="7" stroke-linejoin="round" transform="rotate(18 140 320)" />
+          </svg>
+          <div id="fields"></div>
+        </div>
+
+        <!-- ===== S0 HOOK 0–1.0 ===== -->
+        <section id="s0" class="clip" data-start="0" data-duration="1" data-track-index="2">
+          <div class="center" style="top:290px">
+            <div class="as" style="font-size:110px">৪৫ দিনত</div>
+            <div class="as red" id="s0-word" style="font-size:190px; line-height:1">এখন সাগৰ।</div>
+          </div>
+          <div class="center" style="top:1470px"><div class="en" id="s0-en">A "sea", dug in 45 days.</div></div>
+        </section>
+
+        <!-- ===== S1 CARD 1.0–2.5 ===== -->
+        <section id="s1" class="clip" data-start="1" data-duration="1.5" data-track-index="2">
+          <div class="layer" style="background:url('assets/tex/cloth.jpg') center / cover"></div>
+          <div class="center" style="top:300px">
+            <div class="as" style="font-size:96px">আহোম যুগৰ</div>
+            <div class="as red" style="font-size:128px">সাগৰৰ ৰেচিপি</div>
+          </div>
+          <div id="card">
+            <div class="tag">ৰেচিপি · ০০৫</div>
+            <div class="row"><span class="k">কোনে</span><span class="v">ৰুদ্ৰ সিংহ</span></div>
+            <div class="row"><span class="k">কাৰ স্মৃতিত</span><span class="v">মাতৃ জয়মতী</span></div>
+            <div class="row"><span class="k">চন</span><span class="v">১৬৯৭</span></div>
+            <div class="row"><span class="k">সময়</span><span class="v red">৪৫ দিন</span></div>
+            <div class="en" style="font-size:38px; margin-top:6px">Joysagar: dug for Rudra Singha's mother, Joymoti.</div>
+          </div>
+        </section>
+
+        <!-- ===== S2 DIG 2.5–8.0 ===== -->
+        <section id="s2" class="clip" data-start="2.5" data-duration="5.5" data-track-index="2">
+          <div id="daybar"><div id="day">দিন ১</div><div class="as" id="crowd" style="font-size:64px; margin-top:6px">হাজাৰ হাজাৰ মানুহ</div></div>
+        </section>
+
+        <!-- ===== S3 FLOOD 8.0–10.0 ===== -->
+        <section id="s3" class="clip" data-start="8" data-duration="2" data-track-index="2">
+          <div class="center" style="top:300px"><div class="sticker redbg" id="s3-t" style="transform:rotate(-3deg)"><div class="as" style="font-size:130px">সাগৰ সাজু!</div></div></div>
+        </section>
+
+        <!-- ===== S4 SIZE 10.0–11.5 ===== -->
+        <section id="s4" class="clip" data-start="10" data-duration="1.5" data-track-index="2">
+          <div class="center" style="top:290px">
+            <div style="display:flex; gap:18px; align-items:baseline"><div class="as red" id="acre" style="font-size:150px; width:290px; text-align:right">০</div><div class="as" style="font-size:96px">একৰ</div></div>
+          </div>
+          <div class="center" id="s4-f" style="top:1470px">
+            <div class="as" style="font-size:66px">প্ৰায় <span class="red">১৮০ খন</span> ফুটবল পথাৰ</div>
+            <div class="en" style="font-size:36px">318 acres with its banks: about 180 football fields.</div>
+          </div>
+        </section>
+
+        <!-- ===== S5 REVEAL 11.5–14.0 ===== -->
+        <section id="s5" class="clip" data-start="11.5" data-duration="2.5" data-track-index="2">
+          <div class="layer" style="background:url('assets/tex/cloth.jpg') center / cover"></div>
+          <div class="center" style="top:300px">
+            <div class="sticker" id="s5-title" style="transform:rotate(-3deg)"><div class="as red" style="font-size:130px">জয়সাগৰ</div></div>
+            <div class="en" id="s5-sub" style="margin-top:20px">Sivasagar, Assam · real photo</div>
+          </div>
+          <div id="plate"><img src="assets/img/joysagar.jpg" id="s5-img" alt="" /></div>
+          <div class="credit">Photo: Rangan Datta, Wikimedia Commons, CC BY-SA 4.0</div>
+          <div class="center" id="s5-a" style="top:1270px">
+            <div class="as" style="font-size:72px">মাতৃৰ স্মৃতিত এখন সাগৰ।</div>
+            <div class="as red" style="font-size:100px" id="s5-still">আজিও আছে।</div>
+          </div>
+        </section>
+
+        <!-- ===== S6 END 14.0–16.0 : drain back to dry land (loop) ===== -->
+        <section id="s6" class="clip" data-start="14" data-duration="2" data-track-index="2">
+          <div class="center" id="s6-b" style="top:290px">
+            <div class="as" style="font-size:110px">৪৫ দিনত</div>
+            <div class="as red" id="s6-word" style="font-size:190px; line-height:1">এখন সাগৰ।</div>
+          </div>
+        </section>
+      </div>
+
+      <div id="bands" class="layer clip" data-start="0" data-duration="16" data-track-index="3">
+        <div class="band" id="band-top">
+          <div class="fill"></div>
+          <svg class="motif" id="motif-top" style="top:40px" viewBox="0 0 2160 64"><rect width="2160" height="64" fill="url(#gm)" /></svg>
+          <div class="thread" style="top:118px"></div>
+          <div id="series">আহোমৰ ৰেচিপি · ০০৫</div>
+          <div class="thread" style="top:236px; height:3px"></div>
+        </div>
+        <div class="band" id="band-bot">
+          <div class="fill"></div>
+          <div class="thread" style="top:14px; height:3px"></div>
+          <svg class="motif" id="motif-bot" style="top:60px" viewBox="0 0 2160 64"><rect width="2160" height="64" fill="url(#gm)" /></svg>
+        </div>
+      </div>
+      <div id="grain" class="layer clip" data-start="0" data-duration="16" data-track-index="4"></div>
+    </div>
+
+    <script>
+      const BN = ["০","১","২","৩","৪","৫","৬","৭","৮","৯"];
+      const bn = (n) => String(n).split("").map((c) => (c >= "0" && c <= "9" ? BN[+c] : c)).join("");
+      let seed = 1697;
+      const rnd = () => ((seed = (seed * 16807) % 2147483647) - 1) / 2147483646;
+
+      // tiny diggers (jaapi), in waves around the growing pit; plot centre = (480, 380)
+      const manSVG = (fill) =>
+        `<svg viewBox="0 0 40 46" width="30" height="34"><path d="M11 44 L13 26 C13 22 16 21 20 21 C24 21 27 22 27 26 L29 44 Z" fill="${fill}" stroke="#23140d" stroke-width="2.6"/>` +
+        `<circle cx="20" cy="16" r="5.5" fill="#c58b5a" stroke="#23140d" stroke-width="2.2"/><ellipse cx="20" cy="11" rx="14" ry="3.6" fill="#d9a441" stroke="#23140d" stroke-width="2.2"/>` +
+        `<path d="M12 10 C15 3 25 3 28 10 Z" fill="#b5121b" stroke="#23140d" stroke-width="2"/></svg>`;
+      const dg = document.getElementById("diggers");
+      const waves = [8, 20, 40, 70, 110];
+      const waveEls = waves.map((n, w) => {
+        const out = [];
+        for (let i = 0; i < n; i++) {
+          const a = rnd() * Math.PI * 2;
+          const rr = 0.25 + 0.75 * ((w + rnd()) / waves.length);
+          const x = 480 + Math.cos(a) * 420 * rr, y = 380 + Math.sin(a) * 320 * rr;
+          const d = document.createElement("div");
+          d.className = "dg";
+          d.style.left = x - 15 + "px"; d.style.top = y - 17 + "px";
+          d.innerHTML = manSVG("#efe1c3");
+          dg.appendChild(d);
+          out.push(d);
+        }
+        return out;
+      });
+      const allDiggers = waveEls.flat();
+      // flying dirt clods
+      const dirt = document.getElementById("dirt");
+      const clods = [];
+      for (let i = 0; i < 16; i++) {
+        const c = document.createElement("div");
+        const s = 14 + rnd() * 18;
+        c.style.cssText = `position:absolute; left:${560 - s / 2}px; top:${300 - s / 2}px; width:${s}px; height:${s}px; border-radius:50%; background:#7a5030; border:3px solid #23140d;`;
+        const a = -Math.PI / 2 + (rnd() - 0.5) * 2.4;
+        c.dataset.x = Math.cos(a) * (120 + rnd() * 160); c.dataset.y = Math.sin(a) * (120 + rnd() * 160);
+        dirt.appendChild(c);
+        clods.push(c);
+      }
+      // ducks and lotus popping on the water
+      const pups = document.getElementById("pups");
+      const pupEls = [];
+      [["🦆", 300, 280], ["🪷", 600, 420], ["🪷", 380, 470], ["🦆", 640, 260]].forEach(([_, x, y], i) => {
+        const p = document.createElement("div");
+        p.className = "pup";
+        p.style.left = x + "px"; p.style.top = y + "px";
+        p.innerHTML = i % 2
+          ? `<svg width="70" height="50" viewBox="0 0 70 50"><ellipse cx="35" cy="38" rx="32" ry="10" fill="#3f7d3a" stroke="#23140d" stroke-width="4"/><path d="M35 34 C20 30 18 12 35 4 C52 12 50 30 35 34 Z" fill="#f4a6b8" stroke="#23140d" stroke-width="4"/></svg>`
+          : `<svg width="70" height="56" viewBox="0 0 70 56"><path d="M8 40 C8 26 24 22 40 26 L48 12 C52 4 64 6 62 16 L56 24 C66 30 64 48 44 50 L18 50 C12 50 8 46 8 40 Z" fill="#fffaf0" stroke="#23140d" stroke-width="4" stroke-linejoin="round"/><path d="M62 14 L70 16 L62 20 Z" fill="#e0a93e" stroke="#23140d" stroke-width="3"/><circle cx="56" cy="12" r="2.5" fill="#23140d"/></svg>`;
+        pups.appendChild(p);
+        pupEls.push(p);
+      });
+      // 180 football fields
+      const fields = document.getElementById("fields");
+      const fieldEls = [];
+      for (let i = 0; i < 180; i++) { const f = document.createElement("div"); f.className = "f"; fields.appendChild(f); fieldEls.push(f); }
+
+      // ---------- timeline ----------
+      const tl = gsap.timeline({ paused: true });
+      function shake(t, p = 14, len = 0.3) {
+        const s = [[1, -0.7], [-0.8, 0.8], [0.5, -0.4], [-0.3, 0.3], [0, 0]];
+        s.forEach(([x, y], i) => tl.to("#cam", { x: x * p * (1 - i / s.length), y: y * p * (1 - i / s.length), duration: len / s.length, ease: "none" }, t + (i * len) / s.length));
+      }
+      function slam(sel, t, from = 1.7, rot = -5) {
+        tl.fromTo(sel, { scale: from, opacity: 0, rotation: rot }, { scale: 1, opacity: 1, rotation: 0, duration: 0.12, ease: "power4.in", immediateRender: false }, t);
+      }
+      tl.fromTo("#motif-top", { x: 0 }, { x: -1080, duration: 16, ease: "none" }, 0);
+      tl.fromTo("#motif-bot", { x: -1080 }, { x: 0, duration: 16, ease: "none" }, 0);
+      tl.fromTo("#grain", { backgroundPosition: "0px 0px" }, { backgroundPosition: "512px 1024px", duration: 16, ease: "steps(192)" }, 0);
+
+      // frame 0 = dry land: a small first hole, shovel in hand
+      tl.set("#bank", { scale: 0.12 }, 0);
+      tl.set("#pit", { scale: 0.1 }, 0);
+      tl.set("#water", { scale: 0, opacity: 0 }, 0);
+      tl.set(allDiggers, { opacity: 0, scale: 0 }, 0);
+      tl.set(clods, { opacity: 0 }, 0);
+      tl.set(pupEls, { opacity: 0, scale: 0 }, 0);
+      tl.set(fieldEls, { opacity: 0, scale: 0 }, 0);
+      tl.set("#shovel", { rotation: 0, transformOrigin: "50% 100%" }, 0);
+      tl.set(".ripple", { opacity: 0 }, 0);
+
+      // shovel strike: lift, plunge (lands at t + 0.1), clods fly, hole grows a little
+      function dig(t, grow) {
+        tl.to("#shovel", { y: -60, rotation: -14, duration: 0.06, ease: "power2.out" }, t);
+        tl.to("#shovel", { y: 30, rotation: 6, duration: 0.05, ease: "power3.in" }, t + 0.06);
+        tl.to("#shovel", { y: 0, rotation: 0, duration: 0.12, ease: "power2.out" }, t + 0.11);
+        clods.forEach((c) => tl.fromTo(c, { opacity: 1, x: 0, y: 0 }, { x: +c.dataset.x, y: +c.dataset.y, opacity: 0, duration: 0.35, ease: "power2.out", immediateRender: false }, t + 0.11));
+        if (grow) { tl.to("#pit", { scale: grow, duration: 0.12 }, t + 0.11); tl.to("#bank", { scale: grow * 1.12, duration: 0.12 }, t + 0.11); }
+      }
+
+      // ===== S0 =====
+      tl.fromTo("#s0-word", { scale: 1.06 }, { scale: 1, duration: 0.25, ease: "power2.out" }, 0);
+      dig(0.2, 0.16);
+      dig(0.55, 0.22);
+      shake(0.32, 8); shake(0.67, 10);
+      tl.fromTo("#s0-en", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.2 }, 0.5);
+      tl.to("#s0-word", { scale: 1.12, duration: 0.09, yoyo: true, repeat: 1 }, 0.78);
+
+      // ===== S1 card =====
+      tl.fromTo("#s1 .center", { y: -40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.2, ease: "back.out(2)" }, 1.0);
+      tl.fromTo("#card", { y: 900, rotation: 6 }, { y: 0, rotation: -1.5, duration: 0.28, ease: "back.out(1.4)" }, 1.0);
+      tl.fromTo("#card .row", { x: 80, opacity: 0, scale: 1.1 }, { x: 0, opacity: 1, scale: 1, duration: 0.14, stagger: 0.2, ease: "back.out(2)" }, 1.25);
+      tl.to("#card", { rotation: 1.5, duration: 0.6, ease: "sine.inOut" }, 1.9);
+
+      // ===== S2 dig: day counter jumps on every beat, diggers arrive in waves, the pit grows =====
+      tl.to("#shovel", { opacity: 0, duration: 0.1 }, 2.5);
+      const dayEl = document.getElementById("day");
+      const dayMarks = [1, 3, 6, 10, 15, 21, 28, 34, 39, 43, 45];
+      const dayT = [2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5];
+      dayMarks.forEach((d, k) => {
+        const t = dayT[k];
+        tl.set(dayEl, { textContent: "দিন " + bn(d) }, t);
+        tl.fromTo("#day", { scale: 1.22 }, { scale: 1, duration: 0.12, immediateRender: false }, t);
+        const g = 0.22 + 0.78 * (d / 45);
+        tl.to("#pit", { scale: g, duration: 0.2, ease: "back.out(1.4)" }, t);
+        tl.to("#bank", { scale: Math.min(1, g * 1.08), duration: 0.2, ease: "back.out(1.4)" }, t);
+      });
+      waveEls.forEach((arr, w) => {
+        arr.forEach((d, i) => tl.fromTo(d, { opacity: 1, scale: 0 }, { scale: 1, duration: 0.14, ease: "back.out(3)", immediateRender: false }, 2.5 + w * 0.5 + (i % 8) * 0.012));
+      });
+      // diggers bob (working) on every half beat
+      tl.to(allDiggers, { y: -6, duration: 0.125, yoyo: true, repeat: 21, ease: "sine.inOut" }, 2.5);
+      tl.fromTo("#crowd", { opacity: 0 }, { opacity: 1, duration: 0.15 }, 3.0);
+      tl.to("#day", { scale: 1.3, duration: 0.1, yoyo: true, repeat: 1 }, 7.5);
+      shake(7.55, 18);
+
+      // ===== S3 flood =====
+      tl.to(allDiggers, { opacity: 0, scale: 0, duration: 0.15, stagger: 0.001 }, 8.0);
+      tl.fromTo("#water", { opacity: 1, scale: 0 }, { scale: 1, duration: 0.45, ease: "power2.out", immediateRender: false }, 8.0);
+      ["#rp1", "#rp2", "#rp3"].forEach((r, k) => tl.fromTo(r, { opacity: 0.9, scale: 0.3 }, { scale: 3.2, opacity: 0, duration: 0.8, ease: "power1.out", immediateRender: false }, 8.2 + k * 0.25));
+      slam("#s3-t", 8.5, 1.8, -8);
+      shake(8.55, 14);
+      pupEls.forEach((p, i) => tl.fromTo(p, { opacity: 1, scale: 0 }, { scale: 1, duration: 0.18, ease: "back.out(3)", immediateRender: false }, 9.0 + i * 0.25));
+
+      // ===== S4 size: 318 acres = ~180 football fields =====
+      const acreEl = document.getElementById("acre"); const av = { v: 0 };
+      tl.fromTo(av, { v: 0 }, { v: 318, duration: 0.6, ease: "power2.out", immediateRender: false, onUpdate: () => { acreEl.textContent = bn(Math.round(av.v)); } }, 10.0);
+      fieldEls.forEach((f, i) => tl.fromTo(f, { opacity: 1, scale: 0 }, { scale: 1, duration: 0.1, ease: "back.out(2)", immediateRender: false }, 10.1 + Math.floor(i / 18) * 0.07 + (i % 18) * 0.004));
+      tl.fromTo("#s4-f", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.15, ease: "back.out(2)" }, 10.75);
+      tl.to("#acre", { scale: 1.25, duration: 0.09, yoyo: true, repeat: 1 }, 10.6);
+      shake(10.62, 10);
+
+      // ===== S5 reveal =====
+      tl.fromTo("#plate", { clipPath: "circle(0% at 50% 50%)" }, { clipPath: "circle(80% at 50% 50%)", duration: 0.3, ease: "power3.out" }, 11.5);
+      tl.fromTo("#s5-img", { scale: 1.35 }, { scale: 1.05, duration: 0.5, ease: "power3.out" }, 11.5);
+      tl.to("#s5-img", { scale: 1.18, x: -30, duration: 2.0, ease: "none" }, 12.0);
+      shake(11.52, 20, 0.35);
+      slam("#s5-title", 11.6, 1.8, -8);
+      tl.fromTo("#s5-sub", { opacity: 0 }, { opacity: 1, duration: 0.2 }, 11.9);
+      tl.fromTo("#s5-a .as:first-child", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.18 }, 12.25);
+      tl.set("#s5-still", { opacity: 0 }, 0);
+      slam("#s5-still", 12.75, 1.8, 6);
+      shake(12.8, 12);
+
+      // ===== S6 end: the sea drains back into dry land, shovel returns (loop) =====
+      tl.set(fieldEls, { opacity: 0 }, 11.5);
+      tl.set("#s6-b", { opacity: 0 }, 0);
+      tl.to(pupEls, { scale: 0, duration: 0.12, stagger: 0.03 }, 14.0);
+      tl.to("#water", { scale: 0, rotation: 200, duration: 0.6, ease: "power2.in" }, 14.2);
+      tl.to("#pit", { scale: 0.22, duration: 0.45, ease: "power2.inOut" }, 14.6);
+      tl.to("#bank", { scale: 0.12 * (0.22 / 0.22) * 1.0 + 0.0, duration: 0.45, ease: "power2.inOut" }, 14.6);
+      tl.set("#water", { opacity: 0, rotation: 0 }, 14.85);
+      tl.fromTo("#shovel", { opacity: 1, y: -700, rotation: 0 }, { y: 0, duration: 0.25, ease: "power3.in", immediateRender: false }, 15.0);
+      shake(15.25, 10);
+      tl.set("#s6-b", { opacity: 1 }, 15.2);
+      tl.fromTo("#s6-b", { y: -20 }, { y: 0, duration: 0.18, immediateRender: false }, 15.2);
+      tl.fromTo("#s6-word", { scale: 1.06 }, { scale: 1.06, duration: 0.01 }, 15.98);
+      // match frame 0's hole: pit 0.22 after two digs at frame 0? frame 0 starts at 0.1 — ease it back
+      tl.to("#pit", { scale: 0.1, duration: 0.3 }, 15.6);
+      tl.to("#bank", { scale: 0.12, duration: 0.3 }, 15.6);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+/* Shared reference library, film gallery, chapter index and exploration tools. */
+.reference { max-width: 1200px; padding: clamp(2rem, 6vh, 4rem) var(--gutter); margin: auto; }
+.reference > h1 { font-size: clamp(2rem, 5vw, 3.8rem); margin-bottom: 1rem; }
+.ch-head h1 { font-size: clamp(2rem,4vw,3rem); max-width: 18ch; }
+.reference > h2, .reference > section > h2 { font-size: clamp(1.6rem, 3vw, 2.4rem); margin: 2rem 0 1rem; }
+.reference a { text-underline-offset: .2em; }
+.chapter-cards, .reference-grid, .trail-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 2rem; }
+.chapter-cards article, .reference-grid article { min-width: 0; }
+.chapter-cards a, .reference-grid a { text-decoration: none; display: block; }
+.chapter-cards img, .reference-grid img { width: 100%; aspect-ratio: 3/2; object-fit: cover; background: var(--paper-2); }
+.chapter-cards h3, .reference-grid h2 { font-size: 1.65rem; margin: .6rem 0; }
+.chapter-cards .scene-date { margin: 1rem 0 .3rem; }
+.chapter-cards p { font-size: 1.05rem; }
+.chapter-index > p { margin: 1rem 0 2rem; }
+.home-films { border-top: 1px solid var(--gold-line); margin-top: 2rem; margin-bottom: 2rem; }
+.home-films .btn { margin-bottom: 1rem; }
+.library-filters { display: flex; flex-wrap: wrap; align-items: end; gap: 1rem; padding: 1.5rem 0; }
+.library-filters label { display: grid; gap: .3rem; font-size: 1rem; flex: 1 1 10rem; min-width: 0; }
+.library-filters input, .library-filters select { max-width: 100%; width: 100%; min-width: 0; font: inherit; color: var(--ink); padding: .6rem; border: 1px solid var(--gold-line); background: var(--paper-2); border-radius: 3px; }
+.library-filters input[type=number] { width: 7rem; }
+.film-library { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 2.5rem 1.5rem; padding: 0; list-style: none; }
+.film-library > li { min-width: 0; scroll-margin-top: calc(var(--bar-h) + 20px); }
+.film-library .film-frame { display: block; aspect-ratio: 9/16; width: 100%; margin: 0; background: var(--paper-3); position: relative; }
+.film-library .film-frame img, .film-library .film-frame video { clip-path: none; width: 100%; height: 100%; object-fit: contain; }
+.film-library .reel { width: 100%; display: block; padding: 0; background: none; border: 0; cursor: pointer; }
+.film-library h2 { font-size: 1.28rem; margin: .4rem 0 .7rem; }
+.film-library .scene-date { margin: .8rem 0 .3rem; }
+.film-library p, .film-library details { font-size: .98rem; }
+.film-library summary { cursor: pointer; }
+.film-library details p { margin-top: .6rem; }
+.reference-painting { width: 100%; max-height: 75vh; object-fit: contain; margin: 2rem 0; }
+.reference-portrait { width: 180px; margin: 1rem 0; }
+.reference-video { width: min(100%,420px); max-height: 75vh; margin: 2rem 0; }
+.trail-card { display: block; padding: 1.5rem; border: 1px solid var(--gold-line); background: var(--paper-2); text-decoration: none; }
+.trail-card h2 { font-size: 1.5rem; margin-bottom: .7rem; }
+.trail-card p { font-size: 1.05rem; }
+.reading-path li { padding: .5rem 0; }
+.history-map { position: relative; height: clamp(380px,48vw,560px); border: 1px solid var(--gold-line); background: var(--paper-2); margin: 1.5rem 0; }
+.history-map svg { width: 100%; height: 100%; position: absolute; inset: 0; }
+.history-map path { fill: none; stroke: #688993; stroke-width: 18; stroke-linecap: round; }
+.history-map text { fill: var(--ink); font: italic 24px Georgia,serif; }
+.history-map button { position: absolute; transform: translate(-50%,-50%); max-width: 25%; padding: .35rem .5rem; font-size: clamp(.65rem,1.2vw,.9rem); line-height: 1.2; background: var(--paper); color: var(--ink); border: 1px solid var(--maroon-ink); border-radius: 3px; cursor: pointer; }
+.history-map button[aria-pressed=true] { background: var(--maroon); color: var(--on-maroon); }
+.event-timeline { padding: 0; list-style: none; border-left: 2px solid var(--gold-line); }
+.event-timeline li { padding: .7rem 1.5rem; display: grid; grid-template-columns: minmax(7rem, 11rem) 1fr; gap: 1rem; border-bottom: 1px solid var(--gold-line); }
+.event-timeline span { font-size: .95rem; color: var(--ash); }
+.sources { overflow-wrap: anywhere; }
+.bar { min-height: var(--bar-h); height: auto; flex-wrap: wrap; padding-top: .6rem; padding-bottom: .6rem; }
+.bar nav { flex-wrap: wrap; gap: .4rem 1.1rem; align-items: center; }
+.bar nav a { font-size: .98rem; }
+.sound-toggle { font-size: .85rem; color: inherit; background: transparent; border: 1px solid currentColor; border-radius: 3px; padding: .25rem .6rem; cursor: pointer; }
+@media (max-width: 900px) { .film-library { grid-template-columns: repeat(3,minmax(0,1fr)); } }
+@media (max-width: 650px) {
+  :root { --bar-h: 125px; }
+  .bar { justify-content: center; gap: .5rem; }
+  .bar nav { justify-content: center; }
+  .chapter-cards, .reference-grid, .trail-grid { grid-template-columns: 1fr; }
+  .film-library { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 2rem 1rem; }
+  .film-library h2 { font-size: 1.1rem; }
+  .event-timeline li { grid-template-columns: 1fr; gap: .2rem; }
+  .history-map button { max-width: 29%; }
+  .history-map button[data-place=garhgaon] { top: 49% !important; left: 77% !important; }
+  .history-map button[data-place=charaideo] { top: 67% !important; left: 85% !important; }
+  .history-map button[data-place=namrup] { left: 87% !important; top: 33% !important; }
+}

@@ -5,3 +5,6 @@ incoming/*
 __pycache__/
 *.pyc
 .DS_Store
+_site/
+output/
+.playwright-cli/

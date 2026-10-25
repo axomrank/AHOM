@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="as">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Ahom Recipe 003 · Moidam</title>
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "SKBishal"; src: url("assets/fonts/skbishal.ttf") format("truetype"); }
+      @font-face { font-family: "Padmasetu"; src: url("assets/fonts/padmasetu.ttf") format("truetype"); }
+      @font-face { font-family: "Cormorant"; font-style: italic; font-weight: 600; src: url("assets/fonts/cormorant-600i.woff2") format("woff2"); }
+      @font-face { font-family: "Cormorant"; font-style: normal; font-weight: 700; src: url("assets/fonts/cormorant-700.woff2") format("woff2"); }
+      :root { --cloth: #f5f0e6; --red: #b5121b; --ink: #23140d; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--cloth); }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: var(--cloth); }
+      .layer, .clip { position: absolute; inset: 0; }
+      #cloth { background: url("assets/tex/cloth.jpg") center / cover; }
+      #cam { position: absolute; inset: 0; }
+      #grain { background: url("assets/tex/grain.png") 0 0 / 512px 512px repeat; opacity: 0.18; mix-blend-mode: multiply; pointer-events: none; }
+
+      .band { position: absolute; left: 0; width: 1080px; overflow: hidden; }
+      .band .fill { position: absolute; inset: 0; background: var(--red); }
+      .band .motif { position: absolute; left: 0; height: 64px; width: 2160px; }
+      .band .thread { position: absolute; left: 0; right: 0; height: 4px; background: var(--cloth); }
+      #band-top { top: 0; height: 250px; }
+      #band-bot { bottom: 0; height: 236px; }
+      #series { position: absolute; left: 0; right: 0; top: 150px; text-align: center; font-family: "Padmasetu", serif; font-size: 36px; color: var(--cloth); }
+
+      .as { font-family: "SKBishal", serif; color: var(--ink); line-height: 1.1; white-space: nowrap; }
+      .red { color: var(--red); }
+      .en { font-family: "Cormorant", serif; font-style: italic; font-weight: 600; font-size: 44px; color: var(--ink); line-height: 1.2; text-align: center; }
+      .center { position: absolute; left: 50px; right: 50px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+      .sticker { display: inline-block; background: #fffaf0; border: 5px solid var(--ink); border-radius: 22px; padding: 10px 34px 0; box-shadow: 10px 10px 0 var(--ink); }
+      .sticker.redbg { background: var(--red); }
+      .sticker.redbg .as { color: #fffaf0; }
+
+      #card { position: absolute; left: 90px; right: 90px; top: 640px; height: 740px; background: #fffaf0; border: 6px solid var(--ink); border-radius: 36px; box-shadow: 16px 16px 0 var(--red); padding: 54px 56px; display: flex; flex-direction: column; gap: 26px; }
+      #card .tag { font-family: "Padmasetu", serif; font-size: 38px; color: var(--red); }
+      #card .row { display: flex; justify-content: space-between; align-items: center; border-top: 3px dashed rgba(35,20,13,0.35); padding-top: 22px; }
+      #card .k { font-family: "Padmasetu", serif; font-size: 42px; color: var(--ink); }
+      #card .v { font-family: "SKBishal", serif; font-size: 58px; color: var(--ink); }
+      #card .v.red { color: var(--red); }
+
+      #scene { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+      #mound { position: absolute; left: 0; top: 700px; width: 1080px; height: 820px; overflow: visible; }
+      .step { position: absolute; left: 50px; right: 50px; top: 300px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+      .step .as { font-size: 104px; }
+      #chips { position: absolute; left: 0; right: 0; top: 1545px; display: flex; justify-content: center; gap: 18px; }
+      #chips .chip { width: 40px; height: 40px; border-radius: 50%; border: 5px solid var(--ink); background: #fffaf0; }
+      #chips .chip .on { width: 100%; height: 100%; border-radius: 50%; background: var(--red); }
+
+      #plate { position: absolute; left: 70px; top: 560px; width: 940px; height: 640px; border: 14px solid #fffaf0; border-radius: 24px; box-shadow: 0 0 0 5px var(--ink), 18px 18px 0 5px var(--ink); overflow: hidden; background: var(--ink); }
+      #plate img { width: 100%; height: 100%; object-fit: cover; display: block; }
+      .credit { position: absolute; right: 80px; top: 1226px; font-family: "Cormorant", serif; font-style: italic; font-weight: 600; font-size: 26px; color: rgba(35,20,13,0.7); }
+      .mini { position: absolute; left: 90px; top: 1290px; width: 900px; height: 0; }
+    </style>
+  </head>
+  <body>
+    <svg width="0" height="0" style="position:absolute">
+      <defs>
+        <pattern id="gm" x="0" y="0" width="120" height="64" patternUnits="userSpaceOnUse">
+          <rect width="120" height="64" fill="#b5121b" />
+          <path d="M60 6 L84 32 L60 58 L36 32 Z" fill="#f5f0e6" />
+          <path d="M60 18 L72 32 L60 46 L48 32 Z" fill="#b5121b" />
+          <rect x="57" y="29" width="6" height="6" fill="#f5f0e6" />
+          <path d="M0 64 L0 52 L8 52 L8 44 L16 44 L16 52 L24 52 L24 64 Z M96 64 L96 52 L104 52 L104 44 L112 44 L112 52 L120 52 L120 64 Z" fill="#f5f0e6" />
+          <path d="M0 0 L0 12 L8 12 L8 20 L16 20 L16 12 L24 12 L24 0 Z M96 0 L96 12 L104 12 L104 20 L112 20 L112 12 L120 12 L120 0 Z" fill="#f5f0e6" />
+        </pattern>
+        <pattern id="soilP" width="60" height="40" patternUnits="userSpaceOnUse">
+          <rect width="60" height="40" fill="#8a5a35" />
+          <circle cx="10" cy="10" r="4" fill="#6e4426" /><circle cx="40" cy="28" r="5" fill="#a46d43" /><circle cx="52" cy="8" r="3" fill="#5e3a20" />
+        </pattern>
+        <pattern id="earthP" width="40" height="18" patternUnits="userSpaceOnUse">
+          <rect width="40" height="18" fill="#b07a48" /><path d="M0 9 Q10 5 20 9 T40 9" stroke="#946233" stroke-width="2" fill="none" />
+        </pattern>
+        <pattern id="brickP" width="48" height="24" patternUnits="userSpaceOnUse">
+          <rect width="48" height="24" fill="#e1bf73" />
+          <rect x="2" y="2" width="44" height="9" fill="#b4532a" /><rect x="-22" y="13" width="44" height="9" fill="#b4532a" /><rect x="26" y="13" width="44" height="9" fill="#b4532a" />
+        </pattern>
+        <symbol id="tree" viewBox="0 0 80 240" overflow="visible">
+          <rect x="34" y="190" width="12" height="50" fill="#6b4423" stroke="#23140d" stroke-width="5" />
+          <path d="M40 0 C70 60 72 150 60 196 L20 196 C8 150 10 60 40 0 Z" fill="#3f7d3a" stroke="#23140d" stroke-width="6" stroke-linejoin="round" />
+          <path d="M34 40 C26 80 26 120 30 160" stroke="#6aa85a" stroke-width="7" fill="none" stroke-linecap="round" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <div id="root" data-composition-id="main" data-start="0" data-duration="16" data-width="1080" data-height="1920">
+      <audio id="master" src="assets/audio/master.wav" data-start="0" data-duration="16" data-track-index="9" data-volume="1"></audio>
+      <div id="cloth" class="layer clip" data-start="0" data-duration="16" data-track-index="0"></div>
+
+      <div id="cam">
+        <!-- the moidam illustration: one drawing used by hook, build and ending -->
+        <div id="scene" class="clip" data-start="0" data-duration="16" data-track-index="1">
+          <svg id="mound" viewBox="0 0 1080 820">
+            <!-- ground: centre line y=480 -->
+            <g id="soil"><rect x="60" y="480" width="960" height="320" fill="url(#soilP)" stroke="#23140d" stroke-width="6" /><path d="M60 600 Q300 585 540 600 T1020 600 M60 700 Q300 690 540 705 T1020 700" stroke="#5e3a20" stroke-width="4" fill="none" opacity="0.6" /></g>
+            <g id="inside">
+              <!-- brick vault under the ground -->
+              <g id="vault">
+                <rect x="330" y="500" width="420" height="250" fill="#3a2414" />
+                <g id="vrows"></g>
+                <path d="M330 750 L330 560 Q540 440 750 560 L750 750" fill="none" stroke="#23140d" stroke-width="8" />
+              </g>
+              <g id="goods">
+                <g id="it-coffin"><rect x="380" y="672" width="210" height="62" rx="8" fill="#8b5a2b" stroke="#23140d" stroke-width="6" /><rect x="380" y="690" width="210" height="18" fill="#b5121b" stroke="#23140d" stroke-width="4" /></g>
+                <g id="it-xorai"><path d="M630 734 L690 734 L676 712 L644 712 Z" fill="#d9a441" stroke="#23140d" stroke-width="5" /><rect x="654" y="676" width="12" height="36" fill="#d9a441" stroke="#23140d" stroke-width="4" /><path d="M622 676 L698 676 L686 662 L634 662 Z" fill="#d9a441" stroke="#23140d" stroke-width="5" /><path d="M640 662 Q660 610 680 662 Z" fill="#e8b553" stroke="#23140d" stroke-width="5" /><circle cx="660" cy="614" r="7" fill="#e8b553" stroke="#23140d" stroke-width="4" /></g>
+                <g id="it-sword"><rect x="418" y="652" width="110" height="10" rx="3" fill="#cfd6d4" stroke="#23140d" stroke-width="4" /><rect x="392" y="650" width="30" height="14" rx="4" fill="#8b5a2b" stroke="#23140d" stroke-width="4" /></g>
+                <g id="it-ele"><g transform="translate(-60 28)"><path d="M600 600 C600 572 622 560 650 560 C684 560 704 574 706 600 L706 626 L692 626 L690 610 L668 610 L666 626 L652 626 L650 610 C640 616 630 622 624 632 C620 640 610 640 612 630 C614 620 604 612 600 600 Z" fill="#fffaf0" stroke="#23140d" stroke-width="5" stroke-linejoin="round" /><circle cx="618" cy="586" r="4" fill="#23140d" /></g></g>
+              </g>
+            </g>
+            <!-- earth mound, built in layers from the inside out -->
+            <g id="layers">
+              <path id="L4" d="M140 480 A400 330 0 0 1 940 480 Z" fill="url(#earthP)" stroke="#23140d" stroke-width="7" />
+              <path id="L3" d="M190 480 A350 270 0 0 1 890 480 Z" fill="#c48d55" stroke="#23140d" stroke-width="5" opacity="0.95" />
+              <path id="L2" d="M250 480 A290 205 0 0 1 830 480 Z" fill="url(#earthP)" stroke="#23140d" stroke-width="5" />
+              <path id="L1" d="M320 480 A220 140 0 0 1 760 480 Z" fill="#a8703f" stroke="#23140d" stroke-width="5" />
+            </g>
+            <path id="grass" d="M140 480 A400 330 0 0 1 940 480 Z" fill="#6fae4f" stroke="#23140d" stroke-width="8" />
+            <path id="grassline" d="M190 420 C300 250 420 190 540 186" stroke="#9bd06e" stroke-width="16" fill="none" stroke-linecap="round" />
+            <!-- chow-chali on the summit -->
+            <g id="chow">
+              <rect x="486" y="122" width="108" height="30" fill="#b4532a" stroke="#23140d" stroke-width="6" />
+              <rect x="496" y="70" width="14" height="54" fill="#b4532a" stroke="#23140d" stroke-width="5" /><rect x="570" y="70" width="14" height="54" fill="#b4532a" stroke="#23140d" stroke-width="5" />
+              <path d="M470 76 Q540 20 610 76 Z" fill="#9c4320" stroke="#23140d" stroke-width="6" stroke-linejoin="round" />
+              <circle cx="540" cy="34" r="7" fill="#23140d" />
+            </g>
+            <!-- octagonal boundary wall (seen in section as two low walls) -->
+            <g id="walls"><rect x="70" y="430" width="44" height="52" fill="url(#brickP)" stroke="#23140d" stroke-width="5" /><rect x="966" y="430" width="44" height="52" fill="url(#brickP)" stroke="#23140d" stroke-width="5" /></g>
+            <g id="trees">
+              <use href="#tree" x="0" y="250" width="80" height="240" />
+              <use href="#tree" x="985" y="230" width="80" height="260" />
+            </g>
+            <rect id="groundline" x="20" y="476" width="1040" height="8" fill="#23140d" />
+            <!-- x-ray scan bar -->
+            <rect id="scan" x="40" y="0" width="1000" height="14" fill="#e0a93e" opacity="0" />
+          </svg>
+        </div>
+
+        <!-- ===== S0 HOOK 0–1.0 ===== -->
+        <section id="s0" class="clip" data-start="0" data-duration="1" data-track-index="2">
+          <div class="center" style="top:300px">
+            <div class="as" style="font-size:100px">এইটো</div>
+            <div class="as red" id="s0-word" style="font-size:200px; line-height:1">পাহাৰ নহয়।</div>
+          </div>
+          <div class="center" style="top:1530px"><div class="en" id="s0-en">This is not a hill.</div></div>
+        </section>
+
+        <!-- ===== S1 CARD 1.0–2.5 ===== -->
+        <section id="s1" class="clip" data-start="1" data-duration="1.5" data-track-index="2">
+          <div class="layer" style="background:url('assets/tex/cloth.jpg') center / cover"></div>
+          <div class="center" style="top:300px">
+            <div class="as" style="font-size:96px">আহোম ৰজাৰ</div>
+            <div class="as red" style="font-size:128px">মৈদামৰ ৰেচিপি</div>
+          </div>
+          <div id="card">
+            <div class="tag">ৰেচিপি · ০০৩</div>
+            <div class="row"><span class="k">ক'ত</span><span class="v">চৰাইদেউ</span></div>
+            <div class="row"><span class="k">কাৰ বাবে</span><span class="v">আহোম ৰজা</span></div>
+            <div class="row"><span class="k">মৈদাম</span><span class="v">৯০ টা</span></div>
+            <div class="row"><span class="k">ইউনেস্কো</span><span class="v red">২০২৪</span></div>
+            <div class="en" style="font-size:38px; margin-top:6px">Moidams: the royal burial mounds of the Ahom kings.</div>
+          </div>
+        </section>
+
+        <!-- ===== S2 BUILD 2.5–8.0 : step labels ===== -->
+        <section id="s2" class="clip" data-start="2.5" data-duration="5.5" data-track-index="2">
+          <div class="step" id="st1"><div class="as">মাটিৰ তলত</div><div class="as red">ইটাৰ কোঠা</div></div>
+          <div class="step" id="st2"><div class="as">ভিতৰত ৰজা</div><div class="as red">আৰু তেওঁৰ বস্তু</div></div>
+          <div class="step" id="st3"><div class="as">ওপৰত</div><div class="as red">মাটিৰ স্তূপ</div></div>
+          <div class="step" id="st4"><div class="as">চূড়াত</div><div class="as red">চৌ-চালি</div></div>
+          <div class="step" id="st5"><div class="as">চাৰিওফালে</div><div class="as red">আঠকোণীয়া গড়</div></div>
+          <div class="step" id="st6"><div class="as">এতিয়া পাহাৰ</div><div class="as red">যেন লাগে!</div></div>
+          <div id="chips">
+            <div class="chip"><div class="on" id="c1"></div></div>
+            <div class="chip"><div class="on" id="c2"></div></div>
+            <div class="chip"><div class="on" id="c3"></div></div>
+            <div class="chip"><div class="on" id="c4"></div></div>
+            <div class="chip"><div class="on" id="c5"></div></div>
+          </div>
+        </section>
+
+        <!-- ===== S3 REVEAL 8.0–12.5 ===== -->
+        <section id="s3" class="clip" data-start="8" data-duration="4.5" data-track-index="2">
+          <div class="layer" style="background:url('assets/tex/cloth.jpg') center / cover"></div>
+          <div class="center" style="top:300px">
+            <div class="sticker" id="s3-title" style="transform:rotate(-3deg)"><div class="as red" style="font-size:120px">চৰাইদেউ মৈদাম</div></div>
+            <div class="en" id="s3-sub" style="margin-top:22px">Charaideo, Assam · real photo</div>
+          </div>
+          <div id="plate"><img src="assets/img/charaideo-moidam.jpg" id="s3-img" alt="" /></div>
+          <div class="center" id="call" style="top:930px"><div class="sticker redbg" style="transform:rotate(-5deg)"><div class="as" style="font-size:80px">চৌ-চালি</div></div></div>
+          <div class="credit">Photo: Mozzworld, Wikimedia Commons, CC BY-SA 4.0</div>
+          <div class="center" id="s3-count" style="top:1270px">
+            <div style="display:flex; gap:20px; align-items:baseline"><div class="as red" id="cnt" style="font-size:140px; width:200px; text-align:right">০</div><div class="as" style="font-size:96px">টা মৈদাম</div></div>
+          </div>
+          <div class="center" id="s3-unesco" style="top:1270px"><div class="sticker redbg" style="transform:rotate(3deg)"><div class="as" style="font-size:80px">ইউনেস্কো বিশ্ব ঐতিহ্য · ২০২৪</div></div></div>
+        </section>
+
+        <!-- ===== S4 END 12.5–16.0 : x-ray, then back to the hill (loop) ===== -->
+        <section id="s4" class="clip" data-start="12.5" data-duration="3.5" data-track-index="2">
+          <div class="center" id="s4-a" style="top:300px">
+            <div class="as" style="font-size:100px">ভিতৰত</div>
+            <div class="as red" style="font-size:200px; line-height:1">এজন ৰজা।</div>
+          </div>
+          <div class="center" id="s4-b" style="top:300px">
+            <div class="as" style="font-size:100px">এইটো</div>
+            <div class="as red" id="s4-word" style="font-size:200px; line-height:1">পাহাৰ নহয়।</div>
+          </div>
+          <div class="center" style="top:1530px"><div class="en" id="s4-en">Inside: a king.</div></div>
+        </section>
+      </div>
+
+      <div id="bands" class="layer clip" data-start="0" data-duration="16" data-track-index="3">
+        <div class="band" id="band-top">
+          <div class="fill"></div>
+          <svg class="motif" id="motif-top" style="top:40px" viewBox="0 0 2160 64"><rect width="2160" height="64" fill="url(#gm)" /></svg>
+          <div class="thread" style="top:118px"></div>
+          <div id="series">আহোমৰ ৰেচিপি · ০০৩</div>
+          <div class="thread" style="top:236px; height:3px"></div>
+        </div>
+        <div class="band" id="band-bot">
+          <div class="fill"></div>
+          <div class="thread" style="top:14px; height:3px"></div>
+          <svg class="motif" id="motif-bot" style="top:60px" viewBox="0 0 2160 64"><rect width="2160" height="64" fill="url(#gm)" /></svg>
+        </div>
+      </div>
+      <div id="grain" class="layer clip" data-start="0" data-duration="16" data-track-index="4"></div>
+    </div>
+
+    <script>
+      const BN = ["০","১","২","৩","৪","৫","৬","৭","৮","৯"];
+      const bn = (n) => String(n).split("").map((c) => BN[+c]).join("");
+      const NS = "http://www.w3.org/2000/svg";
+
+      // vault brick rows (bottom to top), built row by row
+      const vrows = document.getElementById("vrows");
+      const vr = [];
+      for (let k = 0; k < 7; k++) {
+        const r = document.createElementNS(NS, "rect");
+        r.setAttribute("x", 330); r.setAttribute("width", 420);
+        r.setAttribute("y", 726 - k * 34); r.setAttribute("height", 26);
+        r.setAttribute("fill", "url(#brickP)");
+        vrows.appendChild(r);
+        vr.push(r);
+      }
+      // the vault's hollow: rows are drawn as walls, the chamber is cut by a lighter arch
+      const hollow = document.createElementNS(NS, "path");
+      hollow.setAttribute("d", "M370 750 L370 580 Q540 490 710 580 L710 750 Z");
+      hollow.setAttribute("fill", "#4a2e1a");
+      hollow.setAttribute("id", "hollow");
+      vrows.appendChild(hollow);
+
+      const tl = gsap.timeline({ paused: true });
+      function shake(t, p = 14, len = 0.3) {
+        const s = [[1, -0.7], [-0.8, 0.8], [0.5, -0.4], [-0.3, 0.3], [0, 0]];
+        s.forEach(([x, y], i) => tl.to("#cam", { x: x * p * (1 - i / s.length), y: y * p * (1 - i / s.length), duration: len / s.length, ease: "none" }, t + (i * len) / s.length));
+      }
+      function slam(sel, t, from = 1.7, rot = -5) {
+        tl.fromTo(sel, { scale: from, opacity: 0, rotation: rot }, { scale: 1, opacity: 1, rotation: 0, duration: 0.14, ease: "power4.in" }, t);
+      }
+      // x-ray: outer earth goes see-through, soil and the chamber show
+      function xray(t, on, d = 0.08) {
+        tl.to("#layers, #grass, #grassline", { opacity: on ? 0.14 : 1, duration: d }, t);
+        tl.to("#soil", { opacity: on ? 0.55 : 0, duration: d }, t);
+        tl.to("#inside", { opacity: on ? 1 : 0, duration: d }, t);
+      }
+
+      tl.fromTo("#motif-top", { x: 0 }, { x: -1080, duration: 16, ease: "none" }, 0);
+      tl.fromTo("#motif-bot", { x: -1080 }, { x: 0, duration: 16, ease: "none" }, 0);
+      tl.fromTo("#grain", { backgroundPosition: "0px 0px" }, { backgroundPosition: "512px 1024px", duration: 16, ease: "steps(192)" }, 0);
+
+      // initial state = the finished hill (frame 0 and the last frame)
+      tl.set("#soil, #inside", { opacity: 0 }, 0);
+      tl.set("#scan", { opacity: 0 }, 0);
+
+      // ===== S0 0–1.0: a hill… with a king inside =====
+      tl.fromTo("#s0-word", { scale: 1.06 }, { scale: 1, duration: 0.25, ease: "power2.out" }, 0);
+      tl.fromTo("#scan", { opacity: 1, y: 120 }, { y: 760, duration: 0.3, ease: "power1.in" }, 0.35);
+      tl.set("#scan", { opacity: 0 }, 0.66);
+      xray(0.4, true, 0.05);
+      xray(0.72, false, 0.06);
+      shake(0.42, 14);
+      tl.fromTo("#s0-en", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.2 }, 0.5);
+      tl.to("#s0-word", { scale: 1.12, duration: 0.09, yoyo: true, repeat: 1 }, 0.78);
+
+      // ===== S1 1.0–2.5: recipe card =====
+      tl.fromTo("#s1 .center", { y: -40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.2, ease: "back.out(2)" }, 1.0);
+      tl.fromTo("#card", { y: 900, rotation: 6 }, { y: 0, rotation: -1.5, duration: 0.28, ease: "back.out(1.4)" }, 1.0);
+      tl.fromTo("#card .row", { x: 80, opacity: 0, scale: 1.1 }, { x: 0, opacity: 1, scale: 1, duration: 0.14, stagger: 0.2, ease: "back.out(2)" }, 1.25);
+      tl.to("#card", { rotation: 1.5, duration: 0.6, ease: "sine.inOut" }, 1.9);
+
+      // ===== S2 2.5–8.0: build it =====
+      // empty the site at the cut
+      tl.set("#layers path, #grass, #grassline, #chow, #walls, #trees", { opacity: 0 }, 2.5);
+      tl.set("#layers", { opacity: 1 }, 2.5);
+      tl.set("#goods > g", { opacity: 0 }, 2.5);
+      tl.set(vr, { opacity: 0 }, 2.5);
+      tl.set("#hollow", { opacity: 0 }, 2.5);
+      tl.set("#inside", { opacity: 1 }, 2.5);
+      tl.to("#soil", { opacity: 1, duration: 0.15 }, 2.5);
+      tl.set(".step", { opacity: 0 }, 0);
+      tl.set(".chip .on", { scale: 0 }, 0);
+      const stepT = [2.5, 3.5, 4.5, 5.5, 6.0, 7.0];
+      stepT.forEach((t, i) => {
+        slam("#st" + (i + 1), t, 1.5, i % 2 ? 4 : -4);
+        if (i > 0) tl.to("#st" + i, { opacity: 0, duration: 0.06 }, t);
+        if (i < 5) tl.to("#c" + (i + 1), { scale: 1, duration: 0.2, ease: "back.out(3)" }, t + 0.1);
+      });
+      // 1 · brick vault, a row per sixteenth
+      vr.forEach((r, k) => tl.fromTo(r, { opacity: 1, y: -500 }, { y: 0, duration: 0.12, ease: "power3.in", immediateRender: false }, 2.55 + k * 0.1));
+      tl.to("#hollow", { opacity: 1, duration: 0.1 }, 3.25);
+      // 2 · the king and his things
+      ["#it-coffin", "#it-xorai", "#it-sword", "#it-ele"].forEach((s, k) => {
+        tl.fromTo(s, { opacity: 1, y: -600 }, { y: 0, duration: 0.16, ease: "power3.in", immediateRender: false }, 3.5 + k * 0.25);
+        tl.fromTo(s, { scaleY: 0.8, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.2, ease: "elastic.out(1.2,0.4)", immediateRender: false }, 3.66 + k * 0.25);
+      });
+      // 3 · earth, layer by layer
+      ["#L1", "#L2", "#L3", "#L4"].forEach((s, k) => {
+        tl.fromTo(s, { opacity: 1, scaleY: 0, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.2, ease: "back.out(1.6)", immediateRender: false }, 4.5 + k * 0.25);
+        shake(4.6 + k * 0.25, 5 + k * 2, 0.2);
+      });
+      // 4 · chow-chali drops on the summit
+      tl.fromTo("#chow", { opacity: 1, y: -700 }, { y: 0, duration: 0.18, ease: "power3.in", immediateRender: false }, 5.5);
+      shake(5.68, 16);
+      // 5 · boundary walls rise
+      tl.fromTo("#walls", { opacity: 1, scaleY: 0, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.2, ease: "back.out(2)", immediateRender: false }, 6.0);
+      // grass grows over everything, trees pop, the cut closes
+      tl.fromTo("#grass", { opacity: 1, clipPath: "inset(100% 0% 0% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 0.35, ease: "power2.out", immediateRender: false }, 6.5);
+      tl.fromTo("#grassline", { opacity: 0 }, { opacity: 1, duration: 0.2, immediateRender: false }, 6.8);
+      tl.to("#soil, #inside", { opacity: 0, duration: 0.25 }, 6.6);
+      tl.fromTo("#trees", { opacity: 1, scaleY: 0, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.25, ease: "back.out(2.4)", immediateRender: false }, 6.75);
+      tl.to("#mound", { scale: 1.05, duration: 0.12, yoyo: true, repeat: 1, transformOrigin: "50% 60%" }, 7.5);
+
+      // ===== S3 8.0–12.5: the real one =====
+      tl.fromTo("#plate", { clipPath: "circle(0% at 50% 50%)" }, { clipPath: "circle(80% at 50% 50%)", duration: 0.3, ease: "power3.out" }, 8.0);
+      tl.fromTo("#s3-img", { scale: 1.35, x: 0, y: 0 }, { scale: 1.05, duration: 0.5, ease: "power3.out" }, 8.0);
+      shake(8.02, 22, 0.35);
+      slam("#s3-title", 8.1, 1.8, -8);
+      tl.fromTo("#s3-sub", { opacity: 0 }, { opacity: 1, duration: 0.2 }, 8.4);
+      tl.set("#call, #s3-count, #s3-unesco", { opacity: 0 }, 0);
+      tl.to("#s3-img", { scale: 2.4, x: 204, y: 50, duration: 0.35, ease: "power3.inOut" }, 9.0);
+      slam("#call", 9.25, 1.8, -10);
+      tl.to("#call", { opacity: 0, duration: 0.08 }, 9.75);
+      tl.to("#s3-img", { scale: 1.08, x: 0, y: 0, duration: 0.35, ease: "power3.inOut" }, 9.75);
+      tl.fromTo("#s3-count", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.15, ease: "back.out(2)" }, 9.85);
+      const cntEl = document.getElementById("cnt"); const cv = { v: 0 };
+      tl.fromTo(cv, { v: 0 }, { v: 90, duration: 0.6, ease: "power2.out", immediateRender: false, onUpdate: () => { cntEl.textContent = bn(Math.round(cv.v)); } }, 9.9);
+      tl.to("#cnt", { scale: 1.25, duration: 0.09, yoyo: true, repeat: 1 }, 10.5);
+      tl.to("#s3-count", { opacity: 0, duration: 0.08 }, 10.75);
+      slam("#s3-unesco", 10.75, 1.9, 8);
+      shake(10.8, 16);
+      tl.to("#s3-img", { scale: 1.25, duration: 1.7, ease: "none" }, 10.8);
+
+      // ===== S4 12.5–16.0: x-ray pulses on the beat, then it's just a hill again =====
+      tl.set("#s4-b", { opacity: 0 }, 0);
+      tl.fromTo("#s4-a", { opacity: 0, scale: 1.2 }, { opacity: 1, scale: 1, duration: 0.15, ease: "power3.out" }, 12.5);
+      tl.fromTo("#s4-en", { opacity: 0 }, { opacity: 1, duration: 0.2 }, 12.7);
+      [12.75, 13.25, 13.75].forEach((t, k) => {
+        xray(t, true, 0.04);
+        if (k < 2) xray(t + 0.25, false, 0.04);
+        tl.fromTo("#scan", { opacity: 1, y: 120 }, { y: 760, duration: 0.22, ease: "none" }, t - 0.05);
+        tl.set("#scan", { opacity: 0 }, t + 0.18);
+      });
+      tl.to("#it-xorai", { y: -14, duration: 0.12, yoyo: true, repeat: 3 }, 13.8);
+      xray(14.5, false, 0.1);
+      tl.to("#s4-a", { opacity: 0, y: -30, duration: 0.15 }, 14.85);
+      tl.to("#s4-en", { opacity: 0, duration: 0.15 }, 14.85);
+      tl.set("#s4-b", { opacity: 1 }, 15.0);
+      tl.fromTo("#s4-b", { y: -20 }, { y: 0, duration: 0.18 }, 15.0);
+      tl.fromTo("#s4-word", { scale: 1.06 }, { scale: 1.06, duration: 0.01 }, 15.98);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

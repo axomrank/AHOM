@@ -1,0 +1,18 @@
+{
+  "trails": [
+    {"id":"saraighat","title":"Lachit and Saraighat","summary":"Follow the occupation, recovery of Guwahati, Alaboi and the river battle of 1671.","scenes":["AHOM-131","AHOM-135","AHOM-144","AHOM-145","AHOM-148","AHOM-155","AHOM-157","AHOM-252","AHOM-255"]},
+    {"id":"women","title":"Women in the chronicles","summary":"Explore diplomacy, resistance, royal authority and the lives of women at court.","scenes":["AHOM-046","AHOM-240","AHOM-136","AHOM-177","AHOM-281","AHOM-192","AHOM-195","AHOM-262","AHOM-205"]},
+    {"id":"fall","title":"The fall of the kingdom","summary":"Read the final decades through rebellion, Burmese invasions, resistance and annexation.","scenes":["AHOM-203","AHOM-207","AHOM-210","AHOM-272","AHOM-215","AHOM-273","AHOM-274","AHOM-275","AHOM-224","AHOM-228","AHOM-276","AHOM-277","AHOM-229","AHOM-230","AHOM-233"]},
+    {"id":"capitals","title":"Capitals and monuments","summary":"Trace the royal centres through their buildings, tanks, bridges and burial grounds.","scenes":["AHOM-017","AHOM-022","AHOM-108","AHOM-183","AHOM-193","AHOM-195","AHOM-197","AHOM-200","AHOM-257","AHOM-264","AHOM-270"]}
+  ],
+  "places": [
+    {"id":"guwahati","name":"Guwahati / Saraighat","x":15,"y":73,"terms":["Guwahati","Saraighat","Itakhuli"],"note":"The western theatre of the Ahom–Mughal wars."},
+    {"id":"dimapur","name":"Dimapur","x":43,"y":85,"terms":["Dimapur"],"note":"A centre of the Kachari kingdom, south of the Brahmaputra valley."},
+    {"id":"jorhat","name":"Jorhat","x":55,"y":57,"terms":["Jorhat"],"note":"The later Ahom capital."},
+    {"id":"rangpur","name":"Rangpur / Sivasagar","x":67,"y":43,"terms":["Rangpur","Rang Ghar","Joysagar","Sivasagar","Talatal"],"note":"A royal centre associated with tanks, temples and palaces.","source":"https://sivasagar.assam.gov.in/tourist-place-detail/277"},
+    {"id":"garhgaon","name":"Garhgaon","x":77,"y":51,"terms":["Garhgaon","Kareng"],"note":"The fortified capital and site of the Kareng Ghar."},
+    {"id":"charaideo","name":"Charaideo","x":85,"y":61,"terms":["Charaideo","moidam","maidam"],"note":"Royal capital and the mound-burial landscape of the Ahom dynasty.","source":"https://whc.unesco.org/en/list/1711/"},
+    {"id":"sadiya","name":"Sadiya","x":87,"y":17,"terms":["Sadiya","Chutia"],"note":"The eastern frontier and Chutia campaign theatre."},
+    {"id":"namrup","name":"Namrup / Patkai","x":93,"y":37,"terms":["Namrup","Patkai"],"note":"The eastern approach and a refuge during the Mughal invasion."}
+  ]
+}

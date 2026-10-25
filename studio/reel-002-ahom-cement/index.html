@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="as">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Ahom Recipe 001 · Cement</title>
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "SKBishal"; src: url("assets/fonts/skbishal.ttf") format("truetype"); }
+      @font-face { font-family: "Padmasetu"; src: url("assets/fonts/padmasetu.ttf") format("truetype"); }
+      @font-face { font-family: "Cormorant"; font-style: italic; font-weight: 600; src: url("assets/fonts/cormorant-600i.woff2") format("woff2"); }
+      @font-face { font-family: "Cormorant"; font-style: normal; font-weight: 700; src: url("assets/fonts/cormorant-700.woff2") format("woff2"); }
+
+      :root {
+        --cloth: #f5f0e6;
+        --red: #b5121b;
+        --ink: #23140d;
+        --kanh: #d9a441;
+        --kanh-dk: #8a5a12;
+        --brick: #b4532a;
+        --paste: #b98a4a;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--cloth); }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: var(--cloth); }
+      .layer, .clip { position: absolute; inset: 0; }
+      #cloth { background: url("assets/tex/cloth.jpg") center / cover; }
+      #cam { position: absolute; inset: 0; }
+      #grain { background: url("assets/tex/grain.png") 0 0 / 512px 512px repeat; opacity: 0.18; mix-blend-mode: multiply; pointer-events: none; }
+
+      /* ---------- gamosa border bands ---------- */
+      .band { position: absolute; left: 0; width: 1080px; overflow: hidden; }
+      .band .fill { position: absolute; inset: 0; background: var(--red); }
+      .band .motif { position: absolute; left: 0; height: 64px; width: 2160px; }
+      .band .thread { position: absolute; left: 0; right: 0; height: 4px; background: var(--red); }
+      #band-top { top: 0; height: 250px; }
+      #band-bot { bottom: 0; height: 236px; }
+      #series {
+        position: absolute; left: 0; right: 0; top: 150px; text-align: center;
+        font-family: "Padmasetu", serif; font-size: 36px; color: var(--cloth); letter-spacing: 1px;
+      }
+
+      /* ---------- type ---------- */
+      .as { font-family: "SKBishal", serif; color: var(--ink); line-height: 1.1; white-space: nowrap; }
+      .red { color: var(--red); }
+      .en { font-family: "Cormorant", serif; font-style: italic; font-weight: 600; font-size: 46px; color: var(--ink); line-height: 1.2; }
+      .center { position: absolute; left: 60px; right: 60px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+      .sticker {
+        display: inline-block; background: #fffaf0; border: 5px solid var(--ink); border-radius: 22px;
+        padding: 10px 34px 0; box-shadow: 10px 10px 0 var(--ink);
+      }
+      .sticker.redbg { background: var(--red); }
+      .sticker.redbg .as { color: #fffaf0; }
+
+      /* ---------- recipe card ---------- */
+      #card {
+        position: absolute; left: 90px; right: 90px; top: 640px; height: 740px;
+        background: #fffaf0; border: 6px solid var(--ink); border-radius: 36px; box-shadow: 16px 16px 0 var(--red);
+        padding: 54px 56px; display: flex; flex-direction: column; gap: 26px;
+      }
+      #card .tag { font-family: "Padmasetu", serif; font-size: 38px; color: var(--red); }
+      #card .row { display: flex; justify-content: space-between; align-items: center; border-top: 3px dashed rgba(35,20,13,0.35); padding-top: 22px; }
+      #card .k { font-family: "Padmasetu", serif; font-size: 42px; color: var(--ink); }
+      #card .v { font-family: "SKBishal", serif; font-size: 58px; color: var(--ink); }
+      #card .v.red { color: var(--red); }
+
+      /* ---------- kitchen ---------- */
+      #bowl { position: absolute; left: 150px; top: 720px; width: 780px; height: 780px; }
+      #contents { position: absolute; left: 270px; top: 840px; width: 540px; height: 540px; border-radius: 50%; overflow: hidden; }
+      #contents .disc { position: absolute; inset: 0; border-radius: 50%; }
+      #swirl { position: absolute; inset: 0; }
+      .drop { position: absolute; left: 0; top: 0; width: 0; height: 0; }
+      .grain { position: absolute; border-radius: 50%; }
+      .label { position: absolute; left: 60px; right: 60px; top: 300px; display: flex; flex-direction: column; align-items: center; }
+      .label .as { font-size: 150px; }
+      .label .en { margin-top: 4px; }
+      #chips { position: absolute; left: 0; right: 0; top: 1530px; display: flex; justify-content: center; align-items: center; gap: 18px; }
+      #chips .chip { width: 44px; height: 44px; border-radius: 50%; border: 5px solid var(--ink); background: #fffaf0; }
+      #chips .chip .on { width: 100%; height: 100%; border-radius: 50%; background: var(--red); }
+      #chips .count { font-family: "SKBishal", serif; font-size: 60px; color: var(--ink); margin-left: 18px; width: 220px; }
+
+      /* ---------- build ---------- */
+      #site { position: absolute; left: 90px; top: 700px; width: 900px; height: 820px; }
+      #site .row {
+        position: absolute; left: 0; width: 900px; height: 50px;
+        background-color: #c9a15a;
+        background-image: repeating-linear-gradient(90deg, var(--brick) 0 88px, #e1bf73 88px 96px);
+        border-bottom: 8px solid #e1bf73;
+      }
+      #site .row.odd { background-position: 48px 0; }
+      #rows { position: absolute; inset: 0; clip-path: url(#rg-clip); }
+
+      /* ---------- reveal ---------- */
+      #plate {
+        position: absolute; left: 70px; top: 610px; width: 940px; height: 700px;
+        border: 14px solid #fffaf0; border-radius: 24px; box-shadow: 0 0 0 5px var(--ink), 18px 18px 0 5px var(--ink);
+        overflow: hidden; background: var(--ink);
+      }
+      #plate img { width: 100%; height: 100%; object-fit: cover; display: block; }
+      .credit { position: absolute; right: 80px; top: 1336px; font-family: "Cormorant", serif; font-style: italic; font-weight: 600; font-size: 26px; color: rgba(35,20,13,0.7); }
+    </style>
+  </head>
+  <body>
+    <svg width="0" height="0" style="position:absolute">
+      <defs>
+        <!-- Gamosa motif: lozenges and stepped "kalka" teeth, white on red -->
+        <pattern id="gm" x="0" y="0" width="120" height="64" patternUnits="userSpaceOnUse">
+          <rect width="120" height="64" fill="#b5121b" />
+          <path d="M60 6 L84 32 L60 58 L36 32 Z" fill="#f5f0e6" />
+          <path d="M60 18 L72 32 L60 46 L48 32 Z" fill="#b5121b" />
+          <rect x="57" y="29" width="6" height="6" fill="#f5f0e6" />
+          <path d="M0 64 L0 52 L8 52 L8 44 L16 44 L16 52 L24 52 L24 64 Z M96 64 L96 52 L104 52 L104 44 L112 44 L112 52 L120 52 L120 64 Z" fill="#f5f0e6" />
+          <path d="M0 0 L0 12 L8 12 L8 20 L16 20 L16 12 L24 12 L24 0 Z M96 0 L96 12 L104 12 L104 20 L112 20 L112 12 L120 12 L120 0 Z" fill="#f5f0e6" />
+        </pattern>
+        <!-- Rang Ghar elevation (Sivasagar), simplified: platform, two storeys of arches, boat-shaped roof -->
+        <clipPath id="rg-clip" clipPathUnits="userSpaceOnUse">
+          <path clip-rule="evenodd" d="
+            M40 820 L860 820 L860 760 L800 760 L800 470 L740 470 L740 330 L160 330 L160 470 L100 470 L100 760 L40 760 Z
+            M150 760 L150 640 Q190 580 230 640 L230 760 Z
+            M290 760 L290 630 Q340 560 390 630 L390 760 Z
+            M510 760 L510 630 Q560 560 610 630 L610 760 Z
+            M670 760 L670 640 Q710 580 750 640 L750 760 Z
+            M400 760 L400 600 Q450 520 500 600 L500 760 Z
+            M200 460 L200 400 Q225 365 250 400 L250 460 Z
+            M300 460 L300 400 Q325 365 350 400 L350 460 Z
+            M425 460 L425 395 Q450 360 475 395 L475 460 Z
+            M550 460 L550 400 Q575 365 600 400 L600 460 Z
+            M650 460 L650 400 Q675 365 700 400 L700 460 Z" />
+        </clipPath>
+        <radialGradient id="kanhG" cx="42%" cy="38%" r="65%">
+          <stop offset="0" stop-color="#ffe7a3" />
+          <stop offset="0.35" stop-color="#e8b553" />
+          <stop offset="0.8" stop-color="#b07a22" />
+          <stop offset="1" stop-color="#7a4c0c" />
+        </radialGradient>
+        <radialGradient id="kanhIn" cx="55%" cy="60%" r="60%">
+          <stop offset="0" stop-color="#c58d2e" />
+          <stop offset="0.75" stop-color="#9a6516" />
+          <stop offset="1" stop-color="#5e3a08" />
+        </radialGradient>
+        <radialGradient id="eggG" cx="38%" cy="32%" r="75%">
+          <stop offset="0" stop-color="#ffffff" />
+          <stop offset="0.55" stop-color="#f3ead8" />
+          <stop offset="1" stop-color="#d4c4a2" />
+        </radialGradient>
+      </defs>
+    </svg>
+
+    <div id="root" data-composition-id="main" data-start="0" data-duration="22" data-width="1080" data-height="1920">
+      <audio id="master" src="assets/audio/master.wav" data-start="0" data-duration="22" data-track-index="9" data-volume="1"></audio>
+      <div id="cloth" class="layer clip" data-start="0" data-duration="22" data-track-index="0"></div>
+
+      <div id="cam">
+        <!-- ===== S0 HOOK 0.0–1.5 : "this is cement" + egg ===== -->
+        <section id="s0" class="clip" data-start="0" data-duration="1.5" data-track-index="1">
+          <div class="center" style="top:300px">
+            <div class="as" style="font-size:120px">এইটোৱেই</div>
+            <div class="as red" id="s0-word" style="font-size:230px; line-height:1">চিমেণ্ট।</div>
+          </div>
+          <svg id="s0-egg" style="position:absolute; left:340px; top:820px; width:400px; height:520px; overflow:visible" viewBox="0 0 400 520">
+            <ellipse cx="200" cy="500" rx="150" ry="18" fill="rgba(35,20,13,0.22)" />
+            <g id="s0-shell-l"><path d="M200 20 C90 20 30 190 30 320 C30 430 110 495 200 495 L200 300 L170 270 L205 235 L175 200 L200 170 Z" fill="url(#eggG)" stroke="#23140d" stroke-width="9" stroke-linejoin="round" /></g>
+            <g id="s0-shell-r"><path d="M200 20 C310 20 370 190 370 320 C370 430 290 495 200 495 L200 300 L170 270 L205 235 L175 200 L200 170 Z" fill="url(#eggG)" stroke="#23140d" stroke-width="9" stroke-linejoin="round" /></g>
+            <path d="M120 120 C100 160 92 200 90 240" stroke="#fff" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.9" />
+            <g id="s0-yolk" opacity="0"><ellipse cx="200" cy="420" rx="170" ry="70" fill="#fffaf0" stroke="#23140d" stroke-width="8" /><circle cx="200" cy="410" r="62" fill="#f2a516" stroke="#23140d" stroke-width="8" /><circle cx="180" cy="392" r="14" fill="#fff" opacity="0.8" /></g>
+          </svg>
+          <div class="center" style="top:1390px"><div class="en" id="s0-en">This is cement.</div></div>
+        </section>
+
+        <!-- ===== S1 RECIPE CARD 1.5–3.0 ===== -->
+        <section id="s1" class="clip" data-start="1.5" data-duration="1.5" data-track-index="1">
+          <div class="center" style="top:300px">
+            <div class="as" style="font-size:96px">আহোম যুগৰ</div>
+            <div class="as red" style="font-size:128px">চিমেণ্টৰ ৰেচিপি</div>
+          </div>
+          <div id="card">
+            <div class="tag">ৰেচিপি · ০০১</div>
+            <div class="row"><span class="k">ক'ত ব্যৱহাৰ হৈছিল</span><span class="v">ৰংঘৰ</span></div>
+            <div class="row"><span class="k">বনোৱা হৈছিল</span><span class="v">১৭৪৬ চন</span></div>
+            <div class="row"><span class="k">টিকি আছে</span><span class="v red">২৮০ বছৰ</span></div>
+            <div class="row"><span class="k">উপাদান</span><span class="v">৬ টা</span></div>
+            <div class="en" style="font-size:38px; margin-top:6px">Ahom cement · used in Rang Ghar, 1746 · still standing.</div>
+          </div>
+        </section>
+
+        <!-- ===== S2 KITCHEN 3.0–11.5 : six ingredients, mix, ready ===== -->
+        <section id="s2" class="clip" data-start="3" data-duration="8.5" data-track-index="1">
+          <svg id="bowl" viewBox="0 0 780 780">
+            <ellipse cx="400" cy="410" rx="380" ry="380" fill="rgba(35,20,13,0.18)" />
+            <circle cx="390" cy="390" r="372" fill="url(#kanhG)" stroke="#23140d" stroke-width="10" />
+            <circle cx="390" cy="390" r="318" fill="none" stroke="#7a4c0c" stroke-width="6" opacity="0.6" />
+            <circle cx="390" cy="390" r="300" fill="url(#kanhIn)" stroke="#23140d" stroke-width="6" />
+            <path d="M140 250 A280 280 0 0 1 300 110" stroke="#fff3c9" stroke-width="18" stroke-linecap="round" fill="none" opacity="0.7" />
+          </svg>
+          <div id="contents">
+            <div class="disc" id="d-rice" style="background: radial-gradient(circle at 45% 40%, #fbf6ea, #e9dfc8)"></div>
+            <div class="disc" id="d-egg" style="background: radial-gradient(circle at 50% 50%, #f7c94e 0 22%, #f6e7b8 40%, #eadbb2 100%)"></div>
+            <div class="disc" id="d-gram" style="background: radial-gradient(circle at 50% 50%, #c9b07c, #a8905c)"></div>
+            <div class="disc" id="d-fish" style="background: radial-gradient(circle at 50% 50%, #bba57a, #9c8556)"></div>
+            <div class="disc" id="d-lime" style="background: radial-gradient(circle at 50% 50%, #e6dcc6, #c8b48a)"></div>
+            <div class="disc" id="d-paste" style="background: radial-gradient(circle at 45% 40%, #d7a75e, #9b6a2c)"></div>
+            <svg id="swirl" viewBox="0 0 540 540"><path d="M270 270 m0 0 a20 20 0 0 1 40 0 a60 60 0 0 1 -120 0 a100 100 0 0 1 200 0 a140 140 0 0 1 -280 0 a180 180 0 0 1 360 0 a220 220 0 0 1 -440 0" fill="none" stroke="#6e4413" stroke-width="12" stroke-linecap="round" opacity="0.55" /></svg>
+            <div id="grains" class="layer"></div>
+          </div>
+
+          <!-- falling items (positioned at bowl centre; animated in y) -->
+          <div id="fall" class="layer"></div>
+          <svg id="it-egg" class="drop" style="left:470px; top:960px; width:140px; height:180px; overflow:visible" viewBox="0 0 140 180"><path d="M70 6 C30 6 8 70 8 112 C8 152 36 174 70 174 C104 174 132 152 132 112 C132 70 110 6 70 6 Z" fill="url(#eggG)" stroke="#23140d" stroke-width="7" /><path d="M42 50 C34 66 30 82 30 98" stroke="#fff" stroke-width="9" stroke-linecap="round" fill="none" /></svg>
+          <svg id="it-fish" class="drop" style="left:250px; top:1000px; width:580px; height:200px; overflow:visible" viewBox="0 0 580 200">
+            <path d="M30 100 C90 40 300 30 460 80 L560 30 L530 100 L560 170 L460 120 C300 170 90 160 30 100 Z" fill="#9aa6a2" stroke="#23140d" stroke-width="8" stroke-linejoin="round" />
+            <path d="M40 100 C120 120 300 125 450 105" stroke="#e8ece6" stroke-width="12" fill="none" stroke-linecap="round" />
+            <circle cx="80" cy="88" r="9" fill="#23140d" />
+            <path d="M44 104 C20 130 10 160 0 190 M50 98 C30 70 22 50 10 30" stroke="#23140d" stroke-width="5" fill="none" stroke-linecap="round" />
+            <path d="M260 52 L300 10 L320 58" fill="#9aa6a2" stroke="#23140d" stroke-width="6" stroke-linejoin="round" />
+          </svg>
+          <svg id="it-snail" class="drop" style="left:440px; top:960px; width:200px; height:200px; overflow:visible" viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r="88" fill="#c79a52" stroke="#23140d" stroke-width="8" />
+            <path d="M100 100 m0 -10 a10 10 0 1 1 -1 0 M100 100 a28 28 0 1 0 28 -28 a52 52 0 1 0 52 52" stroke="#23140d" stroke-width="7" fill="none" stroke-linecap="round" />
+            <path d="M40 60 C50 40 70 26 92 22" stroke="#fff3c9" stroke-width="10" fill="none" stroke-linecap="round" />
+          </svg>
+          <div id="it-syrup" style="position:absolute; left:510px; top:560px; width:60px; height:560px; border-radius:30px; background: linear-gradient(90deg, #8a4b0d, #d48a26 40%, #f4b850 55%, #a85d10); border: 6px solid #23140d; transform-origin: 50% 0%"></div>
+          <div id="puff" class="layer"></div>
+
+          <!-- ladle for mixing: pivots at bowl centre -->
+          <div id="ladle" style="position:absolute; left:540px; top:1110px; width:0; height:0">
+            <svg style="position:absolute; left:-40px; top:-560px; width:80px; height:560px; overflow:visible" viewBox="0 0 80 560"><rect x="28" y="0" width="24" height="420" rx="10" fill="#8b5a2b" stroke="#23140d" stroke-width="6" /><ellipse cx="40" cy="470" rx="38" ry="78" fill="#a8743c" stroke="#23140d" stroke-width="7" /></svg>
+          </div>
+
+          <!-- labels, one per ingredient -->
+          <div class="label" id="lab1"><div class="as">বৰা চাউল</div><div class="en">sticky rice</div></div>
+          <div class="label" id="lab2"><div class="as">হাঁহৰ কণী</div><div class="en">duck eggs</div></div>
+          <div class="label" id="lab3"><div class="as">মাটিমাহ</div><div class="en">black gram</div></div>
+          <div class="label" id="lab4"><div class="as">বৰালি মাছ</div><div class="en">borali fish</div></div>
+          <div class="label" id="lab5"><div class="as">শামুকৰ চূণ</div><div class="en">snail-shell lime</div></div>
+          <div class="label" id="lab6"><div class="as">গুড়</div><div class="en">molasses</div></div>
+          <div class="label" id="lab7"><div class="as red" style="font-size:170px">মিহলাওক!</div><div class="en">mix it well</div></div>
+          <div class="center" id="ready" style="top:930px"><div class="sticker redbg" style="transform:rotate(-6deg)"><div class="as" style="font-size:170px">সাজু!</div></div></div>
+
+          <div id="chips">
+            <div class="chip"><div class="on" id="c1"></div></div>
+            <div class="chip"><div class="on" id="c2"></div></div>
+            <div class="chip"><div class="on" id="c3"></div></div>
+            <div class="chip"><div class="on" id="c4"></div></div>
+            <div class="chip"><div class="on" id="c5"></div></div>
+            <div class="chip"><div class="on" id="c6"></div></div>
+            <div class="count" id="count">০/৬</div>
+          </div>
+        </section>
+
+        <!-- ===== S3 BUILD 11.5–15.0 : bricks + paste rise into Rang Ghar ===== -->
+        <section id="s3" class="clip" data-start="11.5" data-duration="3.5" data-track-index="1">
+          <div class="center" style="top:300px">
+            <div class="as" style="font-size:120px">ইটাৰ মাজত</div>
+            <div class="as red" style="font-size:150px">লগাওক</div>
+          </div>
+          <div id="site">
+            <div id="rows"></div>
+            <svg id="roof" style="position:absolute; left:0; top:0; width:900px; height:820px; overflow:visible" viewBox="0 0 900 820">
+              <path d="M120 300 C140 312 160 322 180 330 L720 330 C740 322 760 312 780 300 C760 250 650 205 450 200 C250 205 140 250 120 300 Z" fill="#9c4320" stroke="#23140d" stroke-width="8" stroke-linejoin="round" />
+              <path d="M200 300 C320 268 580 268 700 300" stroke="#c9663a" stroke-width="8" fill="none" stroke-linecap="round" />
+              <path d="M410 200 L410 160 L490 160 L490 200 Z M398 160 C420 135 480 135 502 160 Z" fill="#b4532a" stroke="#23140d" stroke-width="7" stroke-linejoin="round" />
+              <path d="M450 140 L450 118" stroke="#23140d" stroke-width="7" stroke-linecap="round" />
+            </svg>
+          </div>
+          <div class="layer" id="dust"></div>
+        </section>
+
+        <!-- ===== S4 REVEAL 15.0–20.0 : the real Rang Ghar ===== -->
+        <section id="s4" class="clip" data-start="15" data-duration="5" data-track-index="1">
+          <div class="center" style="top:290px">
+            <div class="sticker" id="s4-title" style="transform:rotate(-3deg)"><div class="as red" style="font-size:150px">ৰংঘৰ</div></div>
+            <div class="en" id="s4-sub" style="margin-top:26px">Rang Ghar, Sivasagar · built 1746</div>
+          </div>
+          <div id="plate"><img src="assets/img/rang-ghar.jpg" id="s4-img" alt="" /></div>
+          <div class="credit">Photo: Wikimedia Commons, CC BY-SA 4.0</div>
+          <div class="center" id="s4-count" style="top:1340px">
+            <div style="display:flex; gap:20px; align-items:baseline"><div class="as red" id="years" style="font-size:150px; width:280px; text-align:right">০</div><div class="as red" style="font-size:150px">বছৰ</div></div>
+            <div class="as" style="font-size:72px">পিছতো আজিও থিয় হৈ আছে</div>
+          </div>
+        </section>
+
+        <!-- ===== S5 END 20.0–22.0 : "no cement" → the egg returns (loop) ===== -->
+        <section id="s5" class="clip" data-start="20" data-duration="2" data-track-index="1">
+          <div class="center" id="s5-a" style="top:640px">
+            <div class="as" style="font-size:130px">চিমেণ্ট নাছিল।</div>
+            <div class="as red" style="font-size:150px">কণী আছিল।</div>
+            <div class="en" style="margin-top:20px">There was no cement. There were eggs.</div>
+          </div>
+          <div id="s5-b">
+            <div class="center" style="top:300px">
+              <div class="as" style="font-size:120px">এইটোৱেই</div>
+              <div class="as red" id="s5-word" style="font-size:230px; line-height:1">চিমেণ্ট।</div>
+            </div>
+            <svg id="s5-egg" style="position:absolute; left:340px; top:820px; width:400px; height:520px; overflow:visible" viewBox="0 0 400 520">
+              <ellipse id="s5-shadow" cx="200" cy="500" rx="150" ry="18" fill="rgba(35,20,13,0.22)" />
+              <g id="s5-eggbody"><path d="M200 20 C90 20 30 190 30 320 C30 430 110 495 200 495 L200 300 L170 270 L205 235 L175 200 L200 170 Z" fill="url(#eggG)" stroke="#23140d" stroke-width="9" stroke-linejoin="round" /><path d="M200 20 C310 20 370 190 370 320 C370 430 290 495 200 495 L200 300 L170 270 L205 235 L175 200 L200 170 Z" fill="url(#eggG)" stroke="#23140d" stroke-width="9" stroke-linejoin="round" />
+              <path d="M120 120 C100 160 92 200 90 240" stroke="#fff" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.9" /></g>
+            </svg>
+          </div>
+        </section>
+      </div>
+
+      <!-- gamosa borders on top -->
+      <div id="bands" class="layer clip" data-start="0" data-duration="22" data-track-index="3">
+        <div class="band" id="band-top">
+          <div class="fill"></div>
+          <svg class="motif" id="motif-top" style="top:40px" viewBox="0 0 2160 64"><rect width="2160" height="64" fill="url(#gm)" /></svg>
+          <div class="thread" style="top:118px; background:#f5f0e6"></div>
+          <div id="series">আহোমৰ ৰেচিপি · ০০১</div>
+          <div class="thread" style="top:236px; background:#f5f0e6; height:3px"></div>
+        </div>
+        <div class="band" id="band-bot">
+          <div class="fill"></div>
+          <div class="thread" style="top:14px; background:#f5f0e6; height:3px"></div>
+          <svg class="motif" id="motif-bot" style="top:60px" viewBox="0 0 2160 64"><rect width="2160" height="64" fill="url(#gm)" /></svg>
+          <svg class="motif" style="top:150px; opacity:0.0" viewBox="0 0 2160 64"></svg>
+        </div>
+      </div>
+      <div id="grain" class="layer clip" data-start="0" data-duration="22" data-track-index="4"></div>
+    </div>
+
+    <script>
+      // ---------- deterministic helpers ----------
+      let seed = 1746;
+      function rnd() { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; }
+      const BX = 540, BY = 1110; // bowl centre on canvas
+      const fall = document.getElementById("fall");
+      const grainsInBowl = document.getElementById("grains");
+
+      // grains: rice (white) and black gram, generated into the falling layer, landing inside the bowl
+      function makeGrains(prefix, n, fill, stroke, w, h, eye) {
+        const out = [];
+        for (let i = 0; i < n; i++) {
+          const g = document.createElement("div");
+          g.className = "grain " + prefix;
+          const a = rnd() * Math.PI * 2, r = Math.sqrt(rnd()) * 230;
+          const x = BX + Math.cos(a) * r, y = BY + Math.sin(a) * r;
+          g.style.cssText = `left:${x - w / 2}px; top:${y - h / 2}px; width:${w}px; height:${h}px; background:${fill}; border:3px solid ${stroke};` +
+            (eye ? "box-shadow: inset 4px 0 0 -1px #f5f0e6;" : "");
+          g.dataset.rot = Math.floor(rnd() * 180);
+          g.dataset.dx = Math.floor((rnd() - 0.5) * 300);
+          fall.appendChild(g);
+          out.push(g);
+        }
+        return out;
+      }
+      const rice = makeGrains("rice", 46, "#fffdf6", "#23140d", 16, 30, false);
+      const gram = makeGrains("gram", 40, "#1d1712", "#000", 22, 28, true);
+
+      // splash droplets and lime puffs around the bowl centre
+      function makeBurst(container, n, color, size, border) {
+        const out = [];
+        for (let i = 0; i < n; i++) {
+          const d = document.createElement("div");
+          d.className = "grain";
+          const s = size * (0.6 + rnd() * 0.8);
+          d.style.cssText = `left:${BX - s / 2}px; top:${BY - s / 2}px; width:${s}px; height:${s}px; background:${color};` + (border ? "border:4px solid #23140d;" : "");
+          const a = rnd() * Math.PI * 2, r = 160 + rnd() * 220;
+          d.dataset.x = Math.cos(a) * r; d.dataset.y = Math.sin(a) * r - 80;
+          container.appendChild(d);
+          out.push(d);
+        }
+        return out;
+      }
+      const puff = document.getElementById("puff");
+      const drops = makeBurst(puff, 14, "#cfe3ea", 30, true);
+      const lime = makeBurst(puff, 12, "#fffaf0", 90, false);
+
+      // brick rows for the build, bottom to top, clipped to the Rang Ghar outline
+      const rowsEl = document.getElementById("rows");
+      const rows = [];
+      for (let k = 0; k < 10; k++) {
+        const r = document.createElement("div");
+        r.className = "row" + (k % 2 ? " odd" : "");
+        r.style.top = 820 - 58 * (k + 1) + "px";
+        rowsEl.appendChild(r);
+        rows.push(r);
+      }
+      // dust for each landing
+      const dust = document.getElementById("dust");
+      const dustBits = [];
+      for (let i = 0; i < 18; i++) {
+        const d = document.createElement("div");
+        d.className = "grain";
+        const s = 40 + rnd() * 70;
+        d.style.cssText = `left:${160 + rnd() * 760}px; top:${1440 + rnd() * 60}px; width:${s}px; height:${s}px; background:rgba(201,161,90,0.55);`;
+        dust.appendChild(d);
+        dustBits.push(d);
+      }
+
+      const BN = ["০","১","২","৩","৪","৫","৬","৭","৮","৯"];
+      const bn = (n) => String(n).split("").map((c) => BN[+c]).join("");
+
+      // ---------- timeline ----------
+      const tl = gsap.timeline({ paused: true });
+
+      function shake(t, p = 14, len = 0.3) {
+        const s = [[1, -0.7], [-0.8, 0.8], [0.5, -0.4], [-0.3, 0.3], [0, 0]];
+        s.forEach(([x, y], i) => tl.to("#cam", { x: x * p * (1 - i / s.length), y: y * p * (1 - i / s.length), duration: len / s.length, ease: "none" }, t + (i * len) / s.length));
+      }
+      function slam(sel, t, from = 1.7, rot = -5) {
+        tl.fromTo(sel, { scale: from, opacity: 0, rotation: rot }, { scale: 1, opacity: 1, rotation: 0, duration: 0.16, ease: "power4.in" }, t);
+      }
+      function squash(sel, t) {
+        tl.to(sel, { scaleY: 0.72, scaleX: 1.22, duration: 0.07, ease: "power2.out", transformOrigin: "50% 100%" }, t);
+        tl.to(sel, { scaleY: 1, scaleX: 1, duration: 0.25, ease: "elastic.out(1.2, 0.4)" }, t + 0.07);
+      }
+
+      // bands: the loom keeps moving
+      tl.fromTo("#motif-top", { x: 0 }, { x: -1080, duration: 22, ease: "none" }, 0);
+      tl.fromTo("#motif-bot", { x: -1080 }, { x: 0, duration: 22, ease: "none" }, 0);
+      tl.fromTo("#grain", { backgroundPosition: "0px 0px" }, { backgroundPosition: "512px 1024px", duration: 22, ease: "steps(264)" }, 0);
+
+      // ===== S0 hook =====
+      tl.fromTo("#s0-egg", { rotation: 0, transformOrigin: "50% 95%" }, { rotation: 4, duration: 0.12, yoyo: true, repeat: 3, ease: "sine.inOut" }, 0.0);
+      tl.to("#s0-egg", { rotation: 0, duration: 0.02 }, 0.48);
+      tl.fromTo("#s0-word", { scale: 1.06 }, { scale: 1, duration: 0.3, ease: "power2.out" }, 0);
+      tl.to("#s0-shell-l", { x: -150, y: -60, rotation: -28, transformOrigin: "50% 50%", duration: 0.35, ease: "power3.out" }, 0.5);
+      tl.to("#s0-shell-r", { x: 150, y: -60, rotation: 28, transformOrigin: "50% 50%", duration: 0.35, ease: "power3.out" }, 0.5);
+      tl.to("#s0-shell-l, #s0-shell-r", { opacity: 0, duration: 0.25 }, 0.75);
+      tl.fromTo("#s0-yolk", { opacity: 0, scale: 0.4, transformOrigin: "50% 80%" }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(2.5)" }, 0.55);
+      shake(0.52, 16);
+      tl.fromTo("#s0-en", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.25 }, 0.6);
+      tl.to("#s0-word", { scale: 1.12, duration: 0.1, yoyo: true, repeat: 1 }, 1.0);
+
+      // ===== S1 recipe card =====
+      tl.fromTo("#s1 .center", { y: -40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, ease: "back.out(2)" }, 1.5);
+      tl.fromTo("#card", { y: 900, rotation: 6 }, { y: 0, rotation: -1.5, duration: 0.4, ease: "back.out(1.4)" }, 1.55);
+      tl.fromTo("#card .row", { x: 60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.2, stagger: 0.12, ease: "power2.out" }, 1.85);
+
+      // ===== S2 kitchen =====
+      tl.fromTo("#bowl, #contents", { y: 900 }, { y: 0, duration: 0.3, ease: "back.out(1.3)" }, 3.0);
+      tl.set(".disc", { opacity: 0 }, 0);
+      tl.set("#swirl", { opacity: 0 }, 0);
+      tl.set(".label, #ready", { opacity: 0 }, 0);
+      tl.set(".drop, #it-syrup, #ladle", { opacity: 0 }, 0);
+      tl.set(rice.concat(gram), { opacity: 0 }, 0);
+      tl.set(drops.concat(lime), { opacity: 0 }, 0);
+      tl.set(".chip .on", { scale: 0 }, 0);
+
+      const T = [3.0, 4.0, 5.0, 6.0, 7.0, 8.0];
+      const discs = ["#d-rice", "#d-egg", "#d-gram", "#d-fish", "#d-lime", "#d-paste"];
+      T.forEach((t, i) => {
+        const lab = "#lab" + (i + 1);
+        tl.fromTo(lab, { opacity: 0, scale: 1.5, y: -30 }, { opacity: 1, scale: 1, y: 0, duration: 0.15, ease: "power4.in" }, t);
+        tl.to(lab, { opacity: 0, y: -20, duration: 0.12 }, t + 0.86);
+        tl.to(discs[i], { opacity: 1, duration: 0.25 }, t + 0.38);
+        tl.to("#c" + (i + 1), { scale: 1, duration: 0.25, ease: "back.out(3)" }, t + 0.42);
+      });
+      // counter text 0/6 → 6/6
+      const countEl = document.getElementById("count");
+      const cnt = { v: 0 };
+      tl.fromTo(cnt, { v: 1 }, { v: 7, duration: 6.0, ease: "none", immediateRender: false, onUpdate: () => { countEl.textContent = bn(Math.min(6, Math.floor(cnt.v))) + "/৬"; } }, 3.42);
+
+      // 1 rice: grains rain in
+      rice.forEach((g, k) => {
+        tl.fromTo(g, { opacity: 1, y: -1200 - k * 18, x: +g.dataset.dx, rotation: 0 }, { y: 0, x: 0, rotation: +g.dataset.rot, duration: 0.38, ease: "power2.in" }, 3.0 + k * 0.006);
+      });
+      // 2 egg: drops, cracks
+      tl.fromTo("#it-egg", { opacity: 1, y: -1100, rotation: -20 }, { y: 0, rotation: 0, duration: 0.35, ease: "power2.in" }, 4.0);
+      squash("#it-egg", 4.35);
+      tl.to("#it-egg", { scale: 0.2, opacity: 0, duration: 0.2 }, 4.55);
+      // 3 gram: grains rain in
+      gram.forEach((g, k) => {
+        tl.fromTo(g, { opacity: 1, y: -1200 - k * 18, x: +g.dataset.dx, rotation: 0 }, { y: 0, x: 0, rotation: +g.dataset.rot, duration: 0.38, ease: "power2.in" }, 5.0 + k * 0.006);
+      });
+      // 4 fish: flips in, splash
+      tl.fromTo("#it-fish", { opacity: 1, y: -1200, rotation: -50, transformOrigin: "50% 50%" }, { y: 0, rotation: 8, duration: 0.35, ease: "power2.in" }, 6.0);
+      tl.to("#it-fish", { rotation: -8, duration: 0.08, yoyo: true, repeat: 3 }, 6.35);
+      tl.to("#it-fish", { scale: 0.3, opacity: 0, duration: 0.2 }, 6.7);
+      drops.forEach((d) => {
+        tl.fromTo(d, { opacity: 1, x: 0, y: 0, scale: 1 }, { x: +d.dataset.x, y: +d.dataset.y, scale: 0.3, opacity: 0, duration: 0.5, ease: "power2.out" }, 6.35);
+      });
+      // 5 snail shell: drops, crumbles to lime powder
+      tl.fromTo("#it-snail", { opacity: 1, y: -1100, rotation: 0 }, { y: 0, rotation: 200, duration: 0.35, ease: "power2.in" }, 7.0);
+      tl.to("#it-snail", { scale: 1.3, opacity: 0, duration: 0.12 }, 7.36);
+      lime.forEach((d) => {
+        tl.fromTo(d, { opacity: 0.9, x: 0, y: 0, scale: 0.4 }, { x: +d.dataset.x * 0.6, y: +d.dataset.y * 0.6, scale: 1.6, opacity: 0, duration: 0.6, ease: "power2.out" }, 7.36);
+      });
+      shake(7.36, 10);
+      // 6 molasses: a golden stream pours from the top
+      tl.fromTo("#it-syrup", { opacity: 1, scaleY: 0 }, { scaleY: 1, duration: 0.3, ease: "power2.in" }, 8.0);
+      tl.to("#it-syrup", { scaleY: 0, transformOrigin: "50% 100%", duration: 0.3, ease: "power2.in" }, 8.55);
+
+      // mix 9.0–10.75: ladle orbits, swirl spins, grains sink into the paste
+      tl.fromTo("#lab7", { opacity: 0, scale: 1.6 }, { opacity: 1, scale: 1, duration: 0.15, ease: "power4.in" }, 9.0);
+      tl.fromTo("#ladle", { opacity: 1, rotation: 0 }, { rotation: 1080, duration: 1.7, ease: "power1.inOut" }, 9.0);
+      tl.fromTo("#swirl", { opacity: 0.0, rotation: 0 }, { opacity: 1, rotation: -900, duration: 1.7, ease: "power1.inOut" }, 9.0);
+      tl.to(rice.concat(gram), { opacity: 0, scale: 0.3, duration: 1.0, stagger: 0.008 }, 9.1);
+      tl.to("#d-paste", { opacity: 1, duration: 0.2 }, 9.0);
+      tl.to("#lab7", { opacity: 0, duration: 0.15 }, 10.6);
+      tl.to("#ladle", { opacity: 0, duration: 0.15 }, 10.7);
+      slam("#ready", 10.75, 2.0, 12);
+      shake(10.85, 12);
+      tl.to("#bowl, #contents, #chips", { y: 900, duration: 0.35, ease: "power3.in" }, 11.15);
+
+      // ===== S3 build: a row of bricks on every beat =====
+      tl.fromTo("#s3 .center", { y: -40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.2, ease: "back.out(2)" }, 11.5);
+      rows.forEach((r, k) => {
+        const t = 11.78 + k * 0.25; // lands on 12.0 + k/4 s, the drop
+        tl.fromTo(r, { y: -1300, opacity: 1 }, { y: 0, duration: 0.22, ease: "power3.in" }, t);
+      });
+      tl.fromTo("#roof", { y: -1300 }, { y: 0, duration: 0.28, ease: "power3.in" }, 14.22);
+      shake(14.5, 22, 0.4);
+      dustBits.forEach((d, i) => {
+        tl.fromTo(d, { opacity: 0.8, scale: 0.3, y: 0 }, { opacity: 0, scale: 2.2, y: -80 - (i % 5) * 20, duration: 0.6, ease: "power2.out" }, 14.5);
+      });
+
+      // ===== S4 reveal =====
+      tl.fromTo("#plate", { clipPath: "circle(0% at 50% 60%)" }, { clipPath: "circle(80% at 50% 60%)", duration: 0.4, ease: "power3.out" }, 15.0);
+      tl.fromTo("#s4-img", { scale: 1.35 }, { scale: 1.0, duration: 0.6, ease: "power3.out" }, 15.0);
+      tl.to("#s4-img", { scale: 1.08, duration: 4.4, ease: "none" }, 15.6);
+      shake(15.02, 26, 0.45);
+      slam("#s4-title", 15.1, 1.9, -10);
+      tl.fromTo("#s4-sub", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.3 }, 15.5);
+      tl.fromTo("#s4-count", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.25, ease: "back.out(2)" }, 16.2);
+      const yearsEl = document.getElementById("years");
+      const yr = { v: 0 };
+      tl.fromTo(yr, { v: 0 }, { v: 280, duration: 1.55, ease: "power2.out", onUpdate: () => { yearsEl.textContent = bn(Math.round(yr.v)); } }, 16.4);
+      tl.to("#years", { scale: 1.25, duration: 0.1, yoyo: true, repeat: 1 }, 17.95);
+      shake(17.95, 12);
+
+      // ===== S5 end → loop =====
+      tl.fromTo("#s5-a", { opacity: 0, scale: 1.2 }, { opacity: 1, scale: 1, duration: 0.18, ease: "power3.out" }, 20.0);
+      tl.to("#s5-a", { opacity: 0, y: -60, duration: 0.2, ease: "power2.in" }, 21.1);
+      tl.set("#s5-b", { opacity: 0 }, 0);
+      tl.set("#s5-b", { opacity: 1 }, 21.15);
+      tl.fromTo("#s5-eggbody", { y: -1300, rotation: -25, transformOrigin: "50% 90%" }, { y: 0, rotation: 0, duration: 0.35, ease: "power2.in" }, 21.15);
+      tl.fromTo("#s5-shadow", { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.35 }, 21.15);
+      tl.to("#s5-eggbody", { scaleY: 0.86, scaleX: 1.1, transformOrigin: "50% 98%", duration: 0.06 }, 21.5);
+      tl.to("#s5-eggbody", { scaleY: 1, scaleX: 1, duration: 0.3, ease: "elastic.out(1.1, 0.4)" }, 21.56);
+      tl.fromTo("#s5-b .center", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.2 }, 21.3);
+      tl.fromTo("#s5-word", { scale: 1.06 }, { scale: 1.06, duration: 0.01 }, 21.98);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

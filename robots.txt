@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://axomrank.github.io/AHOM/sitemap.xml

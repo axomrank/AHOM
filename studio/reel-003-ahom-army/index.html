@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="as">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Ahom Recipe 002 · Army</title>
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "SKBishal"; src: url("assets/fonts/skbishal.ttf") format("truetype"); }
+      @font-face { font-family: "Padmasetu"; src: url("assets/fonts/padmasetu.ttf") format("truetype"); }
+      @font-face { font-family: "Cormorant"; font-style: italic; font-weight: 600; src: url("assets/fonts/cormorant-600i.woff2") format("woff2"); }
+      @font-face { font-family: "Cormorant"; font-style: normal; font-weight: 700; src: url("assets/fonts/cormorant-700.woff2") format("woff2"); }
+      :root { --cloth: #f5f0e6; --red: #b5121b; --ink: #23140d; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--cloth); }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: var(--cloth); }
+      .layer, .clip { position: absolute; inset: 0; }
+      #cloth { background: url("assets/tex/cloth.jpg") center / cover; }
+      #cam { position: absolute; inset: 0; }
+      #grain { background: url("assets/tex/grain.png") 0 0 / 512px 512px repeat; opacity: 0.18; mix-blend-mode: multiply; pointer-events: none; }
+
+      .band { position: absolute; left: 0; width: 1080px; overflow: hidden; }
+      .band .fill { position: absolute; inset: 0; background: var(--red); }
+      .band .motif { position: absolute; left: 0; height: 64px; width: 2160px; }
+      .band .thread { position: absolute; left: 0; right: 0; height: 4px; background: var(--cloth); }
+      #band-top { top: 0; height: 250px; }
+      #band-bot { bottom: 0; height: 236px; }
+      #series { position: absolute; left: 0; right: 0; top: 150px; text-align: center; font-family: "Padmasetu", serif; font-size: 36px; color: var(--cloth); }
+
+      .as { font-family: "SKBishal", serif; color: var(--ink); line-height: 1.1; white-space: nowrap; }
+      .red { color: var(--red); }
+      .en { font-family: "Cormorant", serif; font-style: italic; font-weight: 600; font-size: 46px; color: var(--ink); line-height: 1.2; text-align: center; }
+      .center { position: absolute; left: 50px; right: 50px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+      .sticker { display: inline-block; background: #fffaf0; border: 5px solid var(--ink); border-radius: 22px; padding: 10px 34px 0; box-shadow: 10px 10px 0 var(--ink); }
+      .sticker.redbg { background: var(--red); }
+      .sticker.redbg .as { color: #fffaf0; }
+
+      #card { position: absolute; left: 90px; right: 90px; top: 640px; height: 740px; background: #fffaf0; border: 6px solid var(--ink); border-radius: 36px; box-shadow: 16px 16px 0 var(--red); padding: 54px 56px; display: flex; flex-direction: column; gap: 26px; }
+      #card .tag { font-family: "Padmasetu", serif; font-size: 38px; color: var(--red); }
+      #card .row { display: flex; justify-content: space-between; align-items: center; border-top: 3px dashed rgba(35,20,13,0.35); padding-top: 22px; }
+      #card .k { font-family: "Padmasetu", serif; font-size: 42px; color: var(--ink); }
+      #card .v { font-family: "SKBishal", serif; font-size: 58px; color: var(--ink); }
+      #card .v.red { color: var(--red); }
+
+      .man { position: absolute; overflow: visible; }
+      #gotrow { position: absolute; left: 60px; top: 900px; width: 960px; height: 420px; }
+      .badge { position: absolute; top: -70px; left: 50%; width: 0; height: 0; }
+      .badge .b { position: absolute; left: -60px; top: -10px; width: 120px; height: 60px; background: var(--red); border: 4px solid var(--ink); border-radius: 14px; display: flex; align-items: center; justify-content: center; font-family: "SKBishal", serif; font-size: 38px; color: #fffaf0; padding-top: 6px; }
+
+      #gridbox { position: absolute; left: 90px; top: 640px; width: 900px; height: 820px; }
+      .grid { position: absolute; inset: 0; background-repeat: repeat; background-position: 0 0; }
+      #rankbar { position: absolute; left: 0; right: 0; top: 300px; display: flex; flex-direction: column; align-items: center; }
+      #num { font-family: "SKBishal", serif; font-size: 170px; color: var(--red); line-height: 1; }
+      #chips { position: absolute; left: 0; right: 0; top: 1520px; display: flex; justify-content: center; align-items: center; gap: 18px; }
+      #chips .chip { width: 44px; height: 44px; border-radius: 50%; border: 5px solid var(--ink); background: #fffaf0; }
+      #chips .chip .on { width: 100%; height: 100%; border-radius: 50%; background: var(--red); }
+
+      #plate { position: absolute; left: 70px; top: 560px; width: 940px; height: 640px; border: 14px solid #fffaf0; border-radius: 24px; box-shadow: 0 0 0 5px var(--ink), 18px 18px 0 5px var(--ink); overflow: hidden; background: var(--ink); }
+      #plate img { width: 100%; height: 100%; object-fit: cover; display: block; }
+      .credit { position: absolute; right: 80px; top: 1226px; font-family: "Cormorant", serif; font-style: italic; font-weight: 600; font-size: 26px; color: rgba(35,20,13,0.7); }
+    </style>
+  </head>
+  <body>
+    <svg width="0" height="0" style="position:absolute">
+      <defs>
+        <pattern id="gm" x="0" y="0" width="120" height="64" patternUnits="userSpaceOnUse">
+          <rect width="120" height="64" fill="#b5121b" />
+          <path d="M60 6 L84 32 L60 58 L36 32 Z" fill="#f5f0e6" />
+          <path d="M60 18 L72 32 L60 46 L48 32 Z" fill="#b5121b" />
+          <rect x="57" y="29" width="6" height="6" fill="#f5f0e6" />
+          <path d="M0 64 L0 52 L8 52 L8 44 L16 44 L16 52 L24 52 L24 64 Z M96 64 L96 52 L104 52 L104 44 L112 44 L112 52 L120 52 L120 64 Z" fill="#f5f0e6" />
+          <path d="M0 0 L0 12 L8 12 L8 20 L16 20 L16 12 L24 12 L24 0 Z M96 0 L96 12 L104 12 L104 20 L112 20 L112 12 L120 12 L120 0 Z" fill="#f5f0e6" />
+        </pattern>
+        <!-- the paik: farmer in a jaapi with a gamosa; tools are separate groups -->
+        <symbol id="farmer" viewBox="0 0 400 560" overflow="visible">
+          <ellipse cx="200" cy="540" rx="130" ry="16" fill="rgba(35,20,13,0.2)" />
+          <path d="M150 400 L140 530 L190 530 L198 410 Z M250 400 L260 530 L210 530 L202 410 Z" fill="#fffaf0" stroke="#23140d" stroke-width="8" stroke-linejoin="round" />
+          <path d="M120 250 C120 215 150 200 200 200 C250 200 280 215 280 250 L290 420 L110 420 Z" fill="#efe1c3" stroke="#23140d" stroke-width="8" stroke-linejoin="round" />
+          <path d="M145 212 C170 250 230 250 255 212 L262 232 C230 272 170 272 138 232 Z" fill="#fffaf0" stroke="#23140d" stroke-width="6" stroke-linejoin="round" />
+          <path d="M150 226 C175 258 225 258 250 226" stroke="#b5121b" stroke-width="8" fill="none" />
+          <path d="M120 260 C90 300 92 350 110 380" stroke="#23140d" stroke-width="30" stroke-linecap="round" fill="none" />
+          <path d="M120 260 C90 300 92 350 110 380" stroke="#c58b5a" stroke-width="16" stroke-linecap="round" fill="none" />
+          <circle cx="200" cy="160" r="52" fill="#c58b5a" stroke="#23140d" stroke-width="8" />
+          <circle cx="182" cy="164" r="6" fill="#23140d" /><circle cx="218" cy="164" r="6" fill="#23140d" />
+          <path d="M186 184 Q200 194 214 184" stroke="#23140d" stroke-width="5" fill="none" stroke-linecap="round" />
+          <!-- jaapi -->
+          <ellipse cx="200" cy="122" rx="150" ry="34" fill="#d9a441" stroke="#23140d" stroke-width="8" />
+          <path d="M120 116 C150 50 250 50 280 116 Z" fill="#b5121b" stroke="#23140d" stroke-width="8" stroke-linejoin="round" />
+          <path d="M146 100 L160 82 L174 100 L188 82 L202 100 L216 82 L230 100 L244 82 L258 100" stroke="#fffaf0" stroke-width="6" fill="none" stroke-linejoin="round" />
+          <circle cx="200" cy="62" r="8" fill="#23140d" />
+          <!-- right arm to the hand that holds the tool -->
+          <path d="M280 260 C310 290 316 320 306 350" stroke="#23140d" stroke-width="30" stroke-linecap="round" fill="none" />
+          <path d="M280 260 C310 290 316 320 306 350" stroke="#c58b5a" stroke-width="16" stroke-linecap="round" fill="none" />
+        </symbol>
+        <symbol id="sickle" viewBox="0 0 400 560" overflow="visible">
+          <rect x="296" y="330" width="22" height="90" rx="8" fill="#8b5a2b" stroke="#23140d" stroke-width="6" />
+          <path d="M306 336 C300 260 350 220 392 236 C360 240 330 270 334 334 Z" fill="#cfd6d4" stroke="#23140d" stroke-width="7" stroke-linejoin="round" />
+        </symbol>
+        <symbol id="spear" viewBox="0 0 400 560" overflow="visible">
+          <rect x="300" y="20" width="14" height="500" rx="6" fill="#8b5a2b" stroke="#23140d" stroke-width="6" />
+          <path d="M307 -70 C330 -30 330 0 307 30 C284 0 284 -30 307 -70 Z" fill="#cfd6d4" stroke="#23140d" stroke-width="7" stroke-linejoin="round" />
+          <rect x="296" y="30" width="22" height="16" fill="#b5121b" stroke="#23140d" stroke-width="5" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <div id="root" data-composition-id="main" data-start="0" data-duration="16" data-width="1080" data-height="1920">
+      <audio id="master" src="assets/audio/master.wav" data-start="0" data-duration="16" data-track-index="9" data-volume="1"></audio>
+      <div id="cloth" class="layer clip" data-start="0" data-duration="16" data-track-index="0"></div>
+
+      <div id="cam">
+        <!-- ===== S0 HOOK 0–1.0 ===== -->
+        <section id="s0" class="clip" data-start="0" data-duration="1" data-track-index="1">
+          <div class="center" style="top:300px">
+            <div class="as" style="font-size:118px">এই খেতিয়কজনেই</div>
+            <div class="as red" id="s0-word" style="font-size:220px; line-height:1">সৈনিক।</div>
+          </div>
+          <svg class="man" id="s0-man" style="left:340px; top:800px; width:400px; height:560px" viewBox="0 0 400 560">
+            <use href="#farmer" width="400" height="560" />
+            <g id="s0-sickle"><use href="#sickle" width="400" height="560" /></g>
+            <g id="s0-spear" opacity="0"><use href="#spear" width="400" height="560" /></g>
+          </svg>
+          <div class="center" style="top:1400px"><div class="en" id="s0-en">This farmer is also a soldier.</div></div>
+        </section>
+
+        <!-- ===== S1 CARD 1.0–2.5 ===== -->
+        <section id="s1" class="clip" data-start="1" data-duration="1.5" data-track-index="1">
+          <div class="center" style="top:300px">
+            <div class="as" style="font-size:96px">আহোম যুগৰ</div>
+            <div class="as red" style="font-size:128px">সেনাবাহিনীৰ ৰেচিপি</div>
+          </div>
+          <div id="card">
+            <div class="tag">ৰেচিপি · ০০২</div>
+            <div class="row"><span class="k">উপাদান</span><span class="v">পাইক</span></div>
+            <div class="row"><span class="k">বয়স</span><span class="v">১৫–৫০ বছৰ</span></div>
+            <div class="row"><span class="k">দৰমহা</span><span class="v red">নাই, মাটি</span></div>
+            <div class="row"><span class="k">ফলাফল</span><span class="v">৬০০০ জন</span></div>
+            <div class="en" style="font-size:38px; margin-top:6px">The paik system: every man aged 15–50 served the state.</div>
+          </div>
+        </section>
+
+        <!-- ===== S2 THE GOT 2.5–5.0 ===== -->
+        <section id="s2" class="clip" data-start="2.5" data-duration="2.5" data-track-index="1">
+          <div class="center" style="top:300px">
+            <div class="as" style="font-size:120px"><span class="red">৪ জন</span> = ১ গোট</div>
+          </div>
+          <div class="center" id="s2-line" style="top:470px">
+            <div class="as" style="font-size:76px">এজনে ৰজাৰ কাম কৰে,</div>
+            <div class="as red" style="font-size:76px">তিনিজনে তেওঁৰ খেতিও কৰে</div>
+          </div>
+          <div id="gotrow"></div>
+          <div class="center" style="top:1400px"><div class="en" id="s2-en">One serves the king. The other three farm his land too.</div></div>
+        </section>
+
+        <!-- ===== S3 MULTIPLY 5.0–8.5 ===== -->
+        <section id="s3" class="clip" data-start="5" data-duration="3.5" data-track-index="1">
+          <div id="rankbar">
+            <div id="num">২০ জন</div>
+            <div id="ranks" style="position:relative; height:150px; width:900px; margin-top:6px">
+              <div class="center rk" id="rk1" style="left:0; right:0; top:0"><div class="sticker redbg" style="transform:rotate(-3deg)"><div class="as" style="font-size:96px">বৰা</div></div></div>
+              <div class="center rk" id="rk2" style="left:0; right:0; top:0"><div class="sticker redbg" style="transform:rotate(3deg)"><div class="as" style="font-size:96px">শইকীয়া</div></div></div>
+              <div class="center rk" id="rk3" style="left:0; right:0; top:0"><div class="sticker redbg" style="transform:rotate(-3deg)"><div class="as" style="font-size:96px">হাজৰিকা</div></div></div>
+              <div class="center rk" id="rk4" style="left:0; right:0; top:0"><div class="sticker redbg" style="transform:rotate(3deg)"><div class="as" style="font-size:96px">ৰাজখোৱা</div></div></div>
+              <div class="center rk" id="rk5" style="left:0; right:0; top:0"><div class="sticker redbg" style="transform:rotate(-3deg)"><div class="as" style="font-size:96px">ফুকন</div></div></div>
+            </div>
+          </div>
+          <div id="gridbox" style="top:700px; height:780px">
+            <div class="grid" id="g1"></div>
+            <div class="grid" id="g2"></div>
+            <div class="grid" id="g3"></div>
+            <div class="grid" id="g4"></div>
+            <div class="grid" id="g5"></div>
+          </div>
+          <div id="chips">
+            <div class="chip"><div class="on" id="c1"></div></div>
+            <div class="chip"><div class="on" id="c2"></div></div>
+            <div class="chip"><div class="on" id="c3"></div></div>
+            <div class="chip"><div class="on" id="c4"></div></div>
+            <div class="chip"><div class="on" id="c5"></div></div>
+          </div>
+        </section>
+
+        <!-- ===== S4 REVEAL 8.5–13.0 ===== -->
+        <section id="s4" class="clip" data-start="8.5" data-duration="4.5" data-track-index="1">
+          <div class="center" style="top:290px">
+            <div class="as" style="font-size:70px">এই ব্যৱস্থা গঢ়িছিল</div>
+            <div class="sticker" id="s4-title" style="transform:rotate(-2deg); margin-top:14px"><div class="as red" style="font-size:96px">মোমাই তামুলী বৰবৰুৱাই</div></div>
+          </div>
+          <div id="plate"><img src="assets/img/momai-paik.webp" id="s4-img" style="object-position:30% 40%" alt="" /></div>
+          <div class="credit">Artistic reconstruction</div>
+          <div class="center call" id="call1" style="top:1010px"><div class="sticker redbg" style="transform:rotate(-4deg)"><div class="as" style="font-size:84px">খেতি</div></div></div>
+          <div class="center call" id="call2" style="top:1010px"><div class="sticker" style="transform:rotate(4deg)"><div class="as" style="font-size:84px">যুদ্ধ</div></div></div>
+          <div class="center" id="s4-same" style="top:1270px">
+            <div class="as red" style="font-size:130px">একেজন মানুহ!</div>
+            <div class="en">The same men farmed and fought.</div>
+          </div>
+          <div class="center" id="s4-a" style="top:1250px">
+            <div class="as" style="font-size:100px">দৰমহা নাছিল।</div><div class="as red" style="font-size:130px" id="s4-land">মাটি আছিল।</div>
+            <div class="en" style="margin-top:8px">No salaries. Every paik got land to farm.</div>
+          </div>
+        </section>
+
+        <!-- ===== S5 END 13.0–16.0 : back to one man (loop) ===== -->
+        <section id="s5" class="clip" data-start="13" data-duration="3" data-track-index="1">
+          <div class="center" id="s5-a" style="top:300px">
+            <div class="as" style="font-size:96px">এজন খেতিয়কৰ পৰা</div>
+            <div class="as red" style="font-size:118px">৬০০০ জনৰ বাহিনী</div>
+          </div>
+          <div id="gridbox2" style="position:absolute; left:90px; top:700px; width:900px; height:780px; overflow:hidden">
+            <div class="grid" id="g6"></div>
+          </div>
+          <div id="s5-b">
+            <div class="center" style="top:300px">
+              <div class="as" style="font-size:118px">এই খেতিয়কজনেই</div>
+              <div class="as red" id="s5-word" style="font-size:220px; line-height:1">সৈনিক।</div>
+            </div>
+            <svg class="man" id="s5-man" style="left:340px; top:800px; width:400px; height:560px" viewBox="0 0 400 560">
+              <use href="#farmer" width="400" height="560" />
+              <use href="#sickle" width="400" height="560" />
+            </svg>
+          </div>
+        </section>
+      </div>
+
+      <div id="bands" class="layer clip" data-start="0" data-duration="16" data-track-index="3">
+        <div class="band" id="band-top">
+          <div class="fill"></div>
+          <svg class="motif" id="motif-top" style="top:40px" viewBox="0 0 2160 64"><rect width="2160" height="64" fill="url(#gm)" /></svg>
+          <div class="thread" style="top:118px"></div>
+          <div id="series">আহোমৰ ৰেচিপি · ০০২</div>
+          <div class="thread" style="top:236px; height:3px"></div>
+        </div>
+        <div class="band" id="band-bot">
+          <div class="fill"></div>
+          <div class="thread" style="top:14px; height:3px"></div>
+          <svg class="motif" id="motif-bot" style="top:60px" viewBox="0 0 2160 64"><rect width="2160" height="64" fill="url(#gm)" /></svg>
+        </div>
+      </div>
+      <div id="grain" class="layer clip" data-start="0" data-duration="16" data-track-index="4"></div>
+    </div>
+
+    <script>
+      const BN = ["০","১","২","৩","৪","৫","৬","৭","৮","৯"];
+      const bn = (n) => String(n).split("").map((c) => BN[+c]).join("");
+
+      // ---- the got: four paiks in a row, each with sickle + spear + "king" badge ----
+      const row = document.getElementById("gotrow");
+      const gotMen = [];
+      for (let i = 0; i < 4; i++) {
+        const w = document.createElement("div");
+        w.style.cssText = `position:absolute; left:${i * 240}px; top:0; width:240px; height:420px;`;
+        w.innerHTML =
+          `<svg class="man" style="left:20px; top:40px; width:200px; height:280px" viewBox="0 0 400 560">` +
+          `<use href="#farmer" width="400" height="560"/>` +
+          `<g class="sk"><use href="#sickle" width="400" height="560"/></g>` +
+          `<g class="sp" opacity="0"><use href="#spear" width="400" height="560"/></g></svg>` +
+          `<div class="badge"><div class="b">ৰজা</div></div>`;
+        w.querySelector(".badge").style.top = "0px";
+        row.appendChild(w);
+        gotMen.push(w);
+      }
+
+      // ---- the multiplying grids: exact counts by tiling an icon over the box ----
+      const manIcon = (fill) =>
+        "data:image/svg+xml;utf8," + encodeURIComponent(
+          `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 46'>` +
+          `<path d='M11 44 L13 26 C13 22 16 21 20 21 C24 21 27 22 27 26 L29 44 Z' fill='${fill}' stroke='%2323140d' stroke-width='2.4'/>` +
+          `<circle cx='20' cy='16' r='5.5' fill='%23c58b5a' stroke='%2323140d' stroke-width='2.2'/>` +
+          `<ellipse cx='20' cy='11' rx='14' ry='3.6' fill='%23d9a441' stroke='%2323140d' stroke-width='2.2'/>` +
+          `<path d='M12 10 C15 3 25 3 28 10 Z' fill='%23b5121b' stroke='%2323140d' stroke-width='2'/></svg>`
+        ).replace(/%25/g, "%");
+      const BOX_W = 900, BOX_H = 780;
+      const levels = [
+        { id: "g1", cols: 5, rows: 4, img: manIcon("#efe1c3") },     // 20  · Bora
+        { id: "g2", cols: 10, rows: 10, img: manIcon("#efe1c3") },   // 100 · Saikia
+        { id: "g3", cols: 40, rows: 25, dot: "#23140d" },            // 1000 · Hazarika
+        { id: "g4", cols: 60, rows: 50, dot: "#23140d" },            // 3000 · Rajkhowa
+        { id: "g5", cols: 75, rows: 80, dot: "#b5121b" },            // 6000 · Phukan
+      ];
+      function paintGrid(el, L) {
+        const cw = BOX_W / L.cols, ch = BOX_H / L.rows;
+        if (L.img) {
+          el.style.backgroundImage = `url("${L.img}")`;
+          const s = Math.min(cw * 0.95, ch * 0.95 * (40 / 46));
+          el.style.backgroundSize = `${cw}px ${ch}px`;
+          el.style.backgroundImage = `url("${L.img}")`;
+          el.style.backgroundRepeat = "repeat";
+        } else {
+          const r = Math.min(cw, ch) * 0.36;
+          el.style.backgroundImage = `radial-gradient(circle at 50% 50%, ${L.dot} ${r}px, transparent ${r + 0.8}px)`;
+          el.style.backgroundSize = `${cw}px ${ch}px`;
+        }
+      }
+      levels.forEach((L) => paintGrid(document.getElementById(L.id), L));
+      paintGrid(document.getElementById("g6"), levels[4]);
+
+      // ---------- timeline (16 s, 120 BPM: something lands on every beat) ----------
+      const tl = gsap.timeline({ paused: true });
+      function shake(t, p = 14, len = 0.3) {
+        const s = [[1, -0.7], [-0.8, 0.8], [0.5, -0.4], [-0.3, 0.3], [0, 0]];
+        s.forEach(([x, y], i) => tl.to("#cam", { x: x * p * (1 - i / s.length), y: y * p * (1 - i / s.length), duration: len / s.length, ease: "none" }, t + (i * len) / s.length));
+      }
+      function slam(sel, t, from = 1.7, rot = -5) {
+        tl.fromTo(sel, { scale: from, opacity: 0, rotation: rot }, { scale: 1, opacity: 1, rotation: 0, duration: 0.14, ease: "power4.in" }, t);
+      }
+
+      tl.fromTo("#motif-top", { x: 0 }, { x: -1080, duration: 16, ease: "none" }, 0);
+      tl.fromTo("#motif-bot", { x: -1080 }, { x: 0, duration: 16, ease: "none" }, 0);
+      tl.fromTo("#grain", { backgroundPosition: "0px 0px" }, { backgroundPosition: "512px 1024px", duration: 16, ease: "steps(192)" }, 0);
+
+      // ===== S0 0–1.0: farmer → soldier =====
+      tl.fromTo("#s0-word", { scale: 1.06 }, { scale: 1, duration: 0.25, ease: "power2.out" }, 0);
+      tl.fromTo("#s0-man", { y: 0 }, { y: -18, duration: 0.1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0);
+      tl.to("#s0-sickle", { rotation: 360, opacity: 0, transformOrigin: "307px 380px", duration: 0.18, ease: "power2.in" }, 0.22);
+      tl.fromTo("#s0-spear", { opacity: 0, y: 80 }, { opacity: 1, y: 0, duration: 0.16, ease: "back.out(3)" }, 0.4);
+      tl.fromTo("#s0-man", { scale: 1 }, { scale: 1.1, transformOrigin: "50% 100%", duration: 0.08, yoyo: true, repeat: 1 }, 0.4);
+      shake(0.42, 18);
+      tl.fromTo("#s0-en", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.2 }, 0.5);
+      tl.to("#s0-word", { scale: 1.14, duration: 0.09, yoyo: true, repeat: 1 }, 0.75);
+
+      // ===== S1 1.0–2.5: recipe card, one row per eighth note =====
+      tl.fromTo("#s1 .center", { y: -40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.2, ease: "back.out(2)" }, 1.0);
+      tl.fromTo("#card", { y: 900, rotation: 6 }, { y: 0, rotation: -1.5, duration: 0.28, ease: "back.out(1.4)" }, 1.0);
+      tl.fromTo("#card .row", { x: 80, opacity: 0, scale: 1.1 }, { x: 0, opacity: 1, scale: 1, duration: 0.14, stagger: 0.2, ease: "back.out(2)" }, 1.25);
+      tl.to("#card", { rotation: 1.5, duration: 0.6, ease: "sine.inOut" }, 1.9);
+
+      // ===== S2 2.5–5.0: the got, service rotates on every beat =====
+      tl.fromTo("#s2 .center:first-child", { scale: 1.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.14, ease: "power4.in" }, 2.5);
+      gotMen.forEach((m, i) => tl.fromTo(m, { y: 500, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, ease: "back.out(1.6)" }, 2.5 + i * 0.05));
+      tl.fromTo("#s2-line", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.2 }, 2.75);
+      tl.fromTo("#s2-en", { opacity: 0 }, { opacity: 1, duration: 0.2 }, 3.0);
+      tl.set(".badge", { opacity: 0 }, 0);
+      [3.0, 3.5, 4.0, 4.5].forEach((t, k) => {
+        gotMen.forEach((m, i) => {
+          const sk = m.querySelector(".sk"), sp = m.querySelector(".sp"), bd = m.querySelector(".badge"), man = m.querySelector(".man");
+          if (i === k) {
+            tl.set(sk, { opacity: 0 }, t);
+            tl.fromTo(sp, { opacity: 1, y: 40 }, { y: 0, duration: 0.14, ease: "back.out(3)" }, t);
+            tl.fromTo(bd, { opacity: 1, scale: 0.4 }, { scale: 1, duration: 0.14, ease: "back.out(3)" }, t);
+            tl.fromTo(man, { y: 0 }, { y: -34, duration: 0.12, ease: "power2.out" }, t);
+          } else {
+            tl.set(sk, { opacity: 1 }, t);
+            tl.set(sp, { opacity: 0 }, t);
+            tl.set(bd, { opacity: 0 }, t);
+            tl.to(man, { y: 0, duration: 0.1 }, t);
+          }
+        });
+      });
+      tl.to("#gotrow", { scale: 0.5, opacity: 0, duration: 0.2, ease: "power2.in" }, 4.82);
+
+      // ===== S3 5.0–8.5: multiply 20 → 6000, accelerating =====
+      tl.set(".grid", { opacity: 0 }, 0);
+      tl.set(".rk", { opacity: 0 }, 0);
+      tl.set(".chip .on", { scale: 0 }, 0);
+      const counts = [20, 100, 1000, 3000, 6000];
+      const times = [5.0, 5.75, 6.4, 7.0, 7.5];
+      const numEl = document.getElementById("num");
+      const nv = { v: 20 };
+      counts.forEach((c, i) => {
+        const t = times[i];
+        const g = "#g" + (i + 1);
+        tl.fromTo(g, { opacity: 0, scale: 2.4 }, { opacity: 1, scale: 1, duration: 0.25, ease: "power3.out" }, t);
+        if (i > 0) tl.to("#g" + i, { opacity: 0, scale: 0.4, duration: 0.12, ease: "power2.in" }, t);
+        slam("#rk" + (i + 1), t + 0.04, 1.8, i % 2 ? 8 : -8);
+        if (i > 0) tl.to("#rk" + i, { opacity: 0, duration: 0.06 }, t);
+        tl.to("#c" + (i + 1), { scale: 1, duration: 0.2, ease: "back.out(3)" }, t + 0.08);
+        const from = i === 0 ? 1 : counts[i - 1];
+        tl.fromTo(nv, { v: from }, { v: c, duration: 0.35, ease: "power2.out", immediateRender: false, onUpdate: () => { numEl.textContent = bn(Math.round(nv.v)) + " জন"; } }, t);
+        tl.fromTo("#num", { scale: 1.3 }, { scale: 1, duration: 0.2, ease: "power2.out" }, t);
+        shake(t + 0.04, 6 + i * 5, 0.22);
+        // between levels the current crowd keeps drifting closer
+        const next = i < 4 ? times[i + 1] : 8.0;
+        tl.to(g, { scale: 1.08, duration: next - t - 0.25, ease: "none" }, t + 0.25);
+      });
+      tl.to("#g5", { scale: 1.16, duration: 0.1, yoyo: true, repeat: 3, ease: "sine.inOut" }, 8.0);
+      tl.to("#num", { scale: 1.25, duration: 0.1, yoyo: true, repeat: 1 }, 8.0);
+      shake(8.0, 26, 0.4);
+
+      // ===== S4 8.5–13.0: reveal, then the camera points at the same men farming and fighting =====
+      tl.fromTo("#plate", { clipPath: "circle(0% at 50% 50%)" }, { clipPath: "circle(80% at 50% 50%)", duration: 0.3, ease: "power3.out" }, 8.5);
+      tl.fromTo("#s4-img", { scale: 1.35, x: 0, y: 0 }, { scale: 1.05, duration: 0.5, ease: "power3.out" }, 8.5);
+      shake(8.52, 22, 0.35);
+      tl.fromTo("#s4 .center:first-child .as", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.18 }, 8.55);
+      slam("#s4-title", 8.7, 1.8, -8);
+      tl.set(".call, #s4-same, #s4-a", { opacity: 0 }, 0);
+      // fields (farmers planting)
+      tl.to("#s4-img", { scale: 2.2, x: 110, y: 282, duration: 0.35, ease: "power3.inOut" }, 9.5);
+      slam("#call1", 9.75, 1.8, -10);
+      // pan to the marching soldiers
+      tl.to("#call1", { opacity: 0, duration: 0.08 }, 10.25);
+      tl.to("#s4-img", { x: -550, duration: 0.35, ease: "power3.inOut" }, 10.25);
+      slam("#call2", 10.5, 1.8, 10);
+      tl.fromTo("#s4-same", { opacity: 0, scale: 1.3 }, { opacity: 1, scale: 1, duration: 0.14, ease: "power4.in" }, 10.75);
+      shake(10.8, 12);
+      // pull back: no salary, land
+      tl.to("#call2", { opacity: 0, duration: 0.08 }, 11.25);
+      tl.to("#s4-same", { opacity: 0, duration: 0.08 }, 11.25);
+      tl.to("#s4-img", { scale: 1.08, x: 0, y: 0, duration: 0.35, ease: "power3.inOut" }, 11.25);
+      tl.fromTo("#s4-a", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.18, ease: "back.out(2)" }, 11.3);
+      tl.set("#s4-land", { opacity: 0 }, 0);
+      slam("#s4-land", 11.75, 1.9, 6);
+      shake(11.8, 14);
+      tl.to("#s4-img", { scale: 1.2, duration: 1.0, ease: "none" }, 12.0);
+
+      // ===== S5 13.0–16.0: 6000 → dive into one dot → one farmer (loop) =====
+      tl.fromTo("#g6", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.25, ease: "back.out(1.4)" }, 13.0);
+      tl.fromTo("#s5-a", { opacity: 0, scale: 1.2 }, { opacity: 1, scale: 1, duration: 0.15, ease: "power3.out" }, 13.0);
+      tl.to("#g6", { scale: 1.6, duration: 1.15, ease: "power1.in", transformOrigin: "50% 50%" }, 13.25);
+      tl.to("#s5-a", { opacity: 0, y: -40, duration: 0.18 }, 14.35);
+      tl.to("#g6", { scale: 70, duration: 0.6, ease: "power3.in", transformOrigin: "50% 50%" }, 14.4);
+      tl.to("#gridbox2", { opacity: 0, duration: 0.12 }, 14.95);
+      tl.set("#s5-b", { opacity: 0 }, 0);
+      tl.set("#s5-b", { opacity: 1 }, 14.95);
+      tl.fromTo("#s5-man", { scale: 0.05, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.35, ease: "back.out(1.5)" }, 14.95);
+      tl.fromTo("#s5-b .center", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.18 }, 15.15);
+      tl.fromTo("#s5-word", { scale: 1.06 }, { scale: 1.06, duration: 0.01 }, 15.98);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

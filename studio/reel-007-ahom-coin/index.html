@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="as">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Ahom Recipe 006 · Coin</title>
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "SKBishal"; src: url("assets/fonts/skbishal.ttf") format("truetype"); }
+      @font-face { font-family: "Padmasetu"; src: url("assets/fonts/padmasetu.ttf") format("truetype"); }
+      @font-face { font-family: "Cormorant"; font-style: italic; font-weight: 600; src: url("assets/fonts/cormorant-600i.woff2") format("woff2"); }
+      :root { --cloth: #f5f0e6; --red: #b5121b; --ink: #23140d; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--cloth); }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: var(--cloth); }
+      .layer, .clip { position: absolute; inset: 0; }
+      #cloth { background: url("assets/tex/cloth.jpg") center / cover; }
+      #cam { position: absolute; inset: 0; }
+      #grain { background: url("assets/tex/grain.png") 0 0 / 512px 512px repeat; opacity: 0.18; mix-blend-mode: multiply; pointer-events: none; }
+      .band { position: absolute; left: 0; width: 1080px; overflow: hidden; }
+      .band .fill { position: absolute; inset: 0; background: var(--red); }
+      .band .motif { position: absolute; left: 0; height: 64px; width: 2160px; }
+      .band .thread { position: absolute; left: 0; right: 0; height: 4px; background: var(--cloth); }
+      #band-top { top: 0; height: 250px; }
+      #band-bot { bottom: 0; height: 236px; }
+      #series { position: absolute; left: 0; right: 0; top: 150px; text-align: center; font-family: "Padmasetu", serif; font-size: 36px; color: var(--cloth); }
+      .as { font-family: "SKBishal", serif; color: var(--ink); line-height: 1.1; white-space: nowrap; }
+      .red { color: var(--red); }
+      .en { font-family: "Cormorant", serif; font-style: italic; font-weight: 600; font-size: 44px; color: var(--ink); line-height: 1.2; text-align: center; }
+      .center { position: absolute; left: 50px; right: 50px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+      .sticker { display: inline-block; background: #fffaf0; border: 5px solid var(--ink); border-radius: 22px; padding: 10px 30px 0; box-shadow: 8px 8px 0 var(--ink); }
+      .sticker.redbg { background: var(--red); }
+      .sticker.redbg .as { color: #fffaf0; }
+      #card { position: absolute; left: 90px; right: 90px; top: 640px; height: 740px; background: #fffaf0; border: 6px solid var(--ink); border-radius: 36px; box-shadow: 16px 16px 0 var(--red); padding: 54px 56px; display: flex; flex-direction: column; gap: 26px; }
+      #card .tag { font-family: "Padmasetu", serif; font-size: 38px; color: var(--red); }
+      #card .row { display: flex; justify-content: space-between; align-items: center; border-top: 3px dashed rgba(35,20,13,0.35); padding-top: 22px; }
+      #card .k { font-family: "Padmasetu", serif; font-size: 42px; color: var(--ink); }
+      #card .v { font-family: "SKBishal", serif; font-size: 58px; color: var(--ink); }
+      #card .v.red { color: var(--red); }
+
+      /* the coin: two real faces on a 3D flip */
+      .coinwrap { position: absolute; left: 280px; top: 760px; width: 520px; height: 520px; perspective: 1600px; }
+      .coin { position: absolute; inset: 0; transform-style: preserve-3d; }
+      .face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden;
+        clip-path: polygon(30.5% 3.5%, 69.5% 3.5%, 96.5% 30.5%, 96.5% 69.5%, 69.5% 96.5%, 30.5% 96.5%, 3.5% 69.5%, 3.5% 30.5%); }
+      .face img { width: 100%; height: 100%; display: block; }
+      .face.back { transform: rotateY(180deg); }
+      .coinshadow { position: absolute; left: 330px; top: 1300px; width: 420px; height: 40px; border-radius: 50%; background: rgba(35,20,13,0.2); }
+      .corner { position: absolute; width: 46px; height: 46px; margin: -23px 0 0 -23px; border-radius: 50%; background: radial-gradient(circle, #fffbe6 0 30%, rgba(255,214,90,0.9) 45%, transparent 70%); }
+
+      /* mint */
+      #ingot { position: absolute; left: 340px; top: 930px; width: 400px; height: 180px; border-radius: 30px; border: 6px solid var(--ink);
+        background: linear-gradient(180deg, #fff3c4, #ff9a3c 45%, #c2410c); box-shadow: 0 0 60px 20px rgba(255,140,40,0.5); }
+      #blank { position: absolute; left: 280px; top: 760px; width: 520px; height: 520px; overflow: visible; }
+      #hammer { position: absolute; left: 690px; top: 430px; width: 280px; height: 420px; overflow: visible; }
+      #die { position: absolute; left: 380px; top: 280px; width: 320px; height: 460px; overflow: visible; }
+      .chip { transform-box: fill-box; transform-origin: center; }
+
+      /* why */
+      #bigoct { position: absolute; left: 190px; top: 630px; width: 700px; height: 700px; overflow: visible; }
+      /* denominations */
+      .den { position: absolute; }
+      .den .face { position: relative; width: 100%; height: 100%; }
+      .denlab { position: absolute; font-family: "SKBishal", serif; color: var(--ink); text-align: center; white-space: nowrap; }
+
+      #plate { position: absolute; left: 70px; top: 600px; width: 940px; height: 520px; border: 14px solid #fffaf0; border-radius: 24px; box-shadow: 0 0 0 5px var(--ink), 18px 18px 0 5px var(--ink); overflow: hidden; background: #fff; }
+      #plate img { width: 100%; height: 100%; object-fit: contain; display: block; background: #fff; }
+      .credit { position: absolute; right: 80px; top: 1146px; font-family: "Cormorant", serif; font-style: italic; font-weight: 600; font-size: 26px; color: rgba(35,20,13,0.7); }
+    </style>
+  </head>
+  <body>
+    <svg width="0" height="0" style="position:absolute">
+      <defs>
+        <pattern id="gm" x="0" y="0" width="120" height="64" patternUnits="userSpaceOnUse">
+          <rect width="120" height="64" fill="#b5121b" />
+          <path d="M60 6 L84 32 L60 58 L36 32 Z" fill="#f5f0e6" />
+          <path d="M60 18 L72 32 L60 46 L48 32 Z" fill="#b5121b" />
+          <rect x="57" y="29" width="6" height="6" fill="#f5f0e6" />
+          <path d="M0 64 L0 52 L8 52 L8 44 L16 44 L16 52 L24 52 L24 64 Z M96 64 L96 52 L104 52 L104 44 L112 44 L112 52 L120 52 L120 64 Z" fill="#f5f0e6" />
+          <path d="M0 0 L0 12 L8 12 L8 20 L16 20 L16 12 L24 12 L24 0 Z M96 0 L96 12 L104 12 L104 20 L112 20 L112 12 L120 12 L120 0 Z" fill="#f5f0e6" />
+        </pattern>
+        <radialGradient id="silver" cx="38%" cy="32%" r="75%">
+          <stop offset="0" stop-color="#ffffff" /><stop offset="0.5" stop-color="#d6d9db" /><stop offset="1" stop-color="#8f969a" />
+        </radialGradient>
+      </defs>
+    </svg>
+
+    <div id="root" data-composition-id="main" data-start="0" data-duration="16" data-width="1080" data-height="1920">
+      <audio id="master" src="assets/audio/master.wav" data-start="0" data-duration="16" data-track-index="9" data-volume="1"></audio>
+      <div id="cloth" class="layer clip" data-start="0" data-duration="16" data-track-index="0"></div>
+
+      <div id="cam">
+        <!-- the hero coin lives all reel long -->
+        <div id="hero" class="clip" data-start="0" data-duration="16" data-track-index="1">
+          <div class="coinshadow" id="shadow"></div>
+          <div class="coinwrap" id="cw">
+            <div class="coin" id="coin">
+              <div class="face front"><img src="assets/img/coin-obv.png" alt="" /></div>
+              <div class="face back"><img src="assets/img/coin-rev.png" alt="" /></div>
+            </div>
+          </div>
+          <div id="corners" class="layer"></div>
+        </div>
+
+        <!-- ===== S0 HOOK 0–1.0 ===== -->
+        <section id="s0" class="clip" data-start="0" data-duration="1" data-track-index="2">
+          <div class="center" style="top:290px">
+            <div class="as" style="font-size:110px">এই টকাৰ</div>
+            <div class="as red" id="s0-word" style="font-size:136px; line-height:1.05">৮টা কোণ কিয়?</div>
+          </div>
+          <div class="center" style="top:1400px"><div class="en" id="s0-en">Why does this coin have 8 corners?</div></div>
+        </section>
+
+        <!-- ===== S1 CARD 1.0–2.5 ===== -->
+        <section id="s1" class="clip" data-start="1" data-duration="1.5" data-track-index="2">
+          <div class="layer" style="background:url('assets/tex/cloth.jpg') center / cover"></div>
+          <div class="center" style="top:300px">
+            <div class="as" style="font-size:96px">আহোম যুগৰ</div>
+            <div class="as red" style="font-size:128px">টকাৰ ৰেচিপি</div>
+          </div>
+          <div id="card">
+            <div class="tag">ৰেচিপি · ০০৬</div>
+            <div class="row"><span class="k">প্ৰথম টকা</span><span class="v">১৬৪৮</span></div>
+            <div class="row"><span class="k">ৰজা</span><span class="v">জয়ধ্বজ সিংহ</span></div>
+            <div class="row"><span class="k">ধাতু</span><span class="v">ৰূপ, সোণ</span></div>
+            <div class="row"><span class="k">বিশুদ্ধতা</span><span class="v red">৯৪–৯৮%</span></div>
+            <div class="en" style="font-size:38px; margin-top:6px">First Ahom coin: 1648, under Jayadhwaj Singha.</div>
+          </div>
+        </section>
+
+        <!-- ===== S2 MINT 2.5–6.0 ===== -->
+        <section id="s2" class="clip" data-start="2.5" data-duration="3.5" data-track-index="2">
+          <div class="center step" id="st1" style="top:300px"><div class="as" style="font-size:100px">বিশুদ্ধ</div><div class="as red" style="font-size:130px">ৰূপ</div></div>
+          <div class="center step" id="st2" style="top:300px"><div class="as" style="font-size:100px">পিটি পিটি</div><div class="as red" style="font-size:130px">চেপেটা</div></div>
+          <div class="center step" id="st3" style="top:300px"><div class="as red" id="cutn" style="font-size:170px; line-height:1">১ কোণ</div></div>
+          <div class="center step" id="st4" style="top:300px"><div class="sticker redbg" style="transform:rotate(-4deg)"><div class="as" style="font-size:150px">ছাপ!</div></div></div>
+          <div id="ingot"></div>
+          <svg id="blank" viewBox="-260 -260 520 520">
+            <polygon id="octcore" fill="url(#silver)" stroke="#23140d" stroke-width="6" />
+            <g id="chips"></g>
+          </svg>
+          <svg id="hammer" viewBox="0 0 280 420">
+            <rect x="122" y="0" width="34" height="300" rx="10" fill="#8b5a2b" stroke="#23140d" stroke-width="7" />
+            <rect x="40" y="280" width="200" height="110" rx="16" fill="#5d646a" stroke="#23140d" stroke-width="8" />
+          </svg>
+          <svg id="die" viewBox="0 0 320 460">
+            <rect x="110" y="0" width="100" height="260" fill="#4a3a2c" stroke="#23140d" stroke-width="7" />
+            <rect x="30" y="250" width="260" height="190" rx="18" fill="#6e7378" stroke="#23140d" stroke-width="8" />
+            <path d="M60 400 L260 400" stroke="#9aa0a4" stroke-width="10" />
+          </svg>
+        </section>
+
+        <!-- ===== S3 WHY 6.0–9.5 ===== -->
+        <section id="s3" class="clip" data-start="6" data-duration="3.5" data-track-index="2">
+          <div class="center" id="s3-q" style="top:290px"><div class="as red" style="font-size:150px">কিয় ৮টা কোণ?</div></div>
+          <svg id="bigoct" viewBox="-450 -450 900 900">
+            <polygon id="oct" points="" fill="none" stroke="#b5121b" stroke-width="10" stroke-linejoin="round" />
+            <path id="river" d="M-330 120 C-200 40 -120 180 0 110 C120 40 200 170 330 90" stroke="#3d93b8" stroke-width="22" fill="none" stroke-linecap="round" />
+          </svg>
+          <div class="center" id="s3-book" style="top:640px"><div class="sticker" style="transform:rotate(-4deg)"><div class="as red" style="font-size:84px">যোগিনী তন্ত্ৰ</div></div></div>
+          <div class="center" id="s3-line" style="top:1360px">
+            <div class="as" style="font-size:76px">ৰাজ্যখন <span class="red">আঠকোণীয়া</span></div>
+            <div class="en" style="font-size:36px; margin-top:6px">A popular explanation: the Yogini Tantra describes the kingdom as eight-sided.</div>
+          </div>
+        </section>
+
+        <!-- ===== S4 DENOMINATIONS 9.5–12.5 ===== -->
+        <section id="s4" class="clip" data-start="9.5" data-duration="3" data-track-index="2">
+          <div class="center" style="top:290px">
+            <div class="as" style="font-size:90px">এই নামবোৰ</div>
+            <div class="as red" style="font-size:140px; line-height:1.05">চিনি পায়?</div>
+          </div>
+          <div id="dens" class="layer"></div>
+          <div class="center" id="s4-en" style="top:1460px"><div class="en" style="font-size:40px">Adhali (½), Siki (¼)… still familiar words?</div></div>
+        </section>
+
+        <!-- ===== S5 REVEAL 12.5–14.5 ===== -->
+        <section id="s5" class="clip" data-start="12.5" data-duration="2" data-track-index="2">
+          <div class="layer" style="background:url('assets/tex/cloth.jpg') center / cover"></div>
+          <div class="center" style="top:300px">
+            <div class="sticker" id="s5-title" style="transform:rotate(-3deg)"><div class="as red" style="font-size:96px">ৰুদ্ৰ সিংহৰ টকা</div></div>
+            <div class="en" id="s5-sub" style="margin-top:20px">Silver rupee of Rudra Singha (1696–1714) · real coin</div>
+          </div>
+          <div id="plate"><img src="assets/img/rudra-rupee.jpg" id="s5-img" alt="" /></div>
+          <div class="credit">Photo: Muddy Rhino, Wikimedia Commons, CC BY-SA 4.0</div>
+          <div class="center" id="s5-a" style="top:1210px"><div class="as red" style="font-size:110px" id="s5-old">৩০০ বছৰৰো পুৰণি</div></div>
+        </section>
+
+        <!-- ===== S6 END 14.5–16.0 ===== -->
+        <section id="s6" class="clip" data-start="14.5" data-duration="1.5" data-track-index="2">
+          <div class="center" id="s6-b" style="top:290px">
+            <div class="as" style="font-size:110px">এই টকাৰ</div>
+            <div class="as red" id="s6-word" style="font-size:136px; line-height:1.05">৮টা কোণ কিয়?</div>
+          </div>
+        </section>
+      </div>
+
+      <div id="bands" class="layer clip" data-start="0" data-duration="16" data-track-index="3">
+        <div class="band" id="band-top">
+          <div class="fill"></div>
+          <svg class="motif" id="motif-top" style="top:40px" viewBox="0 0 2160 64"><rect width="2160" height="64" fill="url(#gm)" /></svg>
+          <div class="thread" style="top:118px"></div>
+          <div id="series">আহোমৰ ৰেচিপি · ০০৬</div>
+          <div class="thread" style="top:236px; height:3px"></div>
+        </div>
+        <div class="band" id="band-bot">
+          <div class="fill"></div>
+          <div class="thread" style="top:14px; height:3px"></div>
+          <svg class="motif" id="motif-bot" style="top:60px" viewBox="0 0 2160 64"><rect width="2160" height="64" fill="url(#gm)" /></svg>
+        </div>
+      </div>
+      <div id="grain" class="layer clip" data-start="0" data-duration="16" data-track-index="4"></div>
+    </div>
+
+    <script>
+      const BN = ["০","১","২","৩","৪","৫","৬","৭","৮","৯"];
+      const bn = (n) => String(n).split("").map((c) => (c >= "0" && c <= "9" ? BN[+c] : c)).join("");
+      const NS = "http://www.w3.org/2000/svg";
+
+      // octagon geometry (vertices at 22.5° + k·45°)
+      const R = 250;
+      const V = [...Array(8)].map((_, k) => { const a = (22.5 + 45 * k) * Math.PI / 180; return [Math.cos(a) * R, Math.sin(a) * R]; });
+      document.getElementById("octcore").setAttribute("points", V.map((p) => p.join(",")).join(" "));
+      // eight circular segments outside the octagon = the blank's round edge, cut away one by one
+      const chipG = document.getElementById("chips");
+      const chips = V.map((p, k) => {
+        const q = V[(k + 1) % 8];
+        const path = document.createElementNS(NS, "path");
+        path.setAttribute("d", `M${p[0]},${p[1]} A${R},${R} 0 0 1 ${q[0]},${q[1]} Z`);
+        path.setAttribute("fill", "url(#silver)"); path.setAttribute("stroke", "#23140d"); path.setAttribute("stroke-width", "5");
+        path.setAttribute("class", "chip");
+        const mid = (22.5 + 45 * k + 22.5) * Math.PI / 180;
+        path.dataset.x = Math.cos(mid) * 420; path.dataset.y = Math.sin(mid) * 420;
+        chipG.appendChild(path);
+        return path;
+      });
+      // big octagon for the "kingdom"
+      const R2 = 420;
+      document.getElementById("oct").setAttribute("points", [...Array(8)].map((_, k) => { const a = (22.5 + 45 * k) * Math.PI / 180; return [Math.cos(a) * R2, Math.sin(a) * R2].join(","); }).join(" "));
+      // corner flashes on the hero coin (coin centre 540, 1020; face octagon ~ 0.29 cut)
+      const cornersEl = document.getElementById("corners");
+      const CX = 540, CY = 1020, H = 255;
+      const cornerPts = [[-0.42, -1], [0.42, -1], [1, -0.42], [1, 0.42], [0.42, 1], [-0.42, 1], [-1, 0.42], [-1, -0.42]];
+      const corners = cornerPts.map(([x, y]) => {
+        const c = document.createElement("div"); c.className = "corner";
+        c.style.left = CX + x * H + "px"; c.style.top = CY + y * H + "px";
+        cornersEl.appendChild(c); return c;
+      });
+      // denominations: 1, ½, ¼, ⅛, 1/16, 1/32 — area halves each time, so size × 1/√2
+      const dens = document.getElementById("dens");
+      const denDefs = [["১ টকা", ""], ["আধলি", "½"], ["শিকি", "¼"], ["", "১/৮"], ["", "১/১৬"], ["", "১/৩২"]];
+      let x = 110; const base = 260; const denEls = [];
+      denDefs.forEach(([nm, fr], i) => {
+        const s = base * Math.pow(Math.SQRT1_2, i);
+        const d = document.createElement("div");
+        d.className = "den";
+        d.style.cssText = `left:${x}px; top:${1050 - s / 2}px; width:${s}px; height:${s}px;`;
+        d.innerHTML = `<div class="face"><img src="assets/img/coin-obv.png" style="width:100%;height:100%;display:block" alt=""></div>`;
+        dens.appendChild(d);
+        const lab = document.createElement("div");
+        lab.className = "denlab";
+        lab.style.cssText = `left:${x + s / 2 - 70}px; width:140px; top:${i === 4 ? 1050 - s / 2 - 60 : 1050 + 150}px; font-size:${i < 3 ? 52 : 34}px;`;
+        lab.innerHTML = (nm ? `<div>${nm}</div>` : "") + (fr ? `<div style="color:#b5121b">${fr}</div>` : "");
+        dens.appendChild(lab);
+        denEls.push([d, lab]);
+        x += s + 16;
+      });
+
+      // ---------- timeline ----------
+      const tl = gsap.timeline({ paused: true });
+      function shake(t, p = 14, len = 0.3) {
+        const s = [[1, -0.7], [-0.8, 0.8], [0.5, -0.4], [-0.3, 0.3], [0, 0]];
+        s.forEach(([x, y], i) => tl.to("#cam", { x: x * p * (1 - i / s.length), y: y * p * (1 - i / s.length), duration: len / s.length, ease: "none" }, t + (i * len) / s.length));
+      }
+      function slam(sel, t, from = 1.7, rot = -5) {
+        tl.fromTo(sel, { scale: from, opacity: 0, rotation: rot }, { scale: 1, opacity: 1, rotation: 0, duration: 0.12, ease: "power4.in", immediateRender: false }, t);
+      }
+      tl.fromTo("#motif-top", { x: 0 }, { x: -1080, duration: 16, ease: "none" }, 0);
+      tl.fromTo("#motif-bot", { x: -1080 }, { x: 0, duration: 16, ease: "none" }, 0);
+      tl.fromTo("#grain", { backgroundPosition: "0px 0px" }, { backgroundPosition: "512px 1024px", duration: 16, ease: "steps(192)" }, 0);
+
+      // frame 0 state
+      tl.set("#coin", { rotationY: 0 }, 0);
+      tl.set("#cw, #shadow", { opacity: 1, scale: 1, x: 0, y: 0 }, 0);
+      tl.set(corners, { opacity: 0, scale: 0.4 }, 0);
+      tl.set(".step", { opacity: 0 }, 0);
+      tl.set(denEls.flat(), { opacity: 0 }, 0);
+
+      // ===== S0: the coin spins twice, then its 8 corners light up one by one =====
+      tl.fromTo("#s0-word", { scale: 1.06 }, { scale: 1, duration: 0.25, ease: "power2.out" }, 0);
+      tl.fromTo("#coin", { rotationY: 0 }, { rotationY: 720, duration: 0.45, ease: "power2.out", immediateRender: false }, 0.0);
+      corners.forEach((c, k) => {
+        tl.fromTo(c, { opacity: 1, scale: 0.4 }, { scale: 1.3, duration: 0.05, ease: "power2.out", immediateRender: false }, 0.5 + k * 0.05);
+        tl.to(c, { opacity: 0, scale: 0.6, duration: 0.15 }, 0.55 + k * 0.05);
+      });
+      tl.fromTo("#s0-en", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.2 }, 0.5);
+      tl.to("#s0-word", { scale: 1.12, duration: 0.09, yoyo: true, repeat: 1 }, 0.9);
+      tl.set("#cw, #shadow", { opacity: 0 }, 1.0);
+
+      // ===== S1 card =====
+      tl.fromTo("#s1 .center", { y: -40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.2, ease: "back.out(2)" }, 1.0);
+      tl.fromTo("#card", { y: 900, rotation: 6 }, { y: 0, rotation: -1.5, duration: 0.28, ease: "back.out(1.4)" }, 1.0);
+      tl.fromTo("#card .row", { x: 80, opacity: 0, scale: 1.1 }, { x: 0, opacity: 1, scale: 1, duration: 0.14, stagger: 0.2, ease: "back.out(2)" }, 1.25);
+      tl.to("#card", { rotation: 1.5, duration: 0.6, ease: "sine.inOut" }, 1.9);
+
+      // ===== S2 mint =====
+      slam("#st1", 2.5, 1.5, -4);
+      tl.fromTo("#ingot", { y: -900 }, { y: 0, duration: 0.18, ease: "power3.in" }, 2.5);
+      tl.set("#blank", { opacity: 0 }, 0);
+      tl.set("#hammer, #die", { opacity: 0 }, 0);
+      // hammer: three blows (impact at 3.0, 3.25, 3.5); the hot ingot spreads into a round blank
+      tl.to("#st1", { opacity: 0, duration: 0.05 }, 2.95);
+      slam("#st2", 2.95, 1.5, 4);
+      [3.0, 3.25, 3.5].forEach((t, k) => {
+        tl.fromTo("#hammer", { opacity: 1, y: -130, rotation: -20 }, { y: 0, rotation: 0, duration: 0.09, ease: "power3.in", immediateRender: false }, t - 0.09);
+        tl.to("#hammer", { y: -110, rotation: -16, duration: 0.12, ease: "power2.out" }, t + 0.02);
+        shake(t, 10 + k * 3, 0.18);
+      });
+      tl.to("#ingot", { scaleX: 1.15, scaleY: 0.7, duration: 0.05 }, 3.0);
+      tl.set("#ingot", { opacity: 0 }, 3.25);
+      tl.fromTo("#blank", { opacity: 1, scale: 0.7 }, { scale: 0.9, duration: 0.06, immediateRender: false }, 3.25);
+      tl.to("#blank", { scale: 1, duration: 0.06 }, 3.5);
+      tl.to("#hammer", { opacity: 0, y: -900, duration: 0.15 }, 3.62);
+      // eight cuts on eight eighth-notes: 3.75 … 5.5
+      tl.to("#st2", { opacity: 0, duration: 0.05 }, 3.72);
+      tl.set("#st3", { opacity: 1 }, 3.75);
+      const cutEl = document.getElementById("cutn");
+      chips.forEach((c, k) => {
+        const t = 3.75 + k * 0.25;
+        tl.to(c, { x: +c.dataset.x, y: +c.dataset.y, rotation: 140, opacity: 0, duration: 0.3, ease: "power2.out" }, t);
+        tl.set(cutEl, { textContent: bn(k + 1) + " কোণ" }, t);
+        tl.fromTo("#cutn", { scale: 1.3 }, { scale: 1, duration: 0.12, immediateRender: false }, t);
+      });
+      // stamp: the die slams at 5.75 and the real coin face appears
+      tl.to("#st3", { opacity: 0, duration: 0.05 }, 5.72);
+      slam("#st4", 5.86, 1.8, -8);
+      tl.fromTo("#die", { opacity: 1, y: -700 }, { y: 0, duration: 0.1, ease: "power3.in", immediateRender: false }, 5.65);
+      tl.to("#die", { y: -800, duration: 0.15, ease: "power2.in" }, 5.82);
+      tl.set("#blank", { opacity: 0 }, 5.75);
+      tl.set("#cw, #shadow", { opacity: 1, rotationY: 0 }, 5.75);
+      tl.set("#coin", { rotationY: 0 }, 5.75);
+      tl.fromTo("#cw", { scale: 0.92 }, { scale: 1, duration: 0.2, ease: "back.out(3)", immediateRender: false }, 5.75);
+      shake(5.75, 24, 0.35);
+
+      // ===== S3 why: the coin's outline grows into an eight-sided kingdom =====
+      tl.set("#s3-book, #s3-line, #bigoct", { opacity: 0 }, 0);
+      tl.fromTo("#s3-q", { opacity: 0, scale: 1.3 }, { opacity: 1, scale: 1, duration: 0.14, ease: "power4.in" }, 6.0);
+      tl.to("#cw", { scale: 0.32, y: 0, duration: 0.3, ease: "power3.inOut" }, 6.25);
+      tl.to("#shadow", { opacity: 0, duration: 0.15 }, 6.25);
+      tl.fromTo("#bigoct", { opacity: 1, scale: 0.28 }, { scale: 1, duration: 0.4, ease: "power3.out", immediateRender: false }, 6.5);
+      tl.fromTo("#river", { strokeDasharray: 800, strokeDashoffset: 800 }, { strokeDashoffset: 0, duration: 0.5, ease: "power2.out" }, 6.7);
+      tl.to("#cw", { opacity: 0, duration: 0.2 }, 6.7);
+      slam("#s3-book", 7.0, 1.8, -10);
+      shake(7.05, 12);
+      tl.fromTo("#s3-line", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.18, ease: "back.out(2)", immediateRender: false }, 7.5);
+      [8.0, 8.5, 9.0].forEach((t) => tl.fromTo("#oct", { strokeWidth: 22 }, { strokeWidth: 10, duration: 0.25, immediateRender: false }, t));
+      tl.to("#bigoct", { scale: 1.05, duration: 1.5, ease: "none" }, 8.0);
+
+      // ===== S4 denominations: the coin halves again and again, faster each time =====
+      const dT = [9.5, 9.75, 10.25, 10.75, 11.0, 11.25];
+      denEls.forEach(([d, lab], i) => {
+        tl.fromTo(d, { opacity: 1, scale: i ? 1.6 : 0.5, rotation: i ? -30 : 0, x: i ? -120 : 0 }, { scale: 1, rotation: 0, x: 0, duration: 0.14, ease: "back.out(2)", immediateRender: false }, dT[i]);
+        tl.fromTo(lab, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.12, immediateRender: false }, dT[i] + 0.06);
+        shake(dT[i] + 0.05, 4 + i, 0.15);
+      });
+      tl.fromTo("#s4-en", { opacity: 0 }, { opacity: 1, duration: 0.2 }, 11.5);
+      denEls.forEach(([d], i) => tl.to(d, { y: -16, duration: 0.1, yoyo: true, repeat: 1 }, 11.75 + i * 0.06));
+
+      // ===== S5 reveal =====
+      tl.fromTo("#plate", { clipPath: "circle(0% at 50% 50%)" }, { clipPath: "circle(80% at 50% 50%)", duration: 0.3, ease: "power3.out" }, 12.5);
+      tl.fromTo("#s5-img", { scale: 1.3 }, { scale: 1.0, duration: 0.5, ease: "power3.out" }, 12.5);
+      tl.to("#s5-img", { scale: 1.08, duration: 1.5, ease: "none" }, 13.0);
+      shake(12.52, 18, 0.35);
+      slam("#s5-title", 12.6, 1.8, -8);
+      tl.fromTo("#s5-sub", { opacity: 0 }, { opacity: 1, duration: 0.2 }, 12.85);
+      tl.set("#s5-old", { opacity: 0 }, 0);
+      slam("#s5-old", 13.25, 1.8, 6);
+      shake(13.3, 12);
+
+      // ===== S6 end: the coin spins back in and settles face-up (loop) =====
+      tl.set("#s6-b", { opacity: 0 }, 0);
+      tl.set("#cw", { opacity: 1, scale: 0.3, y: 0, x: 0 }, 14.5);
+      tl.fromTo("#cw", { scale: 0.3, y: -500 }, { scale: 1, y: 0, duration: 0.5, ease: "power3.out", immediateRender: false }, 14.5);
+      tl.fromTo("#coin", { rotationY: 0 }, { rotationY: 1080, duration: 0.85, ease: "power3.out", immediateRender: false }, 14.5);
+      tl.set("#shadow", { opacity: 1 }, 14.9);
+      tl.fromTo("#shadow", { scale: 0.4 }, { scale: 1, duration: 0.3, immediateRender: false }, 14.9);
+      tl.set("#s6-b", { opacity: 1 }, 15.3);
+      tl.fromTo("#s6-b", { y: -20 }, { y: 0, duration: 0.18, immediateRender: false }, 15.3);
+      tl.set("#coin", { rotationY: 0 }, 15.6);
+      tl.fromTo("#s6-word", { scale: 1.06 }, { scale: 1.06, duration: 0.01 }, 15.98);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

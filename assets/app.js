@@ -45,7 +45,7 @@
   function sceneFigure(s, list, size = "") {
     const pic = s.images[0];
     const media = pic
-      ? `<img src="${esc(size ? pic[0] : pic[1])}" ${size ? `srcset="${esc(pic[1])} 420w, ${esc(pic[0])} 1536w" sizes="(min-width: 900px) 60vw, 100vw"` : ""} alt="" loading="lazy" decoding="async">`
+      ? `<img src="${esc(size ? pic[0] : pic[1])}" ${size ? `srcset="${esc(pic[1])} 420w, ${esc(pic[0])} 1536w" sizes="(min-width: 900px) 60vw, 100vw"` : ""} alt="${esc(s.alt || s.title)}" loading="lazy" decoding="async">`
       : blankFrame();
     return `<figure class="scene ${size} ${pic ? "" : "scene-blank"}">
       <button type="button" class="scene-open" data-scene="${s.id}" data-list="${list.join(",")}" aria-label="Open scene: ${esc(s.title)}${pic ? "" : " (not yet painted)"}">${media}</button>
@@ -66,7 +66,7 @@
 
   // ---------- the saga ----------
 
-  function chapter(e) {
+  function chapter(e, standalone = false) {
     const scenes = illustrated(e.scenes);
     const moments = illustrated(e.moments);
     const list = scenes.map(s => s.id);
@@ -77,7 +77,7 @@
         <span class="ch-num" aria-hidden="true">${ROMAN[e.n]}</span>
         <div>
           <p class="ch-years"><span class="vh">Chapter ${e.n + 1}, </span>${e.start}–${e.end}</p>
-          <h2 id="h-${e.id}">${esc(e.title)}</h2>
+          <${standalone ? 'h1' : 'h2'} id="h-${e.id}">${esc(e.title)}</${standalone ? 'h1' : 'h2'}>
           <p class="ch-gloss"><span lang="as">${esc(e.word)}</span>${esc(e.gloss)}</p>
         </div>
       </header>
@@ -105,11 +105,11 @@
   function film(r, cls) {
     return `<figure class="film ${cls}">
       <div class="film-frame">
-        <video src="media/reels/${r.id}.mp4" poster="media/reels/${r.id}.webp" muted loop playsinline preload="none" data-auto></video>
+        <video src="${esc(r.src)}" poster="${esc(r.poster)}" muted loop playsinline controls preload="none" data-auto aria-label="${esc(r.title)}">${(r.tracks || []).map(t=>`<track kind="subtitles" src="${esc(t.src)}" srclang="${t.lang}" label="${esc(t.label)}">`).join('')}</video>
         ${archLine}
       </div>
       <figcaption>
-        <span>${esc(r.title)}<span class="film-year">${esc(r.year)}</span></span>
+        <span><a href="#/films/${r.id}">${esc(r.title)}</a><span class="film-year">${esc(r.year)}</span></span>
         <button type="button" class="sound" aria-pressed="false">Sound on</button>
       </figcaption>
     </figure>`;
@@ -177,16 +177,16 @@
         <p class="rail-year" aria-hidden="true">1228</p>
         <ol>${A.eras.map(e => `<li><a href="#/saga/${e.id}" data-era="${e.id}"><span class="rail-start">${e.start}</span><span class="rail-title">${esc(e.title)}</span></a></li>`).join("")}</ol>
       </nav>
-      <div class="chapters">${A.eras.map(chapter).join("")}</div>
+      <div class="chapters">${A.eras.map(e => chapter(e)).join("")}</div>
     </div>
     <section class="films" aria-labelledby="films-title">
       <div class="films-head">
         <h2 id="films-title">${A.reels.length} short films</h2>
-        <p>Ten-second scenes from the chronicles, from Sukaphaa’s journey to Mula Gabharu’s last stand, in the order they happened. Tap one to play it with sound.</p>
+        <p>Scenes from the chronicles, from Sukaphaa’s journey to the campaigns of Suhungmung, in historical order. Tap one to play it with sound. <a href="#/films">Browse the complete film library</a>.</p>
       </div>
-      <ul class="film-row">${A.reels.map(r => `<li>
+      <ul class="film-row">${[...A.reels].sort((a,b)=>(S[a.scene].year || 0)-(S[b.scene].year || 0)).map(r => `<li>
         <button type="button" class="reel" data-reel="${r.id}" aria-label="Play ${esc(r.title)}">
-          <span class="film-frame"><img src="media/reels/${r.id}.webp" alt="" loading="lazy">${archLine}<span class="play" aria-hidden="true"></span></span>
+          <span class="film-frame"><img src="${esc(r.poster)}" alt="" loading="lazy">${archLine}<span class="play" aria-hidden="true"></span></span>
         </button>
         <p class="reel-title">${esc(r.title)}<span class="film-year">${esc(r.year)}</span></p>
         ${r.line ? `<p class="reel-line"><span lang="as">${esc(r.line)}</span>${esc(r.translation)}</p>` : ""}
@@ -198,6 +198,70 @@
       <a href="#/scenes" class="door">${bgWord("চিত্ৰ", "door-word")}<span class="door-n">${A.scenes.filter(s => s.images.length).length}</span><span class="door-t">Painted scenes, from Mong Mao to the Treaty of Yandabo</span></a>
     </section>`;
     wireSaga();
+  }
+
+  function chapterPage(id) {
+    const e = ERA[id];
+    if (!e) return notFound("That chapter is not in the saga.", "#/", "See all chapters");
+    setTitle(e.title);
+    view.innerHTML = `<div class="reference"><nav class="crumbs"><a href="#/">All chapters</a></nav>${chapter(e, true)}
+      <p><a href="chapters/${e.id}/">Reference page and all chapter scenes</a></p>
+      <nav class="pager" aria-label="Read the saga">${e.n ? `<a href="#/saga/${A.eras[e.n-1].id}">← ${esc(A.eras[e.n-1].title)}</a>` : '<span></span>'}${e.n+1 < A.eras.length ? `<a href="#/saga/${A.eras[e.n+1].id}">${esc(A.eras[e.n+1].title)} →</a>` : '<a href="#/">Return to the beginning</a>'}</nav></div>`;
+  }
+
+  function sourceList(values) {
+    return values?.length ? `<details class="sources"><summary>Sources (${values.length})</summary><ul>${values.map(u => /^https?:/.test(u) ? `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(sourceLabel(u))}</a></li>` : `<li>${esc(u)}</li>`).join("")}</ul></details>` : '<p class="quiet">Sources have not yet been catalogued for this scene.</p>';
+  }
+
+  function scenePage(id) {
+    const s = S[id];
+    if (!s) return notFound("That scene is not in the archive.", "#/scenes", "Browse scenes");
+    setTitle(s.title);
+    const ordered = [...A.scenes].sort((a,b) => (a.year || 0)-(b.year || 0));
+    const i = ordered.indexOf(s);
+    const reels = A.reels.filter(r => r.scene === id);
+    view.innerHTML = `<article class="reference"><nav class="crumbs"><a href="#/scenes/${s.era}">${esc(ERA[s.era].title)}</a></nav><p>${esc(s.date)}</p><h1>${esc(s.title)}</h1>${sceneFigure(s,[id],"scene-l")}<p>${esc(s.summary)}</p><p class="quiet">${esc(s.notes)}</p>${sourceList(s.sources)}<p>Modern illustrated reconstruction.</p><div class="chips">${s.people.map(pid => `<a class="chip" href="#/person/${pid}">${esc(P[pid].name)}</a>`).join("")}</div><p><a href="scenes/${id.toLowerCase()}/">Reference page for sharing and citation</a></p>${reels.length ? `<h2>Watch this moment</h2><ul>${reels.map(r=>`<li><a href="#/films/${r.id}">${esc(r.title)}</a></li>`).join("")}</ul>` : ""}<nav class="pager" aria-label="Chronological scenes">${i ? `<a href="#/scene/${ordered[i-1].id}">← ${esc(ordered[i-1].title)}</a>` : '<span></span>'}${i+1<ordered.length ? `<a href="#/scene/${ordered[i+1].id}">${esc(ordered[i+1].title)} →</a>` : ""}</nav></article>`;
+  }
+
+  function reelCard(r) {
+    return `<li id="film-${r.id}"><button type="button" class="reel" data-reel="${r.id}" aria-label="Play ${esc(r.title)}"><span class="film-frame"><img src="${esc(r.poster)}" alt="Modern reconstructed scene: ${esc(r.title)}" loading="lazy" width="420" height="748"><span class="play" aria-hidden="true"></span></span></button><p class="scene-date">${esc(r.year)} · ${r.duration}s</p><h2>${esc(r.title)}</h2><details><summary>Read scene description</summary><p>${esc(r.description)}</p>${r.line ? `<p lang="as">${esc(r.line)}</p><p>${esc(r.translation)}</p><p class="quiet">Scripted dialogue; not a verified audio transcript.</p>` : ""}</details><p><a href="#/scene/${r.scene}">History and sources</a> · <a href="films/${r.id}/">Share film</a></p></li>`;
+  }
+
+  function films(params, id) {
+    setTitle("Short films");
+    view.innerHTML = `<section class="reference"><h1>${A.reels.length} short films</h1><p>Reconstructed moments from the chronicles, in historical order. Search for a person, place or event, and read each scene description for context without sound.</p><div class="library-filters"><label>Search films <input type="search" id="film-search" placeholder="A person, place or event" value="${esc(params.get('q') || '')}"></label><label>Chapter <select id="film-era"><option value="">All chapters</option>${A.eras.filter(e=>A.reels.some(r=>r.era===e.id)).map(e=>`<option value="${e.id}">${esc(e.title)}</option>`).join("")}</select></label></div><p id="film-count" aria-live="polite"></p><ul class="film-library" id="film-grid"></ul></section>`;
+    $('.library-filters').insertAdjacentHTML('beforebegin', '<p class="quiet">The CC menu offers English and Assamese scene context. These subtitles describe the moment; they do not transcribe the dialogue.</p>');
+    const q = $('#film-search'), era = $('#film-era'), grid = $('#film-grid');
+    era.value = params.get('era') || '';
+    function draw() {
+      const term=q.value.trim().toLowerCase();
+      const found=A.reels.filter(r=>(!era.value || r.era===era.value) && [r.title,r.year,r.description,...S[r.scene].people.map(pid=>[P[pid].name,P[pid].as].join(' '))].join(' ').toLowerCase().includes(term)).sort((a,b)=>(S[a.scene].year || 0)-(S[b.scene].year || 0));
+      grid.innerHTML=found.map(reelCard).join('') || '<li>No films match. Try another name or chapter.</li>';
+      $('#film-count').textContent=`${found.length} of ${A.reels.length} films`;
+    }
+    function filter() { draw(); const sp=new URLSearchParams(); if(q.value)sp.set('q',q.value);if(era.value)sp.set('era',era.value);history.replaceState(null,'','#/films'+(sp.size?'?'+sp:'')); }
+    q.addEventListener('input',filter);era.addEventListener('change',filter);draw();
+    if(id) { const target=$(`#film-${CSS.escape(id)}`);if(target)requestAnimationFrame(()=>{target.scrollIntoView();$('.reel',target).click();}); }
+  }
+
+  function explore(params) {
+    setTitle("Explore Ahom history");
+    const trail = A.trails.find(t=>t.id===params.get('trail'));
+    view.innerHTML = `<section class="reference"><h1>Explore the kingdom</h1><p>Follow a reading path, locate a place, or filter the historical timeline.</p><div class="trail-grid">${A.trails.map(t=>`<a class="trail-card" href="#/explore?trail=${t.id}"><h2>${esc(t.title)}</h2><p>${esc(t.summary)}</p><span>${t.scenes.length} scenes →</span></a>`).join('')}</div>${trail ? `<section><h2>${esc(trail.title)}</h2><p>${esc(trail.summary)}</p><ol class="reading-path">${trail.scenes.map(id=>`<li><a href="#/scene/${id}">${esc(S[id].date)} · ${esc(S[id].title)}</a></li>`).join('')}</ol><p><a href="trails/${trail.id}/">Share this reading path</a></p></section>` : ''}<h2>Places of the chronicles</h2><p>Click a place to find related scenes. This is a schematic guide, with approximate positions; it does not depict historical borders or exact distances.</p><div class="history-map"><svg viewBox="0 0 1000 500" aria-hidden="true"><path d="M60 410 Q220 300 390 310 T650 210 T970 60"/><text x="290" y="285">Brahmaputra</text></svg>${A.places.map(p=>`<button type="button" data-place="${p.id}" style="left:${p.x}%;top:${p.y}%" aria-pressed="false">${esc(p.name)}</button>`).join('')}</div><p id="place-note" aria-live="polite"></p><h2>Timeline of events</h2><div class="library-filters"><label>Search events <input id="event-search" type="search" placeholder="A battle, ruler or place"></label><label>Chapter <select id="event-era"><option value="">All chapters</option>${A.eras.map(e=>`<option value="${e.id}">${esc(e.title)}</option>`).join('')}</select></label><label>Person <select id="event-person"><option value="">Everyone</option>${Object.values(P).map(p=>`<option value="${p.id}">${esc(p.name)}</option>`).join('')}</select></label><label>From <input id="event-from" type="number" min="1215" max="1838" value="1215"></label><label>To <input id="event-to" type="number" min="1215" max="1838" value="1838"></label><button class="btn" type="button" id="event-reset">Reset filters</button></div><p id="event-count" aria-live="polite"></p><ol class="event-timeline" id="event-list"></ol></section>`;
+    let place = '';
+    const q=$('#event-search'), era=$('#event-era'), person=$('#event-person'), from=$('#event-from'), to=$('#event-to');
+    function draw() {
+      const p=A.places.find(p=>p.id===place), term=q.value.trim().toLowerCase();
+      const found=A.scenes.filter(s=>(!p||p.scenes.includes(s.id)) && (!era.value||s.era===era.value) && (!person.value||s.people.includes(person.value)) && (!s.year || s.year>=+from.value && s.year<=+to.value) && [s.title,s.summary,...s.people.map(id=>P[id].name)].join(' ').toLowerCase().includes(term)).sort((a,b)=>(a.year||0)-(b.year||0));
+      $('#event-list').innerHTML=found.map(s=>`<li><span>${esc(s.date)}</span><a href="#/scene/${s.id}">${esc(s.title)}</a></li>`).join('') || '<li>No matching events. Reset the filters to see the full timeline.</li>';
+      $('#event-count').textContent=`${found.length} events`;
+      $('#place-note').innerHTML=p ? `${esc(p.name)}: ${esc(p.note)} ${p.source ? `<a href="${esc(p.source)}" target="_blank" rel="noopener">Place reference</a>` : ''}` : '';
+      $$('[data-place]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.place===place)));
+    }
+    [q,era,person,from,to].forEach(el=>el.addEventListener('input',draw));
+    $$('[data-place]').forEach(b=>b.onclick=()=>{place=place===b.dataset.place?'':b.dataset.place;draw();});
+    $('#event-reset').onclick=()=>{place='';q.value='';era.value='';person.value='';from.value=1215;to.value=1838;draw();};
+    draw();
   }
 
   // the year in the rail follows the reader through each chapter
@@ -555,6 +619,9 @@
     $("#lb-title").textContent = s.title;
     $("#lb-summary").textContent = s.summary;
     $("#lb-notes").textContent = s.notes || "";
+    $("#lb-sources").innerHTML = sourceList(s.sources);
+    $("#lb-permalink").href = `#/scene/${s.id}`;
+    $("#lb-reference").href = `scenes/${s.id.toLowerCase()}/`;
     $("#lb-people").innerHTML = s.people.map(pid => `<a class="chip chip-person" href="#/person/${pid}">${arch(P[pid], "arch-xs")}${esc(P[pid].name)}</a>`).join("");
     $("#lb-versions").innerHTML = s.images.length > 1 ? s.images.map((im, k) => `<button type="button" data-v="${k}" aria-pressed="${k === lbVersion}">Version ${k + 1}</button>`).join("") : "";
     $("#lb-count").textContent = lbList.length > 1 ? `Scene ${lbAt + 1} of ${lbList.length}` : "";
@@ -578,6 +645,8 @@
   function stopOthers(except) { $$("video").forEach(v => { if (v !== except && !v.paused && !v.hasAttribute("data-auto")) v.pause(); }); }
 
   document.addEventListener("click", e => {
+    const skip = e.target.closest('.skip');
+    if(skip) { e.preventDefault(); view.focus(); view.scrollIntoView(); return; }
     const jumpTo = e.target.closest("[data-jump]");
     if (jumpTo) { const t = document.getElementById(jumpTo.dataset.jump); t.scrollIntoView({ behavior: calm ? "auto" : "smooth" }); return; }
 
@@ -600,7 +669,10 @@
       let v = frame.querySelector("video");
       if (!v) {
         v = document.createElement("video");
-        Object.assign(v, { src: `media/reels/${reel.dataset.reel}.mp4`, poster: `media/reels/${reel.dataset.reel}.webp`, playsInline: true, controls: true });
+        const r = A.reels.find(r => r.id === reel.dataset.reel);
+        Object.assign(v, { src: r.src, poster: r.poster, playsInline: true, controls: true });
+        v.setAttribute("aria-label", r.title);
+        (r.tracks || []).forEach(t => { const track=document.createElement('track');Object.assign(track,{kind:'subtitles',src:t.src,srclang:t.lang,label:t.label});v.append(track); });
         frame.querySelector("img").replaceWith(v);
         frame.querySelector(".play").remove();
         reel.replaceWith(frame);
@@ -608,7 +680,7 @@
       }
       $$(".sound[aria-pressed=true]").forEach(b => b.click());
       stopOthers(v);
-      v.play();
+      v.play().catch(() => {});
       v.addEventListener("play", () => stopOthers(v));
     }
   });
@@ -640,23 +712,27 @@
     const parts = path.split("/").filter(Boolean);
     const params = new URLSearchParams(query);
     const page = parts[0] || "saga";
-    const key = page === "saga" ? "saga" : `${page}/${parts[1] || ""}`;
+    const key = page === 'saga' ? 'saga' : `${page}/${parts[1] || ""}${page === 'explore' ? '?' + query : ''}`;
 
     if (lb.open) lb.close();
     if (current && current !== key) scrollMemory.set(current, scrollY);
-    const same = key === current;
+    const same = key === current && !['films','people','explore'].includes(page);
     if (!same) {
+      $$("video").forEach(v => v.pause());
       cleanup.forEach(f => f()); cleanup = [];
       if (page === "saga") home();
       else if (page === "kings") kings();
       else if (page === "people") people(params);
       else if (page === "person") person(parts[1]);
       else if (page === "scenes") scenes(parts[1]);
+      else if (page === "scene") scenePage(parts[1]);
+      else if (page === "films") films(params, parts[1]);
+      else if (page === "explore") explore(params);
       else notFound("That page is not part of this site.", "#/", "Go to the saga");
       current = key;
       watchFilms();
     }
-    $$("[data-nav]").forEach(a => a.toggleAttribute("aria-current", a.dataset.nav === (page === "person" ? "people" : page)));
+    $$("[data-nav]").forEach(a => a.toggleAttribute("aria-current", a.dataset.nav === (page === "person" ? "people" : page === 'scene' ? 'scenes' : page)));
     document.body.dataset.route = page === "saga" ? "home" : page;
 
     if (page === "saga" && parts[1] && ERA[parts[1]]) {
@@ -677,18 +753,16 @@
   function welcome() {
     const btn = $(".sound-toggle");
     if (!btn) return;
-    const a = new Audio("assets/welcome.mp3");
+    const a = new Audio();
+    a.preload = "none";
+    a.src = "assets/welcome.mp3";
     a.volume = 0.7;
     let on = false;
     const show = v => { on = v; btn.setAttribute("aria-pressed", String(v)); btn.textContent = v ? "Sound off" : "Sound on"; };
-    const begin = () => a.play().then(() => { show(true); detach(); }).catch(() => {});
-    const gesture = () => begin();
-    function detach() { removeEventListener("pointerdown", gesture); removeEventListener("keydown", gesture); }
+    const begin = () => { $$("video").forEach(v => { v.muted = true; }); return a.play().then(() => show(true)).catch(() => {}); };
     btn.addEventListener("click", () => { if (on) { a.pause(); show(false); } else { begin(); } });
     a.addEventListener("ended", () => show(false));
-    begin();
-    addEventListener("pointerdown", gesture, { once: false });
-    addEventListener("keydown", gesture, { once: false });
+    document.addEventListener('play', e => { if(e.target.tagName==='VIDEO' && !e.target.muted) { a.pause(); show(false); } }, true);
   }
   welcome();
 

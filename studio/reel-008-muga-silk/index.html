@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="as">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Ahom Recipe 007 · Muga</title>
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "SKBishal"; src: url("assets/fonts/skbishal.ttf") format("truetype"); }
+      @font-face { font-family: "Padmasetu"; src: url("assets/fonts/padmasetu.ttf") format("truetype"); }
+      @font-face { font-family: "Cormorant"; font-style: italic; font-weight: 600; src: url("assets/fonts/cormorant-600i.woff2") format("woff2"); }
+      :root { --cloth: #f5f0e6; --red: #b5121b; --ink: #23140d; --gold: #d9a441; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--cloth); }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: var(--cloth); }
+      .layer, .clip { position: absolute; inset: 0; }
+      #cloth { background: url("assets/tex/cloth.jpg") center / cover; }
+      #cam { position: absolute; inset: 0; }
+      #grain { background: url("assets/tex/grain.png") 0 0 / 512px 512px repeat; opacity: 0.18; mix-blend-mode: multiply; pointer-events: none; }
+      .band { position: absolute; left: 0; width: 1080px; overflow: hidden; }
+      .band .fill { position: absolute; inset: 0; background: var(--red); }
+      .band .motif { position: absolute; left: 0; height: 64px; width: 2160px; }
+      .band .thread { position: absolute; left: 0; right: 0; height: 4px; background: var(--cloth); }
+      #band-top { top: 0; height: 250px; }
+      #band-bot { bottom: 0; height: 236px; }
+      #series { position: absolute; left: 0; right: 0; top: 150px; text-align: center; font-family: "Padmasetu", serif; font-size: 36px; color: var(--cloth); }
+      .as { font-family: "SKBishal", serif; color: var(--ink); line-height: 1.1; white-space: nowrap; }
+      .red { color: var(--red); }
+      .en { font-family: "Cormorant", serif; font-style: italic; font-weight: 600; font-size: 44px; color: var(--ink); line-height: 1.2; text-align: center; }
+      .center { position: absolute; left: 50px; right: 50px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+      .sticker { display: inline-block; background: #fffaf0; border: 5px solid var(--ink); border-radius: 22px; padding: 10px 30px 0; box-shadow: 8px 8px 0 var(--ink); }
+      .sticker.redbg { background: var(--red); }
+      .sticker.redbg .as { color: #fffaf0; }
+      #card { position: absolute; left: 90px; right: 90px; top: 640px; height: 740px; background: #fffaf0; border: 6px solid var(--ink); border-radius: 36px; box-shadow: 16px 16px 0 var(--red); padding: 54px 56px; display: flex; flex-direction: column; gap: 26px; }
+      #card .tag { font-family: "Padmasetu", serif; font-size: 38px; color: var(--red); }
+      #card .row { display: flex; justify-content: space-between; align-items: center; border-top: 3px dashed rgba(35,20,13,0.35); padding-top: 22px; }
+      #card .k { font-family: "Padmasetu", serif; font-size: 42px; color: var(--ink); }
+      #card .v { font-family: "SKBishal", serif; font-size: 54px; color: var(--ink); }
+      #card .v.red { color: var(--red); }
+      #chips { position: absolute; left: 0; right: 0; top: 1545px; display: flex; justify-content: center; gap: 18px; }
+      #chips .chip { width: 40px; height: 40px; border-radius: 50%; border: 5px solid var(--ink); background: #fffaf0; }
+      #chips .chip .on { width: 100%; height: 100%; border-radius: 50%; background: var(--red); }
+      .step { position: absolute; left: 50px; right: 50px; top: 290px; display: flex; flex-direction: column; align-items: center; }
+      .step .as { font-size: 104px; }
+
+      /* hero: a golden ball of thread */
+      #ball { position: absolute; left: 340px; top: 820px; width: 400px; height: 400px; overflow: visible; }
+      #worm0 { position: absolute; left: 430px; top: 880px; width: 220px; height: 140px; overflow: visible; }
+      /* mechanic stage */
+      #stage { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: visible; }
+      /* woven cloth */
+      #swatch { position: absolute; left: 150px; top: 760px; width: 780px; height: 600px; border: 6px solid var(--ink); border-radius: 18px; overflow: hidden; background: #f3e6c4; }
+      #swatch .wrow { position: absolute; left: 0; right: 0; height: 24px; background: linear-gradient(180deg, #f2cf74, #c99a3c 60%, #e8bf5e); border-bottom: 2px solid rgba(120,80,20,0.35); transform-origin: 0 50%; }
+      #swatch .warp { position: absolute; inset: 0; background-image: repeating-linear-gradient(90deg, rgba(120,80,20,0.18) 0 2px, transparent 2px 12px); }
+      #swatch .border { position: absolute; left: 0; right: 0; height: 64px; transform-origin: 0 50%; }
+      #shine { position: absolute; inset: 0; background: linear-gradient(110deg, transparent 30%, rgba(255,255,255,0.75) 45%, transparent 60%); }
+      .bub { position: absolute; border-radius: 50%; border: 4px solid rgba(255,255,255,0.95); background: rgba(190,230,245,0.35); }
+      .spark { position: absolute; width: 60px; height: 60px; }
+
+      #plate { position: absolute; left: 70px; top: 560px; width: 940px; height: 660px; border: 14px solid #fffaf0; border-radius: 24px; box-shadow: 0 0 0 5px var(--ink), 18px 18px 0 5px var(--ink); overflow: hidden; background: var(--ink); }
+      #plate img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+      .credit { position: absolute; right: 80px; top: 1246px; font-family: "Cormorant", serif; font-style: italic; font-weight: 600; font-size: 26px; color: rgba(35,20,13,0.7); }
+      .cap { position: absolute; left: 0; right: 0; top: 1150px; display: flex; justify-content: center; }
+    </style>
+  </head>
+  <body>
+    <svg width="0" height="0" style="position:absolute">
+      <defs>
+        <pattern id="gm" x="0" y="0" width="120" height="64" patternUnits="userSpaceOnUse">
+          <rect width="120" height="64" fill="#b5121b" />
+          <path d="M60 6 L84 32 L60 58 L36 32 Z" fill="#f5f0e6" />
+          <path d="M60 18 L72 32 L60 46 L48 32 Z" fill="#b5121b" />
+          <rect x="57" y="29" width="6" height="6" fill="#f5f0e6" />
+          <path d="M0 64 L0 52 L8 52 L8 44 L16 44 L16 52 L24 52 L24 64 Z M96 64 L96 52 L104 52 L104 44 L112 44 L112 52 L120 52 L120 64 Z" fill="#f5f0e6" />
+          <path d="M0 0 L0 12 L8 12 L8 20 L16 20 L16 12 L24 12 L24 0 Z M96 0 L96 12 L104 12 L104 20 L112 20 L112 12 L120 12 L120 0 Z" fill="#f5f0e6" />
+        </pattern>
+        <!-- muga motif border: red lozenges on gold -->
+        <pattern id="mm" x="0" y="0" width="80" height="64" patternUnits="userSpaceOnUse">
+          <rect width="80" height="64" fill="#e2b555" />
+          <path d="M40 8 L60 32 L40 56 L20 32 Z" fill="#b5121b" />
+          <circle cx="40" cy="32" r="6" fill="#e2b555" />
+          <rect x="0" y="0" width="80" height="5" fill="#b5121b" /><rect x="0" y="59" width="80" height="5" fill="#b5121b" />
+        </pattern>
+        <radialGradient id="goldG" cx="35%" cy="30%" r="75%">
+          <stop offset="0" stop-color="#fff2b8" /><stop offset="0.45" stop-color="#e8b553" /><stop offset="1" stop-color="#9a6516" />
+        </radialGradient>
+        <linearGradient id="wormG" x1="0" x2="0" y1="0" y2="1">
+          <stop offset="0" stop-color="#9fd86a" /><stop offset="1" stop-color="#4f9a3f" />
+        </linearGradient>
+        <symbol id="spark" viewBox="0 0 60 60"><path d="M30 0 L36 24 L60 30 L36 36 L30 60 L24 36 L0 30 L24 24 Z" fill="#fff6c8" stroke="#c99a3c" stroke-width="3" /></symbol>
+      </defs>
+    </svg>
+
+    <div id="root" data-composition-id="main" data-start="0" data-duration="16" data-width="1080" data-height="1920">
+      <audio id="master" src="assets/audio/master.wav" data-start="0" data-duration="16" data-track-index="9" data-volume="1"></audio>
+      <div id="cloth" class="layer clip" data-start="0" data-duration="16" data-track-index="0"></div>
+
+      <div id="cam">
+        <!-- HERO + mechanic drawing, alive all reel -->
+        <div id="hero" class="clip" data-start="0" data-duration="16" data-track-index="1">
+          <svg id="stage" viewBox="0 0 1080 1920">
+            <!-- som branch with leaves -->
+            <g id="branch">
+              <path d="M60 1180 C300 1120 520 1150 760 1080 C860 1050 940 1060 1020 1040" stroke="#6b4423" stroke-width="22" fill="none" stroke-linecap="round" />
+              <path d="M60 1180 C300 1120 520 1150 760 1080 C860 1050 940 1060 1020 1040" stroke="#8b5a2b" stroke-width="12" fill="none" stroke-linecap="round" />
+              <g id="leaves"></g>
+            </g>
+            <!-- the worm (segments generated) -->
+            <g id="worm"></g>
+            <!-- cocoon -->
+            <g id="cocoon">
+              <ellipse cx="560" cy="1040" rx="110" ry="160" fill="url(#goldG)" stroke="#23140d" stroke-width="7" />
+              <g id="wraps"></g>
+              <path d="M560 880 L560 820" stroke="#c99a3c" stroke-width="5" />
+            </g>
+            <!-- reeling: thread from cocoon to a spool -->
+            <path id="reelthread" d="M650 1000 C760 900 820 880 900 900" stroke="#e8b553" stroke-width="7" fill="none" stroke-linecap="round" />
+            <g id="spool">
+              <rect x="860" y="840" width="90" height="140" rx="10" fill="#8b5a2b" stroke="#23140d" stroke-width="6" />
+              <rect id="spoolthread" x="868" y="868" width="74" height="84" fill="#e8b553" stroke="#c99a3c" stroke-width="3" />
+            </g>
+          </svg>
+          <div id="swatch">
+            <div id="rows"></div>
+            <div class="warp"></div>
+            <svg class="border" id="bord" style="top:520px" width="780" height="64"><rect width="780" height="64" fill="url(#mm)" /></svg>
+            <div id="shine"></div>
+          </div>
+          <div id="fx" class="layer"></div>
+          <!-- golden thread ball: frame 0 and the last frame -->
+          <svg id="ball" viewBox="0 0 400 400">
+            <ellipse cx="200" cy="380" rx="140" ry="16" fill="rgba(35,20,13,0.2)" />
+            <circle cx="200" cy="190" r="170" fill="url(#goldG)" stroke="#23140d" stroke-width="8" />
+            <g fill="none" stroke="#a8721f" stroke-width="5" stroke-linecap="round" opacity="0.8">
+              <path d="M60 120 C140 60 280 80 340 160" /><path d="M40 200 C120 120 300 130 360 230" /><path d="M60 280 C150 200 290 210 330 300" />
+              <path d="M120 40 C80 140 100 280 170 350" /><path d="M220 24 C170 120 180 260 260 350" />
+            </g>
+            <path d="M110 110 C130 80 170 62 210 58" stroke="#fff8d8" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.85" />
+            <path d="M330 270 C370 300 380 340 360 372" stroke="#e8b553" stroke-width="7" fill="none" stroke-linecap="round" />
+          </svg>
+          <!-- the worm that pops out of the ball in the hook -->
+          <svg id="worm0" viewBox="0 0 220 140">
+            <g id="w0"></g>
+          </svg>
+        </div>
+
+        <!-- ===== S0 HOOK 0–1.0 ===== -->
+        <section id="s0" class="clip" data-start="0" data-duration="1" data-track-index="2">
+          <div class="center" style="top:290px">
+            <div class="as red" id="s0-word" style="font-size:180px; line-height:1">সোণ নহয়।</div>
+            <div class="as" id="s0-l2" style="font-size:100px; margin-top:14px">এটা পোকৰ কাম।</div>
+          </div>
+          <div class="center" style="top:1440px"><div class="en" id="s0-en">Not gold. A worm made this.</div></div>
+        </section>
+
+        <!-- ===== S1 CARD 1.0–2.5 ===== -->
+        <section id="s1" class="clip" data-start="1" data-duration="1.5" data-track-index="2">
+          <div class="layer" style="background:url('assets/tex/cloth.jpg') center / cover"></div>
+          <div class="center" style="top:300px">
+            <div class="as" style="font-size:96px">আহোম যুগৰ</div>
+            <div class="as red" style="font-size:98px">সোণালী কাপোৰৰ ৰেচিপি</div>
+          </div>
+          <div id="card">
+            <div class="tag">ৰেচিপি · ০০৭</div>
+            <div class="row"><span class="k">পোক</span><span class="v">মুগা</span></div>
+            <div class="row"><span class="k">খাদ্য</span><span class="v">চম আৰু চোৱালু পাত</span></div>
+            <div class="row"><span class="k">ৰং</span><span class="v">প্ৰাকৃতিক সোণালী</span></div>
+            <div class="row"><span class="k">জি আই টেগ</span><span class="v red">২০০৭</span></div>
+            <div class="en" style="font-size:38px; margin-top:6px">Muga silk: naturally golden, from Assam's own silkworm.</div>
+          </div>
+        </section>
+
+        <!-- ===== S2 MECHANIC 2.5–8.0 : leaf → worm → cocoon → thread → cloth ===== -->
+        <section id="s2" class="clip" data-start="2.5" data-duration="5.5" data-track-index="2">
+          <div class="step" id="st1"><div class="as">চম গছৰ</div><div class="as red">পাত</div></div>
+          <div class="step" id="st2"><div class="as">পোকে খায়,</div><div class="as red">ডাঙৰ হয়</div></div>
+          <div class="step" id="st3"><div class="as">নিজকে মেৰাই</div><div class="as red">কোষ বান্ধে</div></div>
+          <div class="step" id="st4"><div class="as">কোষৰ পৰা</div><div class="as red">সূতা</div></div>
+          <div class="step" id="st5"><div class="as">তাঁতত</div><div class="as red">বোৱা</div></div>
+          <div class="step" id="st6"><div class="sticker redbg" style="transform:rotate(-4deg)"><div class="as" style="font-size:130px">সোণালী মুগা!</div></div></div>
+          <div id="chips">
+            <div class="chip"><div class="on" id="c1"></div></div>
+            <div class="chip"><div class="on" id="c2"></div></div>
+            <div class="chip"><div class="on" id="c3"></div></div>
+            <div class="chip"><div class="on" id="c4"></div></div>
+            <div class="chip"><div class="on" id="c5"></div></div>
+          </div>
+        </section>
+
+        <!-- ===== S3 REVEAL 8.0–13.0 : real photos on the beat ===== -->
+        <section id="s3" class="clip" data-start="8" data-duration="5" data-track-index="2">
+          <div class="layer" style="background:url('assets/tex/cloth.jpg') center / cover"></div>
+          <div class="center" style="top:300px">
+            <div class="sticker" id="s3-title" style="transform:rotate(-3deg)"><div class="as red" style="font-size:110px">সঁচা মুগা</div></div>
+            <div class="en" id="s3-sub" style="margin-top:20px">Real photos · Assam</div>
+          </div>
+          <div id="plate">
+            <img src="assets/img/worm.jpg" id="p1" alt="" />
+            <img src="assets/img/cocoon.jpg" id="p2" alt="" />
+            <img src="assets/img/process.jpg" id="p3" alt="" />
+            <img src="assets/img/mekhela.jpg" id="p4" style="object-position:50% 70%" alt="" />
+          </div>
+          <div class="cap" id="cap1"><div class="sticker redbg" style="transform:rotate(-4deg)"><div class="as" style="font-size:64px">চম গছত মুগা পোক</div></div></div>
+          <div class="cap" id="cap2"><div class="sticker redbg" style="transform:rotate(3deg)"><div class="as" style="font-size:64px">কোষ</div></div></div>
+          <div class="cap" id="cap3"><div class="sticker redbg" style="transform:rotate(-3deg)"><div class="as" style="font-size:64px">সূতা কটা</div></div></div>
+          <div class="cap" id="cap4"><div class="sticker redbg" style="transform:rotate(3deg)"><div class="as" style="font-size:64px">মেখেলা-চাদৰ</div></div></div>
+          <div class="credit" id="credit">Photo: Satyakamd, Wikimedia Commons, public domain</div>
+          <div class="center" id="s3-a" style="top:1300px">
+            <div class="as" style="font-size:66px">আহোম ৰজাই ৰাখিছিল</div>
+            <div style="display:flex; gap:28px; align-items:baseline"><div class="as red" id="weav" style="font-size:120px; width:250px; text-align:right">০</div><div class="as red" style="font-size:96px">জন তাঁতী</div></div>
+          </div>
+        </section>
+
+        <!-- ===== S4 END 13.0–16.0 : washed, it shines more (as is said) → unravels into the ball (loop) ===== -->
+        <section id="s4" class="clip" data-start="13" data-duration="3" data-track-index="2">
+          <div class="center" id="s4-a" style="top:290px">
+            <div class="as" style="font-size:96px">কোৱা হয়, ধুলে</div>
+            <div class="as red" style="font-size:140px">আৰু উজলে!</div>
+          </div>
+          <div class="center" id="s4-en" style="top:1440px"><div class="en" style="font-size:38px">It's said muga's lustre grows with every wash.</div></div>
+          <div class="center" id="s4-b" style="top:290px">
+            <div class="as red" id="s4-word" style="font-size:180px; line-height:1">সোণ নহয়।</div>
+          </div>
+        </section>
+      </div>
+
+      <div id="bands" class="layer clip" data-start="0" data-duration="16" data-track-index="3">
+        <div class="band" id="band-top">
+          <div class="fill"></div>
+          <svg class="motif" id="motif-top" style="top:40px" viewBox="0 0 2160 64"><rect width="2160" height="64" fill="url(#gm)" /></svg>
+          <div class="thread" style="top:118px"></div>
+          <div id="series">আহোমৰ ৰেচিপি · ০০৭</div>
+          <div class="thread" style="top:236px; height:3px"></div>
+        </div>
+        <div class="band" id="band-bot">
+          <div class="fill"></div>
+          <div class="thread" style="top:14px; height:3px"></div>
+          <svg class="motif" id="motif-bot" style="top:60px" viewBox="0 0 2160 64"><rect width="2160" height="64" fill="url(#gm)" /></svg>
+        </div>
+      </div>
+      <div id="grain" class="layer clip" data-start="0" data-duration="16" data-track-index="4"></div>
+    </div>
+
+    <script>
+      const BN = ["০","১","২","৩","৪","৫","৬","৭","৮","৯"];
+      const bn = (n) => String(n).split("").map((c) => (c >= "0" && c <= "9" ? BN[+c] : c)).join("");
+      let seed = 2007;
+      const rnd = () => ((seed = (seed * 16807) % 2147483647) - 1) / 2147483646;
+      const NS = "http://www.w3.org/2000/svg";
+      const mk = (tag, attrs, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent.appendChild(e); return e; };
+
+      // som leaves along the branch
+      const leafG = document.getElementById("leaves");
+      const leafPos = [[220, 1140, -30], [380, 1130, 25], [520, 1135, -20], [680, 1095, 30], [830, 1060, -25], [960, 1045, 20]];
+      const leaves = leafPos.map(([x, y, r]) => {
+        const g = mk("g", { transform: `translate(${x} ${y}) rotate(${r})` }, leafG);
+        const inner = mk("g", {}, g);
+        mk("path", { d: "M0 0 C30 -70 90 -90 120 -60 C90 -10 40 10 0 0 Z", fill: "#4f9a3f", stroke: "#23140d", "stroke-width": 5, "stroke-linejoin": "round" }, inner);
+        mk("path", { d: "M8 -4 C40 -40 80 -60 112 -58", stroke: "#9fd86a", "stroke-width": 4, fill: "none" }, inner);
+        return inner;
+      });
+      // worm: 7 segments
+      function buildWorm(parent, x0, y0, seg = 26) {
+        const segs = [];
+        for (let i = 0; i < 7; i++) {
+          const c = mk("circle", { cx: x0 + i * seg * 0.85, cy: y0, r: seg * (i === 6 ? 0.95 : 0.8), fill: "url(#wormG)", stroke: "#23140d", "stroke-width": 4 }, parent);
+          segs.push(c);
+          if (i % 2 === 0) mk("circle", { cx: x0 + i * seg * 0.85, cy: y0 - seg * 0.55, r: 3.5, fill: "#b5121b" }, parent);
+        }
+        mk("circle", { cx: x0 + 6 * seg * 0.85 + 8, cy: y0 - 6, r: 4.5, fill: "#23140d" }, parent);
+        return segs;
+      }
+      const wormG = document.getElementById("worm");
+      buildWorm(wormG, 140, 1126, 28);
+      buildWorm(document.getElementById("w0"), 30, 90, 22);
+      // cocoon wraps (silk strands), drawn one by one
+      const wraps = document.getElementById("wraps");
+      const wrapEls = [];
+      for (let k = 0; k < 8; k++) {
+        const y = 920 + k * 32;
+        const w = mk("path", { d: `M455 ${y + 20} C520 ${y - 30} 600 ${y - 30} 665 ${y + 20}`, stroke: "#fff1b0", "stroke-width": 6, fill: "none", "stroke-linecap": "round" }, wraps);
+        wrapEls.push(w);
+      }
+      // cloth rows
+      const rowsEl = document.getElementById("rows");
+      const rows = [];
+      for (let k = 0; k < 22; k++) {
+        const r = document.createElement("div");
+        r.className = "wrow";
+        r.style.top = k * 24 - 8 + "px";
+        rowsEl.appendChild(r);
+        rows.push(r);
+      }
+      // bubbles + sparkles for the wash
+      const fx = document.getElementById("fx");
+      const bubbles = [], sparks = [];
+      for (let i = 0; i < 14; i++) {
+        const b = document.createElement("div"); b.className = "bub";
+        const s = 30 + rnd() * 60;
+        b.style.cssText += `left:${170 + rnd() * 740}px; top:${800 + rnd() * 520}px; width:${s}px; height:${s}px;`;
+        fx.appendChild(b); bubbles.push(b);
+      }
+      for (let i = 0; i < 9; i++) {
+        const s = document.createElementNS(NS, "svg");
+        s.setAttribute("class", "spark"); s.setAttribute("viewBox", "0 0 60 60");
+        s.style.left = 190 + (i % 3) * 300 + rnd() * 80 + "px"; s.style.top = 790 + Math.floor(i / 3) * 190 + rnd() * 60 + "px";
+        mk("use", { href: "#spark", width: 60, height: 60 }, s);
+        fx.appendChild(s); sparks.push(s);
+      }
+
+      // ---------- timeline ----------
+      const tl = gsap.timeline({ paused: true });
+      function shake(t, p = 14, len = 0.3) {
+        const s = [[1, -0.7], [-0.8, 0.8], [0.5, -0.4], [-0.3, 0.3], [0, 0]];
+        s.forEach(([x, y], i) => tl.to("#cam", { x: x * p * (1 - i / s.length), y: y * p * (1 - i / s.length), duration: len / s.length, ease: "none" }, t + (i * len) / s.length));
+      }
+      function slam(sel, t, from = 1.7, rot = -5) {
+        tl.fromTo(sel, { scale: from, opacity: 0, rotation: rot }, { scale: 1, opacity: 1, rotation: 0, duration: 0.12, ease: "power4.in", immediateRender: false }, t);
+      }
+      tl.fromTo("#motif-top", { x: 0 }, { x: -1080, duration: 16, ease: "none" }, 0);
+      tl.fromTo("#motif-bot", { x: -1080 }, { x: 0, duration: 16, ease: "none" }, 0);
+      tl.fromTo("#grain", { backgroundPosition: "0px 0px" }, { backgroundPosition: "512px 1024px", duration: 16, ease: "steps(192)" }, 0);
+
+      // frame-0 state: only the golden ball
+      tl.set("#ball", { opacity: 1, scale: 1, rotation: 0, transformOrigin: "50% 50%" }, 0);
+      tl.set("#worm0", { opacity: 0 }, 0);
+      tl.set("#s0-l2", { opacity: 0 }, 0);
+      tl.set("#branch, #worm, #cocoon, #reelthread, #spool, #swatch", { opacity: 0 }, 0);
+      tl.set(leaves, { scale: 0, transformOrigin: "0% 100%" }, 0);
+      tl.set(wrapEls, { opacity: 0 }, 0);
+      tl.set(rows, { scaleX: 0 }, 0);
+      tl.set("#bord", { scaleX: 0 }, 0);
+      tl.set("#shine", { x: -900 }, 0);
+      tl.set(bubbles.concat(sparks), { opacity: 0, scale: 0 }, 0);
+      tl.set(".step", { opacity: 0 }, 0);
+      tl.set(".chip .on", { scale: 0 }, 0);
+      tl.set("#s4-b", { opacity: 0 }, 0);
+
+      // ===== S0: not gold… a worm pops out =====
+      tl.fromTo("#s0-word", { scale: 1.06 }, { scale: 1, duration: 0.25, ease: "power2.out" }, 0);
+      tl.to("#ball", { rotation: -8, duration: 0.1, yoyo: true, repeat: 3, ease: "sine.inOut" }, 0.0);
+      tl.fromTo("#worm0", { opacity: 1, y: 60, scale: 0.3, transformOrigin: "20% 80%" }, { y: -40, scale: 1, duration: 0.0667, ease: "power2.out", immediateRender: false }, 0.42);
+      tl.to("#worm0", { y: -30, rotation: 8, duration: 0.12, yoyo: true, repeat: 3, ease: "sine.inOut" }, 0.5);
+      slam("#s0-l2", 0.42, 1.6, 3);
+      shake(0.48, 12);
+      tl.fromTo("#s0-en", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.2 }, 0.55);
+      tl.to("#s0-word", { scale: 1.12, duration: 0.09, yoyo: true, repeat: 1 }, 0.78);
+      tl.set("#ball, #worm0", { opacity: 0 }, 1.0);
+
+      // ===== S1 card =====
+      tl.fromTo("#s1 .center", { y: -40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.2, ease: "back.out(2)" }, 1.0);
+      tl.fromTo("#card", { y: 900, rotation: 6 }, { y: 0, rotation: -1.5, duration: 0.28, ease: "back.out(1.4)" }, 1.0);
+      tl.fromTo("#card .row", { x: 80, opacity: 0, scale: 1.1 }, { x: 0, opacity: 1, scale: 1, duration: 0.14, stagger: 0.2, ease: "back.out(2)" }, 1.25);
+      tl.to("#card", { rotation: 1.5, duration: 0.6, ease: "sine.inOut" }, 1.9);
+
+      // ===== S2 mechanic =====
+      const stepT = [2.5, 3.0, 4.0, 4.75, 5.75, 7.5];
+      stepT.forEach((t, i) => {
+        slam("#st" + (i + 1), t, 1.5, i % 2 ? 4 : -4);
+        if (i > 0) tl.to("#st" + i, { opacity: 0, duration: 0.05 }, t);
+        if (i < 5) tl.to("#c" + (i + 1), { scale: 1, duration: 0.18, ease: "back.out(3)" }, t + 0.08);
+      });
+      // 1 · branch + leaves sprout on eighths
+      tl.set("#branch", { opacity: 1 }, 2.5);
+      leaves.forEach((l, k) => tl.to(l, { scale: 1, duration: 0.0667, ease: "back.out(3)" }, 2.5 + k * 0.083));
+      // 2 · worm crawls in, takes bites (leaves shrink), grows each bite
+      tl.fromTo("#worm", { opacity: 1, x: -300 }, { x: 0, duration: 0.25, ease: "power2.out", immediateRender: false }, 3.0);
+      [3.25, 3.5, 3.75].forEach((t, k) => {
+        tl.to(leaves[k + 1], { scale: 0.45 - k * 0.1, duration: 0.0667 }, t);
+        tl.to("#worm", { scale: 1.12 + k * 0.12, svgOrigin: "140 1126", duration: 0.0667, ease: "back.out(3)" }, t);
+        tl.to("#worm", { y: -10, duration: 0.06, yoyo: true, repeat: 1 }, t);
+      });
+      // 3 · spins a cocoon: wraps on sixteenths, then the golden cocoon closes over it
+      tl.to("#worm", { x: 300, y: -60, scale: 1.4, duration: 0.2, ease: "power2.inOut" }, 4.0);
+      tl.to("#branch", { opacity: 0.25, duration: 0.2 }, 4.0);
+      tl.set("#cocoon", { opacity: 1 }, 4.2);
+      tl.fromTo("#cocoon", { scale: 0.3, svgOrigin: "560 1040" }, { scale: 1, duration: 0.0667, ease: "back.out(2)", immediateRender: false }, 4.2);
+      tl.set("#worm", { opacity: 0 }, 4.25);
+      wrapEls.forEach((w, k) => tl.fromTo(w, { opacity: 1, strokeDasharray: 260, strokeDashoffset: 260 }, { strokeDashoffset: 0, duration: 0.0667, immediateRender: false }, 4.25 + k * 0.0625));
+      // 4 · reel the thread: cocoon spins and shrinks, thread winds onto the spool
+      tl.set("#reelthread, #spool", { opacity: 1 }, 4.75);
+      tl.fromTo("#reelthread", { strokeDasharray: 400, strokeDashoffset: 400 }, { strokeDashoffset: 0, duration: 0.2, immediateRender: false }, 4.75);
+      tl.to("#cocoon", { rotation: 720, scale: 0.3, duration: 1.0, ease: "power1.in", svgOrigin: "560 1040" }, 4.85);
+      tl.fromTo("#spoolthread", { scaleY: 0.1, transformOrigin: "50% 50%" }, { scaleY: 1, duration: 1.0, ease: "power1.in", immediateRender: false }, 4.85);
+      tl.to("#spool", { y: -6, duration: 0.0625, yoyo: true, repeat: 15 }, 4.75);
+      // 5 · weave: rows shoot across on sixteenths, then the red muga border
+      tl.to("#cocoon, #reelthread, #spool, #branch", { opacity: 0, duration: 0.12 }, 5.75);
+      tl.set("#swatch", { opacity: 1 }, 5.75);
+      rows.forEach((r, k) => tl.to(r, { scaleX: 1, duration: 0.0667, ease: "power2.out" }, 5.8 + k * 0.0625));
+      tl.to("#bord", { scaleX: 1, duration: 0.15, ease: "power3.out" }, 7.2);
+      shake(7.35, 10);
+      tl.to("#shine", { x: 900, duration: 0.45, ease: "power2.inOut" }, 7.5);
+      slam("#st6", 7.5, 1.8, -8);
+      shake(7.55, 14);
+      tl.to("#swatch", { scale: 1.04, duration: 0.12, yoyo: true, repeat: 1 }, 7.6);
+
+      // ===== S3 reveal: four real photos, one per bar-beat =====
+      tl.set("#p2, #p3, #p4, #cap2, #cap3, #cap4, #s3-a", { opacity: 0 }, 0);
+      tl.fromTo("#plate", { clipPath: "circle(0% at 50% 50%)" }, { clipPath: "circle(80% at 50% 50%)", duration: 0.3, ease: "power3.out" }, 8.0);
+      shake(8.02, 22, 0.35);
+      slam("#s3-title", 8.1, 1.8, -8);
+      tl.fromTo("#s3-sub", { opacity: 0 }, { opacity: 1, duration: 0.2 }, 8.3);
+      const creditEl = document.getElementById("credit");
+      const credits = [
+        "Photo: Satyakamd, Wikimedia Commons, public domain",
+        "Photo: Nayan j Nath, Wikimedia Commons, CC BY-SA 4.0",
+        "Photo: Mayurimdas, Wikimedia Commons, CC BY-SA 4.0",
+        "Photo: I-Weave Silk Handloom, Wikimedia Commons, CC BY-SA 4.0",
+      ];
+      [8.0, 9.0, 10.0, 11.0].forEach((t, i) => {
+        const p = "#p" + (i + 1);
+        if (i > 0) {
+          tl.set(p, { opacity: 1 }, t);
+          tl.set("#p" + i, { opacity: 0 }, t + 0.0667);
+          tl.to("#cap" + i, { opacity: 0, duration: 0.05 }, t);
+          shake(t, 10);
+        }
+        tl.fromTo(p, { scale: 1.3 }, { scale: 1.05, duration: 0.3, ease: "power3.out", immediateRender: false }, t);
+        tl.to(p, { scale: 1.15, duration: 0.65, ease: "none" }, t + 0.3);
+        slam("#cap" + (i + 1), t + 0.2, 1.8, i % 2 ? 8 : -8);
+        tl.set(creditEl, { textContent: credits[i] }, t);
+      });
+      // the Ahom court kept a thousand muga producers & weavers (Naoboicha Phukanar Buranji)
+      tl.fromTo("#s3-a", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.15, ease: "back.out(2)", immediateRender: false }, 11.6);
+      const wv = { v: 0 }; const weavEl = document.getElementById("weav");
+      tl.fromTo(wv, { v: 0 }, { v: 1000, duration: 0.6, ease: "power2.out", immediateRender: false, onUpdate: () => { weavEl.textContent = bn(Math.round(wv.v)); } }, 11.75);
+      tl.to("#weav", { scale: 1.25, duration: 0.09, yoyo: true, repeat: 1 }, 12.35);
+      shake(12.37, 12);
+      tl.to("#p4", { scale: 1.3, duration: 1.0, ease: "none" }, 12.0);
+
+      // ===== S4 end: wash → sparkle on beats → cloth unravels into the golden ball (loop) =====
+      tl.set("#swatch", { opacity: 1, scale: 1 }, 13.0);
+      tl.set("#shine", { x: -900 }, 13.0);
+      tl.fromTo("#s4-a", { opacity: 0, scale: 1.2 }, { opacity: 1, scale: 1, duration: 0.15, ease: "power3.out" }, 13.0);
+      tl.fromTo("#s4-en", { opacity: 0 }, { opacity: 1, duration: 0.15 }, 13.2);
+      bubbles.forEach((b, i) => {
+        tl.fromTo(b, { opacity: 1, scale: 0, y: 0 }, { scale: 1, y: -60 - (i % 4) * 20, duration: 0.3, ease: "back.out(2)", immediateRender: false }, 13.1 + i * 0.03);
+        tl.to(b, { opacity: 0, scale: 1.4, duration: 0.15 }, 13.55 + (i % 5) * 0.04);
+      });
+      [13.75, 14.0, 14.25].forEach((t, k) => {
+        tl.fromTo("#shine", { x: -900 }, { x: 900, duration: 0.24, ease: "power2.inOut", immediateRender: false }, t);
+        sparks.forEach((s, i) => { if (i % 3 === k) tl.fromTo(s, { opacity: 1, scale: 0, rotation: 0 }, { scale: 1.2, rotation: 90, duration: 0.0667, ease: "back.out(3)", immediateRender: false }, t); });
+        sparks.forEach((s, i) => { if (i % 3 === k) tl.to(s, { opacity: 0, scale: 0.4, duration: 0.2 }, t + 0.15); });
+      });
+      tl.to(["#s4-a", "#s4-en"], { opacity: 0, duration: 0.12 }, 14.5);
+      // unravel: rows pull back right-to-left, fast, then the ball winds up
+      rows.slice().reverse().forEach((r, k) => tl.to(r, { scaleX: 0, transformOrigin: "100% 50%", duration: 0.05 }, 14.5 + k * 0.02));
+      tl.to("#bord", { scaleX: 0, transformOrigin: "100% 50%", duration: 0.1 }, 14.5);
+      tl.set("#swatch", { opacity: 0 }, 15.0);
+      tl.set("#ball", { opacity: 1 }, 15.0);
+      tl.fromTo("#ball", { scale: 0.1, rotation: -540 }, { scale: 1, rotation: 0, duration: 0.35, ease: "back.out(1.6)", immediateRender: false }, 15.0);
+      tl.set("#s4-b", { opacity: 1 }, 15.2);
+      tl.fromTo("#s4-b", { y: -20 }, { y: 0, duration: 0.18, immediateRender: false }, 15.2);
+      tl.fromTo("#s4-word", { scale: 1.06 }, { scale: 1.06, duration: 0.01 }, 15.98);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

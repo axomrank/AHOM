@@ -18,7 +18,9 @@ Live at https://axomrank.github.io/AHOM/
 | `media/faces/` | Face portraits cut from the character sheets (generated) |
 | `media/reels/` | The short films, compressed, each with a poster frame |
 | `research/` | Research notes per person and per batch, and the reel scripts |
-| `tools/` | The two scripts below |
+| `tools/` | Content generation, reel preparation, validation and deployment packaging |
+| `chapters/`, `people/`, `scenes/`, `films/`, `trails/` | Generated, crawlable reference pages with metadata and sources |
+| `data/explore.json` | Reading paths and the schematic places guide |
 
 `archive/` (originals, full-size reels, backups) and `incoming/` stay on your computer and are not in git.
 
@@ -27,6 +29,23 @@ Live at https://axomrank.github.io/AHOM/
 1. Edit `data/ahom.csv` (people, scenes, images) or `data/eras.json` (the saga chapters).
 2. If you added a character sheet, cut its face portrait: `python3 tools/make_faces.py`
 3. Rebuild the data: `python3 tools/build.py`
+
+Install the build dependency with `python3 -m pip install -r requirements.txt`.
+Run `python3 tools/verify_site.py` before publishing. Pages deployment runs both commands
+and stages only public assets with `python3 tools/package_site.py _site`.
+
+The film library has 49 distinct shots: the original 27 and 22 additional clips in
+`media/reels/clean2/`. The 21 files in `Clean/` are alternate encodes or shorter cuts,
+not additional shots. `research/reel-inventory.json` records every file and selection.
+`python3 tools/prepare_reels.py` regenerates the editorial reel catalogue and posters
+(requires ffmpeg/ffprobe); then run the regular content build. This leaves footage intact.
+
+All 49 films have optional English and Assamese context subtitles, written scene
+descriptions and links to historical context. The subtitles describe the scene;
+they do not transcribe speech. `data/reel-context.json` holds the Assamese titles.
+Existing scripted Assamese lines and English translations are labelled as scripts, not audio
+transcripts. Verified speech captions are still needed; do not derive them from prompts.
+The places guide is schematic and does not claim precise coordinates or historical borders.
 
 The build stops and lists the problem if a row names an unknown person or an image file that is missing.
 

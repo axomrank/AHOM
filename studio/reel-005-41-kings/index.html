@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="as">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Ahom Recipe 004 · 41 Reigns</title>
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "SKBishal"; src: url("assets/fonts/skbishal.ttf") format("truetype"); }
+      @font-face { font-family: "Padmasetu"; src: url("assets/fonts/padmasetu.ttf") format("truetype"); }
+      @font-face { font-family: "Cormorant"; font-style: italic; font-weight: 600; src: url("assets/fonts/cormorant-600i.woff2") format("woff2"); }
+      @font-face { font-family: "Cormorant"; font-style: normal; font-weight: 700; src: url("assets/fonts/cormorant-700.woff2") format("woff2"); }
+      :root { --cloth: #f5f0e6; --red: #b5121b; --ink: #23140d; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--cloth); }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: var(--cloth); }
+      .layer, .clip { position: absolute; inset: 0; }
+      #cloth { background: url("assets/tex/cloth.jpg") center / cover; }
+      #cam { position: absolute; inset: 0; }
+      #grain { background: url("assets/tex/grain.png") 0 0 / 512px 512px repeat; opacity: 0.18; mix-blend-mode: multiply; pointer-events: none; }
+
+      .band { position: absolute; left: 0; width: 1080px; overflow: hidden; }
+      .band .fill { position: absolute; inset: 0; background: var(--red); }
+      .band .motif { position: absolute; left: 0; height: 64px; width: 2160px; }
+      .band .thread { position: absolute; left: 0; right: 0; height: 4px; background: var(--cloth); }
+      #band-top { top: 0; height: 250px; }
+      #band-bot { bottom: 0; height: 236px; }
+      #series { position: absolute; left: 0; right: 0; top: 150px; text-align: center; font-family: "Padmasetu", serif; font-size: 36px; color: var(--cloth); }
+
+      .as { font-family: "SKBishal", serif; color: var(--ink); line-height: 1.1; white-space: nowrap; }
+      .red { color: var(--red); }
+      .en { font-family: "Cormorant", serif; font-style: italic; font-weight: 600; font-size: 44px; color: var(--ink); line-height: 1.2; text-align: center; }
+      .center { position: absolute; left: 50px; right: 50px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+      .sticker { display: inline-block; background: #fffaf0; border: 5px solid var(--ink); border-radius: 22px; padding: 10px 30px 0; box-shadow: 8px 8px 0 var(--ink); }
+      .sticker.redbg { background: var(--red); }
+      .sticker.redbg .as { color: #fffaf0; }
+
+      /* king cards */
+      #deck { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+      .card {
+        position: absolute; left: 240px; top: 640px; width: 600px; height: 780px;
+        background: #fffaf0; border: 6px solid var(--ink); border-radius: 26px; box-shadow: 14px 14px 0 var(--ink);
+        padding: 26px; display: flex; flex-direction: column; align-items: center;
+      }
+      .card img { width: 536px; height: 536px; object-fit: cover; border: 5px solid var(--ink); border-radius: 14px; display: block; background: #ddd; }
+      .card .nm { font-family: "SKBishal", serif; font-size: 64px; color: var(--ink); margin-top: 16px; white-space: nowrap; line-height: 1.1; }
+      .card .yr { font-family: "Padmasetu", serif; font-size: 44px; color: var(--red); margin-top: 2px; }
+      .card .no {
+        position: absolute; left: -26px; top: -26px; width: 104px; height: 104px; border-radius: 50%;
+        background: var(--red); border: 6px solid var(--ink); display: flex; align-items: center; justify-content: center;
+        font-family: "SKBishal", serif; font-size: 50px; color: #fffaf0; padding-top: 6px;
+      }
+      .card .nick { position: absolute; right: -30px; top: 460px; transform: rotate(6deg); }
+      .card .nick .sticker { padding: 6px 22px 0; }
+      .card .nick .as { font-size: 48px; }
+      .card .kill {
+        position: absolute; left: 40px; top: 60px; transform: rotate(-14deg);
+        border: 7px solid var(--red); border-radius: 14px; padding: 4px 20px 0;
+        font-family: "SKBishal", serif; font-size: 64px; color: var(--red); background: rgba(255,250,240,0.8);
+      }
+
+      #yearbar { position: absolute; left: 0; right: 0; top: 290px; display: flex; flex-direction: column; align-items: center; }
+      #year { font-family: "SKBishal", serif; font-size: 190px; color: var(--red); line-height: 1; }
+      #yearlab { font-family: "Padmasetu", serif; font-size: 40px; color: var(--ink); margin-top: -6px; }
+      #ruler { position: absolute; left: 90px; top: 1462px; width: 900px; height: 70px; }
+      #ruler .track { position: absolute; left: 0; right: 0; top: 30px; height: 12px; background: #e3d9c6; border: 4px solid var(--ink); border-radius: 8px; }
+      #ruler .fillbar { position: absolute; left: 4px; top: 34px; height: 12px; width: 892px; background: var(--red); border-radius: 6px; transform-origin: 0 50%; }
+      #ruler .lab { position: absolute; top: -26px; font-family: "Padmasetu", serif; font-size: 32px; color: var(--ink); }
+      .special { position: absolute; left: 0; right: 0; top: 1395px; display: flex; justify-content: center; }
+      .special .as { font-size: 66px; }
+      .credit { position: absolute; left: 0; right: 0; top: 1548px; text-align: center; font-family: "Cormorant", serif; font-style: italic; font-weight: 600; font-size: 26px; color: rgba(35,20,13,0.65); }
+    </style>
+  </head>
+  <body>
+    <svg width="0" height="0" style="position:absolute">
+      <defs>
+        <pattern id="gm" x="0" y="0" width="120" height="64" patternUnits="userSpaceOnUse">
+          <rect width="120" height="64" fill="#b5121b" />
+          <path d="M60 6 L84 32 L60 58 L36 32 Z" fill="#f5f0e6" />
+          <path d="M60 18 L72 32 L60 46 L48 32 Z" fill="#b5121b" />
+          <rect x="57" y="29" width="6" height="6" fill="#f5f0e6" />
+          <path d="M0 64 L0 52 L8 52 L8 44 L16 44 L16 52 L24 52 L24 64 Z M96 64 L96 52 L104 52 L104 44 L112 44 L112 52 L120 52 L120 64 Z" fill="#f5f0e6" />
+          <path d="M0 0 L0 12 L8 12 L8 20 L16 20 L16 12 L24 12 L24 0 Z M96 0 L96 12 L104 12 L104 20 L112 20 L112 12 L120 12 L120 0 Z" fill="#f5f0e6" />
+        </pattern>
+      </defs>
+    </svg>
+
+    <div id="root" data-composition-id="main" data-start="0" data-duration="16" data-width="1080" data-height="1920">
+      <audio id="master" src="assets/audio/master.wav" data-start="0" data-duration="16" data-track-index="9" data-volume="1"></audio>
+      <div id="cloth" class="layer clip" data-start="0" data-duration="16" data-track-index="0"></div>
+
+      <div id="cam">
+        <!-- the deck lives for the whole reel; cards are generated below -->
+        <div id="deckwrap" class="clip" data-start="0" data-duration="16" data-track-index="1">
+          <div id="fan" class="layer"></div>
+          <div id="deck"></div>
+          <div class="special" id="sp-long"><div class="sticker redbg" style="transform:rotate(-3deg)"><div class="as">৫১ বছৰ · আটাইতকৈ দীঘল</div></div></div>
+          <div class="special" id="sp-short"><div class="sticker redbg" style="transform:rotate(3deg)"><div class="as">মাত্ৰ ২৪ দিন!</div></div></div>
+          <div class="special" id="sp-again1"><div class="sticker redbg" style="transform:rotate(-4deg)"><div class="as">আকৌ ৰজা!</div></div></div>
+          <div class="special" id="sp-again2"><div class="sticker redbg" style="transform:rotate(4deg)"><div class="as">আকৌ ৰজা!</div></div></div>
+          <div class="credit" id="credit">Portraits: artistic reconstructions</div>
+        </div>
+
+        <!-- ===== S0 HOOK 0–1.0 ===== -->
+        <section id="s0" class="clip" data-start="0" data-duration="1" data-track-index="2">
+          <div class="center" style="top:290px">
+            <div class="as" style="font-size:96px">৬০০ বছৰ।</div>
+            <div class="as red" id="s0-word" style="font-size:150px; line-height:1">৩৯ জন ৰজা।</div>
+          </div>
+        </section>
+
+        <!-- ===== S1 CASCADE 1.0–13.75 ===== -->
+        <section id="s1" class="clip" data-start="1" data-duration="12.75" data-track-index="2">
+          <div id="yearbar"><div id="year">১২২৮</div><div id="yearlab">চন</div></div>
+          <div id="ruler">
+            <div class="track"></div>
+            <div class="fillbar" id="fillbar"></div>
+            <div class="lab" style="left:0">১২২৮</div>
+            <div class="lab" style="right:0">১৮৩৮</div>
+          </div>
+        </section>
+
+        <!-- ===== S2 END 13.75–16.0 ===== -->
+        <section id="s2" class="clip" data-start="13.75" data-duration="2.25" data-track-index="2">
+          <div class="center" id="s2-a" style="top:290px">
+            <div class="as" style="font-size:96px">আপোনাৰ প্ৰিয়</div>
+            <div class="as red" style="font-size:150px; line-height:1.05">ৰজা কোন?</div>
+          </div>
+          <div class="center" id="s2-en" style="top:1420px"><div class="en">Who's your favourite? Tell us in the comments.</div></div>
+          <div class="center" id="s2-b" style="top:290px">
+            <div class="as" style="font-size:96px">৬০০ বছৰ।</div>
+            <div class="as red" id="s2-word" style="font-size:150px; line-height:1">৩৯ জন ৰজা।</div>
+          </div>
+        </section>
+      </div>
+
+      <div id="bands" class="layer clip" data-start="0" data-duration="16" data-track-index="3">
+        <div class="band" id="band-top">
+          <div class="fill"></div>
+          <svg class="motif" id="motif-top" style="top:40px" viewBox="0 0 2160 64"><rect width="2160" height="64" fill="url(#gm)" /></svg>
+          <div class="thread" style="top:118px"></div>
+          <div id="series">আহোমৰ ৰেচিপি · ০০৪</div>
+          <div class="thread" style="top:236px; height:3px"></div>
+        </div>
+        <div class="band" id="band-bot">
+          <div class="fill"></div>
+          <div class="thread" style="top:14px; height:3px"></div>
+          <svg class="motif" id="motif-bot" style="top:60px" viewBox="0 0 2160 64"><rect width="2160" height="64" fill="url(#gm)" /></svg>
+        </div>
+      </div>
+      <div id="grain" class="layer clip" data-start="0" data-duration="16" data-track-index="4"></div>
+    </div>
+
+    <script>
+      const BN = ["০","১","২","৩","৪","৫","৬","৭","৮","৯"];
+      const bn = (n) => String(n).split("").map((c) => (c >= "0" && c <= "9" ? BN[+c] : c)).join("");
+
+      // 41 reigns in order (data/ahom.csv). nick = popular nickname; kill = reign ended in murder/execution.
+      const R = [
+        ["sukaphaa", "চাওলুং সুকাফা", 1228, 1268],
+        ["suteuphaa", "সুতেউফা", 1268, 1281],
+        ["subinphaa", "সুবিনফা", 1281, 1293],
+        ["sukhaangphaa", "সুখাংফা", 1293, 1332],
+        ["sukhrangphaa", "সুখ্ৰাংফা", 1332, 1364],
+        ["sutuphaa", "সুতুফা", 1369, 1376, null, 1],
+        ["tyao-khamti", "ত্যাও খামতি", 1380, 1389, null, 1],
+        ["sudangphaa", "সুদাংফা", 1397, 1407],
+        ["sujangphaa", "সুজাংফা", 1407, 1422],
+        ["suphakphaa", "সুফাকফা", 1422, 1439],
+        ["susenphaa", "সুচেনফা", 1439, 1488],
+        ["suhenphaa", "সুহেনফা", 1488, 1493, null, 1],
+        ["supimphaa", "সুপিম্ফা", 1493, 1497],
+        ["suhungmung", "সুহুংমুং", 1497, 1539, null, 1],
+        ["suklenmung", "সুক্লেনমুং", 1539, 1552],
+        ["sukhaamphaa", "সুখাম্ফা", 1552, 1603, "খোৰা ৰজা", 0, "long"],
+        ["pratap-singha", "প্ৰতাপ সিংহ", 1603, 1641],
+        ["suramphaa", "সুৰম্ফা", 1641, 1644, "ভোগা ৰজা", 1],
+        ["sutingphaa", "সুটিংফা", 1644, 1648, "নৰীয়া ৰজা", 1],
+        ["jayadhwaj-singha", "জয়ধ্বজ সিংহ", 1648, 1663],
+        ["chakradhwaj-singha", "চক্ৰধ্বজ সিংহ", 1663, 1670],
+        ["udayaditya-singha", "উদয়াদিত্য সিংহ", 1670, 1672, null, 1],
+        ["ramdhwaj-singha", "ৰামধ্বজ সিংহ", 1672, 1674, null, 1],
+        ["suhung", "সুহুং", 1674, 1675, "সমগুৰিয়া ৰজা"],
+        ["gobar-roja", "গোবৰ ৰজা", 1675, 1675, null, 1, "short"],
+        ["sujinphaa", "সুজিনফা", 1675, 1677],
+        ["sudoiphaa", "সুদইফা", 1677, 1679, "পৰ্বতীয়া ৰজা", 1],
+        ["sulikphaa", "সুলিকফা", 1679, 1681, "লোৰা ৰজা", 1],
+        ["gadadhar-singha", "গদাধৰ সিংহ", 1681, 1696],
+        ["rudra-singha", "ৰুদ্ৰ সিংহ", 1696, 1714],
+        ["siva-singha", "শিৱ সিংহ", 1714, 1744],
+        ["pramatta-singha", "প্ৰমত্ত সিংহ", 1744, 1751],
+        ["rajeswar-singha", "ৰাজেশ্বৰ সিংহ", 1751, 1769],
+        ["lakshmi-singha", "লক্ষ্মী সিংহ", 1769, 1780],
+        ["gaurinath-singha", "গৌৰীনাথ সিংহ", 1780, 1795],
+        ["kamaleswar-singha", "কমলেশ্বৰ সিংহ", 1795, 1811],
+        ["chandrakanta-singha", "চন্দ্ৰকান্ত সিংহ", 1811, 1818],
+        ["purandar-singha", "পুৰন্দৰ সিংহ", 1818, 1819],
+        ["chandrakanta-singha", "চন্দ্ৰকান্ত সিংহ", 1819, 1821, null, 0, "again1"],
+        ["jogeswar-singha", "যোগেশ্বৰ সিংহ", 1821, 1822],
+        ["purandar-singha", "পুৰন্দৰ সিংহ", 1833, 1838, null, 0, "again2"],
+      ];
+
+      // build cards
+      const deck = document.getElementById("deck");
+      const cards = R.map((r, i) => {
+        const [id, nm, a, b, nick, kill] = r;
+        const c = document.createElement("div");
+        c.className = "card";
+        c.innerHTML =
+          `<img src="assets/faces/${id}.webp" alt="">` +
+          `<div class="nm">${nm}</div>` +
+          `<div class="yr">${a === b ? bn(a) : bn(a) + "–" + bn(b)}</div>` +
+          `<div class="no">${bn(i + 1)}</div>` +
+          (nick ? `<div class="nick"><div class="sticker"><div class="as">${nick}</div></div></div>` : "") +
+          (kill ? `<div class="kill">হত্যা</div>` : "");
+        deck.appendChild(c);
+        return c;
+      });
+      // the hook's fan: a few faces spread behind the first card
+      const fan = document.getElementById("fan");
+      const fanIds = ["rudra-singha", "pratap-singha", "gadadhar-singha", "siva-singha", "jayadhwaj-singha", "purandar-singha"];
+      const fanCards = fanIds.map((id) => {
+        const c = document.createElement("div");
+        c.className = "card";
+        c.innerHTML = `<img src="assets/faces/${id}.webp" alt=""><div class="nm">&nbsp;</div>`;
+        fan.appendChild(c);
+        return c;
+      });
+
+      // ---------- timeline ----------
+      const tl = gsap.timeline({ paused: true });
+      function shake(t, p = 14, len = 0.3) {
+        const s = [[1, -0.7], [-0.8, 0.8], [0.5, -0.4], [-0.3, 0.3], [0, 0]];
+        s.forEach(([x, y], i) => tl.to("#cam", { x: x * p * (1 - i / s.length), y: y * p * (1 - i / s.length), duration: len / s.length, ease: "none" }, t + (i * len) / s.length));
+      }
+      function slam(sel, t, from = 1.7, rot = -5) {
+        tl.fromTo(sel, { scale: from, opacity: 0, rotation: rot }, { scale: 1, opacity: 1, rotation: 0, duration: 0.12, ease: "power4.in", immediateRender: false }, t);
+      }
+      tl.fromTo("#motif-top", { x: 0 }, { x: -1080, duration: 16, ease: "none" }, 0);
+      tl.fromTo("#motif-bot", { x: -1080 }, { x: 0, duration: 16, ease: "none" }, 0);
+      tl.fromTo("#grain", { backgroundPosition: "0px 0px" }, { backgroundPosition: "512px 1024px", duration: 16, ease: "steps(192)" }, 0);
+
+      // frame 0: Sukaphaa's card sits on top; all others hidden
+      tl.set(cards.slice(1), { opacity: 0 }, 0);
+      tl.set(cards[0], { opacity: 1, rotation: 0, x: 0, y: 0 }, 0);
+      tl.set(fanCards, { opacity: 0 }, 0);
+      tl.set(".special", { opacity: 0 }, 0);
+
+      // ===== S0 hook: the deck fans out for a split second =====
+      tl.fromTo("#s0-word", { scale: 1.06 }, { scale: 1, duration: 0.25, ease: "power2.out" }, 0);
+      fanCards.forEach((c, i) => {
+        const a = (i - 2.5) * 13;
+        tl.fromTo(c, { opacity: 1, rotation: 0, x: 0 }, { rotation: a, x: a * 9, y: Math.abs(a) * 1.6, duration: 0.14, ease: "back.out(2)", immediateRender: false }, 0.4);
+        tl.to(c, { rotation: 0, x: 0, y: 0, duration: 0.14, ease: "power3.in" }, 0.72);
+        tl.set(c, { opacity: 0 }, 0.86);
+      });
+      shake(0.42, 12);
+      tl.to("#s0-word", { scale: 1.12, duration: 0.09, yoyo: true, repeat: 1 }, 0.78);
+
+      // ===== S1 cascade: one card per beat (slow start, then eighth notes), holds on four surprises =====
+      const yearEl = document.getElementById("year");
+      const holdAfter = { long: 0.5, short: 0.5, again1: 0.5, again2: 0.5 };
+      let t = 1.0;
+      const times = [];
+      R.forEach((r, i) => {
+        times.push(t);
+        const step = i < 2 ? 0.5 : 0.25;
+        t += step + (r[6] ? holdAfter[r[6]] : 0);
+      });
+      // t ends at 13.75
+      R.forEach((r, i) => {
+        const ti = times[i];
+        const c = cards[i];
+        const side = i % 2 ? 1 : -1;
+        const rot = ((i * 37) % 9) - 4;
+        if (i > 0) {
+          tl.fromTo(c, { opacity: 1, x: side * 1250, y: -120, rotation: side * 25 }, { x: 0, y: 0, rotation: rot, duration: 0.0667, ease: "power1.out", immediateRender: false }, ti);
+          tl.fromTo(c, { scale: 1.07 }, { scale: 1, duration: 0.1, immediateRender: false }, ti + 0.0667);
+          // older cards fall away so only a short pile shows
+          if (i >= 3) tl.set(cards[i - 3], { opacity: 0 }, ti + 0.0667);
+          tl.set(cards[i - 1].querySelectorAll(".nm, .yr, .no, .nick, .kill"), { opacity: 0 }, ti + 0.0667);
+        } else {
+          tl.to(c, { rotation: -2, duration: 0.12 }, ti);
+        }
+        tl.call(() => {}, [], ti);
+        tl.set(yearEl, { textContent: bn(r[2]) }, ti + 0.0667);
+        tl.fromTo("#year", { scale: 1.18 }, { scale: 1, duration: 0.12, immediateRender: false }, ti + 0.0667);
+        tl.to("#fillbar", { scaleX: (r[2] - 1228) / (1838 - 1228), duration: 0.12, ease: "power2.out" }, ti + 0.0667);
+        if (r[5]) {
+          tl.fromTo(c.querySelector(".kill"), { scale: 2.2, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.0667, ease: "power4.in", immediateRender: false }, ti + 0.1);
+        }
+        if (r[6]) {
+          slam("#sp-" + r[6], ti + 0.12, 1.8, side * 8);
+          tl.to("#sp-" + r[6], { opacity: 0, duration: 0.06 }, ti + 0.25 + holdAfter[r[6]] - 0.06);
+          shake(ti + 0.14, 16);
+        }
+      });
+      tl.set("#fillbar", { scaleX: 0 }, 0);
+      tl.set("#credit", { opacity: 0 }, 0);
+      tl.to("#credit", { opacity: 1, duration: 0.2 }, 1.2);
+      tl.to("#credit", { opacity: 0, duration: 0.2 }, 13.6);
+
+      // ===== S2 end: ask, then reset to the hook (loop) =====
+      const last = cards[R.length - 1];
+      tl.set("#s2-b", { opacity: 0 }, 0);
+      tl.fromTo("#s2-a", { opacity: 0, scale: 1.2 }, { opacity: 1, scale: 1, duration: 0.14, ease: "power3.out" }, 13.75);
+      tl.fromTo("#s2-en", { opacity: 0 }, { opacity: 1, duration: 0.15 }, 13.9);
+      // the pile riffles back: last cards fly off, Sukaphaa returns on top
+      tl.to([cards[R.length - 3], cards[R.length - 2], last], { x: (i) => (i % 2 ? 1 : -1) * 1400, rotation: (i) => (i % 2 ? 30 : -30), duration: 0.2, ease: "power3.in", stagger: 0.06 }, 15.0);
+      tl.set([cards[R.length - 3], cards[R.length - 2], last], { opacity: 0 }, 15.45);
+      tl.set(cards[0].querySelectorAll(".nm, .yr, .no"), { opacity: 1 }, 15.2);
+      tl.fromTo(cards[0], { opacity: 1, scale: 0.6, rotation: 0, x: 0, y: 0 }, { scale: 1, duration: 0.25, ease: "back.out(1.6)", immediateRender: false }, 15.2);
+      tl.to(["#s2-a", "#s2-en"], { opacity: 0, duration: 0.12 }, 15.15);
+      tl.set("#s2-b", { opacity: 1 }, 15.3);
+      tl.fromTo("#s2-b", { y: -20 }, { y: 0, duration: 0.18, immediateRender: false }, 15.3);
+      tl.fromTo("#s2-word", { scale: 1.06 }, { scale: 1.06, duration: 0.01 }, 15.98);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
