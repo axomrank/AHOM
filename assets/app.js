@@ -4,6 +4,7 @@
 //   #/people      everyone in the chronicles, filterable (#/people?g=<group>&q=<text>)
 //   #/person/<id> one person
 //   #/scenes      the illustrated scenes (#/scenes/<chapter> for one chapter)
+//   #/life        everyday life, villages and objects (#/life/<section> for one section)
 (() => {
   "use strict";
   const A = window.AHOM;
@@ -19,6 +20,10 @@
   const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
   const esc = v => String(v ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const dash = s => esc(s).replace(/(\d)-(\d)/g, "$1–$2");
+  // LIFE: generated scenes of everyday life, kept apart from the chronicle scenes; ids are prefixed "life:" in the viewer
+  const LIFE = (A.life && A.life.sections) || [];
+  const LI = {};
+  LIFE.forEach(sec => sec.items.forEach(it => { it.sec = sec; LI["life:" + it.id] = it; }));
   const illustrated = ids => ids.map(id => S[id]).filter(s => s && s.images.length);
 
   // ---------- small shared pieces ----------
@@ -89,6 +94,7 @@
       <div class="ch-foot">
         <ul class="who-list" aria-label="People of this chapter">${e.people.map(personLink).join("")}</ul>
         <a class="more" href="#/scenes/${e.id}">All ${e.scenes.length} scenes, ${e.start}–${e.end}</a>
+        ${LIFE.filter(sec => sec.era === e.id).map(sec => `<a class="more more-life" href="#/life/${sec.id}">Daily life: ${esc(sec.title)}</a>`).join("")}
       </div>
     </section>`;
   }
@@ -580,6 +586,51 @@
     </nav>` : ""}`;
   }
 
+  function lifeFigure(it, list) {
+    return `<figure class="scene life-item ${it.kind === "object" ? "life-object" : ""}">
+      <button type="button" class="scene-open" data-scene="life:${it.id}" data-list="${list.join(",")}" aria-label="Open: ${esc(it.title)}"><img src="${esc(it.img[1])}" alt="${esc(it.alt)}" loading="lazy" decoding="async" width="${it.w}" height="${it.h}"></button>
+      <figcaption>${it.kind === "photo" ? `<span class="scene-date">Modern photograph</span>` : it.period ? `<span class="scene-date">${esc(it.period)}</span>` : ""}${esc(it.title)}</figcaption>
+    </figure>`;
+  }
+
+  function lifeSection(sec, full) {
+    const ids = sec.items.map(it => "life:" + it.id);
+    const groups = [...new Set(sec.items.map(it => it.group || ""))];
+    const shown = full ? sec.items : sec.items.slice(0, 4);
+    const grid = items => `<div class="scene-grid">${items.map(it => lifeFigure(it, ids)).join("")}</div>`;
+    return `<section class="era-scenes life-section" id="life-${sec.id}" aria-labelledby="ls-${sec.id}">
+      <h2 id="ls-${sec.id}">${sec.period ? `<span class="es-years">${esc(sec.period)}</span>` : ""}${full ? esc(sec.title) : `<a href="#/life/${sec.id}">${esc(sec.title)}</a>`}</h2>
+      <p class="life-intro">${esc(sec.intro)}</p>
+      <p class="life-caveat">${esc(sec.caveat)}${sec.era && ERA[sec.era] ? ` <a href="#/saga/${sec.era}">Read the chapter: ${esc(ERA[sec.era].title)}</a>` : ""}</p>
+      ${full && groups.length > 1 ? groups.map(g => `<h3 class="life-group">${esc(g)}</h3>${grid(sec.items.filter(it => (it.group || "") === g))}`).join("") : grid(shown)}
+      ${full ? "" : `<a class="more" href="#/life/${sec.id}">All ${sec.items.length} images</a>`}
+    </section>`;
+  }
+
+  function life(secId) {
+    const sec = secId ? LIFE.find(x => x.id === secId) : null;
+    if (secId && !sec) return notFound(`There is no section called “${secId}”.`, "#/life", "See daily life");
+    setTitle(sec ? `Life: ${sec.title}` : "Life in the Ahom kingdom and after");
+    const total = LIFE.reduce((n, x) => n + x.items.length, 0);
+    const k = sec ? LIFE.indexOf(sec) : -1;
+    view.innerHTML = `
+    <section class="page-head">
+      ${bgWord("জীৱন", "page-word")}
+      <h1>${sec ? esc(sec.title) : "Daily life"}</h1>
+      <p class="lede">${sec ? esc(sec.intro) : `How people lived, worked and built, beyond the kings and battles: villages, craft, the river, monuments, the things of the house, and Assam since. ${total} images in ${LIFE.length} sections.`}</p>
+      <p class="life-label">${esc(A.life.label)} Kachari, Bhuyan and Ahom villages are shown as separate groups.</p>
+    </section>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#/life" ${sec ? "" : 'aria-current="page"'}>All</a>
+      ${LIFE.map(x => `<a href="#/life/${x.id}" ${x === sec ? 'aria-current="page"' : ""}>${x.period ? `<span>${esc(x.period)}</span>` : ""}${esc(x.title)}</a>`).join("")}
+    </nav>
+    ${sec ? lifeSection(sec, true) : LIFE.map(x => lifeSection(x, false)).join("")}
+    ${sec ? `<nav class="pager" aria-label="Other sections">
+      ${k > 0 ? `<a href="#/life/${LIFE[k - 1].id}" rel="prev"><span><span class="quiet">Previous</span>${esc(LIFE[k - 1].title)}</span></a>` : "<span></span>"}
+      ${k < LIFE.length - 1 ? `<a href="#/life/${LIFE[k + 1].id}" rel="next" class="pager-next"><span><span class="quiet">Next</span>${esc(LIFE[k + 1].title)}</span></a>` : "<span></span>"}
+    </nav>` : ""}`;
+  }
+
   function notFound(msg, href, label) {
     setTitle("Not found");
     view.innerHTML = `<section class="page-head">${bgWord("নাই", "page-word")}<h1>Not in the chronicles</h1><p class="lede">${esc(msg)}</p><p><a class="btn" href="${href}">${label}</a></p></section>`;
@@ -596,7 +647,29 @@
     drawScene();
     if (!lb.open) lb.showModal();
   }
+  function drawLife(it) {
+    const img = $("#lb-img");
+    img.hidden = false; $("#lb-blank").hidden = true;
+    img.src = it.img[0]; img.alt = it.alt;
+    $("#lb-date").textContent = [it.period, it.group, it.sec.title].filter(Boolean).join(" · ");
+    $("#lb-title").textContent = it.title;
+    $("#lb-summary").textContent = it.text || it.sec.intro;
+    $("#lb-notes").textContent = [it.note, it.kind === "photo" ? "" : A.life.label].filter(Boolean).join(" ");
+    $("#lb-sources").innerHTML = it.sources && it.sources.length ? `<details class="sources"><summary>Sources</summary><ul>${it.sources.map(x => `<li><a href="${esc(x.url)}" rel="noopener" target="_blank">${esc(x.title)}</a></li>`).join("")}</ul></details>` : "";
+    $("#lb-permalink").href = `#/life/${it.sec.id}`;
+    $("#lb-reference").href = `life/${it.sec.id}/`;
+    $("#lb-permalink").textContent = "Open this section";
+    $("#lb-map-wrap").hidden = true;
+    $("#lb-people").innerHTML = "";
+    $("#lb-versions").innerHTML = "";
+    $("#lb-count").textContent = lbList.length > 1 ? `${lbAt + 1} of ${lbList.length}` : "";
+    $("#lb-prev").hidden = $("#lb-next").hidden = lbList.length < 2;
+    [lbAt - 1, lbAt + 1].forEach(k => { const n = LI[lbList[(k + lbList.length) % lbList.length]]; if (n) new Image().src = n.img[0]; });
+  }
   function drawScene() {
+    if (LI[lbList[lbAt]]) return drawLife(LI[lbList[lbAt]]);
+    $("#lb-map-wrap").hidden = false;
+    $("#lb-permalink").textContent = "Open scene page";
     const s = S[lbList[lbAt]];
     const img = $("#lb-img"), pic = s.images[lbVersion];
     img.hidden = !pic;
@@ -715,6 +788,7 @@
       else if (page === "person") person(parts[1]);
       else if (page === "scenes") scenes(parts[1]);
       else if (page === "scene") scenePage(parts[1]);
+      else if (page === "life") life(parts[1]);
       else if (page === "films") films(params, parts[1]);
       else if (page === "map") explore(params);
       else notFound("That page is not part of this site.", "#/", "Go to the saga");

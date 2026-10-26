@@ -43,7 +43,7 @@ def build_pages(root, data):
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description[:300])}"><meta property="og:url" content="{e(url)}"><meta property="og:type" content="{'article' if kind == 'Article' else 'website'}">{metaimage}
 <meta name="twitter:card" content="summary_large_image"><link rel="icon" href="{BASE}favicon.svg"><link rel="stylesheet" href="{BASE}assets/site.css"><link rel="stylesheet" href="{BASE}assets/library.css">
 <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False).replace('<','&lt;')}</script></head>
-<body><a class="skip" href="#content">Skip to content</a><header class="bar"><a class="brand" href="{BASE}">Ahom · আহোম</a><nav aria-label="Sections">{link('chapters/','Chapters')}{link('people/','People')}{link('scenes/','Scenes')}{link('films/','Films')}{link('#/map','MAP')}</nav></header>
+<body><a class="skip" href="#content">Skip to content</a><header class="bar"><a class="brand" href="{BASE}">Ahom · আহোম</a><nav aria-label="Sections">{link('chapters/','Chapters')}{link('people/','People')}{link('scenes/','Scenes')}{link('life/','Life')}{link('films/','Films')}{link('#/map','MAP')}</nav></header>
 <main id="content" class="reference"><nav class="crumbs" aria-label="Breadcrumb">{link('', 'Home')} / {link('chapters/', 'Reference library')}</nav><h1>{e(title)}</h1>{body}</main>
 <footer class="foot"><div class="reference"><p>The paintings, portraits and films are modern reconstructions. Dialogue is dramatised; source records may disagree.</p>{link('', 'Explore the interactive archive')}</div></footer></body></html>'''
         prefix = '../' * len(path.strip('/').split('/'))
@@ -87,6 +87,15 @@ def build_pages(root, data):
         if r.get('line'): body += f'<p lang="as">{e(r["line"])}</p><p>{e(r["translation"])}</p><p class="quiet">Scripted dialogue; not a verified audio transcript.</p>'
         body += f'<p>{link("scenes/"+r["scene"].lower()+"/", "Read the historical scene and sources")}</p>'
         page('films/'+r['id']+'/',r['title'],r['description'],body,r['poster'])
+    life = data.get('life', {'sections': []})
+    def life_cards(items):
+        return '<div class="reference-grid">' + ''.join(f'<article><img src="{e(BASE+i["img"][1])}" alt="{e(i["alt"])}" loading="lazy"><p>{e(i.get("period") or i.get("group",""))}</p><h2>{e(i["title"])}</h2>{"<p class=quiet>"+e(i["note"])+"</p>" if i.get("note") else ""}</article>' for i in items) + '</div>'
+    page('life/', 'Daily life in Assam, from the Ahom kingdom to today', 'Generated interpretations of villages, work, monuments and objects of daily life in Assam.', f'<p>{e(life.get("label"))}</p><ul>' + ''.join(f'<li>{link("life/"+s["id"]+"/", s["title"])} · {len(s["items"])} images</li>' for s in life['sections']) + '</ul>', kind='CollectionPage')
+    for s in life['sections']:
+        body = f'<p>{e(s.get("period"))}</p><p>{e(s["intro"])}</p><p class="quiet">{e(s["caveat"])} {e(life["label"])}</p>'
+        if s.get('era'): body += f'<p>{link("chapters/"+s["era"]+"/", "Chapter: "+eras[s["era"]]["title"])}</p>'
+        body += life_cards(s['items']) + f'<p>{link("#/life/"+s["id"], "Open in the interactive archive")}</p>'
+        page('life/'+s['id']+'/', s['title'], s['intro'], body, s['items'][0]['img'][0])
     for t in data['trails']:
         page('trails/'+t['id']+'/', t['title'], t['summary'], '<p>'+e(t['summary'])+'</p>'+cards(t['scenes']))
     urls.insert(0, BASE)

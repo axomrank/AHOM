@@ -15,11 +15,11 @@ def main():
     dest.mkdir(parents=True)
     for name in ['index.html','favicon.svg','.nojekyll','robots.txt','sitemap.xml']:
         shutil.copy2(ROOT/name, dest/name)
-    for name in ['assets','chapters','people','scenes','films','trails']:
+    for name in ['assets','chapters','people','scenes','life','films','trails']:
         shutil.copytree(ROOT/name, dest/name)
     (dest/'data').mkdir()
     shutil.copy2(ROOT/'data/site.js',dest/'data/site.js')
-    for name in ['characters','faces','scenes']:
+    for name in ['characters','faces','scenes','life']:
         shutil.copytree(ROOT/'media'/name,dest/'media'/name)
     data = json.loads((ROOT/'data/site.js').read_text().split('window.AHOM = ',1)[1].strip().rstrip(';'))
     for r in data['reels']:

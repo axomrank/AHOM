@@ -85,8 +85,17 @@ def main():
         for im in s['images']:
             for path in im: check(path,s['id'])
         for pid in s['people']: assert pid in data['people']
+    life=data['life']['sections']
+    assert life and len({s['id'] for s in life})==len(life)
+    life_ids=[it['id'] for s in life for it in s['items']]
+    assert len(set(life_ids))==len(life_ids), 'Duplicate life image IDs'
+    for s in life:
+        assert s['intro'] and s['caveat']
+        for it in s['items']:
+            assert it['alt'] and it['img'][0].startswith('media/life/'), it['id']
+            for path in it['img']: check(path,it['id'])
     files=[ROOT/'index.html']
-    for folder in ['people','scenes','chapters','films','trails']:
+    for folder in ['people','scenes','life','chapters','films','trails']:
         files+=list((ROOT/folder).rglob('index.html'))
     for path in files:
         parser=Links();parser.feed(path.read_text())
@@ -98,7 +107,7 @@ def main():
             if not target.is_file(): errors.append(f'{path.relative_to(ROOT)}: broken link {link}')
     ET.parse(ROOT/'sitemap.xml')
     if errors: raise SystemExit('\n'.join(errors))
-    print(f'PASS: {len(files)} HTML pages, {len(ids)} films, {len(scenes)} scenes; internal assets and references exist.')
+    print(f'PASS: {len(files)} HTML pages, {len(ids)} films, {len(scenes)} scenes, {len(life_ids)} life images; internal assets and references exist.')
 
 
 if __name__=='__main__':
