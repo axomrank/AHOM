@@ -1,0 +1,37 @@
+{
+  "id": "02-craft-workshops/03-bamboo-worker",
+  "group": "02-craft-workshops",
+  "slug": "03-bamboo-worker",
+  "title": "Weaving a useful basket",
+  "period": "Upper Assam, circa 1750",
+  "scene": "Close medium scene of a bamboo craftsperson seated on a low wooden stool, interlacing thin bamboo strips into a grain basket. Split bamboo and a small hand knife set aside, finished baskets and a fishing trap at the edge of frame, airy shaded work area.",
+  "references": [
+    "basket-photo",
+    "grain-object",
+    "common-style"
+  ],
+  "source_ids": [
+    "S1",
+    "S4"
+  ],
+  "uncertainty": "Modern craft documentation supplies comparative basket geometry, not proof of exact eighteenth-century weave.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Weaving a useful basket. Period: Upper Assam, circa 1750.\nPrimary request: Close medium scene of a bamboo craftsperson seated on a low wooden stool, interlacing thin bamboo strips into a grain basket. Split bamboo and a small hand knife set aside, finished baskets and a fishing trap at the edge of frame, airy shaded work area.\nInput images: Image 1 (basket-photo): modern documented bamboo fishing gear: woven construction only. Image 2 (grain-object): generated woven grain container: form only. Image 3 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S1, S4. Interpretive limits: Modern craft documentation supplies comparative basket geometry, not proof of exact eighteenth-century weave.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "A seated craftswoman weaves bamboo strips into a basket beside completed fishing gear.",
+  "file": "images/assam/ahom-life-and-work/02-craft-workshops/03-bamboo-worker.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/jakhoi-khaloi-dsource.jpg",
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/duli-grain-basket.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-a4fc2e12-1f4b-40cf-a708-e7c44c45149e.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "d0e66cf2b6d6544dd988300a3287104421a6e398e3a9cc2d7c83449cc5ef1dcd",
+  "bytes": 3157555,
+  "visual_review": "Reviewed as a single landscape concept with clear activity, consistent material vocabulary and no visible text overlay or conspicuous modern infrastructure. Historical details remain qualified by the scene notes.",
+  "web_file": "images/assam/ahom-life-and-work/02-craft-workshops/03-bamboo-worker.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/02-craft-workshops/thumb/03-bamboo-worker.webp",
+  "caption": "Weaving a useful basket. Upper Assam, circa 1750. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

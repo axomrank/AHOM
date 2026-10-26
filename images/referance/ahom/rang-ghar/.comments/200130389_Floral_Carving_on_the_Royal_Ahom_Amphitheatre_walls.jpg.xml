@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption/>
+  <note>filter: 109; fileterIntensity: 0.8; filterMask: 0; captureOrientation: 90;
+brp_mask:0;
+brp_del_th:null;
+brp_del_sen:null;
+delta:null;
+module: photo;hw-remosaic: false;touch: (-1.0, -1.0);sceneMode: 8;cct_value: 0;AI_Scene: (-1, -1);aec_lux: 0.0;aec_lux_index: 0;HdrStatus: off;albedo:  ;confidence:  ;motionLevel: 0;weatherinfo: null;temperature: 44;</note>
+  <place/>
+  <categories/>
+</comment>

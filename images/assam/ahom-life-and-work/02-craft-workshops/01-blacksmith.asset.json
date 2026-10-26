@@ -1,0 +1,44 @@
+{
+  "id": "02-craft-workshops/01-blacksmith",
+  "group": "02-craft-workshops",
+  "slug": "01-blacksmith",
+  "title": "The village smith",
+  "period": "Upper Assam, circa 1750",
+  "scene": "Open-sided bamboo and thatch smithy: one adult smith holds a dull-red agricultural blade on a compact iron anvil with long tongs while another raises a hand hammer at a safe distance. Small charcoal hearth, simple manual bellows, plough fittings and sickles nearby. Restrained sparks, no molten steel spectacle.",
+  "references": [
+    "common-style"
+  ],
+  "source_ids": [
+    "S1"
+  ],
+  "uncertainty": "Hearth, bellows and tool arrangement are interpretive; occupation documented, specific workshop not authenticated.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: The village smith. Period: Upper Assam, circa 1750.\nPrimary request: Open-sided bamboo and thatch smithy: one adult smith holds a dull-red agricultural blade on a compact iron anvil with long tongs while another raises a hand hammer at a safe distance. Small charcoal hearth, simple manual bellows, plough fittings and sickles nearby. Restrained sparks, no molten steel spectacle.\nInput images: Image 1 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S1. Interpretive limits: Hearth, bellows and tool arrangement are interpretive; occupation documented, specific workshop not authenticated.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "Two smiths work a heated blade on an iron block while an adult operates manual bellows.",
+  "file": "images/assam/ahom-life-and-work/02-craft-workshops/01-blacksmith-v2.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-d05134de-ef65-4cd5-82a1-7813dbd5ee0f.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "f1ab99b0d6e2bb0aab0fc0103c01acfd3013c547d013c886578112f382030e7e",
+  "bytes": 3083213,
+  "visual_review": "Horned anvil replaced with a plain iron block and adult bellows assistant in v2. No dated Assam forge photograph was available; bellows, work block and tools remain interpretive.",
+  "web_file": "images/assam/ahom-life-and-work/02-craft-workshops/01-blacksmith-v2.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/02-craft-workshops/thumb/01-blacksmith-v2.webp",
+  "generation_history": [
+    {
+      "file": "output/imagegen/ahom-life-researched-2026-10-26/superseded/02-craft-workshops/01-blacksmith.png",
+      "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-64bd806c-4742-486e-8f61-136e72252be8.png",
+      "sha256": "088f9293fed5df651cb53ae1ed570cf169fc5b5cdebec5209616cb77b8d2b3da",
+      "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: The village smith. Period: Upper Assam, circa 1750.\nPrimary request: Open-sided bamboo and thatch smithy: one adult smith holds a dull-red agricultural blade on a compact iron anvil with long tongs while another raises a hand hammer at a safe distance. Small charcoal hearth, simple manual bellows, plough fittings and sickles nearby. Restrained sparks, no molten steel spectacle.\nInput images: Image 1 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S1. Interpretive limits: Hearth, bellows and tool arrangement are interpretive; occupation documented, specific workshop not authenticated.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses."
+    }
+  ],
+  "revision_prompt": "Use case: precise-object-edit. Make two localized corrections to this historical smithy illustration. Replace the horned European-style anvil with a plain small rectangular dark iron working block, securely embedded in the same timber stump, preserving the smith's tongs and workpiece above its flat surface and the hammer worker's pose. Replace the child at the bellows with an adult assistant in plain wrapped undyed cloth, keeping the bellows position. Keep all other scene elements unchanged. This remains an interpretive Assam workshop; no modern equipment, text or industrial fantasy.",
+  "revision_reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/ahom-life-and-work/02-craft-workshops/01-blacksmith.png"
+  ],
+  "caption": "The village smith. Upper Assam, circa 1750. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

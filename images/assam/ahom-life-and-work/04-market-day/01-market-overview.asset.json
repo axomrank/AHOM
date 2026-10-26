@@ -1,0 +1,38 @@
+{
+  "id": "04-market-day/01-market-overview",
+  "group": "04-market-day",
+  "slug": "01-market-overview",
+  "title": "A small market day",
+  "period": "Upper Assam, circa 1750",
+  "scene": "Wide eye-level view of a small open-air exchange ground, six simple bamboo-and-thatch stalls, individual local sellers and buyers, baskets of grain and vegetables, clay pots, plain handwoven cloth. Uneven earth path, varied faces, restrained crowd, no monumental gate or tiled bazaar.",
+  "references": [
+    "common-style",
+    "grain-object",
+    "pot-object"
+  ],
+  "source_ids": [
+    "S1",
+    "S17",
+    "S18"
+  ],
+  "uncertainty": "Representative market concept; stall layout, frequency, dress and goods mix are not established for a named place.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: A small market day. Period: Upper Assam, circa 1750.\nPrimary request: Wide eye-level view of a small open-air exchange ground, six simple bamboo-and-thatch stalls, individual local sellers and buyers, baskets of grain and vegetables, clay pots, plain handwoven cloth. Uneven earth path, varied faces, restrained crowd, no monumental gate or tiled bazaar.\nInput images: Image 1 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication. Image 2 (grain-object): generated woven grain container: form only. Image 3 (pot-object): generated earthen vessel: form only.\nEvidence source IDs: S1. Interpretive limits: Representative market concept; stall layout, frequency, dress and goods mix are not established for a named place.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "Buyers walk among small thatched market stalls selling grain, vegetables and clay vessels.",
+  "file": "images/assam/ahom-life-and-work/04-market-day/01-market-overview.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/duli-grain-basket.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/tekeli-earthen-pot.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-4f91ba29-5ffa-42d0-b9b0-d02a3e5687eb.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "6b3ee79b8866879f7fe5a8f35fc97e18afcdca374376c275135f074b9c99df68",
+  "bytes": 3499106,
+  "visual_review": "Reviewed as a single landscape concept with clear activity, consistent material vocabulary and no visible text overlay or conspicuous modern infrastructure. Historical details remain qualified by the scene notes.",
+  "web_file": "images/assam/ahom-life-and-work/04-market-day/01-market-overview.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/04-market-day/thumb/01-market-overview.webp",
+  "caption": "A small market day. Upper Assam, circa 1750. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

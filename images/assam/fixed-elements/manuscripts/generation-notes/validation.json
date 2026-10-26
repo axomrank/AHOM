@@ -1,0 +1,41 @@
+[
+  {
+    "id": "thoga-plain-wooden-stand",
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/manuscripts/thoga-plain-wooden-stand.png",
+    "size": [
+      1445,
+      1088
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "9d3036c03579ab97fdb7ebed87064b2da0637028c247f59a77354f2117185997"
+  },
+  {
+    "id": "thoga-carved-wooden-stand",
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/manuscripts/thoga-carved-wooden-stand.png",
+    "size": [
+      1443,
+      1090
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "9746c440782cc8f34649a62f2ef25f6e2b4d8abe133b18a408868fe40676c208"
+  },
+  {
+    "id": "sanchi-pat-manuscript-bundle",
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/manuscripts/sanchi-pat-manuscript-bundle.png",
+    "size": [
+      2172,
+      724
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "ae0ed8196cef4b170b15a01cc5630249891fd614afa025362d0d2f18e6c5c21a"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "id": "06-military-preparations/01-boat-preparation",
+  "group": "06-military-preparations",
+  "slug": "01-boat-preparation",
+  "title": "Preparing the river fleet",
+  "period": "Ahom-controlled Brahmaputra valley, circa 1670",
+  "scene": "Shore-level view of a modest military boat preparation area: several long low timber oared boats, boatmen checking paddles and natural-fibre lashings, tools and timber blocks. Prioritize hull strength and many oar positions, modest undecorated ends, no towering dragon figureheads, sails, engines or huge fantasy ships.",
+  "references": [
+    "boat-photo",
+    "boat-object",
+    "common-style"
+  ],
+  "source_ids": [
+    "S6",
+    "S7"
+  ],
+  "uncertainty": "Small modern boat references supply material only, NOT scale or exact bachari design. Vessel geometry and dress remain interpretive.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Preparing the river fleet. Period: Ahom-controlled Brahmaputra valley, circa 1670.\nPrimary request: Shore-level view of a modest military boat preparation area: several long low timber oared boats, boatmen checking paddles and natural-fibre lashings, tools and timber blocks. Prioritize hull strength and many oar positions, modest undecorated ends, no towering dragon figureheads, sails, engines or huge fantasy ships.\nInput images: Image 1 (boat-photo): real modern Assam country boat: low wooden hull and woven cover only; exclude modern clothing, watermark and fittings. Image 2 (boat-object): generated object: small boat construction vocabulary only; not a warship blueprint. Image 3 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S6, S7. Interpretive limits: Small modern boat references supply material only, NOT scale or exact bachari design. Vessel geometry and dress remain interpretive.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "Workers prepare paddles, lashings and long wooden hulls beside a river.",
+  "file": "images/assam/ahom-life-and-work/06-military-preparations/01-boat-preparation-v2.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/boat-majuli.jpg",
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/wooden-country-boat.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-0b0f1f58-2618-43b0-bef3-2a58e895e28e.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "91b719e102c810a3c91dc8978ab7a3cf7380f91dd03954fc7c4955f37f2634df",
+  "bytes": 2950910,
+  "visual_review": "Distant boat with copied modern shirts removed in v2. Long hull forms and lashings remain interpretive.",
+  "web_file": "images/assam/ahom-life-and-work/06-military-preparations/01-boat-preparation-v2.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/06-military-preparations/thumb/01-boat-preparation-v2.webp",
+  "generation_history": [
+    {
+      "file": "output/imagegen/ahom-life-researched-2026-10-26/superseded/06-military-preparations/01-boat-preparation.png",
+      "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-e647da4c-6bd9-419e-a54c-0d4a8dda752c.png",
+      "sha256": "9a27549d8359959bc2210be5c3dcda8bbbfa08b08e1567756062a028ea6afd77",
+      "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Preparing the river fleet. Period: Ahom-controlled Brahmaputra valley, circa 1670.\nPrimary request: Shore-level view of a modest military boat preparation area: several long low timber oared boats, boatmen checking paddles and natural-fibre lashings, tools and timber blocks. Prioritize hull strength and many oar positions, modest undecorated ends, no towering dragon figureheads, sails, engines or huge fantasy ships.\nInput images: Image 1 (boat-photo): real modern Assam country boat: low wooden hull and woven cover only; exclude modern clothing, watermark and fittings. Image 2 (boat-object): generated object: small boat construction vocabulary only; not a warship blueprint. Image 3 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S6, S7. Interpretive limits: Small modern boat references supply material only, NOT scale or exact bachari design. Vessel geometry and dress remain interpretive.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses."
+    }
+  ],
+  "revision_prompt": "Use case: precise-object-edit. Remove the entire distant covered passenger boat on the RIGHT side of the river, including its two people wearing modern checked shirts. Fill only that area with matching uninterrupted open water and reflections. Preserve every foreground craftsperson, all long military-preparation boats, tools, clothing, vegetation, riverbank and the two more distant open rowing boats in the middle. No other changes, no new boats or figures.",
+  "revision_reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/ahom-life-and-work/06-military-preparations/01-boat-preparation.png"
+  ],
+  "caption": "Preparing the river fleet. Ahom-controlled Brahmaputra valley, circa 1670. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

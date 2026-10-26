@@ -1,0 +1,37 @@
+{
+  "id": "03-household-life/03-grain-storage",
+  "group": "03-household-life",
+  "slug": "03-grain-storage",
+  "title": "Keeping the harvest dry",
+  "period": "Upper Assam, circa 1750",
+  "scene": "A household storage bay under a dry thatched roof: two adults transfer dried paddy from a shallow winnowing tray into a large woven grain container elevated on a low timber platform. Show lid, baskets and tidy dry floor, with rice fields glimpsed outdoors.",
+  "references": [
+    "grain-object",
+    "basket-object",
+    "common-style"
+  ],
+  "source_ids": [
+    "S1",
+    "S4"
+  ],
+  "uncertainty": "Storage form and elevated arrangement are comparative interpretations; no authenticated floor plan.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Keeping the harvest dry. Period: Upper Assam, circa 1750.\nPrimary request: A household storage bay under a dry thatched roof: two adults transfer dried paddy from a shallow winnowing tray into a large woven grain container elevated on a low timber platform. Show lid, baskets and tidy dry floor, with rice fields glimpsed outdoors.\nInput images: Image 1 (grain-object): generated woven grain container: form only. Image 2 (basket-object): generated winnowing tray: form only. Image 3 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S1, S4. Interpretive limits: Storage form and elevated arrangement are comparative interpretations; no authenticated floor plan.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "Two adults pour dried paddy into a large woven storage container on a timber platform.",
+  "file": "images/assam/ahom-life-and-work/03-household-life/03-grain-storage.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/duli-grain-basket.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/kula-winnowing-tray.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-2ff3cc7f-5917-4820-a30e-2a572d3ced36.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "d39ead70a9259b77d9a5d26e893b9a03f400d1921fcadbd72a96301102d26e32",
+  "bytes": 3343079,
+  "visual_review": "Reviewed as a single landscape concept with clear activity, consistent material vocabulary and no visible text overlay or conspicuous modern infrastructure. Historical details remain qualified by the scene notes.",
+  "web_file": "images/assam/ahom-life-and-work/03-household-life/03-grain-storage.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/03-household-life/thumb/03-grain-storage.webp",
+  "caption": "Keeping the harvest dry. Upper Assam, circa 1750. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

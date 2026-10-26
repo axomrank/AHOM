@@ -1,0 +1,37 @@
+{
+  "id": "06-military-preparations/03-camp-kitchen",
+  "group": "06-military-preparations",
+  "slug": "03-camp-kitchen",
+  "title": "Feeding a working camp",
+  "period": "Ahom-controlled Assam, circa 1670",
+  "scene": "A practical riverside military camp kitchen: adults cooking rice in soot-blackened clay pots over two low earthen hearths, baskets of supplies and firewood, a few resting boatmen nearby, oars stacked under a separate thatch shelter. Humid early morning, no battle, luxury tent, royal feast or modern mess tins.",
+  "references": [
+    "kitchen-photo",
+    "pot-object",
+    "common-style"
+  ],
+  "source_ids": [
+    "S6",
+    "S7"
+  ],
+  "uncertainty": "The provisioning scene is inferred from a working camp; its exact layout, menu and service practices are unverified.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Feeding a working camp. Period: Ahom-controlled Assam, circa 1670.\nPrimary request: A practical riverside military camp kitchen: adults cooking rice in soot-blackened clay pots over two low earthen hearths, baskets of supplies and firewood, a few resting boatmen nearby, oars stacked under a separate thatch shelter. Humid early morning, no battle, luxury tent, royal feast or modern mess tins.\nInput images: Image 1 (kitchen-photo): museum kitchen comparison: hearth position, smoke staining and simple earthen storage only; exclude stainless steel, display signs and modern objects. Image 2 (pot-object): generated earthen vessel: form only. Image 3 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S6, S7. Interpretive limits: The provisioning scene is inferred from a working camp; its exact layout, menu and service practices are unverified.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "Cooks prepare food in large clay pots beside resting boatmen and stored paddles.",
+  "file": "images/assam/ahom-life-and-work/06-military-preparations/03-camp-kitchen.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/kitchen-assam-state-museum.jpg",
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/tekeli-earthen-pot.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-c9a7cb1e-3c59-4486-baaf-928166865132.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "68e96ce066a48f3c0b9a2fdc1b06678e138e56980f6b201cfabd0884bbd7b1f1",
+  "bytes": 3304897,
+  "visual_review": "Reviewed as a single landscape concept with clear activity, consistent material vocabulary and no visible text overlay or conspicuous modern infrastructure. Historical details remain qualified by the scene notes.",
+  "web_file": "images/assam/ahom-life-and-work/06-military-preparations/03-camp-kitchen.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/06-military-preparations/thumb/03-camp-kitchen.webp",
+  "caption": "Feeding a working camp. Ahom-controlled Assam, circa 1670. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

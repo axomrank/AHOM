@@ -1,0 +1,398 @@
+{
+  "expected": 30,
+  "completed": 30,
+  "missing": [],
+  "issues": [],
+  "images": [
+    {
+      "id": "kula-winnowing-tray",
+      "category": "household",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/kula-winnowing-tray.png",
+      "size": [
+        1387,
+        1134
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2061944,
+      "sha256": "fff42f5f13693bd1328351c6f6d4fc797e62e67081067b605b2e3df536d5a287"
+    },
+    {
+      "id": "chaloni-bamboo-sieve",
+      "category": "household",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/chaloni-bamboo-sieve.png",
+      "size": [
+        1135,
+        1386
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2569699,
+      "sha256": "f3ca060e5737614fdebd6a61fd088a1a0ab597b18d69aeccf38be53e118549e3"
+    },
+    {
+      "id": "khorahi-bamboo-basket",
+      "category": "household",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/khorahi-bamboo-basket.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2898345,
+      "sha256": "65105a9e310b151c654dba36ded3c2c14dedf6ed80d1be78438b641e4fc13718"
+    },
+    {
+      "id": "duli-grain-basket",
+      "category": "household",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/duli-grain-basket.png",
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2503510,
+      "sha256": "b84a6ad4ca243e34d40a0aefc0e208a28d73213b1f81c80fd4ab82db93b320a7"
+    },
+    {
+      "id": "doon-grain-measure",
+      "category": "household",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/doon-grain-measure.png",
+      "size": [
+        1331,
+        1181
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2505552,
+      "sha256": "2b1639b73c81e51671d100b506fa878ff10862cf59ad0b8c2a03d5caea0f6a06"
+    },
+    {
+      "id": "pira-wooden-seat",
+      "category": "household",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/pira-wooden-seat.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 1935412,
+      "sha256": "20338ae26e6618b09aecabcf44170e92e81fc41c1fee7347e7a5cac62e670a6a"
+    },
+    {
+      "id": "muga-riha",
+      "category": "textiles",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/textiles/muga-riha.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2718596,
+      "sha256": "97de0bc5ffa89555bf2cc9a6d9dabb740ca9486d18738803b7258f485291c6e3"
+    },
+    {
+      "id": "muga-mekhela",
+      "category": "textiles",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/textiles/muga-mekhela.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2576270,
+      "sha256": "f2b851e99e378a2862366967e8d59b8708cd7f37dbdaf469d11d66a0af9da71c"
+    },
+    {
+      "id": "muga-sador",
+      "category": "textiles",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/textiles/muga-sador.png",
+      "size": [
+        1161,
+        1354
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 1825733,
+      "sha256": "ac6b6f7fe0a6a093d00c041e9e779f25055bb801b91082facc9c012f0d096be2"
+    },
+    {
+      "id": "gamosa-red-white",
+      "category": "textiles",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/textiles/gamosa-red-white.png",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2671163,
+      "sha256": "5676a983278a9195efb7bb108477b526fb4eea4903f2ce7a10da56c49dffeeda"
+    },
+    {
+      "id": "eri-silk-swatch",
+      "category": "textiles",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/textiles/eri-silk-swatch.png",
+      "size": [
+        1145,
+        1374
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 3011961,
+      "sha256": "172a99a5b8a06ddff5b083951a509f66174768929a06ed6189d672ffd3eca233"
+    },
+    {
+      "id": "pat-silk-swatch",
+      "category": "textiles",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/textiles/pat-silk-swatch.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2564594,
+      "sha256": "b0e59f013d664f19c2c9b1bb3bb12b27d2f3efedc276575ba9ce463766e32c7a"
+    },
+    {
+      "id": "lahori-gogona",
+      "category": "instruments",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/instruments/lahori-gogona.png",
+      "size": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 583510,
+      "sha256": "3f6b1f0d2bd9d931c2d7d7ecee1e71917b822eb947525e1c2898f72b73d33cfd"
+    },
+    {
+      "id": "xutuli-clay-whistle",
+      "category": "instruments",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/instruments/xutuli-clay-whistle.png",
+      "size": [
+        1533,
+        1026
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 1455002,
+      "sha256": "1df5fe05cb573fc28ec0cdeb7af82de190183b3ceb3144724e2dc8edba5ed2a8"
+    },
+    {
+      "id": "bihu-taal-cymbals",
+      "category": "instruments",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/instruments/bihu-taal-cymbals.png",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 1676520,
+      "sha256": "d7d5d518c1f1a6b32e1c4db8aeea97b50b8efbc22c2d1945b0984f1ed190f32a"
+    },
+    {
+      "id": "baahi-bamboo-flute",
+      "category": "instruments",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/instruments/baahi-bamboo-flute.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 1327519,
+      "sha256": "cb913b89089a12f28e62007202f00d1758e6304ae3d58c0940bf0562677ce244"
+    },
+    {
+      "id": "bota-offering-tray",
+      "category": "vessels",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/bota-offering-tray.png",
+      "size": [
+        1382,
+        1138
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 1369746,
+      "sha256": "10d95ff1341f357a692de9cbac20c8325d20ba9900402ef473731f7013156ab9"
+    },
+    {
+      "id": "lota-brass-water-pot",
+      "category": "vessels",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/lota-brass-water-pot.png",
+      "size": [
+        1170,
+        1345
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 1805933,
+      "sha256": "9065fb58f8ff06f4b180d926fb2f5ec19088d2ca4a47294e28d59dd113987d74"
+    },
+    {
+      "id": "tekeli-earthen-pot",
+      "category": "vessels",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/tekeli-earthen-pot.png",
+      "size": [
+        1309,
+        1201
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2476578,
+      "sha256": "4b81ec91cfc3e8722c19066a43233615a3d83602c45dc5f7c59f1b7c37e4b134"
+    },
+    {
+      "id": "saki-earthen-oil-lamp",
+      "category": "vessels",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/saki-earthen-oil-lamp.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2070232,
+      "sha256": "9cd32265f4df75c00b834e41d884d8c2fd21b0328f9782df06f16ee9dd23db02"
+    },
+    {
+      "id": "jati-bamboo-clump",
+      "category": "plants",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/plants/jati-bamboo-clump.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 3086450,
+      "sha256": "8b05747b1c11adac39b800476b6eb5398ab4ee0893ab4322e33da6af091695b7"
+    },
+    {
+      "id": "bhaluka-bamboo-clump",
+      "category": "plants",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/plants/bhaluka-bamboo-clump.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 3346552,
+      "sha256": "be876c089f328a55eb58e8d830529ae0c87b03014192e6133461a60016fbeac7"
+    },
+    {
+      "id": "tamul-areca-palm",
+      "category": "plants",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/plants/tamul-areca-palm.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 1827638,
+      "sha256": "9bff00d5ec36c8e0b83ccbcc51eef5aeb41e625a063d3fd518badf66d7b2a40d"
+    },
+    {
+      "id": "banana-homestead-plant",
+      "category": "plants",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/plants/banana-homestead-plant.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 1673194,
+      "sha256": "49f6967c512668100ca67483eddf2af654db1512860f32ff9864cbe67403a66f"
+    },
+    {
+      "id": "paan-betel-vine",
+      "category": "plants",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/plants/paan-betel-vine.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 1853571,
+      "sha256": "171d812d46e3e213050d85f7d78229d7aa2727a158ee0cdc03e7e193c4cf839f"
+    },
+    {
+      "id": "nahor-tree",
+      "category": "plants",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/plants/nahor-tree.png",
+      "size": [
+        1024,
+        1535
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2952511,
+      "sha256": "4adce40530b490f5f235182a516fe3a9a6b8a3121a8ae4fea1205c18a2131f10"
+    },
+    {
+      "id": "kopou-orchid-on-bark",
+      "category": "plants",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/plants/kopou-orchid-on-bark.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2383832,
+      "sha256": "01bcb1549e962e1c5606d7a4375ddff3e87fc453f2ff7851eb814f82f9930fe2"
+    },
+    {
+      "id": "fulam-jaapi",
+      "category": "accessories",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/accessories/fulam-jaapi.png",
+      "size": [
+        1288,
+        1221
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2769862,
+      "sha256": "2e7fa52c72213d48249ad3084b867d85572629ebe1f8f18bf9fc32a800535a70"
+    },
+    {
+      "id": "kopou-hair-adornment",
+      "category": "accessories",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/accessories/kopou-hair-adornment.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 1905990,
+      "sha256": "aa6d423bc2e5f6952134d1dd4058f03bff483e500fd3ebd170672b8254d850cd"
+    },
+    {
+      "id": "jonbiri-dholbiri-jewellery",
+      "category": "accessories",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/accessories/jonbiri-dholbiri-jewellery.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "bytes": 2263577,
+      "sha256": "91a655158b98c22e3e3fab33070a8c0727bc15e2f95f68b44a4c672194adaa71"
+    }
+  ]
+}

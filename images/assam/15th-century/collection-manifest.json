@@ -1,0 +1,654 @@
+{
+  "period": "15th century, circa 1450",
+  "type": "AI-generated interpretive concepts and comparative references",
+  "source_preserved": true,
+  "files": [
+    {
+      "file": "ahom-village-15th-century/ahom-village-c1450.png",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-village-15th-century/ahom-village-c1450.png",
+      "sha256": "bb83775c56ab593e72ef00e6e3d32d830e357c48ac0cbee771ca4423f78b3870",
+      "role": "generated image",
+      "status": "superseded concept or former label"
+    },
+    {
+      "file": "ahom-village-15th-century/generation-notes.md",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-village-15th-century/generation-notes.md",
+      "sha256": "c4f792f7385e49691e51a2465b64778153193717d93f683ac709e2fd0fea2f11",
+      "role": "generation record",
+      "status": "superseded concept or former label"
+    },
+    {
+      "file": "ahom-royal-town-15th-century/ahom-royal-town-c1450.png",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-royal-town-15th-century/ahom-royal-town-c1450.png",
+      "sha256": "39faba6addaf34decd3215b2d0353ccb25f02c3184c5039789e4c80f34610ca8",
+      "role": "generated image",
+      "status": "superseded concept or former label"
+    },
+    {
+      "file": "ahom-royal-town-15th-century/README.md",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-royal-town-15th-century/README.md",
+      "sha256": "4a2ebee5e047d3648735b4a1097a389568f75ff372bdf2dd766eaa5d1a70f410",
+      "role": "generation record",
+      "status": "superseded concept or former label"
+    },
+    {
+      "file": "ahom-royal-town-15th-century/generation-notes.md",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-royal-town-15th-century/generation-notes.md",
+      "sha256": "60b35bb826d850e9f909731ffe6615e8e6814a451ee7b3327fa71c3d81931cc4",
+      "role": "generation record",
+      "status": "superseded concept or former label"
+    },
+    {
+      "file": "ahom-common-people-village-15th-century/ahom-common-people-village-c1450.png",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-common-people-village-15th-century/ahom-common-people-village-c1450.png",
+      "sha256": "39faba6addaf34decd3215b2d0353ccb25f02c3184c5039789e4c80f34610ca8",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-common-people-village-15th-century/asset.json",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-common-people-village-15th-century/asset.json",
+      "sha256": "f44fd620f1b78ad0e7a4c294df262601ea3a5eb2c619dba4c1acee9fe5f43545",
+      "role": "generation record",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-common-people-village-15th-century/generation-notes.md",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-common-people-village-15th-century/generation-notes.md",
+      "sha256": "e84d2750c6bbb72a95dcf4376f5ea032e845ebdccf4ea803a03f5bbafeb90af8",
+      "role": "generation record",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-royal-settlement-15th-century/ahom-royal-settlement-c1450.png",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-royal-settlement-15th-century/ahom-royal-settlement-c1450.png",
+      "sha256": "8d582e2cd5a50ecf7324bc9d5d58f67b92ea2a64eb598565cdc2960b0d3f6948",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-royal-settlement-15th-century/generation-notes.md",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-royal-settlement-15th-century/generation-notes.md",
+      "sha256": "511fabbb86c08716a1bba9754edba5b5f1eeaae9d6de0ccca4810a072d2de5ee",
+      "role": "generation record",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-village-street-shan-roof/ahom-common-village-street-shan-people-v2.png",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-village-street-shan-roof/ahom-common-village-street-shan-people-v2.png",
+      "sha256": "b496f9d92ab85734541b2597e076709bb4d82fc029d52b02fed2f8bf875cf12c",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-village-street-shan-roof/ahom-common-village-street-c1450.png",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-village-street-shan-roof/ahom-common-village-street-c1450.png",
+      "sha256": "c13250bdc350f72147e81e5b793da30f0ab6d4ef5c2de9a450aa4bbd05c5a40f",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-village-street-shan-roof/generation-notes-shan-people-v2.md",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-village-street-shan-roof/generation-notes-shan-people-v2.md",
+      "sha256": "6d783cd60f3c6d76e2b80107db9d9fe7cb9c63e11e78bc75e0ddfc3e836a3f78",
+      "role": "generation record",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-village-street-shan-roof/generation-notes.md",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-village-street-shan-roof/generation-notes.md",
+      "sha256": "60267cdd2184b1c80b9c72d3c29935396fae6e5419842da7fd2eb9b60dbdf59b",
+      "role": "generation record",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-village-street-shan-roof/reference/shan-men-user-reference.webp",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-village-street-shan-roof/reference/shan-men-user-reference.webp",
+      "sha256": "5ea7490b116305b6bddbdbfba33f058343ac0dd6ec72a0c5af6dfae40f4a8d92",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-village-street-shan-roof/reference/shan-woman-beato-user-reference.jpg",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-village-street-shan-roof/reference/shan-woman-beato-user-reference.jpg",
+      "sha256": "eb8b739180bbfe47d9467bba784d5daefd16b30e63b8bdc47584f134f3ccde73",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-village-street-shan-roof/reference/traditional-shan-house-round-ended-roof.webp",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-village-street-shan-roof/reference/traditional-shan-house-round-ended-roof.webp",
+      "sha256": "668317ac1726f1496a0cddc43fec4d5d69177308cf06fda905b14ad73b72ebb9",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-whole-village-three-views/02-pondside-village-life.png",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-whole-village-three-views/02-pondside-village-life.png",
+      "sha256": "90714659456136983a435c6c0e9c9add2acbc96de088eac57f19184fbe05379a",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-whole-village-three-views/01-village-overview.png",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-whole-village-three-views/01-village-overview.png",
+      "sha256": "d065fd10b60138ef4d7b4e71e6c6158d0f085ae85d2f89f40934a4b5846e6adc",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-whole-village-three-views/prompts.json",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-whole-village-three-views/prompts.json",
+      "sha256": "a18df341d82cfb71bd9189abb5ffac2c2d75b491459039ff0a334e9c74e11e05",
+      "role": "generation record",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-whole-village-three-views/03-village-and-rice-fields.png",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-whole-village-three-views/03-village-and-rice-fields.png",
+      "sha256": "a3d9a3c54c1e5f7abda5ace8fe2accaa640055910509ef08d16631079a16a1b3",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-whole-village-three-views/README.md",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-whole-village-three-views/README.md",
+      "sha256": "0fb336b039271fe32269f989004feaf09e7a5da92cab2494ca2e981cc93fd2db",
+      "role": "generation record",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-whole-village-three-views/manifest.json",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-whole-village-three-views/manifest.json",
+      "sha256": "e1bde9a997f667b32bcfe0fba93e9cb72fc15ecfaa67ab49226fcc29b27de57b",
+      "role": "generation record",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-whole-village-three-views/reference/shan-men-user-reference.webp",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-whole-village-three-views/reference/shan-men-user-reference.webp",
+      "sha256": "5ea7490b116305b6bddbdbfba33f058343ac0dd6ec72a0c5af6dfae40f4a8d92",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-whole-village-three-views/reference/shan-woman-beato-user-reference.jpg",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-whole-village-three-views/reference/shan-woman-beato-user-reference.jpg",
+      "sha256": "eb8b739180bbfe47d9467bba784d5daefd16b30e63b8bdc47584f134f3ccde73",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "ahom-whole-village-three-views/reference/traditional-shan-house-round-ended-roof.webp",
+      "source_file": "/home/angsuman/extra_spac/AHOM/output/imagegen/ahom-whole-village-three-views/reference/traditional-shan-house-round-ended-roof.webp",
+      "sha256": "668317ac1726f1496a0cddc43fec4d5d69177308cf06fda905b14ad73b72ebb9",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-residence-timber-straw/ahom-royal-residence-timber-straw-c1450.png",
+      "source_file": "Built-in image generation / user-supplied and project references; see bundle notes",
+      "sha256": "4f9bece07f50690267ec56e74cf02a7f81ec32bbee077afe08a6f6417bbe8889",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-residence-timber-straw/generation-notes.md",
+      "source_file": "Built-in image generation / user-supplied and project references; see bundle notes",
+      "sha256": "b49cc385e52f89c1bd63b55b36b77f390b0087cf98b0d3228d9bb209a5f7e5f8",
+      "role": "generation record",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-residence-timber-straw/reference/ambika-costume-artistic-reference.webp",
+      "source_file": "Built-in image generation / user-supplied and project references; see bundle notes",
+      "sha256": "5c1f9bc3b7086a063083de7dcc928dcbfa8cb895f8dae015ad53e9ed6ba5e702",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-residence-timber-straw/reference/borgohain-costume-artistic-reference.webp",
+      "source_file": "Built-in image generation / user-supplied and project references; see bundle notes",
+      "sha256": "1dd2ec3400bc65e43e8e2b9b4ea1cf643bd448d126884aa6d7bbbf0a945d61c9",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-residence-timber-straw/reference/user-building-reference.jpeg",
+      "source_file": "Built-in image generation / user-supplied and project references; see bundle notes",
+      "sha256": "9de9a15fe380ae9d9a90da374f89484a50728c0f21c41913b069d0df4036b07d",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-residence-timber-straw/ahom-royal-residence-soldier-uniforms-v2.png",
+      "source_file": "Built-in image generation edit / user clothing reference; see bundle notes",
+      "sha256": "037fa534cd0446bf36452243480d83556c23afc4d8dc67da7fb54069c881b8b9",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-residence-timber-straw/reference/ordinary-soldier-clothing-user-reference.jpg",
+      "source_file": "Built-in image generation edit / user clothing reference; see bundle notes",
+      "sha256": "cf36a5249bc5f552500926bf594ca9dd0be852074495ffe1de55ca6cb1cbb106",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-residence-timber-straw/soldier-uniform-edit-v2-notes.md",
+      "source_file": "Built-in image generation edit / user clothing reference; see bundle notes",
+      "sha256": "8fba4925f6a0e7a690734cd1d013b36ce0b88054c53b0013d2a169143aa96bde",
+      "role": "generation record",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-houses-and-settlement/ahom-royal-houses-settlement-c1450.png",
+      "source_file": "Built-in image generation / user timber-house diagram; see bundle notes",
+      "sha256": "1304e3637fd8142d8545574f64afa3d4f4ca46518f037656ec9d68063fc5edd7",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-houses-and-settlement/generation-notes.md",
+      "source_file": "Built-in image generation / user timber-house diagram; see bundle notes",
+      "sha256": "caac67335bbb59bbf5707fc31aac73be8948b7d3841e383628d3800875fafa6d",
+      "role": "generation record",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-houses-and-settlement/reference/user-timber-house-framework.jpeg",
+      "source_file": "Built-in image generation / user timber-house diagram; see bundle notes",
+      "sha256": "d3f9a904cc02ec1be4006fe455914f1205768c359ad67eece48bc2d28e9ebac1",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-settlement-five-camera-shots/03-sarbeswari-upper-veranda.png",
+      "source_file": "Built-in image generation and local reconstructed character references; see bundle README",
+      "sha256": "7c72dfc0d3988afe6f6b7630b810cfc88fdc35e78e2f97f3004976722dcbee2b",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-settlement-five-camera-shots/04-atan-lower-veranda.png",
+      "source_file": "Built-in image generation and local reconstructed character references; see bundle README",
+      "sha256": "2f56313180e069b4172c8e5c0678f69dc87b6563dbe7a3c1d0b5a5530d08cc73",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-settlement-five-camera-shots/05-ambika-smaller-residence.png",
+      "source_file": "Built-in image generation and local reconstructed character references; see bundle README",
+      "sha256": "852b1abf81fb081e1dff25f95fa462a45158aaba3c22394c9495b70e78813de2",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-settlement-five-camera-shots/prompts.json",
+      "source_file": "Built-in image generation and local reconstructed character references; see bundle README",
+      "sha256": "10136169ed707ea92674604c2f3208abb052c16b2687e833a7b762ac89d64b7b",
+      "role": "generation record",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-settlement-five-camera-shots/01-momai-tamuli-residential-gate.png",
+      "source_file": "Built-in image generation and local reconstructed character references; see bundle README",
+      "sha256": "aa6637d08d167e9331af7efc0a96c7bffd4db9741969a36ea53e3f95afe06750",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-settlement-five-camera-shots/README.md",
+      "source_file": "Built-in image generation and local reconstructed character references; see bundle README",
+      "sha256": "a357f214390b6c5bd4d9aa053d23ce19f5fe8cf83da763db6727586b1fcd79db",
+      "role": "generation record",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-settlement-five-camera-shots/manifest.json",
+      "source_file": "Built-in image generation and local reconstructed character references; see bundle README",
+      "sha256": "95ac6884b78ff80a09accda62831aff473afe56ddf070a36439812be82984ed5",
+      "role": "generation record",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-settlement-five-camera-shots/royal-settlement-five-shots.zip",
+      "source_file": "Built-in image generation and local reconstructed character references; see bundle README",
+      "sha256": "c25c406f0d65c019622e0fe52e36cb06d79134bd8b6fa503b25e2a97dbb547a2",
+      "role": "download package",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-settlement-five-camera-shots/02-numali-rajmao-house-interior.png",
+      "source_file": "Built-in image generation and local reconstructed character references; see bundle README",
+      "sha256": "71455de921e51c25fb0f33e24ad49368f3094ef6ebc646130d527e81bd9d7a5d",
+      "role": "generated image",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-settlement-five-camera-shots/reference/atan-burhagohain-character-sheet.webp",
+      "source_file": "Built-in image generation and local reconstructed character references; see bundle README",
+      "sha256": "0117aa4259ce9e886b6ad24a22cda02c7dc5114cef6469fb898df294a54e6c6f",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-settlement-five-camera-shots/reference/numali-rajmao-character-sheet.webp",
+      "source_file": "Built-in image generation and local reconstructed character references; see bundle README",
+      "sha256": "fda7fc7b909c1c24231ab485508a2737c717d457c67b976c789a2f1bc047346a",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-settlement-five-camera-shots/reference/momai-tamuli-character-sheet.webp",
+      "source_file": "Built-in image generation and local reconstructed character references; see bundle README",
+      "sha256": "b5a04afb579143b5ea1717aa50714ae33f039a447c257c3a108ee95ee6c906c2",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-settlement-five-camera-shots/reference/sarbeswari-character-sheet.webp",
+      "source_file": "Built-in image generation and local reconstructed character references; see bundle README",
+      "sha256": "542b2d9177f5b2297e81a6000368242683de6e70197e765ad9c571c235b62e43",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "royal-settlement-five-camera-shots/reference/ambika-character-sheet.webp",
+      "source_file": "Built-in image generation and local reconstructed character references; see bundle README",
+      "sha256": "5c1f9bc3b7086a063083de7dcc928dcbfa8cb895f8dae015ad53e9ed6ba5e702",
+      "role": "comparative reference",
+      "status": "current concept"
+    },
+    {
+      "file": "kachari/02-kachari-household-courtyard.png",
+      "source_file": "Built-in image generation / user-supplied modern Kachari house and clothing comparisons; see bundle notes",
+      "sha256": "ee64cec1d09b47b5332c80f88df18f8a44d06fac7a83aaf6ec893c3d9ae7618e",
+      "role": "generated image",
+      "status": "current concept",
+      "scene_group": "common Kachari village",
+      "previous_collection_path": "kachari-common-village-three-scenes/02-kachari-household-courtyard.png"
+    },
+    {
+      "file": "kachari/01-kachari-village-overview.png",
+      "source_file": "Built-in image generation / user-supplied modern Kachari house and clothing comparisons; see bundle notes",
+      "sha256": "d30983cda65a101a15d31acbfc820f87ba7e3f105ed1aaa633d81e857c1f3578",
+      "role": "generated image",
+      "status": "current concept",
+      "scene_group": "common Kachari village",
+      "previous_collection_path": "kachari-common-village-three-scenes/01-kachari-village-overview.png"
+    },
+    {
+      "file": "kachari/prompts.json",
+      "source_file": "Built-in image generation / user-supplied modern Kachari house and clothing comparisons; see bundle notes",
+      "sha256": "8e1dbcf1d1be18f54798acf60856ee1b71e3eb3c9917b00f9d670b8a9c64b92a",
+      "role": "generation record",
+      "status": "current concept",
+      "scene_group": "common Kachari village",
+      "previous_collection_path": "kachari-common-village-three-scenes/prompts.json"
+    },
+    {
+      "file": "kachari/kachari-village-three-scenes.zip",
+      "source_file": "Built-in image generation / user-supplied modern Kachari house and clothing comparisons; see bundle notes",
+      "sha256": "4f5f8e59766fe4cf48c708d1b857ea92682161b0c138ee4fc0f0066b160ebb4d",
+      "role": "download package",
+      "status": "current concept",
+      "scene_group": "common Kachari village",
+      "previous_collection_path": "kachari-common-village-three-scenes/kachari-village-three-scenes.zip"
+    },
+    {
+      "file": "kachari/README.md",
+      "source_file": "Built-in image generation / user-supplied modern Kachari house and clothing comparisons; see bundle notes",
+      "sha256": "b4dac6f20030b4d3628b15ddc24356cedb2082cfc9bf54be38013a8ed0a92e24",
+      "role": "generation record",
+      "status": "current concept",
+      "scene_group": "common Kachari village",
+      "previous_collection_path": "kachari-common-village-three-scenes/README.md"
+    },
+    {
+      "file": "kachari/03-kachari-village-green-gathering.png",
+      "source_file": "Built-in image generation / user-supplied modern Kachari house and clothing comparisons; see bundle notes",
+      "sha256": "c58cf5e455ed5397eb90d4334f8c18a95ce851c2d8d0168c6e3b56f00bda905c",
+      "role": "generated image",
+      "status": "current concept",
+      "scene_group": "common Kachari village",
+      "previous_collection_path": "kachari-common-village-three-scenes/03-kachari-village-green-gathering.png"
+    },
+    {
+      "file": "kachari/manifest.json",
+      "source_file": "Built-in image generation / user-supplied modern Kachari house and clothing comparisons; see bundle notes",
+      "sha256": "d1c35f71fbf6e8f5c80cb485c34ee5afad39a8f5d4e3aa8885cd7ac28f2a8f72",
+      "role": "generation record",
+      "status": "current concept",
+      "scene_group": "common Kachari village",
+      "previous_collection_path": "kachari-common-village-three-scenes/manifest.json"
+    },
+    {
+      "file": "kachari/reference/user-bodo-kachari-compound-reference.webp",
+      "source_file": "Built-in image generation / user-supplied modern Kachari house and clothing comparisons; see bundle notes",
+      "sha256": "b97528a31f210fe7571269e5c15a7058aa3958f73ea318ae5de316c6dff64953",
+      "role": "comparative reference",
+      "status": "current concept",
+      "scene_group": "common Kachari village",
+      "previous_collection_path": "kachari-common-village-three-scenes/reference/user-bodo-kachari-compound-reference.webp"
+    },
+    {
+      "file": "kachari/reference/user-yellow-white-clothing-reference.jpeg",
+      "source_file": "Built-in image generation / user-supplied modern Kachari house and clothing comparisons; see bundle notes",
+      "sha256": "b7f1671d4e9b5c4319c28b59202ae50c142bdd3b0257a906acec170370ab159f",
+      "role": "comparative reference",
+      "status": "current concept",
+      "scene_group": "common Kachari village",
+      "previous_collection_path": "kachari-common-village-three-scenes/reference/user-yellow-white-clothing-reference.jpeg"
+    },
+    {
+      "file": "kachari/reference/user-community-and-house-reference.jpeg",
+      "source_file": "Built-in image generation / user-supplied modern Kachari house and clothing comparisons; see bundle notes",
+      "sha256": "447a67e501e97b5aaa0ff99169c32794b074629cadfb83ea5b681c6dda6966d3",
+      "role": "comparative reference",
+      "status": "current concept",
+      "scene_group": "common Kachari village",
+      "previous_collection_path": "kachari-common-village-three-scenes/reference/user-community-and-house-reference.jpeg"
+    },
+    {
+      "file": "bhuyan/README.md",
+      "source_file": "Built-in image generation / user-supplied and project visual comparisons; see Bhuyan notes",
+      "sha256": "3612e1b80e81c3ab854e4f08ce80cfe7bedec05246a0f6dd0662752049d3ed4f",
+      "role": "generation record",
+      "status": "current concept",
+      "scene_group": "Bhuyan village"
+    },
+    {
+      "file": "bhuyan/generation-notes.md",
+      "source_file": "Built-in image generation / user-supplied and project visual comparisons; see Bhuyan notes",
+      "sha256": "9d600b6d1c965a1b718f4660822941abb75186ad712e6f6a135fddfd0b95bf91",
+      "role": "generation record",
+      "status": "current concept",
+      "scene_group": "Bhuyan village"
+    },
+    {
+      "file": "bhuyan/manifest.json",
+      "source_file": "Built-in image generation / user-supplied and project visual comparisons; see Bhuyan notes",
+      "sha256": "74ef525e2b9a2ba02999b6525588dfe8f46e8ba655cb2f3c870515b798c63ba4",
+      "role": "generation record",
+      "status": "current concept",
+      "scene_group": "Bhuyan village"
+    },
+    {
+      "file": "bhuyan/01-bhuyan-village-sankardev.png",
+      "source_file": "Built-in image generation / user-supplied and project visual comparisons; see Bhuyan notes",
+      "sha256": "fe27268dff7c5bcc7448ce3c27862b423807c270a80c6f87e935253675b7df94",
+      "role": "generated image",
+      "status": "current concept",
+      "scene_group": "Bhuyan village"
+    },
+    {
+      "file": "bhuyan/reference/user-women-wrapped-clothing-reference.jpg",
+      "source_file": "Built-in image generation / user-supplied and project visual comparisons; see Bhuyan notes",
+      "sha256": "853529fec60807e3d7174b14408ce8db347a9f387411989ab4837f1c0264b63b",
+      "role": "comparative reference",
+      "status": "current concept",
+      "scene_group": "Bhuyan village"
+    },
+    {
+      "file": "bhuyan/reference/sankardev-artistic-character-sheet.webp",
+      "source_file": "Built-in image generation / user-supplied and project visual comparisons; see Bhuyan notes",
+      "sha256": "b534bda8997dd08bb4316cc9fb3d32f79ba349297fdd85dadd19581b5acbed8a",
+      "role": "comparative reference",
+      "status": "current concept",
+      "scene_group": "Bhuyan village"
+    },
+    {
+      "file": "bhuyan/reference/user-women-white-head-drape-reference.jpg",
+      "source_file": "Built-in image generation / user-supplied and project visual comparisons; see Bhuyan notes",
+      "sha256": "a9e5f0e3341b438befedb6bf293e9dc5b1d38c907c962d81e4227a3a36c3b4b6",
+      "role": "comparative reference",
+      "status": "current concept",
+      "scene_group": "Bhuyan village"
+    },
+    {
+      "file": "bhuyan/reference/1990s-bungalow-architectural-comparison.png",
+      "source_file": "Built-in image generation / user-supplied and project visual comparisons; see Bhuyan notes",
+      "sha256": "e2cca4ffb61876424b5c0309b6e2071057262f4d5bba2e56613774918fa6af18",
+      "role": "comparative reference",
+      "status": "current concept",
+      "scene_group": "Bhuyan village"
+    },
+    {
+      "file": "bhuyan/five-domestic-scenes/03-sankardev-veranda-reading-gathering.png",
+      "source_file": "Built-in image generation / project visual references; see bundle README",
+      "sha256": "6cabae7b176b9f3ddb6f198333bfcae018b8122df0b9123a9d7e79ab4079a4a7",
+      "role": "generated image",
+      "status": "current concept",
+      "scene_group": "Bhuyan common domestic scenes"
+    },
+    {
+      "file": "bhuyan/five-domestic-scenes/02-women-weaving-common-home.png",
+      "source_file": "Built-in image generation / project visual references; see bundle README",
+      "sha256": "61efb5d518a7bd46cd5c416556c72310ad6b2d39707e0ba66ae159d8d4f90ad4",
+      "role": "generated image",
+      "status": "current concept",
+      "scene_group": "Bhuyan common domestic scenes"
+    },
+    {
+      "file": "bhuyan/five-domestic-scenes/01-sankardev-sanchipat-on-thoga.png",
+      "source_file": "Built-in image generation / project visual references; see bundle README",
+      "sha256": "7f196fb3916865913510df5e8cf0fcdb7f563d89a74e33e538818c2206ee47df",
+      "role": "generated image",
+      "status": "current concept",
+      "scene_group": "Bhuyan common domestic scenes"
+    },
+    {
+      "file": "bhuyan/five-domestic-scenes/bhuyan-five-domestic-scenes.zip",
+      "source_file": "Built-in image generation / project visual references; see bundle README",
+      "sha256": "0d32f8bca0b472c31d9ee3d0682f5c30197277924baa5cb7a62958093a126acf",
+      "role": "download package",
+      "status": "current concept",
+      "scene_group": "Bhuyan common domestic scenes"
+    },
+    {
+      "file": "bhuyan/five-domestic-scenes/05-women-manuscript-reading-and-care.png",
+      "source_file": "Built-in image generation / project visual references; see bundle README",
+      "sha256": "c38537f1b7d81b33179730e22e4e8070cb537f0943d2704407b4283a60bf4c68",
+      "role": "generated image",
+      "status": "current concept",
+      "scene_group": "Bhuyan common domestic scenes"
+    },
+    {
+      "file": "bhuyan/five-domestic-scenes/prompts.json",
+      "source_file": "Built-in image generation / project visual references; see bundle README",
+      "sha256": "55af5226fb910cc925811113ee22a85f65b38ee26d9c39e2a7fd338c364cbc18",
+      "role": "generation record",
+      "status": "current concept",
+      "scene_group": "Bhuyan common domestic scenes"
+    },
+    {
+      "file": "bhuyan/five-domestic-scenes/04-women-pondside-courtyard.png",
+      "source_file": "Built-in image generation / project visual references; see bundle README",
+      "sha256": "03a06ba5e16c97828dbcc5fab9af9a13ec5b08791da38735b22658f969433f65",
+      "role": "generated image",
+      "status": "current concept",
+      "scene_group": "Bhuyan common domestic scenes"
+    },
+    {
+      "file": "bhuyan/five-domestic-scenes/README.md",
+      "source_file": "Built-in image generation / project visual references; see bundle README",
+      "sha256": "2c0e335a1a42777646bb0fdd39039be148a6f526a03267bfe6dbe70d7d699ddd",
+      "role": "generation record",
+      "status": "current concept",
+      "scene_group": "Bhuyan common domestic scenes"
+    },
+    {
+      "file": "bhuyan/five-domestic-scenes/manifest.json",
+      "source_file": "Built-in image generation / project visual references; see bundle README",
+      "sha256": "6629648ec040b59457d5f687093621f5dfcf348f86df9b036d718b0c74a4ae5c",
+      "role": "generation record",
+      "status": "current concept",
+      "scene_group": "Bhuyan common domestic scenes"
+    },
+    {
+      "file": "bhuyan/common-house-adaptations/01-basic-common-home-c15.png",
+      "source_file": "Built-in image generation / project 1990s house and Sankardev clothing comparisons; see bundle README",
+      "sha256": "2977e6020c8db1b82eae084aec1283a377d4635f58acaa7a9be1f0268638bdf9",
+      "role": "generated image",
+      "status": "current concept",
+      "scene_group": "Bhuyan common house adaptations"
+    },
+    {
+      "file": "bhuyan/common-house-adaptations/02-larger-common-veranda-home-c15.png",
+      "source_file": "Built-in image generation / project 1990s house and Sankardev clothing comparisons; see bundle README",
+      "sha256": "6d9e6f256c8348610ffa956f5a877b82d9223b89eee310d16c5d9484724c218b",
+      "role": "generated image",
+      "status": "current concept",
+      "scene_group": "Bhuyan common house adaptations"
+    },
+    {
+      "file": "bhuyan/common-house-adaptations/prompts.json",
+      "source_file": "Built-in image generation / project 1990s house and Sankardev clothing comparisons; see bundle README",
+      "sha256": "e116c8e47ee9248c027bdb6f1e3cfe8d7f3c17cf75dbdc90b041a138384b947f",
+      "role": "generation record",
+      "status": "current concept",
+      "scene_group": "Bhuyan common house adaptations"
+    },
+    {
+      "file": "bhuyan/common-house-adaptations/README.md",
+      "source_file": "Built-in image generation / project 1990s house and Sankardev clothing comparisons; see bundle README",
+      "sha256": "a8408cd9fc1c69c17163ca626b0c87866dda7150fd733d0a72cf0a94f90d9efa",
+      "role": "generation record",
+      "status": "current concept",
+      "scene_group": "Bhuyan common house adaptations"
+    },
+    {
+      "file": "bhuyan/common-house-adaptations/manifest.json",
+      "source_file": "Built-in image generation / project 1990s house and Sankardev clothing comparisons; see bundle README",
+      "sha256": "ab4b30083b8d9189a1ca205961ee7323342c430f694932843d07d31ad101ebf9",
+      "role": "generation record",
+      "status": "current concept",
+      "scene_group": "Bhuyan common house adaptations"
+    },
+    {
+      "file": "bhuyan/common-house-adaptations/reference/1990s-basic-home-comparison.png",
+      "source_file": "Built-in image generation / project 1990s house and Sankardev clothing comparisons; see bundle README",
+      "sha256": "1efcf1c9c50fe4c650e406c969c8d04c0a430b377e71bd7cc4fcaa9d75aeeed1",
+      "role": "comparative reference",
+      "status": "current concept",
+      "scene_group": "Bhuyan common house adaptations"
+    },
+    {
+      "file": "bhuyan/common-house-adaptations/reference/1990s-middle-income-home-comparison.png",
+      "source_file": "Built-in image generation / project 1990s house and Sankardev clothing comparisons; see bundle README",
+      "sha256": "c0d6d1bb8a367103351bb84652cbde3bac3d84853c0153e9e610dafaf2368a3e",
+      "role": "comparative reference",
+      "status": "current concept",
+      "scene_group": "Bhuyan common house adaptations"
+    },
+    {
+      "file": "bhuyan/common-house-adaptations/reference/sankardev-male-clothing-comparison.webp",
+      "source_file": "Built-in image generation / project 1990s house and Sankardev clothing comparisons; see bundle README",
+      "sha256": "b534bda8997dd08bb4316cc9fb3d32f79ba349297fdd85dadd19581b5acbed8a",
+      "role": "comparative reference",
+      "status": "current concept",
+      "scene_group": "Bhuyan common house adaptations"
+    }
+  ]
+}

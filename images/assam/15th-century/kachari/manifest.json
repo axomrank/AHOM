@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-kachari-village-overview.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "d30983cda65a101a15d31acbfc820f87ba7e3f105ed1aaa633d81e857c1f3578",
+    "type": "AI-generated interpretive Kachari common village scene",
+    "tool": "built-in image generation"
+  },
+  {
+    "file": "02-kachari-household-courtyard.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ee64cec1d09b47b5332c80f88df18f8a44d06fac7a83aaf6ec893c3d9ae7618e",
+    "type": "AI-generated interpretive Kachari common village scene",
+    "tool": "built-in image generation"
+  },
+  {
+    "file": "03-kachari-village-green-gathering.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c58cf5e455ed5397eb90d4334f8c18a95ce851c2d8d0168c6e3b56f00bda905c",
+    "type": "AI-generated interpretive Kachari common village scene",
+    "tool": "built-in image generation"
+  }
+]

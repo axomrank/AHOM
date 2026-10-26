@@ -1,0 +1,29 @@
+{
+  "id": "08-places-across-time/02-kareng-present-photo",
+  "group": "08-places-across-time",
+  "slug": "02-kareng-present-photo",
+  "title": "Garhgaon palace: modern reference photograph",
+  "period": "Modern photograph; capture date not verified",
+  "file": "images/assam/ahom-life-and-work/08-places-across-time/02-kareng-present-photo.jpg",
+  "kind": "real modern photograph, unchanged bytes",
+  "status": "complete",
+  "references": [
+    "kareng"
+  ],
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/referance/ahom/01_ahom_royal_and_civic/kareng-ghar/01_general_views/119119842_KARENG_GHAR_SIVASAGAR_ASSAM.jpg"
+  ],
+  "source_ids": [
+    "S11"
+  ],
+  "uncertainty": "Modern reference photograph, not necessarily the site’s condition in October 2026. Attribution and licence retained in reference-records.json. Approximate comparison with generated historical view.",
+  "paired_with": "01-kareng-historical",
+  "alt": "A real modern photograph of the tiered Garhgaon palace exterior, with its source attribution retained.",
+  "sha256": "92ca66252e578c50bcaef9e64b76b07ecd36044bee548aba4144bab60bb184fb",
+  "width": 1024,
+  "height": 681,
+  "bytes": 162487,
+  "web_file": "images/assam/ahom-life-and-work/08-places-across-time/02-kareng-present-photo.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/08-places-across-time/thumb/02-kareng-present-photo.webp",
+  "caption": "Garhgaon palace: modern reference photograph. Unchanged real modern photograph; capture date not verified. This is not a newly generated image or a live 2026 site record."
+}

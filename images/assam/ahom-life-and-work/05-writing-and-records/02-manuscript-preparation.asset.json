@@ -1,0 +1,35 @@
+{
+  "id": "05-writing-and-records/02-manuscript-preparation",
+  "group": "05-writing-and-records",
+  "slug": "02-manuscript-preparation",
+  "title": "Preparing bark folios",
+  "period": "Assam, circa 1750",
+  "scene": "Close view of two adult manuscript workers preparing long narrow bark sheets on a smooth wooden work surface: one burnishes a dry folio with a smooth stone while the other lays prepared sheets flat to dry in shade. A small raw bark strip demonstrates material, no chemicals, modern screw press or bound codex.",
+  "references": [
+    "manuscript-object",
+    "common-style"
+  ],
+  "source_ids": [
+    "S9",
+    "S10"
+  ],
+  "uncertainty": "Selective illustration of preparation stages; timing, tools and exact sequence are interpretive, not a technical recipe.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Preparing bark folios. Period: Assam, circa 1750.\nPrimary request: Close view of two adult manuscript workers preparing long narrow bark sheets on a smooth wooden work surface: one burnishes a dry folio with a smooth stone while the other lays prepared sheets flat to dry in shade. A small raw bark strip demonstrates material, no chemicals, modern screw press or bound codex.\nInput images: Image 1 (manuscript-object): generated oblong bark-folio stack: shape only, not authentic writing. Image 2 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S9, S10. Interpretive limits: Selective illustration of preparation stages; timing, tools and exact sequence are interpretive, not a technical recipe.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "A worker burnishes an oblong bark sheet while another lays prepared sheets out flat.",
+  "file": "images/assam/ahom-life-and-work/05-writing-and-records/02-manuscript-preparation.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/manuscripts/sanchi-pat-manuscript-bundle.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-27fd8667-d4b8-44cc-b153-a8a02a169e64.png",
+  "width": 1672,
+  "height": 940,
+  "sha256": "bcf43f7d556f663a5fa518c08270148cbb9c9e6a362e666dbdd678f092d12d59",
+  "bytes": 3017522,
+  "visual_review": "Reviewed as a single landscape concept with clear activity, consistent material vocabulary and no visible text overlay or conspicuous modern infrastructure. Historical details remain qualified by the scene notes.",
+  "web_file": "images/assam/ahom-life-and-work/05-writing-and-records/02-manuscript-preparation.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/05-writing-and-records/thumb/02-manuscript-preparation.webp",
+  "caption": "Preparing bark folios. Assam, circa 1750. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

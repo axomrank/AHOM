@@ -1,0 +1,15 @@
+{
+  "path": "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/handloom-nen.jpg",
+  "kind": "modern comparative photograph",
+  "metadata": {
+    "original_path": "images/assam/50s/generation-notes/references/handloom-nen.jpg",
+    "download_record": {
+      "file": "handloom-nen.jpg",
+      "image_url": "https://northeastnetwork.org/wp-content/uploads/2023/06/Saneki02.jpg"
+    },
+    "license": "Not established in local record; research comparison only"
+  },
+  "local_copy": "images/assam/ahom-life-and-work/references/loom-photo.jpg",
+  "sha256": "96287c056bb0089d87298a22aa15de65dfdac33072cd868b62d9ad7d527ec685",
+  "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+}

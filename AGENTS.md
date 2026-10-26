@@ -1,0 +1,17 @@
+# Historical image references
+
+For image creation in this project, read `images/referance/ahom/IMAGE_CREATION_GUIDE.md` and select references through `images/referance/ahom/00_catalogue/reference-manifest.json` or the local gallery.
+
+The user explicitly distinguishes Hindu temple architecture from Ahom royal, civic and Tai-Ahom funerary architecture. Keep Joy Dol, Shiva/Siva Dol, Vishnu Dol, Devi Dol and related Hindu temples in the Hindu temple reference group. Ahom royal patronage is separate historical metadata; it does not make temple form a generic Ahom palace, village or town template. Preserve this distinction in future prompts and reference selection.
+
+Do not project surviving 18th-century masonry palaces, temples or bridges into a 15th-century scene without evidence. Do not equate an ordinary stilt-house village with a specific Ahom royal town. Early royal settlements require research; identify speculative details explicitly. Keep Ghanashyam's House (mixed architectural influences), Fakuwa Doul (memorial/shrine with qualified burial interpretation), modern site infrastructure, uncertain identities and unrelated Tripura images separately labelled. Generated interpretations must remain outside the real-photograph reference folders.
+
+The download collection has been physically reorganized. The current manifest is authoritative; records under `00_catalogue/download_records/` preserve historical paths only. Do not rerun legacy download scripts into their former directories. Preserve image bytes, source attribution and the move ledger when updating the library.
+
+Generated 15th-century village and settlement concepts are collected under `images/assam/15th-century/`, alongside `present-day/`, `90s/` and `50s/`. Use its README and collection manifest for reuse; keep comparative references and generation notes with the corresponding images. Original generation bundles under `output/imagegen/` remain preserved. Do not mix these generated concepts into the real-photograph reference catalogue.
+
+Common Kachari village concepts are a separate scene group under `images/assam/15th-century/kachari/`. Use the user's attached Kachari house/clothing comparisons for that group, not the Ahom royal dress, carved palace-house design or guard uniforms. Those modern comparative references do not independently establish 15th-century authenticity.
+
+Bhuyan village concepts are under `images/assam/15th-century/bhuyan/`, separate from Kachari and Ahom sets. Use the local Sankardev character sheet and the supplied white women's clothing references where requested. Modern bungalow-to-straw/timber transformations are artistic comparisons, not historical house plans. Keep Shiromani Bhuyan political responsibilities, religious influence and any proposed theocratic-state characterization distinct in research notes; do not treat the latter as established without evidence.
+
+For new Bhuyan scenes, the user explicitly requests that other adult men's clothing follow Sankardev's design too: plain white dhoti and separate white shoulder cloth with minimal ochre edging, cloth over the left shoulder, right shoulder/arm bare, bare feet; no shirts, jackets, trousers, headwraps or hats unless the user revises the direction. Preserve distinct individual faces and ages rather than copying Sankardev's identity onto every man. This is the project's creative costume direction, not a universal historical dress claim; it does not apply to the separate Ahom or Kachari groups.

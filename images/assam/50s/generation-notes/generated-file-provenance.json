@@ -1,0 +1,82 @@
+[
+  {
+    "id": "01-namghar-exterior",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-606ec946-c057-4110-b995-046c32787c6f.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/50s/01-namghar-exterior.png"
+  },
+  {
+    "id": "02-village-homestead",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-01c89d55-c872-4ec7-8a63-182900d764be.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/50s/02-village-homestead.png"
+  },
+  {
+    "id": "03-kitchen-interior",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-fa34c580-0930-41dd-b4ad-217957547a56.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/50s/03-kitchen-interior.png"
+  },
+  {
+    "id": "04-weaving-corner",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-bb1215ed-b4a3-41b3-9b7b-2f791c792466.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/50s/04-weaving-corner.png"
+  },
+  {
+    "id": "05-dheki-shed",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-4bae9e78-c815-47bc-970b-4642659b2f37.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/50s/05-dheki-shed.png"
+  },
+  {
+    "id": "06-paddy-ploughing",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-2bcb2e08-966d-44ff-b953-968084c55081.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/50s/06-paddy-ploughing.png"
+  },
+  {
+    "id": "07-village-market",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-8f054d01-e658-4ca7-83d8-835cf07f1b36.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/50s/07-village-market.png"
+  },
+  {
+    "id": "08-river-landing",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-1cc38b63-a3ba-488d-8295-24b166032262.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/50s/08-river-landing.png"
+  },
+  {
+    "id": "dheki-rice-pounder",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-ab894145-b68d-412f-aac6-d2c32771fb6f.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/dheki-rice-pounder.png"
+  },
+  {
+    "id": "assamese-handloom",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-77c6688c-caed-40b3-b54b-2b68aa1f84d9.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/assamese-handloom.png"
+  },
+  {
+    "id": "haluwa-jaapi",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-0f5f0b15-fe64-4eab-916b-ce19b4396403.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/haluwa-jaapi.png"
+  },
+  {
+    "id": "xorai-bell-metal",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-56129f5f-ad93-431d-94cf-e50dbea443e5.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/xorai-bell-metal.png"
+  },
+  {
+    "id": "brass-bell-metal-utensils",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-b68fe395-2193-42bc-8af5-ff63b4b456e6.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/brass-bell-metal-utensils.png"
+  },
+  {
+    "id": "jakhoi-khaloi-fishing-set",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-73141da2-2e34-442f-8b2f-659674e6d3b0.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/jakhoi-khaloi-fishing-set.png"
+  },
+  {
+    "id": "nangol-plough-yoke",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-084ccddb-1590-4c67-aaa1-718c749ebec1.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/nangol-plough-yoke.png"
+  },
+  {
+    "id": "wooden-country-boat",
+    "source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-15c2df8b-68f0-42ea-9541-76ff20d25d8e.png",
+    "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/wooden-country-boat.png"
+  }
+]

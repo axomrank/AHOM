@@ -1,0 +1,20 @@
+{
+  "assets": 32,
+  "generated_final": 30,
+  "real_modern_photos": 2,
+  "local_references": 19,
+  "sources": 18,
+  "groups": {
+    "01-river-life": 5,
+    "02-craft-workshops": 4,
+    "03-household-life": 4,
+    "04-market-day": 4,
+    "05-writing-and-records": 3,
+    "06-military-preparations": 4,
+    "07-building-and-maintenance": 4,
+    "08-places-across-time": 4
+  },
+  "issues": [],
+  "sha256_verified": true,
+  "reference_catalogue_images_unchanged": true
+}

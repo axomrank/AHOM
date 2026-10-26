@@ -1,0 +1,36 @@
+{
+  "id": "05-writing-and-records/01-chronicle-writer",
+  "group": "05-writing-and-records",
+  "slug": "01-chronicle-writer",
+  "title": "A chronicle writer at work",
+  "period": "Upper Assam, circa 1750",
+  "scene": "A mature Assamese scribe seated at a low plain wooden desk in a timber room, using a small bamboo or reed pen on a long narrow tan sanchi-bark folio. Black ink pot, parallel stack of unbound oblong folios between simple wooden boards, side daylight. Script remains too small to read; do not fabricate a legible quotation.",
+  "references": [
+    "manuscript-object",
+    "common-style"
+  ],
+  "source_ids": [
+    "S8",
+    "S9",
+    "S10"
+  ],
+  "uncertainty": "An imagined working scene, not a portrait of a named chronicler or a verified administrative chamber. No asserted content of the page.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: A chronicle writer at work. Period: Upper Assam, circa 1750.\nPrimary request: A mature Assamese scribe seated at a low plain wooden desk in a timber room, using a small bamboo or reed pen on a long narrow tan sanchi-bark folio. Black ink pot, parallel stack of unbound oblong folios between simple wooden boards, side daylight. Script remains too small to read; do not fabricate a legible quotation.\nInput images: Image 1 (manuscript-object): generated oblong bark-folio stack: shape only, not authentic writing. Image 2 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S8, S9, S10. Interpretive limits: An imagined working scene, not a portrait of a named chronicler or a verified administrative chamber. No asserted content of the page.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "A seated scribe writes on a long bark folio, with unbound manuscripts stacked nearby.",
+  "file": "images/assam/ahom-life-and-work/05-writing-and-records/01-chronicle-writer.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/manuscripts/sanchi-pat-manuscript-bundle.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-e0d9d50a-1506-4e5e-a7e2-d636e5c55c7c.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "ba395403cc2650dfea6f71719066e5c9fca90882873a8e2db0913a54972f9b06",
+  "bytes": 2650740,
+  "visual_review": "Unbound oblong folios and small pen visible. In-image marks are generated, not an authentic transcript.",
+  "web_file": "images/assam/ahom-life-and-work/05-writing-and-records/01-chronicle-writer.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/05-writing-and-records/thumb/01-chronicle-writer.webp",
+  "caption": "A chronicle writer at work. Upper Assam, circa 1750. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

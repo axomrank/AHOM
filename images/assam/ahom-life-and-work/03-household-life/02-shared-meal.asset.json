@@ -1,0 +1,36 @@
+{
+  "id": "03-household-life/02-shared-meal",
+  "group": "03-household-life",
+  "slug": "02-shared-meal",
+  "title": "A household shares a meal",
+  "period": "Upper Assam, circa 1750",
+  "scene": "Quiet family meal inside a modest bamboo-walled room: four family members of different ages seated on mats, individual simple shallow metal or earthen dishes holding rice and greens, small water pot, warm late-afternoon light. No feast, royal dress or religious ritual.",
+  "references": [
+    "vessels-photo",
+    "pot-object",
+    "common-style"
+  ],
+  "source_ids": [
+    "S1"
+  ],
+  "uncertainty": "Serving arrangement, menu and family grouping are artistic interpretation, not universal customary practice.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: A household shares a meal. Period: Upper Assam, circa 1750.\nPrimary request: Quiet family meal inside a modest bamboo-walled room: four family members of different ages seated on mats, individual simple shallow metal or earthen dishes holding rice and greens, small water pot, warm late-afternoon light. No feast, royal dress or religious ritual.\nInput images: Image 1 (vessels-photo): modern bell-metal vessel comparison: shape/material only, not a dated historical ensemble. Image 2 (pot-object): generated earthen vessel: form only. Image 3 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S1. Interpretive limits: Serving arrangement, menu and family grouping are artistic interpretation, not universal customary practice.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "A family sits on mats eating rice and greens from simple dishes inside a timber house.",
+  "file": "images/assam/ahom-life-and-work/03-household-life/02-shared-meal.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/utensils-sarthebari.jpg",
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/tekeli-earthen-pot.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-1cec694e-ec7d-4e57-915b-85433c2bc209.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "0db8eed156708ae4a3b0726176e660f596edc903d8a40d5a243f0e98e88112df",
+  "bytes": 2807281,
+  "visual_review": "Reviewed as a single landscape concept with clear activity, consistent material vocabulary and no visible text overlay or conspicuous modern infrastructure. Historical details remain qualified by the scene notes.",
+  "web_file": "images/assam/ahom-life-and-work/03-household-life/02-shared-meal.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/03-household-life/thumb/02-shared-meal.webp",
+  "caption": "A household shares a meal. Upper Assam, circa 1750. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

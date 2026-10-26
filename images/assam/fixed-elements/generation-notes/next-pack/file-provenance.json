@@ -1,0 +1,187 @@
+{
+  "created": "2026-10-25",
+  "generator": "Built-in imagegen",
+  "files": [
+    {
+      "id": "kula-winnowing-tray",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/kula-winnowing-tray.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-41ef692a-e7ee-469b-aa90-80912f51193b.png",
+      "evidence": "Direct Assam/Jorhat museum miniature shape; scale reconstructed as a working tool."
+    },
+    {
+      "id": "chaloni-bamboo-sieve",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/chaloni-bamboo-sieve.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-1cda8743-1018-471a-81a9-3a35e93d9903.png",
+      "evidence": "Direct artisan product photograph, corroborated by historical craft description."
+    },
+    {
+      "id": "khorahi-bamboo-basket",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/khorahi-bamboo-basket.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-e62d8183-54a4-4267-b5b7-d7214b51898e.png",
+      "evidence": "Jyoti Chiring's photographed khorahi, Assam; empty object reconstructed."
+    },
+    {
+      "id": "duli-grain-basket",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/duli-grain-basket.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-b66729c9-05a4-48c7-8f3a-8fdb3b3572d9.png",
+      "evidence": "Direct photographed Assamese duli; grain-storage form."
+    },
+    {
+      "id": "doon-grain-measure",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/doon-grain-measure.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-2ccf040f-d030-4c06-b7f4-4e0ddaec97ee.png",
+      "evidence": "Text-based reconstruction of 1961 Census PDF p.199, printed p.112; photographed bamboo basket used for material and weave only."
+    },
+    {
+      "id": "pira-wooden-seat",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/pira-wooden-seat.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-766aa8f3-ddc7-47a4-b17f-43eb91635a0b.png",
+      "evidence": "General low-board seat visual reference with Assamese pira/borpira terminology corroboration; not a dated specimen replica."
+    },
+    {
+      "id": "muga-riha",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/textiles/muga-riha.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-b0caa1f2-5ec2-45d6-91ff-b246c3f96874.png",
+      "evidence": "Named pure-muga riha photograph plus Assam State Museum riha documentation; example design, not universal historic motif."
+    },
+    {
+      "id": "muga-mekhela",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/textiles/muga-mekhela.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-bfd60d40-dd06-4002-95c7-74dbb8258a18.png",
+      "evidence": "Approved costume continuity plus Assam State Museum mekhela construction; lower garment isolated."
+    },
+    {
+      "id": "muga-sador",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/textiles/muga-sador.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-42d2e4ee-378f-4f90-88e4-8010425eae37.png",
+      "evidence": "Approved nasoni upper drape isolated; separate from riha sample."
+    },
+    {
+      "id": "gamosa-red-white",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/textiles/gamosa-red-white.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-c695b2de-85c1-4f56-b65d-d598202ebd39.png",
+      "evidence": "Assam State Museum gamosa illustration; simplified reference-derived pattern."
+    },
+    {
+      "id": "eri-silk-swatch",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/textiles/eri-silk-swatch.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-df6c3578-a496-4894-a3f2-b8c1bb20a7e3.png",
+      "evidence": "Handa Textiles undyed handwoven Assam eri cloth reference."
+    },
+    {
+      "id": "pat-silk-swatch",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/textiles/pat-silk-swatch.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-d8adeecd-c165-481e-a8d9-a0d42591f98c.png",
+      "evidence": "Korobi Design Assam mulberry/pat textile as material reference only; unornamented sample reconstruction."
+    },
+    {
+      "id": "lahori-gogona",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/instruments/lahori-gogona.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-7b2d6ff8-ee48-4bd2-b21c-ac14eb695bca.png",
+      "evidence": "Photographed Assamese gogona, corroborated by IIT Guwahati/D'source construction account."
+    },
+    {
+      "id": "xutuli-clay-whistle",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/instruments/xutuli-clay-whistle.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-1afd3d0a-0eeb-4b5e-b18b-1ff799710db0.png",
+      "evidence": "Direct clay whistle photograph; select one variant and do not blend two forms."
+    },
+    {
+      "id": "bihu-taal-cymbals",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/instruments/bihu-taal-cymbals.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-bcdca01c-6217-487b-90a4-2609c4cf2fd9.png",
+      "evidence": "Photographed Sarthebari cymbal form plus D'source classification; small Bihu-use interpretation, no claimed exact size."
+    },
+    {
+      "id": "baahi-bamboo-flute",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/instruments/baahi-bamboo-flute.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-8e82a735-d2a2-4d7d-8581-e0e2a1a3c28f.png",
+      "evidence": "Sahapedia photograph of Assamese banhi being played; instrument details partly inferred."
+    },
+    {
+      "id": "bota-offering-tray",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/bota-offering-tray.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-f9c8c82f-de60-43e1-ae0c-3000ebc3697a.png",
+      "evidence": "Photographed Sarthebari charas bota, simplified decoration."
+    },
+    {
+      "id": "lota-brass-water-pot",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/lota-brass-water-pot.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-a7a46589-664f-42db-9fee-0b4bd3cf081c.png",
+      "evidence": "Sarthebari vendor's Ghati form; asset records lota/ghati type rather than claiming one universal regional name."
+    },
+    {
+      "id": "tekeli-earthen-pot",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/tekeli-earthen-pot.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-b78f5297-56e1-4231-a614-aba10b696854.png",
+      "evidence": "Research photograph of Hira pottery, specifically vessel E identified as tekeli."
+    },
+    {
+      "id": "saki-earthen-oil-lamp",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/saki-earthen-oil-lamp.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-94aa8b53-90ba-4448-9b3e-485353c50d15.png",
+      "evidence": "Ministry of Tourism Kati Bihu image; isolated common earthen lamp form reconstructed."
+    },
+    {
+      "id": "jati-bamboo-clump",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/plants/jati-bamboo-clump.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-3df5c588-78da-4ecf-bb48-e371a5425583.png",
+      "evidence": "Cultivator's identified Bambusa tulda photograph; whole crown reconstructed beyond photographed crop. Common names can vary regionally."
+    },
+    {
+      "id": "bhaluka-bamboo-clump",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/plants/bhaluka-bamboo-clump.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-a0302f55-0197-4863-9c72-c0a23b30592b.png",
+      "evidence": "Cultivator's Bambusa balcooa culm reference; complete crown artistically reconstructed."
+    },
+    {
+      "id": "tamul-areca-palm",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/plants/tamul-areca-palm.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-49411f86-aa3f-4cf3-9630-7b22b59cc80f.png",
+      "evidence": "NParks identified Areca catechu habit/crown photos; isolated individual plant reconstruction."
+    },
+    {
+      "id": "banana-homestead-plant",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/plants/banana-homestead-plant.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-3300eba4-6e07-489f-8cb8-a7b1ac3dd7b7.png",
+      "evidence": "Photographed Assam homestead Bhim-banana habit; asset labelled broad homestead banana form, not a certified cultivar."
+    },
+    {
+      "id": "paan-betel-vine",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/plants/paan-betel-vine.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-0bff2140-e58f-4586-ba74-8b70a0001eca.png",
+      "evidence": "Photographed climbing Piper betle growth/support; simplified natural support reconstruction."
+    },
+    {
+      "id": "nahor-tree",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/plants/nahor-tree.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-de7e0af9-6e1e-4ac8-b325-c67f02c055c0.png",
+      "evidence": "Identified Mesua ferrea horticultural habit photograph plus Assam flora records; foliage interpreted at scene-asset scale."
+    },
+    {
+      "id": "kopou-orchid-on-bark",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/plants/kopou-orchid-on-bark.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-875af652-3c7b-43a3-895f-55cb48591430.png",
+      "evidence": "Firsthand Rhynchostylis retusa epiphyte photograph; isolated plant and small supporting bark segment."
+    },
+    {
+      "id": "fulam-jaapi",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/accessories/fulam-jaapi.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-77485a82-6a24-4198-b9b8-8226caf1dd92.png",
+      "evidence": "User-supplied nasoni photograph, specifically the decorated jaapi; distinct from plain field hat already in library."
+    },
+    {
+      "id": "kopou-hair-adornment",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/accessories/kopou-hair-adornment.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-4de35e17-f874-4f0a-8492-3550d0bf2c83.png",
+      "evidence": "Botanical kopou reference supplies small flower anatomy; nasoni image supplies placement concept only. Arrangement is an artistic accessory reconstruction."
+    },
+    {
+      "id": "jonbiri-dholbiri-jewellery",
+      "target": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/accessories/jonbiri-dholbiri-jewellery.png",
+      "generated_source": "/home/angsuman/.codex/generated_images/01a17408-e39c-7ac2-9270-44e2378feee5/exec-250f0dcd-916b-4139-a192-15d1875d6d3a.png",
+      "evidence": "Two named contemporary Assamese artisan designs; no claim that the precise bead colours or settings were universal across historical eras."
+    }
+  ],
+  "cymbal_revision_prompt": "Edit only this Assamese cymbal asset to remove the ambiguous overlap on the right. Show EXACTLY TWO SEPARATE hand cymbals, one on the left and one on the right, with a clear gap. Both cymbals lie top side up in the SAME orientation, seen from slightly above. Each is ONE continuous thin circular bronze disc with ONE smooth raised central boss and ONE simple red cotton grip loop through center. Same diameter and matching proportions, restrained realistic 3D, warm aged bell-metal texture. No underside view, no stacking, no overlapping rims, no third disc or extra bowl, no extra metal pieces. Preserve the material and natural handcrafted finish. Entire pair visible with ample margin; genuinely transparent background, no floor, glow, labels, text, watermark or people."
+}

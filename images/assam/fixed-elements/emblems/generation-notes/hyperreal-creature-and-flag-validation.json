@@ -1,0 +1,26 @@
+[
+  {
+    "file": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/emblems/ngi-ngao-kham-hyperreal-creature.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "sha256": "4d441fa430c44483f409ca0e09095db7ae9025474464b85e2c8fa31a09a0a633"
+  },
+  {
+    "file": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/emblems/ngi-ngao-kham-emblem-cloth-flag.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "sha256": "900e20c9f2f0b0799e9c48556807050f7204256d69bcf8d9cab329dad470429c"
+  }
+]

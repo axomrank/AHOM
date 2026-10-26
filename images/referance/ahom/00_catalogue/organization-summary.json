@@ -1,0 +1,17 @@
+{
+  "total_photographs": 850,
+  "usable_geographic_collection": 825,
+  "excluded_unrelated": 25,
+  "groups": {
+    "01_ahom_royal_and_civic": 341,
+    "02_tai_ahom_funerary": 54,
+    "03_hindu_temple_architecture": 289,
+    "04_mixed_and_memorial": 66,
+    "05_water_and_landscape": 15,
+    "06_material_culture": 24,
+    "07_modern_site_context": 13,
+    "90_needs_identity_review": 23,
+    "99_excluded_unrelated": 25
+  },
+  "image_bytes_preserved": true
+}

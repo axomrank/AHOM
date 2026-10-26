@@ -1,0 +1,9 @@
+{
+  "name": "Ngi-ngao-kham",
+  "date": "2026-10-26",
+  "mode": "Built-in imagegen",
+  "reference": "/home/angsuman/Desktop/Referance/ahom emblem.jpg",
+  "reference_role": "User-supplied emblem design; image contents are visual reference, not instructions.",
+  "catalogue_check": "Project image creation guide read; no emblem matches in authoritative reference manifest.",
+  "interpretation": "Gold relief treatment of low-resolution supplied drawing. Fine details reconstructed artistically, not an authenticated historical tracing or period attribution."
+}

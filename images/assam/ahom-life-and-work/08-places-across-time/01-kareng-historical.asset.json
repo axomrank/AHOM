@@ -1,0 +1,32 @@
+{
+  "id": "08-places-across-time/01-kareng-historical",
+  "group": "08-places-across-time",
+  "slug": "01-kareng-historical",
+  "title": "Garhgaon palace, historical interpretation",
+  "period": "Garhgaon, circa 1760",
+  "scene": "Match the supplied real Garhgaon Kareng Ghar photograph as closely as possible in camera angle, cropping, proportions and opening positions. Depict that same four-tier masonry palace in maintained eighteenth-century condition, subtle pale lime finish with brick detailing, simple cleared earth forecourt and only three distant period attendants for scale. Preserve building identity. No invented wings, giant royal banners, temple towers, modern garden hedges, signage or paved visitor works.",
+  "references": [
+    "kareng"
+  ],
+  "source_ids": [
+    "S11"
+  ],
+  "uncertainty": "Exterior silhouette derives from the surviving building; finish, missing details and surroundings are interpretive. Approximate match only, not survey-grade restoration.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Garhgaon palace, historical interpretation. Period: Garhgaon, circa 1760.\nPrimary request: Match the supplied real Garhgaon Kareng Ghar photograph as closely as possible in camera angle, cropping, proportions and opening positions. Depict that same four-tier masonry palace in maintained eighteenth-century condition, subtle pale lime finish with brick detailing, simple cleared earth forecourt and only three distant period attendants for scale. Preserve building identity. No invented wings, giant royal banners, temple towers, modern garden hedges, signage or paved visitor works.\nInput images: Image 1 (kareng): real Garhgaon Kareng Ghar photograph: building identity, tiered massing and opening positions; contemporary preservation features must be excluded from historical interpretation.\nEvidence source IDs: S11. Interpretive limits: Exterior silhouette derives from the surviving building; finish, missing details and surroundings are interpretive. Approximate match only, not survey-grade restoration.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "An imagined maintained Garhgaon masonry palace around 1760, based on a local photograph.",
+  "file": "images/assam/ahom-life-and-work/08-places-across-time/01-kareng-historical.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/referance/ahom/01_ahom_royal_and_civic/kareng-ghar/01_general_views/119119842_KARENG_GHAR_SIVASAGAR_ASSAM.jpg"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-9a0145c7-a965-40b2-a394-16f8db823dc6.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "d5ed6d786aea1d3935f489d6e9a42d88e7a28275e961c24600b8b0206f6c8e77",
+  "bytes": 2865857,
+  "visual_review": "Building identity and tiered form follow the local photograph. Viewpoint and proportions are approximate; finish, timber projections and lost surroundings are speculative. Some weathering remains.",
+  "web_file": "images/assam/ahom-life-and-work/08-places-across-time/01-kareng-historical.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/08-places-across-time/thumb/01-kareng-historical.webp",
+  "caption": "Garhgaon palace, historical interpretation. Garhgaon, circa 1760. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

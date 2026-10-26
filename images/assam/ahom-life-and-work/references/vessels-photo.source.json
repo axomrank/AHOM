@@ -1,0 +1,15 @@
+{
+  "path": "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/utensils-sarthebari.jpg",
+  "kind": "modern comparative photograph",
+  "metadata": {
+    "original_path": "images/assam/50s/generation-notes/references/utensils-sarthebari.jpg",
+    "download_record": {
+      "file": "utensils-sarthebari.jpg",
+      "image_url": "https://www.mugasilk.in/wp-content/uploads/2017/02/Ethnic-Serving-Bowl-Tray-and-Dish-Set-Of-6-Bell-Metal1.jpg"
+    },
+    "license": "Not established in local record; research comparison only"
+  },
+  "local_copy": "images/assam/ahom-life-and-work/references/vessels-photo.jpg",
+  "sha256": "de609bdb414500fb05a98b2baa381f000e4ead9f78f756c42fd5353d2fb86240",
+  "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+}

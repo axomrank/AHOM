@@ -1,0 +1,11 @@
+{
+  "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/tekeli-earthen-pot.png",
+  "kind": "prior generated artistic interpretation; not historical evidence",
+  "metadata": {
+    "original_path": "images/assam/fixed-elements/vessels/tekeli-earthen-pot.png",
+    "license": "Prior project-generated interpretation; no claim of historical evidence"
+  },
+  "local_copy": "images/assam/ahom-life-and-work/references/pot-object.png",
+  "sha256": "4b81ec91cfc3e8722c19066a43233615a3d83602c45dc5f7c59f1b7c37e4b134",
+  "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+}

@@ -1,0 +1,49 @@
+{
+  "id": "07-building-and-maintenance/04-joysagar-excavation",
+  "group": "07-building-and-maintenance",
+  "slug": "04-joysagar-excavation",
+  "title": "Excavating Joysagar: an interpretation",
+  "period": "Rangpur area, Rudra Singha’s reign, circa 1696–1714",
+  "scene": "Expansive human-scale view across a large tank excavation: earth-cut basin with gently graded working slopes, many but individually readable adult labourers using simple spades and carrying soil in woven baskets to rising banks, a few timber shade shelters beyond. No finished water body, temples, modern ghats or later palaces; foreground workers convey effort and scale.",
+  "references": [
+    "tank",
+    "grain-object",
+    "common-style"
+  ],
+  "source_ids": [
+    "S14",
+    "S15"
+  ],
+  "uncertainty": "Sources disagree on 1697 versus 1707; reign-level date only. Tank attribution is documented; workforce, tools, basin profile and labour organisation are imagined. Do not claim an exact 45-day construction scene.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Excavating Joysagar: an interpretation. Period: Rangpur area, Rudra Singha’s reign, circa 1696–1714.\nPrimary request: Expansive human-scale view across a large tank excavation: earth-cut basin with gently graded working slopes, many but individually readable adult labourers using simple spades and carrying soil in woven baskets to rising banks, a few timber shade shelters beyond. No finished water body, temples, modern ghats or later palaces; foreground workers convey effort and scale.\nInput images: Image 1 (tank): real Joysagar photograph: water, low banks and vegetation only; exclude present buildings and infrastructure. Image 2 (grain-object): generated woven grain container: form only. Image 3 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S14, S15. Interpretive limits: Sources disagree on 1697 versus 1707; reign-level date only. Tank attribution is documented; workforce, tools, basin profile and labour organisation are imagined. Do not claim an exact 45-day construction scene.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "Workers excavate a large dry earth basin and carry soil baskets up its slopes.",
+  "file": "images/assam/ahom-life-and-work/07-building-and-maintenance/04-joysagar-excavation-v2.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/referance/ahom/05_water_and_landscape/joysagar_tank_and_setting/04_site_and_landscape/129255443_Joysagar_Tank_view.jpg",
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/duli-grain-basket.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-eab0e83e-b282-4bcb-ad7a-8d91be89c4d4.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "f9883ec93c6b1a0f84b7400342ed39670ad61d9b33aca7ae9449d2f776a0ee28",
+  "bytes": 3205060,
+  "visual_review": "Completed background water removed in v2. Basin profile, workforce composition, tools and labour organisation are speculative. Not a surveyed excavation stage or an authenticated depiction of a paik roster.",
+  "web_file": "images/assam/ahom-life-and-work/07-building-and-maintenance/04-joysagar-excavation-v2.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/07-building-and-maintenance/thumb/04-joysagar-excavation-v2.webp",
+  "generation_history": [
+    {
+      "file": "output/imagegen/ahom-life-researched-2026-10-26/superseded/07-building-and-maintenance/04-joysagar-excavation.png",
+      "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-0b40378e-4a62-4803-9751-d6276d43071d.png",
+      "sha256": "bc2e330a2d1a3c8f2bff3f53d075a70730f5c392c761c47248a7a161737a767f",
+      "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Excavating Joysagar: an interpretation. Period: Rangpur area, Rudra Singha’s reign, circa 1696–1714.\nPrimary request: Expansive human-scale view across a large tank excavation: earth-cut basin with gently graded working slopes, many but individually readable adult labourers using simple spades and carrying soil in woven baskets to rising banks, a few timber shade shelters beyond. No finished water body, temples, modern ghats or later palaces; foreground workers convey effort and scale.\nInput images: Image 1 (tank): real Joysagar photograph: water, low banks and vegetation only; exclude present buildings and infrastructure. Image 2 (grain-object): generated woven grain container: form only. Image 3 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S14, S15. Interpretive limits: Sources disagree on 1697 versus 1707; reign-level date only. Tank attribution is documented; workforce, tools, basin profile and labour organisation are imagined. Do not claim an exact 45-day construction scene.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses."
+    }
+  ],
+  "revision_prompt": "Use case: precise-object-edit. Correct only the BACKGROUND of this Joysagar excavation interpretation. The large dry earth basin in the foreground IS the tank under construction. Remove the entire band of blue completed lake water BEHIND the far rim. Replace that water band with continuous low dry earth and meadow grading naturally into the existing tree line. There must be ONE unfinished dry tank excavation and NO lake, river or second tank anywhere. Preserve every worker, basket, spade, excavation slope, shelter, foreground tree, sky, camera framing and lighting exactly. Do not add temples, buildings or machines.",
+  "revision_reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/ahom-life-and-work/07-building-and-maintenance/04-joysagar-excavation.png"
+  ],
+  "caption": "Excavating Joysagar: an interpretation. Rangpur area, Rudra Singha’s reign, circa 1696–1714. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

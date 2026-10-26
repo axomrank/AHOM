@@ -1,0 +1,154 @@
+{
+  "mode": "built-in image_gen",
+  "scene_style": "Use case: historical-scene. One high-definition landscape PNG, at highest available resolution. Faithful restrained realistic 3D visualization matching the approved Namghar image: natural materials, simple details, no excessive decoration, soft daylight, warm earthy tones and Assam greens, plausible scale and joinery. Artistic reconstruction circa 1952, not an archival photograph. No collage, no text, no watermark, no artificial sepia. ",
+  "object_style": "Use case: stylized-concept, reference-grounded heritage object. One high-definition PNG asset at highest available resolution. Restrained realistic 3D rendering, accurate practical construction, plain surfaces, muted natural materials, no excessive decoration. Entire object centered with generous margins, three-quarter view slightly above, studio soft light and ambient occlusion. Genuinely transparent background and alpha; no floor, pedestal, scenery, labels, watermark, collage, people or modern accessories. ",
+  "jobs": [
+    {
+      "id": "01-namghar-exterior",
+      "dir": "50s",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/namghar-1950s-guru-asan.png",
+        "/home/angsuman/extra_spac/AHOM/images/assam/90s/generation-notes/das_031_orig-reference.jpg"
+      ],
+      "prompt": "Create the EXTERIOR of the rural Assamese thatched Namghar whose interior is reference 1. Reference 1 controls timber posts, low woven bamboo side walls, earthen platform, pitched thick straw roof and simple Guru Asan at the far end. Reference 2 is a real later namghar, ONLY reference for elongated open congregation-hall proportions and orderly column bays, NOT its modern concrete facade, tin roof or ornament. A modest 1950s village Namghar, one long rectangular hall, plain gabled thatch roof with deep eaves, exposed natural timber posts, low bamboo wall panels, simple open entrance and small connected rear manikut. Three-quarter front view with entire roof and long side visible; a glimpse along central aisle toward the existing Guru Asan, without placing it outdoors. Swept earthen forecourt, low practical split-bamboo jeura boundary, village footpath, areca palms, banana and bamboo, flat green Assam landscape. No people needed. No towers, spires, masonry entrance monument, large arch, pagoda, temple sculpture, tiled floors, vehicles or electric fittings."
+    },
+    {
+      "id": "02-village-homestead",
+      "dir": "50s",
+      "refs": [
+        "/home/angsuman/Desktop/Assam architacture/Screenshot_20261023_184602.jpg",
+        "/home/angsuman/Desktop/Assam architacture/Screenshot_20261021_225849.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/namghar-1950s-guru-asan.png"
+      ],
+      "prompt": "Create a modest 1950s Brahmaputra-valley Assamese farming homestead, not a stilt house or rich bungalow. Reference 1 provides modest earthen wall and shutter proportions, reference 2 timber framing and shaded veranda only; discard all screenshot UI, text, modern roofing and fittings. Reference 3 provides minimal realistic 3D material style only, do not copy sacred objects. A small cluster of separate ground-level pajaghar buildings arranged around a swept earthen courtyard: main dwelling with narrow shaded veranda, separate small kitchen offset behind, discreet rice store. Tall pitched thatched roofs with deep eaves, bamboo/wood frame and mud-plastered reed infill, simple wood doors and shutters, low raised earthen plinth. Low jeura fence made of slender vertical split bamboo strips tied across horizontal rails, simple bamboo entrance gate, banana and areca palms, leafy kitchen garden. Show coherent entire courtyard and house three-quarter view, warm diffuse morning daylight, ordinary maintained domestic life with a winnowing tray and clay water pot. No people needed. No mansion trim, red gold embellishment, modern concrete, synthetic paint, glass curtain windows, plastic pots, tin roofing, wiring or signs."
+    },
+    {
+      "id": "03-kitchen-interior",
+      "dir": "50s",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/kitchen-assam-state-museum.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/02-village-homestead.png",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/namghar-1950s-guru-asan.png"
+      ],
+      "prompt": "A modest Assamese household kitchen circa 1952, inside the separate small thatched kitchen building of reference 2. Reference 1 is the Assam State Museum model of an Assamese kitchen and controls the simple floor-level wood-fired hearth, cooking vessels, bamboo racks and layout; reference 3 is render style only, no religious furniture. Show a clean lived-in mud-plastered and woven-bamboo room, exposed bamboo rafters and underside of thatch, smoothly maintained earthen floor. One low earthen hearth with small wood-fuel opening and soot-dark iron cooking pot, modest fire glow, split firewood neatly stacked nearby; a plain bamboo shelf with few earthen storage pots and practical metal vessels, a hanging woven sieve, small wooden pira sitting stool and a water pot. Open doorway to green courtyard provides diffuse daylight, slight soot above hearth and gentle smoke escaping under eaves. Three-quarter wide interior view, no people, generous spatial clarity. No extravagant piles of utensils, LPG cylinder, gas stove, electric bulbs, chimney pipe, modern cabinets, stainless-steel sink, tile, plastic or lettering. Do not reproduce the museum placard, exhibition context or screenshot."
+    },
+    {
+      "id": "04-weaving-corner",
+      "dir": "50s",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/handloom-nen.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/02-village-homestead.png",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/namghar-1950s-guru-asan.png"
+      ],
+      "prompt": "A 1950s Assamese domestic weaving corner under an airy thatched veranda beside a modest mud-plastered bamboo home. Reference 1 documents a working Assamese frame loom: reproduce its actual beam arrangement, long tensioned warp, suspended heddles, reed beater, front cloth roller and treadles. Reference 2 controls modest homestead setting, reference 3 style only. ONE full working wooden-and-bamboo loom set diagonally in view, a seated adult Assamese woman weaving, wearing a simple off-white separate mekhela lower garment and modest sador with thin red border over muted red cotton blouse, no fancy silk or heavy jewellery; hair tied back. Her hands rest plausibly at the shuttle and beater, feet near treadles; no duplicated limbs. Cream cotton warp and a short partly woven red-bordered gamosa, small basket of cotton yarn and wooden shuttle. Entire loom and room clear, earthen floor, bamboo wall, roof underside, soft garden light, small uncluttered composition. No power loom, metal industrial machinery, plastic cone yarn, modern curtain, wall text, decorative pattern overload or museum display."
+    },
+    {
+      "id": "05-dheki-shed",
+      "dir": "50s",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/dheki-xobdo.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/02-village-homestead.png",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/namghar-1950s-guru-asan.png"
+      ],
+      "prompt": "A 1950s Assamese dhekighar, a small open-sided thatched work shed beside a rural homestead. Reference 1 is authoritative for the DHEKI mechanism only: a long hand-hewn horizontal wood lever supported on a transverse axle between two short posts, pivot near the foot-operated short tail, the opposite long heavy arm carrying a downward vertical wood pestle directly above a recessed mortar set in earth. Make the pestle physically attached to the heavy beam, no detached floating cylinder. Reference 2 controls homestead; 3 render style. Show entire dheki in clear three-quarter side view with working length visible and enough clearance, ONE adult woman in simple off-white Assamese mekhela-sador and dull red blouse pressing the short tail with one foot, holding a hanging support rope for balance, opposite pestle raised just above mortar. Keep hand and feet credible. A bamboo kula winnowing tray, paddy basket and small tidy heap of husk nearby, swept earthen floor, timber posts, banana plants beyond. No corrugated sheet, blue plastic, machines, motors, modern clothing or text. Maintain safe clearance around pounding end; no hands in mortar."
+    },
+    {
+      "id": "06-paddy-ploughing",
+      "dir": "50s",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/plough-nagaon.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/plough-pari-02b.jpg",
+        "/home/angsuman/Desktop/images (15).jpeg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/namghar-1950s-guru-asan.png"
+      ],
+      "prompt": "A 1950s Assamese wet-rice field being prepared for planting in the flat Brahmaputra valley. Reference 1 controls real local cattle and flooded-field agriculture, 2 the Assamese wooden nangol plough structure, 3 ONLY the broad plain bamboo-and-palm farmer jaapi, 4 render style. Main subject: ONE pair of local zebu bullocks side-by-side, a single wooden shoulder yoke spanning the two animals, central long wooden plough beam extending behind them to a small iron-tipped wooden ard; ONE adult farmer walks barefoot behind guiding its curved upright handle. Three-quarter SIDE view, full animals and entire connected equipment clearly visible, physically coherent harness geometry, shallow muddy water around ankles rather than deep water. Farmer wears plain coarse cotton dhoti hitched above knees, simple off-white cotton shirt, muted red-white gamocha and plain straw-coloured field jaapi without red decoration. A few distant workers transplant seedlings along another plot; low bunds, small green seedling nursery, areca and bamboo at far horizon. Restrained natural colours, soft monsoon daylight. No terrace hills, tractors, electric poles, plastic, modern safety helmet, rubber boots or text. Do not duplicate the four cattle of reference 1."
+    },
+    {
+      "id": "07-village-market",
+      "dir": "50s",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/market-kipepeo.jpg",
+        "/home/angsuman/Desktop/Assam architacture/Screenshot_20261021_225804.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/namghar-1950s-guru-asan.png"
+      ],
+      "prompt": "An ordinary small Assamese village weekly haat circa 1952. Reference 1 is a modern Assam market photo, ONLY use its grounded arrangement of vendors sitting beside baskets of gourds, leafy greens, aubergines, areca nuts and betel leaves along an earthen aisle; REMOVE every modern plastic bag, tarpaulin, printed package and shirt design. Reference 2 provides bamboo-and-thatch shelter construction only, omit all screenshot UI and text. Reference 3 render style. Wide human-height three-quarter view, modest lively market with only eight adult villagers in clear non-overlapping groups. Low plain bamboo tables and woven mats under small straw-thatched lean-to stalls, open sunny dirt walking aisle. A vendor weighs produce on a hanging two-pan beam balance with simple weights, customers carry wicker baskets and cloth bags. Men in modest dhotis, plain cotton shirts or vests and muted gamocha, women in everyday Assamese mekhela-sador with subdued borders, no generic festive bridal costume. Practical earthen pots and bamboo baskets on one small stall, village trees behind. Natural soft morning lighting, simple unornamented realistic 3D. No signage, legible currency, vehicles, tin roof, plastic sheets, synthetic sacks, electric fittings or dramatic crowd."
+    },
+    {
+      "id": "08-river-landing",
+      "dir": "50s",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/boat-majuli.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/namghar-1950s-guru-asan.png"
+      ],
+      "prompt": "A quiet Assamese village river landing circa 1952, on a broad calm Brahmaputra channel. Reference 1 is a real traditional Majuli boat, authoritative ONLY for the narrow dark wooden plank hull with slightly raised pointed ends and simple arched woven bamboo canopy over central portion. Reference 2 render style. Show two hand-powered wooden country boats near a gently sloping sandy/muddy bank, main boat in foreground three-quarter side view, tied with natural fibre rope to a wooden stake. Low simple bamboo landing of lashed poles at the shallow edge, not a modern pier. One boatman with long bamboo pole and two adult villagers carrying woven baskets approach from a dirt path; plain off-white cotton dhoti/shirts and restrained red-white gamocha, no modern dress. A few bamboo baskets aboard, believable freeboard and water reflections. Flat far riverbank with reeds and green trees, soft early morning haze, warm daylight, simple calm 3D visualization. No engines, motor hardware, propellers, life-jacket stacks, steel ferries, city skyline, suspension bridge, plastic or lettering. Do not copy source watermark, specific people or chequered modern shirts."
+    },
+    {
+      "id": "dheki-rice-pounder",
+      "dir": "fixed-elements",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/dheki-xobdo.jpg"
+      ],
+      "prompt": "ONE Assamese traditional DHEKI foot-operated rice pounder, constructed precisely from the reference mechanism and isolated for reuse. A long heavy hand-hewn horizontal wooden beam, lopsided seesaw proportions; axle carried by TWO short upright timber supports located toward the short foot tail; long opposite arm ending in one securely attached vertical wooden pestle pointing DOWN into a small hard-wood mortar directly below. Dark worn iron ferrule at the pestle foot. Show the beam slightly raised at pestle end, entire mechanism clear, broad three-quarter side view, warm natural wood with plain authentic tool marks. Include only its actual supports and small mortar block, no shed or loose props. The short foot tail is flat enough for a person's foot, no pedals or machinery. No rope support frame, decorative carvings, wheels, mechanical gears, random duplicated beams or generic freestanding hand pestle."
+    },
+    {
+      "id": "assamese-handloom",
+      "dir": "fixed-elements",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/handloom-nen.jpg"
+      ],
+      "prompt": "ONE complete traditional Assamese wooden-and-bamboo hand-operated FRAME LOOM, based on the working loom in reference. Show full frame on four supporting posts, rear warp beam, long fine taut cream warp threads running toward front cloth roller, suspended heddles with cords and simple pulleys on upper crossbar, reed in a swinging beater frame, functional wooden treadles below and one small boat-shaped wooden shuttle resting on woven cloth. Plain natural warm wood and tan bamboo, a short cream cotton gamosa with restrained red border woven on the loom. All structural beams and thread paths physically coherent; loom shown three-quarter side view with enough depth to read construction. Empty operator space, no woman, house, industrial machine, decorative patterns, chairs, baskets or extra scattered tools."
+    },
+    {
+      "id": "haluwa-jaapi",
+      "dir": "fixed-elements",
+      "refs": [
+        "/home/angsuman/Desktop/images (15).jpeg"
+      ],
+      "prompt": "ONE plain farmer's Assamese HALUWA JAAPI sun-and-rain hat, faithfully using ONLY the hat in the reference. Very wide shallow circular brim with raised pointed central cone, lightweight finely split bamboo lattice on both sides sandwiching pale dried tokou palm leaves, thin cane-bound rim, visible radial bamboo ribs and neat natural lashings. Straw tan and muted beige, matte, practical slightly handmade unevenness. Show tilted three-quarter view so top cone, broad brim and a small portion of underside head-ring structure are visible, entire circle uncropped. No red velvet, coloured decorations, pompoms, coloured yarn, tassels, ornamental flowers, person, vegetation, watermark or text; no generic tall Vietnamese cone hat."
+    },
+    {
+      "id": "xorai-bell-metal",
+      "dir": "fixed-elements",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/xorai-artisan.jpg"
+      ],
+      "prompt": "ONE plain Assamese XORAI offering vessel, preserve the reference's authentic proportions and construction: wide shallow round offering tray on a relatively slender pedestal stem with flared circular foot; fitted shallow domed-conical lid rising to one small pointed finial. The lid rests correctly on tray rim. Warm aged bell metal, satin gold-brown tone with subtle hammer and concentric turning marks, very restrained simple ring mouldings only, no floral engraving, no gem decoration, no cloth. Show complete vessel in slightly elevated three-quarter view. Do not turn it into a deep urn, oil lamp, trophy, teapot or lidded cooking pan. No handles or spout."
+    },
+    {
+      "id": "brass-bell-metal-utensils",
+      "dir": "fixed-elements",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/utensils-sarthebari.jpg"
+      ],
+      "prompt": "ONE reusable asset grouping of simple Assamese domestic metal utensils inspired by the Sarthebari reference: one broad circular plain kahi plate, two small rounded bati eating bowls, and one simple small serving ladle. Arrange the four practical pieces together with clear silhouettes and slight spacing, bowls beside the plate rather than piled high; ladle rests beside the plate. Warm hand-finished bell-metal bronze and muted brass hues, fine concentric tool lines, soft patina, gently rounded rims, no excessive engraving or ornament. No pedestal goblets, dramatic reflections, food, napkins, backdrop, table or labels. Plain domestic objects plausible in a 1950s household."
+    },
+    {
+      "id": "jakhoi-khaloi-fishing-set",
+      "dir": "fixed-elements",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/jakhoi-khaloi-dsource.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/jakhoi-dsource.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/khaloi-dsource.jpg"
+      ],
+      "prompt": "ONE asset containing the Assamese bamboo fishing pair JAKHOI and KHALOI, physically accurate to the reference photographs. Jakhoi: large triangular scoop with broad straight mouth, narrowing toward the top, stiff cane-bound triangular bamboo frame and deep woven wicker scoop body, three long bamboo frame members extending together at apex, simple natural cord loop at mouth. Khaloi: separate small round-bellied woven bamboo fish-holding creel with constricted neck and flared open mouth and small carrying loop, no lid. Show both side by side with a little spacing, larger scoop on right and small creel on left, three-quarter view to reveal scoop cavity and creel opening; actual close weave pattern of thin tan bamboo strips, plain practical materials. These are a scoop and catch container, not a conical lobster pot, net, bag, flower vase or decorative basket. No people, fish, floor, scenery or lettering."
+    },
+    {
+      "id": "nangol-plough-yoke",
+      "dir": "fixed-elements",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/plough-pari-02b.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/plough-pari-03a.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/plough-nagaon.jpg"
+      ],
+      "prompt": "ONE reusable tool asset: traditional Assamese wooden NANGOL ard plough with its JUWAL yoke. Reference 1 is an annotated actual construction sketch; reproduce the tool geometry only, never any labels. Long narrow wooden draft beam running from a thick lower wooden shoe with small dark iron cutting share; curved handle rises from rear of shoe. Beam has shallow securing notches at the front end. Beside the plough place one separate plain transverse wooden shoulder yoke sized for TWO bullocks, with pair of smooth neck positions and natural rope fastening. Full plough and yoke shown in clear diagonal three-quarter side view, entire long beam uncropped, practical warm hand-shaped wood, small dark iron tip. Reference 2 for woodcraft material, 3 for working relationship only. No cattle, farmer, enormous metal mouldboard, wheels, tractor hitch, ornate carving, random detached fragments, sketch text or background."
+    },
+    {
+      "id": "wooden-country-boat",
+      "dir": "fixed-elements",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/boat-majuli.jpg"
+      ],
+      "prompt": "ONE traditional Assamese wooden country boat based on the Majuli reference: slender long dark wooden plank-built hull with gently raised pointed bow and stern, visible ribs and simple cross-thwarts inside, central low arched woven-bamboo removable canopy covering only the middle third, open bow and stern. Small practical paddle placed lengthwise inside the hull. Three-quarter elevated view so interior construction and entire hull are clear; weathered dark brown wood, tan bamboo canopy, plain natural fibre lashing, realistically joined planks. Complete boat isolated, without water or shore; do not depict it floating with a water patch. No people, engine, propeller, motor mount, sail, decorative dragon head, large ship cabin, text or source watermark."
+    }
+  ]
+}

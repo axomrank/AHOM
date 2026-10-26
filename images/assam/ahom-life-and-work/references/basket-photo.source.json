@@ -1,0 +1,16 @@
+{
+  "path": "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/jakhoi-khaloi-dsource.jpg",
+  "kind": "modern comparative photograph",
+  "metadata": {
+    "original_path": "images/assam/50s/generation-notes/references/jakhoi-khaloi-dsource.jpg",
+    "download_record": {
+      "file": "jakhoi-khaloi-dsource.jpg",
+      "url": "https://www.dsource.in/sites/default/files/styles/gallary_images__565_x_800__/public/gallery/17574/8.jpg?itok=MFzLcrlP",
+      "downloaded": true
+    },
+    "license": "Not established in local record; research comparison only"
+  },
+  "local_copy": "images/assam/ahom-life-and-work/references/basket-photo.jpg",
+  "sha256": "d3a3b10d123820fe1dc02e405cfced894d359daaaebf3c709a90cb26a2af72d4",
+  "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+}

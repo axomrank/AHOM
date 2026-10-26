@@ -1,0 +1,18 @@
+{
+  "path": "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/boat-majuli.jpg",
+  "kind": "modern comparative photograph",
+  "metadata": {
+    "original_path": "images/assam/50s/generation-notes/references/boat-majuli.jpg",
+    "download_record": {
+      "file": "boat-majuli.jpg",
+      "image_url": "https://www.inditales.com/wp-content/uploads/2011/10/traditional-boat-over-brahmaputra-river.jpg"
+    },
+    "source_page": "https://www.inditales.com/",
+    "image_url": "https://www.inditales.com/wp-content/uploads/2011/10/traditional-boat-over-brahmaputra-river.jpg",
+    "author": "Anuradha Goyal, as credited in the image watermark",
+    "license": "Not established in local records; research comparison only"
+  },
+  "local_copy": "images/assam/ahom-life-and-work/references/boat-photo.jpg",
+  "sha256": "baf43ff3655d0708059ece95c1f7544febfbe23506d7d89c64b26fcc27de6d19",
+  "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+}

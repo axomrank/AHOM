@@ -1,0 +1,52 @@
+[
+  {
+    "file": "01-basic-home.png",
+    "source": "/home/angsuman/extra_spac/AHOM/output/1990s-assam-landscapes/01-basic-home.png",
+    "sha256": "1efcf1c9c50fe4c650e406c969c8d04c0a430b377e71bd7cc4fcaa9d75aeeed1"
+  },
+  {
+    "file": "02-modest-farmstead.png",
+    "source": "/home/angsuman/extra_spac/AHOM/output/1990s-assam-landscapes/02-modest-farmstead.png",
+    "sha256": "f2ca763e7877ec82be29d7f5f343b8f727b152d9ba0de13fbc27ee5196f07eff"
+  },
+  {
+    "file": "03-middle-income-home.png",
+    "source": "/home/angsuman/extra_spac/AHOM/output/1990s-assam-landscapes/03-middle-income-home.png",
+    "sha256": "c0d6d1bb8a367103351bb84652cbde3bac3d84853c0153e9e610dafaf2368a3e"
+  },
+  {
+    "file": "04-prosperous-courtyard.png",
+    "source": "/home/angsuman/extra_spac/AHOM/output/1990s-assam-landscapes/04-prosperous-courtyard.png",
+    "sha256": "6e57578eff7fe8178c639cf20ce8ccc1f82424d18862583191103a8f150e1760"
+  },
+  {
+    "file": "05-wealthy-bungalow.png",
+    "source": "/home/angsuman/extra_spac/AHOM/output/1990s-assam-landscapes/05-wealthy-bungalow.png",
+    "sha256": "e2cca4ffb61876424b5c0309b6e2071057262f4d5bba2e56613774918fa6af18"
+  },
+  {
+    "file": "assam-type-house-01.webp",
+    "source": "/home/angsuman/extra_spac/AHOM/output/assamese-jeura/assam-type-house-01.webp",
+    "sha256": "d71537b90caa51441ac1e4c369d70c0b7e564332667dd9c6b850d2a1fcde2f7b"
+  },
+  {
+    "file": "assam-type-house-04.webp",
+    "source": "/home/angsuman/extra_spac/AHOM/output/assamese-jeura/assam-type-house-04.webp",
+    "sha256": "2389a326535f3003677f250fe6aeb47922c82103c38742d4183393868178c17e"
+  },
+  {
+    "file": "assam-type-house-09.webp",
+    "source": "/home/angsuman/extra_spac/AHOM/output/assamese-jeura/assam-type-house-09.webp",
+    "sha256": "a0ff8f46e9d05be0474488078796edb88da9c03ebf5593fc9bcbb5220315276c"
+  },
+  {
+    "file": "assam-1990s-children-bihu-courtyard.png",
+    "source": "/home/angsuman/extra_spac/AHOM/output/1990s-assam-bihu/assam-1990s-children-bihu-courtyard.png",
+    "sha256": "8de077f9c1041c320b311823fd9e3be5119a58680612a0a5629c301dac8d5b5a"
+  },
+  {
+    "file": "assam-village-namghar-1990s-close-golden-hour.png",
+    "source": "/home/angsuman/extra_spac/AHOM/output/1990s-assam-namghar/assam-village-namghar-1990s-close-golden-hour.png",
+    "sha256": "14ccdf261f71562419f862274909766303194ddfb14b7746ab029c7a04680ba3"
+  }
+]

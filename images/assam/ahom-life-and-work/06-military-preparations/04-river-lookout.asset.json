@@ -1,0 +1,47 @@
+{
+  "id": "06-military-preparations/04-river-lookout",
+  "group": "06-military-preparations",
+  "slug": "04-river-lookout",
+  "title": "Watching the river approach",
+  "period": "Ahom-controlled Brahmaputra valley, circa 1670",
+  "scene": "Two adult sentries watching a distant bend from a low earth-and-timber riverbank position with simple bamboo palisade. One holds a plain spear; a small low oared boat passes far below. Dense river vegetation, broad quiet water, attentive posture, no fantasy tower or modern binoculars.",
+  "references": [
+    "boat-photo",
+    "common-style"
+  ],
+  "source_ids": [
+    "S6",
+    "S7"
+  ],
+  "uncertainty": "Lookout design and precise location are interpretive; not a reconstruction of a particular named fort or battle position.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Watching the river approach. Period: Ahom-controlled Brahmaputra valley, circa 1670.\nPrimary request: Two adult sentries watching a distant bend from a low earth-and-timber riverbank position with simple bamboo palisade. One holds a plain spear; a small low oared boat passes far below. Dense river vegetation, broad quiet water, attentive posture, no fantasy tower or modern binoculars.\nInput images: Image 1 (boat-photo): real modern Assam country boat: low wooden hull and woven cover only; exclude modern clothing, watermark and fittings. Image 2 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S6, S7. Interpretive limits: Lookout design and precise location are interpretive; not a reconstruction of a particular named fort or battle position.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "Two sentries with spears watch a broad river from a bamboo riverbank position.",
+  "file": "images/assam/ahom-life-and-work/06-military-preparations/04-river-lookout-v2.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/boat-majuli.jpg",
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-97da482d-28ce-4dc1-9bfe-8ab1c66178e7.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "a7ef049f9cd0406879b7d66942ba73837c173a873d8765a075ebbe15dc183137",
+  "bytes": 2666437,
+  "visual_review": "Distant covered boat and potentially modern clothing removed in v2.",
+  "web_file": "images/assam/ahom-life-and-work/06-military-preparations/04-river-lookout-v2.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/06-military-preparations/thumb/04-river-lookout-v2.webp",
+  "generation_history": [
+    {
+      "file": "output/imagegen/ahom-life-researched-2026-10-26/superseded/06-military-preparations/04-river-lookout.png",
+      "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-2e72800e-8fa5-4c70-8171-4a98fee5638c.png",
+      "sha256": "be4706be08e1d0592b744e27e2c7b60faba04dcb7f30918dfc911f6590de5e1d",
+      "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Watching the river approach. Period: Ahom-controlled Brahmaputra valley, circa 1670.\nPrimary request: Two adult sentries watching a distant bend from a low earth-and-timber riverbank position with simple bamboo palisade. One holds a plain spear; a small low oared boat passes far below. Dense river vegetation, broad quiet water, attentive posture, no fantasy tower or modern binoculars.\nInput images: Image 1 (boat-photo): real modern Assam country boat: low wooden hull and woven cover only; exclude modern clothing, watermark and fittings. Image 2 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S6, S7. Interpretive limits: Lookout design and precise location are interpretive; not a reconstruction of a particular named fort or battle position.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses."
+    }
+  ],
+  "revision_prompt": "Use case: precise-object-edit. Remove the distant covered country boat and ALL its passengers from the lower RIGHT water area of this historical river-lookout image. Replace only that boat area with matching open water and subtle natural ripples. Preserve the two foreground sentries, spears, bamboo palisade, shelter, bank, hills, lighting, composition and all other content. No added boats, people, text or modern objects.",
+  "revision_reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/ahom-life-and-work/06-military-preparations/04-river-lookout.png"
+  ],
+  "caption": "Watching the river approach. Ahom-controlled Brahmaputra valley, circa 1670. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

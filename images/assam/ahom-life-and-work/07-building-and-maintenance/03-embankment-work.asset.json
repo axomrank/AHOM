@@ -1,0 +1,34 @@
+{
+  "id": "07-building-and-maintenance/03-embankment-work",
+  "group": "07-building-and-maintenance",
+  "slug": "03-embankment-work",
+  "title": "Maintaining an earth embankment",
+  "period": "Upper Assam, circa 1750",
+  "scene": "Wide documentary view of a team maintaining a low earth embankment beside wet rice fields: people carry soil in woven baskets, two tamp fresh earth with wooden tools, a simple drainage channel visible. Plain practical clothes and muddy feet, no forced-smiling spectacle, concrete, excavator or sandbag wall.",
+  "references": [
+    "grain-object",
+    "common-style"
+  ],
+  "source_ids": [
+    "S16"
+  ],
+  "uncertainty": "Unnamed representative earthwork; no asserted alignment, dimensions, construction specification or flood-prevention effectiveness.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Maintaining an earth embankment. Period: Upper Assam, circa 1750.\nPrimary request: Wide documentary view of a team maintaining a low earth embankment beside wet rice fields: people carry soil in woven baskets, two tamp fresh earth with wooden tools, a simple drainage channel visible. Plain practical clothes and muddy feet, no forced-smiling spectacle, concrete, excavator or sandbag wall.\nInput images: Image 1 (grain-object): generated woven grain container: form only. Image 2 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S16. Interpretive limits: Unnamed representative earthwork; no asserted alignment, dimensions, construction specification or flood-prevention effectiveness.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "Workers carry soil baskets and tamp a low earth embankment beside wet rice fields.",
+  "file": "images/assam/ahom-life-and-work/07-building-and-maintenance/03-embankment-work.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/duli-grain-basket.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-127e1a81-cad4-491b-b56c-de21fe9b8645.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "4cf97f3a71ed250d33c3643e885e2bc76a024e373736342d77ba164499521c3d",
+  "bytes": 3474929,
+  "visual_review": "Earthwork and small drainage opening are illustrative; no engineering performance is claimed.",
+  "web_file": "images/assam/ahom-life-and-work/07-building-and-maintenance/03-embankment-work.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/07-building-and-maintenance/thumb/03-embankment-work.webp",
+  "caption": "Maintaining an earth embankment. Upper Assam, circa 1750. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

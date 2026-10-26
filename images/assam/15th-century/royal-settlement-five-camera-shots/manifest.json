@@ -1,0 +1,42 @@
+[
+  {
+    "file": "01-momai-tamuli-residential-gate.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "aa6637d08d167e9331af7efc0a96c7bffd4db9741969a36ea53e3f95afe06750",
+    "type": "AI-generated interpretive character scene",
+    "generation_tool": "built-in image generation"
+  },
+  {
+    "file": "02-numali-rajmao-house-interior.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "71455de921e51c25fb0f33e24ad49368f3094ef6ebc646130d527e81bd9d7a5d",
+    "type": "AI-generated interpretive character scene",
+    "generation_tool": "built-in image generation"
+  },
+  {
+    "file": "03-sarbeswari-upper-veranda.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "7c72dfc0d3988afe6f6b7630b810cfc88fdc35e78e2f97f3004976722dcbee2b",
+    "type": "AI-generated interpretive character scene",
+    "generation_tool": "built-in image generation"
+  },
+  {
+    "file": "04-atan-lower-veranda.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "2f56313180e069b4172c8e5c0678f69dc87b6563dbe7a3c1d0b5a5530d08cc73",
+    "type": "AI-generated interpretive character scene",
+    "generation_tool": "built-in image generation"
+  },
+  {
+    "file": "05-ambika-smaller-residence.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "852b1abf81fb081e1dff25f95fa462a45158aaba3c22394c9495b70e78813de2",
+    "type": "AI-generated interpretive character scene",
+    "generation_tool": "built-in image generation"
+  }
+]

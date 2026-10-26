@@ -1,0 +1,29 @@
+{
+  "id": "08-places-across-time/04-rang-present-photo",
+  "group": "08-places-across-time",
+  "slug": "04-rang-present-photo",
+  "title": "Rang Ghar: modern reference photograph",
+  "period": "Modern photograph; capture date not verified",
+  "file": "images/assam/ahom-life-and-work/08-places-across-time/04-rang-present-photo.jpg",
+  "kind": "real modern photograph, unchanged bytes",
+  "status": "complete",
+  "references": [
+    "rang"
+  ],
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/referance/ahom/01_ahom_royal_and_civic/rang-ghar/01_general_views/122856366_Rang_Ghar_at_noon.jpg"
+  ],
+  "source_ids": [
+    "S12"
+  ],
+  "uncertainty": "Modern reference photograph, not necessarily the site’s condition in October 2026. Attribution and licence retained in reference-records.json. Approximate comparison with generated historical view.",
+  "paired_with": "03-rang-historical",
+  "alt": "A real modern photograph of Rang Ghar with a central visitor path and landscaped grounds.",
+  "sha256": "90c7f28e0bb52e9c4277900ea35debd91a798c138e1d6d4444bef1ed6bd5ef47",
+  "width": 1280,
+  "height": 960,
+  "bytes": 435287,
+  "web_file": "images/assam/ahom-life-and-work/08-places-across-time/04-rang-present-photo.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/08-places-across-time/thumb/04-rang-present-photo.webp",
+  "caption": "Rang Ghar: modern reference photograph. Unchanged real modern photograph; capture date not verified. This is not a newly generated image or a live 2026 site record."
+}

@@ -1,0 +1,38 @@
+{
+  "4": {
+    "prompt": "Use case: precise-object-edit. Edit only the floating water plants in this river-market approach image. Remove every cluster of floating broad-leaf aquatic plants from the water and along the timber landing, replacing them with clean open river water, natural reflections and exposed muddy bank. Preserve the boats, people, baskets, clothing, houses, camera, lighting, composition and all other content. Do not add plants, signs, text or new people.",
+    "reference_paths": [
+      "/home/angsuman/extra_spac/AHOM/images/assam/ahom-life-and-work/01-river-life/05-river-market-approach.png"
+    ]
+  },
+  "5": {
+    "prompt": "Use case: precise-object-edit. Make two localized corrections to this historical smithy illustration. Replace the horned European-style anvil with a plain small rectangular dark iron working block, securely embedded in the same timber stump, preserving the smith's tongs and workpiece above its flat surface and the hammer worker's pose. Replace the child at the bellows with an adult assistant in plain wrapped undyed cloth, keeping the bellows position. Keep all other scene elements unchanged. This remains an interpretive Assam workshop; no modern equipment, text or industrial fantasy.",
+    "reference_paths": [
+      "/home/angsuman/extra_spac/AHOM/images/assam/ahom-life-and-work/02-craft-workshops/01-blacksmith.png"
+    ]
+  },
+  "20": {
+    "prompt": "Use case: precise-object-edit. Remove the entire distant covered passenger boat on the RIGHT side of the river, including its two people wearing modern checked shirts. Fill only that area with matching uninterrupted open water and reflections. Preserve every foreground craftsperson, all long military-preparation boats, tools, clothing, vegetation, riverbank and the two more distant open rowing boats in the middle. No other changes, no new boats or figures.",
+    "reference_paths": [
+      "/home/angsuman/extra_spac/AHOM/images/assam/ahom-life-and-work/06-military-preparations/01-boat-preparation.png"
+    ]
+  },
+  "23": {
+    "prompt": "Use case: precise-object-edit. Remove the distant covered country boat and ALL its passengers from the lower RIGHT water area of this historical river-lookout image. Replace only that boat area with matching open water and subtle natural ripples. Preserve the two foreground sentries, spears, bamboo palisade, shelter, bank, hills, lighting, composition and all other content. No added boats, people, text or modern objects.",
+    "reference_paths": [
+      "/home/angsuman/extra_spac/AHOM/images/assam/ahom-life-and-work/06-military-preparations/04-river-lookout.png"
+    ]
+  },
+  "27": {
+    "prompt": "Use case: precise-object-edit. Correct only the BACKGROUND of this Joysagar excavation interpretation. The large dry earth basin in the foreground IS the tank under construction. Remove the entire band of blue completed lake water BEHIND the far rim. Replace that water band with continuous low dry earth and meadow grading naturally into the existing tree line. There must be ONE unfinished dry tank excavation and NO lake, river or second tank anywhere. Preserve every worker, basket, spade, excavation slope, shelter, foreground tree, sky, camera framing and lighting exactly. Do not add temples, buildings or machines.",
+    "reference_paths": [
+      "/home/angsuman/extra_spac/AHOM/images/assam/ahom-life-and-work/07-building-and-maintenance/04-joysagar-excavation.png"
+    ]
+  },
+  "29": {
+    "prompt": "Use case: precise-object-edit. Make ONE tiny localized correction to this image: in the CENTRAL ARCH ON THE UPPER STOREY of Rang Ghar, remove EVERY thin vertical metal bar of the gate/grille. Fill that opening with an unobstructed plain dark shaded interior, with NO vertical lines, bars, railing, gate, fence, shutter or blue striped surface. The other upper arches are the visual model for a clean empty opening. Preserve absolutely everything else including building, ornament, field, sky, trees, colour and framing. Do not change any other area.",
+    "reference_paths": [
+      "/home/angsuman/extra_spac/AHOM/images/assam/ahom-life-and-work/08-places-across-time/03-rang-historical-v2.png"
+    ]
+  }
+}

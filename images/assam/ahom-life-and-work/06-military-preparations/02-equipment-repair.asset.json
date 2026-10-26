@@ -1,0 +1,35 @@
+{
+  "id": "06-military-preparations/02-equipment-repair",
+  "group": "06-military-preparations",
+  "slug": "02-equipment-repair",
+  "title": "Repairing equipment before departure",
+  "period": "Ahom-controlled Assam, circa 1670",
+  "scene": "Four adult military workers under a thatched shelter repair bamboo shafts, bind a wooden paddle and inspect an iron spearhead. A long historical cannon lies horizontally on simple timber transport supports in the middle distance; no museum pedestal and no modern artillery carriage. Workers in restrained plain clothing, no standardized fantasy armour.",
+  "references": [
+    "cannon",
+    "common-style"
+  ],
+  "source_ids": [
+    "S6",
+    "S7"
+  ],
+  "uncertainty": "Photographed cannon is comparative and not individually dated to 1670; fittings, clothing and equipment grouping are interpretive.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Repairing equipment before departure. Period: Ahom-controlled Assam, circa 1670.\nPrimary request: Four adult military workers under a thatched shelter repair bamboo shafts, bind a wooden paddle and inspect an iron spearhead. A long historical cannon lies horizontally on simple timber transport supports in the middle distance; no museum pedestal and no modern artillery carriage. Workers in restrained plain clothing, no standardized fantasy armour.\nInput images: Image 1 (cannon): real Ahom-period cannon photograph: comparative barrel profile only; do not date this particular specimen to the scene or copy museum stands. Image 2 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S6, S7. Interpretive limits: Photographed cannon is comparative and not individually dated to 1670; fittings, clothing and equipment grouping are interpretive.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "Workers repair paddles and spear equipment beside a cannon on timber supports.",
+  "file": "images/assam/ahom-life-and-work/06-military-preparations/02-equipment-repair.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/referance/ahom/06_material_culture/cannons/01_general_views/174826169_Canons_of_the_Ahom_period_at_Talatal_Ghar_Sivasagar_(IMG_9906).jpg",
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-e78a8cfd-e9b8-4e35-9494-4b120c300adc.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "2952b608c81d15e61aeb7388b99c4b731bd54f11c85c78d2d2abb874de402194",
+  "bytes": 3456342,
+  "visual_review": "Cannon follows the comparative barrel photograph; scale, timber supports and date of this specimen are unverified. Not a validated artillery reconstruction.",
+  "web_file": "images/assam/ahom-life-and-work/06-military-preparations/02-equipment-repair.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/06-military-preparations/thumb/02-equipment-repair.webp",
+  "caption": "Repairing equipment before departure. Ahom-controlled Assam, circa 1670. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

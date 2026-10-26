@@ -1,0 +1,40 @@
+{
+  "id": "01-river-life/01-river-landing",
+  "group": "01-river-life",
+  "slug": "01-river-landing",
+  "title": "A working river landing",
+  "period": "Upper Assam, circa 1750",
+  "scene": "Wide bank-level view of a modest tributary landing connected to the Brahmaputra: three small timber boats, porters carrying baskets of rice, two passengers waiting under a simple thatched shelter, bamboo groves behind. A working landing, not a monumental port. Foreground woven mooring rope and shallow earthen steps.",
+  "references": [
+    "boat-photo",
+    "boat-object",
+    "common-style"
+  ],
+  "source_ids": [
+    "S2",
+    "S5",
+    "S7",
+    "S17",
+    "S18"
+  ],
+  "uncertainty": "Unnamed representative location; river course, shelter and traffic arrangement are interpretive. Modern boat form is comparative only.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: A working river landing. Period: Upper Assam, circa 1750.\nPrimary request: Wide bank-level view of a modest tributary landing connected to the Brahmaputra: three small timber boats, porters carrying baskets of rice, two passengers waiting under a simple thatched shelter, bamboo groves behind. A working landing, not a monumental port. Foreground woven mooring rope and shallow earthen steps.\nInput images: Image 1 (boat-photo): real modern Assam country boat: low wooden hull and woven cover only; exclude modern clothing, watermark and fittings. Image 2 (boat-object): generated object: small boat construction vocabulary only; not a warship blueprint. Image 3 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S2, S5, S7. Interpretive limits: Unnamed representative location; river course, shelter and traffic arrangement are interpretive. Modern boat form is comparative only.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "People carry grain baskets beside three small wooden boats at a thatched river landing.",
+  "file": "images/assam/ahom-life-and-work/01-river-life/01-river-landing.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/boat-majuli.jpg",
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/wooden-country-boat.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-6cf3f59f-134e-48a7-b4f8-0c8d9b4b8eec.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "4b22064793057ec5d1c78f043cd582c067e9c9a3c1093273c11532b7bc2800b5",
+  "bytes": 3341793,
+  "visual_review": "Reviewed as a single landscape concept with clear activity, consistent material vocabulary and no visible text overlay or conspicuous modern infrastructure. Historical details remain qualified by the scene notes.",
+  "web_file": "images/assam/ahom-life-and-work/01-river-life/01-river-landing.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/01-river-life/thumb/01-river-landing.webp",
+  "caption": "A working river landing. Upper Assam, circa 1750. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

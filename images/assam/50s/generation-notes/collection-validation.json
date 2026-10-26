@@ -1,0 +1,199 @@
+{
+  "completed": 16,
+  "expected": 16,
+  "missing": [],
+  "images": [
+    {
+      "id": "01-namghar-exterior",
+      "path": "images/assam/50s/01-namghar-exterior.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 3665453,
+      "sha256": "1cc9fa1aae62f773accd4fcfbe0e88cb9dc1d1c38748bfe03dcc476e467e6188",
+      "has_transparency": false
+    },
+    {
+      "id": "02-village-homestead",
+      "path": "images/assam/50s/02-village-homestead.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 3436161,
+      "sha256": "3175f98b3b286e2679e9e990650b9035849ab5acff08a0fa49c5c12a01c3a747",
+      "has_transparency": false
+    },
+    {
+      "id": "03-kitchen-interior",
+      "path": "images/assam/50s/03-kitchen-interior.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 2989197,
+      "sha256": "4d5571ee2560d686415d1bcb87f045140ec6270c180c24617a1be56befd85850",
+      "has_transparency": false
+    },
+    {
+      "id": "04-weaving-corner",
+      "path": "images/assam/50s/04-weaving-corner.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 3140625,
+      "sha256": "faf330756b2ae02960de31fecbae9555ed3a757a0df496fc73d4599d7ed8b956",
+      "has_transparency": false
+    },
+    {
+      "id": "05-dheki-shed",
+      "path": "images/assam/50s/05-dheki-shed.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 3121910,
+      "sha256": "3a2c8ecbc5f81b84ef906c29e2321ba81aa15468037e4349986b617e70208260",
+      "has_transparency": false
+    },
+    {
+      "id": "06-paddy-ploughing",
+      "path": "images/assam/50s/06-paddy-ploughing.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 3299234,
+      "sha256": "ac62edb9a9e389487334be802007a9799675b193162f72a17e6c50b48148e58e",
+      "has_transparency": false
+    },
+    {
+      "id": "07-village-market",
+      "path": "images/assam/50s/07-village-market.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 3325887,
+      "sha256": "85f43e6fa29d30ba5fd95844283afa6351bee63e9aae78486caebb6cf1619249",
+      "has_transparency": false
+    },
+    {
+      "id": "08-river-landing",
+      "path": "images/assam/50s/08-river-landing.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 2798080,
+      "sha256": "09d63b75d261b3ef375919430d5ce608da4c7c7acb5a0d89ef73714f1a4d9043",
+      "has_transparency": false
+    },
+    {
+      "id": "dheki-rice-pounder",
+      "path": "images/assam/fixed-elements/dheki-rice-pounder.png",
+      "size": [
+        1537,
+        1023
+      ],
+      "mode": "RGBA",
+      "bytes": 951654,
+      "sha256": "6f6ed1e18581b2fb101d19f07fee5e8457e0365f5dd91be9c3644cc77f532252",
+      "has_transparency": true
+    },
+    {
+      "id": "assamese-handloom",
+      "path": "images/assam/fixed-elements/assamese-handloom.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "bytes": 2396945,
+      "sha256": "daebd921cae22a37fff14a990ab9938d719dbaa0c1760a0fbf2dd91ff039e205",
+      "has_transparency": true
+    },
+    {
+      "id": "haluwa-jaapi",
+      "path": "images/assam/fixed-elements/haluwa-jaapi.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 2095683,
+      "sha256": "553a1154bacfc80088e65f605afe6e2910ee40338102eb553b9850a53d8e73f9",
+      "has_transparency": true
+    },
+    {
+      "id": "xorai-bell-metal",
+      "path": "images/assam/fixed-elements/xorai-bell-metal.png",
+      "size": [
+        1024,
+        1535
+      ],
+      "mode": "RGBA",
+      "bytes": 1269803,
+      "sha256": "d5e49479f6bedcdc9dab69540d916a3a44f49cbab77f654c4e966e107e288c55",
+      "has_transparency": true
+    },
+    {
+      "id": "brass-bell-metal-utensils",
+      "path": "images/assam/fixed-elements/brass-bell-metal-utensils.png",
+      "size": [
+        1503,
+        1046
+      ],
+      "mode": "RGBA",
+      "bytes": 2138032,
+      "sha256": "8266d2d85670af3696c817b62696008afbf9bcf3ba254d22e9cd735f8378bb39",
+      "has_transparency": true
+    },
+    {
+      "id": "jakhoi-khaloi-fishing-set",
+      "path": "images/assam/fixed-elements/jakhoi-khaloi-fishing-set.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 2389894,
+      "sha256": "372a1cd00ac3ab9802209f074678eec9e93f81e9e65baf31a9b84b37d13e44ac",
+      "has_transparency": true
+    },
+    {
+      "id": "nangol-plough-yoke",
+      "path": "images/assam/fixed-elements/nangol-plough-yoke.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 1732915,
+      "sha256": "073af87540aa168a38cdea9b460257c6e58ff7ef6062a9439272d1e3d4801970",
+      "has_transparency": true
+    },
+    {
+      "id": "wooden-country-boat",
+      "path": "images/assam/fixed-elements/wooden-country-boat.png",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "bytes": 1326032,
+      "sha256": "5182a36a0a72e9d78edbbfee65e009162b724c81036adf3b9a219f949ec79a76",
+      "has_transparency": true
+    }
+  ]
+}

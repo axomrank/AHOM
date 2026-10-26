@@ -1,0 +1,34 @@
+{
+  "id": "02-craft-workshops/02-pottery",
+  "group": "02-craft-workshops",
+  "slug": "02-pottery",
+  "title": "Working wet clay",
+  "period": "Upper Assam, circa 1750",
+  "scene": "Sheltered earthen courtyard: a seated adult potter shapes the mouth of a clay storage vessel by hand, an assistant smooths another damp pot, unfinished earthen vessels dry on a simple timber shelf. Hands and clay are the focus. No electric or industrial wheel and no claim about a named potter community.",
+  "references": [
+    "pot-object",
+    "common-style"
+  ],
+  "source_ids": [
+    "S1"
+  ],
+  "uncertainty": "Hand-forming is chosen to avoid imposing one community’s wheel technology on all Assam; exact technique and community are unspecified.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Working wet clay. Period: Upper Assam, circa 1750.\nPrimary request: Sheltered earthen courtyard: a seated adult potter shapes the mouth of a clay storage vessel by hand, an assistant smooths another damp pot, unfinished earthen vessels dry on a simple timber shelf. Hands and clay are the focus. No electric or industrial wheel and no claim about a named potter community.\nInput images: Image 1 (pot-object): generated earthen vessel: form only. Image 2 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S1. Interpretive limits: Hand-forming is chosen to avoid imposing one community’s wheel technology on all Assam; exact technique and community are unspecified.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "A potter and assistants smooth damp clay vessels under a thatched work shelter.",
+  "file": "images/assam/ahom-life-and-work/02-craft-workshops/02-pottery.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/tekeli-earthen-pot.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-7eecc0a3-3697-4897-bc8c-32d984c836f7.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "9f2befe6031b03249d22252a4ca132e5b59b2cd6cf6d863ecb83f9b4b2cec03a",
+  "bytes": 3121466,
+  "visual_review": "Hand shaping is visible, with a simple supporting board. Community and precise pot-making process are unspecified.",
+  "web_file": "images/assam/ahom-life-and-work/02-craft-workshops/02-pottery.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/02-craft-workshops/thumb/02-pottery.webp",
+  "caption": "Working wet clay. Upper Assam, circa 1750. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

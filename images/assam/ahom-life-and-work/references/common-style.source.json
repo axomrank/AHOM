@@ -1,0 +1,11 @@
+{
+  "path": "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png",
+  "kind": "prior generated artistic interpretation; not historical evidence",
+  "metadata": {
+    "original_path": "images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png",
+    "license": "Prior project-generated interpretation; no claim of historical evidence"
+  },
+  "local_copy": "images/assam/ahom-life-and-work/references/common-style.png",
+  "sha256": "fd2ad4959aa1a6f14417c382265cfd70345e9e544b1f05029866501bff971415",
+  "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01-village-overview.png",
+    "title": "Whole village overview",
+    "width": 1672,
+    "height": 941,
+    "sha256": "d065fd10b60138ef4d7b4e71e6c6158d0f085ae85d2f89f40934a4b5846e6adc",
+    "type": "AI-generated interpretive reconstruction",
+    "tool": "built-in image generation"
+  },
+  {
+    "file": "02-pondside-village-life.png",
+    "title": "Pond-side village life",
+    "width": 1672,
+    "height": 941,
+    "sha256": "90714659456136983a435c6c0e9c9add2acbc96de088eac57f19184fbe05379a",
+    "type": "AI-generated interpretive reconstruction",
+    "tool": "built-in image generation"
+  },
+  {
+    "file": "03-village-and-rice-fields.png",
+    "title": "Village and rice fields",
+    "width": 1672,
+    "height": 941,
+    "sha256": "a3d9a3c54c1e5f7abda5ace8fe2accaa640055910509ef08d16631079a16a1b3",
+    "type": "AI-generated interpretive reconstruction",
+    "tool": "built-in image generation"
+  }
+]

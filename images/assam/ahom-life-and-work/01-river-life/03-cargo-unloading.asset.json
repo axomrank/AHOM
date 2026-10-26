@@ -1,0 +1,38 @@
+{
+  "id": "01-river-life/03-cargo-unloading",
+  "group": "01-river-life",
+  "slug": "03-cargo-unloading",
+  "title": "Goods coming ashore",
+  "period": "Upper Assam, circa 1750",
+  "scene": "Close documentary scene of three adult porters unloading woven grain baskets and rolled plain cloth from a moored wooden cargo boat to a low earth bank. Natural body mechanics and believable weight; two workers lift one basket together. River and boat remain clearly visible.",
+  "references": [
+    "boat-photo",
+    "grain-object",
+    "common-style"
+  ],
+  "source_ids": [
+    "S1",
+    "S5",
+    "S7"
+  ],
+  "uncertainty": "Specific cargo and loading method are plausible artistic choices, not a reconstruction of a recorded shipment.",
+  "prompt": "Use case: historical-scene. Asset type: landscape image for the Ahom history website. Create ONE complete landscape scene, approximately 16:9, ideally 3840 x 2160 if available; no collage, inset, labels, border, signature, lettering or watermark. Naturalistic historical illustration with convincing human anatomy, clear purposeful activity, Assam vegetation and humid river-valley light, detailed timber/bamboo/clay surfaces, restrained colour and documentary composition. Avoid theatrical fantasy styling and orange colour cast. References have NARROW roles stated below. Prior generated images provide artistic continuity only, never historical evidence. This is an explicitly interpretive reconstruction; do not pretend uncertainty is known. Ordinary workers have individual Assamese faces and ages, practical plain handwoven wrapped cloth, muted undyed colours, minimal ornament; no royal guards' dress on civilians, no copied famous person. Exact dress and house layouts are creative interpretations, not verified universal Ahom costume. Women wear securely wrapped lower cloth and a modest separate upper drape. No contemporary tailored blouses, zippers, printed cloth or ornamental modern gamosa motifs. No Hindu temple silhouettes in homes or secular workshops, no funerary mound used as a house, no unrelated Tripura architecture. Exclude electricity, asphalt, concrete, steel sheeting, plastic, engines, modern boats, European furniture, factories, colonial uniforms and tea plantations. Keep tools plausible but do not invent technical precision. \nTitle for metadata only: Goods coming ashore. Period: Upper Assam, circa 1750.\nPrimary request: Close documentary scene of three adult porters unloading woven grain baskets and rolled plain cloth from a moored wooden cargo boat to a low earth bank. Natural body mechanics and believable weight; two workers lift one basket together. River and boat remain clearly visible.\nInput images: Image 1 (boat-photo): real modern Assam country boat: low wooden hull and woven cover only; exclude modern clothing, watermark and fittings. Image 2 (grain-object): generated woven grain container: form only. Image 3 (common-style): artistic visual continuity for ordinary household materials and restrained clothing only; no historical authentication.\nEvidence source IDs: S1, S5, S7. Interpretive limits: Specific cargo and loading method are plausible artistic choices, not a reconstruction of a recorded shipment.\nBotanical constraint: no water hyacinth, floating invasive plant mats, eucalyptus plantations, or ornamental imported garden plants. River water should be open with only native bank reeds and grasses.",
+  "status": "complete",
+  "kind": "generated historical interpretation",
+  "alt": "Two workers lift a grain basket from a moored boat while another handles a cloth roll.",
+  "file": "images/assam/ahom-life-and-work/01-river-life/03-cargo-unloading.png",
+  "reference_paths": [
+    "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/boat-majuli.jpg",
+    "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/duli-grain-basket.png",
+    "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png"
+  ],
+  "original_generation_path": "/home/angsuman/.codex/generated_images/01a17773-18b9-7773-bcf8-908766a1c90a/exec-a044ac8c-45b2-415b-8d6d-0474f36316e2.png",
+  "width": 1672,
+  "height": 941,
+  "sha256": "b5ea71f469b9300878fd31030eae05db2cdc7937f82708015c3c7519c3d02a05",
+  "bytes": 2939779,
+  "visual_review": "Reviewed as a single landscape concept with clear activity, consistent material vocabulary and no visible text overlay or conspicuous modern infrastructure. Historical details remain qualified by the scene notes.",
+  "web_file": "images/assam/ahom-life-and-work/01-river-life/03-cargo-unloading.webp",
+  "thumbnail": "images/assam/ahom-life-and-work/01-river-life/thumb/03-cargo-unloading.webp",
+  "caption": "Goods coming ashore. Upper Assam, circa 1750. Research-informed artistic interpretation; exact dress, setting and activity details are not authenticated."
+}

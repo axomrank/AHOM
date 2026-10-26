@@ -1,0 +1,57 @@
+[
+  {
+    "id": "jakhoi",
+    "url": "https://www.dsource.in/gallery/jakhoi-and-khaloi",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
+  },
+  {
+    "id": "plough",
+    "url": "https://ruralindiaonline.org/article/in-darrang-ploughing-a-lonely-furrow",
+    "page_saved": true
+  },
+  {
+    "id": "loom",
+    "url": "https://ignca.gov.in/divisionss/janapada-sampada/northeastern-regional-centre/textiles-of-assam/",
+    "error": "<urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000)>"
+  },
+  {
+    "id": "market-1944",
+    "url": "https://www.rshonor.net/node/14605",
+    "error": "HTTP Error 406: Not Acceptable"
+  },
+  {
+    "id": "culture",
+    "url": "https://usp2.amtron.in/about-us/391",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
+  },
+  {
+    "id": "xorai-museum",
+    "url": "https://nationalcraftsmuseum.nic.in/artifacts-detail/31686",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "file": "dheki-xobdo.jpg",
+    "image_url": "https://xobdo.org/photo/IDEA0006607.jpg"
+  },
+  {
+    "file": "handloom-nen.jpg",
+    "image_url": "https://northeastnetwork.org/wp-content/uploads/2023/06/Saneki02.jpg"
+  },
+  {
+    "file": "xorai-museum.jpg",
+    "image_url": "https://nationalcraftsmuseum.nic.in/webroot/uploads/artifacts/05-141-D-NHHM%284%29/05141DNHHM4A.jpg",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "file": "boat-majuli.jpg",
+    "image_url": "https://www.inditales.com/wp-content/uploads/2011/10/traditional-boat-over-brahmaputra-river.jpg"
+  },
+  {
+    "file": "plough-nagaon.jpg",
+    "image_url": "https://files.prokerala.com/news/photos/imgs/1024/a-farmer-tills-his-fields-in-nagaon-of-assam-on-328902.jpg"
+  },
+  {
+    "file": "utensils-sarthebari.jpg",
+    "image_url": "https://www.mugasilk.in/wp-content/uploads/2017/02/Ethnic-Serving-Bowl-Tray-and-Dish-Set-Of-6-Bell-Metal1.jpg"
+  }
+]

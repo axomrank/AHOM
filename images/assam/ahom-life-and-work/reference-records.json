@@ -1,0 +1,346 @@
+{
+  "kareng": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/referance/ahom/01_ahom_royal_and_civic/kareng-ghar/01_general_views/119119842_KARENG_GHAR_SIVASAGAR_ASSAM.jpg",
+    "kind": "real photograph",
+    "metadata": {
+      "file": "01_ahom_royal_and_civic/kareng-ghar/01_general_views/119119842_KARENG_GHAR_SIVASAGAR_ASSAM.jpg",
+      "title": "File:KARENG GHAR SIVASAGAR ASSAM.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:KARENG_GHAR_SIVASAGAR_ASSAM.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/KARENG_GHAR_SIVASAGAR_ASSAM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Y01061978",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "description": "KARENG GHAR SIVASAGAR ASSAM",
+      "width": 1024,
+      "height": 681,
+      "bytes": 162487,
+      "commons_sha1": "c96cdaded062c0ec6acbfe311a07068057e3ff70",
+      "original_width": 1024,
+      "original_height": 681,
+      "original_bytes": 162487,
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/KARENG_GHAR_SIVASAGAR_ASSAM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "original_collection_file": "kareng-ghar/119119842_KARENG_GHAR_SIVASAGAR_ASSAM.jpg",
+      "reference_id": "commons_119119842",
+      "family": "01_ahom_royal_and_civic",
+      "architectural_tradition": "Ahom royal and civic buildings",
+      "monument": "kareng-ghar",
+      "view_type": "01_general_views",
+      "period_note": "Surviving masonry predominantly 18th century; not direct evidence for a 15th-century palace",
+      "classification_note": "Classified from source title/category; not a full visual authentication.",
+      "classification_method": "source metadata and user reference taxonomy; no full per-image visual audit",
+      "source_provider": "Wikimedia Commons",
+      "patronage_context": "Ahom-period context where identified; patronage does not determine architectural tradition",
+      "suitable_as_direct_15th_century_template": false,
+      "sha256": "92ca66252e578c50bcaef9e64b76b07ecd36044bee548aba4144bab60bb184fb"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/kareng.jpg",
+    "sha256": "92ca66252e578c50bcaef9e64b76b07ecd36044bee548aba4144bab60bb184fb",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "rang": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/referance/ahom/01_ahom_royal_and_civic/rang-ghar/01_general_views/122856366_Rang_Ghar_at_noon.jpg",
+    "kind": "real photograph",
+    "metadata": {
+      "file": "01_ahom_royal_and_civic/rang-ghar/01_general_views/122856366_Rang_Ghar_at_noon.jpg",
+      "title": "File:Rang Ghar at noon.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rang_Ghar_at_noon.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Rang_Ghar_at_noon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Dr Jagga",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "description": "Rang Ghar's epic beautiful Sports Ground cum Stadium made by Ahom Dynasty.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 435287,
+      "commons_sha1": "4c5c051966b72764be2964d01aef606265e63144",
+      "original_width": 3918,
+      "original_height": 2939,
+      "original_bytes": 2638689,
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Rang_Ghar_at_noon.jpg/1280px-Rang_Ghar_at_noon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_collection_file": "rang-ghar/122856366_Rang_Ghar_at_noon.jpg",
+      "reference_id": "commons_122856366",
+      "family": "01_ahom_royal_and_civic",
+      "architectural_tradition": "Ahom royal and civic buildings",
+      "monument": "rang-ghar",
+      "view_type": "01_general_views",
+      "period_note": "Surviving masonry predominantly 18th century; not direct evidence for a 15th-century palace",
+      "classification_note": "Classified from source title/category; not a full visual authentication.",
+      "classification_method": "source metadata and user reference taxonomy; no full per-image visual audit",
+      "source_provider": "Wikimedia Commons",
+      "patronage_context": "Ahom-period context where identified; patronage does not determine architectural tradition",
+      "suitable_as_direct_15th_century_template": false,
+      "sha256": "90c7f28e0bb52e9c4277900ea35debd91a798c138e1d6d4444bef1ed6bd5ef47"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/rang.jpg",
+    "sha256": "90c7f28e0bb52e9c4277900ea35debd91a798c138e1d6d4444bef1ed6bd5ef47",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "tank": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/referance/ahom/05_water_and_landscape/joysagar_tank_and_setting/04_site_and_landscape/129255443_Joysagar_Tank_view.jpg",
+    "kind": "real photograph",
+    "metadata": {
+      "file": "05_water_and_landscape/joysagar_tank_and_setting/04_site_and_landscape/129255443_Joysagar_Tank_view.jpg",
+      "title": "File:Joysagar Tank view.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Joysagar_Tank_view.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Joysagar_Tank_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "ComparingQuantities",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Own work",
+      "description": "Joysagar Tank view",
+      "width": 1280,
+      "height": 960,
+      "bytes": 301945,
+      "commons_sha1": "e0e4f3d36396ab3c7164f439c05ecbf35b410d40",
+      "original_width": 4032,
+      "original_height": 3024,
+      "original_bytes": 913683,
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Joysagar_Tank_view.jpg/1280px-Joysagar_Tank_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_collection_file": "joysagar/129255443_Joysagar_Tank_view.jpg",
+      "reference_id": "commons_129255443",
+      "family": "05_water_and_landscape",
+      "architectural_tradition": "Tanks and landscape context",
+      "monument": "joysagar_tank_and_setting",
+      "view_type": "04_site_and_landscape",
+      "period_note": "Later Ahom-period tank / present-day landscape; specific features need dating",
+      "classification_note": "Water and landscape context only. Background temples and modern college/town buildings are not early Ahom architecture evidence.",
+      "classification_method": "source metadata and user reference taxonomy; no full per-image visual audit",
+      "source_provider": "Wikimedia Commons",
+      "patronage_context": "Ahom-period context where identified; patronage does not determine architectural tradition",
+      "suitable_as_direct_15th_century_template": false,
+      "sha256": "c6684b68e2c97c66fc6b568f7346d8a703ce8be9b7e344d53a39cd1e020b9109"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/tank.jpg",
+    "sha256": "c6684b68e2c97c66fc6b568f7346d8a703ce8be9b7e344d53a39cd1e020b9109",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "cannon": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/referance/ahom/06_material_culture/cannons/01_general_views/174826169_Canons_of_the_Ahom_period_at_Talatal_Ghar_Sivasagar_(IMG_9906).jpg",
+    "kind": "real photograph",
+    "metadata": {
+      "file": "06_material_culture/cannons/01_general_views/174826169_Canons_of_the_Ahom_period_at_Talatal_Ghar_Sivasagar_(IMG_9906).jpg",
+      "title": "File:Canons of the Ahom period at Talatal Ghar, Sivasagar (IMG 9906).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Canons_of_the_Ahom_period_at_Talatal_Ghar,_Sivasagar_(IMG_9906).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Canons_of_the_Ahom_period_at_Talatal_Ghar%2C_Sivasagar_%28IMG_9906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "কুমুদ ঘোষ",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "Own work",
+      "description": "A few cannons of the Ahom period are displayed in the Karenghar (Talatalghar) complex, Sivasagar, Assam. The inscriptions found in some cannons bear the date in saka between 1590-1615 corresponding to CE 1668-1693.",
+      "width": 1280,
+      "height": 853,
+      "bytes": 401864,
+      "commons_sha1": "9d87ba095b21721160232a7f3de77ee257f54068",
+      "original_width": 6000,
+      "original_height": 4000,
+      "original_bytes": 5399309,
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Canons_of_the_Ahom_period_at_Talatal_Ghar%2C_Sivasagar_%28IMG_9906%29.jpg/1280px-Canons_of_the_Ahom_period_at_Talatal_Ghar%2C_Sivasagar_%28IMG_9906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_collection_file": "talatal-ghar/174826169_Canons_of_the_Ahom_period_at_Talatal_Ghar_Sivasagar_(IMG_9906).jpg",
+      "reference_id": "commons_174826169",
+      "family": "06_material_culture",
+      "architectural_tradition": "Objects and military material culture",
+      "monument": "cannons",
+      "view_type": "01_general_views",
+      "period_note": "Individual weapon date unverified",
+      "classification_note": "Object reference only; not architecture and not automatically appropriate for 15th-century scenes.",
+      "classification_method": "source metadata and user reference taxonomy; no full per-image visual audit",
+      "source_provider": "Wikimedia Commons",
+      "patronage_context": "Ahom-period context where identified; patronage does not determine architectural tradition",
+      "suitable_as_direct_15th_century_template": false,
+      "sha256": "490d16e9844341d877516d1d1ad93b5c0d792c124f79215a75a0cd0a4bb907ce"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/cannon.jpg",
+    "sha256": "490d16e9844341d877516d1d1ad93b5c0d792c124f79215a75a0cd0a4bb907ce",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "boat-photo": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/boat-majuli.jpg",
+    "kind": "modern comparative photograph",
+    "metadata": {
+      "original_path": "images/assam/50s/generation-notes/references/boat-majuli.jpg",
+      "download_record": {
+        "file": "boat-majuli.jpg",
+        "image_url": "https://www.inditales.com/wp-content/uploads/2011/10/traditional-boat-over-brahmaputra-river.jpg"
+      },
+      "source_page": "https://www.inditales.com/",
+      "image_url": "https://www.inditales.com/wp-content/uploads/2011/10/traditional-boat-over-brahmaputra-river.jpg",
+      "author": "Anuradha Goyal, as credited in the image watermark",
+      "license": "Not established in local records; research comparison only"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/boat-photo.jpg",
+    "sha256": "baf43ff3655d0708059ece95c1f7544febfbe23506d7d89c64b26fcc27de6d19",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "loom-photo": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/handloom-nen.jpg",
+    "kind": "modern comparative photograph",
+    "metadata": {
+      "original_path": "images/assam/50s/generation-notes/references/handloom-nen.jpg",
+      "download_record": {
+        "file": "handloom-nen.jpg",
+        "image_url": "https://northeastnetwork.org/wp-content/uploads/2023/06/Saneki02.jpg"
+      },
+      "license": "Not established in local record; research comparison only"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/loom-photo.jpg",
+    "sha256": "96287c056bb0089d87298a22aa15de65dfdac33072cd868b62d9ad7d527ec685",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "kitchen-photo": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/kitchen-assam-state-museum.jpg",
+    "kind": "modern comparative photograph",
+    "metadata": {
+      "original_path": "images/assam/50s/generation-notes/references/kitchen-assam-state-museum.jpg",
+      "source_page": "https://icharchive.intach.org/Detail/objects/18664",
+      "title": "Assam State Museum kitchen model, ASMSM_011",
+      "image_url": "https://icharchive.intach.org/providence/media/collectiveaccess/images/3/8/24476_ca_object_representations_media_3837_medium.jpg",
+      "license": "Not established in local records; research comparison only"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/kitchen-photo.jpg",
+    "sha256": "41d14b4e367e3427829d63781e83ee5cb50e792c4cabd58ea72cae69beac7436",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "basket-photo": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/jakhoi-khaloi-dsource.jpg",
+    "kind": "modern comparative photograph",
+    "metadata": {
+      "original_path": "images/assam/50s/generation-notes/references/jakhoi-khaloi-dsource.jpg",
+      "download_record": {
+        "file": "jakhoi-khaloi-dsource.jpg",
+        "url": "https://www.dsource.in/sites/default/files/styles/gallary_images__565_x_800__/public/gallery/17574/8.jpg?itok=MFzLcrlP",
+        "downloaded": true
+      },
+      "license": "Not established in local record; research comparison only"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/basket-photo.jpg",
+    "sha256": "d3a3b10d123820fe1dc02e405cfced894d359daaaebf3c709a90cb26a2af72d4",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "vessels-photo": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/50s/generation-notes/references/utensils-sarthebari.jpg",
+    "kind": "modern comparative photograph",
+    "metadata": {
+      "original_path": "images/assam/50s/generation-notes/references/utensils-sarthebari.jpg",
+      "download_record": {
+        "file": "utensils-sarthebari.jpg",
+        "image_url": "https://www.mugasilk.in/wp-content/uploads/2017/02/Ethnic-Serving-Bowl-Tray-and-Dish-Set-Of-6-Bell-Metal1.jpg"
+      },
+      "license": "Not established in local record; research comparison only"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/vessels-photo.jpg",
+    "sha256": "de609bdb414500fb05a98b2baa381f000e4ead9f78f756c42fd5353d2fb86240",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "common-style": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png",
+    "kind": "prior generated artistic interpretation; not historical evidence",
+    "metadata": {
+      "original_path": "images/assam/18th-century/first-five/05-common-household-courtyard-c1760.png",
+      "license": "Prior project-generated interpretation; no claim of historical evidence"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/common-style.png",
+    "sha256": "fd2ad4959aa1a6f14417c382265cfd70345e9e544b1f05029866501bff971415",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "boat-object": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/wooden-country-boat.png",
+    "kind": "prior generated artistic interpretation; not historical evidence",
+    "metadata": {
+      "original_path": "images/assam/fixed-elements/wooden-country-boat.png",
+      "license": "Prior project-generated interpretation; no claim of historical evidence"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/boat-object.png",
+    "sha256": "5182a36a0a72e9d78edbbfee65e009162b724c81036adf3b9a219f949ec79a76",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "loom-object": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/assamese-handloom.png",
+    "kind": "prior generated artistic interpretation; not historical evidence",
+    "metadata": {
+      "original_path": "images/assam/fixed-elements/assamese-handloom.png",
+      "license": "Prior project-generated interpretation; no claim of historical evidence"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/loom-object.png",
+    "sha256": "daebd921cae22a37fff14a990ab9938d719dbaa0c1760a0fbf2dd91ff039e205",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "dheki-object": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/dheki-rice-pounder.png",
+    "kind": "prior generated artistic interpretation; not historical evidence",
+    "metadata": {
+      "original_path": "images/assam/fixed-elements/dheki-rice-pounder.png",
+      "license": "Prior project-generated interpretation; no claim of historical evidence"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/dheki-object.png",
+    "sha256": "6f6ed1e18581b2fb101d19f07fee5e8457e0365f5dd91be9c3644cc77f532252",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "manuscript-object": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/manuscripts/sanchi-pat-manuscript-bundle.png",
+    "kind": "prior generated artistic interpretation; not historical evidence",
+    "metadata": {
+      "original_path": "images/assam/fixed-elements/manuscripts/sanchi-pat-manuscript-bundle.png",
+      "license": "Prior project-generated interpretation; no claim of historical evidence"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/manuscript-object.png",
+    "sha256": "ae0ed8196cef4b170b15a01cc5630249891fd614afa025362d0d2f18e6c5c21a",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "lamp-object": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/saki-earthen-oil-lamp.png",
+    "kind": "prior generated artistic interpretation; not historical evidence",
+    "metadata": {
+      "original_path": "images/assam/fixed-elements/vessels/saki-earthen-oil-lamp.png",
+      "license": "Prior project-generated interpretation; no claim of historical evidence"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/lamp-object.png",
+    "sha256": "9cd32265f4df75c00b834e41d884d8c2fd21b0328f9782df06f16ee9dd23db02",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "grain-object": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/duli-grain-basket.png",
+    "kind": "prior generated artistic interpretation; not historical evidence",
+    "metadata": {
+      "original_path": "images/assam/fixed-elements/household/duli-grain-basket.png",
+      "license": "Prior project-generated interpretation; no claim of historical evidence"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/grain-object.png",
+    "sha256": "b84a6ad4ca243e34d40a0aefc0e208a28d73213b1f81c80fd4ab82db93b320a7",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "measure-object": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/doon-grain-measure.png",
+    "kind": "prior generated artistic interpretation; not historical evidence",
+    "metadata": {
+      "original_path": "images/assam/fixed-elements/household/doon-grain-measure.png",
+      "license": "Prior project-generated interpretation; no claim of historical evidence"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/measure-object.png",
+    "sha256": "2b1639b73c81e51671d100b506fa878ff10862cf59ad0b8c2a03d5caea0f6a06",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "basket-object": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/household/kula-winnowing-tray.png",
+    "kind": "prior generated artistic interpretation; not historical evidence",
+    "metadata": {
+      "original_path": "images/assam/fixed-elements/household/kula-winnowing-tray.png",
+      "license": "Prior project-generated interpretation; no claim of historical evidence"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/basket-object.png",
+    "sha256": "fff42f5f13693bd1328351c6f6d4fc797e62e67081067b605b2e3df536d5a287",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  },
+  "pot-object": {
+    "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/vessels/tekeli-earthen-pot.png",
+    "kind": "prior generated artistic interpretation; not historical evidence",
+    "metadata": {
+      "original_path": "images/assam/fixed-elements/vessels/tekeli-earthen-pot.png",
+      "license": "Prior project-generated interpretation; no claim of historical evidence"
+    },
+    "local_copy": "images/assam/ahom-life-and-work/references/pot-object.png",
+    "sha256": "4b81ec91cfc3e8722c19066a43233615a3d83602c45dc5f7c59f1b7c37e4b134",
+    "reference_role_limit": "Use only for the narrow role in each scene prompt. Modern photos and generated concepts are not direct early-modern evidence."
+  }
+}

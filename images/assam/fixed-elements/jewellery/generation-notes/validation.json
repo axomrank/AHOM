@@ -1,0 +1,111 @@
+{
+  "expected": 8,
+  "completed": 8,
+  "missing": [],
+  "files": [
+    {
+      "id": "golpota-floral-choker",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/jewellery/golpota-floral-choker.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "8f632976c9fd1bd7eccc343a9ef11303235a519da68acf330934fb655053b610",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "gamkharu-broad-cuff-pair",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/jewellery/gamkharu-broad-cuff-pair.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "2ed55b0374f73ebb63fd62252b2a452c06a64cc4f6e38370e56f672c1e8fda82",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "muthikharu-ujjoni-pair",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/jewellery/muthikharu-ujjoni-pair.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "3bd6848588cda38a6bd2515d2075a104a610d1318a7b94dbbb01e5b3d396589a",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "lokaparo-necklace",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/jewellery/lokaparo-necklace.png",
+      "size": [
+        1246,
+        1262
+      ],
+      "sha256": "c0fa3f04f025b6dac0ff1894610ede18aad4ffe23c05fc6c9b5cc241c7462dec",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "dugdugi-heart-necklace",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/jewellery/dugdugi-heart-necklace.png",
+      "size": [
+        1192,
+        1319
+      ],
+      "sha256": "ac613ed6f7ead6a8cb8c7be6992e7ffa0df6d1e4b497d70a1ae0fa404e310256",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "jethipoti-contemporary-necklace",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/jewellery/jethipoti-contemporary-necklace.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "0cdc6f49c1dbde74319b7d9f6716227b9f39ddc5b9c3b9901d3d77f040531142",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "keru-earring-pair",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/jewellery/keru-earring-pair.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "a2bd5ae169585d8b795d46a035e43a8553092679ba65064b65a51fa18f784ec0",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "thuriya-gold-red-pair",
+      "path": "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/jewellery/thuriya-gold-red-pair.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "a108d6a653352267d0208edad3ff56bd3633c644060bbef4f33685972327f532",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

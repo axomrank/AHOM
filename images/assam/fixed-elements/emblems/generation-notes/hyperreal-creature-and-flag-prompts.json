@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-26",
+  "mode": "Built-in imagegen",
+  "interpretation": "Mythical creature anatomy and brown-gold cloth flag are artistic interpretations of the supplied emblem; no historical flag specification is asserted.",
+  "jobs": [
+    {
+      "id": "ngi-ngao-kham-hyperreal-creature",
+      "transparent": true,
+      "refs": [
+        "/home/angsuman/Desktop/Referance/ahom emblem.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE hyperreal full-body living interpretation of Ngi-ngao-kham, the mythic animal depicted at center of the reference Ahom emblem. Use the supplied drawing as anatomical and silhouette authority. Remove the entire decorative cartouche and plant motifs. Creature only: left-facing long dragonlike head with open toothed jaws, long backward/upward horns, upright arched neck, powerful lean feline/reptilian torso, four clawed limbs with one front paw lifted, two hind feet supporting it, an upswept long tail curled at the tip with the distinctive small branching fin/tuft, and a large diagonally raised feather/scale-like wing along its back as drawn. Make it appear like a physically present living animal photographed in a premium wildlife studio: intricate warm ochre-gold scales, subtle tawny fur at joints, natural keratin horns and claws, moist amber eye, believable muscles, fine skin creases and overlapping wing details. Gold is the animal's natural colour, NOT metallic statue, jewellery, armour or flat linework. Preserve reference's distinctive face and posture; avoid generic European fire dragon, bat wing silhouette, lion face, extra heads or limbs. Slight three-quarter profile, entire creature from horns to feet to tail fully visible with generous margins. Soft natural photographic light, realistic restrained colour and anatomy. Genuinely transparent PNG background including holes between limbs and wing. No ground, scenery, floor plane, cast shadow, text, border, emblem lines, pedestal, people or watermark. Highest available native resolution."
+    },
+    {
+      "id": "ngi-ngao-kham-emblem-cloth-flag",
+      "transparent": true,
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/emblems/ngi-ngao-kham-gold.png"
+      ],
+      "prompt": "Use case: product-mockup. ONE hyperreal rectangular ceremonial cloth flag displaying the EXACT gold Ngi-ngao-kham emblem supplied in the reference, including its creature and whole ornamental scalloped dotted cartouche. Emblem is centered and occupies about 65 percent flag width, fully readable and left-facing as reference. Rich deep warm ochre-brown woven fabric background chosen to match the user's original brown-and-yellow reference palette; this is a creative flag treatment, not a claimed authenticated historical standard. Fine handwoven fabric grain, stitched hems, modest natural wind ripples, believable textile weight, realistic sunlit folds. Gold design is thin matte gold embroidered/printed textile linework following folds, not a bulky metal plaque. Flag gently billows horizontally from hoist on LEFT, 3:2 proportions; show most face nearly frontally so no fold hides or replaces the emblem. Entire rectangular cloth and all four edges visible with generous margins, two simple fabric hoist loops only, no pole. Genuinely transparent PNG outside the flag; inside the flag solid brown cloth, emblem holes show brown fabric. No extra symbols, writing, lettering, border stripes, invented crown, tassels, modern national flag details, people, scenery, backdrop, floor, watermark or mockup frame. Highest available native resolution, natural photographic realism."
+    }
+  ]
+}

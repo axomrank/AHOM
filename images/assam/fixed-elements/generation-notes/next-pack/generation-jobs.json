@@ -1,0 +1,283 @@
+{
+  "mode": "built-in image_gen",
+  "created": "2026-10-25",
+  "shared_style": "Use case: stylized-concept. Create ONE high-definition PNG reusable asset, at highest available native resolution. Restrained realistic 3D museum-quality object visualization matching the simple natural-material assets already approved. Soft neutral studio lighting, true material texture, accurate plausible construction, no excessive decorative additions. Entire subject fully visible, centered with ample transparent margin. Three-quarter view slightly above unless the subject requires another view. Genuinely transparent background with alpha, including holes; no backdrop, ground plane, floor, stand, scenery, labels, lettering, watermark or people. Reference images establish the indicated subject only; omit all source backgrounds, logos, labels, unrelated objects and photo watermarks. ",
+  "jobs": [
+    {
+      "id": "kula-winnowing-tray",
+      "category": "household",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/kula-museum.jpg"
+      ],
+      "evidence": "Direct Assam/Jorhat museum miniature shape; scale reconstructed as a working tool.",
+      "prompt": "ONE working-size Assamese KULA bamboo winnowing tray. Follow the reference shape precisely: a shallow elongated rounded triangular/semi-oval pan with straight open lower lip and rounded upper end, slightly upturned side edges, dense diagonal twill of flat tan bamboo splints, stouter double bamboo rim bound in thin cane, tiny hanging loop at rounded end. Match the practical silhouette, not a round sieve or deep bowl. Do not copy accession writing or paper label. Show interior weave and thickness of rim. Plain natural straw-tan, gently worn, no grain or other objects."
+    },
+    {
+      "id": "chaloni-bamboo-sieve",
+      "category": "household",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/chaloni.jpg"
+      ],
+      "evidence": "Direct artisan product photograph, corroborated by historical craft description.",
+      "prompt": "ONE Assamese CHALONI practical round bamboo sieve, matching reference. Flat circular open-lattice mesh of crossed thin bamboo strips with regular small square apertures, shallow sturdy round hoop reinforced by cane lashings. Distinguish the holes from an opaque winnowing tray. Natural straw tan, a little handmade irregularity, whole circular rim visible, tilted view showing mesh and shallow edge depth. No metal wire, plastic, handle, rice or extra bowls."
+    },
+    {
+      "id": "khorahi-bamboo-basket",
+      "category": "household",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/khorahi.jpg"
+      ],
+      "evidence": "Jyoti Chiring's photographed khorahi, Assam; empty object reconstructed.",
+      "prompt": "ONE EMPTY Assamese KHORAHI basket, using only the actual basket in the reference. A modest open round slightly flared bamboo bowl with closely woven but draining strips, rounded bottom transitioning from a square woven base, slightly raised sturdy cane-bound rim. Match reference's practical shallow-medium depth and broad mouth, no tall narrow fish-creel neck. Remove ALL vegetables and background; clearly show empty inner weave. No handles, lid, carved wooden plate base, dye or decoration."
+    },
+    {
+      "id": "duli-grain-basket",
+      "category": "household",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/duli.jpg"
+      ],
+      "evidence": "Direct photographed Assamese duli; grain-storage form.",
+      "prompt": "ONE Assamese DULI grain-storage basket matching the photographed reference exactly in silhouette: tall deep open-topped basket with wide round mouth, gently tapering sides narrowing to smaller flat round base, sturdy reinforced rim, densely woven broad flexible pale bamboo strips. Height comparable to diameter, generous capacity distinct from a little hand basket. Show empty interior and woven base in slightly elevated three-quarter view. No neck, lid, handles, plastic liner, rice mound or extra objects."
+    },
+    {
+      "id": "doon-grain-measure",
+      "category": "household",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/khorahi.jpg"
+      ],
+      "evidence": "Text-based reconstruction of 1961 Census PDF p.199, printed p.112; photographed bamboo basket used for material and weave only.",
+      "prompt": "ONE Assamese DOON traditional rice/paddy measuring basket, reconstructed from the 1961 Census handicrafts description: a small almost conical vessel, narrow closed bottom widening to a round open mouth, intricately woven fine bamboo strips, a low cane ring firmly attached under its bottom so it stands upright. Small handheld measuring capacity, not a large granary. Reference photo ONLY for bamboo weave and local workmanship; do NOT reproduce its broad shallow vegetable-basket silhouette. Clear three-quarter view of empty interior and visible supporting bottom ring. No numbers, calibrated marks, handles, neck, lid, metal or loose produce."
+    },
+    {
+      "id": "pira-wooden-seat",
+      "category": "household",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/pira-general-form.jpg"
+      ],
+      "evidence": "General low-board seat visual reference with Assamese pira/borpira terminology corroboration; not a dated specimen replica.",
+      "prompt": "ONE plain low wooden PIRA floor seat. Single rectangular solid wooden plank top on two short sturdy transverse wood block supports beneath the short ends, exactly the simple construction shown in reference, low to the floor rather than chair height. Warm brown locally worked wood, softened used edges, subtle tool and grain texture, matte finish. No engraved carvings, ornamental legs, painted borders, metal screws prominently showing, cushions or other items."
+    },
+    {
+      "id": "muga-riha",
+      "category": "textiles",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/muga-riha.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/museum-textiles-page-12.png"
+      ],
+      "evidence": "Named pure-muga riha photograph plus Assam State Museum riha documentation; example design, not universal historic motif.",
+      "prompt": "ONE separate MUGA RIHA textile, not a sador and not a full outfit. Follow reference 1's fine warm natural golden-tan muga body, darker brown-maroon narrow side borders with fine pale lines, one restrained red end band with small woven yellow/brown geometric diamonds and simple short twisted fringes. Reference 2 corroborates separate riha garment form only; do not copy text or page design. A long relatively narrow rectangular handwoven upper wrapping cloth, arranged in two gentle loose folds so complete edges, one decorated end and a turned-back corner revealing reverse weave remain legible. Fine slightly translucent silk with subtle honey-gold lustre, not shiny satin. No body, mannequin, sari pleats, blouse, jewellery or extra garment."
+    },
+    {
+      "id": "muga-mekhela",
+      "category": "textiles",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/characters/nasoni-character-sheet.png",
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/museum-textiles-page-14.png"
+      ],
+      "evidence": "Approved costume continuity plus Assam State Museum mekhela construction; lower garment isolated.",
+      "prompt": "ONE MUGA MEKHELA lower garment only, isolated as a softly supported cylindrical wrap/skirt form with open waistband and two or three realistic front folds. Golden-cream muga silk, restrained red woven geometric motif bands and wider woven red hem border guided by nasoni reference lower garment. Preserve straight wrapped cylindrical Assamese silhouette from waist to ankle, not a flared lehenga or Western skirt. Reference 2 for joined tube construction, not page text. Invisible support, no visible mannequin/body, no upper drape, blouse, belt or jewellery. Fabric has fine natural silk lustre and visible handwoven texture; entire waist-to-hem outline visible."
+    },
+    {
+      "id": "muga-sador",
+      "category": "textiles",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/characters/nasoni-character-sheet.png",
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/museum-textiles-page-14.png"
+      ],
+      "evidence": "Approved nasoni upper drape isolated; separate from riha sample.",
+      "prompt": "ONE separate MUGA SADOR / CHADAR upper draping cloth only. A broad long rectangular golden-cream muga textile with simple maroon-red woven side borders and restrained small red motifs toward one end guided by the upper cloth in nasoni reference. Lay as a loose gently cascading S-shaped fold suspended by invisible support, with enough of the rectangular edge and end visible to understand it is one unstitched upper drape. One corner turned to show reverse weave. Warm fine silk sheen, no satin glare, no gold sequins. No lower mekhela, stitched blouse, waist belt, body, mannequin or jewellery. Keep it visually broader and more flowing than the separate narrow riha asset."
+    },
+    {
+      "id": "gamosa-red-white",
+      "category": "textiles",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/museum-textiles-page-17.png"
+      ],
+      "evidence": "Assam State Museum gamosa illustration; simplified reference-derived pattern.",
+      "prompt": "ONE Assamese red-and-white cotton GAMOSA, using the museum specimen photograph only, not the surrounding page. Rectangular white handwoven cotton with narrow woven red long-side borders and wider red extra-weft geometric/floral end panels, short natural white/red fringe. Simple sparse central field, small traditional red woven motifs toward ends only, no writing or invented script. Slight gentle loose folds and one turned-back corner show texture, weave and reverse, whole cloth fully visible. Matte absorbent cotton, not glossy silk, no garment, embroidery patch, people or extra props."
+    },
+    {
+      "id": "eri-silk-swatch",
+      "category": "textiles",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/eri.jpg"
+      ],
+      "evidence": "Handa Textiles undyed handwoven Assam eri cloth reference.",
+      "prompt": "ONE undyed ERI silk cloth sample: a generous simple rectangular swatch of warm ivory-oatmeal handspun handwoven eri, fine irregular soft slubs and visible plain weave, soft matte woolly/cotton-like handle with subtle drape, not glossy filament satin. Match reference's creamy texture and natural selvedge. A few broad gentle folds with one corner turned over to show the reverse, entire swatch clear. No coloured motifs, brocade, lace, labels, ruler, extra sample or packaging."
+    },
+    {
+      "id": "pat-silk-swatch",
+      "category": "textiles",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/pat.jpg"
+      ],
+      "evidence": "Korobi Design Assam mulberry/pat textile as material reference only; unornamented sample reconstruction.",
+      "prompt": "ONE natural ivory PAT / mulberry silk fabric sample. Use reference only for fine smooth white-ivory silk and its restrained elegant natural lustre; remove model, sari styling and woven coloured decorative motifs. A rectangular plain fine handwoven swatch arranged in two soft folds, one corner turned to show underside and selvedge, complete edges visible. Finer smoother more reflective than eri, cooler ivory than honey-gold muga, subtle weave and real fibre texture. No synthetic satin glare, decorative border, garment, mannequin, label or extra objects."
+    },
+    {
+      "id": "lahori-gogona",
+      "category": "instruments",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/gogona-xutuli.jpg"
+      ],
+      "evidence": "Photographed Assamese gogona, corroborated by IIT Guwahati/D'source construction account.",
+      "prompt": "ONE LAHORI GOGONA bamboo jaw harp, use ONLY the long slim bamboo object at bottom of reference, not either clay xutuli. Follow its exact structure: flat light-tan bamboo strip, broad rounded grip at one end, elongated narrow slotted central vibrating tongue cut carefully inside the body, the far end tapering into a long fine point. Detailed delicate open slots and thin reed remain connected correctly. Show large enough to read construction in a nearly overhead oblique view, entirely visible. No flute holes, ornament, extra split pieces, clay objects, case or string."
+    },
+    {
+      "id": "xutuli-clay-whistle",
+      "category": "instruments",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/gogona-xutuli.jpg"
+      ],
+      "evidence": "Direct clay whistle photograph; select one variant and do not blend two forms.",
+      "prompt": "ONE Assamese clay XUTULI whistle, use ONLY the lower of the two clay whistles in reference: small flattened oval/seed-shaped hollow terracotta body, smooth bulged top, a central raised blowing aperture with visible dark opening and two small round finger holes near the front edge. Natural warm fired-ochre brown with subtle irregular handmade surface. Show three-quarter view revealing blowing aperture and both finger holes. Match practical dimensions and shape, do not add a bird head, bamboo tube, spout, painted patterns, musical notes or extra whistles."
+    },
+    {
+      "id": "bihu-taal-cymbals",
+      "category": "instruments",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/bihu-taal-alt.jpg"
+      ],
+      "evidence": "Photographed Sarthebari cymbal form plus D'source classification; small Bihu-use interpretation, no claimed exact size.",
+      "prompt": "ONE PAIR of modest Assamese BIHU TAAL hand cymbals. Two matching circular bell-metal discs with broad thin slightly curved rims, raised central rounded bosses, each pierced at center and fitted with a simple red cotton gripping cord. Arrange side by side, one slightly tilted to reveal underside; complete pair visible with a little spacing. Warm aged bronze-gold satin texture, light concentric hammer/turning marks. Scale for hand-held Bihu use, not enormous bhor-taal. No carved decoration, engraved lettering, metal handles, stands, hands or drum."
+    },
+    {
+      "id": "baahi-bamboo-flute",
+      "category": "instruments",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/baahi-playing.jpg"
+      ],
+      "evidence": "Sahapedia photograph of Assamese banhi being played; instrument details partly inferred.",
+      "prompt": "ONE plain Assamese BAAHI / BANHI transverse bamboo flute guided by the bamboo instrument being played at the rear of the reference photograph. Straight natural honey-tan narrow bamboo tube, a closed node near the blowing end, one side blowing hole followed by six evenly placed finger holes along the tube, cleanly hollow open distal end. Minimal thin natural binding near ends only. Complete flute shown diagonally almost overhead with all holes and end visible. No recorder mouthpiece, keys, metal, extra flutes, musician, beads, modern coloured bands or labels. Anatomically plausible functional bore and hole placement."
+    },
+    {
+      "id": "bota-offering-tray",
+      "category": "vessels",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/bota.jpg"
+      ],
+      "evidence": "Photographed Sarthebari charas bota, simplified decoration.",
+      "prompt": "ONE Assamese BOTA offering tray based on reference: shallow wide circular open dish with gently upturned rim, narrow supporting stem and stable flared circular foot. Plain version with only subtle concentric hand-worked lines, satin warm bell-metal bronze. Keep tray width, short pedestal proportions and practical bowl depth faithful; no lid or tall xorai finial. EMPTY tray, no betel leaves, nuts, food, engraving, lettering, decorative petals or extra plates."
+    },
+    {
+      "id": "lota-brass-water-pot",
+      "category": "vessels",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/lota.jpg"
+      ],
+      "evidence": "Sarthebari vendor's Ghati form; asset records lota/ghati type rather than claiming one universal regional name.",
+      "prompt": "ONE plain Assamese household brass LOTA / GHATI water vessel matching reference: rounded bulbous body, constricted short neck widening into a simple flared lip, small flattened bottom so it stands, no handle or spout. Warm muted golden brass with restrained concentric hand-finishing marks and soft natural patina. Show mouth opening and full belly, not a lidded urn or long-neck kalash. No decorative engraving, coconut, leaves, cloth, water stream or extra objects."
+    },
+    {
+      "id": "tekeli-earthen-pot",
+      "category": "vessels",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/tekeli-research.jpg"
+      ],
+      "evidence": "Research photograph of Hira pottery, specifically vessel E identified as tekeli.",
+      "prompt": "ONE Assamese TEKELI earthen water pot. Reproduce ONLY vessel E at lower right of the reference research plate: rounded nearly spherical belly, distinctly narrow straight neck, slightly flared open lip, small round base, matte gray-dark fire-clouded clay with warmer earthen patches, handmade unglazed finish. Keep exact neck-to-body proportions. Do not copy A/B/C/D pots, any letter, blue background or research-plate layout. No glazed shine, handles, spout, lid, painted decoration or accompanying objects."
+    },
+    {
+      "id": "saki-earthen-oil-lamp",
+      "category": "vessels",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/saki-alt.jpg"
+      ],
+      "evidence": "Ministry of Tourism Kati Bihu image; isolated common earthen lamp form reconstructed.",
+      "prompt": "ONE small plain Assamese SAKI clay oil lamp, using only the simple earthen lamp visible in the reference, not its field, post or scenery. Shallow open terracotta bowl with slightly pinched projecting wick lip, small steady cotton wick at that lip, a little amber oil inside. Show unlit wick for a reusable neutral-light asset; no flame or glow. Modest hand-formed red-brown clay, matte porous texture, slightly irregular rim. No ornate diya pattern, metal pedestal, bamboo stand, holder, leaves or extra lamps."
+    },
+    {
+      "id": "jati-bamboo-clump",
+      "category": "plants",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/jati-bamboo.jpg"
+      ],
+      "evidence": "Cultivator's identified Bambusa tulda photograph; whole crown reconstructed beyond photographed crop. Common names can vary regionally.",
+      "prompt": "ONE whole living clump of JATI bamboo, identified here as Bambusa tulda, using reference for culm colour, close clumping habit and visible nodes. A compact natural group of tall fairly slender straight green culms with distinct internodes, fine leafy branches above and outward, narrow pointed bamboo leaves in airy natural sprays. Culms rise from a coherent tightly clustered base; show their complete leafy tops and ground-level bases together, a few retained dry sheath pieces and one young shoot only. True green plant materials, restrained realistic 3D botanical asset, soft daylight-like studio light, no floor or soil patch, no forest, other tree, pot, decorative stones or cut bamboo bundle. Whole canopy uncropped, portrait framing; do not make a generic yellow ornamental running bamboo hedge."
+    },
+    {
+      "id": "bhaluka-bamboo-clump",
+      "category": "plants",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/bhaluka-bamboo.jpg"
+      ],
+      "evidence": "Cultivator's Bambusa balcooa culm reference; complete crown artistically reconstructed.",
+      "prompt": "ONE whole natural BHALUKA bamboo clump, Bambusa balcooa. Follow reference for robust thick green-gray segmented culms, closely packed base, evident nodes and weathered brown sheath remnants on lower culms. Compared with a slender ornamental bamboo, this is a substantial construction-bamboo clump with stronger culms, modest natural arching high branches and dense narrow green leaf sprays. Show COMPLETE culms from base to leafy crown, a few different ages of culm, plausible branch connections, realistic non-repeating leaves. Portrait framing, soft neutral plant lighting, full silhouette with margin. No cut pole bundles, forest backdrop, ground/soil disc, planter, text or decoration."
+    },
+    {
+      "id": "tamul-areca-palm",
+      "category": "plants",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/tamul-tree.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/tamul-crown.jpg"
+      ],
+      "evidence": "NParks identified Areca catechu habit/crown photos; isolated individual plant reconstruction.",
+      "prompt": "ONE complete TAMUL areca palm, Areca catechu, faithful to NParks reference species. A solitary very slender tall upright unbranched gray-green trunk with regular annular leaf scars, distinct smooth green crownshaft, a crown of arching pinnate feather fronds with narrow leaflets, small naturally hanging orange-green areca fruit cluster directly below crown. Do not thicken it into a coconut palm or give it enormous coconuts. Entire tree base through tallest leaflet visible, generous portrait margin, natural asymmetry and realistic fronds. No other palms, banana plant, building, signage, pot, exposed giant roots or soil patch. Clear daylight-like studio illumination, transparent silhouette."
+    },
+    {
+      "id": "banana-homestead-plant",
+      "category": "plants",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/banana-alt.jpg"
+      ],
+      "evidence": "Photographed Assam homestead Bhim-banana habit; asset labelled broad homestead banana form, not a certified cultivar.",
+      "prompt": "ONE living homestead banana plant grouping based on the photographed Assamese garden plant: one mature sturdy green pseudostem made of overlapping leaf sheaths, small young sucker at its base, broad long green leaves with prominent central midribs and a few natural lengthwise wind tears, one rolled emerging central leaf. Reproduce thick pale-green sheaths and restrained maroon-brown old sheath marks. Show entire plant from base to every leaf tip at natural proportions. No exaggerated yellow fruit tower, woody branching trunk, palms, houses, pots or soil clod. No fruit bunch required because it is not clearly shown in this reference; prioritize authentic leaf and pseudostem anatomy. Neutral soft daylight-like illumination and genuinely transparent background."
+    },
+    {
+      "id": "paan-betel-vine",
+      "category": "plants",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/paan-alt.jpg"
+      ],
+      "evidence": "Photographed climbing Piper betle growth/support; simplified natural support reconstruction.",
+      "prompt": "ONE PAAN / Piper betle climbing vine on a simple single rough natural wooden support stake. Use reference for glossy green heart-shaped leaves with pointed tips and pronounced curved veins, slender climbing green stems and natural attachment at nodes. Whole compact vine from lower stem base up to upper shoots, leaves at different sizes and natural overlaps; enough of support visible to show practical climbing structure. One support only, no large trellis framework or row of vines. Soft true green plant light, detailed leaf surfaces, no plastic pot, garden, fence, background, soil patch, areca nuts, flower spikes exaggerated or text. Entire supported vine visible with margin."
+    },
+    {
+      "id": "nahor-tree",
+      "category": "plants",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/nahor-tree.jpg"
+      ],
+      "evidence": "Identified Mesua ferrea horticultural habit photograph plus Assam flora records; foliage interpreted at scene-asset scale.",
+      "prompt": "ONE complete NAHOR / Mesua ferrea evergreen tree based on reference tree habit: upright central trunk, dense layered broadly conical-to-rounded crown with irregular natural branch structure, narrow lance-shaped opposite leathery dark green leaves, restrained copper-red young flush at some tips. Small discreet white four-petalled flowers with golden stamen centers may appear sparingly, never oversized. Tree is a natural specimen rather than clipped topiary; preserve coherent believable branch-to-leaf connections. Show full crown and lower trunk/base with generous portrait margin, soft natural daylight-like studio light. No lawn, other trees, garden furniture, pot, labels, roots on dirt island or landscape."
+    },
+    {
+      "id": "kopou-orchid-on-bark",
+      "category": "plants",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/kopou-alt.jpg"
+      ],
+      "evidence": "Firsthand Rhynchostylis retusa epiphyte photograph; isolated plant and small supporting bark segment.",
+      "prompt": "ONE living KOPOU foxtail orchid, Rhynchostylis retusa, attached naturally by aerial roots to a short plain segment of rough tree bark. Match reference's actual anatomy: thick strap-shaped green leaves in a compact fan, gray-green roots gripping bark, two long slender pendant cylindrical racemes densely filled with MANY TINY white to pale-pink flowers speckled magenta with darker pink lips. Flowers are small along a thin hanging axis, not a handful of oversized purple Phalaenopsis blooms. Show complete orchid, root system on the small bark fragment, entire raceme tips and all leaves, no full host tree, garden, frame, text, pot or ground. Natural soft light, true realistic botanical texture, transparent background."
+    },
+    {
+      "id": "fulam-jaapi",
+      "category": "accessories",
+      "refs": [
+        "/home/angsuman/Desktop/bihu-dance-in-assam-assamese-girl-bihu-dress-with-japi-in-her-hand-2XR27GB.jpg"
+      ],
+      "evidence": "User-supplied nasoni photograph, specifically the decorated jaapi; distinct from plain field hat already in library.",
+      "prompt": "ONE decorative Assamese FULAM JAAPI, use only the hat held by the woman in reference. A broad round shallow bamboo-and-palm woven hat with small raised conical center, red cloth-bound outer rim and red central cap, radial black/red decorative sectors outlined in simple white trim, small restrained coloured floral accents. Match this reference's recognisable eight-point star-like radial layout without adding luxury trim. Near-frontal slightly tilted three-quarter view so circular decoration and shallow cone depth are clear, whole rim visible and enough margin. No woman, hands, hair, setting, frame, photo marks, letters or extra hats. Keep material realistic and handmade rather than a flat printed graphic."
+    },
+    {
+      "id": "kopou-hair-adornment",
+      "category": "accessories",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/kopou-alt.jpg",
+        "/home/angsuman/Desktop/bihu-dance-in-assam-assamese-girl-bihu-dress-with-japi-in-her-hand-2XR27GB.jpg"
+      ],
+      "evidence": "Botanical kopou reference supplies small flower anatomy; nasoni image supplies placement concept only. Arrangement is an artistic accessory reconstruction.",
+      "prompt": "ONE small fresh KOPOU floral hair adornment intended to tuck beside a Bihu dancer's bun. Reference 1 controls actual Rhynchostylis retusa flower anatomy: dense tiny white/pink orchid blooms with magenta speckles/lips on a slender flexible flowering stem. Reference 2 is ONLY inspiration for flowers placed near hair, not for copying a person or broad unrelated orchid shapes. Arrange one short gently curved flowering spray with a little natural cotton tying thread at cut stem, realistic fresh petals, compact wearable size. No large leaves, roots, bark, complete living plant, artificial plastic clips, ribbon bows, head, hair, mannequin, metal jewellery or extra flower garlands. Show whole accessory isolated with ample margin."
+    },
+    {
+      "id": "jonbiri-dholbiri-jewellery",
+      "category": "accessories",
+      "refs": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/jewellery-jonbiri.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/fixed-elements/generation-notes/next-pack/references/jewellery-dholbiri.jpg"
+      ],
+      "evidence": "Two named contemporary Assamese artisan designs; no claim that the precise bead colours or settings were universal across historical eras.",
+      "prompt": "ONE coordinated reference asset containing TWO DISTINCT Assamese jewellery examples side by side with spacing, not merged into one new design. Left: a simple JONBIRI necklace with crescent-shaped gold-toned pendant, restrained red enamel details and a red bead string, accompanied by its small matching earrings. Right: a simple DHOLBIRI necklace with small barrel/drum-shaped gold-toned lattice pendant elements on dark bead string, with matching small earrings. Follow the corresponding named reference for each recognisable shape; simplify repeated elaborate ornament but retain identity. Flat-lay slightly oblique product view, whole necklaces coiled in tidy open ovals without tangles, earrings aligned beside their own necklace. Warm muted metal, fine handmade texture. No stones of invented giant size, jewellery busts, display stands, shop background, boxes, price tags, brand marks or labels."
+    }
+  ]
+}

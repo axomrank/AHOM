@@ -1,0 +1,77 @@
+{
+  "created": "2026-10-26",
+  "images": [
+    {
+      "file": "01-rang-ghar-pavilion-and-field-c1760.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e4a8b98035e8ffbbe22cf8bfebb160449ef027ea06f1331552fd5d2ef2f36980",
+      "original_generation": "/home/angsuman/.codex/generated_images/01a1774b-9068-7ae3-a34d-08c398752acf/exec-ea41eb66-d293-47e1-a03b-17638d7b7bf9.png",
+      "references": [
+        "/home/angsuman/extra_spac/AHOM/images/referance/ahom/01_ahom_royal_and_civic/rang-ghar/01_general_views/122856366_Rang_Ghar_at_noon.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/referance/ahom/01_ahom_royal_and_civic/rang-ghar/01_general_views/123240036_Rang_Ghar_Joysagar_Assam.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/15th-century/royal-houses-and-settlement/ahom-royal-houses-settlement-c1450.png"
+      ],
+      "period": "circa 1760",
+      "status": "generated interpretive scene; visually reviewed",
+      "mode": "built-in image_gen"
+    },
+    {
+      "file": "02-rang-ghar-wrestling-day-c1760.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "35fdc1de4d9959b776ce8d6e3ccff17ba08d3bba9456e05f769ab51911879192",
+      "original_generation": "/home/angsuman/.codex/generated_images/01a1774b-9068-7ae3-a34d-08c398752acf/exec-ff5e09fa-9657-415f-acad-00065e94e118.png",
+      "references": [
+        "/home/angsuman/extra_spac/AHOM/images/referance/ahom/01_ahom_royal_and_civic/rang-ghar/01_general_views/122856366_Rang_Ghar_at_noon.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/referance/ahom/01_ahom_royal_and_civic/rang-ghar/01_general_views/123240036_Rang_Ghar_Joysagar_Assam.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/15th-century/royal-houses-and-settlement/ahom-royal-houses-settlement-c1450.png"
+      ],
+      "period": "circa 1760",
+      "status": "generated interpretive scene; visually reviewed",
+      "mode": "built-in image_gen"
+    },
+    {
+      "file": "03-kareng-ghar-garhgaon-exterior-c1760.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "26bd406db32f32bd2732fc9ae9a60e43ddd6de139d26e282460394f67ca452d7",
+      "original_generation": "/home/angsuman/.codex/generated_images/01a1774b-9068-7ae3-a34d-08c398752acf/exec-c1c6c10b-bb8b-43cd-a608-b7638ac23fa4.png",
+      "references": [
+        "/home/angsuman/extra_spac/AHOM/images/referance/ahom/01_ahom_royal_and_civic/kareng-ghar/01_general_views/119119842_KARENG_GHAR_SIVASAGAR_ASSAM.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/15th-century/royal-houses-and-settlement/ahom-royal-houses-settlement-c1450.png"
+      ],
+      "period": "circa 1760",
+      "status": "generated interpretive scene; visually reviewed",
+      "mode": "built-in image_gen"
+    },
+    {
+      "file": "04-kareng-ghar-palace-consultation-c1760.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d0ecf03a0216fb314fc21438414dd5c06845223c1d079cfcb7b808e75c40d219",
+      "original_generation": "/home/angsuman/.codex/generated_images/01a1774b-9068-7ae3-a34d-08c398752acf/exec-3217c430-a47c-41b5-aac2-30daa56f9dd0.png",
+      "references": [
+        "/home/angsuman/extra_spac/AHOM/images/referance/ahom/01_ahom_royal_and_civic/kareng-ghar/02_interiors_and_access/143865631_An_inside_view_of_a_chamber_in_Kareng_Ghor_Garhgaon_Assam.jpg",
+        "/home/angsuman/extra_spac/AHOM/images/assam/15th-century/royal-houses-and-settlement/ahom-royal-houses-settlement-c1450.png"
+      ],
+      "period": "circa 1760",
+      "status": "generated interpretive scene; visually reviewed",
+      "mode": "built-in image_gen"
+    },
+    {
+      "file": "05-common-household-courtyard-c1760.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fd2ad4959aa1a6f14417c382265cfd70345e9e544b1f05029866501bff971415",
+      "original_generation": "/home/angsuman/.codex/generated_images/01a1774b-9068-7ae3-a34d-08c398752acf/exec-c834fced-8013-49ba-805f-a0b195f9b903.png",
+      "references": [
+        "/home/angsuman/extra_spac/AHOM/images/assam/15th-century/ahom-whole-village-three-views/02-pondside-village-life.png",
+        "/home/angsuman/extra_spac/AHOM/images/assam/15th-century/royal-houses-and-settlement/ahom-royal-houses-settlement-c1450.png"
+      ],
+      "period": "circa 1760",
+      "status": "generated interpretive scene; visually reviewed",
+      "mode": "built-in image_gen"
+    }
+  ]
+}

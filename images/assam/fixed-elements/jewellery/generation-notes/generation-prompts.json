@@ -1,0 +1,46 @@
+{
+  "mode": "Built-in imagegen",
+  "shared_prompt": "Use case: stylized-concept. Asset type: reusable Assamese jewellery object PNG. Create one high-definition PNG at highest native resolution, restrained realistic 3D museum-object visualization, soft neutral studio light, precise handcrafted metal relief and credible construction, no exaggerated sparkle. Genuinely transparent background including every hole and space between components. Entire requested piece/pair visible, centered with generous transparent margin. Reference photograph establishes only the named jewellery type and its silhouette/construction. Omit all people, fingers, busts, stands, surroundings, logos, watermarks, lettering, floor and cast shadow planes. Do not invent generic bridal ornaments, diamonds, pearls, tassels, crowns or temple-jewellery additions. ",
+  "jobs": [
+    {
+      "id": "golpota-floral-choker",
+      "ref": "golpota",
+      "prompt": "Subject: ONE golpota short collar necklace ONLY, without earrings. Follow the reference narrow continuous row of six-petalled red floral gold cells and tiny gold bead borders. Show the band curved as a wearable shallow horseshoe, front fully readable, with simple red cotton ties at the two ends. Warm gold, red enamel petals, handworked openwork. Avoid turning this into a long pendant necklace. Slightly elevated front three-quarter view."
+    },
+    {
+      "id": "gamkharu-broad-cuff-pair",
+      "ref": "gamkharu",
+      "prompt": "Subject: EXACTLY TWO matching broad silver gamkharu cuff bangles. Match the photograph's exceptionally WIDE cylindrical cuff proportions, multiple engraved rectangular fields, rows of elongated oval fluting, fine beaded borders and leaf-relief panels. Plain silver as photographed, not gold with red jewels. Show the two pieces side by side with a clear gap; one tilted slightly to reveal its hollow wrist opening and small plausible seam/clasp. Do not make narrow ordinary bangles. No third item."
+    },
+    {
+      "id": "muthikharu-ujjoni-pair",
+      "ref": "muthikharu",
+      "prompt": "Subject: EXACTLY TWO Ujjoni Axom muthi kharu silver bangles, the narrower sturdy bands photographed. Follow their polished elongated leaf/lozenge relief, divided floral panels, beaded edges. Keep distinctly narrower than gamkharu broad cuffs. Side by side with gap, slightly tilted to show hollow wrist openings and continuous bands. Silver as source, retain natural warm metallic reflection but no added gemstones. No fingers, no third bangle."
+    },
+    {
+      "id": "lokaparo-necklace",
+      "ref": "lokaparo",
+      "prompt": "Subject: ONE lokaparo necklace ONLY, no earrings. Follow the photographed red-and-green variant. Central rounded gold openwork pendant contains TWO recognisable back-to-back pigeons with heads facing away, red and green enamel bodies and delicate small gold drops. Four smaller related bird medallions along a red/green multi-strand beaded cord, as photographed. Arrange complete necklace in a frontal wearable U with fastening ties at top, centered and unoccluded. Birds must read as birds with curved necks and beaks, not butterflies or peacocks. No bust."
+    },
+    {
+      "id": "dugdugi-heart-necklace",
+      "ref": "dugdugi",
+      "prompt": "Subject: ONE dugdugi necklace ONLY, no earrings. Follow photographed example: compact heart/pointed-leaf-shaped gold pendant, distinct heart notch at upper center, large central deep-red stone with gold rim, smaller green/red inset accents and beadlike gold border around the heart, one tiny lower gold drop. Restrained alternating red and green bead chain with gold spacers, full necklace arranged in U, clasp visible near top. Preserve its heart silhouette; do not turn it into crescent jonbiri or drum dholbiri."
+    },
+    {
+      "id": "jethipoti-contemporary-necklace",
+      "ref": "jethipoti",
+      "prompt": "Subject: ONE contemporary artisan Jethipota/Jethipoti necklace ONLY, no earrings. Follow this specific photographed silver blue-green variant, NOT an invented generic gold necklace: multi-strand fine cobalt-blue and green beads, short white bead connectors, a vertical pendant with a central pointed-oval blue cell, fan of narrow green pointed leaves radiating to either side, small upper blue drop, lower diamond/leaf blue cell and small suspended blue teardrop. Delicate silver cell outlines and loops. Frontal whole necklace U arrangement. Preserve source pendant geometry, uncluttered. This is a specific contemporary named variant."
+    },
+    {
+      "id": "keru-earring-pair",
+      "ref": "keru",
+      "prompt": "Subject: EXACTLY TWO matching keru earrings ONLY, using the smaller earrings at left and right of the reference, NOT the necklace. Each a compact annular gold ornament with conspicuous OPEN circular hole, raised granular bead decoration, scalloped gold outer edge and a small red accent below the hole. Show both fronts, one slightly angled for thickness, separated clearly, with modest ear hooks. Hole must be genuinely transparent. No chain necklace, pendant or stand. Retain compact round annulus; do not make flower-shaped thuriya."
+    },
+    {
+      "id": "thuriya-gold-red-pair",
+      "ref": "thuriya",
+      "prompt": "Subject: EXACTLY TWO matching traditional thuriya plug-form earrings, use the GOLD AND RED pair in reference, ignore the silver-black pair. Each has a six-pointed floral front, red enamel petals, small central red stone, a narrow middle stem and thicker hollow tapered cylindrical back with long red leaf-shaped enamel cells framed in gold. Arrange one facing nearly forward and the other in three-quarter side view to show the distinctive plug construction. Clearly separate two complete earrings with small gap. No hanging chains, no jhumka bells, no necklace, no extra flower face detached from its stem."
+    }
+  ]
+}
