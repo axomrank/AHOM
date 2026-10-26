@@ -588,7 +588,7 @@
 
   function lifeFigure(it, list) {
     return `<figure class="scene life-item ${it.kind === "object" ? "life-object" : ""}">
-      <button type="button" class="scene-open" data-scene="life:${it.id}" data-list="${list.join(",")}" aria-label="Open: ${esc(it.title)}"><img src="${esc(it.img[1])}" alt="${esc(it.alt)}" loading="lazy" decoding="async" width="${it.w}" height="${it.h}"></button>
+      <button type="button" class="scene-open" data-scene="life:${it.id}" data-list="${list.join(",")}" aria-label="Open: ${esc(it.title)}"><img src="${esc(it.img[1])}" alt="${esc(it.alt)}" loading="lazy" decoding="async" style="aspect-ratio:${it.w}/${it.h}"></button>
       <figcaption>${it.kind === "photo" ? `<span class="scene-date">Modern photograph</span>` : it.period ? `<span class="scene-date">${esc(it.period)}</span>` : ""}${esc(it.title)}</figcaption>
     </figure>`;
   }

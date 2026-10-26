@@ -601,6 +601,8 @@ a.kh-who:hover .arch img { filter: brightness(1.08) saturate(1.05); }
 .life-group { font-size: 1.3rem; margin: 2.2rem 0 1.2rem; color: var(--maroon-ink); }
 .life-section + .life-section { border-top: 1px solid var(--gold-line); }
 .life-section > .more { display: inline-block; margin-top: 1.6rem; }
+.life-section .scene-grid { grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 1.8rem 1.4rem; align-items: start; }
+.life-item .scene-open { clip-path: none; }
+.life-item .scene-open img { height: auto; object-fit: contain; }
 .life-object .scene-open { background: var(--paper-2); }
-.life-object .scene-open img { object-fit: contain; padding: .8rem; }
 .ch-foot .more-life { flex-basis: 100%; text-align: right; }
